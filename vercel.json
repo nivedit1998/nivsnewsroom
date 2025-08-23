@@ -1,7 +1,7 @@
 {
   "crons": [
     {
-      "path": "/api/run-injest?token=YOUR_LONG_RANDOM_TOKEN",
+      "path": "/api/run-injest?token=nivsnews_9847xQPlm23",
       "schedule": "30 9 * * *"
     }
   ]
