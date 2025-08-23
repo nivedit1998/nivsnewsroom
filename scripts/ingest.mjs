@@ -418,12 +418,16 @@ export async function runAll() {
 
 // Only run when directly invoked via CLI: `node scripts/ingest.mjs`
 import { fileURLToPath } from "node:url";
-import path from "node:path";
-const isDirect = process.argv?.[1] && fileURLToPath(import.meta.url) === path.resolve(process.argv[1]);
+// reuse the top-level `path` import already in this file
+const isDirect =
+  process.argv?.[1] &&
+  fileURLToPath(import.meta.url) === path.resolve(process.argv[1]);
+
 if (isDirect) {
   runAll().catch((e) => {
     console.error(e);
     process.exit(1);
   });
 }
+
 
