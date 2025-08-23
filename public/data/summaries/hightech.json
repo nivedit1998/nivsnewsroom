@@ -1,41 +1,45 @@
 {
-  "generatedAt": "2025-08-23T17:54:49.393Z",
+  "generatedAt": "2025-08-23T22:18:17.470Z",
   "bullets": [
     {
-      "text": "I noticed that **Bose** is offering its TV Speaker at a significant discount, making it a great option for enhancing home audio without breaking the bank.",
-      "url": "https://www.theverge.com/tech/764496/bose-tv-speaker-soundbar-8bitdo-ultimate-2-bluetooth-controller-deal-sale"
+      "text": "I’m seeing that **OpenAI** has issued a warning against unauthorized investment opportunities, particularly concerning special purpose vehicles (SPVs) that claim to provide access to its equity.",
+      "url": "https://techcrunch.com/2025/08/23/openai-warns-against-spvs-and-other-unauthorized-investments/"
     },
     {
-      "text": "I’m seeing that the **Trump administration** is investing $8.9 billion in **Intel**, but this funding is primarily from previously awarded grants rather than new money.",
+      "text": "I noticed that **Amazon**'s AGI Labs chief defended the company's reverse acquihire strategy, highlighting its potential to innovate without outright acquisitions.",
+      "url": "https://techcrunch.com/2025/08/23/amazon-agi-labs-chief-defends-his-reverse-acquihire/"
+    },
+    {
+      "text": "I’m learning that **Intel**'s recent $8.9 billion investment from the U.S. government is primarily funded by previously awarded grants, rather than new money.",
       "url": "https://techcrunch.com/2025/08/23/the-trump-administrations-big-intel-investment-comes-from-already-awarded-grants/"
     },
     {
-      "text": "I found it interesting that the **Fairphone 6** emphasizes user-repairability and ethical production, even as it competes with more powerful devices.",
+      "text": "I’m intrigued by how **Bose** has discounted its compact TV speaker, making it a more accessible option for enhancing home audio experiences.",
+      "url": "https://www.theverge.com/tech/764496/bose-tv-speaker-soundbar-8bitdo-ultimate-2-bluetooth-controller-deal-sale"
+    },
+    {
+      "text": "I’m seeing that **Fairphone** has launched the Fairphone 6, which emphasizes user-repairability and ethical production, though it faces challenges in the U.S. market due to pricing.",
       "url": "https://www.theverge.com/phones/762755/fairphone-6-review-no-longer-compromise"
     },
     {
-      "text": "I noticed that **Meta** is partnering with **Midjourney** to enhance its AI image and video generation capabilities, indicating a strong push in AI development.",
+      "text": "I noticed that **Meta** is partnering with **Midjourney** to enhance its AI image and video generation capabilities, indicating a strategic move to compete with industry leaders.",
       "url": "https://techcrunch.com/2025/08/22/meta-partners-with-midjourney-on-ai-image-and-video-models/"
     },
     {
-      "text": "I’m seeing that **Netflix** has established guidelines for using generative AI in productions to prevent misinformation and uphold creative integrity.",
+      "text": "I’m learning that **Netflix** has published guidelines for using generative AI in productions, aiming to ensure responsible and ethical use of the technology.",
       "url": "https://www.theverge.com/netflix/764433/netflix-gen-ai-production-guidelines"
     },
     {
-      "text": "I noticed that **Bluesky** has decided to block access in Mississippi due to new age verification laws, citing concerns over privacy and compliance costs.",
-      "url": "https://techcrunch.com/2025/08/22/bluesky-blocks-service-in-mississippi-over-age-assurance-law/"
+      "text": "I’m intrigued by **Bluesky**'s decision to block access in Mississippi due to new age verification laws, highlighting the challenges smaller platforms face with regulatory compliance.",
+      "url": "https://www.theverge.com/internet-censorship/764697/bluesky-blocks-mississippi-age-verification-law"
     },
     {
-      "text": "I found it noteworthy that **Apple** is exploring partnerships with other AI companies, including **Google**, to enhance Siri's capabilities amid growing competition.",
-      "url": "https://techcrunch.com/2025/08/22/apple-is-in-talks-to-use-googles-gemini-for-siri-revamp-report-says/"
-    },
-    {
-      "text": "I’m seeing that **Nvidia** has halted production on its H20 AI chips due to regulatory pressures from the Chinese government, impacting its market strategy.",
-      "url": "https://techcrunch.com/2025/08/22/nvidia-reportedly-halts-production-on-its-h20-ai-chips/"
-    },
-    {
-      "text": "I noticed that **Coinbase** CEO Brian Armstrong has taken a hard stance on AI adoption, firing engineers who didn't immediately engage with AI tools.",
+      "text": "I’m seeing that **Coinbase** CEO Brian Armstrong has taken a hard stance on AI adoption, even firing engineers who did not engage with AI tools promptly.",
       "url": "https://techcrunch.com/2025/08/22/coinbase-ceo-explains-why-he-fired-engineers-who-didnt-try-ai-immediately/"
+    },
+    {
+      "text": "I’m learning that **Apple** is exploring partnerships to enhance Siri with AI technologies from competitors like **Google**, indicating a shift in strategy to catch up in the AI race.",
+      "url": "https://techcrunch.com/2025/08/22/apple-is-in-talks-to-use-googles-gemini-for-siri-revamp-report-says/"
     }
   ]
 }
