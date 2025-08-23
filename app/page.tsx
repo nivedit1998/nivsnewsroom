@@ -74,30 +74,36 @@ export default function HomePage() {
   const [expanded, setExpanded] = useState<Record<string, boolean>>({});
   const [showAllBullets, setShowAllBullets] = useState(false);
 
+  // Mobile subscribe panel
+  const [showSubForm, setShowSubForm] = useState(false);
+
   // Smooth tab switching (no layout shake)
   const [pendingLoads, setPendingLoads] = useState(0);
   const isSwitching = pendingLoads > 0;
 
+  // Respect reduced motion
+  const prefersReduced =
+    typeof window !== "undefined" &&
+    window.matchMedia &&
+    window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
   // Smooth scrolling helpers
-  const scrollToAbsoluteTop = () => {
+  const doScroll = (top: number) => {
     try {
-      window.scrollTo({ top: 0, behavior: "smooth" });
+      window.scrollTo({ top, behavior: prefersReduced ? "auto" : ("smooth" as ScrollBehavior) });
     } catch {
-      window.scrollTo(0, 0);
+      window.scrollTo(0, top);
     }
   };
+  const scrollToAbsoluteTop = () => doScroll(0);
   // Scroll to a section, compensating for the fixed nav height
   const scrollToIdWithNavOffset = (id: string) => {
     const el = document.getElementById(id);
     if (!el) return;
     const nav = document.getElementById("app-nav");
-    const offset = (nav?.getBoundingClientRect().height ?? 64) + 8; // ~h-16 + breathing room
+    const offset = (nav?.getBoundingClientRect().height ?? 64) + 8; // nav height + breathing room
     const top = el.getBoundingClientRect().top + window.scrollY - offset;
-    try {
-      window.scrollTo({ top, behavior: "smooth" });
-    } catch {
-      window.scrollTo(0, top);
-    }
+    doScroll(top);
   };
 
   const dataPath = useMemo(() => {
@@ -207,76 +213,142 @@ export default function HomePage() {
   return (
     <div
       className={`${inter.className} min-h-screen bg-white text-gray-900 overflow-y-scroll`}
-      style={{ scrollbarGutter: "stable both-edges" }} // lock scrollbar space to avoid layout jump
+      style={{ scrollbarGutter: "stable both-edges", WebkitTapHighlightColor: "transparent" }}
     >
-      {/* Fixed, always-visible navbar */}
+      {/* Fixed, always-visible navbar (smaller on mobile) */}
       <nav
         id="app-nav"
-        className="fixed inset-x-0 top-0 z-50 h-16 border-b border-white/20 bg-white/60 backdrop-blur supports-[backdrop-filter]:bg-white/40"
+        className="fixed inset-x-0 top-0 z-50 h-12 sm:h-16 border-b border-white/20 bg-white/60 backdrop-blur supports-[backdrop-filter]:bg-white/40"
       >
-        <div className="mx-auto flex h-full max-w-6xl items-center justify-between px-4">
-          <div className="flex items-center gap-3">
-            <span className="inline-flex h-8 w-8 items-center justify-center rounded-xl bg-sky-600 text-white text-sm font-bold shadow-sm">NP</span>
-            <div>
-              <h1 className="text-lg font-bold tracking-tight">
+        <div className="mx-auto flex h-full max-w-6xl items-center justify-between px-3 sm:px-4">
+          <div className="flex items-center gap-2 sm:gap-3">
+            <span className="inline-flex h-7 w-7 sm:h-8 sm:w-8 items-center justify-center rounded-xl bg-sky-600 text-white text-[12px] sm:text-sm font-bold shadow-sm">NP</span>
+            <div className="leading-tight">
+              <h1 className="text-base sm:text-lg font-bold tracking-tight">
                 Niv’s <span className="text-sky-600">Tech</span> & <span className="text-fuchsia-700">Telecoms</span> Pulse
               </h1>
-              <p className="text-[11px] text-gray-600 -mt-0.5">A weekly look — hottest topics first</p>
+              <p className="hidden xs:block text-[10px] sm:text-[11px] text-gray-600 -mt-0.5">A weekly look — hottest topics first</p>
             </div>
           </div>
 
           <div className="flex items-center gap-2">
-            {/* Absolute top */}
-            <button onClick={scrollToAbsoluteTop} className="hidden sm:inline text-sm text-gray-700 hover:text-sky-700">
+            {/* Absolute top (desktop only) */}
+            <button
+              onClick={scrollToAbsoluteTop}
+              className="hidden sm:inline text-sm text-gray-700 hover:text-sky-700"
+            >
               Summary
             </button>
-            {/* Section with offset */}
-            <button onClick={() => scrollToIdWithNavOffset("articles")} className="hidden sm:inline text-sm text-gray-700 hover:text-sky-700">
+            {/* Section with offset (desktop only) */}
+            <button
+              onClick={() => scrollToIdWithNavOffset("articles")}
+              className="hidden sm:inline text-sm text-gray-700 hover:text-sky-700"
+            >
               Articles
             </button>
-              <div className="rounded-xl border border-sky-200 bg-white/70 px-3 py-1.5 shadow-sm">
-                <form
-                  action="https://buttondown.email/api/emails/embed-subscribe/nivstechpulse"
-                  method="post"
-                  target="popupwindow"
-                  onSubmit={() => window.open('https://buttondown.email/nivstechpulse', 'popupwindow')}
-                  className="flex items-center gap-2"
+
+            {/* Desktop inline subscribe form (tight) */}
+            <div className="hidden sm:block rounded-xl border border-sky-200 bg-white/70 px-3 py-1.5 shadow-sm">
+              <form
+                action="https://buttondown.email/api/emails/embed-subscribe/nivstechpulse"
+                method="post"
+                target="popupwindow"
+                onSubmit={() => window.open('https://buttondown.email/nivstechpulse', 'popupwindow')}
+                className="flex items-center gap-2"
+              >
+                <label htmlFor="bd-email" className="sr-only">Email</label>
+                <input
+                  id="bd-email"
+                  type="email"
+                  name="email"
+                  required
+                  placeholder="you@example.com"
+                  className="w-56 rounded-lg border border-sky-200 bg-white/80 px-3 py-1.5 text-sm shadow-sm focus:outline-none focus:ring-2 focus:ring-sky-400"
+                />
+                <input type="hidden" name="tag" value="site" />
+                <input type="text" name="company" className="hidden" tabIndex={-1} autoComplete="off" />
+                <button
+                  type="submit"
+                  className="rounded-lg border border-sky-200 bg-sky-50 px-3 py-1.5 text-sky-700 text-sm hover:bg-sky-100"
                 >
-                  <label htmlFor="bd-email" className="sr-only">Email</label>
-                  <input
-                    id="bd-email"
-                    type="email"
-                    name="email"
-                    required
-                    placeholder="you@example.com"
-                    className="w-56 rounded-lg border border-sky-200 bg-white/80 px-3 py-1.5 text-sm shadow-sm focus:outline-none focus:ring-2 focus:ring-sky-400"
-                  />
-                  <input type="hidden" name="tag" value="site" />
-                  {/* honeypot to reduce spam */}
-                  <input type="text" name="company" className="hidden" tabIndex={-1} autoComplete="off" />
-                  <button
-                    type="submit"
-                    className="rounded-lg border border-sky-200 bg-sky-50 px-3 py-1.5 text-sky-700 text-sm hover:bg-sky-100"
-                  >
-                    ✉️ Subscribe
-                  </button>
-                </form>
-                <p className="mt-1 text-[11px] text-gray-500">
-                  Double opt-in; unsubscribe anytime.
-                </p>
+                  ✉️ Subscribe
+                </button>
+              </form>
+              <p className="mt-1 text-[11px] text-gray-500">
+                Double opt-in; unsubscribe anytime.
+              </p>
+            </div>
 
-              </div>
-
+            {/* Mobile subscribe button (toggles slide-down panel) */}
+            <button
+              onClick={() => setShowSubForm((v) => !v)}
+              className="sm:hidden rounded-lg border border-sky-200 bg-sky-50 px-2.5 py-1 text-[13px] text-sky-700 shadow-sm hover:bg-sky-100 active:scale-[0.99]"
+              aria-expanded={showSubForm}
+              aria-controls="mobile-subscribe"
+            >
+              ✉️
+            </button>
           </div>
         </div>
       </nav>
 
-      {/* Spacer so fixed nav doesn't cover content */}
-      <div aria-hidden className="h-16" />
+      {/* Spacer so fixed nav doesn't cover content (responsive height) */}
+      <div aria-hidden className="h-12 sm:h-16" />
+      {/* Extra spacer when the mobile subscribe panel is open */}
+      {showSubForm && <div aria-hidden className="sm:hidden h-28" />}
 
-      {/* Tabs + Company selector */}
-      <div className="border-b border-gray-200 bg-gray-50/60">
-        <div className="mx-auto max-w-6xl px-4 py-3 flex flex-wrap items-center gap-2">
+      {/* Mobile subscribe slide-down panel */}
+      <div
+        id="mobile-subscribe"
+        className={`sm:hidden fixed left-0 right-0 top-12 z-40 px-3 transition-all duration-200 ${
+          showSubForm ? "opacity-100 pointer-events-auto translate-y-0" : "opacity-0 pointer-events-none -translate-y-1"
+        }`}
+      >
+        <div className="mx-auto max-w-6xl rounded-xl border border-sky-200 bg-white/90 backdrop-blur px-3 py-3 shadow-lg">
+          <form
+            action="https://buttondown.email/api/emails/embed-subscribe/nivstechpulse"
+            method="post"
+            target="popupwindow"
+            onSubmit={() => {
+              window.open('https://buttondown.email/nivstechpulse', 'popupwindow');
+              setTimeout(() => setShowSubForm(false), 400);
+            }}
+            className="flex items-center gap-2"
+          >
+            <label htmlFor="bd-email-mobile" className="sr-only">Email</label>
+            <input
+              id="bd-email-mobile"
+              type="email"
+              name="email"
+              required
+              placeholder="you@example.com"
+              className="flex-1 rounded-lg border border-sky-200 bg-white px-3 py-2 text-sm shadow-sm focus:outline-none focus:ring-2 focus:ring-sky-400"
+            />
+            <input type="hidden" name="tag" value="site" />
+            <input type="text" name="company" className="hidden" tabIndex={-1} autoComplete="off" />
+            <button
+              type="submit"
+              className="rounded-lg border border-sky-200 bg-sky-50 px-3 py-2 text-sm text-sky-700 hover:bg-sky-100"
+            >
+              Subscribe
+            </button>
+          </form>
+          <div className="mt-2 flex items-center justify-between">
+            <p className="text-[11px] text-gray-500">Double opt-in; unsubscribe anytime.</p>
+            <button
+              onClick={() => setShowSubForm(false)}
+              className="text-[12px] text-gray-600 hover:text-gray-800"
+              aria-label="Close subscribe panel"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {/* MOBILE utility bar: sticky tabs row (under nav) */}
+      <div className="sticky top-12 z-40 border-b border-gray-200 bg-gray-50/80 backdrop-blur sm:static sm:top-auto">
+        <div className="mx-auto max-w-6xl px-3 sm:px-4 py-2 sm:py-3 flex items-center gap-2 overflow-x-auto hide-scrollbar scroll-p-3 snap-x">
           {TABS.map((t) => (
             <button
               key={t}
@@ -284,7 +356,7 @@ export default function HomePage() {
                 setTab(t);
                 setShowAllBullets(false);
               }}
-              className={`rounded-full px-3.5 py-1.5 text-sm transition ring-1 ${
+              className={`snap-start shrink-0 rounded-full px-3 py-1.5 text-sm transition ring-1 ${
                 tab === t
                   ? "bg-sky-600 text-white ring-sky-700/30 shadow-sm"
                   : "bg-white text-gray-800 ring-gray-200 hover:bg-gray-50"
@@ -295,7 +367,7 @@ export default function HomePage() {
           ))}
 
           {tab === "Company Specific" && (
-            <label className="ml-1 text-sm text-gray-700">
+            <label className="ml-1 shrink-0 text-sm text-gray-700">
               Company:&nbsp;
               <select
                 value={company}
@@ -316,14 +388,14 @@ export default function HomePage() {
       {/* PART 1 — SUMMARY HERO */}
       <section id="summary" className="relative">
         <div className="absolute inset-0 bg-gradient-to-b from-fuchsia-50 via-white to-sky-50" aria-hidden />
-        <div className="relative mx-auto max-w-6xl px-4 py-10">
-          <div className="rounded-3xl border border-fuchsia-200/70 bg-white/80 p-6 shadow-lg ring-1 ring-white/60 backdrop-blur">
-            <div className="flex items-center justify-between gap-4 flex-wrap">
+        <div className="relative mx-auto max-w-6xl px-3 sm:px-4 py-8 sm:py-10">
+          <div className="rounded-3xl border border-fuchsia-200/70 bg-white/80 p-4 sm:p-6 shadow-lg ring-1 ring-white/60 backdrop-blur">
+            <div className="flex items-center justify-between gap-3 sm:gap-4 flex-wrap">
               <div className="flex items-center gap-2">
-                <span className="inline-flex items-center rounded-full bg-fuchsia-600 px-3 py-1 text-xs font-semibold text-white">
+                <span className="inline-flex items-center rounded-full bg-fuchsia-600 px-2.5 py-1 text-[11px] sm:text-xs font-semibold text-white">
                   Weekly summary
                 </span>
-                <h2 className="text-xl font-bold">{title}</h2>
+                <h2 className="text-lg sm:text-xl font-bold">{title}</h2>
               </div>
               <button
                 onClick={() => scrollToIdWithNavOffset("articles")}
@@ -345,8 +417,8 @@ export default function HomePage() {
 
               {bullets.length > 0 && (
                 <>
-                  {/* 2 per row; collapsed shows 6 (last two faded) */}
-                  <ul className="mt-5 grid gap-4 sm:grid-cols-2">
+                  {/* Orientation-aware grid: 1 col portrait, 2 col landscape, >=sm: 2 col */}
+                  <ul className="mt-4 sm:mt-5 grid gap-3 sm:gap-4 grid-cols-1 landscape:grid-cols-2 sm:grid-cols-2">
                     {visibleBullets.map((b, i) => {
                       const clean = String((b as any).text || "").replace(/^•\s*/, "");
                       const url = (b as any).url as string | undefined;
@@ -357,7 +429,7 @@ export default function HomePage() {
                       return (
                         <li
                           key={i}
-                          className={`relative rounded-2xl bg-white ring-1 ring-gray-200 shadow-sm transition hover:shadow-md p-4 ${
+                          className={`relative rounded-2xl bg-white ring-1 ring-gray-200 shadow-sm transition hover:shadow-md p-3 sm:p-4 ${
                             isFadedPreview ? "opacity-60 max-h-36 overflow-hidden pointer-events-none" : ""
                           }`}
                         >
@@ -391,7 +463,7 @@ export default function HomePage() {
                   </ul>
 
                   {/* Show more / less */}
-                  <div className="mt-4 flex justify-center">
+                  <div className="mt-3 sm:mt-4 flex justify-center">
                     {!showAllBullets ? (
                       <button
                         onClick={() => setShowAllBullets(true)}
@@ -419,11 +491,11 @@ export default function HomePage() {
       </section>
 
       {/* PART 2 — ARTICLES */}
-      <section id="articles" className="mx-auto max-w-6xl px-4 pb-16">
-        <div className="mt-2 mb-4 flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <h3 className="text-lg font-bold">Articles</h3>
-            <span className="text-sm text-gray-500">
+      <section id="articles" className="mx-auto max-w-6xl px-3 sm:px-4 pb-14 sm:pb-16">
+        <div className="mt-1 sm:mt-2 mb-3 sm:mb-4 flex items-center justify-between">
+          <div className="flex items-center gap-2 sm:gap-3">
+            <h3 className="text-base sm:text-lg font-bold">Articles</h3>
+            <span className="text-xs sm:text-sm text-gray-500">
               {loading && items.length === 0
                 ? "Loading…"
                 : err
@@ -436,11 +508,12 @@ export default function HomePage() {
             Back to summary ↑
           </button>
         </div>
-        <div className="h-px w-full bg-gradient-to-r from-transparent via-gray-200 to-transparent mb-6" />
+        <div className="h-px w-full bg-gradient-to-r from-transparent via-gray-200 to-transparent mb-5 sm:mb-6" />
 
         {/* Smooth fade on switch; keep previous content visible */}
         <div className={`transition-opacity duration-200 ${isSwitching ? "opacity-60" : "opacity-100"}`}>
-          <ul className="grid gap-4 sm:grid-cols-2">
+          {/* Orientation-aware grid: 1 col portrait, 2 col landscape, >=sm: 2 col */}
+          <ul className="grid gap-3 sm:gap-4 grid-cols-1 landscape:grid-cols-2 sm:grid-cols-2">
             {loading && items.length === 0 && (
               <>
                 <li className="rounded-3xl border border-gray-200 bg-white p-4 shadow-sm animate-pulse">
@@ -469,7 +542,7 @@ export default function HomePage() {
                     className="group rounded-3xl border border-gray-200 bg-white p-4 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
                   >
                     <div className="flex items-center justify-between gap-2">
-                      <div className="text-xs text-gray-500">
+                      <div className="text-[11px] sm:text-xs text-gray-500">
                         <span className="inline-flex items-center gap-1 rounded-full bg-sky-50 px-2 py-0.5 font-medium text-sky-700 ring-1 ring-sky-200">
                           {it.source}
                         </span>
@@ -483,7 +556,7 @@ export default function HomePage() {
                           : "—"}
                       </div>
 
-                      <div className="flex items-center gap-2">
+                      <div className="flex items-center gap-1.5 sm:gap-2">
                         {/* 🔥 hotness — compact pill */}
                         {typeof it.score === "number" && (
                           <span
@@ -521,7 +594,7 @@ export default function HomePage() {
                       className="no-underline"
                       title="Open original in a new tab"
                     >
-                      <h4 className="mt-2 line-clamp-3 text-[18px] font-semibold tracking-tight text-gray-900 group-hover:text-sky-700">
+                      <h4 className="mt-2 line-clamp-3 text-[17px] sm:text-[18px] font-semibold tracking-tight text-gray-900 group-hover:text-sky-700">
                         {it.title}
                       </h4>
                     </a>
@@ -570,12 +643,30 @@ export default function HomePage() {
       {/* Back to top (always true top) */}
       <button
         onClick={scrollToAbsoluteTop}
-        className="fixed bottom-5 right-5 inline-flex items-center justify-center rounded-full bg-white/90 p-2.5 shadow-lg ring-1 ring-gray-200 hover:bg-white"
+        className="fixed bottom-4 right-4 sm:bottom-5 sm:right-5 inline-flex h-9 w-9 sm:h-auto sm:w-auto items-center justify-center rounded-full bg-white/90 p-2.5 shadow-lg ring-1 ring-gray-200 hover:bg-white active:scale-[0.99]"
         title="Back to top"
         aria-label="Back to top"
       >
         ↑
       </button>
+
+      {/* Small helper styles */}
+      <style jsx global>{`
+        /* Hide scrollbars for the horizontal tabs row, keep momentum scrolling */
+        .hide-scrollbar {
+          -ms-overflow-style: none; /* IE and Edge */
+          scrollbar-width: none; /* Firefox */
+        }
+        .hide-scrollbar::-webkit-scrollbar {
+          display: none; /* Chrome, Safari */
+        }
+        /* Enable Tailwind orientation variants if using v3.2+ (portrait/landscape) */
+        @media (orientation: landscape) {
+          .landscape\\:grid-cols-2 {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+          }
+        }
+      `}</style>
     </div>
   );
 }
