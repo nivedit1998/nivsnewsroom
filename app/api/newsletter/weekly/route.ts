@@ -9,7 +9,7 @@ import path from "node:path";
 type Bullet = { text: string; url?: string };
 type SummaryFile = { generatedAt?: string; bullets?: Bullet[] };
 
-// ✅ Buttondown API host
+// Buttondown API host
 const BTN_API = "https://api.buttondown.email/v1/emails";
 
 /* ---------------------- TZ helpers (no Luxon) ---------------------- */
@@ -110,30 +110,50 @@ async function readSummary(rel: string): Promise<SummaryFile | null> {
 
 /* ------------------------- Email rendering ------------------------- */
 
+function anchorOpen(url?: string) {
+  if (!url) return "";
+  // Force black links across clients: color inherits from black parent + explicit black span
+  return `<a href="${url}" target="_blank" rel="noopener"
+    style="text-decoration:underline;color:inherit !important;">`;
+}
+function anchorClose(url?: string) {
+  if (!url) return "";
+  return `</a>`;
+}
+
 function renderSection(title: string, bullets: Bullet[]) {
   const items = bullets
-    .slice(0, 5) // ⬅️ Top 5 only
+    .slice(0, 5) // Top 5 only
     .map((b) => {
       const text = (b.text || "").replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
-      const open = b.url
-        ? `<a href="${b.url}" target="_blank" rel="noopener" style="text-decoration:underline;color:#111">`
-        : "";
-      const close = b.url ? `</a>` : "";
-      return `<li style="margin:0 0 12px 0;line-height:1.6">${open}${text}${close}</li>`;
+      const aOpen = anchorOpen(b.url);
+      const aClose = anchorClose(b.url);
+      // Wrap with span that forces black even when client tries to recolor links
+      return `
+        <li style="margin:0 0 12px 0;line-height:1.7">
+          ${aOpen}<span style="color:#111 !important;">${text}</span>${aClose}
+        </li>`;
     })
     .join("");
   return `
-    <h2 style="margin:24px 0 12px 0;font-size:18px;color:#111">${title}</h2>
+    <h2 style="margin:24px 0 12px 0;font-size:18px;color:#111;font-weight:700">${title}</h2>
     <ul style="padding-left:18px;margin:0">${items}</ul>
   `;
 }
 
 function renderEmailHTML(weekLabel: string, hightech: Bullet[], telecoms: Bullet[]) {
+  // Preheader: improves inbox preview, hidden in body
+  const preheader =
+    "Top 5 from High Tech & Telecoms — concise, link-rich, and curated.";
   return `<!doctype html>
 <html>
-  <body style="margin:0;padding:0;background:#f9fafb">
+  <body link="#111111" vlink="#111111" alink="#111111" style="margin:0;padding:0;background:#f8f9fb">
+    <span style="display:none!important;visibility:hidden;opacity:0;color:transparent;height:0;width:0;overflow:hidden;">
+      ${preheader}
+    </span>
     <div style="max-width:640px;margin:0 auto;padding:24px">
-      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#ffffff;border:1px solid #eee;border-radius:12px;overflow:hidden">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0"
+             style="background:#ffffff;border:1px solid #eee;border-radius:12px;overflow:hidden">
         <tr>
           <td style="padding:24px 24px 8px 24px">
             <div style="font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:#111">
@@ -145,22 +165,24 @@ function renderEmailHTML(weekLabel: string, hightech: Bullet[], telecoms: Bullet
 
         <tr>
           <td style="padding:0 24px 8px 24px">
-            <div style="font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:#333;font-size:14px;line-height:1.7">
-              <p style="margin:0 0 12px 0">A crisp weekly read. Here are the <strong>Top 5</strong> from <strong>High Tech</strong> and <strong>Telecoms</strong>.</p>
+            <div style="font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:#111;font-size:14px;line-height:1.8">
+              <p style="margin:0 0 12px 0">
+                A crisp weekly read. Here are the <strong>Top 5</strong> from <strong>High Tech</strong> and <strong>Telecoms</strong>.
+              </p>
             </div>
           </td>
         </tr>
 
         ${hightech.length ? `
         <tr>
-          <td style="padding:0 24px 8px 24px">
+          <td style="padding:0 24px 8px 24px;color:#111">
             ${renderSection("High Tech — Top 5", hightech)}
           </td>
         </tr>` : ""}
 
         ${telecoms.length ? `
         <tr>
-          <td style="padding:0 24px 8px 24px">
+          <td style="padding:0 24px 8px 24px;color:#111">
             ${renderSection("Telecoms — Top 5", telecoms)}
           </td>
         </tr>` : ""}
@@ -173,17 +195,17 @@ function renderEmailHTML(weekLabel: string, hightech: Bullet[], telecoms: Bullet
 
         <tr>
           <td style="padding:16px 24px 8px 24px">
-            <div style="font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:#111">
+            <div style="font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
               <a href="https://nivstechpulse.com" target="_blank" rel="noopener"
-                 style="display:inline-block;padding:10px 14px;border:1px solid #111;border-radius:8px;text-decoration:none;color:#111;font-weight:600">
-                Read more at nivstechpulse.com →
+                 style="display:inline-block;padding:10px 14px;border:1px solid #111;border-radius:8px;text-decoration:none;color:#111 !important;font-weight:600;">
+                <span style="color:#111 !important;">Read more at nivstechpulse.com →</span>
               </a>
             </div>
           </td>
         </tr>
 
         <tr>
-          <td style="padding:0 24px 24px 24px">
+          <td style="padding:0 24px 20px 24px">
             <div style="font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:#777;font-size:12px;line-height:1.6">
               <p style="margin:12px 0 0 0">You subscribed at nivstechpulse.com. Unsubscribe any time via the link below.</p>
             </div>
@@ -221,7 +243,6 @@ async function composeAndSchedule(mode: "scheduled" | "draft" = "scheduled") {
     year: "numeric",
   }).format(new Date());
 
-  // Subject tweak to reflect Top 5
   const subject = `Niv’s Tech and Telecom Pulse — Top 5 each (Week of ${weekLabel})`;
   const html = renderEmailHTML(weekLabel, hightech, telecoms);
 
