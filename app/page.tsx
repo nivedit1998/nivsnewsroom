@@ -128,7 +128,7 @@ export default function HomePage() {
         setExpanded({});
       } catch (e: any) {
         if (e?.name !== "AbortError") {
-          setErr("Couldn’t load articles. Try rerunning the ingestor.");
+          setErr("Tying to load articles from last week");
         }
       } finally {
         setLoading(false);
@@ -234,12 +234,39 @@ export default function HomePage() {
             <button onClick={() => scrollToIdWithNavOffset("articles")} className="hidden sm:inline text-sm text-gray-700 hover:text-sky-700">
               Articles
             </button>
-            <button
-              onClick={() => alert("Signup coming next step")}
-              className="rounded-xl border border-sky-200 bg-sky-50 px-3 py-1.5 text-sky-700 text-sm shadow-sm hover:bg-sky-100"
-            >
-              ✉️ Subscribe
-            </button>
+              <div className="rounded-xl border border-sky-200 bg-white/70 px-3 py-1.5 shadow-sm">
+                <form
+                  action="https://buttondown.email/api/emails/embed-subscribe/nivstechpulse"
+                  method="post"
+                  target="popupwindow"
+                  onSubmit={() => window.open('https://buttondown.email/nivstechpulse', 'popupwindow')}
+                  className="flex items-center gap-2"
+                >
+                  <label htmlFor="bd-email" className="sr-only">Email</label>
+                  <input
+                    id="bd-email"
+                    type="email"
+                    name="email"
+                    required
+                    placeholder="you@example.com"
+                    className="w-56 rounded-lg border border-sky-200 bg-white/80 px-3 py-1.5 text-sm shadow-sm focus:outline-none focus:ring-2 focus:ring-sky-400"
+                  />
+                  <input type="hidden" name="tag" value="site" />
+                  {/* honeypot to reduce spam */}
+                  <input type="text" name="company" className="hidden" tabIndex={-1} autoComplete="off" />
+                  <button
+                    type="submit"
+                    className="rounded-lg border border-sky-200 bg-sky-50 px-3 py-1.5 text-sky-700 text-sm hover:bg-sky-100"
+                  >
+                    ✉️ Subscribe
+                  </button>
+                </form>
+                <p className="mt-1 text-[11px] text-gray-500">
+                  Double opt-in; unsubscribe anytime.
+                </p>
+
+              </div>
+
           </div>
         </div>
       </nav>
@@ -533,7 +560,7 @@ export default function HomePage() {
 
             {!loading && !err && !items.length && (
               <li className="rounded-3xl border border-gray-200 bg-white p-6 text-gray-500 shadow-sm">
-                No articles in the last week. Run the ingestor.
+                Loading articles from last week. Please follow the links in the summary for more detail
               </li>
             )}
           </ul>
