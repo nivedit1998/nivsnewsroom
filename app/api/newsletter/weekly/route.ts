@@ -69,7 +69,6 @@ function makeZonedDate(
 /** Next Monday 09:00 Europe/London (or today if it's Monday but before 09:00). Returns ISO Z. */
 function nextMonday0900LondonISO(now: Date = new Date()): string {
   const tz = "Europe/London";
-  // Parts of "now" in London (for the calendar date)
   const p = fmtParts(now, tz);
   const weekdayLon = getWeekday(now, tz); // 0..6 (Sun..Sat)
 
@@ -113,14 +112,14 @@ async function readSummary(rel: string): Promise<SummaryFile | null> {
 
 function renderSection(title: string, bullets: Bullet[]) {
   const items = bullets
-    .slice(0, 10)
+    .slice(0, 5) // ⬅️ Top 5 only
     .map((b) => {
       const text = (b.text || "").replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
       const open = b.url
-        ? `<a href="${b.url}" target="_blank" rel="noopener" style="text-decoration:none;color:#0a66c2">`
+        ? `<a href="${b.url}" target="_blank" rel="noopener" style="text-decoration:underline;color:#111">`
         : "";
       const close = b.url ? `</a>` : "";
-      return `<li style="margin:0 0 10px 0;line-height:1.6">${open}${text}${close}</li>`;
+      return `<li style="margin:0 0 12px 0;line-height:1.6">${open}${text}${close}</li>`;
     })
     .join("");
   return `
@@ -131,19 +130,69 @@ function renderSection(title: string, bullets: Bullet[]) {
 
 function renderEmailHTML(weekLabel: string, hightech: Bullet[], telecoms: Bullet[]) {
   return `<!doctype html>
-<html><body style="margin:0;padding:0;background:#ffffff">
-  <div style="max-width:640px;margin:0 auto;padding:24px;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:#111">
-    <header style="margin-bottom:16px">
-      <div style="font-weight:700;font-size:22px;line-height:1.2">Niv’s Tech and Telecom Pulse</div>
-      <div style="color:#666;font-size:14px;margin-top:4px">Week of ${weekLabel}</div>
-    </header>
-    <p style="margin:0 0 12px 0;color:#444">My clean weekly takeaways from High Tech and Telecoms—10 bullets each, links included.</p>
-    ${hightech.length ? renderSection("High Tech — Top 10", hightech) : ""}
-    ${telecoms.length ? renderSection("Telecoms — Top 10", telecoms) : ""}
-    <hr style="border:none;border-top:1px solid #eee;margin:24px 0" />
-    <p style="font-size:12px;color:#777;margin:0">You subscribed at nivstechpulse.com. Unsubscribe anytime via the link below.</p>
-  </div>
-</body></html>`;
+<html>
+  <body style="margin:0;padding:0;background:#f9fafb">
+    <div style="max-width:640px;margin:0 auto;padding:24px">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#ffffff;border:1px solid #eee;border-radius:12px;overflow:hidden">
+        <tr>
+          <td style="padding:24px 24px 8px 24px">
+            <div style="font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:#111">
+              <div style="font-weight:800;font-size:22px;line-height:1.2">Niv’s Tech and Telecom Pulse</div>
+              <div style="color:#555;font-size:14px;margin-top:4px">Week of ${weekLabel}</div>
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="padding:0 24px 8px 24px">
+            <div style="font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:#333;font-size:14px;line-height:1.7">
+              <p style="margin:0 0 12px 0">A crisp weekly read. Here are the <strong>Top 5</strong> from <strong>High Tech</strong> and <strong>Telecoms</strong>.</p>
+            </div>
+          </td>
+        </tr>
+
+        ${hightech.length ? `
+        <tr>
+          <td style="padding:0 24px 8px 24px">
+            ${renderSection("High Tech — Top 5", hightech)}
+          </td>
+        </tr>` : ""}
+
+        ${telecoms.length ? `
+        <tr>
+          <td style="padding:0 24px 8px 24px">
+            ${renderSection("Telecoms — Top 5", telecoms)}
+          </td>
+        </tr>` : ""}
+
+        <tr>
+          <td style="padding:8px 24px 0 24px">
+            <hr style="border:none;border-top:1px solid #eee;margin:0" />
+          </td>
+        </tr>
+
+        <tr>
+          <td style="padding:16px 24px 8px 24px">
+            <div style="font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:#111">
+              <a href="https://nivstechpulse.com" target="_blank" rel="noopener"
+                 style="display:inline-block;padding:10px 14px;border:1px solid #111;border-radius:8px;text-decoration:none;color:#111;font-weight:600">
+                Read more at nivstechpulse.com →
+              </a>
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="padding:0 24px 24px 24px">
+            <div style="font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:#777;font-size:12px;line-height:1.6">
+              <p style="margin:12px 0 0 0">You subscribed at nivstechpulse.com. Unsubscribe any time via the link below.</p>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>`;
 }
 
 /* ------------------------- Main controller ------------------------- */
@@ -172,7 +221,8 @@ async function composeAndSchedule(mode: "scheduled" | "draft" = "scheduled") {
     year: "numeric",
   }).format(new Date());
 
-  const subject = `Niv’s Tech and Telecom Pulse — Week of ${weekLabel}`;
+  // Subject tweak to reflect Top 5
+  const subject = `Niv’s Tech and Telecom Pulse — Top 5 each (Week of ${weekLabel})`;
   const html = renderEmailHTML(weekLabel, hightech, telecoms);
 
   const publishISO = nextMonday0900LondonISO();
