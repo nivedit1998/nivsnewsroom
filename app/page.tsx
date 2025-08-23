@@ -134,7 +134,7 @@ export default function HomePage() {
         setExpanded({});
       } catch (e: any) {
         if (e?.name !== "AbortError") {
-          setErr("Tying to load articles from last week");
+          setErr("Trying to load articles from last week");
         }
       } finally {
         setLoading(false);

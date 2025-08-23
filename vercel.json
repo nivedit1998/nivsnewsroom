@@ -1,0 +1,8 @@
+{
+  "crons": [
+    {
+      "path": "/api/run-injest?token=YOUR_LONG_RANDOM_TOKEN",
+      "schedule": "30 9 * * *"
+    }
+  ]
+}
