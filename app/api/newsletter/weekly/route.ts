@@ -9,17 +9,17 @@ import path from "node:path";
 type Bullet = { text: string; url?: string };
 type SummaryFile = { generatedAt?: string; bullets?: Bullet[] };
 
-const BTN_API = "https://api.buttondown.com/v1/emails";
+// ✅ use the .email host
+const BTN_API = "https://api.buttondown.email/v1/emails";
 
 async function readSummary(rel: string): Promise<SummaryFile | null> {
   const full = path.join(process.cwd(), "public", "data", "summaries", rel);
   try { return JSON.parse(await fs.readFile(full, "utf8")); } catch { return null; }
 }
 
-/** Schedule for Monday 09:00 London (or next Monday if we've passed it) */
 function thisMonday0900LondonISO(now = new Date()): string {
   const nowLon = new Date(now.toLocaleString("en-GB", { timeZone: "Europe/London" }));
-  const day = nowLon.getDay(); // 0=Sun..6=Sat
+  const day = nowLon.getDay();
   const forwardToMon = (1 - day + 7) % 7;
   const targetLon = new Date(nowLon);
   targetLon.setDate(nowLon.getDate() + forwardToMon);
@@ -59,7 +59,7 @@ function renderEmailHTML(weekLabel: string, hightech: Bullet[], telecoms: Bullet
 </body></html>`;
 }
 
-async function composeAndSchedule() {
+async function composeAndSchedule(mode: "scheduled" | "draft" = "scheduled") {
   const apiKey = process.env.BUTTONDOWN_API_KEY;
   if (!apiKey) return NextResponse.json({ ok:false, error:"Missing BUTTONDOWN_API_KEY" }, { status:500 });
 
@@ -67,42 +67,50 @@ async function composeAndSchedule() {
   const hightech = ht?.bullets ?? [];
   const telecoms = tc?.bullets ?? [];
 
+  console.log("[newsletter] bullets", { hightech: hightech.length, telecoms: telecoms.length });
+
   if (!hightech.length && !telecoms.length)
     return NextResponse.json({ ok:false, error:"No bullets available" }, { status:400 });
 
   const weekLabel = new Date().toLocaleDateString("en-GB", { day:"2-digit", month:"short", year:"numeric" });
   const subject = `Niv’s Tech and Telecom Pulse — Week of ${weekLabel}`;
   const html = renderEmailHTML(weekLabel, hightech, telecoms);
+
   const publishISO = thisMonday0900LondonISO();
+  console.log("[newsletter] scheduling", { mode, publishISO });
+
+  const payload: any = {
+    subject,
+    body: html,
+    email_type: "public",
+    status: mode === "draft" ? "draft" : "scheduled",
+  };
+  if (mode === "scheduled") payload.publish_date = publishISO;
 
   const r = await fetch(BTN_API, {
     method: "POST",
     headers: {
       Authorization: `Token ${apiKey}`,
       "Content-Type": "application/json",
-      // Optional: ensure no duplicates if cron retries
-      "X-Idempotency-Key": `weekly-${publishISO}`
+      "X-Idempotency-Key": `weekly-${mode}-${payload.publish_date ?? weekLabel}`
     },
-    body: JSON.stringify({
-      subject,
-      body: html,
-      email_type: "public",
-      status: "scheduled",
-      publish_date: publishISO
-    })
+    body: JSON.stringify(payload)
   });
 
-  const data = await r.json().catch(() => ({}));
+  const text = await r.text();
+  let data: any; try { data = JSON.parse(text); } catch { data = { raw:text }; }
+  console.log("[newsletter] buttondown response", { status: r.status, data });
+
   if (!r.ok) return NextResponse.json({ ok:false, error:"Buttondown API", detail:data }, { status:500 });
 
-  return NextResponse.json({ ok:true, scheduledFor: publishISO, id: data.id ?? null });
+  return NextResponse.json({ ok:true, mode, scheduledFor: payload.publish_date ?? null, id: data.id ?? null });
 }
 
-export async function POST() {
-  return composeAndSchedule();
+export async function GET(req: Request) {
+  const mode = new URL(req.url).searchParams.get("mode") === "draft" ? "draft" : "scheduled";
+  return composeAndSchedule(mode as any);
 }
-
-// 🔑 This is what makes Vercel Cron work:
-export async function GET() {
-  return composeAndSchedule();
+export async function POST(req: Request) {
+  const mode = new URL(req.url).searchParams.get("mode") === "draft" ? "draft" : "scheduled";
+  return composeAndSchedule(mode as any);
 }
