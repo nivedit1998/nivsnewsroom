@@ -1,6 +1,7 @@
 /* app/page.tsx */
 "use client";
 import { useEffect, useMemo, useState } from "react";
+import Image from "next/image"; // ✅ added import
 import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"], display: "swap" });
@@ -15,7 +16,7 @@ type Item = {
   fullText?: string;
   score?: number;
   groupSize?: number;
-  tags?: string[]; // may include "uk" and/or "top-take"
+  tags?: string[];
 };
 
 type SummaryBullet = { text: string; url?: string } | string;
@@ -37,7 +38,6 @@ function renderWithBold(text: string) {
   );
 }
 
-/** Limit paragraphs to a total word budget (truncate only last para, add …) */
 function limitParagraphsByWords(paras: string[], maxWords: number): string[] {
   const out: string[] = [];
   let used = 0;
@@ -61,7 +61,6 @@ function wordCount(s: string) {
 }
 
 export default function HomePage() {
-  // Defaults
   const [tab, setTab] = useState<Tab>("Telecoms");
   const [company, setCompany] = useState<"microsoft" | "sage">("microsoft");
   const [items, setItems] = useState<Item[]>([]);
@@ -73,21 +72,16 @@ export default function HomePage() {
 
   const [expanded, setExpanded] = useState<Record<string, boolean>>({});
   const [showAllBullets, setShowAllBullets] = useState(false);
-
-  // Mobile subscribe panel
   const [showSubForm, setShowSubForm] = useState(false);
 
-  // Smooth tab switching (no layout shake)
   const [pendingLoads, setPendingLoads] = useState(0);
   const isSwitching = pendingLoads > 0;
 
-  // Respect reduced motion
   const prefersReduced =
     typeof window !== "undefined" &&
     window.matchMedia &&
     window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-  // Smooth scrolling helpers
   const doScroll = (top: number) => {
     try {
       window.scrollTo({ top, behavior: prefersReduced ? "auto" : ("smooth" as ScrollBehavior) });
@@ -96,12 +90,11 @@ export default function HomePage() {
     }
   };
   const scrollToAbsoluteTop = () => doScroll(0);
-  // Scroll to a section, compensating for the fixed nav height
   const scrollToIdWithNavOffset = (id: string) => {
     const el = document.getElementById(id);
     if (!el) return;
     const nav = document.getElementById("app-nav");
-    const offset = (nav?.getBoundingClientRect().height ?? 64) + 8; // nav height + breathing room
+    const offset = (nav?.getBoundingClientRect().height ?? 64) + 8;
     const top = el.getBoundingClientRect().top + window.scrollY - offset;
     doScroll(top);
   };
@@ -118,7 +111,6 @@ export default function HomePage() {
     return `/api/weekly-summary?tab=company&company=${company}`;
   }, [tab, company]);
 
-  // Articles fetch — keep old content while loading new
   useEffect(() => {
     const ctrl = new AbortController();
     (async () => {
@@ -133,9 +125,7 @@ export default function HomePage() {
         setItems(arr);
         setExpanded({});
       } catch (e: any) {
-        if (e?.name !== "AbortError") {
-          setErr("Trying to load articles from last week");
-        }
+        if (e?.name !== "AbortError") setErr("Trying to load articles from last week");
       } finally {
         setLoading(false);
         setPendingLoads((n) => Math.max(0, n - 1));
@@ -144,7 +134,6 @@ export default function HomePage() {
     return () => ctrl.abort();
   }, [dataPath]);
 
-  // Summary fetch — keep old content while loading new
   useEffect(() => {
     const ctrl = new AbortController();
     (async () => {
@@ -157,10 +146,8 @@ export default function HomePage() {
         const normalized = arr.map((b: any) =>
           typeof b === "string" ? { text: b } : { text: String(b.text || ""), url: b.url || undefined }
         );
-        setBullets(normalized.slice(0, 10)); // ensure max 10 insights
-      } catch {
-        // keep previous bullets on error
-      } finally {
+        setBullets(normalized.slice(0, 10));
+      } catch {} finally {
         setSumLoading(false);
         setPendingLoads((n) => Math.max(0, n - 1));
       }
@@ -178,36 +165,24 @@ export default function HomePage() {
   const toggle = (key: string) => setExpanded((s) => ({ ...s, [key]: !s[key] }));
 
   const getParagraphs = (it: Item) => {
-    const base =
-      (it.fullText && it.fullText.trim()) ||
-      (it.excerpt && it.excerpt.trim()) ||
-      (it.snippet && it.snippet.trim()) ||
-      "";
-    if (!base) return [];
+    const base = it.fullText?.trim() || it.excerpt?.trim() || it.snippet?.trim() || "";
     return base.split(/\n{2,}/).map((p) => p.trim()).filter(Boolean);
   };
   const getCollapsedParas = (it: Item) => limitParagraphsByWords(getParagraphs(it), 50);
   const getExpandedParas = (it: Item) => {
-    const full =
-      (it.fullText && it.fullText.trim()) ||
-      (it.excerpt && it.excerpt.trim()) ||
-      (it.snippet && it.snippet.trim()) ||
-      "";
-    if (!full) return [];
+    const full = it.fullText?.trim() || it.excerpt?.trim() || it.snippet?.trim() || "";
     const total = wordCount(full);
     const budget = Math.max(80, Math.floor(total * 0.3));
     return limitParagraphsByWords(getParagraphs(it), budget);
   };
 
-  // Collapsed summary logic: 4 full + 2 faded (indices 4 & 5)
-  const collapsedFadeStart = 4; // 5th card (zero-based)
-  const collapsedFadeEnd = 5;   // 6th card
+  const collapsedFadeStart = 4;
+  const collapsedFadeEnd = 5;
   const showCollapsed = !showAllBullets;
   const visibleBullets = showAllBullets
     ? bullets
     : bullets.slice(0, Math.min(bullets.length, collapsedFadeEnd + 1));
 
-  // Compact pill base (matches summary Learn button sizing)
   const pillBase = "inline-flex items-center gap-1 rounded-md px-2 py-0.5 text-[11px]";
 
   return (
@@ -215,19 +190,30 @@ export default function HomePage() {
       className={`${inter.className} min-h-screen bg-white text-gray-900 overflow-y-scroll`}
       style={{ scrollbarGutter: "stable both-edges", WebkitTapHighlightColor: "transparent" }}
     >
-      {/* Fixed, always-visible navbar (smaller on mobile) */}
+      {/* Fixed, always-visible navbar */}
       <nav
         id="app-nav"
         className="fixed inset-x-0 top-0 z-50 h-12 sm:h-16 border-b border-white/20 bg-white/60 backdrop-blur supports-[backdrop-filter]:bg-white/40"
       >
         <div className="mx-auto flex h-full max-w-6xl items-center justify-between px-3 sm:px-4">
           <div className="flex items-center gap-2 sm:gap-3">
-            <span className="inline-flex h-7 w-7 sm:h-8 sm:w-8 items-center justify-center rounded-xl bg-sky-600 text-white text-[12px] sm:text-sm font-bold shadow-sm">NP</span>
+            {/* ✅ Logo instead of NP pill */}
+            <Image
+              src="/logo.png"
+              alt="NivsTechPulse Logo"
+              width={32}
+              height={32}
+              className="h-7 w-7 sm:h-8 sm:w-8 rounded-md"
+              priority
+            />
             <div className="leading-tight">
               <h1 className="text-base sm:text-lg font-bold tracking-tight">
-                Niv’s <span className="text-sky-600">Tech</span> & <span className="text-fuchsia-700">Telecoms</span> Pulse
+                Niv’s <span className="text-sky-600">Tech</span> &{" "}
+                <span className="text-fuchsia-700">Telecoms</span> Pulse
               </h1>
-              <p className="hidden xs:block text-[10px] sm:text-[11px] text-gray-600 -mt-0.5">A weekly look — hottest topics first</p>
+              <p className="hidden xs:block text-[10px] sm:text-[11px] text-gray-600 -mt-0.5">
+                A weekly look — hottest topics first
+              </p>
             </div>
           </div>
 
