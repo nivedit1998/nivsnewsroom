@@ -196,7 +196,8 @@ function renderEmailHTML(weekLabel: string, hightech: Bullet[], telecoms: Bullet
         <tr>
           <td style="padding:16px 24px 8px 24px">
             <div style="font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
-              <a href="https://nivstechpulse.com" target="_blank" rel="noopener"
+              <a href="https://nivstechpulse.com/?utm_source=newsletter&utm_medium=email&utm_campaign=weekly"
+                 target="_blank" rel="noopener"
                  style="display:inline-block;padding:10px 14px;border:1px solid #111;border-radius:8px;text-decoration:none;color:#111 !important;font-weight:600;">
                 <span style="color:#111 !important;">Read more at nivstechpulse.com →</span>
               </a>
