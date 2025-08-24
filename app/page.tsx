@@ -15,7 +15,7 @@ type Item = {
   fullText?: string;
   score?: number;
   groupSize?: number;
-  tags?: string[];
+  tags?: string[]; // may include "uk" and/or "top-take"
 };
 
 type SummaryBullet = { text: string; url?: string } | string;
@@ -290,7 +290,7 @@ export default function HomePage() {
             </button>
           </div>
         </div>
-      </nav>
+      </nav>Í
 
       {/* Spacer so fixed nav doesn't cover content (responsive height) */}
       <div aria-hidden className="h-12 sm:h-16" />
@@ -502,7 +502,16 @@ export default function HomePage() {
                 ? err
                 : `${items.length} stor${items.length === 1 ? "y" : "ies"} in the last 7 days`}
             </span>
+            {/* Legend */}
+            <span className="hidden sm:inline text-xs text-gray-400">•</span>
+            <span className="text-[11px] sm:text-xs text-gray-600 flex items-center gap-1">
+              <span className="inline-flex items-center gap-1 rounded-md bg-emerald-50 px-1.5 py-0.5 text-emerald-700 ring-1 ring-emerald-200">
+                UK
+              </span>
+              indicates UK‑relevant
+            </span>
           </div>
+
           {/* Goes to true page top (0) */}
           <button onClick={scrollToAbsoluteTop} className="text-sm text-gray-700 hover:text-sky-700">
             Back to summary ↑
@@ -535,6 +544,7 @@ export default function HomePage() {
                 const isOpen = !!expanded[key];
                 const collapsedParas = getCollapsedParas(it);
                 const expandedParas = getExpandedParas(it);
+                const isUK = it.tags?.includes("uk");
 
                 return (
                   <li
@@ -557,13 +567,23 @@ export default function HomePage() {
                       </div>
 
                       <div className="flex items-center gap-1.5 sm:gap-2">
-                        {/* 🔥 hotness — compact pill */}
+                        {/* UK badge */}
+                        {isUK && (
+                          <span
+                            title="Marked UK-relevant by the ranking engine"
+                            className={`${pillBase} bg-emerald-50 text-emerald-700 ring-1 ring-emerald-200`}
+                          >
+                            UK
+                          </span>
+                        )}
+
+                        {/* 🔥 hotness — compact pill (2dp for readability) */}
                         {typeof it.score === "number" && (
                           <span
-                            title={`Hotness: ${it.score} (topic mentions: ${it.groupSize || 1})`}
+                            title={`Hotness: ${it.score?.toFixed?.(2) ?? it.score} (topic mentions: ${it.groupSize || 1})`}
                             className={`${pillBase} bg-orange-50 text-orange-700 ring-1 ring-orange-200`}
                           >
-                            🔥 {it.score}
+                            🔥 {Number.isFinite(it.score) ? it.score.toFixed(2) : it.score}
                           </span>
                         )}
 

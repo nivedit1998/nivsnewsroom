@@ -7,12 +7,13 @@ import path from "node:path";
 import RSSParser from "rss-parser";
 import { DateTime } from "luxon";
 import { extract } from "@extractus/article-extractor";
+import { fileURLToPath } from "node:url";
 
 /** =========================
  *  SETTINGS
  *  ========================= */
 const TIMEZONE = "Europe/London";
-const LOOKBACK_DAYS = parseInt(process.env.LOOKBACK_DAYS || "7", 10);
+const LOOKBACK_DAYS = parseInt(process.env.LOOKBACK_DAYS || "7", 10); // stays 7 by default
 const TEST_MODE = process.env.TEST_MODE === "1";
 
 const DATA_DIR = path.join(process.cwd(), "public", "data");
@@ -20,39 +21,187 @@ const SUMMARY_DIR = path.join(DATA_DIR, "summaries");
 
 const parser = new RSSParser({
   requestOptions: {
-    headers: { "User-Agent": "NivsNewsRoomBot/1.0 (+youremail@example.com)" },
+    headers: { "User-Agent": "NivsNewsRoomBot/1.2 (+youremail@example.com)" },
   },
 });
 
 /** =========================
- *  SOURCES
+ *  SOURCES (Groups)
+ *  Keep global pubs, but UK weighting will lift UK items.
  *  ========================= */
 const SOURCES = {
   hightech: [
     "https://www.cnet.com/rss/news/",
     "https://techcrunch.com/feed/",
     "https://www.theverge.com/rss/index.xml",
+    // (Optional UK-leaning tech feeds; add if you like)
+    // "https://www.theregister.com/headlines.atom",
+    // "https://uktechnews.co.uk/feed/",
   ],
   telecoms: [
     "https://telecomstechnews.com/feed",
     "https://totaltele.com/category/technology/feed/",
     "https://www.rcrwireless.com/rss",
+    // (Optional UK telco-specific feeds)
+    // "https://www.ispreview.co.uk/feed",
+    // "https://www.thinkbroadband.com/news/rss.xml",
   ],
 };
 
-const FEED_FALLBACKS = {
-  "https://telecomstechnews.com/feed":
-    "https://news.google.com/rss/search?q=site:telecomstechnews.com+UK",
-  "https://totaltele.com/category/technology/feed/":
-    "https://news.google.com/rss/search?q=site:totaltele.com+UK",
-  "https://www.rcrwireless.com/rss":
-    "https://news.google.com/rss/search?q=site:rcrwireless.com+UK",
+/** =========================
+ *  COMPANY FEEDS (FIRST-PARTY ONLY, widened)
+ *  ========================= */
+const COMPANY_RSS = {
+  microsoft: [
+    "https://blogs.microsoft.com/feed/",
+    "https://azure.microsoft.com/en-us/blog/feed/",
+    "https://www.microsoft.com/en-us/microsoft-365/blog/feed/",
+    "https://blogs.windows.com/feed/",
+    "https://devblogs.microsoft.com/feed/",
+    "https://www.microsoft.com/en-us/security/blog/feed/",
+  ],
+  sage: [
+    "https://www.sage.com/en-gb/blog/feed/",
+    "https://www.sage.com/en-gb/newsroom/feed/",
+  ],
 };
 
-const COMPANY_RSS = {
-  microsoft: ["https://blogs.microsoft.com/feed/"],
-  sage: ["https://www.sage.com/en-gb/blog/feed/"],
+/** =========================
+ *  FALLBACKS (Google News site: search)
+ *  — Used if a feed 404s or times out
+ *  ========================= */
+const FEED_FALLBACKS = {
+  // Group fallbacks
+  "https://telecomstechnews.com/feed":
+    "https://news.google.com/rss/search?q=site:telecomstechnews.com&hl=en-GB&gl=GB&ceid=GB:en",
+  "https://totaltele.com/category/technology/feed/":
+    "https://news.google.com/rss/search?q=site:totaltele.com%20technology&hl=en-GB&gl=GB&ceid=GB:en",
+  "https://www.rcrwireless.com/rss":
+    "https://news.google.com/rss/search?q=site:rcrwireless.com&hl=en-GB&gl=GB&ceid=GB:en",
+
+  // Microsoft fallbacks (domain-scoped)
+  "https://blogs.microsoft.com/feed/":
+    "https://news.google.com/rss/search?q=site:blogs.microsoft.com&hl=en-GB&gl=GB&ceid=GB:en",
+  "https://azure.microsoft.com/en-us/blog/feed/":
+    "https://news.google.com/rss/search?q=site:azure.microsoft.com/blog&hl=en-GB&gl=GB&ceid=GB:en",
+  "https://www.microsoft.com/en-us/microsoft-365/blog/feed/":
+    "https://news.google.com/rss/search?q=site:microsoft.com%20\"Microsoft%20365\"%20blog&hl=en-GB&gl=GB&ceid=GB:en",
+  "https://blogs.windows.com/feed/":
+    "https://news.google.com/rss/search?q=site:blogs.windows.com&hl=en-GB&gl=GB&ceid=GB:en",
+  "https://devblogs.microsoft.com/feed/":
+    "https://news.google.com/rss/search?q=site:devblogs.microsoft.com&hl=en-GB&gl=GB&ceid=GB:en",
+  "https://www.microsoft.com/en-us/security/blog/feed/":
+    "https://news.google.com/rss/search?q=site:microsoft.com%20\"Security%20blog\"&hl=en-GB&gl=GB&ceid=GB:en",
+
+  // Sage fallbacks (domain-scoped)
+  "https://www.sage.com/en-gb/blog/feed/":
+    "https://news.google.com/rss/search?q=site:sage.com%20blog&hl=en-GB&gl=GB&ceid=GB:en",
+  "https://www.sage.com/en-gb/newsroom/feed/":
+    "https://news.google.com/rss/search?q=site:sage.com%20newsroom&hl=en-GB&gl=GB&ceid=GB:en",
 };
+
+/** =========================
+ *  UK PRIORITY SIGNALS
+ *  ========================= */
+const UK_DOMAINS = new Set([
+  "bbc.co.uk",
+  "gov.uk",
+  "ofcom.org.uk",
+  "openreach.co.uk",
+  "bt.com",
+  "vodafone.co.uk",
+  "o2.co.uk",
+  "virginmediao2.co.uk",
+  "ee.co.uk",
+  "three.co.uk",
+  "sky.com",
+  "talktalk.co.uk",
+  "cityfibre.com",
+  "ispreview.co.uk",
+  "thinkbroadband.com",
+  "theguardian.com", // UK heavy (not .co.uk)
+]);
+
+const UK_KEYWORDS = [
+  " uk ",
+  " u.k. ",
+  " united kingdom",
+  " britain",
+  " british",
+  " england",
+  " scotland",
+  " wales",
+  " northern ireland",
+  " london",
+  " manchester",
+  " birmingham",
+  " edinburgh",
+  " cardiff",
+  " belfast",
+  " ofcom",
+  " regulator ofcom",
+  " nhs", // often signals UK context
+];
+
+const UK_TELECOM_TERMS = [
+  "bt",
+  "openreach",
+  "vodafone uk",
+  "vodafone uk’s",
+  "virgin media o2",
+  "vmo2",
+  "o2 uk",
+  "ee",
+  "three uk",
+  "sky",
+  "talktalk",
+  "cityfibre",
+  "ofcom",
+];
+
+function textify(...bits) {
+  return (" " + bits.filter(Boolean).join(" ").toLowerCase() + " ").replace(/\s+/g, " ");
+}
+
+function ukSignals(item, context = "general") {
+  const host = (item.source || "").replace(/^www\./, "").toLowerCase();
+  const maybeCoUk = host.endsWith(".co.uk");
+  const domainHit = maybeCoUk || UK_DOMAINS.has(host);
+
+  const haystack = textify(item.title, item.snippet, item.excerpt);
+  const keywordHit = UK_KEYWORDS.some((kw) => haystack.includes(kw));
+
+  let companyHit = false;
+  if (context === "telecoms") {
+    companyHit = UK_TELECOM_TERMS.some((kw) => haystack.includes(kw));
+  } else if (context.startsWith("company_")) {
+    // Company tabs: prefer posts that explicitly mention a UK angle
+    companyHit =
+      haystack.includes(" microsoft uk") ||
+      haystack.includes(" sage uk") ||
+      haystack.includes(" uk ") ||
+      haystack.includes(" united kingdom") ||
+      haystack.includes(" london");
+  }
+
+  // Tunable weights (additive, then clipped)
+  const wDomain = domainHit ? 0.9 : 0;
+  const wKeyword = keywordHit ? 0.7 : 0;
+  const wCompany = companyHit ? 0.8 : 0;
+
+  let score = wDomain + wKeyword + wCompany;
+
+  // Contextual multiplier
+  const mult =
+    context === "telecoms" ? 1.15 :
+    context === "hightech" ? 1.0 :
+    context.startsWith("company_") ? 1.1 : 1.0;
+
+  score = score * mult;
+
+  // Clip to a reasonable maximum so UK bias doesn't dominate recency entirely
+  return Math.min(score, 2.2);
+}
 
 /** =========================
  *  HELPERS
@@ -76,7 +225,6 @@ function withinWindow(iso) {
 
 const sanitize = (s = "") => String(s).replace(/\s+/g, " ").trim();
 
-/** Convert HTML → plain while preserving paragraph breaks as \n\n */
 function htmlToPlain(html = "") {
   let s = html
     .replace(/<(\/)?(p|div|section|article|blockquote|h[1-6]|ul|ol|li)[^>]*>/gi, "\n\n")
@@ -126,16 +274,39 @@ function detectTopTake(title = "") {
 function sourceAuthority(host = "") {
   const h = host.replace(/^www\./, "").toLowerCase();
   const table = {
+    // High-tech/telecom pubs
     "theverge.com": 0.25,
     "techcrunch.com": 0.25,
     "cnet.com": 0.2,
     "rcrwireless.com": 0.25,
     "totaltele.com": 0.2,
     "telecomstechnews.com": 0.15,
-    "blogs.microsoft.com": 0.1,
-    "sage.com": 0.1,
+
+    // Microsoft first-party
+    "blogs.microsoft.com": 0.3,
+    "azure.microsoft.com": 0.3,
+    "microsoft.com": 0.25,
+    "blogs.windows.com": 0.3,
+    "devblogs.microsoft.com": 0.3,
+
+    // Sage first-party
+    "sage.com": 0.25,
+
+    // UK sources (extra nudge if they appear)
+    "ofcom.org.uk": 0.35,
+    "openreach.co.uk": 0.3,
+    "bt.com": 0.3,
+    "vodafone.co.uk": 0.3,
+    "virginmediao2.co.uk": 0.3,
+    "o2.co.uk": 0.25,
+    "ee.co.uk": 0.25,
+    "three.co.uk": 0.25,
+    "sky.com": 0.2,
+    "talktalk.co.uk": 0.2,
+    "ispreview.co.uk": 0.25,
+    "thinkbroadband.com": 0.25,
   };
-  return table[h] || 0;
+  return table[h] || (h.endsWith(".co.uk") ? 0.18 : 0);
 }
 
 function ageDays(iso) {
@@ -146,16 +317,25 @@ function ageDays(iso) {
   return Math.max(0, now.diff(d, "days").days);
 }
 
-/** Compute hotness score */
-function scoreItem(it, groupSize) {
+/** Compute hotness score WITH UK boost */
+function scoreItem(it, groupSize, context) {
   const pop = Math.log1p(groupSize || 1);
   const age = ageDays(it.publishedAt);
   const recency = Math.max(0, 1.5 - 0.12 * age);
   const analysis = detectTopTake(it.title) ? 0.5 : 0;
   const authority = sourceAuthority(it.source);
-  return +(1 + pop + recency + analysis + authority).toFixed(3);
+
+  // UK relevance boost
+  const ukBoost = ukSignals(it, context); // 0..~2.2
+
+  // Weight blend: keep recency important, but let UK raise rank meaningfully
+  const score = +(1 + pop + recency + analysis + authority + ukBoost).toFixed(3);
+  return score;
 }
 
+/** =========================
+ *  FEED + ENRICH
+ *  ========================= */
 async function parseFeed(url) {
   const feed = await parser.parseURL(url);
   let items = (feed.items || []).map((i) => {
@@ -217,7 +397,7 @@ async function writeJson(relPath, data) {
 }
 
 /** =========================
- *  WEEKLY SUMMARY (AI once per tab) — feed ~50% of articles
+ *  WEEKLY SUMMARY (AI once per tab)
  *  ========================= */
 function firstHalfWords(plain = "", capPerItem = 600) {
   if (!plain) return "";
@@ -226,11 +406,25 @@ function firstHalfWords(plain = "", capPerItem = 600) {
   return words.slice(0, Math.min(capPerItem, half)).join(" ");
 }
 
+function contextOfTab(tabName) {
+  // "hightech" | "telecoms" | "company_microsoft" | "company_sage" | etc.
+  if (tabName === "hightech" || tabName === "telecoms") return tabName;
+  if (tabName.startsWith("company_")) return tabName;
+  return "general";
+}
+
 async function generateWeeklyBullets(tabName, items) {
+  // Guard: never call the model without items
+  if (!items || items.length === 0) {
+    return { bullets: [], note: "no source items" };
+  }
+
+  const ctx = contextOfTab(tabName);
+
   // Build rich context: up to N items, each with ~50% body (capped)
-  const CONTEXT_ITEM_LIMIT = 60;     // up to 60 items
-  const WORDS_PER_ITEM_CAP = 600;    // cap per item (keeps tokens sane)
-  const TOTAL_WORD_BUDGET = 10000;   // soft global cap (~10k words of body text)
+  const CONTEXT_ITEM_LIMIT = 60;
+  const WORDS_PER_ITEM_CAP = 600;
+  const TOTAL_WORD_BUDGET = 10000;
 
   const ctxParts = [];
   let totalWords = 0;
@@ -240,12 +434,15 @@ async function generateWeeklyBullets(tabName, items) {
     if (totalWords + w > TOTAL_WORD_BUDGET) break;
     totalWords += w;
 
+    // Hint UK context per item
+    const ukTag = ukSignals(it, ctx) > 0 ? "[UK-relevant]" : "";
     ctxParts.push(
-      `${i + 1}. TITLE: ${it.title}\nSOURCE: ${it.source}\nURL: ${it.url}\nTEXT:\n${half}\n---`
+      `${i + 1}. ${ukTag} TITLE: ${it.title}\nSOURCE: ${it.source}\nURL: ${it.url}\nTEXT:\n${half}\n---`
     );
   }
   const context = ctxParts.join("\n");
 
+  // Fallback path (no key) — deterministic and provenance-safe
   if (!process.env.OPENAI_API_KEY) {
     const bullets = items.slice(0, 10).map((it) => ({
       text: `**${it.title}** (${it.source})`,
@@ -258,11 +455,10 @@ async function generateWeeklyBullets(tabName, items) {
     const { default: OpenAI } = await import("openai");
     const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
-    // 🔁 UPDATED PROMPT — Niv is an enthusiast/curator who READ the articles (not the author)
     const system =
-      "You are Niv, a concise UK tech & telecoms industry enthusiast and curator. You READ articles from reputable sources and share takeaways; you DID NOT write the original pieces. Produce exactly 10 items. EACH item must be ONE clean sentence in first person ('I'), personable but factual, no emojis, and you may bold KEY TERMS/COMPANIES using **double asterisks**. Do not claim authorship or exclusives. Attribute ideas implicitly (e.g., 'I’m seeing...', 'I noticed...'). Return STRICT JSON only: {\"bullets\":[{\"text\":\"...\",\"urls\":[\"...\"]}, ...]}. 'urls' must come ONLY from the provided items (1–3 per bullet).";
+      "You are Niv, a concise UK tech & telecoms curator. You READ official posts and reputable sources; you did NOT write them. Produce exactly 10 items. Each item must be ONE clean sentence in first person ('I'), no emojis. You may bold KEY TERMS/COMPANIES with **double asterisks**. Do not claim authorship or exclusives. IMPORTANT: Use ONLY the provided items. Prefer items marked [UK-relevant] when choosing what to include or emphasize. If the dataset is empty, return {\"bullets\":[]} and nothing else. Return STRICT JSON only: {\"bullets\":[{\"text\":\"...\",\"urls\":[\"...\"]}, ...]}. 'urls' must come ONLY from the provided items (1–3 per bullet).";
     const user =
-      `Create my weekly summary for "${tabName}" based ONLY on this dataset. Each item includes TITLE, SOURCE, URL, and TEXT (~50% of the article body):\n\n${context}`;
+      `Create my weekly summary for "${tabName}" based ONLY on this dataset. Prioritise UK-relevant items when selecting and wording. Each item includes TITLE, SOURCE, URL, and TEXT (~50% of the article body):\n\n${context}`;
 
     const resp = await client.chat.completions.create({
       model: "gpt-4o-mini",
@@ -270,7 +466,7 @@ async function generateWeeklyBullets(tabName, items) {
         { role: "system", content: system },
         { role: "user", content: user },
       ],
-      temperature: 0.3,
+      temperature: 0.25,
       response_format: { type: "json_object" },
     });
 
@@ -282,17 +478,24 @@ async function generateWeeklyBullets(tabName, items) {
       parsed = null;
     }
 
-    let bullets;
+    // Deterministic fallback list
+    let bullets = items.slice(0, 10).map((it) => ({
+      text: `**${it.title}** (${it.source})`,
+      url: it.url,
+    }));
+
     if (parsed && Array.isArray(parsed.bullets) && parsed.bullets.length) {
-      bullets = parsed.bullets.slice(0, 10).map((b) => ({
+      // Provenance allowlist: only keep URLs we actually ingested
+      const allowed = new Set(items.map((it) => it.url).filter(Boolean));
+      const fromModel = parsed.bullets.slice(0, 10).map((b) => ({
         text: String(b.text || "").trim(),
         url: Array.isArray(b.urls) && b.urls[0] ? String(b.urls[0]) : undefined,
       }));
-    } else {
-      bullets = items.slice(0, 10).map((it) => ({
-        text: `**${it.title}** (${it.source})`,
-        url: it.url,
-      }));
+      const vetted = fromModel.filter((b) => b.url && allowed.has(b.url));
+
+      if (vetted.length > 0) {
+        bullets = vetted;
+      }
     }
 
     return { bullets };
@@ -305,11 +508,10 @@ async function generateWeeklyBullets(tabName, items) {
   }
 }
 
-
 /** =========================
- *  SCORING / ORDERING
+ *  SCORING / ORDERING with UK weighting
  *  ========================= */
-function annotateHotness(items) {
+function annotateHotness(items, context) {
   const map = new Map();
   items.forEach((it, idx) => {
     const key = normalizeTitle(it.title);
@@ -324,15 +526,11 @@ function annotateHotness(items) {
     const size = idxs.length;
     for (const i of idxs) {
       const item = out[i];
-      const pop = Math.log1p(size || 1);
-      const age = ageDays(item.publishedAt);
-      const recency = Math.max(0, 1.5 - 0.12 * age);
-      const analysis = detectTopTake(item.title) ? 0.5 : 0;
-      const authority = sourceAuthority(item.source);
-      const score = +(1 + pop + recency + analysis + authority).toFixed(3);
+      const score = scoreItem(item, size, context);
 
       const tags = [...(item.tags || [])];
       if (detectTopTake(item.title)) tags.push("top-take");
+      if (ukSignals(item, context) > 0) tags.push("uk");
 
       out[i] = { ...item, score, groupSize: size, tags };
     }
@@ -347,7 +545,6 @@ function annotateHotness(items) {
 
   return out;
 }
-
 
 /** =========================
  *  PROCESSORS
@@ -365,7 +562,7 @@ async function processGroupWeekly(key, urls) {
     enriched.push(await addFullText(it));
   }
 
-  const ranked = annotateHotness(enriched);
+  const ranked = annotateHotness(enriched, key); // <-- pass context ("hightech" or "telecoms")
   await writeJson(`${key}.json`, ranked);
 
   const summary = await generateWeeklyBullets(key, ranked);
@@ -374,7 +571,7 @@ async function processGroupWeekly(key, urls) {
     path.join(SUMMARY_DIR, `${key}.json`),
     JSON.stringify({ generatedAt: new Date().toISOString(), ...summary }, null, 2)
   );
-  console.log(`wrote summaries/${key}.json (10 bullets)`);
+  console.log(`wrote summaries/${key}.json (${(summary?.bullets || []).length} bullets)`);
 }
 
 async function processCompanyWeekly(company, rssUrls) {
@@ -390,24 +587,28 @@ async function processCompanyWeekly(company, rssUrls) {
     enriched.push(await addFullText(it));
   }
 
-  const ranked = annotateHotness(enriched);
+  const context = `company_${company}`;
+  const ranked = annotateHotness(enriched, context);
   await writeJson(`company/${company}.json`, ranked);
 
-  const summary = await generateWeeklyBullets(`company_${company}`, ranked);
+  const summary = await generateWeeklyBullets(context, ranked);
   await fs.mkdir(SUMMARY_DIR, { recursive: true });
   await fs.writeFile(
     path.join(SUMMARY_DIR, `company_${company}.json`),
     JSON.stringify({ generatedAt: new Date().toISOString(), ...summary }, null, 2)
   );
-  console.log(`wrote summaries/company_${company}.json (10 bullets)`);
+  console.log(`wrote summaries/company_${company}.json (${(summary?.bullets || []).length} bullets)`);
 }
 
 /** =========================
  *  MAIN
  *  ========================= */
 async function main() {
+  // Groups
   await processGroupWeekly("hightech", SOURCES.hightech);
   await processGroupWeekly("telecoms", SOURCES.telecoms);
+
+  // Companies (first-party widened sources)
   await processCompanyWeekly("microsoft", COMPANY_RSS.microsoft);
   await processCompanyWeekly("sage", COMPANY_RSS.sage);
 }
@@ -417,8 +618,6 @@ export async function runAll() {
 }
 
 // Only run when directly invoked via CLI: `node scripts/ingest.mjs`
-import { fileURLToPath } from "node:url";
-// reuse the top-level `path` import already in this file
 const isDirect =
   process.argv?.[1] &&
   fileURLToPath(import.meta.url) === path.resolve(process.argv[1]);
@@ -429,5 +628,3 @@ if (isDirect) {
     process.exit(1);
   });
 }
-
-

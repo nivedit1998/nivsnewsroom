@@ -1,45 +1,45 @@
 {
-  "generatedAt": "2025-08-23T23:26:25.606Z",
+  "generatedAt": "2025-08-24T01:21:23.843Z",
   "bullets": [
     {
-      "text": "I’m seeing a growing conversation around **6G**, with discussions on its potential to be both evolutionary and revolutionary, particularly in terms of deployment and capabilities, as the industry prepares for its arrival by 2030.",
-      "url": "https://www.rcrwireless.com/20250822/6g/6g-evolution-revolution"
-    },
-    {
-      "text": "I noticed that **Bharti Hexacom** shareholders have approved the sale of 3,400 towers to **Indus Towers**, which is part of a larger deal involving 16,100 towers from **Bharti Airtel** and Hexacom combined.",
-      "url": "https://www.rcrwireless.com/20250822/5g/bharti-hexacom"
-    },
-    {
-      "text": "I’m observing **LG** expanding its AI infrastructure cooling solutions in Asia, securing a major contract for a data center in Jakarta, aiming to boost its annual sales significantly.",
-      "url": "https://www.rcrwireless.com/20250822/ai-infrastructure/lg-ai"
-    },
-    {
-      "text": "I’m seeing **Telefonica** extend its 5G core network contract with **Huawei** until 2030, despite ongoing scrutiny from the EU regarding reliance on high-risk vendors.",
-      "url": "https://www.rcrwireless.com/20250822/5g/huawei-telefonica"
-    },
-    {
-      "text": "I noticed that **Crusoe** has acquired **Atero** to enhance its AI infrastructure, marking its expansion into the Middle East with a new office in Tel Aviv.",
-      "url": "https://www.rcrwireless.com/20250822/ai-infrastructure/crusoe-ai-infra"
-    },
-    {
-      "text": "I’m seeing **Meta** sign a $10 billion AI compute deal with **Google Cloud**, which is expected to significantly bolster its AI capabilities over the next six years.",
-      "url": "https://www.rcrwireless.com/20250822/business/meta-google-ai"
-    },
-    {
-      "text": "I’m observing that **Boldyn Networks** has launched the UK’s first open-RAN neutral-host 5G system at Sunderland’s Stadium of Light, enhancing connectivity for fans and the venue.",
+      "text": "I learned that **Boldyn Networks** has launched the UK’s first open-RAN neutral-host 5G system at Sunderland’s Stadium of Light, partnering with **Virgin Media O2** to enhance connectivity for fans and improve digital services.",
       "url": "https://www.rcrwireless.com/20250822/private-5g/boldyn-5g-sunderland-chesapeake"
     },
     {
-      "text": "I’m noticing that the **CSP** sector is grappling with the challenge of evolving networks to meet the demands of agentic AI, while also managing rising data usage and new device types.",
-      "url": "https://www.rcrwireless.com/20250822/analyst-angle/csp-agentic-ai"
+      "text": "I found out that the **Online Safety Act** is driving users towards risky free VPN services, raising concerns about data privacy and security as many inadvertently expose their data to servers in jurisdictions with poor privacy standards.",
+      "url": "https://www.telecomstechnews.com/news/online-safety-act-sparks-rush-free-vpn-services/"
     },
     {
-      "text": "I’m seeing **BT** expand its cloud partnership with **AWS** through a new five-year agreement aimed at modernizing its technology and improving customer experiences.",
+      "text": "I discovered that the UK’s full-fibre broadband rollout is nearing 80%, with **Openreach** leading the charge by adding nearly a million new full-fibre premises in the first half of 2025.",
+      "url": "https://totaltele.com/uk-fibre-rollout-nears-80-as-overbuild-rises-and-competition-shifts/"
+    },
+    {
+      "text": "I noted that despite a stagnant overall broadband market, full-fibre adoption in the UK surged, with **Openreach** extending its network to over 19 million premises and adding 566,000 new full-fibre customers in a single quarter.",
+      "url": "https://www.telecomstechnews.com/news/uk-full-fibre-adoption-despite-stagnant-broadband-market/"
+    },
+    {
+      "text": "I learned that **EE** has been named the best overall mobile network in the UK for the twelfth consecutive year, achieving a median download speed of 110.8 Mbps, which is more than double that of its closest competitor, **Vodafone**.",
+      "url": "https://www.telecomstechnews.com/news/ee-still-uk-best-mobile-network-after-twelve-years/"
+    },
+    {
+      "text": "I found that **BT Group** has signed a new five-year cloud partnership with **AWS** to enhance its customer solutions and modernize its technology infrastructure, aiming for improved agility and customer experience.",
       "url": "https://totaltele.com/bt-signs-new-five-year-cloud-partnership-with-aws/"
     },
     {
-      "text": "I noticed that **TPG** has suffered a data breach affecting 280,000 customers, highlighting ongoing cybersecurity challenges within the telecom sector.",
-      "url": "https://totaltele.com/tpg-suffers-data-breach-impacting-280000-customers/"
+      "text": "I noted that **Boldyn Networks** and **VMO2** are enhancing 5G connectivity at Sunderland’s Stadium of Light, showcasing a pioneering Open RAN technology that significantly improves the fan experience during events.",
+      "url": "https://totaltele.com/boldyn-networks-and-vmo2-deploy-open-ran-5g-at-sunderlands-stadium-of-light/"
+    },
+    {
+      "text": "I learned that **Equinix** is exploring nuclear power to support its data centers, aiming to address future energy demands and enhance sustainability in its operations.",
+      "url": "https://totaltele.com/equinix-leans-into-nuclear-power-for-its-data-centre-empire/"
+    },
+    {
+      "text": "I discovered that the telecoms industry is grappling with the challenge of transitioning to disaggregated networks, with many operators acknowledging the need for change but struggling to implement it effectively.",
+      "url": "https://www.telecomstechnews.com/news/telcos-want-future-ready-disaggregated-networks-cant-deliver/"
+    },
+    {
+      "text": "I found that **Huawei** has broken its silence on chip technology, revealing its new Kirin 9020 processor amidst ongoing US sanctions, indicating a shift towards greater transparency in its operations.",
+      "url": "https://www.telecomstechnews.com/news/huawei-chip-reveal-breaks-silence-us-sanctions/"
     }
   ]
 }
