@@ -140,7 +140,7 @@ const UK_KEYWORDS = [
   " belfast",
   " ofcom",
   " regulator ofcom",
-  " nhs", // often signals UK context
+  " nhs",
 ];
 
 const UK_TELECOM_TERMS = [
@@ -175,7 +175,6 @@ function ukSignals(item, context = "general") {
   if (context === "telecoms") {
     companyHit = UK_TELECOM_TERMS.some((kw) => haystack.includes(kw));
   } else if (context.startsWith("company_")) {
-    // Company tabs: prefer posts that explicitly mention a UK angle
     companyHit =
       haystack.includes(" microsoft uk") ||
       haystack.includes(" sage uk") ||
@@ -184,22 +183,13 @@ function ukSignals(item, context = "general") {
       haystack.includes(" london");
   }
 
-  // Tunable weights (additive, then clipped)
   const wDomain = domainHit ? 0.9 : 0;
   const wKeyword = keywordHit ? 0.7 : 0;
   const wCompany = companyHit ? 0.8 : 0;
 
-  let score = wDomain + wKeyword + wCompany;
+  let score = (wDomain + wKeyword + wCompany) *
+    (context === "telecoms" ? 1.15 : context.startsWith("company_") ? 1.1 : 1.0);
 
-  // Contextual multiplier
-  const mult =
-    context === "telecoms" ? 1.15 :
-    context === "hightech" ? 1.0 :
-    context.startsWith("company_") ? 1.1 : 1.0;
-
-  score = score * mult;
-
-  // Clip to a reasonable maximum so UK bias doesn't dominate recency entirely
   return Math.min(score, 2.2);
 }
 
@@ -274,7 +264,6 @@ function detectTopTake(title = "") {
 function sourceAuthority(host = "") {
   const h = host.replace(/^www\./, "").toLowerCase();
   const table = {
-    // High-tech/telecom pubs
     "theverge.com": 0.25,
     "techcrunch.com": 0.25,
     "cnet.com": 0.2,
@@ -282,17 +271,14 @@ function sourceAuthority(host = "") {
     "totaltele.com": 0.2,
     "telecomstechnews.com": 0.15,
 
-    // Microsoft first-party
     "blogs.microsoft.com": 0.3,
     "azure.microsoft.com": 0.3,
     "microsoft.com": 0.25,
     "blogs.windows.com": 0.3,
     "devblogs.microsoft.com": 0.3,
 
-    // Sage first-party
     "sage.com": 0.25,
 
-    // UK sources (extra nudge if they appear)
     "ofcom.org.uk": 0.35,
     "openreach.co.uk": 0.3,
     "bt.com": 0.3,
@@ -324,13 +310,8 @@ function scoreItem(it, groupSize, context) {
   const recency = Math.max(0, 1.5 - 0.12 * age);
   const analysis = detectTopTake(it.title) ? 0.5 : 0;
   const authority = sourceAuthority(it.source);
-
-  // UK relevance boost
-  const ukBoost = ukSignals(it, context); // 0..~2.2
-
-  // Weight blend: keep recency important, but let UK raise rank meaningfully
-  const score = +(1 + pop + recency + analysis + authority + ukBoost).toFixed(3);
-  return score;
+  const ukBoost = ukSignals(it, context);
+  return +(1 + pop + recency + analysis + authority + ukBoost).toFixed(3);
 }
 
 /** =========================
@@ -397,8 +378,24 @@ async function writeJson(relPath, data) {
 }
 
 /** =========================
- *  WEEKLY SUMMARY (AI once per tab)
+ *  WEEKLY SUMMARY (AI once per tab) — PUNCHY STYLE
  *  ========================= */
+// helpers for punchy bullets
+function sluggyWords(s = "", max = 5) {
+  const cleaned = String(s).replace(/[^\w\s\-&]/g, " ").replace(/\s+/g, " ").trim();
+  const stop = new Set([
+    "the","a","an","and","of","for","to","in","on","from","with","by","at","as","is","are","was","were","this","that"
+  ]);
+  const words = cleaned.split(" ").filter((w) => !stop.has(w.toLowerCase()));
+  return words.slice(0, max).join(" ");
+}
+
+function makePunchyFallback(it) {
+  const lead = sluggyWords(it.title, 5);
+  // **Lead** — short insight (fallback uses title if no model)
+  return `**${lead}** — ${it.source ? `(${it.source}) ` : ""}${it.title}`;
+}
+
 function firstHalfWords(plain = "", capPerItem = 600) {
   if (!plain) return "";
   const words = plain.trim().split(/\s+/);
@@ -407,14 +404,12 @@ function firstHalfWords(plain = "", capPerItem = 600) {
 }
 
 function contextOfTab(tabName) {
-  // "hightech" | "telecoms" | "company_microsoft" | "company_sage" | etc.
   if (tabName === "hightech" || tabName === "telecoms") return tabName;
   if (tabName.startsWith("company_")) return tabName;
   return "general";
 }
 
 async function generateWeeklyBullets(tabName, items) {
-  // Guard: never call the model without items
   if (!items || items.length === 0) {
     return { bullets: [], note: "no source items" };
   }
@@ -434,7 +429,6 @@ async function generateWeeklyBullets(tabName, items) {
     if (totalWords + w > TOTAL_WORD_BUDGET) break;
     totalWords += w;
 
-    // Hint UK context per item
     const ukTag = ukSignals(it, ctx) > 0 ? "[UK-relevant]" : "";
     ctxParts.push(
       `${i + 1}. ${ukTag} TITLE: ${it.title}\nSOURCE: ${it.source}\nURL: ${it.url}\nTEXT:\n${half}\n---`
@@ -442,10 +436,10 @@ async function generateWeeklyBullets(tabName, items) {
   }
   const context = ctxParts.join("\n");
 
-  // Fallback path (no key) — deterministic and provenance-safe
+  // Fallback (no key)
   if (!process.env.OPENAI_API_KEY) {
     const bullets = items.slice(0, 10).map((it) => ({
-      text: `**${it.title}** (${it.source})`,
+      text: makePunchyFallback(it),
       url: it.url,
     }));
     return { bullets, note: "fallback (no OPENAI_API_KEY)" };
@@ -455,10 +449,20 @@ async function generateWeeklyBullets(tabName, items) {
     const { default: OpenAI } = await import("openai");
     const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
-    const system =
-      "You are Niv, a concise UK tech & telecoms curator. You READ official posts and reputable sources; you did NOT write them. Produce exactly 10 items. Each item must be ONE clean sentence in first person ('I'), no emojis. You may bold KEY TERMS/COMPANIES with **double asterisks**. Do not claim authorship or exclusives. IMPORTANT: Use ONLY the provided items. Prefer items marked [UK-relevant] when choosing what to include or emphasize. If the dataset is empty, return {\"bullets\":[]} and nothing else. Return STRICT JSON only: {\"bullets\":[{\"text\":\"...\",\"urls\":[\"...\"]}, ...]}. 'urls' must come ONLY from the provided items (1–3 per bullet).";
-    const user =
-      `Create my weekly summary for "${tabName}" based ONLY on this dataset. Prioritise UK-relevant items when selecting and wording. Each item includes TITLE, SOURCE, URL, and TEXT (~50% of the article body):\n\n${context}`;
+    const system = [
+      "You are Niv, a concise UK tech & telecoms curator.",
+      "Write in a crisp editorial tone. No first-person. No 'I saw / I read / I learned'.",
+      "For EACH item:",
+      "- Start with a PUNCH LEAD: 2–5 words that capture the gist, in Title Case, enthusiastic but professional.",
+      "- Then an em dash (—) and ONE short insight sentence (≤ 20 words).",
+      "- You may bold KEY TERMS/COMPANIES using **double asterisks**.",
+      "- Use ONLY the provided items; do not invent facts.",
+      "Return STRICT JSON only: {\"bullets\":[{\"text\":\"...\",\"urls\":[\"...\"]}, ...]}",
+      "If you include URLs, they must come from the provided items (1–3 per bullet).",
+      "Prefer items marked [UK-relevant] when selecting or phrasing."
+    ].join(" ");
+
+    const user = `Create my weekly summary for "${tabName}" based ONLY on this dataset:\n\n${context}`;
 
     const resp = await client.chat.completions.create({
       model: "gpt-4o-mini",
@@ -472,36 +476,46 @@ async function generateWeeklyBullets(tabName, items) {
 
     const raw = resp.choices?.[0]?.message?.content || "{}";
     let parsed;
-    try {
-      parsed = JSON.parse(raw);
-    } catch {
-      parsed = null;
-    }
+    try { parsed = JSON.parse(raw); } catch { parsed = null; }
 
-    // Deterministic fallback list
+    // Default to punchy fallback list
     let bullets = items.slice(0, 10).map((it) => ({
-      text: `**${it.title}** (${it.source})`,
+      text: makePunchyFallback(it),
       url: it.url,
     }));
 
     if (parsed && Array.isArray(parsed.bullets) && parsed.bullets.length) {
-      // Provenance allowlist: only keep URLs we actually ingested
+      // Only keep URLs we actually ingested
       const allowed = new Set(items.map((it) => it.url).filter(Boolean));
-      const fromModel = parsed.bullets.slice(0, 10).map((b) => ({
-        text: String(b.text || "").trim(),
-        url: Array.isArray(b.urls) && b.urls[0] ? String(b.urls[0]) : undefined,
-      }));
-      const vetted = fromModel.filter((b) => b.url && allowed.has(b.url));
+      const fromModel = parsed.bullets.slice(0, 10).map((b) => {
+        const firstUrl =
+          Array.isArray(b.urls) && b.urls[0] && allowed.has(String(b.urls[0]))
+            ? String(b.urls[0])
+            : undefined;
+        return {
+          text: String(b.text || "").trim(),
+          url: firstUrl,
+        };
+      });
 
-      if (vetted.length > 0) {
-        bullets = vetted;
+      // Safety: remove accidental first-person starts and tidy whitespace
+      const cleaned = fromModel.map((b) => ({
+        ...b,
+        text: b.text
+          .replace(/^\s*i\s+|^\s*i['’]m\s+/i, "")
+          .replace(/\s+/g, " ")
+          .trim(),
+      }));
+
+      if (cleaned.some((b) => b.text)) {
+        bullets = cleaned;
       }
     }
 
     return { bullets };
   } catch (e) {
     const bullets = items.slice(0, 10).map((it) => ({
-      text: `**${it.title}** (${it.source})`,
+      text: makePunchyFallback(it),
       url: it.url,
     }));
     return { bullets, note: "fallback (summary generation error)" };
@@ -562,7 +576,7 @@ async function processGroupWeekly(key, urls) {
     enriched.push(await addFullText(it));
   }
 
-  const ranked = annotateHotness(enriched, key); // <-- pass context ("hightech" or "telecoms")
+  const ranked = annotateHotness(enriched, key);
   await writeJson(`${key}.json`, ranked);
 
   const summary = await generateWeeklyBullets(key, ranked);
