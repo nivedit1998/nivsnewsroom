@@ -66,35 +66,76 @@ function makeZonedDate(
   return new Date(utcGuess - offsetMin * 60000);
 }
 
-/** Next Monday 09:00 Europe/London (or today if it's Monday but before 09:00). Returns ISO Z. */
-function nextMonday0900LondonISO(now: Date = new Date()): string {
+/** Get "now" as a Date (UTC instant) but with London parts handy */
+function nowLondon() {
+  const tz = "Europe/London";
+  const now = new Date();
+  const p = fmtParts(now, tz);
+  return { tz, now, parts: p, weekday: getWeekday(now, tz) }; // weekday: 0..6 (Sun..Sat)
+}
+
+/** Monday of the week containing 'd' in London local time */
+function mondayOfThisWeekLondon(d: Date) {
+  const tz = "Europe/London";
+  const p = fmtParts(d, tz);
+  const weekday = getWeekday(d, tz); // Sun=0 .. Sat=6
+  // Build date at local midnight
+  const dayStart = makeZonedDate(p.year, p.month, p.day, 0, 0, 0, tz);
+  const diffToMonday = ((weekday + 6) % 7); // Mon=1 -> 0, Tue=2 -> 1, Sun=0 -> 6
+  const monday = new Date(dayStart.getTime() - diffToMonday * 24 * 60 * 60 * 1000);
+  return monday;
+}
+
+/** Previous week's Monday (start) and Sunday (end) in London */
+function lastWeekRangeLondon(reference: Date = new Date()) {
+  // Get Monday of current week, then subtract 7 days to get last Monday
+  const thisMonday = mondayOfThisWeekLondon(reference);
+  const lastMonday = new Date(thisMonday.getTime() - 7 * 86400000);
+  const lastSunday = new Date(lastMonday.getTime() + 6 * 86400000);
+  return { start: lastMonday, end: lastSunday };
+}
+
+/** Format a date like "18 Aug 2025" (en-GB) */
+function formatDayMonthYear(d: Date) {
+  return new Intl.DateTimeFormat("en-GB", {
+    timeZone: "Europe/London",
+    day: "2-digit",
+    month: "short",
+    year: "numeric",
+  }).format(d);
+}
+
+/** Format a range like "18–24 Aug 2025" (en-GB) */
+function formatWeekRangeLabel(start: Date, end: Date) {
+  const startStr = new Intl.DateTimeFormat("en-GB", {
+    timeZone: "Europe/London",
+    day: "2-digit",
+    month: "short",
+  }).format(start);
+  const endStr = formatDayMonthYear(end);
+  return `${startStr}–${endStr}`;
+}
+
+/** Next Monday 10:00 Europe/London (returns ISO Z) */
+function nextMonday1000LondonISO(now: Date = new Date()): string {
   const tz = "Europe/London";
   const p = fmtParts(now, tz);
   const weekdayLon = getWeekday(now, tz); // 0..6 (Sun..Sat)
 
-  // Base date in UTC corresponding to London local date (midnight)
+  // Base date at London local midnight (as UTC instant)
   const baseUTC = Date.UTC(p.year, p.month - 1, p.day);
   const base = new Date(baseUTC);
 
-  // Days forward to Monday
+  // Days forward to Monday (1)
   let addDays = (1 - weekdayLon + 7) % 7;
+  if (addDays === 0) addDays = 7; // if today is Monday, move to next Monday
 
-  // If it's Monday but already past 09:00 London, push a week
-  if (addDays === 0) {
-    const nineToday = makeZonedDate(p.year, p.month, p.day, 9, 0, 0, tz);
-    if (now.getTime() >= nineToday.getTime()) addDays = 7;
-  }
-
-  // Target calendar date (UTC container), then construct a 09:00 London instant
   const targetBase = new Date(base);
   targetBase.setUTCDate(targetBase.getUTCDate() + addDays);
-
   const y = targetBase.getUTCFullYear();
   const m = targetBase.getUTCMonth() + 1;
   const d = targetBase.getUTCDate();
-
-  const sendInstant = makeZonedDate(y, m, d, 9, 0, 0, tz);
-  return sendInstant.toISOString();
+  return makeZonedDate(y, m, d, 10, 0, 0, tz).toISOString();
 }
 
 /* --------------------------- File helpers -------------------------- */
@@ -125,7 +166,6 @@ function stripUrls(s: string) {
 /** Escape, then allow **bold** via <strong>. */
 function escWithBold(text: string) {
   const escaped = esc(text);
-  // Convert **bold** to <strong>bold</strong> after escaping
   return escaped.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
 }
 
@@ -133,10 +173,9 @@ function escWithBold(text: string) {
 
 function renderSection(title: string, bullets: Bullet[]) {
   const items = bullets
-    .slice(0, 5) // Top 5 only
+    .slice(0, 5)
     .map((b) => {
       const clean = escWithBold(stripUrls(b.text || ""));
-      // No anchors here — plain text only (with bold allowed)
       return `
         <li style="margin:0 0 12px 0;line-height:1.7;color:#111">
           ${clean}
@@ -150,7 +189,6 @@ function renderSection(title: string, bullets: Bullet[]) {
 }
 
 function renderEmailHTML(weekLabel: string, hightech: Bullet[], telecoms: Bullet[]) {
-  // Preheader: improves inbox preview, hidden in body
   const preheader = "Top 5 from High Tech & Telecoms — concise and curated.";
   return `<!doctype html>
 <html>
@@ -231,13 +269,46 @@ function renderEmailHTML(weekLabel: string, hightech: Bullet[], telecoms: Bullet
 </html>`;
 }
 
+/* ------------------ Scheduling helpers for your exact rule ------------------ */
+
+/**
+ * Decide publish time:
+ * - If today is Monday (Europe/London):
+ *    - schedule for 10:00 today if current time < 10:00
+ *    - otherwise schedule ASAP (now + 2 minutes)
+ * - Otherwise schedule for next Monday 10:00 London
+ */
+function decidePublishISO(): string {
+  const { tz, now, parts, weekday } = nowLondon();
+
+  // Monday?
+  if (weekday === 1) {
+    const tenToday = makeZonedDate(parts.year, parts.month, parts.day, 10, 0, 0, tz);
+    if (now.getTime() < tenToday.getTime()) {
+      return tenToday.toISOString();
+    }
+    // After 10:00 — send asap (pad 2 minutes for safety)
+    return new Date(now.getTime() + 2 * 60 * 1000).toISOString();
+  }
+
+  // Not Monday — schedule next Monday 10:00
+  return nextMonday1000LondonISO(now);
+}
+
+/** Subject uses "Last Week's ..." and includes last week's Mon–Sun range */
+function buildSubject(): string {
+  const { start, end } = lastWeekRangeLondon(new Date());
+  const rangeLabel = formatWeekRangeLabel(start, end); // e.g., "18–24 Aug 2025"
+  return `Nivs Tech Pulse - Last Week's Top 5 News Summary (${rangeLabel})`;
+}
+
 /* ------------------------- Main controller ------------------------- */
 
 async function composeAndSchedule(mode: "scheduled" | "draft" = "scheduled") {
   const apiKey = process.env.BUTTONDOWN_API_KEY;
   if (!apiKey) {
     return NextResponse.json({ ok: false, error: "Missing BUTTONDOWN_API_KEY" }, { status: 500 });
-    }
+  }
 
   const [ht, tc] = await Promise.all([
     readSummary("hightech.json"),
@@ -250,16 +321,15 @@ async function composeAndSchedule(mode: "scheduled" | "draft" = "scheduled") {
     return NextResponse.json({ ok: false, error: "No bullets available" }, { status: 400 });
   }
 
-  const weekLabel = new Intl.DateTimeFormat("en-GB", {
-    timeZone: "Europe/London",
-    day: "2-digit",
-    month: "short",
-    year: "numeric",
-  }).format(new Date());
+  // For the "Week of" line inside the email body, show the previous Sunday's date
+  const { end: lastSun } = lastWeekRangeLondon(new Date());
+  const weekLabel = formatDayMonthYear(lastSun);
 
-  const subject = `Niv’s Tech and Telecom Pulse — Top 5 each (Week of ${weekLabel})`;
+  const subject = buildSubject();
   const html = renderEmailHTML(weekLabel, hightech, telecoms);
-  const publishISO = nextMonday0900LondonISO();
+
+  // Decide publish time based on the rule you want
+  const publishISO = decidePublishISO();
 
   const payload: any = {
     subject,
