@@ -1,45 +1,25 @@
 {
-  "generatedAt": "2025-08-24T01:56:59.695Z",
+  "generatedAt": "2025-08-25T10:53:22.329Z",
   "bullets": [
     {
-      "text": "I learned that **Microsoft** is rolling out Windows 11 Insider Preview Build 26200.5761, which includes the ability to seamlessly resume apps from an Android phone on a Windows 11 PC, starting with **Spotify** integration.",
+      "text": "Windows 11 Insider Preview Updates - New features for seamless app resumption from Android to PC are rolling out.",
       "url": "https://blogs.windows.com/blog/2025/08/22/announcing-windows-11-insider-preview-build-26200-5761-dev-channel/"
     },
     {
-      "text": "I found out that **Microsoft** is also releasing Windows 11 Insider Preview Build 26120.5761 to the Beta Channel, featuring the same cross-device app resume capability for **Spotify**.",
-      "url": "https://blogs.windows.com/windows-insider/2025/08/22/announcing-windows-11-insider-preview-build-26120-5761-beta-channel/"
+      "text": "Gartner Magic Quadrant Leader - Microsoft recognized as a leader for Cloud-Native Application Platforms for the second consecutive year.",
+      "url": "https://azure.microsoft.com/en-us/blog/microsoft-is-a-leader-in-the-2025-gartner-magic-quadrant-for-cloud-native-application-platforms/"
     },
     {
-      "text": "I discovered that **Microsoft** is enhancing the Xbox PC App with a new 'My Apps' feature, allowing users to access games and essential third-party applications more conveniently.",
-      "url": "https://blogs.windows.com/windowsexperience/2025/08/22/pc-players-get-to-games-faster-through-my-apps/"
-    },
-    {
-      "text": "I noted that **Microsoft** is addressing the growing popularity of the ClickFix social engineering technique, which targets users to run malicious commands, highlighting the need for user education and robust security measures.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2025/08/21/think-before-you-clickfix-analyzing-the-clickfix-social-engineering-technique/"
-    },
-    {
-      "text": "I read that **Microsoft** is making strides in quantum-safe security by collaborating with various organizations to develop post-quantum cryptography standards, preparing for future quantum computing threats.",
+      "text": "Advancements in Quantum Safety - Microsoft is preparing for quantum-safe cryptography to secure future digital infrastructures.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/08/20/quantum-safe-security-progress-towards-next-generation-cryptography/"
     },
     {
-      "text": "I learned that **Microsoft** is promoting the concept of 'Frontier Firms', which leverage cloud and AI modernization to transform their operations and gain competitive advantages.",
-      "url": "https://azure.microsoft.com/en-us/blog/building-the-frontier-firm-with-microsoft-azure-the-business-case-for-cloud-and-ai-modernization/"
-    },
-    {
-      "text": "I found that **Microsoft** is advancing its Quantum Safe Program to protect infrastructure from the risks posed by quantum computing, emphasizing the importance of early preparation.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2025/08/20/quantum-safe-security-progress-towards-next-generation-cryptography/"
-    },
-    {
-      "text": "I noted that **Microsoft** is enhancing the Copilot app on Windows with semantic file search capabilities, allowing users to find files using natural language queries.",
-      "url": "https://blogs.windows.com/windows-insider/2025/08/20/copilot-on-windows-semantic-search-and-new-homepage-begin-rolling-out-to-windows-insiders/"
-    },
-    {
-      "text": "I learned about the **PipeMagic** malware framework, which is being used in sophisticated attacks, highlighting the need for organizations to bolster their defenses against evolving threats.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2025/08/18/dissecting-pipemagic-inside-the-architecture-of-a-modular-backdoor-framework/"
-    },
-    {
-      "text": "I discovered that **Microsoft** is transitioning towards multi-agent systems in AI, which can better handle complex enterprise tasks compared to traditional single-agent architectures.",
+      "text": "Multi-Agent Intelligence Design - A shift towards modular, task-specialized AI agents is essential for enterprise scalability.",
       "url": "https://devblogs.microsoft.com/blog/designing-multi-agent-intelligence"
+    },
+    {
+      "text": "ClickFix Social Engineering Threat - Microsoft highlights the ClickFix technique targeting users to execute malicious commands.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2025/08/21/think-before-you-clickfix-analyzing-the-clickfix-social-engineering-technique/"
     }
   ]
 }
