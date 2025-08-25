@@ -40,6 +40,8 @@ const SOURCES = {
   ],
   telecoms: [
     "https://telecomstechnews.com/feed",
+    "https://www.telecomstechnews.com/feed/",
+    "https://totaltele.com/category/technology/feed/",
     "https://totaltele.com/category/technology/feed/",
     "https://www.rcrwireless.com/rss",
     // (Optional UK telco-specific feeds)
