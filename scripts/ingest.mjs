@@ -393,7 +393,7 @@ function sluggyWords(s = "", max = 5) {
 function makePunchyFallback(it) {
   const lead = sluggyWords(it.title, 5);
   // **Lead** — short insight (fallback uses title if no model)
-  return `**${lead}** — ${it.source ? `(${it.source}) ` : ""}${it.title}`;
+  return `**${lead}** - ${it.source ? `(${it.source}) ` : ""}${it.title}`;
 }
 
 function firstHalfWords(plain = "", capPerItem = 600) {
@@ -454,7 +454,7 @@ async function generateWeeklyBullets(tabName, items) {
       "Write in a crisp editorial tone. No first-person. No 'I saw / I read / I learned'.",
       "For EACH item:",
       "- Start with a PUNCH LEAD: 2–5 words that capture the gist, in Title Case, enthusiastic but professional.",
-      "- Then an em dash (—) and ONE short insight sentence (≤ 20 words).",
+      "- Then an em dash (-) and ONE short insight sentence (≤ 20 words).",
       "- You may bold KEY TERMS/COMPANIES using **double asterisks**.",
       "- Use ONLY the provided items; do not invent facts.",
       "Return STRICT JSON only: {\"bullets\":[{\"text\":\"...\",\"urls\":[\"...\"]}, ...]}",
