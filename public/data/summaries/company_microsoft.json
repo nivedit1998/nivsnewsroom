@@ -1,25 +1,45 @@
 {
-  "generatedAt": "2025-08-25T01:37:46.805Z",
+  "generatedAt": "2025-08-25T08:48:34.466Z",
   "bullets": [
     {
-      "text": "Windows 11 Insider Preview Updates — New builds enhance cross-device app resumption for **Spotify** users.",
+      "text": "Windows 11 Insider Preview Updates — New features like seamless app resumption from Android phones are rolling out to Insiders.",
       "url": "https://blogs.windows.com/blog/2025/08/22/announcing-windows-11-insider-preview-build-26200-5761-dev-channel/"
     },
     {
-      "text": "Microsoft's Cloud Leadership — Recognized as a Leader in the 2025 Gartner Magic Quadrant for Cloud-Native Application Platforms.",
+      "text": "Windows 11 Beta Channel Enhancements — Similar features for app resumption from Android are now available for Beta Channel Insiders.",
+      "url": "https://blogs.windows.com/windows-insider/2025/08/22/announcing-windows-11-insider-preview-build-26120-5761-beta-channel/"
+    },
+    {
+      "text": "My Apps Feature for Xbox Insiders — A new feature allows quick access to games and third-party apps on Windows 11.",
+      "url": "https://blogs.windows.com/windowsexperience/2025/08/22/pc-players-get-to-games-faster-through-my-apps/"
+    },
+    {
+      "text": "Microsoft's Open Source Leadership — The company has evolved into a leading contributor to open source, enhancing AI capabilities.",
+      "url": "https://azure.microsoft.com/en-us/blog/microsofts-open-source-journey-from-20000-lines-of-linux-code-to-ai-at-global-scale/"
+    },
+    {
+      "text": "Gartner Magic Quadrant Recognition — Microsoft is named a Leader in Cloud-Native Application Platforms for the second consecutive year.",
       "url": "https://azure.microsoft.com/en-us/blog/microsoft-is-a-leader-in-the-2025-gartner-magic-quadrant-for-cloud-native-application-platforms/"
     },
     {
-      "text": "AI Agent Evolution — Multi-agent systems are becoming essential for enterprise AI implementations.",
+      "text": "ClickFix Social Engineering Threat — New social engineering tactics are targeting users, emphasizing the need for security awareness.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2025/08/21/think-before-you-clickfix-analyzing-the-clickfix-social-engineering-technique/"
+    },
+    {
+      "text": "Designing Multi-Agent Intelligence — The shift towards multi-agent systems is crucial for modern enterprise AI applications.",
       "url": "https://devblogs.microsoft.com/blog/designing-multi-agent-intelligence"
     },
     {
-      "text": "Quantum-Safe Security Initiatives — Microsoft is proactively developing standards for post-quantum cryptography.",
+      "text": "Windows Copilot Enhancements — New semantic search capabilities are being introduced to improve file retrieval on Windows.",
+      "url": "https://blogs.windows.com/windows-insider/2025/08/20/copilot-on-windows-semantic-search-and-new-homepage-begin-rolling-out-to-windows-insiders/"
+    },
+    {
+      "text": "Quantum-Safe Security Initiatives — Microsoft is preparing for quantum computing risks by developing post-quantum cryptography standards.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/08/20/quantum-safe-security-progress-towards-next-generation-cryptography/"
     },
     {
-      "text": "ClickFix Social Engineering Threats — New tactics observed targeting enterprise devices through user interaction.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2025/08/21/think-before-you-clickfix-analyzing-the-clickfix-social-engineering-technique/"
+      "text": "Building the Frontier Firm — Organizations are leveraging Azure for cloud and AI modernization to gain competitive advantages.",
+      "url": "https://azure.microsoft.com/en-us/blog/building-the-frontier-firm-with-microsoft-azure-the-business-case-for-cloud-and-ai-modernization/"
     }
   ]
 }
