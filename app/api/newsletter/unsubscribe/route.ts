@@ -4,7 +4,8 @@ import { supabaseAdmin } from "@/lib/supabaseAdmin";
 
 export async function GET(req: Request) {
   const url = new URL(req.url);
-  const email = url.searchParams.get("email");
+  const raw = url.searchParams.get("email");
+  const email = (raw || "").trim().toLowerCase();
   if (!email) {
     return NextResponse.redirect(new URL("/?unsub=missing", process.env.PUBLIC_SITE_URL));
   }

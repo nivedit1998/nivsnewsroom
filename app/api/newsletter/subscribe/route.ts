@@ -10,12 +10,15 @@ function isValidEmail(e: string) {
 
 export async function POST(req: Request) {
   try {
-    const { email } = await req.json();
+    const body = await req.json();
+    const raw = String(body?.email || "");
+    const email = raw.trim().toLowerCase();
     if (!isValidEmail(email)) {
       return NextResponse.json({ error: "Invalid email" }, { status: 400 });
     }
 
     const token = randomBytes(24).toString("hex");
+
     const { error } = await supabaseAdmin
       .from("subscribers")
       .upsert({ email, token, status: "pending" }, { onConflict: "email" });
