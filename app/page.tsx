@@ -1,8 +1,9 @@
 /* app/page.tsx */
 "use client";
 import { useEffect, useMemo, useState } from "react";
-import Image from "next/image"; // ✅ added import
+import Image from "next/image";
 import { Inter } from "next/font/google";
+import SubscribeForm from "@/components/SubscribeForm";
 
 const inter = Inter({ subsets: ["latin"], display: "swap" });
 
@@ -197,7 +198,6 @@ export default function HomePage() {
       >
         <div className="mx-auto flex h-full max-w-6xl items-center justify-between px-3 sm:px-4">
           <div className="flex items-center gap-2 sm:gap-3">
-            {/* ✅ Logo instead of NP pill */}
             <Image
               src="/logo.png"
               alt="NivsTechPulse Logo"
@@ -218,14 +218,12 @@ export default function HomePage() {
           </div>
 
           <div className="flex items-center gap-2">
-            {/* Absolute top (desktop only) */}
             <button
               onClick={scrollToAbsoluteTop}
               className="hidden sm:inline text-sm text-gray-700 hover:text-sky-700"
             >
               Summary
             </button>
-            {/* Section with offset (desktop only) */}
             <button
               onClick={() => scrollToIdWithNavOffset("articles")}
               className="hidden sm:inline text-sm text-gray-700 hover:text-sky-700"
@@ -233,36 +231,9 @@ export default function HomePage() {
               Articles
             </button>
 
-            {/* Desktop inline subscribe form (tight) */}
+            {/* Desktop inline subscribe form (replaces Buttondown) */}
             <div className="hidden sm:block rounded-xl border border-sky-200 bg-white/70 px-3 py-1.5 shadow-sm">
-              <form
-                action="https://buttondown.email/api/emails/embed-subscribe/nivstechpulse"
-                method="post"
-                target="popupwindow"
-                onSubmit={() => window.open('https://buttondown.email/nivstechpulse', 'popupwindow')}
-                className="flex items-center gap-2"
-              >
-                <label htmlFor="bd-email" className="sr-only">Email</label>
-                <input
-                  id="bd-email"
-                  type="email"
-                  name="email"
-                  required
-                  placeholder="you@example.com"
-                  className="w-56 rounded-lg border border-sky-200 bg-white/80 px-3 py-1.5 text-sm shadow-sm focus:outline-none focus:ring-2 focus:ring-sky-400"
-                />
-                <input type="hidden" name="tag" value="site" />
-                <input type="text" name="company" className="hidden" tabIndex={-1} autoComplete="off" />
-                <button
-                  type="submit"
-                  className="rounded-lg border border-sky-200 bg-sky-50 px-3 py-1.5 text-sky-700 text-sm hover:bg-sky-100"
-                >
-                  ✉️ Subscribe
-                </button>
-              </form>
-              <p className="mt-1 text-[11px] text-gray-500">
-                Double opt-in; unsubscribe anytime.
-              </p>
+              <SubscribeForm variant="inline" />
             </div>
 
             {/* Mobile subscribe button (toggles slide-down panel) */}
@@ -276,7 +247,7 @@ export default function HomePage() {
             </button>
           </div>
         </div>
-      </nav>Í
+      </nav>
 
       {/* Spacer so fixed nav doesn't cover content (responsive height) */}
       <div aria-hidden className="h-12 sm:h-16" />
@@ -291,36 +262,8 @@ export default function HomePage() {
         }`}
       >
         <div className="mx-auto max-w-6xl rounded-xl border border-sky-200 bg-white/90 backdrop-blur px-3 py-3 shadow-lg">
-          <form
-            action="https://buttondown.email/api/emails/embed-subscribe/nivstechpulse"
-            method="post"
-            target="popupwindow"
-            onSubmit={() => {
-              window.open('https://buttondown.email/nivstechpulse', 'popupwindow');
-              setTimeout(() => setShowSubForm(false), 400);
-            }}
-            className="flex items-center gap-2"
-          >
-            <label htmlFor="bd-email-mobile" className="sr-only">Email</label>
-            <input
-              id="bd-email-mobile"
-              type="email"
-              name="email"
-              required
-              placeholder="you@example.com"
-              className="flex-1 rounded-lg border border-sky-200 bg-white px-3 py-2 text-sm shadow-sm focus:outline-none focus:ring-2 focus:ring-sky-400"
-            />
-            <input type="hidden" name="tag" value="site" />
-            <input type="text" name="company" className="hidden" tabIndex={-1} autoComplete="off" />
-            <button
-              type="submit"
-              className="rounded-lg border border-sky-200 bg-sky-50 px-3 py-2 text-sm text-sky-700 hover:bg-sky-100"
-            >
-              Subscribe
-            </button>
-          </form>
+          <SubscribeForm variant="panel" />
           <div className="mt-2 flex items-center justify-between">
-            <p className="text-[11px] text-gray-500">Double opt-in; unsubscribe anytime.</p>
             <button
               onClick={() => setShowSubForm(false)}
               className="text-[12px] text-gray-600 hover:text-gray-800"
@@ -395,7 +338,6 @@ export default function HomePage() {
               </button>
             </div>
 
-            {/* Smooth fade on switch; keep layout intact */}
             <div className={`relative transition-opacity duration-200 ${isSwitching ? "opacity-60" : "opacity-100"}`}>
               {sumLoading && bullets.length === 0 && (
                 <p className="mt-4 text-sm text-gray-500">Loading my notes…</p>
@@ -403,14 +345,12 @@ export default function HomePage() {
 
               {bullets.length > 0 && (
                 <>
-                  {/* Orientation-aware grid: 1 col portrait, 2 col landscape, >=sm: 2 col */}
                   <ul className="mt-4 sm:mt-5 grid gap-3 sm:gap-4 grid-cols-1 landscape:grid-cols-2 sm:grid-cols-2">
                     {visibleBullets.map((b, i) => {
                       const clean = String((b as any).text || "").replace(/^•\s*/, "");
                       const url = (b as any).url as string | undefined;
-
                       const isFadedPreview =
-                        showCollapsed && i >= collapsedFadeStart && i <= collapsedFadeEnd;
+                        !showAllBullets && i >= 4 && i <= 5;
 
                       return (
                         <li
@@ -419,27 +359,22 @@ export default function HomePage() {
                             isFadedPreview ? "opacity-60 max-h-36 overflow-hidden pointer-events-none" : ""
                           }`}
                         >
-                          {/* Learn button — top-right (hidden on faded previews) */}
                           {url && (
                             <a
                               href={`${url}${url.includes("?") ? "&" : "?"}utm_source=site&utm_medium=weekly_summary`}
                               target="_blank"
                               rel="noopener noreferrer"
-                              className={`absolute right-3 top-3 ${pillBase} bg-gray-100 text-gray-700 ring-1 ring-gray-200 hover:bg-gray-200 ${
+                              className={`absolute right-3 top-3 ${"inline-flex items-center gap-1 rounded-md px-2 py-0.5 text-[11px] bg-gray-100 text-gray-700 ring-1 ring-gray-200 hover:bg-gray-200"} ${
                                 isFadedPreview ? "hidden" : ""
                               }`}
                             >
                               Learn →
                             </a>
                           )}
-
-                          {/* Inline number + statement */}
                           <p className={`text-[15px] leading-relaxed ${url ? "pr-20" : ""}`}>
                             <span className="font-extrabold text-fuchsia-700 mr-1">{i + 1}.</span>
                             {renderWithBold(clean)}
                           </p>
-
-                          {/* Fade overlay for previews */}
                           {isFadedPreview && (
                             <div className="pointer-events-none absolute inset-x-0 bottom-0 h-16 bg-gradient-to-t from-white to-transparent" />
                           )}
@@ -448,7 +383,6 @@ export default function HomePage() {
                     })}
                   </ul>
 
-                  {/* Show more / less */}
                   <div className="mt-3 sm:mt-4 flex justify-center">
                     {!showAllBullets ? (
                       <button
@@ -461,7 +395,7 @@ export default function HomePage() {
                       <button
                         onClick={() => {
                           setShowAllBullets(false);
-                          scrollToAbsoluteTop(); // true top
+                          scrollToAbsoluteTop();
                         }}
                         className="rounded-xl bg-gray-50 px-3 py-1.5 text-sm text-gray-700 ring-1 ring-gray-200 hover:bg-gray-100"
                       >
@@ -488,26 +422,22 @@ export default function HomePage() {
                 ? err
                 : `${items.length} stor${items.length === 1 ? "y" : "ies"} in the last 7 days`}
             </span>
-            {/* Legend */}
             <span className="hidden sm:inline text-xs text-gray-400">•</span>
             <span className="text-[11px] sm:text-xs text-gray-600 flex items-center gap-1">
               <span className="inline-flex items-center gap-1 rounded-md bg-emerald-50 px-1.5 py-0.5 text-emerald-700 ring-1 ring-emerald-200">
                 UK
               </span>
-              indicates UK‑relevant
+              indicates UK-relevant
             </span>
           </div>
 
-          {/* Goes to true page top (0) */}
           <button onClick={scrollToAbsoluteTop} className="text-sm text-gray-700 hover:text-sky-700">
             Back to summary ↑
           </button>
         </div>
         <div className="h-px w-full bg-gradient-to-r from-transparent via-gray-200 to-transparent mb-5 sm:mb-6" />
 
-        {/* Smooth fade on switch; keep previous content visible */}
         <div className={`transition-opacity duration-200 ${isSwitching ? "opacity-60" : "opacity-100"}`}>
-          {/* Orientation-aware grid: 1 col portrait, 2 col landscape, >=sm: 2 col */}
           <ul className="grid gap-3 sm:gap-4 grid-cols-1 landscape:grid-cols-2 sm:grid-cols-2">
             {loading && items.length === 0 && (
               <>
@@ -553,7 +483,6 @@ export default function HomePage() {
                       </div>
 
                       <div className="flex items-center gap-1.5 sm:gap-2">
-                        {/* UK badge */}
                         {isUK && (
                           <span
                             title="Marked UK-relevant by the ranking engine"
@@ -563,7 +492,6 @@ export default function HomePage() {
                           </span>
                         )}
 
-                        {/* 🔥 hotness — compact pill (2dp for readability) */}
                         {typeof it.score === "number" && (
                           <span
                             title={`Hotness: ${it.score?.toFixed?.(2) ?? it.score} (topic mentions: ${it.groupSize || 1})`}
@@ -573,16 +501,14 @@ export default function HomePage() {
                           </span>
                         )}
 
-                        {/* Top take — compact pill */}
                         {it.tags?.includes("top-take") && (
                           <span className={`${pillBase} bg-fuchsia-50 text-fuchsia-700 ring-1 ring-fuchsia-200`}>
                             Top take
                           </span>
                         )}
 
-                        {/* Expand/Collapse — compact pill */}
                         <button
-                          onClick={() => toggle(key)}
+                          onClick={() => setExpanded((s) => ({ ...s, [key]: !s[key] }))}
                           className={`${pillBase} bg-gray-50 text-gray-700 ring-1 ring-gray-200 hover:bg-gray-100`}
                           aria-expanded={isOpen}
                           aria-controls={`excerpt-${i}`}
@@ -646,7 +572,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Back to top (always true top) */}
       <button
         onClick={scrollToAbsoluteTop}
         className="fixed bottom-4 right-4 sm:bottom-5 sm:right-5 inline-flex h-9 w-9 sm:h-auto sm:w-auto items-center justify-center rounded-full bg-white/90 p-2.5 shadow-lg ring-1 ring-gray-200 hover:bg-white active:scale-[0.99]"
@@ -656,22 +581,10 @@ export default function HomePage() {
         ↑
       </button>
 
-      {/* Small helper styles */}
       <style jsx global>{`
-        /* Hide scrollbars for the horizontal tabs row, keep momentum scrolling */
-        .hide-scrollbar {
-          -ms-overflow-style: none; /* IE and Edge */
-          scrollbar-width: none; /* Firefox */
-        }
-        .hide-scrollbar::-webkit-scrollbar {
-          display: none; /* Chrome, Safari */
-        }
-        /* Enable Tailwind orientation variants if using v3.2+ (portrait/landscape) */
-        @media (orientation: landscape) {
-          .landscape\\:grid-cols-2 {
-            grid-template-columns: repeat(2, minmax(0, 1fr));
-          }
-        }
+        .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .hide-scrollbar::-webkit-scrollbar { display: none; }
+        @media (orientation: landscape) { .landscape\\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
       `}</style>
     </div>
   );
