@@ -243,7 +243,7 @@ export default function HomePage() {
               aria-expanded={showSubForm}
               aria-controls="mobile-subscribe"
             >
-              ✉️
+              "Subscribe"
             </button>
           </div>
         </div>
