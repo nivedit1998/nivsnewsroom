@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2025-08-25T10:53:22.329Z",
+  "generatedAt": "2025-08-26T08:48:32.602Z",
   "bullets": [
     {
-      "text": "Windows 11 Insider Preview Updates - New features for seamless app resumption from Android to PC are rolling out.",
-      "url": "https://blogs.windows.com/blog/2025/08/22/announcing-windows-11-insider-preview-build-26200-5761-dev-channel/"
+      "text": "Windows 11 Insider Preview Updates - New builds released for Dev and Beta Channels enhance cross-device app usage.",
+      "url": "https://blogs.windows.com/windows-insider/2025/08/22/announcing-windows-11-insider-preview-build-26200-5761-dev-channel/"
     },
     {
-      "text": "Gartner Magic Quadrant Leader - Microsoft recognized as a leader for Cloud-Native Application Platforms for the second consecutive year.",
+      "text": "My Apps Feature for Gamers - Xbox Insiders can now access games faster through the new 'My Apps' feature.",
+      "url": "https://blogs.windows.com/windowsexperience/2025/08/22/pc-players-get-to-games-faster-through-my-apps/"
+    },
+    {
+      "text": "Leader in Cloud-Native Platforms - Microsoft recognized as a Leader in the 2025 Gartner Magic Quadrant for Cloud-Native Application Platforms.",
       "url": "https://azure.microsoft.com/en-us/blog/microsoft-is-a-leader-in-the-2025-gartner-magic-quadrant-for-cloud-native-application-platforms/"
     },
     {
-      "text": "Advancements in Quantum Safety - Microsoft is preparing for quantum-safe cryptography to secure future digital infrastructures.",
+      "text": "Quantum-Safe Security Initiatives - Microsoft is advancing towards next-generation cryptography to prepare for quantum computing threats.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/08/20/quantum-safe-security-progress-towards-next-generation-cryptography/"
     },
     {
-      "text": "Multi-Agent Intelligence Design - A shift towards modular, task-specialized AI agents is essential for enterprise scalability.",
+      "text": "Designing Multi-Agent Intelligence - New strategies for AI deployment focus on specialized, task-oriented agents for enterprise efficiency.",
       "url": "https://devblogs.microsoft.com/blog/designing-multi-agent-intelligence"
-    },
-    {
-      "text": "ClickFix Social Engineering Threat - Microsoft highlights the ClickFix technique targeting users to execute malicious commands.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2025/08/21/think-before-you-clickfix-analyzing-the-clickfix-social-engineering-technique/"
     }
   ]
 }

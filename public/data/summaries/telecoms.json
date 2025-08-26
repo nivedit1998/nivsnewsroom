@@ -1,32 +1,28 @@
 {
-  "generatedAt": "2025-08-25T10:53:01.239Z",
+  "generatedAt": "2025-08-26T08:48:13.907Z",
   "bullets": [
     {
-      "text": "UK's First Neutral-Host 5G - Boldyn Networks launches 5G at Sunderland's Stadium of Light with **Virgin Media O2**.",
-      "url": "https://www.rcrwireless.com/20250822/private-5g/boldyn-5g-sunderland-chesapeake"
-    },
-    {
-      "text": "Free VPN Risks Surge - The **Online Safety Act** drives users to risky free VPN services, exposing data to foreign servers.",
-      "url": "https://www.telecomstechnews.com/news/online-safety-act-sparks-rush-free-vpn-services/"
-    },
-    {
-      "text": "Fibre Rollout Hits 80% - UK FTTP coverage approaches 80% as **Openreach** leads the charge in broadband expansion.",
+      "text": "Fibre Rollout Hits 80% – UK’s full-fibre broadband coverage approaches 80%, driven by Openreach’s significant expansion efforts.",
       "url": "https://totaltele.com/uk-fibre-rollout-nears-80-as-overbuild-rises-and-competition-shifts/"
     },
     {
-      "text": "Full Fibre Adoption Soars - Despite a stagnant market, **full fibre** connections surge to over 11 million in the UK.",
+      "text": "Full Fibre Adoption Surges – Despite a stagnant broadband market, full fibre connections in the UK have increased by 8%.",
       "url": "https://www.telecomstechnews.com/news/uk-full-fibre-adoption-despite-stagnant-broadband-market/"
     },
     {
-      "text": "EE Dominates Mobile Network - **EE** retains its title as the UK's best mobile network for the twelfth consecutive year.",
-      "url": "https://www.telecomstechnews.com/news/ee-still-uk-best-mobile-network-after-twelve-years/"
+      "text": "Online Safety Act Backlash – The UK’s Online Safety Act drives users to risky free VPNs, exposing data to foreign servers.",
+      "url": "https://www.telecomstechnews.com/news/online-safety-act-sparks-rush-free-vpn-services/"
     },
     {
-      "text": "BT Expands Cloud Partnership - **BT Group** signs a five-year deal with **AWS** to enhance cloud services and customer experience.",
+      "text": "5G Connectivity Boost – Boldyn Networks and VMO2 enhance 5G at Sunderland's Stadium of Light, improving fan experiences.",
+      "url": "https://totaltele.com/boldyn-networks-and-vmo2-deploy-open-ran-5g-at-sunderlands-stadium-of-light/"
+    },
+    {
+      "text": "BT Expands Cloud Partnership – BT Group signs a five-year deal with AWS to modernise its technology and enhance customer experience.",
       "url": "https://totaltele.com/bt-signs-new-five-year-cloud-partnership-with-aws/"
     },
     {
-      "text": "Telcos Struggle with Disaggregation - Despite ambitions for disaggregated networks, only 5% of operators are in deployment.",
+      "text": "Disaggregated Networks Stalled – Telecoms face a paradox, with ambition for disaggregated networks clashing with execution challenges.",
       "url": "https://www.telecomstechnews.com/news/telcos-want-future-ready-disaggregated-networks-cant-deliver/"
     }
   ]
