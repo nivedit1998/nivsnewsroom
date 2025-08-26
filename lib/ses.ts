@@ -1,9 +1,5 @@
 // lib/ses.ts
-import {
-  SESv2Client,
-  SendEmailCommand,
-  SendBulkEmailCommand,
-} from "@aws-sdk/client-sesv2";
+import { SESv2Client, SendEmailCommand } from "@aws-sdk/client-sesv2";
 
 const region = process.env.AWS_REGION!;
 export const ses = new SESv2Client({ region });
@@ -11,9 +7,7 @@ export const ses = new SESv2Client({ region });
 type Recipient = { email: string };
 
 /**
- * Single email (used for subscribe-confirm, etc.).
- * Note: SESv2 Simple content does not accept custom headers.
- * If you ever need custom headers here, switch to Raw content.
+ * Single email (used for subscribe-confirm, etc.)
  */
 export async function sendEmail({
   to,
@@ -51,8 +45,8 @@ export async function sendEmail({
 
 /**
  * Bulk send for the weekly newsletter.
- * We use per-recipient ReplacementHeaders to add List-Unsubscribe.
- * (If your SDK/region doesn’t support ReplacementHeaders yet, tell me and I’ll switch to Raw MIME.)
+ * NOTE: We intentionally send one-by-one with SendEmail (no SES stored templates).
+ * This works in sandbox & production and avoids the "default template data" error.
  */
 export async function sendBulk({
   recipients,
@@ -63,45 +57,20 @@ export async function sendBulk({
 }: {
   recipients: Recipient[];
   subject: string;
-  renderFor: (r: Recipient) => { html: string; text?: string; listUnsubUrl: string };
+  renderFor: (r: Recipient) => { html: string; text?: string };
   from?: string;
   replyTo?: string;
 }) {
-  const BulkEmailEntries = recipients.map((r) => {
-    const { html, text, listUnsubUrl } = renderFor(r);
-    return {
-      Destination: { ToAddresses: [r.email] },
-      ReplacementEmailContent: {
-        // Inline "template-like" payload; we’re not using stored templates.
-        ReplacementTemplate: {
-          ReplacementTemplateData: JSON.stringify({}),
-          ReplacementTemplate: {
-            TemplateContent: {
-              Subject: { Data: subject },
-              Html: { Data: html },
-              Text: text ? { Data: text } : undefined,
-            },
-          },
-        },
-      },
-      // Per-recipient headers (List-Unsubscribe & One-Click)
-      // If this throws in your region/SDK, ping me and I’ll swap to Raw MIME.
-      ReplacementHeaders: [
-        { Name: "List-Unsubscribe", Value: `<${listUnsubUrl}>` },
-        { Name: "List-Unsubscribe-Post", Value: "List-Unsubscribe=One-Click" },
-      ],
-    };
+  const sends = recipients.map(async (r) => {
+    const { html, text } = renderFor(r);
+    return sendEmail({ to: r.email, subject, html, text, from, replyTo });
   });
 
-  const cmd = new SendBulkEmailCommand({
-    FromEmailAddress: from,
-    ReplyToAddresses: replyTo ? [replyTo] : undefined,
-    // Default content is ignored since we provide ReplacementTemplate above.
-    // Some SDKs still require a shape here:
-    DefaultContent: { Template: { TemplateName: "inline" } },
-    BulkEmailEntries,
-    DefaultEmailTags: [{ Name: "stream", Value: "broadcast" }],
-  });
+  const results = await Promise.allSettled(sends);
+  const ok = results.filter((r) => r.status === "fulfilled").length;
+  const failed = results
+    .map((r) => (r.status === "rejected" ? (r.reason?.message || String(r.reason)) : null))
+    .filter(Boolean) as string[];
 
-  return ses.send(cmd);
+  return { ok, failed };
 }

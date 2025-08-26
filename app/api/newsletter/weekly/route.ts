@@ -225,8 +225,8 @@ export async function GET() {
     const weekLabel = formatDayMonthYear(lastSun);
     const subject = buildSubject();
 
-    // Prepare per-recipient HTML/TEXT with one-click unsub
-    await sendBulk({
+    // Per-recipient render (now using SendEmail under the hood)
+    const result = await sendBulk({
       recipients: subs.map((s) => ({ email: s.email })),
       subject,
       renderFor: ({ email }) => {
@@ -240,10 +240,13 @@ export async function GET() {
           `\n\nTelecoms — Top 5\n` +
           telecoms.slice(0, 5).map((b, i) => `${i + 1}. ${escapeText(b.text)}${b.url ? ` (${b.url})` : ""}`).join("\n") +
           `\n\nUnsubscribe: ${unsubUrl}`;
-
-        return { html, text, listUnsubUrl: unsubUrl };
+        return { html, text };
       },
     });
+
+    if (result.failed.length) {
+      return NextResponse.json({ ok: true, sent: result.ok, failed: result.failed.length, errors: result.failed });
+    }
 
     return NextResponse.json({ ok: true, sent: subs.length });
   } catch (e: any) {
@@ -251,6 +254,6 @@ export async function GET() {
   }
 }
 
-export async function POST(req: Request) {
+export async function POST() {
   return GET();
 }
