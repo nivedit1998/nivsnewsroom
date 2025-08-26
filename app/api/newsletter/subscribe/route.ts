@@ -8,6 +8,16 @@ function isValidEmail(e: string) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e);
 }
 
+function getBaseUrl(req: Request) {
+  // Prefer explicit env, else infer from headers (works on Vercel)
+  const env = process.env.PUBLIC_SITE_URL?.trim();
+  if (env) return env.replace(/\/+$/, "");
+  const url = new URL(req.url);
+  const host = req.headers.get("x-forwarded-host") || req.headers.get("host") || url.host;
+  const proto = req.headers.get("x-forwarded-proto") || url.protocol.replace(":", "") || "https";
+  return `${proto}://${host}`;
+}
+
 export async function POST(req: Request) {
   try {
     const body = await req.json();
@@ -24,7 +34,8 @@ export async function POST(req: Request) {
       .upsert({ email, token, status: "pending" }, { onConflict: "email" });
     if (error) throw error;
 
-    const confirmUrl = `${process.env.PUBLIC_SITE_URL}/api/newsletter/confirm?token=${token}`;
+    const base = getBaseUrl(req);
+    const confirmUrl = `${base}/api/newsletter/confirm?token=${encodeURIComponent(token)}`;
 
     await sendEmail({
       to: email,
