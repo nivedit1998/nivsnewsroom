@@ -158,10 +158,10 @@ export default function HomePage() {
 
   const title =
     tab === "High Tech"
-      ? "My 10 key insights from High Tech this week"
+      ? "Key insights from High Tech this week"
       : tab === "Telecoms"
-      ? "My 10 key insights from Telecoms this week"
-      : `My 10 key insights from ${company[0].toUpperCase()}${company.slice(1)} this week`;
+      ? "Key insights from Telecoms this week"
+      : `Key insights from ${company[0].toUpperCase()}${company.slice(1)} this week`;
 
   const toggle = (key: string) => setExpanded((s) => ({ ...s, [key]: !s[key] }));
 
@@ -340,7 +340,7 @@ export default function HomePage() {
 
             <div className={`relative transition-opacity duration-200 ${isSwitching ? "opacity-60" : "opacity-100"}`}>
               {sumLoading && bullets.length === 0 && (
-                <p className="mt-4 text-sm text-gray-500">Loading my notes…</p>
+                <p className="mt-4 text-sm text-gray-500">Loading insights</p>
               )}
 
               {bullets.length > 0 && (
