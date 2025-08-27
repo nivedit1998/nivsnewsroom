@@ -15,13 +15,15 @@ import { fileURLToPath } from "node:url";
 const TIMEZONE = "Europe/London";
 const LOOKBACK_DAYS = parseInt(process.env.LOOKBACK_DAYS || "7", 10); // stays 7 by default
 const TEST_MODE = process.env.TEST_MODE === "1";
-
 const DATA_DIR = path.join(process.cwd(), "public", "data");
 const SUMMARY_DIR = path.join(DATA_DIR, "summaries");
 
+// If you want a guaranteed minimum for telecoms, set this > 0
+const TELECOMS_MIN_ITEMS = parseInt(process.env.TELECOMS_MIN_ITEMS || "0", 10); // e.g., 60
+
 const parser = new RSSParser({
   requestOptions: {
-    headers: { "User-Agent": "NivsNewsRoomBot/1.2 (+youremail@example.com)" },
+    headers: { "User-Agent": "NivsNewsRoomBot/1.3 (+youremail@example.com)" },
   },
 });
 
@@ -34,19 +36,25 @@ const SOURCES = {
     "https://www.cnet.com/rss/news/",
     "https://techcrunch.com/feed/",
     "https://www.theverge.com/rss/index.xml",
-    // (Optional UK-leaning tech feeds; add if you like)
+    // Optional UK-leaning tech feeds:
     // "https://www.theregister.com/headlines.atom",
     // "https://uktechnews.co.uk/feed/",
   ],
+
+  // Expanded & de-duplicated telecom sources
   telecoms: [
-    "https://telecomstechnews.com/feed",
-    "https://www.telecomstechnews.com/feed/",
-    "https://totaltele.com/category/technology/feed/",
-    "https://totaltele.com/category/technology/feed/",
     "https://www.rcrwireless.com/rss",
-    // (Optional UK telco-specific feeds)
-    // "https://www.ispreview.co.uk/feed",
-    // "https://www.thinkbroadband.com/news/rss.xml",
+    "https://telecoms.com/feed/",
+    "https://www.lightreading.com/rss_simple.asp",
+    "https://www.fierce-network.com/rss/xml",              // Fierce Network / FierceTelecom
+    "https://www.totaltele.com/feed/",
+    "https://www.capacitymedia.com/rss",
+    "https://www.mobileworldlive.com/latest-stories/feed",
+    "https://telecomtv.com/site/rss/",
+    // UK broadband / regulator
+    "https://www.ispreview.co.uk/feed",
+    "https://www.thinkbroadband.com/news/rss.xml",
+    "https://www.ofcom.org.uk/about-ofcom/latest/rss",
   ],
 };
 
@@ -73,34 +81,54 @@ const COMPANY_RSS = {
  *  — Used if a feed 404s or times out
  *  ========================= */
 const FEED_FALLBACKS = {
-  // Group fallbacks
-  "https://telecomstechnews.com/feed":
-    "https://news.google.com/rss/search?q=site:telecomstechnews.com&hl=en-GB&gl=GB&ceid=GB:en",
-  "https://totaltele.com/category/technology/feed/":
-    "https://news.google.com/rss/search?q=site:totaltele.com%20technology&hl=en-GB&gl=GB&ceid=GB:en",
+  // Group fallbacks — with when:7d so we keep the window tight
   "https://www.rcrwireless.com/rss":
-    "https://news.google.com/rss/search?q=site:rcrwireless.com&hl=en-GB&gl=GB&ceid=GB:en",
+    "https://news.google.com/rss/search?q=site:rcrwireless.com+when:7d&hl=en-GB&gl=GB&ceid=GB:en",
+  "https://telecoms.com/feed/":
+    "https://news.google.com/rss/search?q=site:telecoms.com+when:7d&hl=en-GB&gl=GB&ceid=GB:en",
+  "https://www.lightreading.com/rss_simple.asp":
+    "https://news.google.com/rss/search?q=site:lightreading.com+when:7d&hl=en-GB&gl=GB&ceid=GB:en",
+  "https://www.fierce-network.com/rss/xml":
+    "https://news.google.com/rss/search?q=site:fierce-network.com+OR+site:fiercetelecom.com+when:7d&hl=en-GB&gl=GB&ceid=GB:en",
+  "https://www.totaltele.com/feed/":
+    "https://news.google.com/rss/search?q=site:totaltele.com+when:7d&hl=en-GB&gl=GB&ceid=GB:en",
+  "https://www.capacitymedia.com/rss":
+    "https://news.google.com/rss/search?q=site:capacitymedia.com+when:7d&hl=en-GB&gl=GB&ceid=GB:en",
+  "https://www.mobileworldlive.com/latest-stories/feed":
+    "https://news.google.com/rss/search?q=site:mobileworldlive.com+when:7d&hl=en-GB&gl=GB&ceid=GB:en",
+  "https://telecomtv.com/site/rss/":
+    "https://news.google.com/rss/search?q=site:telecomtv.com+when:7d&hl=en-GB&gl=GB&ceid=GB:en",
+  "https://www.ispreview.co.uk/feed":
+    "https://news.google.com/rss/search?q=site:ispreview.co.uk+when:7d&hl=en-GB&gl=GB&ceid=GB:en",
+  "https://www.thinkbroadband.com/news/rss.xml":
+    "https://news.google.com/rss/search?q=site:thinkbroadband.com+when:7d&hl=en-GB&gl=GB&ceid=GB:en",
+  "https://www.ofcom.org.uk/about-ofcom/latest/rss":
+    "https://news.google.com/rss/search?q=site:ofcom.org.uk+when:7d&hl=en-GB&gl=GB&ceid=GB:en",
 
   // Microsoft fallbacks (domain-scoped)
   "https://blogs.microsoft.com/feed/":
-    "https://news.google.com/rss/search?q=site:blogs.microsoft.com&hl=en-GB&gl=GB&ceid=GB:en",
+    "https://news.google.com/rss/search?q=site:blogs.microsoft.com+when:7d&hl=en-GB&gl=GB&ceid=GB:en",
   "https://azure.microsoft.com/en-us/blog/feed/":
-    "https://news.google.com/rss/search?q=site:azure.microsoft.com/blog&hl=en-GB&gl=GB&ceid=GB:en",
+    "https://news.google.com/rss/search?q=site:azure.microsoft.com/blog+when:7d&hl=en-GB&gl=GB&ceid=GB:en",
   "https://www.microsoft.com/en-us/microsoft-365/blog/feed/":
-    "https://news.google.com/rss/search?q=site:microsoft.com%20\"Microsoft%20365\"%20blog&hl=en-GB&gl=GB&ceid=GB:en",
+    "https://news.google.com/rss/search?q=site:microsoft.com+%22Microsoft+365%22+blog+when:7d&hl=en-GB&gl=GB&ceid=GB:en",
   "https://blogs.windows.com/feed/":
-    "https://news.google.com/rss/search?q=site:blogs.windows.com&hl=en-GB&gl=GB&ceid=GB:en",
+    "https://news.google.com/rss/search?q=site:blogs.windows.com+when:7d&hl=en-GB&gl=GB&ceid=GB:en",
   "https://devblogs.microsoft.com/feed/":
-    "https://news.google.com/rss/search?q=site:devblogs.microsoft.com&hl=en-GB&gl=GB&ceid=GB:en",
+    "https://news.google.com/rss/search?q=site:devblogs.microsoft.com+when:7d&hl=en-GB&gl=GB&ceid=GB:en",
   "https://www.microsoft.com/en-us/security/blog/feed/":
-    "https://news.google.com/rss/search?q=site:microsoft.com%20\"Security%20blog\"&hl=en-GB&gl=GB&ceid=GB:en",
+    "https://news.google.com/rss/search?q=site:microsoft.com+%22Security+blog%22+when:7d&hl=en-GB&gl=GB&ceid=GB:en",
 
   // Sage fallbacks (domain-scoped)
   "https://www.sage.com/en-gb/blog/feed/":
-    "https://news.google.com/rss/search?q=site:sage.com%20blog&hl=en-GB&gl=GB&ceid=GB:en",
+    "https://news.google.com/rss/search?q=site:sage.com+blog+when:7d&hl=en-GB&gl=GB&ceid=GB:en",
   "https://www.sage.com/en-gb/newsroom/feed/":
-    "https://news.google.com/rss/search?q=site:sage.com%20newsroom&hl=en-GB&gl=GB&ceid=GB:en",
+    "https://news.google.com/rss/search?q=site:sage.com+newsroom+when:7d&hl=en-GB&gl=GB&ceid=GB:en",
 };
+
+// Broad telco top-up (used only if we’re under TELECOMS_MIN_ITEMS after normal collection)
+const BROAD_TELCO_NEWS =
+  "https://news.google.com/rss/search?q=telecoms+OR+telecommunications+OR+5G+OR+fibre+OR+%22mobile+network%22+when:7d&hl=en-GB&gl=GB&ceid=GB:en";
 
 /** =========================
  *  UK PRIORITY SIGNALS
@@ -189,7 +217,8 @@ function ukSignals(item, context = "general") {
   const wKeyword = keywordHit ? 0.7 : 0;
   const wCompany = companyHit ? 0.8 : 0;
 
-  let score = (wDomain + wKeyword + wCompany) *
+  let score =
+    (wDomain + wKeyword + wCompany) *
     (context === "telecoms" ? 1.15 : context.startsWith("company_") ? 1.1 : 1.0);
 
   return Math.min(score, 2.2);
@@ -229,16 +258,42 @@ function htmlToPlain(html = "") {
 }
 
 function firstTwoParagraphs(plain) {
-  const parts = plain.split(/\n{2,}/).map((p) => p.trim()).filter(Boolean);
+  const parts = plain
+    .split(/\n{2,}/)
+    .map((p) => p.trim())
+    .filter(Boolean);
   const [p1, p2] = [parts[0] || "", parts[1] || ""];
   const joined = [p1, p2].filter(Boolean).join("\n\n");
   return joined.length > 1200 ? joined.slice(0, 1200) + "…" : joined;
 }
 
+/** Normalise noisy URLs so utm/gclid etc don’t create “unique” false positives */
+function cleanUrl(u = "") {
+  try {
+    const url = new URL(u);
+    // Strip common tracking params; keep a couple of generic id-like params
+    const keep = new Set(["id", "p"]);
+    [...url.searchParams.keys()].forEach((k) => {
+      const kk = k.toLowerCase();
+      const isUtm =
+        kk.startsWith("utm_") ||
+        ["fbclid", "gclid", "yclid", "mc_cid", "mc_eid"].includes(kk);
+      if (isUtm || (!keep.has(kk) && kk.length > 1)) url.searchParams.delete(k);
+    });
+    url.hash = "";
+    return url.toString();
+  } catch {
+    return u;
+  }
+}
+
 function dedupeByUrl(items) {
   const seen = new Set();
   return items.filter((it) => {
-    const key = (it.url || it.title).toLowerCase();
+    const u = it.url ? cleanUrl(it.url) : "";
+    const host = it.source ? it.source.toLowerCase() : "";
+    const key = (host + "|" + (u || it.title || "")).toLowerCase();
+    if (!key) return false;
     if (seen.has(key)) return false;
     seen.add(key);
     return true;
@@ -335,7 +390,11 @@ async function parseFeed(url) {
     };
   });
 
+  const before = items.length;
   items = items.filter((it) => withinWindow(it.publishedAt));
+  const after = items.length;
+  console.log(`[feed] ${url} -> ${before} items, ${after} within ${LOOKBACK_DAYS}d`);
+
   items.sort((a, b) => new Date(b.publishedAt || 0) - new Date(a.publishedAt || 0));
   if (TEST_MODE) items = items.slice(0, 2);
   return items;
@@ -382,11 +441,10 @@ async function writeJson(relPath, data) {
 /** =========================
  *  WEEKLY SUMMARY (AI once per tab) — PUNCHY STYLE
  *  ========================= */
-// helpers for punchy bullets
 function sluggyWords(s = "", max = 5) {
   const cleaned = String(s).replace(/[^\w\s\-&]/g, " ").replace(/\s+/g, " ").trim();
   const stop = new Set([
-    "the","a","an","and","of","for","to","in","on","from","with","by","at","as","is","are","was","were","this","that"
+    "the", "a", "an", "and", "of", "for", "to", "in", "on", "from", "with", "by", "at", "as", "is", "are", "was", "were", "this", "that"
   ]);
   const words = cleaned.split(" ").filter((w) => !stop.has(w.toLowerCase()));
   return words.slice(0, max).join(" ");
@@ -394,7 +452,6 @@ function sluggyWords(s = "", max = 5) {
 
 function makePunchyFallback(it) {
   const lead = sluggyWords(it.title, 5);
-  // **Lead** — short insight (fallback uses title if no model)
   return `**${lead}** - ${it.source ? `(${it.source}) ` : ""}${it.title}`;
 }
 
@@ -461,7 +518,7 @@ async function generateWeeklyBullets(tabName, items) {
       "- Use ONLY the provided items; do not invent facts.",
       "Return STRICT JSON only: {\"bullets\":[{\"text\":\"...\",\"urls\":[\"...\"]}, ...]}",
       "If you include URLs, they must come from the provided items (1–3 per bullet).",
-      "Prefer items marked [UK-relevant] when selecting or phrasing."
+      "Prefer items marked [UK-relevant] when selecting or phrasing.",
     ].join(" ");
 
     const user = `Create my weekly summary for "${tabName}" based ONLY on this dataset:\n\n${context}`;
@@ -478,7 +535,11 @@ async function generateWeeklyBullets(tabName, items) {
 
     const raw = resp.choices?.[0]?.message?.content || "{}";
     let parsed;
-    try { parsed = JSON.parse(raw); } catch { parsed = null; }
+    try {
+      parsed = JSON.parse(raw);
+    } catch {
+      parsed = null;
+    }
 
     // Default to punchy fallback list
     let bullets = items.slice(0, 10).map((it) => ({
@@ -571,14 +632,29 @@ async function processGroupWeekly(key, urls) {
     const items = await getFeedItems(u);
     collected.push(...items);
   }
+  console.log(`[group] ${key}: collected=${collected.length}`);
 
-  const unique = dedupeByUrl(collected);
-  const enriched = [];
-  for (const it of unique) {
-    enriched.push(await addFullText(it));
+  let unique = dedupeByUrl(collected);
+  console.log(`[group] ${key}: unique(after-dedupe)=${unique.length}`);
+
+  // Pull full text in parallel for speed
+  const enriched = await Promise.all(unique.map(addFullText));
+
+  // If telecoms is under a minimum, top up with a broad Google News query
+  if (key === "telecoms" && TELECOMS_MIN_ITEMS > 0 && enriched.length < TELECOMS_MIN_ITEMS) {
+    console.log(
+      `[group] telecoms under minimum (${enriched.length} < ${TELECOMS_MIN_ITEMS}). Adding broad telco fallback…`
+    );
+    const extra = await getFeedItems(BROAD_TELCO_NEWS);
+    const merged = dedupeByUrl([...unique, ...extra]);
+    console.log(`[group] telecoms after broad fallback: unique=${merged.length}`);
+    unique = merged;
   }
 
-  const ranked = annotateHotness(enriched, key);
+  const finalEnriched =
+    enriched.length === unique.length ? enriched : await Promise.all(unique.map(addFullText));
+
+  const ranked = annotateHotness(finalEnriched, key);
   await writeJson(`${key}.json`, ranked);
 
   const summary = await generateWeeklyBullets(key, ranked);
@@ -596,13 +672,12 @@ async function processCompanyWeekly(company, rssUrls) {
     const items = await getFeedItems(u);
     collected.push(...items);
   }
+  console.log(`[company] ${company}: collected=${collected.length}`);
 
   const unique = dedupeByUrl(collected);
-  const enriched = [];
-  for (const it of unique) {
-    enriched.push(await addFullText(it));
-  }
+  console.log(`[company] ${company}: unique(after-dedupe)=${unique.length}`);
 
+  const enriched = await Promise.all(unique.map(addFullText));
   const context = `company_${company}`;
   const ranked = annotateHotness(enriched, context);
   await writeJson(`company/${company}.json`, ranked);
