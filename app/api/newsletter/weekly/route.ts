@@ -12,7 +12,20 @@ import { sendBulk } from "@/lib/ses";
 type Bullet = { text: string; url?: string };
 type SummaryFile = { generatedAt?: string; bullets?: Bullet[] };
 
-/* -------------- Summary loaders (keep your formats) -------------- */
+type RankedItem = {
+  title: string;
+  source: string; // host
+  url: string;
+  publishedAt?: string;
+  snippet?: string;
+  excerpt?: string;
+  fullText?: string;
+  score?: number;
+  groupSize?: number;
+  tags?: string[];
+};
+
+/* -------------- Summary & ranking loaders (keep your formats) -------------- */
 async function readSummaryBase(nameNoExt: string): Promise<SummaryFile | null> {
   const base = path.join(process.cwd(), "public", "data", "summaries");
   const tryPaths = [
@@ -28,16 +41,74 @@ async function readSummaryBase(nameNoExt: string): Promise<SummaryFile | null> {
   return null;
 }
 
-async function readHighTech(): Promise<Bullet[]> {
-  const s = await readSummaryBase("hightech");
-  return s?.bullets ?? [];
-}
-async function readTelecoms(): Promise<Bullet[]> {
-  const s = await readSummaryBase("telecoms");
-  return s?.bullets ?? [];
+/** Read the ranked list your site renders (already hotness+UK boosted). */
+async function readRankedBase(nameNoExt: "hightech" | "telecoms"): Promise<RankedItem[]> {
+  const full = path.join(process.cwd(), "public", "data", `${nameNoExt}.json`);
+  try {
+    const raw = await fs.readFile(full, "utf8");
+    const arr = JSON.parse(raw);
+    return Array.isArray(arr) ? (arr as RankedItem[]) : [];
+  } catch {
+    return [];
+  }
 }
 
-/* ---------------------- TZ + date helpers ---------------------- */
+/** Top 5 bullets for a tab, aligned with site ranking:
+ *  1) Take top ranked URLs from /public/data/{tab}.json
+ *  2) Pick bullets from /public/data/summaries/{tab}.json that match those URLs
+ *  3) If fewer than 5, top-up with remaining bullets; if still short, synthesize from ranked titles
+ */
+async function getTop5BulletsForTab(tab: "hightech" | "telecoms"): Promise<Bullet[]> {
+  const ranked = await readRankedBase(tab);
+  const rankedTop = ranked.slice(0, 12); // small buffer in case of URL mismatches
+  const rankedUrls = new Set(rankedTop.map((r) => r.url).filter(Boolean));
+
+  const summary = await readSummaryBase(tab);
+  const bullets = summary?.bullets ?? [];
+
+  // 1) bullets that match a top ranked URL
+  const matched = bullets.filter((b) => b.url && rankedUrls.has(b.url as string)).slice(0, 5);
+
+  // 2) top-up from remaining summary bullets (keep original order)
+  let out = matched.slice();
+  if (out.length < 5) {
+    const remaining = bullets.filter((b) => !out.includes(b));
+    out = out.concat(remaining).slice(0, 5);
+  }
+
+  // 3) final top-up: synthesize from ranked items if still short
+  if (out.length < 5) {
+    const need = 5 - out.length;
+    const synth = rankedTop
+      .filter((r) => !out.some((b) => b.url && b.url === r.url))
+      .slice(0, need)
+      .map((r) => ({
+        text: synthBulletFromRanked(r),
+        url: r.url,
+      }));
+    out = out.concat(synth);
+  }
+
+  return out.slice(0, 5);
+}
+
+/** Lightweight synthesis if we need to create a bullet from ranked article. */
+function synthBulletFromRanked(r: RankedItem): string {
+  const lead = toLead(r.title, 5);
+  const src = r.source ? ` (${r.source})` : "";
+  return `**${lead}**${src} - ${r.title}`;
+}
+function toLead(s = "", max = 5): string {
+  const cleaned = String(s).replace(/[^\w\s\-&]/g, " ").replace(/\s+/g, " ").trim();
+  const stop = new Set([
+    "the","a","an","and","of","for","to","in","on","from","with","by","at",
+    "as","is","are","was","were","this","that","into","over","under","after","before"
+  ]);
+  const words = cleaned.split(" ").filter((w) => !stop.has(w.toLowerCase()));
+  return words.slice(0, max).join(" ");
+}
+
+/* ---------------------- TZ + date helpers (single copy) ---------------------- */
 function fmtParts(date: Date, timeZone: string) {
   const dtf = new Intl.DateTimeFormat("en-GB", {
     timeZone, hour12: false,
@@ -216,7 +287,10 @@ function escapeText(s: string) {
 }
 
 async function doSend() {
-  const [hightech, telecoms] = await Promise.all([readHighTech(), readTelecoms()]);
+  const [hightech, telecoms] = await Promise.all([
+    getTop5BulletsForTab("hightech"),
+    getTop5BulletsForTab("telecoms"),
+  ]);
   if (!hightech.length && !telecoms.length) {
     return NextResponse.json({ error: "No bullets available" }, { status: 400 });
   }
@@ -243,9 +317,9 @@ async function doSend() {
       const text =
         `Niv’s Tech and Telecom Pulse — Week of ${weekLabel}\n\n` +
         `High Tech — Top 5\n` +
-        hightech.slice(0, 5).map((b, i) => `${i + 1}. ${escapeText(b.text)}${b.url ? ` (${b.url})` : ""}`).join("\n") +
+        hightech.map((b, i) => `${i + 1}. ${escapeText(b.text)}${b.url ? ` (${b.url})` : ""}`).join("\n") +
         `\n\nTelecoms — Top 5\n` +
-        telecoms.slice(0, 5).map((b, i) => `${i + 1}. ${escapeText(b.text)}${b.url ? ` (${b.url})` : ""}`).join("\n") +
+        telecoms.map((b, i) => `${i + 1}. ${escapeText(b.text)}${b.url ? ` (${b.url})` : ""}`).join("\n") +
         `\n\nUnsubscribe: ${unsubUrl}\n` +
         `Resubscribe at nivstechpulse.com`;
       return { html, text };
