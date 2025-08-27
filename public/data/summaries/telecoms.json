@@ -1,29 +1,33 @@
 {
-  "generatedAt": "2025-08-26T08:48:13.907Z",
+  "generatedAt": "2025-08-27T08:44:11.318Z",
   "bullets": [
     {
-      "text": "Fibre Rollout Hits 80% – UK’s full-fibre broadband coverage approaches 80%, driven by Openreach’s significant expansion efforts.",
-      "url": "https://totaltele.com/uk-fibre-rollout-nears-80-as-overbuild-rises-and-competition-shifts/"
-    },
-    {
-      "text": "Full Fibre Adoption Surges – Despite a stagnant broadband market, full fibre connections in the UK have increased by 8%.",
-      "url": "https://www.telecomstechnews.com/news/uk-full-fibre-adoption-despite-stagnant-broadband-market/"
-    },
-    {
-      "text": "Online Safety Act Backlash – The UK’s Online Safety Act drives users to risky free VPNs, exposing data to foreign servers.",
+      "text": "Risky VPN Surge - Users seek free VPNs amid Online Safety Act, risking data exposure to foreign servers.",
       "url": "https://www.telecomstechnews.com/news/online-safety-act-sparks-rush-free-vpn-services/"
     },
     {
-      "text": "5G Connectivity Boost – Boldyn Networks and VMO2 enhance 5G at Sunderland's Stadium of Light, improving fan experiences.",
+      "text": "UK Fibre Rollout Hits 80% - Full-fibre broadband coverage nears 80%, driven by Openreach's expansion efforts.",
+      "url": "https://totaltele.com/uk-fibre-rollout-nears-80-as-overbuild-rises-and-competition-shifts/"
+    },
+    {
+      "text": "Full Fibre Adoption Surges - Despite a stagnant broadband market, full fibre connections grow significantly.",
+      "url": "https://www.telecomstechnews.com/news/uk-full-fibre-adoption-despite-stagnant-broadband-market/"
+    },
+    {
+      "text": "Open RAN 5G at Stadium - Boldyn Networks and VMO2 enhance 5G connectivity at Sunderland's Stadium of Light.",
       "url": "https://totaltele.com/boldyn-networks-and-vmo2-deploy-open-ran-5g-at-sunderlands-stadium-of-light/"
     },
     {
-      "text": "BT Expands Cloud Partnership – BT Group signs a five-year deal with AWS to modernise its technology and enhance customer experience.",
+      "text": "BT Expands AWS Partnership - New five-year deal with AWS aims to modernise BT's technology and customer experience.",
       "url": "https://totaltele.com/bt-signs-new-five-year-cloud-partnership-with-aws/"
     },
     {
-      "text": "Disaggregated Networks Stalled – Telecoms face a paradox, with ambition for disaggregated networks clashing with execution challenges.",
-      "url": "https://www.telecomstechnews.com/news/telcos-want-future-ready-disaggregated-networks-cant-deliver/"
+      "text": "RAN Market Recovery - Dell’Oro reports three consecutive quarters of RAN growth outside China.",
+      "url": "https://www.rcrwireless.com/20250826/5g/ran-market"
+    },
+    {
+      "text": "Sustainability in Telecoms - Industry shifts focus to sustainability, balancing growth with environmental responsibility.",
+      "url": "https://www.rcrwireless.com/20250826/energy/samsung-sustainability"
     }
   ]
 }

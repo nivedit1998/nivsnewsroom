@@ -1,25 +1,29 @@
 {
-  "generatedAt": "2025-08-26T08:48:32.602Z",
+  "generatedAt": "2025-08-27T08:44:32.688Z",
   "bullets": [
     {
-      "text": "Windows 11 Insider Preview Updates - New builds released for Dev and Beta Channels enhance cross-device app usage.",
+      "text": "Gears of War Reloaded Launch - **Gears of War: Reloaded** is now available on multiple platforms, celebrating its 20th anniversary.",
+      "url": "https://blogs.windows.com/windowsexperience/2025/08/26/gears-of-war-reloaded-now-available-via-pc-game-pass-and-more/"
+    },
+    {
+      "text": "Securing Autonomous Agents - **Microsoft** emphasizes the need for governance as autonomous agents become prevalent in enterprises.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2025/08/26/securing-and-governing-the-rise-of-autonomous-agents/"
+    },
+    {
+      "text": "Azure Security Innovations - **Microsoft** enhances Azure security from silicon to systems through its Secure Future Initiative.",
+      "url": "https://azure.microsoft.com/en-us/blog/protecting-azure-infrastructure-from-silicon-to-systems/"
+    },
+    {
+      "text": "Windows 11 Insider Updates - New features in **Windows 11** Insider Preview builds include seamless app resumption from Android devices.",
       "url": "https://blogs.windows.com/windows-insider/2025/08/22/announcing-windows-11-insider-preview-build-26200-5761-dev-channel/"
     },
     {
-      "text": "My Apps Feature for Gamers - Xbox Insiders can now access games faster through the new 'My Apps' feature.",
-      "url": "https://blogs.windows.com/windowsexperience/2025/08/22/pc-players-get-to-games-faster-through-my-apps/"
-    },
-    {
-      "text": "Leader in Cloud-Native Platforms - Microsoft recognized as a Leader in the 2025 Gartner Magic Quadrant for Cloud-Native Application Platforms.",
+      "text": "Gartner Magic Quadrant Leader - **Microsoft** recognized as a Leader in the 2025 Gartner Magic Quadrant for Cloud-Native Application Platforms.",
       "url": "https://azure.microsoft.com/en-us/blog/microsoft-is-a-leader-in-the-2025-gartner-magic-quadrant-for-cloud-native-application-platforms/"
     },
     {
-      "text": "Quantum-Safe Security Initiatives - Microsoft is advancing towards next-generation cryptography to prepare for quantum computing threats.",
+      "text": "Quantum-Safe Security Initiatives - **Microsoft** is preparing for quantum computing risks by developing post-quantum cryptography standards.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/08/20/quantum-safe-security-progress-towards-next-generation-cryptography/"
-    },
-    {
-      "text": "Designing Multi-Agent Intelligence - New strategies for AI deployment focus on specialized, task-oriented agents for enterprise efficiency.",
-      "url": "https://devblogs.microsoft.com/blog/designing-multi-agent-intelligence"
     }
   ]
 }
