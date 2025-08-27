@@ -59,7 +59,7 @@ const SOURCES = {
     // UK broadband + regulator
     "https://www.ispreview.co.uk/feed",
     "https://www.thinkbroadband.com/news/rss.xml",
-    "https://www.ofcom.org.uk/about-ofcom/latest/rss",
+    // "https://www.ofcom.org.uk/about-ofcom/latest/rss",
   ],
 };
 
