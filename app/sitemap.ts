@@ -12,6 +12,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "daily",
       priority: 1.0,
     },
-    // add more static pages here if/when you create them
+    // add more pages here as you grow (e.g. /about, /blog, etc.)
   ];
 }
