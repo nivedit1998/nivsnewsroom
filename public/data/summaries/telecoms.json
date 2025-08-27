@@ -1,44 +1,37 @@
 {
-  "generatedAt": "2025-08-27T22:50:07.843Z",
+  "generatedAt": "2025-08-27T23:15:03.881Z",
   "bullets": [
     {
-      "text": "KT Tests AI-RAN Tech - **KT** pioneers AI-driven optimization on its 5G network, aiming for enhanced capacity and reliability.",
-      "url": "https://www.rcrwireless.com/20250827/5g/kt-ai-ran"
+      "text": "Risky Free VPN Surge - Users turn to free VPNs for privacy, exposing data to servers in China and Russia.",
+      "url": "https://www.telecomstechnews.com/news/online-safety-act-sparks-rush-free-vpn-services/"
     },
     {
-      "text": "AI Growth Bubble Debate - Analysts question if the current AI boom is sustainable or a fleeting bubble.",
-      "url": "https://www.rcrwireless.com/20250827/analyst-angle/ai-growth-bubble-analyst"
+      "text": "5G Mobile Core Growth - The 5G mobile core network surged 31% in Q2 2025, driven by subscriber growth.",
+      "url": "https://www.rcrwireless.com/20250827/5g/5g-mobile-core"
     },
     {
-      "text": "Nvidia's AI Platform Adoption - Major enterprises like **Disney** and **Siemens** are transforming operations with Nvidia's new AI servers.",
-      "url": "https://www.rcrwireless.com/20250827/industry-4-0/all-in-new-nvidia-ai-platform"
-    },
-    {
-      "text": "Data Center Playbook Changes - **Flexential** CEO highlights new challenges in data center operations amid AI demand.",
-      "url": "https://www.rcrwireless.com/20250826/ai-infrastructure/flexential-playbook"
-    },
-    {
-      "text": "Online Safety Act VPN Risks - The UK’s **Online Safety Act** drives users to risky free VPNs, exposing data to foreign servers."
-    },
-    {
-      "text": "Record Global DDoS Attacks - Over 8 million DDoS attacks were reported in H1 2025, targeting critical services amid geopolitical tensions.",
-      "url": "https://www.telecomstechnews.com/news/global-ddos-attacks-exceed-8m-amid-geopolitical-tensions/"
-    },
-    {
-      "text": "Open RAN 5G at Stadium - **Boldyn Networks** and **VMO2** enhance connectivity at Sunderland's Stadium of Light with Open RAN technology.",
-      "url": "https://totaltele.com/boldyn-networks-and-vmo2-deploy-open-ran-5g-at-sunderlands-stadium-of-light/"
-    },
-    {
-      "text": "BT Expands AWS Partnership - **BT Group** signs a five-year deal with **AWS** to modernize its cloud infrastructure.",
+      "text": "BT Expands Cloud Partnership - BT Group signs a five-year deal with **AWS** to enhance customer-focused digital experiences.",
       "url": "https://totaltele.com/bt-signs-new-five-year-cloud-partnership-with-aws/"
     },
     {
-      "text": "Private 5G for Offshore Operations - **Tampnet** deploys private 5G networks for offshore drilling and production units in the North Sea.",
-      "url": "https://www.rcrwireless.com/20250827/internet-of-things/high-seas-private-5g-tampnet"
+      "text": "Open RAN 5G at Stadium - **Boldyn Networks** and **VMO2** deploy Open RAN 5G at Sunderland's Stadium of Light.",
+      "url": "https://totaltele.com/boldyn-networks-and-vmo2-deploy-open-ran-5g-at-sunderlands-stadium-of-light/"
     },
     {
-      "text": "Nokia's 5G for Railways - **Nokia** launches a new 5G radio solution to modernize rail connectivity globally.",
+      "text": "Global DDoS Attacks Rise - Over 8 million DDoS attacks recorded in H1 2025, targeting major political events.",
+      "url": "https://www.telecomstechnews.com/news/global-ddos-attacks-exceed-8m-amid-geopolitical-tensions/"
+    },
+    {
+      "text": "Nokia's Rail Connectivity - **Nokia** unveils a new 5G radio solution to modernize rail communications globally.",
       "url": "https://totaltele.com/nokia-looks-to-modernise-rail-connectivity-with-new-5g-radio/"
+    },
+    {
+      "text": "AI-RAN Trials in 5G - **KT** tests AI-driven radio access technology on its live 5G network in South Korea.",
+      "url": "https://www.rcrwireless.com/20250827/5g/kt-ai-ran"
+    },
+    {
+      "text": "Private 5G for Offshore - **Tampnet** deploys private 5G for offshore drilling and production units in the North Sea.",
+      "url": "https://www.rcrwireless.com/20250827/internet-of-things/high-seas-private-5g-tampnet"
     }
   ]
 }
