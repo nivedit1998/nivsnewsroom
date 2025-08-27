@@ -389,7 +389,7 @@ export default function HomePage() {
                         onClick={() => setShowAllBullets(true)}
                         className="rounded-xl bg-gray-50 px-3 py-1.5 text-sm text-gray-700 ring-1 ring-gray-200 hover:bg-gray-100"
                       >
-                        Show all 10
+                        Show all
                       </button>
                     ) : (
                       <button
