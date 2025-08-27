@@ -13,12 +13,11 @@ type Bullet = { text: string; url?: string };
 type SummaryFile = { generatedAt?: string; bullets?: Bullet[] };
 
 /* -------------- Summary loaders (keep your formats) -------------- */
-/** Reads a JSON file under /public/data/summaries. Supports .json OR .jason (your current hightech filename). */
 async function readSummaryBase(nameNoExt: string): Promise<SummaryFile | null> {
   const base = path.join(process.cwd(), "public", "data", "summaries");
   const tryPaths = [
     path.join(base, `${nameNoExt}.json`),
-    path.join(base, `${nameNoExt}.jason`), // tolerate the .jason file you mentioned
+    path.join(base, `${nameNoExt}.jason`), // tolerate your hightech .jason
   ];
   for (const p of tryPaths) {
     try {
@@ -55,7 +54,7 @@ function fmtParts(date: Date, timeZone: string) {
 }
 function getWeekday(date: Date, timeZone: string): number {
   const s = new Intl.DateTimeFormat("en-GB", { timeZone, weekday: "short" }).format(date);
-  return ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"].indexOf(s);
+  return ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"].indexOf(s); // 0..6
 }
 function getTimeZoneOffset(date: Date, timeZone: string): number {
   const p = fmtParts(date, timeZone);
@@ -120,7 +119,8 @@ function renderSection(title: string, bullets: Bullet[]) {
   `;
 }
 
-function renderEmailHTML(weekLabel: string, hightech: Bullet[], telecoms: Bullet[], subscribeUrl: string, unsubscribeUrl: string) {
+/** HTML email with NO Subscribe link; includes “Resubscribe at nivstechpulse.com”. */
+function renderEmailHTML(weekLabel: string, hightech: Bullet[], telecoms: Bullet[], unsubscribeUrl: string) {
   const preheader = "Top 5 from High Tech & Telecoms — concise and curated.";
   return `<!doctype html>
 <html>
@@ -177,12 +177,9 @@ function renderEmailHTML(weekLabel: string, hightech: Bullet[], telecoms: Bullet
         <tr>
           <td style="padding:0 24px 20px 24px">
             <div style="font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:#777;font-size:12px;line-height:1.6">
-              <p style="margin:12px 0 0 0">
-                <a href="${subscribeUrl}" style="color:#0d6efd;text-decoration:underline">Subscribe</a>
-                &nbsp;•&nbsp;
-                <a href="${unsubscribeUrl}" style="color:#0d6efd;text-decoration:underline">Unsubscribe</a>
-              </p>
               <p style="margin:6px 0 0 0">You subscribed at nivstechpulse.com. Unsubscribe any time.</p>
+              <p style="margin:6px 0 0 0">Unsubscribe: <a href="${unsubscribeUrl}" style="color:#0d6efd;text-decoration:underline">${unsubscribeUrl}</a></p>
+              <p style="margin:6px 0 0 0"><strong>Resubscribe at nivstechpulse.com</strong></p>
             </div>
           </td>
         </tr>
@@ -190,6 +187,21 @@ function renderEmailHTML(weekLabel: string, hightech: Bullet[], telecoms: Bullet
     </div>
   </body>
 </html>`;
+}
+
+/* ----------------------- Gate: cron-only + Monday 10:00 London ----------------------- */
+function isMondayTenLondon(now = new Date()) {
+  const tz = "Europe/London";
+  const weekday = getWeekday(now, tz); // 0..6
+  const parts = fmtParts(now, tz);     // local London parts
+  return weekday === 1 && parts.hour === 10; // Monday and 10:xx
+}
+
+function guard(req: Request) {
+  const isCron = !!req.headers.get("x-vercel-cron");
+  if (!isCron) return { allowed: false, reason: "not_vercel_cron" };
+  if (!isMondayTenLondon()) return { allowed: false, reason: "not_monday_10_london" };
+  return { allowed: true, reason: "ok" };
 }
 
 /* ----------------------- Main send (SES) ----------------------- */
@@ -203,57 +215,64 @@ function escapeText(s: string) {
   return s.replace(/\s+/g, " ").trim();
 }
 
-export async function GET() {
-  try {
-    // Load bullets
-    const [hightech, telecoms] = await Promise.all([readHighTech(), readTelecoms()]);
-    if (!hightech.length && !telecoms.length) {
-      return NextResponse.json({ error: "No bullets available" }, { status: 400 });
-    }
+async function doSend() {
+  const [hightech, telecoms] = await Promise.all([readHighTech(), readTelecoms()]);
+  if (!hightech.length && !telecoms.length) {
+    return NextResponse.json({ error: "No bullets available" }, { status: 400 });
+  }
 
-    // Subscribers
-    const { data: subs, error } = await supabaseAdmin
-      .from("subscribers")
-      .select("email")
-      .eq("status", "active");
-    if (error) throw error;
-    if (!subs?.length) {
-      return NextResponse.json({ error: "No active subscribers" }, { status: 400 });
-    }
+  const { data: subs, error } = await supabaseAdmin
+    .from("subscribers")
+    .select("email")
+    .eq("status", "active");
+  if (error) throw error;
+  if (!subs?.length) {
+    return NextResponse.json({ error: "No active subscribers" }, { status: 400 });
+  }
 
-    const { end: lastSun } = lastWeekRangeLondon(new Date());
-    const weekLabel = formatDayMonthYear(lastSun);
-    const subject = buildSubject();
+  const { end: lastSun } = lastWeekRangeLondon(new Date());
+  const weekLabel = formatDayMonthYear(lastSun);
+  const subject = buildSubject();
 
-    // Per-recipient render (now using SendEmail under the hood)
-    const result = await sendBulk({
-      recipients: subs.map((s) => ({ email: s.email })),
-      subject,
-      renderFor: ({ email }) => {
-        const subscribeUrl = `${process.env.PUBLIC_SITE_URL}/`;
-        const unsubUrl = `${process.env.PUBLIC_SITE_URL}/api/newsletter/unsubscribe?email=${encodeURIComponent(email)}`;
-        const html = renderEmailHTML(weekLabel, hightech, telecoms, subscribeUrl, unsubUrl);
-        const text =
-          `Niv’s Tech and Telecom Pulse — Week of ${weekLabel}\n\n` +
-          `High Tech — Top 5\n` +
-          hightech.slice(0, 5).map((b, i) => `${i + 1}. ${escapeText(b.text)}${b.url ? ` (${b.url})` : ""}`).join("\n") +
-          `\n\nTelecoms — Top 5\n` +
-          telecoms.slice(0, 5).map((b, i) => `${i + 1}. ${escapeText(b.text)}${b.url ? ` (${b.url})` : ""}`).join("\n") +
-          `\n\nUnsubscribe: ${unsubUrl}`;
-        return { html, text };
-      },
+  const result = await sendBulk({
+    recipients: subs.map((s) => ({ email: s.email })),
+    subject,
+    renderFor: ({ email }) => {
+      const unsubUrl = `${process.env.PUBLIC_SITE_URL}/api/newsletter/unsubscribe?email=${encodeURIComponent(email)}`;
+      const html = renderEmailHTML(weekLabel, hightech, telecoms, unsubUrl);
+      const text =
+        `Niv’s Tech and Telecom Pulse — Week of ${weekLabel}\n\n` +
+        `High Tech — Top 5\n` +
+        hightech.slice(0, 5).map((b, i) => `${i + 1}. ${escapeText(b.text)}${b.url ? ` (${b.url})` : ""}`).join("\n") +
+        `\n\nTelecoms — Top 5\n` +
+        telecoms.slice(0, 5).map((b, i) => `${i + 1}. ${escapeText(b.text)}${b.url ? ` (${b.url})` : ""}`).join("\n") +
+        `\n\nUnsubscribe: ${unsubUrl}\n` +
+        `Resubscribe at nivstechpulse.com`;
+      return { html, text };
+    },
+  });
+
+  if (result.failed.length) {
+    return NextResponse.json({ ok: true, sent: result.ok, failed: result.failed.length, errors: result.failed });
+  }
+  return NextResponse.json({ ok: true, sent: subs.length });
+}
+
+export async function GET(req: Request) {
+  const g = guard(req);
+  if (!g.allowed) {
+    return new NextResponse(null, {
+      status: 204,
+      headers: { "x-nnr-skip-reason": g.reason },
     });
-
-    if (result.failed.length) {
-      return NextResponse.json({ ok: true, sent: result.ok, failed: result.failed.length, errors: result.failed });
-    }
-
-    return NextResponse.json({ ok: true, sent: subs.length });
+  }
+  try {
+    return await doSend();
   } catch (e: any) {
     return NextResponse.json({ error: e?.message || "Failed to send" }, { status: 500 });
   }
 }
 
-export async function POST() {
-  return GET();
+export async function POST(req: Request) {
+  return GET(req);
 }
