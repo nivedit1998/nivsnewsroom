@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "ingest": "node scripts/ingest.mjs"
+    "ingest": "node scripts/ingest.mjs",
+    "preview:newsletter": "node scripts/preview-newsletter.mjs"
   },
   "dependencies": {
     "@aws-sdk/client-sesv2": "^3.873.0",
