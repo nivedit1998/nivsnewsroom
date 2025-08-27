@@ -49,6 +49,7 @@ const SOURCES = {
   telecoms: [
     "https://www.rcrwireless.com/rss",
     "https://www.lightreading.com/rss_simple.asp",
+    "https://telecomstechnews.com/feed",
     "https://www.fierce-network.com/rss/xml",      // Fierce Network / FierceTelecom
     "https://telecoms.com/feed/",
     "https://www.totaltele.com/feed/",
