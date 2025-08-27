@@ -3,15 +3,16 @@ import type { MetadataRoute } from "next";
 
 export default function robots(): MetadataRoute.Robots {
   const base = "https://www.nivstechpulse.com";
+
   return {
     rules: [
       {
         userAgent: "*",
         allow: "/",
         disallow: [
-          // block internal util routes if any:
-          "/api/run-injest",          // your tokened ingest trigger
-          "/api/newsletter/unsubscribe", // optional to keep it private-ish
+          // keep internal-only APIs hidden from crawlers
+          "/api/run-injest",
+          "/api/newsletter/unsubscribe",
         ],
       },
     ],
