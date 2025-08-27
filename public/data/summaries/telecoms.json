@@ -1,45 +1,44 @@
 {
-  "generatedAt": "2025-08-27T22:32:08.892Z",
+  "generatedAt": "2025-08-27T22:50:07.843Z",
   "bullets": [
     {
-      "text": "KT Tests AI-RAN Tech - **KT** pioneers AI-driven optimization in 5G, aiming for enhanced performance and future 6G readiness.",
+      "text": "KT Tests AI-RAN Tech - **KT** pioneers AI-driven optimization on its 5G network, aiming for enhanced capacity and reliability.",
       "url": "https://www.rcrwireless.com/20250827/5g/kt-ai-ran"
     },
     {
-      "text": "AI Growth Bubble Discussion - Analysts debate whether the current AI boom is sustainable or a temporary bubble.",
+      "text": "AI Growth Bubble Debate - Analysts question if the current AI boom is sustainable or a fleeting bubble.",
       "url": "https://www.rcrwireless.com/20250827/analyst-angle/ai-growth-bubble-analyst"
     },
     {
-      "text": "Nvidia's AI Platform Adoption - Major enterprises like **Disney** and **Siemens** are transforming operations using **Nvidia**'s new AI infrastructure.",
+      "text": "Nvidia's AI Platform Adoption - Major enterprises like **Disney** and **Siemens** are transforming operations with Nvidia's new AI servers.",
       "url": "https://www.rcrwireless.com/20250827/industry-4-0/all-in-new-nvidia-ai-platform"
     },
     {
-      "text": "Boldyn and VMO2's 5G Deployment - **Boldyn Networks** and **VMO2** enhance 5G connectivity at Sunderland's Stadium of Light for fans.",
+      "text": "Data Center Playbook Changes - **Flexential** CEO highlights new challenges in data center operations amid AI demand.",
+      "url": "https://www.rcrwireless.com/20250826/ai-infrastructure/flexential-playbook"
+    },
+    {
+      "text": "Online Safety Act VPN Risks - The UK’s **Online Safety Act** drives users to risky free VPNs, exposing data to foreign servers."
+    },
+    {
+      "text": "Record Global DDoS Attacks - Over 8 million DDoS attacks were reported in H1 2025, targeting critical services amid geopolitical tensions.",
+      "url": "https://www.telecomstechnews.com/news/global-ddos-attacks-exceed-8m-amid-geopolitical-tensions/"
+    },
+    {
+      "text": "Open RAN 5G at Stadium - **Boldyn Networks** and **VMO2** enhance connectivity at Sunderland's Stadium of Light with Open RAN technology.",
       "url": "https://totaltele.com/boldyn-networks-and-vmo2-deploy-open-ran-5g-at-sunderlands-stadium-of-light/"
     },
     {
-      "text": "BT's Cloud Partnership with AWS - **BT Group** expands its cloud capabilities with a new five-year agreement with **AWS**.",
+      "text": "BT Expands AWS Partnership - **BT Group** signs a five-year deal with **AWS** to modernize its cloud infrastructure.",
       "url": "https://totaltele.com/bt-signs-new-five-year-cloud-partnership-with-aws/"
     },
     {
-      "text": "5G Mobile Core Market Growth - The **Dell’Oro** report reveals a 31% surge in the 5G mobile core segment in Q2 2025.",
-      "url": "https://www.rcrwireless.com/20250827/5g/5g-mobile-core"
+      "text": "Private 5G for Offshore Operations - **Tampnet** deploys private 5G networks for offshore drilling and production units in the North Sea.",
+      "url": "https://www.rcrwireless.com/20250827/internet-of-things/high-seas-private-5g-tampnet"
     },
     {
-      "text": "T-Mobile US Launches SuperMobile - **T-Mobile US** introduces a nationwide 5G network slice tailored for enterprise customers.",
-      "url": "https://www.rcrwireless.com/20250827/5g/t-mo-5g-network-slice"
-    },
-    {
-      "text": "Nokia's 5G for Railways - **Nokia** unveils a new 5G radio solution to modernize rail connectivity and enhance safety.",
+      "text": "Nokia's 5G for Railways - **Nokia** launches a new 5G radio solution to modernize rail connectivity globally.",
       "url": "https://totaltele.com/nokia-looks-to-modernise-rail-connectivity-with-new-5g-radio/"
-    },
-    {
-      "text": "Crusoe Expands Cloud Capacity - **Crusoe** Cloud expands in Iceland with new **Nvidia** hardware, focusing on sustainability.",
-      "url": "https://www.rcrwireless.com/20250827/ai-infrastructure/crusoe-cloud"
-    },
-    {
-      "text": "IBM and AMD's Quantum Collaboration - **IBM** and **AMD** explore hybrid computing models combining quantum and classical systems.",
-      "url": "https://www.rcrwireless.com/20250827/ai-infrastructure/ibm-amd-quantum"
     }
   ]
 }
