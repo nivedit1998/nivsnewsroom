@@ -1,37 +1,45 @@
 {
-  "generatedAt": "2025-08-29T08:44:50.634Z",
+  "generatedAt": "2025-08-30T08:41:03.996Z",
   "bullets": [
     {
-      "text": "US Firms Sue Ofcom - **Ofcom** faces legal action from **4chan** and **Kiwi Farms** over alleged free speech violations.",
+      "text": "US Firms Sue Ofcom - US companies challenge UK regulator's enforcement of the Online Safety Act, citing free speech violations.",
       "url": "https://www.telecomstechnews.com/news/us-firms-sue-uk-regulator-coercive-threats-free-speech-attacks/"
     },
     {
-      "text": "Data Center Workforce Crisis - The **data center** industry struggles with a shortage of skilled tradespeople amid soaring demand.",
+      "text": "AI Pilots' High Failure Rate - A staggering 95% of enterprise generative AI projects fail, highlighting the need for better strategies.",
+      "url": "https://www.rcrwireless.com/20250829/analyst-angle/bookmarks-gen-ai-pilots"
+    },
+    {
+      "text": "AI Chip Market Boom - Omdia forecasts AI chip market to reach $286 billion by 2030, despite slowing growth rates.",
+      "url": "https://www.rcrwireless.com/20250829/ai-infrastructure/aidc-chip-omdia"
+    },
+    {
+      "text": "Nvidia Eyes China Market - Nvidia's CEO hints at potential sales of Blackwell AI chips in China, pending US regulations.",
+      "url": "https://www.rcrwireless.com/20250829/ai-infrastructure/nvidia-chips-china"
+    },
+    {
+      "text": "Edge Computing Challenges - Telecoms must address thermal and power efficiency for AI deployments at edge locations.",
+      "url": "https://www.rcrwireless.com/20250829/reader-forum/edge-telecom"
+    },
+    {
+      "text": "Data Center Workforce Crisis - The construction industry faces a shortage of skilled tradespeople, slowing data center builds.",
       "url": "https://www.rcrwireless.com/20250829/workforce/construction-workforce"
     },
     {
-      "text": "SK Telecom Fined $97M - **SK Telecom** receives record fine for a massive data breach affecting millions of customers.",
+      "text": "China's Satellite Internet Push - China accelerates development of low-orbit satellite internet to compete with **Starlink**.",
+      "url": "https://www.telecomstechnews.com/news/china-pushes-forward-with-low-orbit-satellite-internet-to-rival-starlink/"
+    },
+    {
+      "text": "AI Reshapes Banking Jobs - Generative AI could displace 27,000 UK banking jobs by 2030, prompting reskilling initiatives.",
+      "url": "https://www.rcrwireless.com/20250829/ai-ml/ai-banking-citigroup-bnp-paribas-uk"
+    },
+    {
+      "text": "South Africa's Fibre Network Consolidation - Efforts underway to streamline public fibre networks for better connectivity.",
+      "url": "https://totaltele.com/south-africa-looks-to-consolidate-fibre-networks-of-state-owned-enterprises/"
+    },
+    {
+      "text": "SK Telecom Fined $97M - South Korea's SK Telecom faces record fine for data breach affecting millions of customers.",
       "url": "https://www.telecomstechnews.com/news/south-korea-fines-sk-telecom-us-97m-over-data-breach/"
-    },
-    {
-      "text": "Boldyn and VMO2 Launch 5G - **Boldyn Networks** and **VMO2** enhance 5G connectivity at Sunderland’s Stadium of Light.",
-      "url": "https://totaltele.com/boldyn-networks-and-vmo2-deploy-open-ran-5g-at-sunderlands-stadium-of-light/"
-    },
-    {
-      "text": "Global DDoS Attacks Surge - Over 8 million **DDoS** attacks recorded globally in H1 2025 amid rising geopolitical tensions.",
-      "url": "https://www.telecomstechnews.com/news/global-ddos-attacks-exceed-8m-amid-geopolitical-tensions/"
-    },
-    {
-      "text": "Sparkle Expands in Europe - **Sparkle** opens a new Point of Presence in Helsinki to enhance connectivity in Northern Europe.",
-      "url": "https://totaltele.com/sparkle-expands-its-reach-in-europe-with-a-new-point-of-presence-in-helsinki/"
-    },
-    {
-      "text": "Leadership for Digital Britain - **NETS International** emphasizes workforce empowerment in the evolving UK telecom landscape.",
-      "url": "https://totaltele.com/leadership-for-a-digital-era/"
-    },
-    {
-      "text": "Nokia Modernizes Rail Connectivity - **Nokia** launches a new 5G radio solution to enhance railway communications globally.",
-      "url": "https://totaltele.com/nokia-looks-to-modernise-rail-connectivity-with-new-5g-radio/"
     }
   ]
 }
