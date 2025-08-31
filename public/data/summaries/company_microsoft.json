@@ -1,37 +1,25 @@
 {
-  "generatedAt": "2025-08-30T08:41:25.132Z",
+  "generatedAt": "2025-08-31T08:41:42.400Z",
   "bullets": [
     {
-      "text": "Windows 11 Canary Build 27934 Released - A new Insider Preview Build enhances overall experience with fixes and improvements.",
+      "text": "Windows 11 Insider Preview Builds Released - New builds for Canary, Dev, and Beta Channels enhance user experience and features.",
       "url": "https://blogs.windows.com/blog/2025/08/29/announcing-windows-11-insider-preview-build-27934-canary-channel/"
     },
     {
-      "text": "Windows 11 Dev Build 26220.5770 Unveiled - New features in Click to Do enhance productivity with table recognition.",
-      "url": "https://blogs.windows.com/windows-insider/2025/08/29/announcing-windows-11-insider-preview-build-26220-5770-dev-channel/"
-    },
-    {
-      "text": "Windows 11 Beta Build 26120.5770 Released - Click to Do now supports table conversion to Excel for better efficiency.",
-      "url": "https://blogs.windows.com/windows-insider/2025/08/29/announcing-windows-11-insider-preview-build-26120-5770-beta-channel/"
-    },
-    {
-      "text": "Windows 11 Version 25H2 Available - The latest feature update is now in the Release Preview Channel ahead of general availability.",
+      "text": "Windows 11, version 25H2 Preview Available - Annual feature update now in Release Preview Channel ahead of general availability.",
       "url": "https://blogs.windows.com/windows-insider/2025/08/29/releasing-windows-11-version-25h2-to-the-release-preview-channel/"
     },
     {
-      "text": "Microsoft Defender Leads Endpoint Security - Ranked number one for modern endpoint security market share for the third consecutive year.",
+      "text": "Microsoft Defender Dominates Security Market - Ranked number one in modern endpoint security market share for the third consecutive year.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/08/27/microsoft-ranked-number-one-in-modern-endpoint-security-market-share-third-year-in-a-row/"
     },
     {
-      "text": "Storm-0501 Adapts to Cloud Ransomware - Evolving tactics highlight the need for enhanced cloud security measures.",
+      "text": "Storm-0501's Evolving Ransomware Tactics - Threat actor shifts focus to cloud-based ransomware, exploiting hybrid environments.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/08/27/storm-0501s-evolving-techniques-lead-to-cloud-based-ransomware/"
     },
     {
-      "text": "Securing Autonomous Agents - Insights on the governance and security challenges posed by the rise of autonomous agents.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2025/08/26/securing-and-governing-the-rise-of-autonomous-agents/"
-    },
-    {
-      "text": "Transforming Discovery with Azure and NVIDIA - Showcasing how AI and cloud technologies are revolutionizing scientific research.",
-      "url": "https://azure.microsoft.com/en-us/blog/transforming-scientific-discovery-with-microsoft-azure-and-nvidia/"
+      "text": "Awesome Copilot MCP Server Launched - New server simplifies searching and saving customizations for GitHub Copilot.",
+      "url": "https://devblogs.microsoft.com/blog/announcing-awesome-copilot-mcp-server"
     }
   ]
 }
