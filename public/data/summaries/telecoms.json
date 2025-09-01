@@ -1,44 +1,44 @@
 {
-  "generatedAt": "2025-08-31T08:41:26.147Z",
+  "generatedAt": "2025-09-01T08:47:28.211Z",
   "bullets": [
     {
       "text": "US Firms Sue Ofcom - US companies challenge UK regulator's enforcement of the Online Safety Act, citing free speech violations.",
       "url": "https://www.telecomstechnews.com/news/us-firms-sue-uk-regulator-coercive-threats-free-speech-attacks/"
     },
     {
-      "text": "AI Pilot Success Rates - Only 5% of generative AI pilots succeed, highlighting the need for strategic implementation.",
+      "text": "AI Pilots' High Failure Rate - A staggering 95% of enterprise generative AI projects fail, highlighting the need for strategic implementation.",
       "url": "https://www.rcrwireless.com/20250829/analyst-angle/bookmarks-gen-ai-pilots"
     },
     {
-      "text": "AI Chip Market Growth - Omdia forecasts AI chip market to reach $286 billion by 2030, despite slowing growth rates.",
+      "text": "AI Chip Market Growth - Omdia forecasts the AI chip market to reach $286 billion by 2030, despite slowing growth rates.",
       "url": "https://www.rcrwireless.com/20250829/ai-infrastructure/aidc-chip-omdia"
     },
     {
-      "text": "Nvidia Eyes China Market - Nvidia's CEO hints at potential sales of Blackwell AI chips in China, pending regulatory approval.",
+      "text": "Nvidia Eyes China Market - Nvidia's CEO hints at potential sales of Blackwell AI chips in China, pending US licensing.",
       "url": "https://www.rcrwireless.com/20250829/ai-infrastructure/nvidia-chips-china"
     },
     {
-      "text": "Edge Computing Challenges - Telecom operators must address thermal efficiency to support AI at the edge effectively.",
+      "text": "Telecom Edge Cooling Solutions - Innovative cooling systems are essential for efficient AI operations at telecom edge sites.",
       "url": "https://www.rcrwireless.com/20250829/reader-forum/edge-telecom"
     },
     {
-      "text": "Data Center Workforce Crunch - Skilled labor shortages hinder rapid data center construction amid soaring demand.",
+      "text": "Data Center Workforce Crisis - The data center industry faces a skilled trades shortage, impacting construction timelines.",
       "url": "https://www.rcrwireless.com/20250829/workforce/construction-workforce"
     },
     {
-      "text": "China's Satellite Internet Push - China accelerates development of low-orbit satellite internet to compete with **Starlink**.",
+      "text": "China's Satellite Internet Plans - China accelerates development of low-orbit satellite internet to compete with **Starlink**.",
       "url": "https://www.telecomstechnews.com/news/china-pushes-forward-with-low-orbit-satellite-internet-to-rival-starlink/"
     },
     {
-      "text": "AI's Impact on Banking - AI tools reshape banking operations, but workforce displacement raises concerns about job security.",
+      "text": "AI Reshapes Banking Sector - AI tools are transforming banking operations while prompting significant workforce changes in the UK.",
       "url": "https://www.rcrwireless.com/20250829/ai-ml/ai-banking-citigroup-bnp-paribas-uk"
     },
     {
-      "text": "South Africa's Fiber Consolidation - Efforts underway to unify state-owned fiber networks for improved connectivity.",
+      "text": "South Africa's Fibre Network Consolidation - Efforts underway to unify public fibre networks for improved connectivity and efficiency.",
       "url": "https://totaltele.com/south-africa-looks-to-consolidate-fibre-networks-of-state-owned-enterprises/"
     },
     {
-      "text": "SK Telecom Fined $97M - South Korea imposes record fine on SK Telecom for major data breach and security lapses.",
+      "text": "SK Telecom Fined for Breach - South Korea fines **SK Telecom** $97 million for a significant data breach affecting millions.",
       "url": "https://www.telecomstechnews.com/news/south-korea-fines-sk-telecom-us-97m-over-data-breach/"
     }
   ]
