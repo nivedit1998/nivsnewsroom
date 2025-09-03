@@ -1,45 +1,45 @@
 {
-  "generatedAt": "2025-09-02T08:45:07.749Z",
+  "generatedAt": "2025-09-03T08:43:30.085Z",
   "bullets": [
     {
-      "text": "Silksong Launches at $19.99 - **Hollow Knight: Silksong** releases this week, priced to attract a wide audience.",
-      "url": "https://www.theverge.com/news/768524/hollow-knight-silksong-pricing-release-timing"
-    },
-    {
-      "text": "UK Age Check Law Impact - New regulations are hurting compliant sites while benefiting those who ignore them.",
-      "url": "https://techcrunch.com/2025/08/31/uk-age-check-law-seems-to-be-hurting-sites-that-comply-helping-those-that-dont/"
-    },
-    {
-      "text": "Apple's Encryption Stance Supported - **Apple** prioritizes strong encryption, backed by the FTC amid regulatory pressures.",
+      "text": "Apple Backs Strong Encryption - **Apple** prioritizes end-to-end encryption, even withdrawing features in the UK to maintain security.",
       "url": "https://9to5mac.com/2025/09/01/apples-stance-on-strong-encryption-gets-the-support-of-the-ftc-in-us-privacy-u-turn/"
     },
     {
-      "text": "Slower Features for UK Users - **Apple** warns that tighter regulations may delay feature rollouts in the UK.",
+      "text": "UK Users Face Delayed Features - **Apple** warns that tighter regulations may slow down feature rollouts for UK users.",
       "url": "https://9to5mac.com/2025/08/27/apple-suggests-uk-users-may-see-slower-feature-rollouts-under-tighter-regulation/"
     },
     {
-      "text": "WhatsApp Status Gains Close Friends - **Meta** introduces a Close Friends feature for its popular Status updates.",
+      "text": "Galaxy S25 FE Leaks Revealed - Real-life images of **Samsung's** Galaxy S25 FE showcase its AI features ahead of launch.",
+      "url": "https://9to5google.com/2025/09/02/galaxy-s25-fe-leaked-hands-on-images-every-galaxy-ai-feature/"
+    },
+    {
+      "text": "WhatsApp Status Gets Update - **Meta** introduces a Close Friends feature for WhatsApp Status, enhancing user privacy.",
       "url": "https://9to5mac.com/2025/09/01/whatsapp-status-is-getting-a-close-friends-feature/"
     },
     {
-      "text": "iOS 26 Beta Helps Clean Lenses - New feature alerts users when their iPhone camera lens needs cleaning.",
-      "url": "https://www.cnet.com/tech/services-and-software/dirty-lens-this-ios-26-beta-feature-can-help-you-take-better-pictures/#ftag=CAD590a51e"
+      "text": "Apple's iPhone 17 Air Expected - The upcoming **iPhone 17** may adopt eSIM-only design, expanding its international feature set.",
+      "url": "https://9to5mac.com/2025/08/31/iphone-17-air-esim-only/"
     },
     {
-      "text": "Honor Magic V5 Launches in UK - The new foldable phone boasts impressive durability and a slim design.",
-      "url": "https://9to5google.com/2025/08/29/only-one-honor-magic-v5-color-is-thinner-than-galaxy-z-fold-7/"
+      "text": "Google's Antitrust Ruling Impact - **Google** retains Chrome but faces new restrictions to curb anticompetitive practices.",
+      "url": "https://www.theverge.com/news/769738/google-doj-antitrust-remedies-ruling-critics"
     },
     {
-      "text": "Apple TV+ Comedy Hits BBC - **Apple's** series *Trying* will be available on BBC iPlayer, expanding its audience.",
-      "url": "https://9to5mac.com/2025/08/28/bbc-apple-tv-comedy-new-audience/"
+      "text": "Amazon Launches Lens Live - **Amazon** introduces Lens Live, an AI shopping tool that identifies products in real-time.",
+      "url": "https://techcrunch.com/2025/09/02/amazon-launches-lens-live-an-ai-powered-shopping-tool-for-use-in-the-real-world/"
     },
     {
-      "text": "London's Public Transit Campaign - Londoners are urged to wear headphones on public transport to reduce noise.",
-      "url": "https://9to5mac.com/2025/08/27/londoners-told-to-wear-headphones-on-public-transit/"
+      "text": "OpenAI Enhances ChatGPT Safety - **OpenAI** plans to route sensitive conversations to GPT-5, introducing new parental controls.",
+      "url": "https://techcrunch.com/2025/09/02/openai-to-route-sensitive-conversations-to-gpt-5-introduce-parental-controls/"
     },
     {
-      "text": "Apple Faces Global Antitrust Probes - **Apple** is under investigation in multiple countries over App Store practices.",
-      "url": "https://9to5mac.com/2025/08/27/colombia-joins-the-list-of-countries-probing-apple-over-app-store-antitrust-concerns/"
+      "text": "Waymo Expands Robotaxi Service - **Waymo** launches services in Denver and Seattle, testing autonomous tech in diverse weather.",
+      "url": "https://techcrunch.com/2025/09/02/waymo-expands-to-denver-and-seattle-with-its-zeekr-made-vans/"
+    },
+    {
+      "text": "Anthropic Raises $13B - **Anthropic** secures $13 billion in funding, boosting its valuation to $183 billion amid AI growth.",
+      "url": "https://techcrunch.com/2025/09/02/anthropic-raises-13b-series-f-at-183b-valuation/"
     }
   ]
 }
