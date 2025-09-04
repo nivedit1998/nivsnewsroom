@@ -1,45 +1,29 @@
 {
-  "generatedAt": "2025-09-03T08:44:22.315Z",
+  "generatedAt": "2025-09-04T08:43:38.582Z",
   "bullets": [
     {
-      "text": "US Firms Sue Ofcom – Legal Action Over Free Speech",
+      "text": "Ofcom's mmWave Auction Boosts 5G - Ofcom's upcoming auction aims to enhance 5G speeds in busy UK cities.",
+      "url": "https://www.telecomstechnews.com/news/ofcom-mmwave-auction-fix-slow-5g-in-busy-cities/"
+    },
+    {
+      "text": "US Firms Sue Ofcom - Controversial threats from Ofcom spark legal action from US companies over free speech.",
       "url": "https://www.telecomstechnews.com/news/us-firms-sue-uk-regulator-coercive-threats-free-speech-attacks/"
     },
     {
-      "text": "Monzo's Potential Disruption – Banking Meets Telecom",
-      "url": "https://www.telecomstechnews.com/news/zac-eller-expressvpn-monzo-disrupt-mobile-service-market/"
+      "text": "Private 5G Delivers Rapid ROI - 87% of firms using private 5G see returns within a year, boosting industrial AI.",
+      "url": "https://www.rcrwireless.com/20250903/internet-of-things/private-5g-industry-40-roi-nokia"
     },
     {
-      "text": "Speed Fibre Acquires BT Communications – Market Consolidation",
-      "url": "https://totaltele.com/speed-fibre-group-completes-e22m-acquisition-of-bt-communications-ireland/"
-    },
-    {
-      "text": "DDoS Attacks Surge – Over 8 Million Recorded",
-      "url": "https://www.telecomstechnews.com/news/global-ddos-attacks-exceed-8m-amid-geopolitical-tensions/"
-    },
-    {
-      "text": "Netomnia Secures £300M – Expanding UK Network",
-      "url": "https://totaltele.com/netomnia-secures-300m-for-network-expansion/"
-    },
-    {
-      "text": "Vodafone Partners with Simetric – IoT Platform Integration",
+      "text": "Vodafone's IoT Platform Innovation - Vodafone partners with Simetric for a unified IoT management solution.",
       "url": "https://totaltele.com/vodafone-partners-with-simetric-for-single-pane-of-glass-iot-platform/"
     },
     {
-      "text": "Huawei's Profit Decline – R&D Spending Impact",
-      "url": "https://www.rcrwireless.com/20250902/5g/huawei-spending"
+      "text": "Netomnia Secures £300m Funding - The UK Alt-Net aims for five million premises by 2027 with new investment.",
+      "url": "https://totaltele.com/netomnia-secures-300m-for-network-expansion/"
     },
     {
-      "text": "Deutsche Telekom Expands 5G – 115 New Sites",
-      "url": "https://www.rcrwireless.com/20250902/5g/deutsche-telekom-2"
-    },
-    {
-      "text": "Nokia's 5G Radio for Railways – Modernizing Connectivity",
-      "url": "https://totaltele.com/nokia-looks-to-modernise-rail-connectivity-with-new-5g-radio/"
-    },
-    {
-      "text": "SK Telecom Fined $97M – Data Breach Consequences",
-      "url": "https://totaltele.com/korean-regulator-hits-skt-with-97m-fine-over-data-breach/"
+      "text": "Fixing eSIM Adoption Challenges - Industry leaders push for smoother eSIM integration to enhance global connectivity.",
+      "url": "https://www.telecomstechnews.com/news/fixing-slow-esim-adoption-improve-global-mobile-connectivity/"
     }
   ]
 }

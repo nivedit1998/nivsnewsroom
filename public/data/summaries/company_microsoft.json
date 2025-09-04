@@ -1,33 +1,25 @@
 {
-  "generatedAt": "2025-09-03T08:44:37.404Z",
+  "generatedAt": "2025-09-04T08:43:46.530Z",
   "bullets": [
     {
-      "text": "AI Adoption Boost for Government - **Microsoft** partners with the US GSA to enhance AI tools for federal agencies.",
+      "text": "AI Adoption for Government - **Microsoft** partners with the US GSA to enhance AI capabilities for federal agencies.",
       "url": "https://blogs.microsoft.com/blog/2025/09/02/accelerating-ai-adoption-for-the-us-government/"
     },
     {
-      "text": "Windows 11 Insider Updates - New builds released for **Windows 11** Insiders, enhancing user experience and fixing bugs.",
+      "text": "Windows 11 Insider Preview - New build 27934 released for Insiders, featuring general improvements and fixes.",
       "url": "https://blogs.windows.com/windows-insider/2025/08/29/announcing-windows-11-insider-preview-build-27934-canary-channel/"
     },
     {
-      "text": "Windows 11, version 25H2 Preview - **Microsoft** releases the latest Windows 11 feature update for Insiders ahead of general availability.",
+      "text": "New Features in Windows 11 - Build 26220.5770 introduces Copilot+ experiences and enhanced productivity tools.",
+      "url": "https://blogs.windows.com/windows-insider/2025/08/29/announcing-windows-11-insider-preview-build-26220-5770-dev-channel/"
+    },
+    {
+      "text": "Windows 11, version 25H2 - Annual feature update now available in the Release Preview Channel for Insiders.",
       "url": "https://blogs.windows.com/windows-insider/2025/08/29/releasing-windows-11-version-25h2-to-the-release-preview-channel/"
     },
     {
-      "text": "Awesome Copilot MCP Server - A new tool from **Microsoft** simplifies searching and saving customizations for GitHub Copilot.",
+      "text": "Awesome Copilot MCP Server - A new tool to discover and save customizations for **GitHub Copilot**.",
       "url": "https://devblogs.microsoft.com/blog/announcing-awesome-copilot-mcp-server"
-    },
-    {
-      "text": "AI Agent Observability Insights - **Microsoft** emphasizes the importance of observability in ensuring AI agent reliability and performance.",
-      "url": "https://azure.microsoft.com/en-us/blog/agent-factory-top-5-agent-observability-best-practices-for-reliable-ai/"
-    },
-    {
-      "text": "Cloud-Based Ransomware Threat - **Microsoft** warns of evolving tactics by Storm-0501, focusing on cloud environments for ransomware attacks.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2025/08/27/storm-0501s-evolving-techniques-lead-to-cloud-based-ransomware/"
-    },
-    {
-      "text": "Endpoint Security Market Leader - **Microsoft** Defender retains top position in modern endpoint security market for the third consecutive year.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2025/08/27/microsoft-ranked-number-one-in-modern-endpoint-security-market-share-third-year-in-a-row/"
     }
   ]
 }
