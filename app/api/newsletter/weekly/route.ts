@@ -1,6 +1,8 @@
 // app/api/newsletter/weekly/route.ts
 export const runtime = "nodejs";
-export const maxDuration = 60;
+export const maxDuration = 60 as const;
+// ensure no caching/prerender weirdness
+export const dynamic = "force-dynamic";
 
 import { NextResponse } from "next/server";
 import fs from "node:fs/promises";
@@ -53,14 +55,10 @@ async function readRankedBase(nameNoExt: "hightech" | "telecoms"): Promise<Ranke
   }
 }
 
-/** Top 5 bullets for a tab, aligned with site ranking:
- *  1) Take top ranked URLs from /public/data/{tab}.json
- *  2) Pick bullets from /public/data/summaries/{tab}.json that match those URLs
- *  3) If fewer than 5, top-up with remaining bullets; if still short, synthesize from ranked titles
- */
+/** Top 5 bullets for a tab — synced with ranking, topped up if needed. */
 async function getTop5BulletsForTab(tab: "hightech" | "telecoms"): Promise<Bullet[]> {
   const ranked = await readRankedBase(tab);
-  const rankedTop = ranked.slice(0, 12); // small buffer in case of URL mismatches
+  const rankedTop = ranked.slice(0, 12);
   const rankedUrls = new Set(rankedTop.map((r) => r.url).filter(Boolean));
 
   const summary = await readSummaryBase(tab);
@@ -127,26 +125,15 @@ function getWeekday(date: Date, timeZone: string): number {
   const s = new Intl.DateTimeFormat("en-GB", { timeZone, weekday: "short" }).format(date);
   return ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"].indexOf(s); // 0..6
 }
-function getTimeZoneOffset(date: Date, timeZone: string): number {
-  const p = fmtParts(date, timeZone);
-  const asUTC = Date.UTC(p.year, p.month - 1, p.day, p.hour, p.minute, p.second);
-  return (asUTC - date.getTime()) / 60000;
-}
-function makeZonedDate(
-  year: number, month: number, day: number, hour: number, minute: number, second: number, timeZone: string
-): Date {
-  const utcGuess = Date.UTC(year, month - 1, day, hour, minute, second);
-  const guess = new Date(utcGuess);
-  const offsetMin = getTimeZoneOffset(guess, timeZone);
-  return new Date(utcGuess - offsetMin * 60000);
-}
 function mondayOfThisWeekLondon(d: Date) {
   const tz = "Europe/London";
   const p = fmtParts(d, tz);
   const weekday = getWeekday(d, tz);
-  const dayStart = makeZonedDate(p.year, p.month, p.day, 0, 0, 0, tz);
+  // midnight London
+  const asUTC = Date.UTC(p.year, p.month - 1, p.day, 0, 0, 0);
+  const now = new Date(asUTC);
   const diffToMonday = ((weekday + 6) % 7);
-  return new Date(dayStart.getTime() - diffToMonday * 86400000);
+  return new Date(now.getTime() - diffToMonday * 86400000);
 }
 function lastWeekRangeLondon(reference: Date = new Date()) {
   const thisMonday = mondayOfThisWeekLondon(reference);
@@ -190,7 +177,6 @@ function renderSection(title: string, bullets: Bullet[]) {
   `;
 }
 
-/** HTML email with NO Subscribe link; includes “Resubscribe at nivstechpulse.com”. */
 function renderEmailHTML(weekLabel: string, hightech: Bullet[], telecoms: Bullet[], unsubscribeUrl: string) {
   const preheader = "Top 5 from High Tech & Telecoms — concise and curated.";
   return `<!doctype html>
@@ -205,7 +191,7 @@ function renderEmailHTML(weekLabel: string, hightech: Bullet[], telecoms: Bullet
         <tr>
           <td style="padding:24px 24px 8px 24px">
             <div style="font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:#111">
-              <div style="font-weight:800;font-size:22px;line-height:1.2">Niv’s Tech and Telecom Pulse</div>
+              <div style="font-weight:800;font-size:22px;line-height:1.2">Niv's Tech and Telecom Pulse</div>
               <div style="color:#555;font-size:14px;margin-top:4px">Week of ${esc(weekLabel)}</div>
             </div>
           </td>
@@ -260,18 +246,27 @@ function renderEmailHTML(weekLabel: string, hightech: Bullet[], telecoms: Bullet
 </html>`;
 }
 
-/* ----------------------- Gate: cron-only + Monday 10:00 London ----------------------- */
-function isMondayTenLondon(now = new Date()) {
+/* ----------------------- Gate: Vercel Cron only + Monday ----------------------- */
+function isMondayLondon(now = new Date()) {
   const tz = "Europe/London";
-  const weekday = getWeekday(now, tz); // 0..6
-  const parts = fmtParts(now, tz);     // local London parts
-  return weekday === 1 && parts.hour === 10; // Monday and 10:xx
+  const weekday = getWeekday(now, tz); // 0..6 (Mon = 1)
+  return weekday === 1;
 }
 
 function guard(req: Request) {
-  const isCron = !!req.headers.get("x-vercel-cron");
+  // must be invoked by Vercel Cron
+  const isCron = req.headers.get("x-vercel-cron") === "1";
   if (!isCron) return { allowed: false, reason: "not_vercel_cron" };
-  if (!isMondayTenLondon()) return { allowed: false, reason: "not_monday_10_london" };
+
+  // must include the correct token (defense-in-depth)
+  const url = new URL(req.url);
+  const token = url.searchParams.get("token") || "";
+  const expected = process.env.NEWSLETTER_CRON_TOKEN || process.env.INGEST_TOKEN || "";
+  if (!expected || token !== expected) return { allowed: false, reason: "bad_token" };
+
+  // only run on Mondays (hour is controlled by Vercel Cron schedule, avoids DST gotchas)
+  if (!isMondayLondon()) return { allowed: false, reason: "not_monday_london" };
+
   return { allowed: true, reason: "ok" };
 }
 
@@ -335,10 +330,7 @@ async function doSend() {
 export async function GET(req: Request) {
   const g = guard(req);
   if (!g.allowed) {
-    return new NextResponse(null, {
-      status: 204,
-      headers: { "x-nnr-skip-reason": g.reason },
-    });
+    return new NextResponse(null, { status: 204, headers: { "x-nnr-skip-reason": g.reason } });
   }
   try {
     return await doSend();
