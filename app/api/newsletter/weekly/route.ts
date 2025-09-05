@@ -1,6 +1,6 @@
 // app/api/newsletter/weekly/route.ts
 export const runtime = "nodejs";
-export const maxDuration = 60; // no const assertion
+export const maxDuration = 60;
 export const dynamic = "force-dynamic";
 
 import { NextResponse } from "next/server";
@@ -26,7 +26,7 @@ type RankedItem = {
   tags?: string[];
 };
 
-/* -------------- Summary & ranking loaders (keep your formats) -------------- */
+/* -------------- Summary & ranking loaders -------------- */
 async function readSummaryBase(nameNoExt: string): Promise<SummaryFile | null> {
   const base = path.join(process.cwd(), "public", "data", "summaries");
   const tryPaths = [
@@ -53,11 +53,7 @@ async function readRankedBase(nameNoExt: "hightech" | "telecoms"): Promise<Ranke
   }
 }
 
-/** Top 5 bullets for a tab, aligned with site ranking:
- *  1) Take top ranked URLs from /public/data/{tab}.json
- *  2) Pick bullets from /public/data/summaries/{tab}.json that match those URLs
- *  3) If fewer than 5, top-up with remaining bullets; if still short, synthesize from ranked titles
- */
+/** Build Top 5, aligned with ranked articles. */
 async function getTop5BulletsForTab(tab: "hightech" | "telecoms"): Promise<Bullet[]> {
   const ranked = await readRankedBase(tab);
   const rankedTop = ranked.slice(0, 12); // buffer for mismatches
@@ -186,6 +182,7 @@ function renderSection(title: string, bullets: Bullet[]) {
   `;
 }
 
+/** HTML email with a correct unsubscribe link interpolation */
 function renderEmailHTML(weekLabel: string, hightech: Bullet[], telecoms: Bullet[], unsubscribeUrl: string) {
   const preheader = "Top 5 from High Tech & Telecoms — concise and curated.";
   return `<!doctype html>
@@ -244,7 +241,7 @@ function renderEmailHTML(weekLabel: string, hightech: Bullet[], telecoms: Bullet
           <td style="padding:0 24px 20px 24px">
             <div style="font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:#777;font-size:12px;line-height:1.6">
               <p style="margin:6px 0 0 0">You subscribed at nivstechpulse.com. Unsubscribe any time.</p>
-              <p style="margin:6px 0 0 0">Unsubscribe: <a href="\${unsubscribeUrl}" style="color:#0d6efd;text-decoration:underline">\${unsubscribeUrl}</a></p>
+              <p style="margin:6px 0 0 0">Unsubscribe: <a href="${unsubscribeUrl}" style="color:#0d6efd;text-decoration:underline">${unsubscribeUrl}</a></p>
               <p style="margin:6px 0 0 0"><strong>Resubscribe at nivstechpulse.com</strong></p>
             </div>
           </td>
@@ -260,19 +257,20 @@ function isMondayTenLondon(now = new Date()) {
   const tz = "Europe/London";
   const weekday = getWeekday(now, tz); // 0..6
   const parts = fmtParts(now, tz);     // local London parts
-  return weekday === 1 && parts.hour === 10; // Monday and 10:xx
+  return weekday === 1 && parts.hour === 10;
 }
 
-function guard(req: Request, isTest: boolean) {
-  const isCron = req.headers.get("x-vercel-cron") === "1";
-  if (!isCron) return { allowed: false, reason: "not_vercel_cron" };
+function guard(req: Request, isTest: boolean, debug: boolean) {
+  // Accept any presence of the cron header (Vercel sets a value but not guaranteed to be "1")
+  const hasCronHeader = req.headers.has("x-vercel-cron");
+  if (!hasCronHeader) return { allowed: false, reason: "not_vercel_cron" };
 
   const url = new URL(req.url);
   const token = url.searchParams.get("token") || "";
   const expected = process.env.NEWSLETTER_CRON_TOKEN || process.env.INGEST_TOKEN || "";
   if (!expected || token !== expected) return { allowed: false, reason: "bad_token" };
 
-  // In test mode we allow manual runs at any time via the Vercel "Run" button
+  // Enforce Monday 10:00 London only in non-test mode
   if (!isTest && !isMondayTenLondon()) return { allowed: false, reason: "not_monday_10_london" };
 
   return { allowed: true, reason: "ok" };
@@ -348,14 +346,19 @@ async function doSend(testTo?: string) {
   return NextResponse.json({ ok: true, sent: recipients.length });
 }
 
+/* ----------------------- Handlers ----------------------- */
 export async function GET(req: Request) {
   const url = new URL(req.url);
   const mode = (url.searchParams.get("mode") || "").toLowerCase();
   const isTest = mode === "test";
   const testTo = isTest ? (url.searchParams.get("to") || "").trim() : "";
+  const debug = url.searchParams.get("debug") === "1";
 
-  const g = guard(req, isTest);
+  const g = guard(req, isTest, debug);
   if (!g.allowed) {
+    if (debug) {
+      return NextResponse.json({ ok: false, reason: g.reason }, { status: 403 });
+    }
     return new NextResponse(null, {
       status: 204,
       headers: { "x-nnr-skip-reason": g.reason },
@@ -371,6 +374,7 @@ export async function GET(req: Request) {
   try {
     return await doSend(isTest ? testTo : undefined);
   } catch (e: any) {
+    // Surface SES/Supabase errors in logs quickly during tests
     return NextResponse.json({ error: e?.message || "Failed to send" }, { status: 500 });
   }
 }
