@@ -53,7 +53,7 @@ async function readRankedBase(nameNoExt: "hightech" | "telecoms"): Promise<Ranke
   }
 }
 
-/** Build Top 5, aligned with ranked articles. */
+/** Top 5 bullets for a tab, aligned with site ranking */
 async function getTop5BulletsForTab(tab: "hightech" | "telecoms"): Promise<Bullet[]> {
   const ranked = await readRankedBase(tab);
   const rankedTop = ranked.slice(0, 12); // buffer for mismatches
@@ -161,7 +161,7 @@ function formatWeekRangeLabel(start: Date, end: Date) {
 
 /* ----------------- Rendering ----------------- */
 function esc(s: string) {
-  return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, ">&");
+  return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 }
 function stripUrls(s: string) {
   return s.replace(/\bhttps?:\/\/\S+|\bwww\.\S+/gi, "").trim();
@@ -182,7 +182,6 @@ function renderSection(title: string, bullets: Bullet[]) {
   `;
 }
 
-/** HTML email with a correct unsubscribe link interpolation */
 function renderEmailHTML(weekLabel: string, hightech: Bullet[], telecoms: Bullet[], unsubscribeUrl: string) {
   const preheader = "Top 5 from High Tech & Telecoms — concise and curated.";
   return `<!doctype html>
@@ -257,61 +256,33 @@ function isMondayTenLondon(now = new Date()) {
   const tz = "Europe/London";
   const weekday = getWeekday(now, tz); // 0..6
   const parts = fmtParts(now, tz);     // local London parts
-  return weekday === 1 && parts.hour === 10;
+  return weekday === 1 && parts.hour === 10; // Monday and 10:xx
 }
 
-type GuardResult = {
-  allowed: boolean;
-  reason: string;
-  // diagnostics (no secrets):
-  diag?: {
-    hasCronHeader: boolean;
-    tokenProvided: boolean;
-    expectedConfigured: boolean;
-    mondayTenCheckApplied: boolean;
-  };
-};
-
-function guard(req: Request, isTest: boolean): GuardResult {
-  const hasCronHeader = req.headers.has("x-vercel-cron");
-
-  // Optional: allow local/manual debugging without the cron header only if you set this env.
-  const allowDebugNoCron = process.env.ALLOW_TEST_NO_CRON === "1";
-
-  if (!hasCronHeader && !(allowDebugNoCron && isTest)) {
-    return {
-      allowed: false,
-      reason: "not_vercel_cron",
-      diag: { hasCronHeader, tokenProvided: false, expectedConfigured: !!process.env.NEWSLETTER_CRON_TOKEN, mondayTenCheckApplied: false },
-    };
-  }
-
+function guard(req: Request, isTest: boolean) {
   const url = new URL(req.url);
   const token = url.searchParams.get("token") || "";
   const expected = process.env.NEWSLETTER_CRON_TOKEN || process.env.INGEST_TOKEN || "";
 
+  // 1) Require token (prevents public/manual triggers)
   if (!expected || token !== expected) {
-    return {
-      allowed: false,
-      reason: "bad_token",
-      diag: { hasCronHeader: hasCronHeader || (allowDebugNoCron && isTest), tokenProvided: !!token, expectedConfigured: !!expected, mondayTenCheckApplied: false },
-    };
+    return { allowed: false, reason: "bad_token" };
   }
 
-  // Enforce Monday 10:00 London only in non-test mode
+  // 2) Accept either the header OR the official Vercel Cron user-agent.
+  const hasHeader = req.headers.get("x-vercel-cron") === "1";
+  const ua = (req.headers.get("user-agent") || "").toLowerCase();
+  const isVercelCronUA = ua.startsWith("vercel-cron/");
+  if (!hasHeader && !isVercelCronUA) {
+    return { allowed: false, reason: "not_vercel_cron" };
+  }
+
+  // 3) Time gate only in normal mode (not in test mode)
   if (!isTest && !isMondayTenLondon()) {
-    return {
-      allowed: false,
-      reason: "not_monday_10_london",
-      diag: { hasCronHeader: true, tokenProvided: true, expectedConfigured: true, mondayTenCheckApplied: true },
-    };
+    return { allowed: false, reason: "not_monday_10_london" };
   }
 
-  return {
-    allowed: true,
-    reason: "ok",
-    diag: { hasCronHeader: hasCronHeader || (allowDebugNoCron && isTest), tokenProvided: true, expectedConfigured: true, mondayTenCheckApplied: !isTest },
-  };
+  return { allowed: true, reason: "ok" };
 }
 
 /* ----------------------- Main send (SES) ----------------------- */
@@ -335,12 +306,9 @@ async function doSend(testTo?: string) {
   }
 
   let recipients: { email: string }[] = [];
-
   if (testTo) {
-    // TEST MODE: single recipient only
     recipients = [{ email: testTo }];
   } else {
-    // NORMAL MODE: all active subscribers
     const { data: subs, error } = await supabaseAdmin
       .from("subscribers")
       .select("email")
@@ -377,14 +345,12 @@ async function doSend(testTo?: string) {
   if (testTo) {
     return NextResponse.json({ ok: true, mode: "test", sent: result.ok, to: testTo });
   }
-
   if (result.failed.length) {
     return NextResponse.json({ ok: true, sent: result.ok, failed: result.failed.length, errors: result.failed });
   }
   return NextResponse.json({ ok: true, sent: recipients.length });
 }
 
-/* ----------------------- Handlers ----------------------- */
 export async function GET(req: Request) {
   const url = new URL(req.url);
   const mode = (url.searchParams.get("mode") || "").toLowerCase();
@@ -392,15 +358,10 @@ export async function GET(req: Request) {
   const testTo = isTest ? (url.searchParams.get("to") || "").trim() : "";
 
   const g = guard(req, isTest);
-
   if (!g.allowed) {
-    // Always return JSON with reason + a header so Vercel UI shows *some* clue.
-    return NextResponse.json(
-      { ok: false, reason: g.reason, diag: g.diag },
-      {
-        status: 403,
-        headers: { "x-nnr-skip-reason": g.reason },
-      }
+    return new NextResponse(
+      JSON.stringify({ error: "forbidden", reason: g.reason }),
+      { status: 403, headers: { "content-type": "application/json", "x-nnr-skip-reason": g.reason } }
     );
   }
 
