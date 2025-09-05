@@ -1,29 +1,37 @@
 {
-  "generatedAt": "2025-09-04T08:43:38.582Z",
+  "generatedAt": "2025-09-05T08:43:24.581Z",
   "bullets": [
     {
-      "text": "Ofcom's mmWave Auction Boosts 5G - Ofcom's upcoming auction aims to enhance 5G speeds in busy UK cities.",
+      "text": "Ofcom's mmWave Auction Boosts 5G - Ofcom's upcoming auction aims to enhance 5G speeds in crowded UK cities.",
       "url": "https://www.telecomstechnews.com/news/ofcom-mmwave-auction-fix-slow-5g-in-busy-cities/"
     },
     {
-      "text": "US Firms Sue Ofcom - Controversial threats from Ofcom spark legal action from US companies over free speech.",
-      "url": "https://www.telecomstechnews.com/news/us-firms-sue-uk-regulator-coercive-threats-free-speech-attacks/"
+      "text": "Monzo's Potential Disruption - Digital bank Monzo could reshape the mobile service landscape as a potential MVNO.",
+      "url": "https://www.telecomstechnews.com/news/zac-eller-expressvpn-monzo-disrupt-mobile-service-market/"
     },
     {
-      "text": "Private 5G Delivers Rapid ROI - 87% of firms using private 5G see returns within a year, boosting industrial AI.",
-      "url": "https://www.rcrwireless.com/20250903/internet-of-things/private-5g-industry-40-roi-nokia"
+      "text": "Speed Fibre Acquires BT Ireland - Speed Fibre Group's acquisition of BT Communications Ireland marks significant market consolidation.",
+      "url": "https://totaltele.com/speed-fibre-group-completes-e22m-acquisition-of-bt-communications-ireland/"
     },
     {
-      "text": "Vodafone's IoT Platform Innovation - Vodafone partners with Simetric for a unified IoT management solution.",
+      "text": "Private 5G Drives Industrial AI - Companies adopting private 5G and edge computing report rapid ROI and operational improvements.",
+      "url": "https://www.telecomstechnews.com/news/on-premise-edge-and-private-5g-key-industrial-ai-and-security/"
+    },
+    {
+      "text": "Vodafone's IoT Platform Integration - Vodafone partners with Simetric to streamline IoT management across diverse networks.",
       "url": "https://totaltele.com/vodafone-partners-with-simetric-for-single-pane-of-glass-iot-platform/"
     },
     {
-      "text": "Netomnia Secures £300m Funding - The UK Alt-Net aims for five million premises by 2027 with new investment.",
-      "url": "https://totaltele.com/netomnia-secures-300m-for-network-expansion/"
+      "text": "Fixing eSIM Adoption Challenges - The telecom industry must address barriers to eSIM adoption for improved global connectivity.",
+      "url": "https://www.telecomstechnews.com/news/fixing-slow-esim-adoption-improve-global-mobile-connectivity/"
     },
     {
-      "text": "Fixing eSIM Adoption Challenges - Industry leaders push for smoother eSIM integration to enhance global connectivity.",
-      "url": "https://www.telecomstechnews.com/news/fixing-slow-esim-adoption-improve-global-mobile-connectivity/"
+      "text": "DJ Telecom Expands Subsea Connectivity - Djibouti Telecom plans to enhance regional connectivity with a new subsea cable project.",
+      "url": "https://totaltele.com/djibouti-telecom-dares-to-expand-subsea-cable-connectivity-in-east-africa/"
+    },
+    {
+      "text": "Netomnia Secures £300m Expansion - Netomnia's funding strengthens its position as a leading UK Alt-Net provider.",
+      "url": "https://totaltele.com/netomnia-secures-300m-for-network-expansion/"
     }
   ]
 }

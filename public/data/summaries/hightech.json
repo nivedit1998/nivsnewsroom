@@ -1,45 +1,45 @@
 {
-  "generatedAt": "2025-09-04T08:43:21.188Z",
+  "generatedAt": "2025-09-05T08:43:04.660Z",
   "bullets": [
     {
-      "text": "Aqara Launches Smart Home Devices - **Aqara** unveils new Apple-friendly doorbell and outdoor camera at IFA 2025.",
-      "url": "https://www.theverge.com/news/771071/aqara-announces-apple-friendly-doorbell-outdoor-camera-video-hub-and-more"
+      "text": "XChat Expands Access - **X**'s encrypted DM feature is now available to more users, enhancing privacy in messaging.",
+      "url": "https://techcrunch.com/2025/09/04/xs-encrypted-dm-feature-xchat-is-rolling-out-more-broadly/"
     },
     {
-      "text": "CarPlay Gets Messages Upgrade - **Apple**'s iOS 26 introduces tapbacks support for CarPlay Messages.",
+      "text": "Google Photos Gets Veo 3 - **Google** Photos now allows users to create high-quality videos from images with its new AI model.",
+      "url": "https://techcrunch.com/2025/09/04/google-photos-adds-ai-video-generation-with-veo-3/"
+    },
+    {
+      "text": "CarPlay Enhances Messaging - **Apple**'s iOS 26 introduces tapbacks support for **CarPlay**, improving user interaction.",
       "url": "https://9to5mac.com/2025/09/03/ios-26-will-fix-carplays-most-annoying-messages-problem/"
     },
     {
-      "text": "Android 16 QPR1 Features Revealed - **Google** rolls out a major update with Material 3 Expressive for Pixel devices.",
-      "url": "https://9to5google.com/2025/09/03/every-single-new-feature-in-android-16-qpr1-video/"
-    },
-    {
-      "text": "Pixel Feature Drop Announced - **Google** introduces new features including Material 3 Expressive and AI enhancements.",
-      "url": "https://9to5google.com/2025/09/03/september-2025-pixel-feature-drop/"
-    },
-    {
-      "text": "AirPods Pro 3 Launch Imminent - **Apple**'s next-gen AirPods Pro 3 expected to debut with enhanced features.",
+      "text": "AirPods Pro 3 Launching Soon - New **AirPods Pro 3** expected to feature upgraded noise cancellation and a new design.",
       "url": "https://9to5mac.com/2025/09/03/airpods-pro-3-are-coming-heres-every-rumored-new-feature/"
     },
     {
-      "text": "iPhone 17 Pro Rumors Surface - New thermal management expected to improve battery life and display performance.",
+      "text": "iPhone 17 Pro Rumors - The upcoming **iPhone 17 Pro** may feature improved thermals for better battery life and display.",
       "url": "https://9to5mac.com/2025/09/03/rumor-iphone-17-pro-to-feature-better-thermals-for-improved-battery-life-display-brightness-more/"
     },
     {
-      "text": "Apple Supports Strong Encryption - **Apple**'s encryption stance gains backing from the FTC amid US privacy changes.",
-      "url": "https://9to5mac.com/2025/09/01/apples-stance-on-strong-encryption-gets-the-support-of-the-ftc-in-us-privacy-u-turn/"
+      "text": "Lenovo's Legion Go 2 Revealed - **Lenovo** announces the **Legion Go 2**, a powerful handheld gaming device priced from $1,099.",
+      "url": "https://www.theverge.com/news/769776/legion-go-2-official-lenovo-new-flagship-handheld-cost"
     },
     {
-      "text": "Galaxy S25 FE Leaked - **Samsung**'s upcoming Galaxy S25 FE showcases AI features in real-life images.",
-      "url": "https://9to5google.com/2025/09/02/galaxy-s25-fe-leaked-hands-on-images-every-galaxy-ai-feature/"
-    },
-    {
-      "text": "WhatsApp Introduces Close Friends - **Meta** adds a Close Friends feature to WhatsApp Status for selective sharing.",
+      "text": "WhatsApp Status Gets Close Friends - **Meta** introduces a Close Friends feature for **WhatsApp Status**, enhancing user privacy.",
       "url": "https://9to5mac.com/2025/09/01/whatsapp-status-is-getting-a-close-friends-feature/"
     },
     {
-      "text": "Anker's Innovative Products at IFA - **Anker** showcases new AI voice recorder and Nebula projector at IFA 2025.",
-      "url": "https://www.theverge.com/news/769467/anker-soundcore-work-ai-recorder-gpt-4o"
+      "text": "AI-Powered Hiring by OpenAI - **OpenAI** is launching an AI-driven hiring platform to compete with **LinkedIn**.",
+      "url": "https://techcrunch.com/2025/09/04/openai-announces-ai-powered-hiring-platform-to-take-on-linkedin/"
+    },
+    {
+      "text": "Waymo Expands Robotaxi Service - **Waymo** receives clearance to offer robotaxi rides at San Jose airport, enhancing its service network.",
+      "url": "https://techcrunch.com/2025/09/04/waymo-cleared-to-offer-robotaxi-rides-at-san-jose-airport/"
+    },
+    {
+      "text": "GE Invests in Electric Aviation - **GE Aerospace** invests $300M in **Beta Technologies** to develop hybrid-electric aircraft technology.",
+      "url": "https://techcrunch.com/2025/09/04/ge-aerospace-to-invest-300m-in-beta-technologies-to-pair-up-on-hybrid-electric-power/"
     }
   ]
 }

@@ -1,25 +1,27 @@
 {
-  "generatedAt": "2025-09-04T08:43:46.530Z",
+  "generatedAt": "2025-09-05T08:43:34.325Z",
   "bullets": [
     {
-      "text": "AI Adoption for Government - **Microsoft** partners with the US GSA to enhance AI capabilities for federal agencies.",
+      "text": "Interop 2026 Proposals Open - **Microsoft** invites developers to submit ideas for enhancing web interoperability.",
+      "url": "https://blogs.windows.com/msedgedev/2025/09/04/calling-for-interop-2026-proposals/"
+    },
+    {
+      "text": "AI Adoption for US Government - **Microsoft** partners with GSA to provide AI tools, aiming for $3 billion in savings.",
       "url": "https://blogs.microsoft.com/blog/2025/09/02/accelerating-ai-adoption-for-the-us-government/"
     },
     {
-      "text": "Windows 11 Insider Preview - New build 27934 released for Insiders, featuring general improvements and fixes.",
+      "text": "Windows 11 Insider Build 27934 - New updates enhance user experience for **Windows Insiders** in the Canary Channel.",
       "url": "https://blogs.windows.com/windows-insider/2025/08/29/announcing-windows-11-insider-preview-build-27934-canary-channel/"
     },
     {
-      "text": "New Features in Windows 11 - Build 26220.5770 introduces Copilot+ experiences and enhanced productivity tools.",
-      "url": "https://blogs.windows.com/windows-insider/2025/08/29/announcing-windows-11-insider-preview-build-26220-5770-dev-channel/"
+      "text": "Windows 11 Insider Build 26220 - **Microsoft** rolls out new features in the Dev Channel, enhancing productivity tools."
     },
     {
-      "text": "Windows 11, version 25H2 - Annual feature update now available in the Release Preview Channel for Insiders.",
+      "text": "Windows 11 Insider Build 26120 - New **Copilot+** features introduced in the Beta Channel for improved workflow."
+    },
+    {
+      "text": "Windows 11, version 25H2 Released - **Microsoft** previews the latest Windows update ahead of general availability.",
       "url": "https://blogs.windows.com/windows-insider/2025/08/29/releasing-windows-11-version-25h2-to-the-release-preview-channel/"
-    },
-    {
-      "text": "Awesome Copilot MCP Server - A new tool to discover and save customizations for **GitHub Copilot**.",
-      "url": "https://devblogs.microsoft.com/blog/announcing-awesome-copilot-mcp-server"
     }
   ]
 }
