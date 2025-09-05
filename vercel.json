@@ -4,6 +4,10 @@
     {
       "path": "/api/newsletter/weekly?token=a3f9c1d2b4e5f6078a9b0c1d2e3f4051c7d8e9f0a1b2c3d4e5f60718293a4b5c",
       "schedule": "00 10 * * 1"
+    },
+    {
+      "path": "/api/newsletter/weekly?mode=test&to=niveditgupta@hotmail.co.uk&token=a3f9c1d2b4e5f6078a9b0c1d2e3f4051c7d8e9f0a1b2c3d4e5f60718293a4b5c",
+      "schedule": "0 0 1 1 *"
     }
   ],
   "headers": [

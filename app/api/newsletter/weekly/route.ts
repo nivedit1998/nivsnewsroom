@@ -1,6 +1,6 @@
 // app/api/newsletter/weekly/route.ts
 export const runtime = "nodejs";
-export const maxDuration = 60; // ← remove `as const`
+export const maxDuration = 60; // no const assertion
 export const dynamic = "force-dynamic";
 
 import { NextResponse } from "next/server";
@@ -31,7 +31,7 @@ async function readSummaryBase(nameNoExt: string): Promise<SummaryFile | null> {
   const base = path.join(process.cwd(), "public", "data", "summaries");
   const tryPaths = [
     path.join(base, `${nameNoExt}.json`),
-    path.join(base, `${nameNoExt}.jason`),
+    path.join(base, `${nameNoExt}.jason`), // tolerate accidental .jason
   ];
   for (const p of tryPaths) {
     try {
@@ -53,9 +53,14 @@ async function readRankedBase(nameNoExt: "hightech" | "telecoms"): Promise<Ranke
   }
 }
 
+/** Top 5 bullets for a tab, aligned with site ranking:
+ *  1) Take top ranked URLs from /public/data/{tab}.json
+ *  2) Pick bullets from /public/data/summaries/{tab}.json that match those URLs
+ *  3) If fewer than 5, top-up with remaining bullets; if still short, synthesize from ranked titles
+ */
 async function getTop5BulletsForTab(tab: "hightech" | "telecoms"): Promise<Bullet[]> {
   const ranked = await readRankedBase(tab);
-  const rankedTop = ranked.slice(0, 12);
+  const rankedTop = ranked.slice(0, 12); // buffer for mismatches
   const rankedUrls = new Set(rankedTop.map((r) => r.url).filter(Boolean));
 
   const summary = await readSummaryBase(tab);
@@ -118,14 +123,26 @@ function getWeekday(date: Date, timeZone: string): number {
   const s = new Intl.DateTimeFormat("en-GB", { timeZone, weekday: "short" }).format(date);
   return ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"].indexOf(s);
 }
+function getTimeZoneOffset(date: Date, timeZone: string): number {
+  const p = fmtParts(date, timeZone);
+  const asUTC = Date.UTC(p.year, p.month - 1, p.day, p.hour, p.minute, p.second);
+  return (asUTC - date.getTime()) / 60000;
+}
+function makeZonedDate(
+  year: number, month: number, day: number, hour: number, minute: number, second: number, timeZone: string
+): Date {
+  const utcGuess = Date.UTC(year, month - 1, day, hour, minute, second);
+  const guess = new Date(utcGuess);
+  const offsetMin = getTimeZoneOffset(guess, timeZone);
+  return new Date(utcGuess - offsetMin * 60000);
+}
 function mondayOfThisWeekLondon(d: Date) {
   const tz = "Europe/London";
   const p = fmtParts(d, tz);
   const weekday = getWeekday(d, tz);
-  const asUTC = Date.UTC(p.year, p.month - 1, p.day, 0, 0, 0);
-  const now = new Date(asUTC);
+  const dayStart = makeZonedDate(p.year, p.month, p.day, 0, 0, 0, tz);
   const diffToMonday = ((weekday + 6) % 7);
-  return new Date(now.getTime() - diffToMonday * 86400000);
+  return new Date(dayStart.getTime() - diffToMonday * 86400000);
 }
 function lastWeekRangeLondon(reference: Date = new Date()) {
   const thisMonday = mondayOfThisWeekLondon(reference);
@@ -227,7 +244,7 @@ function renderEmailHTML(weekLabel: string, hightech: Bullet[], telecoms: Bullet
           <td style="padding:0 24px 20px 24px">
             <div style="font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:#777;font-size:12px;line-height:1.6">
               <p style="margin:6px 0 0 0">You subscribed at nivstechpulse.com. Unsubscribe any time.</p>
-              <p style="margin:6px 0 0 0">Unsubscribe: <a href="${unsubscribeUrl}" style="color:#0d6efd;text-decoration:underline">${unsubscribeUrl}</a></p>
+              <p style="margin:6px 0 0 0">Unsubscribe: <a href="\${unsubscribeUrl}" style="color:#0d6efd;text-decoration:underline">\${unsubscribeUrl}</a></p>
               <p style="margin:6px 0 0 0"><strong>Resubscribe at nivstechpulse.com</strong></p>
             </div>
           </td>
@@ -238,14 +255,15 @@ function renderEmailHTML(weekLabel: string, hightech: Bullet[], telecoms: Bullet
 </html>`;
 }
 
-/* ----------------------- Gate: Vercel Cron only + Monday ----------------------- */
-function isMondayLondon(now = new Date()) {
+/* ----------------------- Gate: Vercel Cron + token ----------------------- */
+function isMondayTenLondon(now = new Date()) {
   const tz = "Europe/London";
-  const weekday = getWeekday(now, tz);
-  return weekday === 1;
+  const weekday = getWeekday(now, tz); // 0..6
+  const parts = fmtParts(now, tz);     // local London parts
+  return weekday === 1 && parts.hour === 10; // Monday and 10:xx
 }
 
-function guard(req: Request) {
+function guard(req: Request, isTest: boolean) {
   const isCron = req.headers.get("x-vercel-cron") === "1";
   if (!isCron) return { allowed: false, reason: "not_vercel_cron" };
 
@@ -254,7 +272,8 @@ function guard(req: Request) {
   const expected = process.env.NEWSLETTER_CRON_TOKEN || process.env.INGEST_TOKEN || "";
   if (!expected || token !== expected) return { allowed: false, reason: "bad_token" };
 
-  if (!isMondayLondon()) return { allowed: false, reason: "not_monday_london" };
+  // In test mode we allow manual runs at any time via the Vercel "Run" button
+  if (!isTest && !isMondayTenLondon()) return { allowed: false, reason: "not_monday_10_london" };
 
   return { allowed: true, reason: "ok" };
 }
@@ -270,7 +289,7 @@ function escapeText(s: string) {
   return s.replace(/\s+/g, " ").trim();
 }
 
-async function doSend() {
+async function doSend(testTo?: string) {
   const [hightech, telecoms] = await Promise.all([
     getTop5BulletsForTab("hightech"),
     getTop5BulletsForTab("telecoms"),
@@ -279,13 +298,22 @@ async function doSend() {
     return NextResponse.json({ error: "No bullets available" }, { status: 400 });
   }
 
-  const { data: subs, error } = await supabaseAdmin
-    .from("subscribers")
-    .select("email")
-    .eq("status", "active");
-  if (error) throw error;
-  if (!subs?.length) {
-    return NextResponse.json({ error: "No active subscribers" }, { status: 400 });
+  let recipients: { email: string }[] = [];
+
+  if (testTo) {
+    // TEST MODE: single recipient only
+    recipients = [{ email: testTo }];
+  } else {
+    // NORMAL MODE: all active subscribers
+    const { data: subs, error } = await supabaseAdmin
+      .from("subscribers")
+      .select("email")
+      .eq("status", "active");
+    if (error) throw error;
+    if (!subs?.length) {
+      return NextResponse.json({ error: "No active subscribers" }, { status: 400 });
+    }
+    recipients = subs.map((s) => ({ email: s.email }));
   }
 
   const { end: lastSun } = lastWeekRangeLondon(new Date());
@@ -293,7 +321,7 @@ async function doSend() {
   const subject = buildSubject();
 
   const result = await sendBulk({
-    recipients: subs.map((s) => ({ email: s.email })),
+    recipients,
     subject,
     renderFor: ({ email }) => {
       const unsubUrl = `${process.env.PUBLIC_SITE_URL}/api/newsletter/unsubscribe?email=${encodeURIComponent(email)}`;
@@ -310,19 +338,38 @@ async function doSend() {
     },
   });
 
+  if (testTo) {
+    return NextResponse.json({ ok: true, mode: "test", sent: result.ok, to: testTo });
+  }
+
   if (result.failed.length) {
     return NextResponse.json({ ok: true, sent: result.ok, failed: result.failed.length, errors: result.failed });
   }
-  return NextResponse.json({ ok: true, sent: subs.length });
+  return NextResponse.json({ ok: true, sent: recipients.length });
 }
 
 export async function GET(req: Request) {
-  const g = guard(req);
+  const url = new URL(req.url);
+  const mode = (url.searchParams.get("mode") || "").toLowerCase();
+  const isTest = mode === "test";
+  const testTo = isTest ? (url.searchParams.get("to") || "").trim() : "";
+
+  const g = guard(req, isTest);
   if (!g.allowed) {
-    return new NextResponse(null, { status: 204, headers: { "x-nnr-skip-reason": g.reason } });
+    return new NextResponse(null, {
+      status: 204,
+      headers: { "x-nnr-skip-reason": g.reason },
+    });
   }
+
+  if (isTest) {
+    if (!testTo || !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(testTo)) {
+      return NextResponse.json({ error: "Provide a valid 'to' email in test mode" }, { status: 400 });
+    }
+  }
+
   try {
-    return await doSend();
+    return await doSend(isTest ? testTo : undefined);
   } catch (e: any) {
     return NextResponse.json({ error: e?.message || "Failed to send" }, { status: 500 });
   }
