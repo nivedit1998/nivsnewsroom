@@ -1,7 +1,6 @@
 // app/api/newsletter/weekly/route.ts
 export const runtime = "nodejs";
-export const maxDuration = 60 as const;
-// ensure no caching/prerender weirdness
+export const maxDuration = 60; // ← remove `as const`
 export const dynamic = "force-dynamic";
 
 import { NextResponse } from "next/server";
@@ -32,7 +31,7 @@ async function readSummaryBase(nameNoExt: string): Promise<SummaryFile | null> {
   const base = path.join(process.cwd(), "public", "data", "summaries");
   const tryPaths = [
     path.join(base, `${nameNoExt}.json`),
-    path.join(base, `${nameNoExt}.jason`), // tolerate your hightech .jason
+    path.join(base, `${nameNoExt}.jason`),
   ];
   for (const p of tryPaths) {
     try {
@@ -43,7 +42,6 @@ async function readSummaryBase(nameNoExt: string): Promise<SummaryFile | null> {
   return null;
 }
 
-/** Read the ranked list your site renders (already hotness+UK boosted). */
 async function readRankedBase(nameNoExt: "hightech" | "telecoms"): Promise<RankedItem[]> {
   const full = path.join(process.cwd(), "public", "data", `${nameNoExt}.json`);
   try {
@@ -55,7 +53,6 @@ async function readRankedBase(nameNoExt: "hightech" | "telecoms"): Promise<Ranke
   }
 }
 
-/** Top 5 bullets for a tab — synced with ranking, topped up if needed. */
 async function getTop5BulletsForTab(tab: "hightech" | "telecoms"): Promise<Bullet[]> {
   const ranked = await readRankedBase(tab);
   const rankedTop = ranked.slice(0, 12);
@@ -64,17 +61,14 @@ async function getTop5BulletsForTab(tab: "hightech" | "telecoms"): Promise<Bulle
   const summary = await readSummaryBase(tab);
   const bullets = summary?.bullets ?? [];
 
-  // 1) bullets that match a top ranked URL
   const matched = bullets.filter((b) => b.url && rankedUrls.has(b.url as string)).slice(0, 5);
 
-  // 2) top-up from remaining summary bullets (keep original order)
   let out = matched.slice();
   if (out.length < 5) {
     const remaining = bullets.filter((b) => !out.includes(b));
     out = out.concat(remaining).slice(0, 5);
   }
 
-  // 3) final top-up: synthesize from ranked items if still short
   if (out.length < 5) {
     const need = 5 - out.length;
     const synth = rankedTop
@@ -90,7 +84,6 @@ async function getTop5BulletsForTab(tab: "hightech" | "telecoms"): Promise<Bulle
   return out.slice(0, 5);
 }
 
-/** Lightweight synthesis if we need to create a bullet from ranked article. */
 function synthBulletFromRanked(r: RankedItem): string {
   const lead = toLead(r.title, 5);
   const src = r.source ? ` (${r.source})` : "";
@@ -106,7 +99,7 @@ function toLead(s = "", max = 5): string {
   return words.slice(0, max).join(" ");
 }
 
-/* ---------------------- TZ + date helpers (single copy) ---------------------- */
+/* ---------------------- TZ + date helpers ---------------------- */
 function fmtParts(date: Date, timeZone: string) {
   const dtf = new Intl.DateTimeFormat("en-GB", {
     timeZone, hour12: false,
@@ -123,13 +116,12 @@ function fmtParts(date: Date, timeZone: string) {
 }
 function getWeekday(date: Date, timeZone: string): number {
   const s = new Intl.DateTimeFormat("en-GB", { timeZone, weekday: "short" }).format(date);
-  return ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"].indexOf(s); // 0..6
+  return ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"].indexOf(s);
 }
 function mondayOfThisWeekLondon(d: Date) {
   const tz = "Europe/London";
   const p = fmtParts(d, tz);
   const weekday = getWeekday(d, tz);
-  // midnight London
   const asUTC = Date.UTC(p.year, p.month - 1, p.day, 0, 0, 0);
   const now = new Date(asUTC);
   const diffToMonday = ((weekday + 6) % 7);
@@ -154,7 +146,7 @@ function formatWeekRangeLabel(start: Date, end: Date) {
   return `${startStr}–${endStr}`;
 }
 
-/* ----------------- Rendering (keep your style) ----------------- */
+/* ----------------- Rendering ----------------- */
 function esc(s: string) {
   return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 }
@@ -191,7 +183,7 @@ function renderEmailHTML(weekLabel: string, hightech: Bullet[], telecoms: Bullet
         <tr>
           <td style="padding:24px 24px 8px 24px">
             <div style="font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:#111">
-              <div style="font-weight:800;font-size:22px;line-height:1.2">Niv's Tech and Telecom Pulse</div>
+              <div style="font-weight:800;font-size:22px;line-height:1.2">Niv’s Tech and Telecom Pulse</div>
               <div style="color:#555;font-size:14px;margin-top:4px">Week of ${esc(weekLabel)}</div>
             </div>
           </td>
@@ -249,22 +241,19 @@ function renderEmailHTML(weekLabel: string, hightech: Bullet[], telecoms: Bullet
 /* ----------------------- Gate: Vercel Cron only + Monday ----------------------- */
 function isMondayLondon(now = new Date()) {
   const tz = "Europe/London";
-  const weekday = getWeekday(now, tz); // 0..6 (Mon = 1)
+  const weekday = getWeekday(now, tz);
   return weekday === 1;
 }
 
 function guard(req: Request) {
-  // must be invoked by Vercel Cron
   const isCron = req.headers.get("x-vercel-cron") === "1";
   if (!isCron) return { allowed: false, reason: "not_vercel_cron" };
 
-  // must include the correct token (defense-in-depth)
   const url = new URL(req.url);
   const token = url.searchParams.get("token") || "";
   const expected = process.env.NEWSLETTER_CRON_TOKEN || process.env.INGEST_TOKEN || "";
   if (!expected || token !== expected) return { allowed: false, reason: "bad_token" };
 
-  // only run on Mondays (hour is controlled by Vercel Cron schedule, avoids DST gotchas)
   if (!isMondayLondon()) return { allowed: false, reason: "not_monday_london" };
 
   return { allowed: true, reason: "ok" };
