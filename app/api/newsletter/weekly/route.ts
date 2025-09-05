@@ -161,7 +161,7 @@ function formatWeekRangeLabel(start: Date, end: Date) {
 
 /* ----------------- Rendering ----------------- */
 function esc(s: string) {
-  return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, ">&");
 }
 function stripUrls(s: string) {
   return s.replace(/\bhttps?:\/\/\S+|\bwww\.\S+/gi, "").trim();
@@ -260,20 +260,58 @@ function isMondayTenLondon(now = new Date()) {
   return weekday === 1 && parts.hour === 10;
 }
 
-function guard(req: Request, isTest: boolean, debug: boolean) {
-  // Accept any presence of the cron header (Vercel sets a value but not guaranteed to be "1")
+type GuardResult = {
+  allowed: boolean;
+  reason: string;
+  // diagnostics (no secrets):
+  diag?: {
+    hasCronHeader: boolean;
+    tokenProvided: boolean;
+    expectedConfigured: boolean;
+    mondayTenCheckApplied: boolean;
+  };
+};
+
+function guard(req: Request, isTest: boolean): GuardResult {
   const hasCronHeader = req.headers.has("x-vercel-cron");
-  if (!hasCronHeader) return { allowed: false, reason: "not_vercel_cron" };
+
+  // Optional: allow local/manual debugging without the cron header only if you set this env.
+  const allowDebugNoCron = process.env.ALLOW_TEST_NO_CRON === "1";
+
+  if (!hasCronHeader && !(allowDebugNoCron && isTest)) {
+    return {
+      allowed: false,
+      reason: "not_vercel_cron",
+      diag: { hasCronHeader, tokenProvided: false, expectedConfigured: !!process.env.NEWSLETTER_CRON_TOKEN, mondayTenCheckApplied: false },
+    };
+  }
 
   const url = new URL(req.url);
   const token = url.searchParams.get("token") || "";
   const expected = process.env.NEWSLETTER_CRON_TOKEN || process.env.INGEST_TOKEN || "";
-  if (!expected || token !== expected) return { allowed: false, reason: "bad_token" };
+
+  if (!expected || token !== expected) {
+    return {
+      allowed: false,
+      reason: "bad_token",
+      diag: { hasCronHeader: hasCronHeader || (allowDebugNoCron && isTest), tokenProvided: !!token, expectedConfigured: !!expected, mondayTenCheckApplied: false },
+    };
+  }
 
   // Enforce Monday 10:00 London only in non-test mode
-  if (!isTest && !isMondayTenLondon()) return { allowed: false, reason: "not_monday_10_london" };
+  if (!isTest && !isMondayTenLondon()) {
+    return {
+      allowed: false,
+      reason: "not_monday_10_london",
+      diag: { hasCronHeader: true, tokenProvided: true, expectedConfigured: true, mondayTenCheckApplied: true },
+    };
+  }
 
-  return { allowed: true, reason: "ok" };
+  return {
+    allowed: true,
+    reason: "ok",
+    diag: { hasCronHeader: hasCronHeader || (allowDebugNoCron && isTest), tokenProvided: true, expectedConfigured: true, mondayTenCheckApplied: !isTest },
+  };
 }
 
 /* ----------------------- Main send (SES) ----------------------- */
@@ -352,17 +390,18 @@ export async function GET(req: Request) {
   const mode = (url.searchParams.get("mode") || "").toLowerCase();
   const isTest = mode === "test";
   const testTo = isTest ? (url.searchParams.get("to") || "").trim() : "";
-  const debug = url.searchParams.get("debug") === "1";
 
-  const g = guard(req, isTest, debug);
+  const g = guard(req, isTest);
+
   if (!g.allowed) {
-    if (debug) {
-      return NextResponse.json({ ok: false, reason: g.reason }, { status: 403 });
-    }
-    return new NextResponse(null, {
-      status: 204,
-      headers: { "x-nnr-skip-reason": g.reason },
-    });
+    // Always return JSON with reason + a header so Vercel UI shows *some* clue.
+    return NextResponse.json(
+      { ok: false, reason: g.reason, diag: g.diag },
+      {
+        status: 403,
+        headers: { "x-nnr-skip-reason": g.reason },
+      }
+    );
   }
 
   if (isTest) {
@@ -374,7 +413,6 @@ export async function GET(req: Request) {
   try {
     return await doSend(isTest ? testTo : undefined);
   } catch (e: any) {
-    // Surface SES/Supabase errors in logs quickly during tests
     return NextResponse.json({ error: e?.message || "Failed to send" }, { status: 500 });
   }
 }
