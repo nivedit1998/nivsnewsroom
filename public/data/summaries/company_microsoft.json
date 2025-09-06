@@ -1,27 +1,33 @@
 {
-  "generatedAt": "2025-09-05T08:43:34.325Z",
+  "generatedAt": "2025-09-06T08:39:23.564Z",
   "bullets": [
     {
-      "text": "Interop 2026 Proposals Open - **Microsoft** invites developers to submit ideas for enhancing web interoperability.",
+      "text": "Windows 11 Insider Preview Build 26220.5790 Released - New features like fluid dictation enhance voice access on **Copilot+ PCs**.",
+      "url": "https://blogs.windows.com/windows-insider/2025/09/05/announcing-windows-11-insider-preview-build-26220-5790-dev-channel/"
+    },
+    {
+      "text": "Windows 11 Insider Preview Build 26120.5790 Available - Fluid dictation and Studio Effects expand functionality for **Copilot+ PCs**.",
+      "url": "https://blogs.windows.com/windows-insider/2025/09/05/announcing-windows-11-insider-preview-build-26120-5790-beta-channel/"
+    },
+    {
+      "text": "Azure MFA Phase 2 Launching - Starting October 1, 2025, **Azure** enforces multifactor authentication for resource management.",
+      "url": "https://azure.microsoft.com/en-us/blog/azure-mandatory-multifactor-authentication-phase-2-starting-in-october-2025/"
+    },
+    {
+      "text": "Interop 2026 Proposals Open - Call for innovative ideas to enhance web development interoperability through **Interop** project.",
       "url": "https://blogs.windows.com/msedgedev/2025/09/04/calling-for-interop-2026-proposals/"
     },
     {
-      "text": "AI Adoption for US Government - **Microsoft** partners with GSA to provide AI tools, aiming for $3 billion in savings.",
+      "text": "Microsoft Cost Management Updates - New features help users manage cloud spending effectively across **Azure** services.",
+      "url": "https://azure.microsoft.com/en-us/blog/microsoft-cost-management-updates-july-august-2025/"
+    },
+    {
+      "text": "Agent Factory Insights Shared - Best practices for rapid development of AI agents highlighted in **Azure** blog series.",
+      "url": "https://azure.microsoft.com/en-us/blog/agent-factory-from-prototype-to-production-developer-tools-and-rapid-agent-development/"
+    },
+    {
+      "text": "AI Adoption for US Government Accelerated - **Microsoft** partners with GSA to enhance federal operations with AI tools.",
       "url": "https://blogs.microsoft.com/blog/2025/09/02/accelerating-ai-adoption-for-the-us-government/"
-    },
-    {
-      "text": "Windows 11 Insider Build 27934 - New updates enhance user experience for **Windows Insiders** in the Canary Channel.",
-      "url": "https://blogs.windows.com/windows-insider/2025/08/29/announcing-windows-11-insider-preview-build-27934-canary-channel/"
-    },
-    {
-      "text": "Windows 11 Insider Build 26220 - **Microsoft** rolls out new features in the Dev Channel, enhancing productivity tools."
-    },
-    {
-      "text": "Windows 11 Insider Build 26120 - New **Copilot+** features introduced in the Beta Channel for improved workflow."
-    },
-    {
-      "text": "Windows 11, version 25H2 Released - **Microsoft** previews the latest Windows update ahead of general availability.",
-      "url": "https://blogs.windows.com/windows-insider/2025/08/29/releasing-windows-11-version-25h2-to-the-release-preview-channel/"
     }
   ]
 }
