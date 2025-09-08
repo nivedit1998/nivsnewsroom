@@ -100,6 +100,65 @@ function toLead(s = "", max = 5): string {
   return words.slice(0, max).join(" ");
 }
 
+/* ---------------------- TZ + date helpers ---------------------- */
+function fmtParts(date: Date, timeZone: string) {
+  const dtf = new Intl.DateTimeFormat("en-GB", {
+    timeZone, hour12: false,
+    year: "numeric", month: "2-digit", day: "2-digit",
+    hour: "2-digit", minute: "2-digit", second: "2-digit",
+  });
+  const parts = dtf.formatToParts(date);
+  const map: Record<string, string> = {};
+  for (const p of parts) map[p.type] = p.value;
+  return {
+    year: Number(map.year), month: Number(map.month), day: Number(map.day),
+    hour: Number(map.hour), minute: Number(map.minute), second: Number(map.second),
+  };
+}
+function getWeekday(date: Date, timeZone: string): number {
+  const s = new Intl.DateTimeFormat("en-GB", { timeZone, weekday: "short" }).format(date);
+  return ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"].indexOf(s);
+}
+function getTimeZoneOffset(date: Date, timeZone: string): number {
+  const p = fmtParts(date, timeZone);
+  const asUTC = Date.UTC(p.year, p.month - 1, p.day, p.hour, p.minute, p.second);
+  return (asUTC - date.getTime()) / 60000;
+}
+function makeZonedDate(
+  year: number, month: number, day: number, hour: number, minute: number, second: number, timeZone: string
+): Date {
+  const utcGuess = Date.UTC(year, month - 1, day, hour, minute, second);
+  const guess = new Date(utcGuess);
+  const offsetMin = getTimeZoneOffset(guess, timeZone);
+  return new Date(utcGuess - offsetMin * 60000);
+}
+function mondayOfThisWeekLondon(d: Date) {
+  const tz = "Europe/London";
+  const p = fmtParts(d, tz);
+  const weekday = getWeekday(d, tz);
+  const dayStart = makeZonedDate(p.year, p.month, p.day, 0, 0, 0, tz);
+  const diffToMonday = ((weekday + 6) % 7);
+  return new Date(dayStart.getTime() - diffToMonday * 86400000);
+}
+function lastWeekRangeLondon(reference: Date = new Date()) {
+  const thisMonday = mondayOfThisWeekLondon(reference);
+  const lastMonday = new Date(thisMonday.getTime() - 7 * 86400000);
+  const lastSunday = new Date(lastMonday.getTime() + 6 * 86400000);
+  return { start: lastMonday, end: lastSunday };
+}
+function formatDayMonthYear(d: Date) {
+  return new Intl.DateTimeFormat("en-GB", {
+    timeZone: "Europe/London", day: "2-digit", month: "short", year: "numeric",
+  }).format(d);
+}
+function formatWeekRangeLabel(start: Date, end: Date) {
+  const startStr = new Intl.DateTimeFormat("en-GB", {
+    timeZone: "Europe/London", day: "2-digit", month: "short",
+  }).format(start);
+  const endStr = formatDayMonthYear(end);
+  return `${startStr}–${endStr}`;
+}
+
 /* ----------------- Rendering ----------------- */
 function esc(s: string) {
   return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
@@ -192,18 +251,25 @@ function renderEmailHTML(weekLabel: string, hightech: Bullet[], telecoms: Bullet
 </html>`;
 }
 
-/* ----------------------- Gate: Vercel Cron + token (no time check) ----------------------- */
-function guard(req: Request) {
+/* ----------------------- Gate: Vercel Cron + token ----------------------- */
+function isMondayTenLondon(now = new Date()) {
+  const tz = "Europe/London";
+  const weekday = getWeekday(now, tz); // 0..6
+  const parts = fmtParts(now, tz);     // local London parts
+  return weekday === 1 && parts.hour === 10; // Monday and 10:xx
+}
+
+function guard(req: Request, isTest: boolean) {
   const url = new URL(req.url);
   const token = url.searchParams.get("token") || "";
   const expected = process.env.NEWSLETTER_CRON_TOKEN || process.env.INGEST_TOKEN || "";
 
-  // Require the token so the route isn’t publicly triggerable
+  // 1) Require token (prevents public/manual triggers)
   if (!expected || token !== expected) {
     return { allowed: false, reason: "bad_token" };
   }
 
-  // Accept either the header OR the official Vercel Cron user-agent
+  // 2) Accept either the header OR the official Vercel Cron user-agent.
   const hasHeader = req.headers.get("x-vercel-cron") === "1";
   const ua = (req.headers.get("user-agent") || "").toLowerCase();
   const isVercelCronUA = ua.startsWith("vercel-cron/");
@@ -211,7 +277,11 @@ function guard(req: Request) {
     return { allowed: false, reason: "not_vercel_cron" };
   }
 
-  // No time gate here — trust Vercel’s scheduler (and its timezone config)
+  // 3) Time gate only in normal mode (not in test mode)
+  if (!isTest && !isMondayTenLondon()) {
+    return { allowed: false, reason: "not_monday_10_london" };
+  }
+
   return { allowed: true, reason: "ok" };
 }
 
@@ -220,65 +290,6 @@ function buildSubject(): string {
   const { start, end } = lastWeekRangeLondon(new Date());
   const rangeLabel = formatWeekRangeLabel(start, end);
   return `Nivs Tech Pulse - Last Week's Top 5 News Summary (${rangeLabel})`;
-}
-
-/* ---- London date helpers (only for subject/body) ---- */
-function fmtParts(date: Date, timeZone: string) {
-  const dtf = new Intl.DateTimeFormat("en-GB", {
-    timeZone, hour12: false,
-    year: "numeric", month: "2-digit", day: "2-digit",
-    hour: "2-digit", minute: "2-digit", second: "2-digit",
-  });
-  const parts = dtf.formatToParts(date);
-  const map: Record<string, string> = {};
-  for (const p of parts) map[p.type] = p.value;
-  return {
-    year: Number(map.year), month: Number(map.month), day: Number(map.day),
-    hour: Number(map.hour), minute: Number(map.minute), second: Number(map.second),
-  };
-}
-function getWeekday(date: Date, timeZone: string): number {
-  const s = new Intl.DateTimeFormat("en-GB", { timeZone, weekday: "short" }).format(date);
-  return ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"].indexOf(s);
-}
-function getTimeZoneOffset(date: Date, timeZone: string): number {
-  const p = fmtParts(date, timeZone);
-  const asUTC = Date.UTC(p.year, p.month - 1, p.day, p.hour, p.minute, p.second);
-  return (asUTC - date.getTime()) / 60000;
-}
-function makeZonedDate(
-  year: number, month: number, day: number, hour: number, minute: number, second: number, timeZone: string
-): Date {
-  const utcGuess = Date.UTC(year, month - 1, day, hour, minute, second);
-  const guess = new Date(utcGuess);
-  const offsetMin = getTimeZoneOffset(guess, timeZone);
-  return new Date(utcGuess - offsetMin * 60000);
-}
-function mondayOfThisWeekLondon(d: Date) {
-  const tz = "Europe/London";
-  const p = fmtParts(d, tz);
-  const weekday = getWeekday(d, tz);
-  const dayStart = makeZonedDate(p.year, p.month, p.day, 0, 0, 0, tz);
-  const diffToMonday = ((weekday + 6) % 7);
-  return new Date(dayStart.getTime() - diffToMonday * 86400000);
-}
-function lastWeekRangeLondon(reference: Date = new Date()) {
-  const thisMonday = mondayOfThisWeekLondon(reference);
-  const lastMonday = new Date(thisMonday.getTime() - 7 * 86400000);
-  const lastSunday = new Date(lastMonday.getTime() + 6 * 86400000);
-  return { start: lastMonday, end: lastSunday };
-}
-function formatDayMonthYear(d: Date) {
-  return new Intl.DateTimeFormat("en-GB", {
-    timeZone: "Europe/London", day: "2-digit", month: "short", year: "numeric",
-  }).format(d);
-}
-function formatWeekRangeLabel(start: Date, end: Date) {
-  const startStr = new Intl.DateTimeFormat("en-GB", {
-    timeZone: "Europe/London", day: "2-digit", month: "short",
-  }).format(start);
-  const endStr = formatDayMonthYear(end);
-  return `${startStr}–${endStr}`;
 }
 
 function escapeText(s: string) {
@@ -346,11 +357,11 @@ export async function GET(req: Request) {
   const isTest = mode === "test";
   const testTo = isTest ? (url.searchParams.get("to") || "").trim() : "";
 
-  const g = guard(req);
+  const g = guard(req, isTest);
   if (!g.allowed) {
-    return NextResponse.json(
-      { error: "forbidden", reason: g.reason },
-      { status: 403, headers: { "x-nnr-skip-reason": g.reason } }
+    return new NextResponse(
+      JSON.stringify({ error: "forbidden", reason: g.reason }),
+      { status: 403, headers: { "content-type": "application/json", "x-nnr-skip-reason": g.reason } }
     );
   }
 
