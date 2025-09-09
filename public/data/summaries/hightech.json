@@ -1,37 +1,45 @@
 {
-  "generatedAt": "2025-09-08T08:45:54.905Z",
+  "generatedAt": "2025-09-09T08:44:38.843Z",
   "bullets": [
     {
-      "text": "Uber Tests Driverless Cars - **Uber** and **Momenta** plan to test fully driverless cars in Munich starting 2026.",
-      "url": "https://www.theverge.com/news/772639/uber-momenta-l4-driverless-test-munich-robotaxi"
+      "text": "Google Expands AI Mode - **Google**'s AI Mode now supports five new languages, enhancing global accessibility.",
+      "url": "https://techcrunch.com/2025/09/08/googles-ai-mode-adds-5-new-languages-including-hindi-japanese-and-korean/"
     },
     {
-      "text": "InDrive's Super App Ambitions - **InDrive** aims to expand into grocery delivery and other services in frontier markets.",
-      "url": "https://techcrunch.com/2025/09/08/indrive-has-big-plans-to-become-a-global-super-app-where-others-have-failed/"
+      "text": "Polestar 5 Unveiled - The **Polestar 5** boasts 884hp and 460 miles of range, challenging luxury sedans.",
+      "url": "https://www.theverge.com/electric-cars/773730/polestar-5-ev-horsepower-range-speed-specs"
     },
     {
-      "text": "Microsoft Azure Latency Issues - **Microsoft** reports increased latency for **Azure** users after undersea cables were cut.",
-      "url": "https://techcrunch.com/2025/09/07/microsoft-says-azure-affected-after-cables-cut-in-the-red-sea/"
+      "text": "Signal Introduces Backups - **Signal** launches paid and free backup options for secure messaging.",
+      "url": "https://techcrunch.com/2025/09/08/signal-introduces-free-and-paid-backup-plans-for-your-chats/"
     },
     {
-      "text": "Apple Watch Ultra 3 Features - The upcoming **Apple Watch Ultra 3** is expected to feature a larger display and 5G connectivity.",
-      "url": "https://9to5mac.com/2025/09/05/apple-watch-ultra-3-heres-every-new-feature-expected-next-week/"
+      "text": "Windows 11 SSD Issues - **Phison** blames early firmware for SSD failures in recent **Windows 11** updates.",
+      "url": "https://www.theverge.com/report/774201/phison-windows-11-ssd-issues-early-firmware"
     },
     {
-      "text": "iPhone 17 Pro Battery Boost - The **iPhone 17 Pro** will see a significant battery capacity increase, enhancing daily usage.",
-      "url": "https://9to5mac.com/2025/09/08/iphone-17-pro-battery-life-massive-increase/"
+      "text": "Apple's iPhone 17 Event - Anticipation builds for the **iPhone 17** launch, featuring new models and upgrades.",
+      "url": "https://techcrunch.com/2025/09/08/how-to-watch-apple-announce-the-iphone-17/"
     },
     {
-      "text": "Volkswagen's Affordable EVs - **Volkswagen** introduces the ID. Cross concept, targeting the low-end EV market.",
-      "url": "https://www.theverge.com/news/773435/volkswagen-rounds-out-new-lineup-of-affordable-evs-with-id-cross-concept"
+      "text": "ReOrbit Secures Funding - **ReOrbit** raises €45 million to develop sovereign satellite solutions in Europe.",
+      "url": "https://techcrunch.com/2025/09/08/reorbit-lands-record-funding-to-take-on-musks-starlink-from-europe/"
     },
     {
-      "text": "Koah's AI Monetization Strategy - **Koah** raises $5M to integrate ads into AI applications, aiming for broader monetization.",
-      "url": "https://techcrunch.com/2025/09/07/koah-raises-5m-to-bring-ads-into-ai-apps/"
+      "text": "Netskope's Upcoming IPO - **Netskope** prepares for IPO, aiming for a valuation of $6.5 billion in cybersecurity.",
+      "url": "https://techcrunch.com/2025/09/08/netskope-follows-rubrik-as-a-rare-cybersecurity-ipo-both-backed-lightspeed/"
     },
     {
-      "text": "Mistral AI's Competitive Edge - **Mistral AI** is positioning itself as a leading competitor to **OpenAI** with innovative models.",
-      "url": "https://techcrunch.com/2025/09/07/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/"
+      "text": "AI-Powered FSR 4 Released - **AMD**'s FSR 4 upscaling technology is now available in most FSR 3.1 games.",
+      "url": "https://www.theverge.com/news/774142/amd-fsr-4-3-1-games-support-upscaling"
+    },
+    {
+      "text": "Cognition AI Raises $400M - **Cognition AI** achieves a $10.2 billion valuation after a significant funding round.",
+      "url": "https://techcrunch.com/2025/09/08/cognition-ai-defies-turbulence-with-a-400m-raise-at-10-2b-valuation/"
+    },
+    {
+      "text": "Vodafone Tests AI Spokesperson - **Vodafone** introduces an AI-generated spokesperson in its advertising campaigns.",
+      "url": "https://www.cnet.com/news/social-media/creepy-or-fun-vodafones-new-spokesperson-is-ai-not-a-real-person/#ftag=CAD590a51e"
     }
   ]
 }
