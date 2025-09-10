@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2025-09-09T08:45:02.034Z",
+  "generatedAt": "2025-09-10T08:44:18.253Z",
   "bullets": [
     {
-      "text": "AI Actions in File Explorer - **Windows 11** introduces AI actions for seamless file interactions, enhancing productivity.",
+      "text": "Flexible Work Expectations Updated - **Microsoft** sets new in-office requirements to three days a week for employees.",
+      "url": "https://blogs.microsoft.com/blog/2025/09/09/flexible-work-update/"
+    },
+    {
+      "text": "AI Actions in File Explorer - New **Windows 11** build introduces AI features for enhanced file management.",
       "url": "https://blogs.windows.com/windows-insider/2025/09/08/announcing-windows-11-insider-preview-build-27938-canary-channel/"
     },
     {
-      "text": "Fluid Dictation Feature - **Copilot+ PCs** now support fluid dictation, improving voice access efficiency.",
-      "url": "https://blogs.windows.com/windows-insider/2025/09/05/announcing-windows-11-insider-preview-build-26220-5790-dev-channel/"
-    },
-    {
-      "text": "Mandatory MFA Phase 2 - Starting October 2025, **Azure** enforces multifactor authentication for enhanced security.",
+      "text": "Mandatory MFA Enforcement - **Azure** begins Phase 2 of multifactor authentication to enhance security starting October 2025.",
       "url": "https://azure.microsoft.com/en-us/blog/azure-mandatory-multifactor-authentication-phase-2-starting-in-october-2025/"
     },
     {
-      "text": "Interop 2026 Proposals Open - **Microsoft** invites submissions to enhance web development interoperability.",
+      "text": "Interop 2026 Proposals Open - **Microsoft** invites submissions to enhance web interoperability for developers.",
       "url": "https://blogs.windows.com/msedgedev/2025/09/04/calling-for-interop-2026-proposals/"
     },
     {
-      "text": "AI Adoption for US Government - **Microsoft** partners with GSA to accelerate AI tools for federal agencies.",
-      "url": "https://blogs.microsoft.com/blog/2025/09/02/accelerating-ai-adoption-for-the-us-government/"
+      "text": "Cost Management Updates - **Microsoft** enhances tools for better financial oversight and cost optimization.",
+      "url": "https://azure.microsoft.com/en-us/blog/microsoft-cost-management-updates-july-august-2025/"
     }
   ]
 }

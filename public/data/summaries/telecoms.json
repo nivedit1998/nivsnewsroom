@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2025-09-09T08:44:49.699Z",
+  "generatedAt": "2025-09-10T08:44:04.567Z",
   "bullets": [
     {
-      "text": "Ofcom's mmWave Auction - Boosting 5G Speeds",
+      "text": "Ofcom's mmWave Auction Boosts 5G - Ofcom's upcoming auction aims to enhance 5G speeds in congested UK cities.",
       "url": "https://www.telecomstechnews.com/news/ofcom-mmwave-auction-fix-slow-5g-in-busy-cities/"
     },
     {
-      "text": "Sigfox Back in Court - Unabiz Seeks Reorganisation",
+      "text": "EE's World-First 5G Solution - EE's Advanced RAN Coordination promises to alleviate slow 5G speeds in crowded areas.",
+      "url": "https://www.telecomstechnews.com/news/ee-deploys-world-first-solution-for-slow-5g-speeds-in-crowds/"
+    },
+    {
+      "text": "Newcastle Expands Free Wi-Fi - Newcastle partners with Purple to enhance free Wi-Fi access across the city.",
+      "url": "https://totaltele.com/newcastle-teams-up-with-purple-to-expand-free-wi-fi-access/"
+    },
+    {
+      "text": "Sigfox Faces Legal Challenges - Unabiz seeks judicial reorganisation for Sigfox amid rising connections and cash flow issues.",
       "url": "https://www.rcrwireless.com/20250909/internet-of-things/sigfox-unabiz-court"
     },
     {
-      "text": "SpaceX Acquires EchoStar Spectrum - Disrupting Telecoms",
-      "url": "https://www.rcrwireless.com/20250908/carriers/spacex-echostar"
-    },
-    {
-      "text": "Nokia's Smart Factory Campus - Pioneering 5G/6G Networks",
-      "url": "https://www.rcrwireless.com/20250908/internet-of-things/nokia-factory-europe-5g-6g-ai"
-    },
-    {
-      "text": "Vodafone Partners with Simetric - Unified IoT Management",
-      "url": "https://totaltele.com/vodafone-partners-with-simetric-for-single-pane-of-glass-iot-platform/"
+      "text": "Private 5G Drives Industrial AI - 87% of firms using private 5G report quick ROI, enhancing operational efficiency.",
+      "url": "https://www.telecomstechnews.com/news/on-premise-edge-and-private-5g-key-industrial-ai-and-security/"
     }
   ]
 }
