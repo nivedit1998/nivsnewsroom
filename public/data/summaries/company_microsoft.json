@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2025-09-10T08:44:18.253Z",
+  "generatedAt": "2025-09-11T08:43:02.849Z",
   "bullets": [
     {
-      "text": "Flexible Work Expectations Updated - **Microsoft** sets new in-office requirements to three days a week for employees.",
+      "text": "Free Developer Registration - Individual developers can now publish apps on the **Microsoft Store** without onboarding fees.",
+      "url": "https://blogs.windows.com/windowsdeveloper/2025/09/10/free-developer-registration-for-individual-developers-on-microsoft-store/"
+    },
+    {
+      "text": "Agent Factory Insights - New open standards like **MCP** and **A2A** enhance agent collaboration across platforms.",
+      "url": "https://azure.microsoft.com/en-us/blog/agent-factory-connecting-agents-apps-and-data-with-new-open-standards-like-mcp-and-a2a/"
+    },
+    {
+      "text": "Flexible Work Update - **Microsoft** updates its flexible work policy to three days in the office for better collaboration.",
       "url": "https://blogs.microsoft.com/blog/2025/09/09/flexible-work-update/"
     },
     {
-      "text": "AI Actions in File Explorer - New **Windows 11** build introduces AI features for enhanced file management.",
+      "text": "AI Actions in File Explorer - New **AI** features in **Windows 11** streamline file management and enhance user experience.",
       "url": "https://blogs.windows.com/windows-insider/2025/09/08/announcing-windows-11-insider-preview-build-27938-canary-channel/"
     },
     {
-      "text": "Mandatory MFA Enforcement - **Azure** begins Phase 2 of multifactor authentication to enhance security starting October 2025.",
+      "text": "Mandatory MFA Phase 2 - Starting October 2025, **Azure** enforces multifactor authentication for enhanced security.",
       "url": "https://azure.microsoft.com/en-us/blog/azure-mandatory-multifactor-authentication-phase-2-starting-in-october-2025/"
-    },
-    {
-      "text": "Interop 2026 Proposals Open - **Microsoft** invites submissions to enhance web interoperability for developers.",
-      "url": "https://blogs.windows.com/msedgedev/2025/09/04/calling-for-interop-2026-proposals/"
-    },
-    {
-      "text": "Cost Management Updates - **Microsoft** enhances tools for better financial oversight and cost optimization.",
-      "url": "https://azure.microsoft.com/en-us/blog/microsoft-cost-management-updates-july-august-2025/"
     }
   ]
 }
