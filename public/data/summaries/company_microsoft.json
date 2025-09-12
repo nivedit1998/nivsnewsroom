@@ -1,24 +1,32 @@
 {
-  "generatedAt": "2025-09-11T08:43:02.849Z",
+  "generatedAt": "2025-09-12T08:43:17.953Z",
   "bullets": [
+    {
+      "text": "Microsoft and OpenAI Unite - A non-binding MOU marks the next phase of collaboration between **Microsoft** and **OpenAI**.",
+      "url": "https://blogs.microsoft.com/blog/2025/09/11/a-joint-statement-from-microsoft-and-openai/"
+    },
+    {
+      "text": "Windows 10 Update Released - Build 19045.6388 is now available for **Windows 10** Insiders in the Release Preview Channel.",
+      "url": "https://blogs.windows.com/windows-insider/2025/09/11/releasing-windows-10-build-19045-6388-to-the-release-preview-channel/"
+    },
+    {
+      "text": "Windows 11 Build Available - **Windows 11** Build 22631.5982 is released to Insiders, featuring various improvements.",
+      "url": "https://blogs.windows.com/windows-insider/2025/09/11/releasing-windows-11-build-22631-5982-to-the-release-preview-channel/"
+    },
     {
       "text": "Free Developer Registration - Individual developers can now publish apps on the **Microsoft Store** without onboarding fees.",
       "url": "https://blogs.windows.com/windowsdeveloper/2025/09/10/free-developer-registration-for-individual-developers-on-microsoft-store/"
     },
     {
-      "text": "Agent Factory Insights - New open standards like **MCP** and **A2A** enhance agent collaboration across platforms.",
-      "url": "https://azure.microsoft.com/en-us/blog/agent-factory-connecting-agents-apps-and-data-with-new-open-standards-like-mcp-and-a2a/"
-    },
-    {
-      "text": "Flexible Work Update - **Microsoft** updates its flexible work policy to three days in the office for better collaboration.",
+      "text": "Flexible Work Update - **Microsoft** updates its flexible work policy to three days a week in the office.",
       "url": "https://blogs.microsoft.com/blog/2025/09/09/flexible-work-update/"
     },
     {
-      "text": "AI Actions in File Explorer - New **AI** features in **Windows 11** streamline file management and enhance user experience.",
-      "url": "https://blogs.windows.com/windows-insider/2025/09/08/announcing-windows-11-insider-preview-build-27938-canary-channel/"
+      "text": "AI in Shopping - **Ask Ralph** introduces AI-powered styling in the Ralph Lauren app, enhancing consumer experience.",
+      "url": "https://www.microsoft.com/en-us/industry/blog/retail/2025/09/09/ask-ralph-where-style-meets-ai-a-new-era-of-conversational-commerce/"
     },
     {
-      "text": "Mandatory MFA Phase 2 - Starting October 2025, **Azure** enforces multifactor authentication for enhanced security.",
+      "text": "Azure MFA Phase 2 - Starting October 2025, **Azure** will enforce multifactor authentication for resource management.",
       "url": "https://azure.microsoft.com/en-us/blog/azure-mandatory-multifactor-authentication-phase-2-starting-in-october-2025/"
     }
   ]
