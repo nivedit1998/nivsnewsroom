@@ -1,44 +1,37 @@
 {
-  "generatedAt": "2025-09-12T08:43:03.907Z",
+  "generatedAt": "2025-09-13T08:39:17.870Z",
   "bullets": [
     {
-      "text": "Spark Boosts 5G Capacity - **Spark** secures exclusive C-band spectrum, enhancing 5G speeds by up to 25% across New Zealand.",
-      "url": "https://www.rcrwireless.com/20250911/5g/spark-5-new"
+      "text": "Ofcom's 5G Spectrum Auction - Ofcom will auction 5.4 GHz of mmWave spectrum, the largest release in UK history.",
+      "url": "https://www.rcrwireless.com/20250912/5g/ofcom-5g-uk"
     },
     {
-      "text": "EE Innovates 5G Solutions - **EE** launches Advanced RAN Coordination to enhance 5G speeds during crowded events.",
-      "url": "https://www.telecomstechnews.com/news/ee-deploys-world-first-solution-for-slow-5g-speeds-in-crowds/"
+      "text": "6G's Undefined Future - Analysts question the economic viability and clarity of 6G's purpose in the telecom landscape.",
+      "url": "https://www.rcrwireless.com/20250912/analyst-angle/6g-analyst-angle"
     },
     {
-      "text": "Newcastle Expands Free Wi-Fi - **Newcastle City Council** partners with **Purple** to tackle digital poverty through city-wide free Wi-Fi.",
+      "text": "Neighborhood AI Factories Rise - Telco central offices are transforming into AI hubs, enhancing local processing capabilities.",
+      "url": "https://www.rcrwireless.com/20250912/reader-forum/neighborhood-ai-factory"
+    },
+    {
+      "text": "Newcastle's Free Wi-Fi Initiative - Newcastle City Council partners with **Purple** to expand free Wi-Fi access across the city.",
       "url": "https://totaltele.com/newcastle-teams-up-with-purple-to-expand-free-wi-fi-access/"
     },
     {
-      "text": "Verizon's Data Fine Upheld - US court rejects **Verizon**'s appeal against a $46.9m fine for illegal data sharing.",
-      "url": "https://totaltele.com/court-rejects-verizons-appeal-over-46-9m-data-sharing-fine/"
+      "text": "EE's 5G Speed Solution - **EE** deploys Advanced RAN Coordination to enhance 5G speeds in crowded areas.",
+      "url": "https://www.telecomstechnews.com/news/ee-deploys-world-first-solution-for-slow-5g-speeds-in-crowds/"
     },
     {
-      "text": "AI Drives Telco Efficiency - **Cyient** highlights AI's role in enhancing operational efficiency for telcos amid market pressures.",
-      "url": "https://totaltele.com/telco-transformation-and-the-ai-efficiency-imperative/"
+      "text": "Unabiz Restructures Sigfox - Unabiz secures court protection to restructure €5m debt while maintaining global operations.",
+      "url": "https://www.rcrwireless.com/20250912/internet-of-things/six-months-sigfox-unabiz"
     },
     {
-      "text": "Small Cells Market Booms - **Small Cell Forum** forecasts 61m small-cell shipments by 2030, driven by enterprise demand.",
-      "url": "https://www.rcrwireless.com/20250911/5g/small-cells-indoor-neutral-host"
-    },
-    {
-      "text": "Starlink Expands Mobile Service - **SpaceX** acquires spectrum to enhance its Direct to Cell mobile service via satellites.",
+      "text": "Starlink's Spectrum Acquisition - **SpaceX** buys spectrum to enhance its Direct to Cell mobile service capabilities.",
       "url": "https://www.telecomstechnews.com/news/spacex-buys-spectrum-starlink-direct-to-cell-mobile-service/"
     },
     {
-      "text": "MTN and Telkom Negotiations - **MTN** considers a takeover bid for **Telkom**, potentially creating South Africa's largest mobile operator.",
-      "url": "https://totaltele.com/mtn-and-telkom-once-again-eye-the-negotiating-table/"
-    },
-    {
-      "text": "Red Sea Cable Cuts Impact - Undersea cable disruptions in the Red Sea cause slower internet speeds across Asia and the Middle East."
-    },
-    {
-      "text": "HPE's AI Networking Strategy - **HPE** aims to compete in AI networking following its acquisition of **Juniper Networks**.",
-      "url": "https://www.rcrwireless.com/20250911/analyst-angle/hpe-ai-networking"
+      "text": "AI Efficiency in Telecoms - Companies are leveraging AI to drive operational efficiency and streamline network management.",
+      "url": "https://totaltele.com/telco-transformation-and-the-ai-efficiency-imperative/"
     }
   ]
 }

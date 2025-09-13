@@ -1,33 +1,29 @@
 {
-  "generatedAt": "2025-09-12T08:43:17.953Z",
+  "generatedAt": "2025-09-13T08:39:30.876Z",
   "bullets": [
     {
-      "text": "Microsoft and OpenAI Unite - A non-binding MOU marks the next phase of collaboration between **Microsoft** and **OpenAI**.",
-      "url": "https://blogs.microsoft.com/blog/2025/09/11/a-joint-statement-from-microsoft-and-openai/"
+      "text": "Windows 11 Builds Released - New features enhance user experience with AI capabilities and improved settings.",
+      "url": "https://blogs.windows.com/windows-insider/2025/09/12/releasing-windows-11-builds-26100-6713-and-26200-6713-to-the-release-preview-channel/"
     },
     {
-      "text": "Windows 10 Update Released - Build 19045.6388 is now available for **Windows 10** Insiders in the Release Preview Channel.",
-      "url": "https://blogs.windows.com/windows-insider/2025/09/11/releasing-windows-10-build-19045-6388-to-the-release-preview-channel/"
+      "text": "Windows 11 Insider Preview Update - New Copilot features streamline user interactions and enhance productivity.",
+      "url": "https://blogs.windows.com/windows-insider/2025/09/12/announcing-windows-11-insider-preview-build-26220-6682-dev-channel/"
     },
     {
-      "text": "Windows 11 Build Available - **Windows 11** Build 22631.5982 is released to Insiders, featuring various improvements.",
-      "url": "https://blogs.windows.com/windows-insider/2025/09/11/releasing-windows-11-build-22631-5982-to-the-release-preview-channel/"
+      "text": "Windows 11 Beta Channel Update - AI actions in Click to Do and File Explorer improve workflow efficiency.",
+      "url": "https://blogs.windows.com/windows-insider/2025/09/12/announcing-windows-11-insider-preview-build-26120-6682-beta-channel/"
     },
     {
-      "text": "Free Developer Registration - Individual developers can now publish apps on the **Microsoft Store** without onboarding fees.",
+      "text": "IFA 2025 Highlights - Copilot+ PCs showcase AI-driven innovation, enhancing productivity and collaboration.",
+      "url": "https://blogs.windows.com/windowsexperience/2025/09/12/ifa-2025-accelerating-innovation-with-copilot-pcs-and-windows-11/"
+    },
+    {
+      "text": "Free Developer Registration - Individual developers can now publish apps on the Microsoft Store without fees.",
       "url": "https://blogs.windows.com/windowsdeveloper/2025/09/10/free-developer-registration-for-individual-developers-on-microsoft-store/"
     },
     {
-      "text": "Flexible Work Update - **Microsoft** updates its flexible work policy to three days a week in the office.",
+      "text": "Flexible Work Update - Microsoft implements new in-office expectations to enhance collaboration and productivity.",
       "url": "https://blogs.microsoft.com/blog/2025/09/09/flexible-work-update/"
-    },
-    {
-      "text": "AI in Shopping - **Ask Ralph** introduces AI-powered styling in the Ralph Lauren app, enhancing consumer experience.",
-      "url": "https://www.microsoft.com/en-us/industry/blog/retail/2025/09/09/ask-ralph-where-style-meets-ai-a-new-era-of-conversational-commerce/"
-    },
-    {
-      "text": "Azure MFA Phase 2 - Starting October 2025, **Azure** will enforce multifactor authentication for resource management.",
-      "url": "https://azure.microsoft.com/en-us/blog/azure-mandatory-multifactor-authentication-phase-2-starting-in-october-2025/"
     }
   ]
 }
