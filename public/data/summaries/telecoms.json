@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2025-09-13T08:39:17.870Z",
+  "generatedAt": "2025-09-14T08:39:40.713Z",
   "bullets": [
     {
-      "text": "Ofcom's 5G Spectrum Auction - Ofcom will auction 5.4 GHz of mmWave spectrum, the largest release in UK history.",
+      "text": "Ofcom's 5G Spectrum Auction - Ofcom to auction 5.4 GHz of mmWave spectrum, the largest release in UK history.",
       "url": "https://www.rcrwireless.com/20250912/5g/ofcom-5g-uk"
     },
     {
-      "text": "6G's Undefined Future - Analysts question the economic viability and clarity of 6G's purpose in the telecom landscape.",
+      "text": "6G's Undefined Future - Analysts question the economic viability and definition of **6G** as the industry looks ahead.",
       "url": "https://www.rcrwireless.com/20250912/analyst-angle/6g-analyst-angle"
     },
     {
-      "text": "Neighborhood AI Factories Rise - Telco central offices are transforming into AI hubs, enhancing local processing capabilities.",
+      "text": "Neighborhood AI Factories Rise - Telco central offices are transforming into AI hubs, enhancing local computing capabilities.",
       "url": "https://www.rcrwireless.com/20250912/reader-forum/neighborhood-ai-factory"
     },
     {
-      "text": "Newcastle's Free Wi-Fi Initiative - Newcastle City Council partners with **Purple** to expand free Wi-Fi access across the city.",
+      "text": "Newcastle's Free Wi-Fi Initiative - Newcastle teams up with **Purple** to expand free Wi-Fi access across the city.",
       "url": "https://totaltele.com/newcastle-teams-up-with-purple-to-expand-free-wi-fi-access/"
     },
     {
@@ -22,16 +22,20 @@
       "url": "https://www.telecomstechnews.com/news/ee-deploys-world-first-solution-for-slow-5g-speeds-in-crowds/"
     },
     {
-      "text": "Unabiz Restructures Sigfox - Unabiz secures court protection to restructure €5m debt while maintaining global operations.",
+      "text": "Unabiz Restructures Sigfox - Unabiz secures six months to restructure its French **IoT** business amid financial difficulties.",
       "url": "https://www.rcrwireless.com/20250912/internet-of-things/six-months-sigfox-unabiz"
+    },
+    {
+      "text": "Verizon's Data Fine Upheld - Court rejects **Verizon**'s appeal against a $46.9 million fine for illegal data sharing.",
+      "url": "https://totaltele.com/court-rejects-verizons-appeal-over-46-9m-data-sharing-fine/"
+    },
+    {
+      "text": "AI Drives Telco Transformation - **AI** is crucial for telcos seeking operational efficiency and automation in a competitive market.",
+      "url": "https://totaltele.com/telco-transformation-and-the-ai-efficiency-imperative/"
     },
     {
       "text": "Starlink's Spectrum Acquisition - **SpaceX** buys spectrum to enhance its Direct to Cell mobile service capabilities.",
       "url": "https://www.telecomstechnews.com/news/spacex-buys-spectrum-starlink-direct-to-cell-mobile-service/"
-    },
-    {
-      "text": "AI Efficiency in Telecoms - Companies are leveraging AI to drive operational efficiency and streamline network management.",
-      "url": "https://totaltele.com/telco-transformation-and-the-ai-efficiency-imperative/"
     }
   ]
 }
