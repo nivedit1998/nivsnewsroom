@@ -1,40 +1,44 @@
 {
-  "generatedAt": "2025-09-14T08:39:40.713Z",
+  "generatedAt": "2025-09-15T08:45:54.283Z",
   "bullets": [
     {
-      "text": "Ofcom's 5G Spectrum Auction - Ofcom to auction 5.4 GHz of mmWave spectrum, the largest release in UK history.",
+      "text": "5G Spectrum Auction Coming - Ofcom will auction 5.4 GHz of mmWave spectrum, the largest release in UK history.",
       "url": "https://www.rcrwireless.com/20250912/5g/ofcom-5g-uk"
     },
     {
-      "text": "6G's Undefined Future - Analysts question the economic viability and definition of **6G** as the industry looks ahead.",
+      "text": "OpenAI Restructures with Microsoft - New deal allows OpenAI to pursue a for-profit model and future IPO.",
+      "url": "https://www.rcrwireless.com/20250914/ai-infrastructure/microsoft-openai"
+    },
+    {
+      "text": "Nvidia and OpenAI Invest Billions - Major investments in UK data centers expected during President Trump's visit.",
+      "url": "https://www.rcrwireless.com/20250914/ai-infrastructure/nvidia-openai-uk"
+    },
+    {
+      "text": "6G's Undefined Future - Analysts question the economic viability and clear definition of 6G technology.",
       "url": "https://www.rcrwireless.com/20250912/analyst-angle/6g-analyst-angle"
     },
     {
-      "text": "Neighborhood AI Factories Rise - Telco central offices are transforming into AI hubs, enhancing local computing capabilities.",
+      "text": "Neighborhood AI Factories Emerge - Telco central offices are transforming into hubs for AI workloads.",
       "url": "https://www.rcrwireless.com/20250912/reader-forum/neighborhood-ai-factory"
     },
     {
-      "text": "Newcastle's Free Wi-Fi Initiative - Newcastle teams up with **Purple** to expand free Wi-Fi access across the city.",
-      "url": "https://totaltele.com/newcastle-teams-up-with-purple-to-expand-free-wi-fi-access/"
+      "text": "US Data Center Spending Soars - Record $40B in spending driven by AI and machine learning demands.",
+      "url": "https://www.rcrwireless.com/20250912/ai-infrastructure/data-center-ai"
     },
     {
-      "text": "EE's 5G Speed Solution - **EE** deploys Advanced RAN Coordination to enhance 5G speeds in crowded areas.",
-      "url": "https://www.telecomstechnews.com/news/ee-deploys-world-first-solution-for-slow-5g-speeds-in-crowds/"
+      "text": "OpenAI's $300B Cloud Deal - Major agreement with Oracle to secure computing power for AI expansion.",
+      "url": "https://www.rcrwireless.com/20250912/ai-infrastructure/openai-oracle-ai"
     },
     {
-      "text": "Unabiz Restructures Sigfox - Unabiz secures six months to restructure its French **IoT** business amid financial difficulties.",
+      "text": "Unabiz Restructures Sigfox - Court grants six months for Unabiz to restructure €5m debt in France.",
       "url": "https://www.rcrwireless.com/20250912/internet-of-things/six-months-sigfox-unabiz"
     },
     {
-      "text": "Verizon's Data Fine Upheld - Court rejects **Verizon**'s appeal against a $46.9 million fine for illegal data sharing.",
-      "url": "https://totaltele.com/court-rejects-verizons-appeal-over-46-9m-data-sharing-fine/"
+      "text": "EE's 5G Speed Solution - Advanced RAN Coordination aims to eliminate slow 5G speeds in crowded areas.",
+      "url": "https://www.telecomstechnews.com/news/ee-deploys-world-first-solution-for-slow-5g-speeds-in-crowds/"
     },
     {
-      "text": "AI Drives Telco Transformation - **AI** is crucial for telcos seeking operational efficiency and automation in a competitive market.",
-      "url": "https://totaltele.com/telco-transformation-and-the-ai-efficiency-imperative/"
-    },
-    {
-      "text": "Starlink's Spectrum Acquisition - **SpaceX** buys spectrum to enhance its Direct to Cell mobile service capabilities.",
+      "text": "SpaceX Acquires Spectrum - Key acquisition for Starlink's Direct to Cell mobile service expansion.",
       "url": "https://www.telecomstechnews.com/news/spacex-buys-spectrum-starlink-direct-to-cell-mobile-service/"
     }
   ]
