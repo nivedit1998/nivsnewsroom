@@ -1,29 +1,33 @@
 {
-  "generatedAt": "2025-09-15T08:46:13.270Z",
+  "generatedAt": "2025-09-16T08:45:46.318Z",
   "bullets": [
     {
-      "text": "Windows 11 Builds Released - New features enhance user experience in Windows 11 with gradual rollouts.",
+      "text": "AI-Ready Data Revolution - **Microsoft** introduces new **Fabric** capabilities to enhance AI readiness across organizations.",
+      "url": "https://blogs.microsoft.com/blog/2025/09/16/microsoft-leads-shift-beyond-data-unification-to-organization-delivering-next-gen-ai-readiness-with-new-microsoft-fabric-capabilities/"
+    },
+    {
+      "text": "Spec-Driven Development Unveiled - **GitHub** launches Spec Kit to streamline AI-driven software development workflows.",
+      "url": "https://devblogs.microsoft.com/blog/spec-driven-development-spec-kit"
+    },
+    {
+      "text": "Azure Storage Performance Boost - **Azure Container Storage** v2.0.0 delivers up to 7x higher IOPS for Kubernetes workloads.",
+      "url": "https://azure.microsoft.com/en-us/blog/accelerating-ai-and-databases-with-azure-container-storage-now-7-times-faster-and-open-source/"
+    },
+    {
+      "text": "Windows 11 Updates Released - New builds for **Windows 11** bring features like AI actions and improved user experiences.",
       "url": "https://blogs.windows.com/windows-insider/2025/09/12/releasing-windows-11-builds-26100-6713-and-26200-6713-to-the-release-preview-channel/"
     },
     {
-      "text": "Windows 11 Insider Preview Build - New Copilot features streamline user interaction and enhance productivity.",
-      "url": "https://blogs.windows.com/windows-insider/2025/09/12/announcing-windows-11-insider-preview-build-26220-6682-dev-channel/"
+      "text": "Interoperability Commitments Announced - **Microsoft** outlines new commitments to enhance interoperability for **Teams** and **Microsoft 365**.",
+      "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2025/09/12/evolving-our-productivity-offerings-to-resolve-european-competition-concerns-about-teams/"
     },
     {
-      "text": "Windows 11 Insider Preview Beta - Enhanced Copilot features and new emojis introduced in the latest build.",
-      "url": "https://blogs.windows.com/windows-insider/2025/09/12/announcing-windows-11-insider-preview-build-26120-6682-beta-channel/"
-    },
-    {
-      "text": "IFA 2025 Highlights - Copilot+ PCs showcase AI advancements and redefine user experiences with Windows 11.",
-      "url": "https://blogs.windows.com/windowsexperience/2025/09/12/ifa-2025-accelerating-innovation-with-copilot-pcs-and-windows-11/"
-    },
-    {
-      "text": "Free Developer Registration - Individual developers can now publish apps on the Microsoft Store without fees.",
+      "text": "Developer Accessibility Enhanced - Individual developers can now publish apps to the **Microsoft Store** without fees.",
       "url": "https://blogs.windows.com/windowsdeveloper/2025/09/10/free-developer-registration-for-individual-developers-on-microsoft-store/"
     },
     {
-      "text": "Flexible Work Update - Microsoft updates flexible work expectations to enhance collaboration and productivity.",
-      "url": "https://blogs.microsoft.com/blog/2025/09/09/flexible-work-update/"
+      "text": "AI-Powered Conversational Commerce - **Ralph Lauren** introduces Ask Ralph, an AI styling companion for personalized shopping.",
+      "url": "https://www.microsoft.com/en-us/industry/blog/retail/2025/09/09/ask-ralph-where-style-meets-ai-a-new-era-of-conversational-commerce/"
     }
   ]
 }
