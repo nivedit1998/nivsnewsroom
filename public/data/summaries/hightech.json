@@ -1,45 +1,45 @@
 {
-  "generatedAt": "2025-09-16T08:45:05.940Z",
+  "generatedAt": "2025-09-17T08:43:30.781Z",
   "bullets": [
     {
-      "text": "Apple Music Import Tool Launched - **Apple** makes switching from other platforms easier with its new import tool.",
+      "text": "Microsoft's £22 Billion UK Investment - **Microsoft** commits to building the UK's largest supercomputer, surpassing **Google**'s recent investment.",
+      "url": "https://www.theverge.com/news/778881/microsoft-uk-investment-ai-supercomputer"
+    },
+    {
+      "text": "CodeRabbit's $60M Series B - The AI code review startup **CodeRabbit** raises significant funding, valuing it at $550 million.",
+      "url": "https://techcrunch.com/2025/09/16/coderabbit-raises-60m-valuing-the-2-year-old-ai-code-review-startup-at-550m/"
+    },
+    {
+      "text": "Apple Music Import Tool Launch - **Apple** expands its music import tool globally, easing transitions from competitors like **Spotify**.",
       "url": "https://9to5mac.com/2025/09/15/apple-music-import-tool-now-available-worldwide-with-a-few-exceptions/"
     },
     {
-      "text": "Samsung Android 16 Update Confirmed - **Samsung** announces rollout of Android 16 for various Galaxy devices starting October.",
-      "url": "https://9to5google.com/2025/09/15/samsung-galaxy-android-16-one-ui-8-initial-list/"
+      "text": "Apple Wallet's New Feature - **Apple**'s Wallet app in iOS 26 now saves full credit card details, enhancing user convenience.",
+      "url": "https://9to5mac.com/2025/09/16/apples-wallet-app-has-key-new-feature-for-saved-credit-cards-in-ios-26/"
     },
     {
-      "text": "iOS 26 Now Available - **Apple** releases iOS 26, featuring a new Liquid Glass design and enhanced functionalities.",
-      "url": "https://techcrunch.com/2025/09/15/apples-ios-26-with-the-new-liquid-glass-design-is-now-available-to-everyone/"
+      "text": "AirPods Pro 3 Exclusive Features - The new **AirPods Pro 3** offer improved features, but some are exclusive to **iPhone 17** users.",
+      "url": "https://9to5mac.com/2025/09/16/this-airpods-pro-3-feature-is-only-available-on-iphone-17-and-air/"
     },
     {
-      "text": "AirPods Pro 3 Review - **Apple**'s latest AirPods Pro 3 enhance comfort and fit, solidifying their market position.",
-      "url": "https://9to5mac.com/2025/09/15/airpods-pro-3-review/"
+      "text": "Waymo's Airport Service Approved - **Waymo** receives permission to test its robotaxi service at San Francisco International Airport.",
+      "url": "https://www.theverge.com/news/779039/waymo-sfo-airport-permit-robotaxi"
     },
     {
-      "text": "iPhone Air's Portrait Mode - **Apple** introduces advanced Portrait Mode on the new iPhone Air, expanding photography capabilities.",
-      "url": "https://9to5mac.com/2025/09/12/iphone-air-offers-a-new-feature-never-seen-in-a-single-camera-iphone/"
+      "text": "Gemini App Dominates Downloads - **Gemini**'s new AI image model, Nano Banana, propels it to the top of app store charts.",
+      "url": "https://techcrunch.com/2025/09/16/gemini-tops-the-app-store-thanks-to-new-ai-image-model-nano-banana/"
     },
     {
-      "text": "Amazon's Prime Day Announced - **Amazon** sets October 7-8 for its fall Prime Big Deal Days, promising great deals.",
-      "url": "https://www.theverge.com/news/774151/amazon-october-prime-day-fall-dates-2025"
+      "text": "Impulse Space's Fast Satellite Delivery - **Impulse** promises same-day satellite delivery, revolutionizing space transport timelines.",
+      "url": "https://techcrunch.com/2025/09/16/same-day-delivery-comes-to-space-as-impulse-promises-satellite-transport-in-hours-not-months/"
     },
     {
-      "text": "Nothing's $200M Series C - **Nothing** secures $200 million in funding to launch AI-first devices, boosting its valuation.",
-      "url": "https://techcrunch.com/2025/09/15/nothing-closes-200m-series-c-led-by-tiger-global-plans-ai-first-device-launch/"
+      "text": "Andrew Yang's Noble Mobile Launch - **Andrew Yang** introduces a budget cell carrier that rewards users for lower data usage.",
+      "url": "https://techcrunch.com/2025/09/16/andrew-yang-took-inspiration-from-mark-cuban-for-his-budget-cell-carrier-noble-mobile/"
     },
     {
-      "text": "Microsoft Office Adds Copilot - **Microsoft** integrates free Copilot Chat features into Office apps for enhanced productivity.",
-      "url": "https://www.theverge.com/news/778272/microsoft-office-free-copilot-ai-features-copilot-chat"
-    },
-    {
-      "text": "PayPal Introduces Payment Links - **PayPal** launches new payment links feature, soon to support cryptocurrency transactions.",
-      "url": "https://techcrunch.com/2025/09/15/paypal-adds-new-one-to-one-payment-links-that-will-soon-support-crypto/"
-    },
-    {
-      "text": "Snap OS 2.0 Unveiled - **Snap** launches Snap OS 2.0 with a native browser and WebXR support for its AR glasses.",
-      "url": "https://techcrunch.com/2025/09/15/snap-unveils-snap-os-2-0-with-native-browser-webxr-support-and-more/"
+      "text": "Tesla's Powerwall Recall - **Tesla** recalls Powerwall 2 batteries in Australia due to fire risks, though no injuries reported.",
+      "url": "https://techcrunch.com/2025/09/16/tesla-is-recalling-powerwall-2-batteries-over-fire-risk/"
     }
   ]
 }
