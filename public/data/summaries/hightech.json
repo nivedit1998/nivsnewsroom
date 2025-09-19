@@ -1,45 +1,45 @@
 {
-  "generatedAt": "2025-09-18T08:44:04.733Z",
+  "generatedAt": "2025-09-19T08:43:31.590Z",
   "bullets": [
     {
-      "text": "Tim Cook's Royal Dinner - **Apple** CEO joins tech elite at Windsor Castle with **Trump** and other leaders.",
-      "url": "https://9to5mac.com/2025/09/17/tim-cook-windsor-castle-state-banquet/"
+      "text": "Tech Leaders Dine with Trump - **Tim Cook**, **Sam Altman**, and other tech giants attended a state banquet in the UK.",
+      "url": "https://techcrunch.com/2025/09/18/tim-cook-sam-altman-and-more-attend-trumps-uk-state-banquet/"
     },
     {
-      "text": "Apple Music Import Tool - Now available globally, simplifying transitions from **Spotify** and other platforms.",
+      "text": "Teen Hacker Charged - A British teenager faces charges for over 120 cyberattacks, including extortion of US companies.",
+      "url": "https://techcrunch.com/2025/09/18/us-government-charges-british-teenager-accused-of-at-least-120-scattered-spider-hacks/"
+    },
+    {
+      "text": "Google Tackles Revenge Porn - **Google** partners with UK nonprofit to combat nonconsensual intimate images on Search.",
+      "url": "https://techcrunch.com/2025/09/18/google-partners-with-uk-nonprofit-to-detect-and-remove-nonconsensual-intimate-images-from-search/"
+    },
+    {
+      "text": "Notion Unveils AI Agents - **Notion** launches AI agents for enhanced data analysis and task automation.",
+      "url": "https://techcrunch.com/2025/09/18/notion-launches-agents-for-data-analysis-and-task-automation/"
+    },
+    {
+      "text": "Apple Music Import Tool Global - **Apple** rolls out its music import tool worldwide, easing transitions from other platforms.",
       "url": "https://9to5mac.com/2025/09/15/apple-music-import-tool-now-available-worldwide-with-a-few-exceptions/"
     },
     {
-      "text": "iPhone Air Review - **Apple**'s thinnest iPhone ever, balancing design and functionality.",
-      "url": "https://9to5mac.com/2025/09/17/iphone-air-review/"
+      "text": "iOS 26 Enhances Battery Management - New features in **iOS 26** help users manage battery drain effectively.",
+      "url": "https://9to5mac.com/2025/09/18/ios-26s-new-battery-feature-can-help-save-a-draining-iphone/"
     },
     {
-      "text": "iPhone 17 Pro Performance - New model elevates capabilities with advanced design and features.",
-      "url": "https://9to5mac.com/2025/09/17/iphone-17-pro-review/"
-    },
-    {
-      "text": "Apple Wallet Upgrade - New feature allows full credit card details storage in **iOS 26**.",
-      "url": "https://9to5mac.com/2025/09/16/apples-wallet-app-has-key-new-feature-for-saved-credit-cards-in-ios-26/"
-    },
-    {
-      "text": "AirPods Pro 3 Launch - New features exclusive to **iPhone 17** and **Air** enhance user experience.",
-      "url": "https://9to5mac.com/2025/09/16/this-airpods-pro-3-feature-is-only-available-on-iphone-17-and-air/"
-    },
-    {
-      "text": "Apple Watch Ultra 3 - First model with satellite connectivity for emergency services without cellular.",
+      "text": "Apple Watch Ultra 3 Goes Satellite - The new **Apple Watch Ultra 3** includes satellite connectivity for emergency services.",
       "url": "https://9to5mac.com/2025/09/16/review-apple-watch-ultra-3-series-11/"
     },
     {
-      "text": "Meta's Smart Glasses - **Meta** unveils Ray-Ban Display with wristband control and enhanced features.",
-      "url": "https://techcrunch.com/2025/09/17/meta-unveils-new-smart-glasses-with-a-display-and-wristband-controller/"
+      "text": "AI Startups Boost Google Cloud - **Google Cloud** sees growth by partnering with AI startups like Lovable and Windsurf.",
+      "url": "https://techcrunch.com/2025/09/18/how-ai-startups-are-fueling-googles-booming-cloud-business/"
     },
     {
-      "text": "Nvidia Rival Groq's Success - **Groq** raises $750 million, challenging **Nvidia** in AI chip market.",
-      "url": "https://techcrunch.com/2025/09/17/nvidia-ai-chip-challenger-groq-raises-even-more-than-expected-hits-6-9b-valuation/"
+      "text": "Huawei Competes with Nvidia - **Huawei** announces new AI infrastructure to enhance compute power amid Nvidia's challenges.",
+      "url": "https://techcrunch.com/2025/09/18/huawei-announces-new-ai-infrastructure-as-nvidia-gets-locked-out-of-china/"
     },
     {
-      "text": "Keplar's AI Market Research - New startup leverages voice AI to revolutionize traditional market research.",
-      "url": "https://techcrunch.com/2025/09/17/kleiner-perkins-backed-voice-ai-startup-keplar-aims-to-replace-traditional-market-research/"
+      "text": "OpenAI Research on AI Deception - **OpenAI** explores how AI models can scheme and the challenges of training them.",
+      "url": "https://techcrunch.com/2025/09/18/openais-research-on-ai-models-deliberately-lying-is-wild/"
     }
   ]
 }
