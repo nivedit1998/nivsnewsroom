@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2025-09-21T08:39:19.139Z",
+  "generatedAt": "2025-09-22T08:46:31.025Z",
   "bullets": [
     {
-      "text": "Windows 11 Insider Preview Updates - New builds enhance user experience across Canary, Dev, and Beta channels.",
+      "text": "Windows 11 Insider Preview Builds Released - New builds enhance user experience with fixes and features for Insiders.",
       "url": "https://blogs.windows.com/windows-insider/2025/09/19/announcing-windows-11-insider-preview-build-27950-canary-channel/"
     },
     {
-      "text": "Gaming Copilot Beta Launch - AI-powered recommendations and insights are now available for Windows PC gamers.",
+      "text": "Gaming Copilot Beta Launch - New AI-powered tool enhances gaming experiences on Windows PCs and Xbox.",
       "url": "https://blogs.windows.com/windowsexperience/2025/09/19/gaming-copilot-beta-coming-to-windows-pc/"
     },
     {
-      "text": "AI Datacenter Expansion - New AI datacenters announced in the US and UK to support advanced workloads.",
-      "url": "https://blogs.microsoft.com/blog/2025/09/18/inside-the-worlds-most-powerful-ai-datacenter/"
-    },
-    {
-      "text": "Microsoft Defender ROI - A recent study shows a 242% ROI for organizations using Microsoft Defender over three years.",
+      "text": "Microsoft Defender ROI Report - Organizations see a 242% ROI over three years with Microsoft Defender.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/09/18/microsoft-defender-delivered-242-return-on-investment-over-three-years/"
     },
     {
-      "text": "Windows 365 Enhancements - New features improve cloud productivity and security for users across various roles.",
+      "text": "AI Datacenter Expansion - New AI datacenters announced to support global AI workloads and cloud services.",
+      "url": "https://blogs.microsoft.com/blog/2025/09/18/inside-the-worlds-most-powerful-ai-datacenter/"
+    },
+    {
+      "text": "Windows 365 Enhancements - New features improve cloud productivity and security for users.",
       "url": "https://blogs.windows.com/windowsexperience/2025/09/17/windows-365-brings-resilient-ai-driven-cloud-productivity-to-more-users/"
     },
     {
-      "text": "Microsoft Fabric Innovations - New capabilities announced to enhance data organization and AI readiness.",
+      "text": "Microsoft Fabric Innovations - New capabilities enhance AI readiness and data organization for businesses.",
       "url": "https://blogs.microsoft.com/blog/2025/09/16/microsoft-leads-shift-beyond-data-unification-to-organization-delivering-next-gen-ai-readiness-with-new-microsoft-fabric-capabilities/"
     }
   ]
