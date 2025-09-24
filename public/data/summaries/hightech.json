@@ -1,37 +1,45 @@
 {
-  "generatedAt": "2025-09-23T08:43:48.354Z",
+  "generatedAt": "2025-09-24T08:44:56.566Z",
   "bullets": [
     {
-      "text": "Tado's AI Heating Revolution - **Tado** introduces AI-powered features for efficient home heating, available to UK subscribers.",
-      "url": "https://www.theverge.com/news/783465/tado-x-ai-auto-assist-heating-update"
+      "text": "MagSafe Wallet Innovation - **SUPCASE** introduces a functional MagSafe Wallet with AirTag support and strong magnets.",
+      "url": "https://9to5mac.com/2025/09/22/supcase-magsafe-wallet-with-airtag-review/"
     },
     {
-      "text": "iPhone 17 Pro Max Dominates - The **iPhone 17 Pro Max** outperforms the **Samsung Galaxy S25 Ultra** in battery life tests.",
-      "url": "https://9to5mac.com/2025/09/20/iphone-17-pro-max-battery-life-test/"
-    },
-    {
-      "text": "Google's Nest Lock Upgrade - The new **Yale Smart Lock** supports **Matter**, enhancing compatibility with smart home systems.",
+      "text": "Nest x Yale Lock Upgrade - **Google**'s new smart lock supports **Matter**, enhancing compatibility across smart home ecosystems.",
       "url": "https://9to5google.com/2025/09/22/review-google-prefers-matter-for-its-overdue-nest-x-yale-lock-sequel-and-i-think-i-do-too/"
     },
     {
-      "text": "AI Dating Assistant Launch - **Meta** introduces an AI assistant for **Facebook Dating**, aiming to reduce swipe fatigue.",
-      "url": "https://techcrunch.com/2025/09/22/facebook-is-getting-an-ai-dating-assistant/"
+      "text": "iPhone Battery Life Champion - The **iPhone 17 Pro Max** outlasts the **Samsung Galaxy S25 Ultra** in battery tests.",
+      "url": "https://9to5mac.com/2025/09/20/iphone-17-pro-max-battery-life-test/"
     },
     {
-      "text": "Nvidia's Massive Investment - **Nvidia** plans to invest up to $100 billion in **OpenAI** for AI infrastructure development.",
-      "url": "https://techcrunch.com/2025/09/22/nvidia-plans-to-invest-up-to-100b-in-openai/"
+      "text": "Portable Note-Taking Device - The **reMarkable Paper Pro Move** offers a compact design and excellent functionality for notes.",
+      "url": "https://9to5mac.com/2025/09/20/remarkable-paper-pro-move-review-excellent-device-for-note-taking-just-smaller/"
     },
     {
-      "text": "Blue Origin's NASA Contract - **Blue Origin** wins a contract to deliver the **VIPER rover** to the lunar south pole.",
-      "url": "https://techcrunch.com/2025/09/22/blue-origin-wins-nasa-deal-to-ferry-viper-rover-to-lunar-south-pole/"
+      "text": "Solar-Powered Keyboard Launch - **Logitech** unveils the **Signature Slim Solar Plus K980**, a light-powered keyboard.",
+      "url": "https://www.theverge.com/news/782968/logitech-signature-solar-k980-keyboard"
     },
     {
-      "text": "AI-Powered App Development - **Rocket.new** raises $15M to enhance its AI app development platform, targeting global users.",
-      "url": "https://techcrunch.com/2025/09/22/rocket-new-one-of-indias-first-vibe-coding-startups-snags-15m-from-accel-salesforce-ventures/"
+      "text": "YouTube Policy Reversal - **Google** will allow creators banned for misinformation to return to **YouTube**.",
+      "url": "https://www.theverge.com/policy/784238/youtube-covid-election-misinformation-reversal"
     },
     {
-      "text": "Apple's Liquid Glass Design - Over 30 apps now feature **Apple's** new Liquid Glass design in **iOS 26**.",
-      "url": "https://9to5mac.com/2025/09/19/these-30-apps-feature-a-new-liquid-glass-design-for-ios-26/"
+      "text": "AI-Powered Photo Editing - **Google Photos** now allows Android users to edit photos using natural language.",
+      "url": "https://techcrunch.com/2025/09/23/google-photos-users-on-android-can-now-edit-their-photos-by-talking-to-or-texting-the-ai/"
+    },
+    {
+      "text": "AI Data Centers Expansion - **OpenAI** partners with **Oracle** and **SoftBank** to build five new data centers.",
+      "url": "https://techcrunch.com/2025/09/23/openai-is-building-five-new-stargate-data-centers-with-oracle-and-softbank/"
+    },
+    {
+      "text": "Electric Truck Funding - **Telo** raises $20 million to develop compact electric trucks for urban environments.",
+      "url": "https://techcrunch.com/2025/09/23/telo-raises-20-million-to-build-tiny-electric-trucks-for-cities/"
+    },
+    {
+      "text": "AI Safety Legislation - California's **Scott Wiener** pushes for transparency in AI with new safety reporting requirements.",
+      "url": "https://techcrunch.com/2025/09/23/scott-wiener-on-his-fight-to-make-big-tech-disclose-ais-dangers/"
     }
   ]
 }
