@@ -1,45 +1,45 @@
 {
-  "generatedAt": "2025-09-24T08:45:39.632Z",
+  "generatedAt": "2025-09-25T08:45:49.522Z",
   "bullets": [
     {
-      "text": "Windows ML Now Available - **Windows ML** empowers developers to deploy local AI efficiently across diverse Windows devices.",
+      "text": "Podman Integration in Visual Studio - **Podman** support in **Visual Studio 2026** enhances container development flexibility and security.",
+      "url": "https://devblogs.microsoft.com/blog/visual-studio-2026-insiders-using-podman-for-container-development"
+    },
+    {
+      "text": "Cybersecurity Risks in Retail - A single alert revealed a major cyberthreat exploiting **SharePoint** vulnerabilities in retail organizations.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2025/09/24/retail-at-risk-how-one-alert-uncovered-a-persistent-cyberthreat/"
+    },
+    {
+      "text": "AI-Driven Phishing Campaigns - **Microsoft** detected an AI-obfuscated phishing campaign, highlighting evolving cyber threats.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2025/09/24/ai-vs-ai-detecting-an-ai-obfuscated-phishing-campaign/"
+    },
+    {
+      "text": "Windows ML Now Available - **Windows ML** empowers developers to scale local AI across Windows devices efficiently.",
       "url": "https://blogs.windows.com/windowsdeveloper/2025/09/23/windows-ml-is-generally-available-empowering-developers-to-scale-local-ai-across-windows-devices/"
     },
     {
-      "text": "30% Reduction in Data Breaches - **Microsoft Purview** helps organizations achieve significant data breach prevention and compliance.",
+      "text": "Microsoft Purview Reduces Breach Likelihood - **Microsoft Purview** achieved a 30% reduction in data breach likelihood for organizations.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/09/23/microsoft-purview-delivered-30-reduction-in-data-breach-likelihood/"
     },
     {
-      "text": "Windows 11 Insider Preview Updates - New builds enhance user experience with fixes and features for **Windows 11** Insiders.",
+      "text": "Windows 11 Insider Preview Updates - New builds for **Windows 11** introduce improvements and fixes for Insiders.",
       "url": "https://blogs.windows.com/windows-insider/2025/09/19/announcing-windows-11-insider-preview-build-27950-canary-channel/"
     },
     {
-      "text": "Gaming Copilot Beta Launch - **Gaming Copilot** provides AI-driven insights and recommendations for PC and Xbox players.",
+      "text": "Gaming Copilot Beta Launch - **Gaming Copilot** is set to enhance player experiences on **Windows PC** and Xbox.",
       "url": "https://blogs.windows.com/windowsexperience/2025/09/19/gaming-copilot-beta-coming-to-windows-pc/"
     },
     {
-      "text": "Microsoft's Leadership in IIoT - Recognized as a Leader in the **2025 Gartner Magic Quadrant** for Global Industrial IoT Platforms.",
+      "text": "Microsoft's Leadership in IIoT - **Microsoft** recognized as a Leader in the 2025 Gartner Magic Quadrant for Global Industrial IoT Platforms.",
       "url": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2025-gartner-magic-quadrant-for-global-industrial-iot-platforms/"
     },
     {
-      "text": "AI Datacenter Expansion - **Microsoft** unveils new AI datacenters to support advanced AI workloads and cloud services.",
+      "text": "AI Datacenter Expansion - **Microsoft** unveils new AI datacenters to support global AI workloads and cloud services.",
       "url": "https://blogs.microsoft.com/blog/2025/09/18/inside-the-worlds-most-powerful-ai-datacenter/"
     },
     {
-      "text": "Microsoft Defender ROI - Organizations see a **242% ROI** with **Microsoft Defender**, enhancing security operations and reducing costs.",
+      "text": "Microsoft Defender ROI Insights - **Microsoft Defender** delivers a 242% ROI over three years, enhancing security operations.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/09/18/microsoft-defender-delivered-242-return-on-investment-over-three-years/"
-    },
-    {
-      "text": "Blueprint for Secure AI Agents - **Azure AI Foundry** outlines a framework for building safe and secure AI agents.",
-      "url": "https://azure.microsoft.com/en-us/blog/agent-factory-creating-a-blueprint-for-safe-and-secure-ai-agents/"
-    },
-    {
-      "text": "Updates to Paint and Snipping Tool - Enhancements to **Paint** and **Snipping Tool** improve user creativity and efficiency.",
-      "url": "https://blogs.windows.com/windows-insider/2025/09/17/paint-snipping-tool-and-notepad-app-updates-begin-rolling-out-to-windows-insiders/"
-    },
-    {
-      "text": "Windows 365 Enhancements - **Windows 365** expands AI-driven cloud productivity solutions for diverse user needs.",
-      "url": "https://blogs.windows.com/windowsexperience/2025/09/17/windows-365-brings-resilient-ai-driven-cloud-productivity-to-more-users/"
     }
   ]
 }
