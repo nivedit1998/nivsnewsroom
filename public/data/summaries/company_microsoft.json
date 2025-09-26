@@ -1,45 +1,37 @@
 {
-  "generatedAt": "2025-09-25T08:45:49.522Z",
+  "generatedAt": "2025-09-26T08:44:57.388Z",
   "bullets": [
     {
-      "text": "Podman Integration in Visual Studio - **Podman** support in **Visual Studio 2026** enhances container development flexibility and security.",
-      "url": "https://devblogs.microsoft.com/blog/visual-studio-2026-insiders-using-podman-for-container-development"
+      "text": "AI-Powered Photo Organization - **Microsoft Photos** now features AI-driven auto-categorization for efficient photo management.",
+      "url": "https://blogs.windows.com/windows-insider/2025/09/25/ai-powered-auto-categorization-now-available-in-microsoft-photos/"
     },
     {
-      "text": "Cybersecurity Risks in Retail - A single alert revealed a major cyberthreat exploiting **SharePoint** vulnerabilities in retail organizations.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2025/09/24/retail-at-risk-how-one-alert-uncovered-a-persistent-cyberthreat/"
+      "text": "Windows 11 Insider Build Update - **Windows 11** Insider Preview Build 27954 introduces general improvements and fixes.",
+      "url": "https://blogs.windows.com/windows-insider/2025/09/25/announcing-windows-11-insider-preview-build-27954-canary-channel/"
     },
     {
-      "text": "AI-Driven Phishing Campaigns - **Microsoft** detected an AI-obfuscated phishing campaign, highlighting evolving cyber threats.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2025/09/24/ai-vs-ai-detecting-an-ai-obfuscated-phishing-campaign/"
+      "text": "New Highlights API in Edge - **Microsoft Edge** 140 introduces highlightsFromPoint() for enhanced text editing capabilities.",
+      "url": "https://blogs.windows.com/msedgedev/2025/09/25/unlock-text-editing-use-cases-with-highlightsfrompoint/"
     },
     {
-      "text": "Windows ML Now Available - **Windows ML** empowers developers to scale local AI across Windows devices efficiently.",
+      "text": "Reimagined Microsoft Marketplace - **Microsoft Marketplace** unifies solutions, offering thousands of AI apps and cloud solutions.",
+      "url": "https://blogs.microsoft.com/blog/2025/09/25/introducing-microsoft-marketplace-thousands-of-solutions-millions-of-customers-one-marketplace/"
+    },
+    {
+      "text": "XCSSET Malware Variant Update - **Microsoft** analyzes a new XCSSET variant targeting developers' Xcode projects.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2025/09/25/xcsset-evolves-again-analyzing-the-latest-updates-to-xcssets-inventory/"
+    },
+    {
+      "text": "Windows ML Now Available - **Windows ML** enables local AI deployment across Windows devices for developers.",
       "url": "https://blogs.windows.com/windowsdeveloper/2025/09/23/windows-ml-is-generally-available-empowering-developers-to-scale-local-ai-across-windows-devices/"
     },
     {
-      "text": "Microsoft Purview Reduces Breach Likelihood - **Microsoft Purview** achieved a 30% reduction in data breach likelihood for organizations.",
+      "text": "AI-Enhanced Phishing Detection - **Microsoft** blocks an AI-obfuscated phishing campaign, showcasing advanced detection capabilities.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2025/09/24/ai-vs-ai-detecting-an-ai-obfuscated-phishing-campaign/"
+    },
+    {
+      "text": "Microsoft Purview Success - **Microsoft Purview** achieves a 30% reduction in data breach likelihood for organizations.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/09/23/microsoft-purview-delivered-30-reduction-in-data-breach-likelihood/"
-    },
-    {
-      "text": "Windows 11 Insider Preview Updates - New builds for **Windows 11** introduce improvements and fixes for Insiders.",
-      "url": "https://blogs.windows.com/windows-insider/2025/09/19/announcing-windows-11-insider-preview-build-27950-canary-channel/"
-    },
-    {
-      "text": "Gaming Copilot Beta Launch - **Gaming Copilot** is set to enhance player experiences on **Windows PC** and Xbox.",
-      "url": "https://blogs.windows.com/windowsexperience/2025/09/19/gaming-copilot-beta-coming-to-windows-pc/"
-    },
-    {
-      "text": "Microsoft's Leadership in IIoT - **Microsoft** recognized as a Leader in the 2025 Gartner Magic Quadrant for Global Industrial IoT Platforms.",
-      "url": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2025-gartner-magic-quadrant-for-global-industrial-iot-platforms/"
-    },
-    {
-      "text": "AI Datacenter Expansion - **Microsoft** unveils new AI datacenters to support global AI workloads and cloud services.",
-      "url": "https://blogs.microsoft.com/blog/2025/09/18/inside-the-worlds-most-powerful-ai-datacenter/"
-    },
-    {
-      "text": "Microsoft Defender ROI Insights - **Microsoft Defender** delivers a 242% ROI over three years, enhancing security operations.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2025/09/18/microsoft-defender-delivered-242-return-on-investment-over-three-years/"
     }
   ]
 }

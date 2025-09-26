@@ -1,37 +1,45 @@
 {
-  "generatedAt": "2025-09-25T08:44:52.354Z",
+  "generatedAt": "2025-09-26T08:44:11.071Z",
   "bullets": [
     {
-      "text": "Nothing Ear (3) Missed Potential - **Nothing**'s latest earbuds offer rich sound but fall short on ANC performance.",
+      "text": "Xbox Ally Preorders Open – **Microsoft** and **Asus** launch preorders for Xbox Ally handhelds starting at £499 in the UK.",
+      "url": "https://www.theverge.com/news/784286/xbox-handheld-ally-x-price-preorder"
+    },
+    {
+      "text": "Pixel Call Recording Returns – **Google** is testing full call recording on **Pixel** devices in the UK and US.",
+      "url": "https://9to5google.com/2025/09/25/pixel-call-recording-appears-on-some-devices/"
+    },
+    {
+      "text": "iOS 26 Enhances Wallet – **Apple** Wallet's order tracking feature receives significant improvements in the latest update.",
+      "url": "https://9to5mac.com/2025/09/25/ios-26-gives-wallets-most-neglected-feature-the-fix-it-always-needed/"
+    },
+    {
+      "text": "Nothing Ear (3) Review – The latest earbuds from **Nothing** offer great sound but miss key opportunities.",
       "url": "https://9to5google.com/2025/09/24/nothing-ear-3-review/"
     },
     {
-      "text": "iPhone 17 Pro Max Battery Champion - The **iPhone 17 Pro Max** outlasts the **Samsung Galaxy S25 Ultra** in battery tests.",
-      "url": "https://9to5mac.com/2025/09/20/iphone-17-pro-max-battery-life-test/"
+      "text": "Neon App Security Flaw – A viral call-recording app exposes users' data, leading to its shutdown.",
+      "url": "https://techcrunch.com/2025/09/25/viral-call-recording-app-neon-goes-dark-after-exposing-users-phone-numbers-call-recordings-and-transcripts/"
     },
     {
-      "text": "CMF Brand Spin-off - **Nothing** launches its budget brand **CMF** as a standalone subsidiary in India.",
-      "url": "https://www.theverge.com/news/785474/nothing-spins-off-budget-brand-cmf-india"
+      "text": "Nvidia Open Sources AI Tool – **Nvidia** allows developers to use its Audio2Face for realistic 3D animations.",
+      "url": "https://www.theverge.com/news/785981/nvidia-audio2face-ai-voice-animation-open-source"
     },
     {
-      "text": "Google Cloud's AI Strategy - **Google Cloud** aims to capture AI startups with significant revenue commitments.",
-      "url": "https://techcrunch.com/2025/09/24/it-isnt-your-imagination-google-cloud-is-flooding-the-zone/"
+      "text": "Microsoft's New Cooling Tech – **Microsoft** reveals microfluidic cooling could enhance chip performance and efficiency.",
+      "url": "https://www.theverge.com/report/785992/ai-chip-cooling-microsoft-microfluidic-energy-efficiency"
     },
     {
-      "text": "Waymo's Corporate Travel Service - **Waymo** launches a new service for businesses to access robotaxis for employees.",
-      "url": "https://techcrunch.com/2025/09/24/waymo-is-getting-into-the-corporate-travel-business/"
+      "text": "Juicebox Raises $30M – Startup **Juicebox** secures funding to enhance hiring processes with AI-powered search.",
+      "url": "https://techcrunch.com/2025/09/25/juicebox-raises-30m-from-sequoia-to-revolutionize-hiring-with-llm-powered-search/"
     },
     {
-      "text": "Neon App's Controversial Data Model - **Neon**, a top social app, pays users to record calls and sells data to AI firms.",
-      "url": "https://techcrunch.com/2025/09/24/neon-the-no-2-social-app-on-the-apple-app-store-pays-users-to-record-their-phone-calls-and-sells-data-to-ai-firms/"
+      "text": "OpenAI Launches ChatGPT Pulse – **OpenAI** introduces Pulse for personalized morning briefs via ChatGPT.",
+      "url": "https://techcrunch.com/2025/09/25/openai-launches-chatgpt-pulse-to-proactively-write-you-morning-briefs/"
     },
     {
-      "text": "Cohere's Valuation Surge - **Cohere** reaches a $7 billion valuation after raising $100 million and partnering with **AMD**.",
-      "url": "https://techcrunch.com/2025/09/24/cohere-hits-7b-valuation-a-month-after-its-last-raise-partners-with-amd/"
-    },
-    {
-      "text": "YouTube Enhances User Control - **YouTube** now allows users to hide end screen recommendations at the end of videos.",
-      "url": "https://techcrunch.com/2025/09/24/youtube-now-lets-you-hide-recommendation-pop-ups-at-the-end-of-videos/"
+      "text": "Amazon Settles FTC Lawsuit – **Amazon** agrees to pay $2.5 billion over deceptive Prime subscription practices.",
+      "url": "https://techcrunch.com/2025/09/25/amazon-to-pay-2-5b-in-ftc-settlement-over-deceptive-prime-tactics/"
     }
   ]
 }
