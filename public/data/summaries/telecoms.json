@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2025-09-26T08:44:31.739Z",
+  "generatedAt": "2025-09-27T08:39:18.101Z",
   "bullets": [
     {
-      "text": "Digital Migration Saves Billions - **BT**'s study reveals a £3 billion economic benefit from upgrading the UK's critical infrastructure to digital.",
+      "text": "BritCard Faces Trust Issues - **BritCard**'s success hinges on overcoming public trust deficits amid concerns over data privacy.",
+      "url": "https://www.telecomstechnews.com/news/britcard-real-obstacle-uk-digital-id-national-trust-deficit/"
+    },
+    {
+      "text": "Digital Migration Urgency - Transitioning to digital services could save UK public services over £3 billion by 2040.",
       "url": "https://www.telecomstechnews.com/news/urgent-digital-migration-save-uk-services-billions/"
     },
     {
-      "text": "Connected Britain Awards 2025 - Celebrating innovation, **Three UK** and **Lightning Fibre** among the winners for outstanding contributions.",
+      "text": "Connected Britain Awards 2025 - Celebrating innovation, **Three UK** and **Lightning Fibre** excel in digital skills and broadband services.",
       "url": "https://totaltele.com/connected-britain-award-winners-2025-announced/"
     },
     {
-      "text": "Wi-Fi 7 Trials Impress - Trials show **Wi-Fi 7** delivering multi-gigabit speeds and ultra-low latency for residential and enterprise use.",
-      "url": "https://www.rcrwireless.com/20250925/fundamentals/wi-fi-7-trials"
-    },
-    {
-      "text": "Ciena Acquires Nubis - **Ciena** expands its data center capabilities with a $270 million acquisition of **Nubis**.",
-      "url": "https://www.rcrwireless.com/20250924/ai-infrastructure/ciena-nubus-deal"
-    },
-    {
-      "text": "AI Pathfinder's Major Investment - **AI Pathfinder** commits £18.4 billion to build AI data centers in the UK, boosting digital infrastructure.",
-      "url": "https://www.rcrwireless.com/20250924/ai-infrastructure/ai-pathfinder-uk"
-    },
-    {
-      "text": "VodafoneThree's £2bn Upgrade - **VodafoneThree** partners with **Ericsson** and **Nokia** for a major network upgrade to enhance UK connectivity.",
+      "text": "VodafoneThree's £2bn Upgrade - **VodafoneThree** partners with **Ericsson** and **Nokia** for a major UK network enhancement.",
       "url": "https://totaltele.com/vodafonethree-drops-samsung-relies-on-nokia-and-ericsson-for-2bn-network-upgrade/"
     },
     {
-      "text": "Infobip Hits RCS Milestone - **Infobip** celebrates sending over 10 billion RCS messages, highlighting the protocol's growing popularity.",
-      "url": "https://www.telecomstechnews.com/news/infobip-crosses-10-billion-rcs-message-mark/"
-    },
-    {
-      "text": "Netomnia Rebrands for Growth - **Netomnia** unveils a new brand identity to reflect its ambitions in the full fibre market.",
+      "text": "Netomnia's Ambitious Rebrand - Following a merger, **Netomnia** aims to enhance its full fibre network across the UK.",
       "url": "https://totaltele.com/netomnia-announces-powerful-and-ambitious-rebrand-ahead-of-connected-britain/"
     },
     {
-      "text": "Data Centre Power Demand Surge - New analysis warns of a 10x power demand growth driven by AI workloads in data centers.",
-      "url": "https://totaltele.com/data-centre-operators-face-infrastructure-reckoning-as-ai-drives-10x-power-demand-growth/"
+      "text": "Optus Outage Scrutiny - **Optus** faces backlash after a major outage linked to multiple fatalities during a network upgrade.",
+      "url": "https://www.telecomstechnews.com/news/fatalities-spark-scrutiny-of-optus-outage-in-australia/"
+    },
+    {
+      "text": "AI Revolution in MVNOs - **Gen AI** is reshaping MVNO strategies, enabling faster, more responsive customer service.",
+      "url": "https://www.rcrwireless.com/20250926/mvnos/gen-ai-mvno"
+    },
+    {
+      "text": "Wi-Fi 7 Trials Success - Trials show **Wi-Fi 7** can deliver multi-gigabit speeds and ultra-low latency for real-world use.",
+      "url": "https://www.rcrwireless.com/20250925/fundamentals/wi-fi-7-trials"
+    },
+    {
+      "text": "Infobip Hits 10 Billion RCS - **Infobip** reports sending over 10 billion **RCS** messages, showcasing significant growth in the sector.",
+      "url": "https://www.telecomstechnews.com/news/infobip-crosses-10-billion-rcs-message-mark/"
     }
   ]
 }

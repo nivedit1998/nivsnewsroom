@@ -1,36 +1,24 @@
 {
-  "generatedAt": "2025-09-26T08:44:57.388Z",
+  "generatedAt": "2025-09-27T08:39:36.162Z",
   "bullets": [
     {
-      "text": "AI-Powered Photo Organization - **Microsoft Photos** now features AI-driven auto-categorization for efficient photo management.",
+      "text": "AI-Powered Photo Organization - **Microsoft Photos** now auto-categorizes images using AI for easier navigation and recall.",
       "url": "https://blogs.windows.com/windows-insider/2025/09/25/ai-powered-auto-categorization-now-available-in-microsoft-photos/"
     },
     {
-      "text": "Windows 11 Insider Build Update - **Windows 11** Insider Preview Build 27954 introduces general improvements and fixes.",
+      "text": "Windows 11 Insider Preview - New build 27954 enhances user experience with general improvements and fixes.",
       "url": "https://blogs.windows.com/windows-insider/2025/09/25/announcing-windows-11-insider-preview-build-27954-canary-channel/"
     },
     {
-      "text": "New Highlights API in Edge - **Microsoft Edge** 140 introduces highlightsFromPoint() for enhanced text editing capabilities.",
-      "url": "https://blogs.windows.com/msedgedev/2025/09/25/unlock-text-editing-use-cases-with-highlightsfrompoint/"
-    },
-    {
-      "text": "Reimagined Microsoft Marketplace - **Microsoft Marketplace** unifies solutions, offering thousands of AI apps and cloud solutions.",
+      "text": "Introducing Microsoft Marketplace - A unified platform for cloud solutions and AI apps, enhancing customer engagement.",
       "url": "https://blogs.microsoft.com/blog/2025/09/25/introducing-microsoft-marketplace-thousands-of-solutions-millions-of-customers-one-marketplace/"
     },
     {
-      "text": "XCSSET Malware Variant Update - **Microsoft** analyzes a new XCSSET variant targeting developers' Xcode projects.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2025/09/25/xcsset-evolves-again-analyzing-the-latest-updates-to-xcssets-inventory/"
-    },
-    {
-      "text": "Windows ML Now Available - **Windows ML** enables local AI deployment across Windows devices for developers.",
+      "text": "Windows ML Now Available - **Windows ML** enables local AI deployment across devices, enhancing real-time AI workloads.",
       "url": "https://blogs.windows.com/windowsdeveloper/2025/09/23/windows-ml-is-generally-available-empowering-developers-to-scale-local-ai-across-windows-devices/"
     },
     {
-      "text": "AI-Enhanced Phishing Detection - **Microsoft** blocks an AI-obfuscated phishing campaign, showcasing advanced detection capabilities.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2025/09/24/ai-vs-ai-detecting-an-ai-obfuscated-phishing-campaign/"
-    },
-    {
-      "text": "Microsoft Purview Success - **Microsoft Purview** achieves a 30% reduction in data breach likelihood for organizations.",
+      "text": "Microsoft Purview Reduces Breach Risk - Implementing **Microsoft Purview** led to a 30% reduction in data breach likelihood.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/09/23/microsoft-purview-delivered-30-reduction-in-data-breach-likelihood/"
     }
   ]

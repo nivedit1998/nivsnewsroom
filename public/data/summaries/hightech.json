@@ -1,45 +1,37 @@
 {
-  "generatedAt": "2025-09-26T08:44:11.071Z",
+  "generatedAt": "2025-09-27T08:38:55.455Z",
   "bullets": [
     {
-      "text": "Xbox Ally Preorders Open – **Microsoft** and **Asus** launch preorders for Xbox Ally handhelds starting at £499 in the UK.",
-      "url": "https://www.theverge.com/news/784286/xbox-handheld-ally-x-price-preorder"
+      "text": "On-Device Identity Verification - **TruSources** showcases tech for secure identity checks without data leaving your device.",
+      "url": "https://techcrunch.com/2025/09/26/trusources-to-show-off-its-on-device-identity-checking-tech-at-techcrunch-disrupt-2025/"
     },
     {
-      "text": "Pixel Call Recording Returns – **Google** is testing full call recording on **Pixel** devices in the UK and US.",
+      "text": "Ad-Free Subscriptions Launch - **Meta** introduces paid subscriptions for **Facebook** and **Instagram** in the UK, reducing ad reliance.",
+      "url": "https://www.cnet.com/tech/services-and-software/facebook-and-instagram-are-now-offering-no-ad-paid-subscriptions-in-the-uk/#ftag=CAD590a51e"
+    },
+    {
+      "text": "Pixel Call Recording Returns - **Google** tests full call recording feature on **Pixel** devices in the UK and US.",
       "url": "https://9to5google.com/2025/09/25/pixel-call-recording-appears-on-some-devices/"
     },
     {
-      "text": "iOS 26 Enhances Wallet – **Apple** Wallet's order tracking feature receives significant improvements in the latest update.",
-      "url": "https://9to5mac.com/2025/09/25/ios-26-gives-wallets-most-neglected-feature-the-fix-it-always-needed/"
+      "text": "AI Hosts in YouTube Music - **YouTube** tests AI hosts providing trivia and commentary for a richer music experience.",
+      "url": "https://techcrunch.com/2025/09/26/youtube-music-tests-ai-hosts-that-share-trivia-and-commentary/"
     },
     {
-      "text": "Nothing Ear (3) Review – The latest earbuds from **Nothing** offer great sound but miss key opportunities.",
-      "url": "https://9to5google.com/2025/09/24/nothing-ear-3-review/"
+      "text": "Raleigh One E-Bike Review - The **Raleigh One** offers a simpler design with essential features for urban commuting.",
+      "url": "https://www.theverge.com/reviews/786538/raleigh-one-e-bike-review-vanmoof-carlier-ties-taco"
     },
     {
-      "text": "Neon App Security Flaw – A viral call-recording app exposes users' data, leading to its shutdown.",
-      "url": "https://techcrunch.com/2025/09/25/viral-call-recording-app-neon-goes-dark-after-exposing-users-phone-numbers-call-recordings-and-transcripts/"
+      "text": "AI Data Center Investments - Massive funding continues in AI infrastructure, with **OpenAI** and **Nvidia** leading the charge.",
+      "url": "https://techcrunch.com/2025/09/26/whats-behind-the-massive-ai-data-center-headlines/"
     },
     {
-      "text": "Nvidia Open Sources AI Tool – **Nvidia** allows developers to use its Audio2Face for realistic 3D animations.",
-      "url": "https://www.theverge.com/news/785981/nvidia-audio2face-ai-voice-animation-open-source"
+      "text": "Checkout.com Valuation Update - **Checkout.com** reaches a $12 billion valuation amid a turbulent investment landscape.",
+      "url": "https://techcrunch.com/2025/09/26/checkout-coms-new-12b-valuation-is-a-glass-half-full-situation/"
     },
     {
-      "text": "Microsoft's New Cooling Tech – **Microsoft** reveals microfluidic cooling could enhance chip performance and efficiency.",
-      "url": "https://www.theverge.com/report/785992/ai-chip-cooling-microsoft-microfluidic-energy-efficiency"
-    },
-    {
-      "text": "Juicebox Raises $30M – Startup **Juicebox** secures funding to enhance hiring processes with AI-powered search.",
-      "url": "https://techcrunch.com/2025/09/25/juicebox-raises-30m-from-sequoia-to-revolutionize-hiring-with-llm-powered-search/"
-    },
-    {
-      "text": "OpenAI Launches ChatGPT Pulse – **OpenAI** introduces Pulse for personalized morning briefs via ChatGPT.",
-      "url": "https://techcrunch.com/2025/09/25/openai-launches-chatgpt-pulse-to-proactively-write-you-morning-briefs/"
-    },
-    {
-      "text": "Amazon Settles FTC Lawsuit – **Amazon** agrees to pay $2.5 billion over deceptive Prime subscription practices.",
-      "url": "https://techcrunch.com/2025/09/25/amazon-to-pay-2-5b-in-ftc-settlement-over-deceptive-prime-tactics/"
+      "text": "Humanoid Robot Skepticism - Renowned roboticist warns that the humanoid robot bubble may soon burst, calling it fantasy.",
+      "url": "https://techcrunch.com/2025/09/26/famed-roboticist-says-humanoid-robot-bubble-is-doomed-to-burst/"
     }
   ]
 }
