@@ -1,37 +1,45 @@
 {
-  "generatedAt": "2025-09-27T08:38:55.455Z",
+  "generatedAt": "2025-09-28T08:39:08.446Z",
   "bullets": [
     {
-      "text": "On-Device Identity Verification - **TruSources** showcases tech for secure identity checks without data leaving your device.",
+      "text": "On-Device Identity Checks - **TruSources** showcases its innovative identity-verification tech at **TechCrunch Disrupt 2025**.",
       "url": "https://techcrunch.com/2025/09/26/trusources-to-show-off-its-on-device-identity-checking-tech-at-techcrunch-disrupt-2025/"
     },
     {
-      "text": "Ad-Free Subscriptions Launch - **Meta** introduces paid subscriptions for **Facebook** and **Instagram** in the UK, reducing ad reliance.",
-      "url": "https://www.cnet.com/tech/services-and-software/facebook-and-instagram-are-now-offering-no-ad-paid-subscriptions-in-the-uk/#ftag=CAD590a51e"
-    },
-    {
-      "text": "Pixel Call Recording Returns - **Google** tests full call recording feature on **Pixel** devices in the UK and US.",
-      "url": "https://9to5google.com/2025/09/25/pixel-call-recording-appears-on-some-devices/"
-    },
-    {
-      "text": "AI Hosts in YouTube Music - **YouTube** tests AI hosts providing trivia and commentary for a richer music experience.",
-      "url": "https://techcrunch.com/2025/09/26/youtube-music-tests-ai-hosts-that-share-trivia-and-commentary/"
-    },
-    {
-      "text": "Raleigh One E-Bike Review - The **Raleigh One** offers a simpler design with essential features for urban commuting.",
+      "text": "Raleigh One E-Bike Review - The **Raleigh One** offers a simpler, more serviceable design, priced at £2,399.",
       "url": "https://www.theverge.com/reviews/786538/raleigh-one-e-bike-review-vanmoof-carlier-ties-taco"
     },
     {
-      "text": "AI Data Center Investments - Massive funding continues in AI infrastructure, with **OpenAI** and **Nvidia** leading the charge.",
-      "url": "https://techcrunch.com/2025/09/26/whats-behind-the-massive-ai-data-center-headlines/"
+      "text": "Pixel Call Recording Returns - **Google** is testing full call recording features on **Pixel** devices in the UK.",
+      "url": "https://9to5google.com/2025/09/25/pixel-call-recording-appears-on-some-devices/"
     },
     {
-      "text": "Checkout.com Valuation Update - **Checkout.com** reaches a $12 billion valuation amid a turbulent investment landscape.",
-      "url": "https://techcrunch.com/2025/09/26/checkout-coms-new-12b-valuation-is-a-glass-half-full-situation/"
+      "text": "AirPods Pro 3 Review - Music producer **Lodewijk Vos** praises the improved sound quality of the **AirPods Pro 3**.",
+      "url": "https://9to5mac.com/2025/09/26/music-producer-publishes-an-interesting-review-of-the-airpods-pro-3/"
     },
     {
-      "text": "Humanoid Robot Skepticism - Renowned roboticist warns that the humanoid robot bubble may soon burst, calling it fantasy.",
+      "text": "iOS 26 Liquid Glass Apps - Over 30 apps now feature the new **Liquid Glass** design in **iOS 26**.",
+      "url": "https://9to5mac.com/2025/09/26/these-30-apps-feature-a-new-liquid-glass-design-for-ios-26/"
+    },
+    {
+      "text": "iPhone Footage in Baseball - **Apple** uses **iPhone 17 Pro** cameras for live footage in **Friday Night Baseball**.",
+      "url": "https://9to5mac.com/2025/09/26/iphone-17-pro-mlb-friday-night-baseball/"
+    },
+    {
+      "text": "Wallet App Improvements - **iOS 26** enhances the **Apple Wallet** app with better order tracking features.",
+      "url": "https://9to5mac.com/2025/09/25/ios-26-gives-wallets-most-neglected-feature-the-fix-it-always-needed/"
+    },
+    {
+      "text": "Google Home App Redesign - The **Google Home** app gets a major redesign with new features rolling out for iPhone.",
+      "url": "https://9to5google.com/2025/09/27/google-home-ask-redesign-iphone/"
+    },
+    {
+      "text": "Humanoid Robot Bubble - Renowned roboticist **Rodney Brooks** warns that the humanoid robot investment bubble is unsustainable.",
       "url": "https://techcrunch.com/2025/09/26/famed-roboticist-says-humanoid-robot-bubble-is-doomed-to-burst/"
+    },
+    {
+      "text": "AI Startup Ad Campaign - **Friend**, an AI startup, spends over $1M on subway ads in NYC.",
+      "url": "https://techcrunch.com/2025/09/27/ai-startup-friend-spent-more-than-1m-on-all-those-subway-ads/"
     }
   ]
 }
