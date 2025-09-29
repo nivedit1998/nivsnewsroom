@@ -1,37 +1,41 @@
 {
-  "generatedAt": "2025-09-28T08:39:33.132Z",
+  "generatedAt": "2025-09-29T08:48:12.276Z",
   "bullets": [
     {
-      "text": "BritCard Faces Trust Issues - **BritCard**'s success hinges on overcoming public trust deficits amid government scrutiny.",
+      "text": "BritCard Faces Trust Issues - **BritCard**'s success hinges on overcoming the UK's national trust deficit regarding digital ID.",
       "url": "https://www.telecomstechnews.com/news/britcard-real-obstacle-uk-digital-id-national-trust-deficit/"
     },
     {
-      "text": "Digital Migration Urgency - Transitioning to digital services could save UK services over £3 billion by 2040.",
+      "text": "Digital Migration Urgency - Transitioning to digital services could save the UK over £3 billion by 2040.",
       "url": "https://www.telecomstechnews.com/news/urgent-digital-migration-save-uk-services-billions/"
     },
     {
-      "text": "Connected Britain Awards 2025 - Celebrating innovation, **Three UK** and **Lightning Fibre** among notable winners.",
+      "text": "Connected Britain Awards 2025 - Celebrating innovation, **Three UK** and **Openreach** were among the notable winners.",
       "url": "https://totaltele.com/connected-britain-award-winners-2025-announced/"
     },
     {
-      "text": "Wi-Fi 7 Trials Impress - Trials show Wi-Fi 7's potential with multi-gigabit speeds and ultra-low latency.",
-      "url": "https://www.rcrwireless.com/20250925/fundamentals/wi-fi-7-trials"
+      "text": "Wi-Fi 8's Future Role - **Wi-Fi 8** aims to deliver ultra-high reliability, essential for the AI-driven landscape.",
+      "url": "https://www.rcrwireless.com/20250927/devices/wi-fi-8-ai-era"
     },
     {
-      "text": "VodafoneThree's £2bn Upgrade - **VodafoneThree** partners with **Ericsson** and **Nokia** for a major network overhaul.",
+      "text": "Hitachi's AI Factory Initiative - **Hitachi** collaborates with **Nvidia** to create a distributed AI cloud for Industry 4.0.",
+      "url": "https://www.rcrwireless.com/20250926/internet-of-things-4/hitachi-nvidia-ai-cloud-industry"
+    },
+    {
+      "text": "CoreWeave's Major OpenAI Deal - **CoreWeave** expands its partnership with **OpenAI** to a total of $22.4 billion.",
+      "url": "https://www.rcrwireless.com/20250926/ai-infrastructure/coreweave-openai"
+    },
+    {
+      "text": "VodafoneThree's £2bn Upgrade - **VodafoneThree** selects **Nokia** and **Ericsson** for a significant network enhancement project.",
       "url": "https://totaltele.com/vodafonethree-drops-samsung-relies-on-nokia-and-ericsson-for-2bn-network-upgrade/"
     },
     {
-      "text": "Netomnia's Ambitious Rebrand - **Netomnia** aims to enhance its full fibre ambitions with a new identity.",
+      "text": "Infobip Hits 10 Billion RCS - **Infobip** celebrates sending over 10 billion RCS messages, marking a significant milestone.",
+      "url": "https://www.telecomstechnews.com/news/infobip-crosses-10-billion-rcs-message-mark/"
+    },
+    {
+      "text": "Netomnia's Ambitious Rebrand - **Netomnia** rebrands to reflect its commitment to expanding full fibre networks across the UK.",
       "url": "https://totaltele.com/netomnia-announces-powerful-and-ambitious-rebrand-ahead-of-connected-britain/"
-    },
-    {
-      "text": "Optus Outage Tragedy - A 13-hour outage in Australia linked to multiple fatalities raises serious concerns.",
-      "url": "https://www.telecomstechnews.com/news/fatalities-spark-scrutiny-of-optus-outage-in-australia/"
-    },
-    {
-      "text": "AI's Role in Logistics - The synergy of **IoT** and **AI** is revolutionising supply chain efficiency and visibility.",
-      "url": "https://www.rcrwireless.com/20250926/opinion/readerforum/iot-ai-supply-chain-logistics-ipp"
     }
   ]
 }
