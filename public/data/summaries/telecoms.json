@@ -1,41 +1,45 @@
 {
-  "generatedAt": "2025-09-29T08:48:12.276Z",
+  "generatedAt": "2025-09-30T08:47:46.045Z",
   "bullets": [
     {
-      "text": "BritCard Faces Trust Issues - **BritCard**'s success hinges on overcoming the UK's national trust deficit regarding digital ID.",
+      "text": "BritCard's Trust Issues - **BritCard** faces skepticism over its ability to secure public trust amid privacy concerns.",
       "url": "https://www.telecomstechnews.com/news/britcard-real-obstacle-uk-digital-id-national-trust-deficit/"
     },
     {
-      "text": "Digital Migration Urgency - Transitioning to digital services could save the UK over £3 billion by 2040.",
+      "text": "Digital Migration Savings - Urgent migration to digital services could save UK public services over £3 billion by 2040.",
       "url": "https://www.telecomstechnews.com/news/urgent-digital-migration-save-uk-services-billions/"
     },
     {
-      "text": "Connected Britain Awards 2025 - Celebrating innovation, **Three UK** and **Openreach** were among the notable winners.",
+      "text": "Connected Britain Awards 2025 - Celebrating innovation, the **Connected Britain Awards** highlight excellence in the UK digital economy.",
       "url": "https://totaltele.com/connected-britain-award-winners-2025-announced/"
     },
     {
-      "text": "Wi-Fi 8's Future Role - **Wi-Fi 8** aims to deliver ultra-high reliability, essential for the AI-driven landscape.",
-      "url": "https://www.rcrwireless.com/20250927/devices/wi-fi-8-ai-era"
+      "text": "Optus Outage Concerns - **Optus** customers faced another outage, raising alarms over emergency service accessibility.",
+      "url": "https://totaltele.com/optus-customers-again-cut-off-from-emergency-services/"
     },
     {
-      "text": "Hitachi's AI Factory Initiative - **Hitachi** collaborates with **Nvidia** to create a distributed AI cloud for Industry 4.0.",
-      "url": "https://www.rcrwireless.com/20250926/internet-of-things-4/hitachi-nvidia-ai-cloud-industry"
+      "text": "AI Infrastructure Growth - **Deloitte** launches a global AI Infrastructure Center of Excellence to support specialized data centers.",
+      "url": "https://www.rcrwireless.com/20250929/ai-infrastructure/deloitte-ai-infra"
     },
     {
-      "text": "CoreWeave's Major OpenAI Deal - **CoreWeave** expands its partnership with **OpenAI** to a total of $22.4 billion.",
-      "url": "https://www.rcrwireless.com/20250926/ai-infrastructure/coreweave-openai"
+      "text": "KPN's Satellite IoT Expansion - **KPN** partners with **OQ Technology** to enhance global 5G IoT connectivity using satellite networks.",
+      "url": "https://www.rcrwireless.com/20250929/carriers/kpn-oq-5g-iot"
     },
     {
-      "text": "VodafoneThree's £2bn Upgrade - **VodafoneThree** selects **Nokia** and **Ericsson** for a significant network enhancement project.",
-      "url": "https://totaltele.com/vodafonethree-drops-samsung-relies-on-nokia-and-ericsson-for-2bn-network-upgrade/"
+      "text": "Huawei's AI Compute Innovations - **Huawei Cloud** unveils advanced AI Compute Service to meet rising demand for AI infrastructure.",
+      "url": "https://totaltele.com/huawei-cloud-fostering-the-fertile-ground-for-compute-empowering-ai-pioneers-for-industries/"
     },
     {
-      "text": "Infobip Hits 10 Billion RCS - **Infobip** celebrates sending over 10 billion RCS messages, marking a significant milestone.",
-      "url": "https://www.telecomstechnews.com/news/infobip-crosses-10-billion-rcs-message-mark/"
+      "text": "MS3 Joins Zen's Fibre Hub - **Zen Internet** partners with **MS3 Networks** to enhance full fibre connectivity in the UK.",
+      "url": "https://totaltele.com/ms3-joins-zens-fibre-hub-at-connected-britain/"
     },
     {
-      "text": "Netomnia's Ambitious Rebrand - **Netomnia** rebrands to reflect its commitment to expanding full fibre networks across the UK.",
-      "url": "https://totaltele.com/netomnia-announces-powerful-and-ambitious-rebrand-ahead-of-connected-britain/"
+      "text": "Russia's Satellite Surveillance - Concerns rise as **Russia** reportedly stalks NATO satellites, threatening critical communications.",
+      "url": "https://www.telecomstechnews.com/news/russia-is-stalking-satellites-used-by-nato-members/"
+    },
+    {
+      "text": "5G Connections Surge - Global **5G** connections hit 2.6 billion, projected to reach nearly 9 billion by 2030.",
+      "url": "https://www.rcrwireless.com/20250929/5g/global-5g"
     }
   ]
 }
