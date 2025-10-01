@@ -1,25 +1,37 @@
 {
-  "generatedAt": "2025-09-30T08:48:06.777Z",
+  "generatedAt": "2025-10-01T08:46:17.542Z",
   "bullets": [
     {
-      "text": "Windows 11 Insider Preview Updates - New features enhance user experience and network performance testing capabilities.",
+      "text": "Windows 11 2025 Update Released - **Microsoft** announces the availability of the Windows 11, version 25H2 update for eligible devices.",
+      "url": "https://blogs.windows.com/windowsexperience/2025/09/30/how-to-get-the-windows-11-2025-update/"
+    },
+    {
+      "text": "TypeScript 7 Native Preview - **Visual Studio 2026** introduces TypeScript 7 native preview, significantly improving compile times and performance.",
+      "url": "https://devblogs.microsoft.com/blog/typescript-7-native-preview-in-visual-studio-2026"
+    },
+    {
+      "text": "AI-Powered Security with Sentinel - **Microsoft Sentinel** enhances security capabilities to protect organizations in the age of AI.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2025/09/30/empowering-defenders-in-the-era-of-agentic-ai-with-microsoft-sentinel/"
+    },
+    {
+      "text": "Windows 11 Insider Preview Builds - New builds released for **Windows 11** Insiders, featuring network speed tests and improved search.",
       "url": "https://blogs.windows.com/windows-insider/2025/09/29/announcing-windows-11-insider-preview-build-26220-6760-dev-channel/"
     },
     {
-      "text": "AI-Powered Photo Organization - Microsoft Photos now features AI-driven auto-categorization for easier photo management.",
+      "text": "AI Auto-Categorization in Photos - **Microsoft Photos** now features AI-powered auto-categorization for easier photo management.",
       "url": "https://blogs.windows.com/windows-insider/2025/09/25/ai-powered-auto-categorization-now-available-in-microsoft-photos/"
     },
     {
-      "text": "Microsoft Marketplace Launch - A unified platform for cloud solutions and AI apps enhances customer access to innovations.",
+      "text": "Microsoft Marketplace Launch - **Microsoft** introduces a unified Marketplace for cloud solutions and AI apps, enhancing customer access.",
       "url": "https://blogs.microsoft.com/blog/2025/09/25/introducing-microsoft-marketplace-thousands-of-solutions-millions-of-customers-one-marketplace/"
     },
     {
-      "text": "Windows ML Now Available - Developers can leverage local AI capabilities across Windows devices for enhanced performance.",
-      "url": "https://blogs.windows.com/windowsdeveloper/2025/09/23/windows-ml-is-generally-available-empowering-developers-to-scale-local-ai-across-windows-devices/"
+      "text": "Expanding AI Agents in Microsoft 365 - **Microsoft 365 Copilot** now includes additional AI models for enhanced productivity.",
+      "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2025/09/24/expanding-model-choice-in-microsoft-365-copilot/"
     },
     {
-      "text": "Expanding AI Model Choices - Microsoft 365 Copilot now supports Anthropic models for enhanced flexibility in AI applications.",
-      "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2025/09/24/expanding-model-choice-in-microsoft-365-copilot/"
+      "text": "AI vs. AI in Cybersecurity - **Microsoft** detects an AI-obfuscated phishing campaign, showcasing the evolving threat landscape.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2025/09/24/ai-vs-ai-detecting-an-ai-obfuscated-phishing-campaign/"
     }
   ]
 }

@@ -1,37 +1,45 @@
 {
-  "generatedAt": "2025-09-30T08:47:06.193Z",
+  "generatedAt": "2025-10-01T08:45:02.376Z",
   "bullets": [
     {
-      "text": "Notion Capital's $130M Fund - **Notion Capital** aims to fill Europe's growth capital gap with a new $130 million fund.",
-      "url": "https://techcrunch.com/2025/09/29/notion-capital-raises-130m-growth-fund-to-tackle-europes-follow-on-gap/"
+      "text": "Imgur Blocks UK Users - **Imgur** restricts access to UK users amid ICO investigation, effective September 30, 2025.",
+      "url": "https://www.theverge.com/news/788823/imgur-uk-users-blocked-ico-investigation"
     },
     {
-      "text": "Brave's AI Search Update - **Brave** enhances its search engine with a new feature for detailed answers to queries.",
-      "url": "https://techcrunch.com/2025/09/29/brave-updates-its-ai-powered-search-with-a-detailed-answers-feature/"
+      "text": "Granola's New Feature - **Granola** introduces repeatable prompts, enhancing note-taking efficiency for users.",
+      "url": "https://techcrunch.com/2025/09/30/ai-note-taking-app-granola-adds-a-repeatable-prompts-feature/"
     },
     {
-      "text": "Opera's AI Browser Launch - **Opera** introduces its AI-centric Neon browser, inviting users to shape its future.",
-      "url": "https://techcrunch.com/2025/09/30/opera-launches-its-ai-centric-neon-browser/"
+      "text": "Amazon's AI Kindle Feature - **Amazon** unveils an AI feature in Kindle Scribe to enhance reading comprehension.",
+      "url": "https://www.cnet.com/tech/computing/amazons-genius-new-kindle-feature-might-be-the-best-use-of-ai-ive-seen/#ftag=CAD590a51e"
     },
     {
-      "text": "Charlie Javice Sentenced - **Charlie Javice**, founder of Frank, receives seven years for defrauding **JPMorgan Chase**.",
-      "url": "https://techcrunch.com/2025/09/29/frank-founder-charlie-javice-sentenced-to-7-years-in-prison-for-defrauding-jpmorgan-chase/"
+      "text": "Wikipedia Data for AI - **Wikimedia** launches a project to make Wikipedia data more accessible to AI models.",
+      "url": "https://techcrunch.com/2025/10/01/new-project-makes-wikipedia-data-more-accessible-to-ai/"
     },
     {
-      "text": "AI Recruiter Alex Raises $17M - **Alex** secures $17 million to automate initial job interviews using AI.",
-      "url": "https://techcrunch.com/2025/09/29/ai-recruiter-alex-raises-17m-to-automate-initial-job-interviews/"
+      "text": "Wikidata's AI-Friendly Database - **Wikidata** enhances its database for easier access by AI developers.",
+      "url": "https://www.theverge.com/news/789288/wikidata-ai-friendly-database"
     },
     {
-      "text": "DeepSeek's New AI Model - **DeepSeek** releases a model that cuts API costs in half for long-context operations.",
-      "url": "https://techcrunch.com/2025/09/29/deepseek-releases-sparse-attention-model-that-cuts-api-costs-in-half/"
+      "text": "Roland's TR-1000 Launch - **Roland** introduces its first analog drum machine in over 40 years, the TR-1000.",
+      "url": "https://www.theverge.com/tech/789361/rolands-tr-1000-rhythm-creator-analog-drum-machine-808-909"
     },
     {
-      "text": "California's AI Transparency Law - **California** enacts SB 53, requiring large AI firms to disclose safety protocols.",
-      "url": "https://techcrunch.com/2025/09/29/california-governor-newsom-signs-landmark-ai-safety-bill-sb-53/"
+      "text": "US Invests in Lithium - The **U.S. Department of Energy** takes stakes in **Lithium Americas** to boost domestic supply.",
+      "url": "https://techcrunch.com/2025/09/30/u-s-government-takes-stake-in-canadian-lithium-miner-and-its-nevada-mining-project/"
     },
     {
-      "text": "OpenAI's Shopping System - **OpenAI** introduces an in-chat shopping feature, reshaping online retail dynamics.",
-      "url": "https://techcrunch.com/2025/09/29/openai-takes-on-google-amazon-with-new-agentic-shopping-system/"
+      "text": "South Korea's Cybersecurity Crisis - South Korea faces ongoing cybersecurity breaches, raising concerns about digital defenses.",
+      "url": "https://techcrunch.com/2025/09/30/a-breach-every-month-raises-doubts-about-south-koreas-digital-defenses/"
+    },
+    {
+      "text": "FTC Targets Sendit App - The **FTC** alleges **Sendit** illegally collected children's data and misled users.",
+      "url": "https://techcrunch.com/2025/09/30/anonymous-question-app-sendit-deceived-children-and-illegally-collected-their-data-ftc-alleges/"
+    },
+    {
+      "text": "OpenAI's Sora Launch - **OpenAI** debuts the Sora app, a TikTok competitor with advanced video generation features.",
+      "url": "https://techcrunch.com/2025/09/30/openai-is-launching-the-sora-app-its-own-tiktok-competitor-alongside-the-sora-2-model/"
     }
   ]
 }
