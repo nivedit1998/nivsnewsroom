@@ -1,37 +1,41 @@
 {
-  "generatedAt": "2025-10-01T08:46:17.542Z",
+  "generatedAt": "2025-10-02T08:44:01.347Z",
   "bullets": [
     {
-      "text": "Windows 11 2025 Update Released - **Microsoft** announces the availability of the Windows 11, version 25H2 update for eligible devices.",
+      "text": "Nostalgic Crocs Launch - **Microsoft** celebrates 50 years with limited edition **Crocs** inspired by **Windows XP**.",
+      "url": "https://blogs.windows.com/windowsexperience/2025/10/01/microsoft-marks-50-years-with-limited-edition-crocs-shoes-nodding-to-windows-xp/"
+    },
+    {
+      "text": "AI Transformation Focus - **Satya Nadella** emphasizes the need for **AI** integration to drive commercial growth.",
+      "url": "https://blogs.microsoft.com/blog/2025/10/01/accelerating-our-commercial-growth/"
+    },
+    {
+      "text": "Cybersecurity Awareness Month - **Microsoft** prioritizes security, launching resources to enhance online safety for users.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2025/10/01/cybersecurity-awareness-month-security-starts-with-you/"
+    },
+    {
+      "text": "Windows 11 Update Available - **Microsoft** announces the rollout of the **Windows 11 2025 Update** for eligible devices.",
       "url": "https://blogs.windows.com/windowsexperience/2025/09/30/how-to-get-the-windows-11-2025-update/"
     },
     {
-      "text": "TypeScript 7 Native Preview - **Visual Studio 2026** introduces TypeScript 7 native preview, significantly improving compile times and performance.",
+      "text": "TypeScript 7 Preview - **Visual Studio 2026** now supports **TypeScript 7 native preview**, enhancing compile times significantly.",
       "url": "https://devblogs.microsoft.com/blog/typescript-7-native-preview-in-visual-studio-2026"
     },
     {
-      "text": "AI-Powered Security with Sentinel - **Microsoft Sentinel** enhances security capabilities to protect organizations in the age of AI.",
+      "text": "Empowering Security Teams - **Microsoft Sentinel** introduces new capabilities to enhance security in the AI era.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/09/30/empowering-defenders-in-the-era-of-agentic-ai-with-microsoft-sentinel/"
     },
     {
-      "text": "Windows 11 Insider Preview Builds - New builds released for **Windows 11** Insiders, featuring network speed tests and improved search.",
+      "text": "Windows Insider Builds - **Microsoft** releases new **Windows 11 Insider Preview** builds with various improvements.",
       "url": "https://blogs.windows.com/windows-insider/2025/09/29/announcing-windows-11-insider-preview-build-26220-6760-dev-channel/"
     },
     {
-      "text": "AI Auto-Categorization in Photos - **Microsoft Photos** now features AI-powered auto-categorization for easier photo management.",
+      "text": "AI in Photos App - **Microsoft Photos** introduces AI-powered auto-categorization for easier photo management.",
       "url": "https://blogs.windows.com/windows-insider/2025/09/25/ai-powered-auto-categorization-now-available-in-microsoft-photos/"
     },
     {
-      "text": "Microsoft Marketplace Launch - **Microsoft** introduces a unified Marketplace for cloud solutions and AI apps, enhancing customer access.",
+      "text": "New Microsoft Marketplace - **Microsoft** launches a unified **Marketplace** for cloud solutions and AI apps.",
       "url": "https://blogs.microsoft.com/blog/2025/09/25/introducing-microsoft-marketplace-thousands-of-solutions-millions-of-customers-one-marketplace/"
-    },
-    {
-      "text": "Expanding AI Agents in Microsoft 365 - **Microsoft 365 Copilot** now includes additional AI models for enhanced productivity.",
-      "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2025/09/24/expanding-model-choice-in-microsoft-365-copilot/"
-    },
-    {
-      "text": "AI vs. AI in Cybersecurity - **Microsoft** detects an AI-obfuscated phishing campaign, showcasing the evolving threat landscape.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2025/09/24/ai-vs-ai-detecting-an-ai-obfuscated-phishing-campaign/"
     }
   ]
 }
