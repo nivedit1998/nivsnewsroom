@@ -1,41 +1,45 @@
 {
-  "generatedAt": "2025-10-02T08:43:42.326Z",
+  "generatedAt": "2025-10-03T08:43:25.790Z",
   "bullets": [
     {
-      "text": "BritCard Faces Trust Issues - **BritCard**'s success hinges on overcoming public distrust in government data handling.",
+      "text": "VMO2 Launches Giga Sites - **VMO2** unveils its first Giga Site in London, enhancing **5G** connectivity across the UK.",
+      "url": "https://totaltele.com/vmo2-unveils-first-of-1000-giga-sites-to-boost-5g/"
+    },
+    {
+      "text": "BritCard Faces Trust Issues - The UK's proposed digital ID, **BritCard**, struggles with public trust amid privacy concerns.",
       "url": "https://www.telecomstechnews.com/news/britcard-real-obstacle-uk-digital-id-national-trust-deficit/"
     },
     {
-      "text": "Digital Migration Urgency - Transitioning to digital services could save UK services over £3 billion by 2040.",
-      "url": "https://www.telecomstechnews.com/news/urgent-digital-migration-save-uk-services-billions/"
+      "text": "Telecom Strategies Needed - Multifamily property owners report gaps in telecom strategies, impacting resident satisfaction.",
+      "url": "https://www.rcrwireless.com/20251002/analyst-angle/multifamily-property"
     },
     {
-      "text": "Taliban's Telecoms Blackout - Afghanistan's nationwide telecoms blackout severely disrupts access to essential services.",
+      "text": "AI Integration in 3GPP - **3GPP Release 19** introduces AI to enhance **5G** network performance and efficiency.",
+      "url": "https://www.rcrwireless.com/20251002/fundamentals/ai-release-19"
+    },
+    {
+      "text": "Taliban's Telecom Blackout - A nationwide telecom blackout in Afghanistan severely disrupts communication and essential services.",
       "url": "https://www.telecomstechnews.com/news/taliban-telecoms-blackout-afghanistan-digital-darkness/"
     },
     {
-      "text": "MS3 Partners with Zen - **Zen Internet** expands its network reach through a strategic partnership with **MS3 Networks**.",
-      "url": "https://totaltele.com/ms3-joins-zens-fibre-hub-at-connected-britain/"
+      "text": "Samsung Partners with Vodafone - **Samsung** to supply **Vodafone** with O-RAN solutions, enhancing network capabilities across Europe.",
+      "url": "https://www.rcrwireless.com/20251002/carriers/samsung-vodafone"
     },
     {
-      "text": "Huawei's AI Fabric 2.0 - **Huawei** unveils its upgraded AI Fabric 2.0 to enhance network performance across Europe.",
-      "url": "https://www.telecomstechnews.com/news/huawei-unveils-ai-fabric-2-0-and-wi-fi-7-upgrades/"
-    },
-    {
-      "text": "Connectivity Gaps Persist - A **TechSee** survey reveals significant connectivity issues affecting U.S. households.",
+      "text": "Connectivity Gaps Persist - A survey reveals significant connectivity issues in U.S. households, impacting customer satisfaction.",
       "url": "https://totaltele.com/techsee-survey-reveals-connectivity-gaps-still-plague-u-s-households-driving-frustration-and-churn/"
     },
     {
-      "text": "Russia's Satellite Surveillance - Concerns rise over **Russia** stalking NATO satellites, posing new security threats.",
-      "url": "https://www.telecomstechnews.com/news/russia-is-stalking-satellites-used-by-nato-members/"
+      "text": "Telephony Constraints for Businesses - Geographically-bound telephony limits global business efficiency and communication.",
+      "url": "https://www.telecomstechnews.com/news/geographically-bound-telephony-constrains-global-business/"
     },
     {
-      "text": "Huawei to Boost AI Chip Production - **Huawei** plans to double its output of Ascend AI chips to meet growing demand.",
-      "url": "https://www.rcrwireless.com/20250930/ai-infrastructure/huawei-ai-chips-2"
-    },
-    {
-      "text": "AI Compute Service Expansion - **Huawei Cloud** announces significant upgrades to its AI Compute Service for enhanced performance.",
+      "text": "Huawei Cloud's AI Innovations - **Huawei Cloud** announces advancements in AI compute services to support industry applications.",
       "url": "https://totaltele.com/huawei-cloud-fostering-the-fertile-ground-for-compute-empowering-ai-pioneers-for-industries/"
+    },
+    {
+      "text": "Optus Network Outage - **Optus** experiences another outage, impacting customer access to emergency services.",
+      "url": "https://totaltele.com/optus-customers-again-cut-off-from-emergency-services/"
     }
   ]
 }
