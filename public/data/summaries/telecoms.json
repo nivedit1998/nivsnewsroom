@@ -1,45 +1,45 @@
 {
-  "generatedAt": "2025-10-03T08:43:25.790Z",
+  "generatedAt": "2025-10-04T08:39:57.686Z",
   "bullets": [
     {
-      "text": "VMO2 Launches Giga Sites - **VMO2** unveils its first Giga Site in London, enhancing **5G** connectivity across the UK.",
+      "text": "EE Expands 5G+ Coverage - **EE** aims to reach over 130 UK cities by end-2025 with its rebranded 5G+ network.",
+      "url": "https://www.rcrwireless.com/20251003/5g/ee-5g-uk"
+    },
+    {
+      "text": "VMO2 Launches Giga Sites - **Virgin Media O2** activates its first Giga Site in London, enhancing 5G connectivity.",
       "url": "https://totaltele.com/vmo2-unveils-first-of-1000-giga-sites-to-boost-5g/"
     },
     {
-      "text": "BritCard Faces Trust Issues - The UK's proposed digital ID, **BritCard**, struggles with public trust amid privacy concerns.",
-      "url": "https://www.telecomstechnews.com/news/britcard-real-obstacle-uk-digital-id-national-trust-deficit/"
+      "text": "Nokia Enhances RAN Automation - **Nokia** absorbs Juniper's RIC assets, boosting AI-driven automation for 5G networks.",
+      "url": "https://www.rcrwireless.com/20251003/5g/nokia-juniper-ric"
     },
     {
-      "text": "Telecom Strategies Needed - Multifamily property owners report gaps in telecom strategies, impacting resident satisfaction.",
-      "url": "https://www.rcrwireless.com/20251002/analyst-angle/multifamily-property"
-    },
-    {
-      "text": "AI Integration in 3GPP - **3GPP Release 19** introduces AI to enhance **5G** network performance and efficiency.",
+      "text": "AI Integration in 3GPP Release 19 - New AI tools in **3GPP Release 19** aim to enhance network efficiency and performance.",
       "url": "https://www.rcrwireless.com/20251002/fundamentals/ai-release-19"
     },
     {
-      "text": "Taliban's Telecom Blackout - A nationwide telecom blackout in Afghanistan severely disrupts communication and essential services.",
-      "url": "https://www.telecomstechnews.com/news/taliban-telecoms-blackout-afghanistan-digital-darkness/"
-    },
-    {
-      "text": "Samsung Partners with Vodafone - **Samsung** to supply **Vodafone** with O-RAN solutions, enhancing network capabilities across Europe.",
+      "text": "Samsung Partners with Vodafone - **Samsung** to supply vRAN and O-RAN solutions for **Vodafone** across Europe.",
       "url": "https://www.rcrwireless.com/20251002/carriers/samsung-vodafone"
     },
     {
-      "text": "Connectivity Gaps Persist - A survey reveals significant connectivity issues in U.S. households, impacting customer satisfaction.",
-      "url": "https://totaltele.com/techsee-survey-reveals-connectivity-gaps-still-plague-u-s-households-driving-frustration-and-churn/"
+      "text": "Private 5G and AI Convergence - **Private 5G** networks and generative AI are key enablers for Industry 4.0.",
+      "url": "https://www.rcrwireless.com/20251003/private-5g/private-5g-generative-ai"
     },
     {
-      "text": "Telephony Constraints for Businesses - Geographically-bound telephony limits global business efficiency and communication.",
-      "url": "https://www.telecomstechnews.com/news/geographically-bound-telephony-constrains-global-business/"
+      "text": "Taliban's Telecom Blackout - A nationwide telecom blackout in Afghanistan severely disrupts communication and services.",
+      "url": "https://www.telecomstechnews.com/news/taliban-telecoms-blackout-afghanistan-digital-darkness/"
     },
     {
-      "text": "Huawei Cloud's AI Innovations - **Huawei Cloud** announces advancements in AI compute services to support industry applications.",
-      "url": "https://totaltele.com/huawei-cloud-fostering-the-fertile-ground-for-compute-empowering-ai-pioneers-for-industries/"
+      "text": "Connectivity Gaps in Multifamily Properties - Survey reveals significant gaps in telecom strategies for multifamily property owners.",
+      "url": "https://www.rcrwireless.com/20251002/analyst-angle/multifamily-property"
     },
     {
-      "text": "Optus Network Outage - **Optus** experiences another outage, impacting customer access to emergency services.",
+      "text": "Optus Network Outage - **Optus** customers face another outage, affecting access to emergency services.",
       "url": "https://totaltele.com/optus-customers-again-cut-off-from-emergency-services/"
+    },
+    {
+      "text": "Huawei Cloud's AI Compute Service - **Huawei Cloud** announces upgrades to its AI Compute Service, enhancing performance and efficiency.",
+      "url": "https://totaltele.com/huawei-cloud-fostering-the-fertile-ground-for-compute-empowering-ai-pioneers-for-industries/"
     }
   ]
 }

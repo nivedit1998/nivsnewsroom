@@ -1,45 +1,37 @@
 {
-  "generatedAt": "2025-10-03T08:42:43.914Z",
+  "generatedAt": "2025-10-04T08:39:19.791Z",
   "bullets": [
     {
-      "text": "Ring's Search Party Feature - Aiding Lost Pets with AI.",
-      "url": "https://www.theverge.com/news/790928/ring-search-party-cameras-default-opt-out"
-    },
-    {
-      "text": "Threads Introduces Communities - New Spaces for Conversations.",
-      "url": "https://techcrunch.com/2025/10/02/threads-takes-on-x-with-new-communities-feature/"
-    },
-    {
-      "text": "UK Government Pressures Apple - Backdoor Demand for iCloud.",
-      "url": "https://9to5mac.com/2025/10/01/the-british-government-is-still-insisting-apple-has-to-create-a-backdoor-into-icloud/"
-    },
-    {
-      "text": "Apple Maps Enhances Search - AI-Powered Natural Language Search.",
+      "text": "iOS 26 Maps Upgrade - Enhanced search functionality now powered by **Apple Intelligence** for smarter navigation.",
       "url": "https://9to5mac.com/2025/10/01/apple-maps-got-a-big-ios-26-upgrade-for-an-essential-feature/"
     },
     {
-      "text": "Amazon Resumes Drone Delivery - After Crash Investigation.",
-      "url": "https://techcrunch.com/2025/10/02/amazon-to-resume-drone-delivery-following-crash-in-arizona/"
+      "text": "Disable iPhone Tracking - **Apple**'s new 'Visited Places' feature can be turned off for privacy.",
+      "url": "https://www.cnet.com/tech/services-and-software/ios-26-how-to-disable-your-iphones-new-visited-places-feature/#ftag=CAD590a51e"
     },
     {
-      "text": "Strava Sues Garmin - Patent Infringement Claims.",
-      "url": "https://www.theverge.com/news/790922/strava-garmin-patent-infringement-lawsuit"
+      "text": "UK Government's Backdoor Demand - The British government continues to push **Apple** for iCloud access, raising privacy concerns.",
+      "url": "https://9to5mac.com/2025/10/01/the-british-government-is-still-insisting-apple-has-to-create-a-backdoor-into-icloud/"
     },
     {
-      "text": "OpenAI's Sora App Soars - Ranks No. 3 on US App Store.",
-      "url": "https://techcrunch.com/2025/10/02/openais-sora-soars-to-no-3-on-the-u-s-app-store/"
+      "text": "Apple Glasses Rumors - Anticipated **Apple Glasses** may feature AI capabilities without a display.",
+      "url": "https://9to5mac.com/2025/10/03/apple-glasses-are-coming-heres-every-rumored-new-feature/"
     },
     {
-      "text": "YouTubers Diversify Revenue - Moving Beyond Ad Dependence.",
-      "url": "https://techcrunch.com/2025/10/02/youtubers-arent-relying-on-ad-revenue-anymore-heres-how-some-are-diversifying/"
+      "text": "OpenAI's Sora App Success - **Sora** reaches No. 1 on the US App Store, showcasing demand for AI video tools.",
+      "url": "https://techcrunch.com/2025/10/03/openais-sora-soars-to-no-1-on-the-u-s-app-store/"
     },
     {
-      "text": "Google's Jules AI Tool - Enhances Developer Workflows.",
-      "url": "https://techcrunch.com/2025/10/02/googles-jules-enters-developers-toolchains-as-ai-coding-agent-competition-heats-up/"
+      "text": "Live Translation for AirPods - New **Live Translation** feature available for older AirPods models with iOS 26.",
+      "url": "https://9to5mac.com/2025/10/01/live-translation-airpods-compatibility/"
     },
     {
-      "text": "Department of Energy Cancels Projects - $7.5B in Clean Energy Cuts.",
-      "url": "https://techcrunch.com/2025/10/02/department-of-energy-cancels-7-5b-of-clean-energy-projects-in-mostly-blue-states/"
+      "text": "Unity Security Alert - **Unity** warns developers to update games due to a significant security vulnerability.",
+      "url": "https://www.theverge.com/news/791609/unity-security-exploit-developers-update-games"
+    },
+    {
+      "text": "Snapchat Storage Fees - **Snapchat** introduces paid storage plans for Memories, capping free storage at 5GB.",
+      "url": "https://techcrunch.com/2025/10/03/snapchat-is-going-to-charge-for-storage-heres-how-to-save-your-memories-for-free/"
     }
   ]
 }
