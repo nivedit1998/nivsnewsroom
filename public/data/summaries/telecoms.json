@@ -1,45 +1,45 @@
 {
-  "generatedAt": "2025-10-04T08:39:57.686Z",
+  "generatedAt": "2025-10-05T08:39:47.418Z",
   "bullets": [
     {
-      "text": "EE Expands 5G+ Coverage - **EE** aims to reach over 130 UK cities by end-2025 with its rebranded 5G+ network.",
+      "text": "EE’s 5G+ Expansion - **EE** aims to cover 130 UK cities by 2025 with its newly branded 5G+ network.",
       "url": "https://www.rcrwireless.com/20251003/5g/ee-5g-uk"
     },
     {
-      "text": "VMO2 Launches Giga Sites - **Virgin Media O2** activates its first Giga Site in London, enhancing 5G connectivity.",
+      "text": "VMO2 Launches Giga Sites - **VMO2** introduces its first Giga Site in London, enhancing 5G connectivity with advanced tech.",
       "url": "https://totaltele.com/vmo2-unveils-first-of-1000-giga-sites-to-boost-5g/"
     },
     {
-      "text": "Nokia Enhances RAN Automation - **Nokia** absorbs Juniper's RIC assets, boosting AI-driven automation for 5G networks.",
+      "text": "Nokia Acquires RIC Assets - **Nokia** enhances its 5G capabilities by absorbing **Juniper's** RIC technology for better automation.",
       "url": "https://www.rcrwireless.com/20251003/5g/nokia-juniper-ric"
     },
     {
-      "text": "AI Integration in 3GPP Release 19 - New AI tools in **3GPP Release 19** aim to enhance network efficiency and performance.",
-      "url": "https://www.rcrwireless.com/20251002/fundamentals/ai-release-19"
-    },
-    {
-      "text": "Samsung Partners with Vodafone - **Samsung** to supply vRAN and O-RAN solutions for **Vodafone** across Europe.",
-      "url": "https://www.rcrwireless.com/20251002/carriers/samsung-vodafone"
-    },
-    {
-      "text": "Private 5G and AI Convergence - **Private 5G** networks and generative AI are key enablers for Industry 4.0.",
-      "url": "https://www.rcrwireless.com/20251003/private-5g/private-5g-generative-ai"
-    },
-    {
-      "text": "Taliban's Telecom Blackout - A nationwide telecom blackout in Afghanistan severely disrupts communication and services.",
-      "url": "https://www.telecomstechnews.com/news/taliban-telecoms-blackout-afghanistan-digital-darkness/"
-    },
-    {
-      "text": "Connectivity Gaps in Multifamily Properties - Survey reveals significant gaps in telecom strategies for multifamily property owners.",
+      "text": "Telecom Strategies Matter - Multifamily property owners report gaps in internet service quality and strategy execution.",
       "url": "https://www.rcrwireless.com/20251002/analyst-angle/multifamily-property"
     },
     {
-      "text": "Optus Network Outage - **Optus** customers face another outage, affecting access to emergency services.",
+      "text": "AI in 3GPP Release 19 - New standards embed AI in telecoms, enhancing efficiency and performance for future networks.",
+      "url": "https://www.rcrwireless.com/20251002/fundamentals/ai-release-19"
+    },
+    {
+      "text": "Optus Network Outage - **Optus** faces backlash after another outage leaves customers unable to contact emergency services.",
       "url": "https://totaltele.com/optus-customers-again-cut-off-from-emergency-services/"
     },
     {
-      "text": "Huawei Cloud's AI Compute Service - **Huawei Cloud** announces upgrades to its AI Compute Service, enhancing performance and efficiency.",
-      "url": "https://totaltele.com/huawei-cloud-fostering-the-fertile-ground-for-compute-empowering-ai-pioneers-for-industries/"
+      "text": "Samsung Partners with Vodafone - **Samsung** to supply **Vodafone** with O-RAN solutions across Europe, enhancing network flexibility.",
+      "url": "https://www.rcrwireless.com/20251002/carriers/samsung-vodafone"
+    },
+    {
+      "text": "Private 5G Meets AI - The convergence of private 5G and generative AI is set to drive Industry 4.0 innovations.",
+      "url": "https://www.rcrwireless.com/20251003/private-5g/private-5g-generative-ai"
+    },
+    {
+      "text": "Taliban Telecoms Blackout - Afghanistan faces a severe telecom blackout imposed by the Taliban, impacting daily life.",
+      "url": "https://www.telecomstechnews.com/news/taliban-telecoms-blackout-afghanistan-digital-darkness/"
+    },
+    {
+      "text": "China Tightens Telecom Regulations - **Nokia** and **Ericsson** face challenges as China restricts foreign telecom equipment usage.",
+      "url": "https://www.telecomstechnews.com/news/china-telecom-reviews-deal-a-blow-to-nokia-and-ericsson/"
     }
   ]
 }
