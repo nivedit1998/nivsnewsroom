@@ -1,45 +1,45 @@
 {
-  "generatedAt": "2025-10-05T08:39:47.418Z",
+  "generatedAt": "2025-10-06T08:45:23.011Z",
   "bullets": [
     {
-      "text": "EE’s 5G+ Expansion - **EE** aims to cover 130 UK cities by 2025 with its newly branded 5G+ network.",
+      "text": "EE’s 5G+ Expansion - EE aims to cover 130 UK cities by 2025 with its newly branded 5G+ network.",
       "url": "https://www.rcrwireless.com/20251003/5g/ee-5g-uk"
     },
     {
-      "text": "VMO2 Launches Giga Sites - **VMO2** introduces its first Giga Site in London, enhancing 5G connectivity with advanced tech.",
+      "text": "VMO2 Launches Giga Sites - Virgin Media O2 introduces its first Giga Site in London, enhancing 5G connectivity.",
       "url": "https://totaltele.com/vmo2-unveils-first-of-1000-giga-sites-to-boost-5g/"
     },
     {
-      "text": "Nokia Acquires RIC Assets - **Nokia** enhances its 5G capabilities by absorbing **Juniper's** RIC technology for better automation.",
+      "text": "Nokia Enhances RIC Tech - Nokia absorbs Juniper's RIC assets to boost its AI-driven network automation capabilities.",
       "url": "https://www.rcrwireless.com/20251003/5g/nokia-juniper-ric"
     },
     {
-      "text": "Telecom Strategies Matter - Multifamily property owners report gaps in internet service quality and strategy execution.",
-      "url": "https://www.rcrwireless.com/20251002/analyst-angle/multifamily-property"
-    },
-    {
-      "text": "AI in 3GPP Release 19 - New standards embed AI in telecoms, enhancing efficiency and performance for future networks.",
+      "text": "AI in 3GPP Release 19 - New standards embed AI in mobile networks, enhancing efficiency and performance.",
       "url": "https://www.rcrwireless.com/20251002/fundamentals/ai-release-19"
     },
     {
-      "text": "Optus Network Outage - **Optus** faces backlash after another outage leaves customers unable to contact emergency services.",
-      "url": "https://totaltele.com/optus-customers-again-cut-off-from-emergency-services/"
-    },
-    {
-      "text": "Samsung Partners with Vodafone - **Samsung** to supply **Vodafone** with O-RAN solutions across Europe, enhancing network flexibility.",
+      "text": "Samsung Powers Vodafone's O-RAN - Samsung to supply Vodafone with vRAN and O-RAN solutions across Europe.",
       "url": "https://www.rcrwireless.com/20251002/carriers/samsung-vodafone"
     },
     {
-      "text": "Private 5G Meets AI - The convergence of private 5G and generative AI is set to drive Industry 4.0 innovations.",
+      "text": "Private 5G & AI Convergence - The combination of private 5G and generative AI is driving Industry 4.0 innovations.",
       "url": "https://www.rcrwireless.com/20251003/private-5g/private-5g-generative-ai"
     },
     {
-      "text": "Taliban Telecoms Blackout - Afghanistan faces a severe telecom blackout imposed by the Taliban, impacting daily life.",
+      "text": "MS3 Joins Zen’s Fibre Hub - Zen Internet partners with MS3 to expand full fibre services in East Yorkshire.",
+      "url": "https://totaltele.com/ms3-joins-zens-fibre-hub-at-connected-britain/"
+    },
+    {
+      "text": "Taliban Telecoms Blackout - Afghanistan faces a nationwide telecoms blackout, severely impacting access to essential services.",
       "url": "https://www.telecomstechnews.com/news/taliban-telecoms-blackout-afghanistan-digital-darkness/"
     },
     {
-      "text": "China Tightens Telecom Regulations - **Nokia** and **Ericsson** face challenges as China restricts foreign telecom equipment usage.",
+      "text": "China Tightens Telecom Regulations - New rules restrict foreign telecom suppliers like Nokia and Ericsson in China.",
       "url": "https://www.telecomstechnews.com/news/china-telecom-reviews-deal-a-blow-to-nokia-and-ericsson/"
+    },
+    {
+      "text": "Connectivity Gaps in Multifamily Properties - Survey reveals significant dissatisfaction with internet service quality in U.S. multifamily homes.",
+      "url": "https://www.rcrwireless.com/20251002/analyst-angle/multifamily-property"
     }
   ]
 }
