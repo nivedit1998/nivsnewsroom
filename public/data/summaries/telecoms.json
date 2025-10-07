@@ -1,45 +1,37 @@
 {
-  "generatedAt": "2025-10-06T08:45:23.011Z",
+  "generatedAt": "2025-10-07T08:44:06.874Z",
   "bullets": [
     {
-      "text": "EE’s 5G+ Expansion - EE aims to cover 130 UK cities by 2025 with its newly branded 5G+ network.",
+      "text": "Virgin Media O2 Launches Giga Site - **Virgin Media O2** activates the UK's first 5G 'giga site' in London, enhancing network capacity.",
+      "url": "https://www.rcrwireless.com/20251006/5g/virgin-media-o2"
+    },
+    {
+      "text": "EE Expands 5G+ Coverage - **EE** plans to reach 130 UK cities with its 5G+ network by the end of 2025.",
       "url": "https://www.rcrwireless.com/20251003/5g/ee-5g-uk"
     },
     {
-      "text": "VMO2 Launches Giga Sites - Virgin Media O2 introduces its first Giga Site in London, enhancing 5G connectivity.",
+      "text": "VMO2's Nationwide Giga Sites - **Virgin Media O2** aims to deploy 1,000 Giga Sites across the UK to boost 5G connectivity.",
       "url": "https://totaltele.com/vmo2-unveils-first-of-1000-giga-sites-to-boost-5g/"
     },
     {
-      "text": "Nokia Enhances RIC Tech - Nokia absorbs Juniper's RIC assets to boost its AI-driven network automation capabilities.",
+      "text": "Oaktree Seeks £800m for Data Centres - **Oaktree Capital Management** aims to raise £800m by selling a stake in Pure Data Centres.",
+      "url": "https://totaltele.com/oaktree-looks-to-raise-800m-through-pure-dc-stake-sale/"
+    },
+    {
+      "text": "Nokia Enhances RAN with Juniper - **Nokia** acquires Juniper's RAN Intelligent Controller assets, boosting its 5G automation capabilities.",
       "url": "https://www.rcrwireless.com/20251003/5g/nokia-juniper-ric"
     },
     {
-      "text": "AI in 3GPP Release 19 - New standards embed AI in mobile networks, enhancing efficiency and performance.",
-      "url": "https://www.rcrwireless.com/20251002/fundamentals/ai-release-19"
+      "text": "Airbus Deploys Private 5G Networks - **Airbus** partners with **Ericsson** to implement private 5G networks in Germany and France.",
+      "url": "https://www.rcrwireless.com/20251006/internet-of-things/airbus-private-5g-scale"
     },
     {
-      "text": "Samsung Powers Vodafone's O-RAN - Samsung to supply Vodafone with vRAN and O-RAN solutions across Europe.",
-      "url": "https://www.rcrwireless.com/20251002/carriers/samsung-vodafone"
-    },
-    {
-      "text": "Private 5G & AI Convergence - The combination of private 5G and generative AI is driving Industry 4.0 innovations.",
-      "url": "https://www.rcrwireless.com/20251003/private-5g/private-5g-generative-ai"
-    },
-    {
-      "text": "MS3 Joins Zen’s Fibre Hub - Zen Internet partners with MS3 to expand full fibre services in East Yorkshire.",
-      "url": "https://totaltele.com/ms3-joins-zens-fibre-hub-at-connected-britain/"
-    },
-    {
-      "text": "Taliban Telecoms Blackout - Afghanistan faces a nationwide telecoms blackout, severely impacting access to essential services.",
-      "url": "https://www.telecomstechnews.com/news/taliban-telecoms-blackout-afghanistan-digital-darkness/"
-    },
-    {
-      "text": "China Tightens Telecom Regulations - New rules restrict foreign telecom suppliers like Nokia and Ericsson in China.",
+      "text": "China Tightens Telecom Equipment Rules - **China** restricts **Nokia** and **Ericsson** equipment, impacting their market presence.",
       "url": "https://www.telecomstechnews.com/news/china-telecom-reviews-deal-a-blow-to-nokia-and-ericsson/"
     },
     {
-      "text": "Connectivity Gaps in Multifamily Properties - Survey reveals significant dissatisfaction with internet service quality in U.S. multifamily homes.",
-      "url": "https://www.rcrwireless.com/20251002/analyst-angle/multifamily-property"
+      "text": "AI and Private 5G Convergence - **Private 5G** networks and **AI** are crucial for advancing Industry 4.0 technologies.",
+      "url": "https://www.rcrwireless.com/20251003/private-5g/private-5g-generative-ai"
     }
   ]
 }
