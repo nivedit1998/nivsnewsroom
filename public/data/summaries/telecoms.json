@@ -1,37 +1,33 @@
 {
-  "generatedAt": "2025-10-07T08:44:06.874Z",
+  "generatedAt": "2025-10-08T08:45:07.422Z",
   "bullets": [
     {
-      "text": "Virgin Media O2 Launches Giga Site - **Virgin Media O2** activates the UK's first 5G 'giga site' in London, enhancing network capacity.",
+      "text": "MNOs Gear Up for mmWave – Ofcom approves UK operators for upcoming mmWave spectrum auction, enhancing 5G capabilities.",
+      "url": "https://totaltele.com/uks-mnos-line-up-for-mmwave-spectrum-but-can-they-use-it-effectively/"
+    },
+    {
+      "text": "Virgin Media O2 Launches Giga Site – The first UK 5G Giga Site in London promises over 10 Gbps throughput.",
       "url": "https://www.rcrwireless.com/20251006/5g/virgin-media-o2"
     },
     {
-      "text": "EE Expands 5G+ Coverage - **EE** plans to reach 130 UK cities with its 5G+ network by the end of 2025.",
+      "text": "EE's 5G+ Expansion Plans – EE aims to cover 130 cities with its rebranded 5G+ network by 2025.",
       "url": "https://www.rcrwireless.com/20251003/5g/ee-5g-uk"
     },
     {
-      "text": "VMO2's Nationwide Giga Sites - **Virgin Media O2** aims to deploy 1,000 Giga Sites across the UK to boost 5G connectivity.",
+      "text": "VMO2's Giga Site Rollout – Virgin Media O2 plans to deploy 1,000 Giga Sites nationwide to enhance 5G connectivity.",
       "url": "https://totaltele.com/vmo2-unveils-first-of-1000-giga-sites-to-boost-5g/"
     },
     {
-      "text": "Oaktree Seeks £800m for Data Centres - **Oaktree Capital Management** aims to raise £800m by selling a stake in Pure Data Centres.",
-      "url": "https://totaltele.com/oaktree-looks-to-raise-800m-through-pure-dc-stake-sale/"
+      "text": "Boldyn's Private Network Strategy – Boldyn Networks advances private and neutral-host networks in London and beyond.",
+      "url": "https://www.rcrwireless.com/20251007/private-5g/boldyn-private-networks-neutral-host"
     },
     {
-      "text": "Nokia Enhances RAN with Juniper - **Nokia** acquires Juniper's RAN Intelligent Controller assets, boosting its 5G automation capabilities.",
-      "url": "https://www.rcrwireless.com/20251003/5g/nokia-juniper-ric"
+      "text": "Device Intelligence in Private Networks – GSMA highlights the need for device visibility to secure private networks.",
+      "url": "https://www.rcrwireless.com/20251006/private-5g/gsma-device-intelligence-private-networks"
     },
     {
-      "text": "Airbus Deploys Private 5G Networks - **Airbus** partners with **Ericsson** to implement private 5G networks in Germany and France.",
+      "text": "Airbus Expands Private 5G – Airbus partners with Ericsson to deploy private 5G networks in Germany and France.",
       "url": "https://www.rcrwireless.com/20251006/internet-of-things/airbus-private-5g-scale"
-    },
-    {
-      "text": "China Tightens Telecom Equipment Rules - **China** restricts **Nokia** and **Ericsson** equipment, impacting their market presence.",
-      "url": "https://www.telecomstechnews.com/news/china-telecom-reviews-deal-a-blow-to-nokia-and-ericsson/"
-    },
-    {
-      "text": "AI and Private 5G Convergence - **Private 5G** networks and **AI** are crucial for advancing Industry 4.0 technologies.",
-      "url": "https://www.rcrwireless.com/20251003/private-5g/private-5g-generative-ai"
     }
   ]
 }

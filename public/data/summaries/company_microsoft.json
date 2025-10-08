@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2025-10-07T08:44:24.805Z",
+  "generatedAt": "2025-10-08T08:45:26.333Z",
   "bullets": [
     {
-      "text": "Windows 11 Insider Preview Updates - New features and improvements are rolling out in the latest Insider builds.",
-      "url": "https://blogs.windows.com/windows-insider/2025/10/06/announcing-windows-11-insider-preview-build-26120-6772-beta-channel/"
+      "text": "Disrupting Teams Threats - **Microsoft Teams** faces increasing cyber threats, necessitating enhanced security measures for enterprise environments.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2025/10/07/disrupting-threats-targeting-microsoft-teams/"
     },
     {
-      "text": "Microsoft Named XDR Leader - Recognized for excellence in Extended Detection and Response by IDC MarketScape.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2025/10/02/microsoft-named-a-leader-in-the-idc-marketscape-for-xdr/"
+      "text": "Strengthening Security Practices - **Microsoft** expands its Secure Future Initiative with actionable guidance for improved security implementation.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2025/10/07/new-microsoft-secure-future-initiative-sfi-patterns-and-practices-practical-guides-to-strengthen-security/"
     },
     {
-      "text": "Cybersecurity Awareness Month - Microsoft emphasizes the importance of security habits for individuals and organizations.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2025/10/01/cybersecurity-awareness-month-security-starts-with-you/"
+      "text": "AI Toolkit for Developers - The **AI Toolkit for Visual Studio Code** simplifies generative AI app development with integrated tools.",
+      "url": "https://learn.microsoft.com/en-us/windows/ai/toolkit/"
     },
     {
-      "text": "Introducing Microsoft 365 Premium - A new subscription combining AI and productivity tools for individuals.",
+      "text": "Introducing Microsoft 365 Premium - **Microsoft 365 Premium** combines AI and productivity tools for individuals at an unbeatable price.",
       "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2025/10/01/meet-microsoft-365-premium-your-ai-and-productivity-powerhouse/"
     },
     {
-      "text": "AI Innovations in Cybersecurity - Microsoft Sentinel empowers defenders with new agentic capabilities.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2025/09/30/empowering-defenders-in-the-era-of-agentic-ai-with-microsoft-sentinel/"
+      "text": "Cybersecurity Awareness Month - **Microsoft** emphasizes the importance of cybersecurity, promoting strong online safety habits.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2025/10/01/cybersecurity-awareness-month-security-starts-with-you/"
     }
   ]
 }
