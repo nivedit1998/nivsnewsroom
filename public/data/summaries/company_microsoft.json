@@ -1,25 +1,45 @@
 {
-  "generatedAt": "2025-10-08T08:45:26.333Z",
+  "generatedAt": "2025-10-09T08:45:35.325Z",
   "bullets": [
     {
-      "text": "Disrupting Teams Threats - **Microsoft Teams** faces increasing cyber threats, necessitating enhanced security measures for enterprise environments.",
+      "text": "Windows 11 Insider Preview Build 27965 Released - New Start menu enhances app accessibility with category and grid views.",
+      "url": "https://blogs.windows.com/windows-insider/2025/10/08/announcing-windows-11-insider-preview-build-27965-canary-channel/"
+    },
+    {
+      "text": "Strengthening Microsoft Teams Security - New guidance helps defend against threats targeting **Microsoft Teams** functionalities.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/10/07/disrupting-threats-targeting-microsoft-teams/"
     },
     {
-      "text": "Strengthening Security Practices - **Microsoft** expands its Secure Future Initiative with actionable guidance for improved security implementation.",
+      "text": "New Microsoft Secure Future Initiative Patterns - Expanded guidance supports practical security implementations for enterprises.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/10/07/new-microsoft-secure-future-initiative-sfi-patterns-and-practices-practical-guides-to-strengthen-security/"
     },
     {
-      "text": "AI Toolkit for Developers - The **AI Toolkit for Visual Studio Code** simplifies generative AI app development with integrated tools.",
-      "url": "https://learn.microsoft.com/en-us/windows/ai/toolkit/"
+      "text": "Windows 11 Insider Preview Build 26120.6772 Available - New features include Click to Do enhancements and Windows Hello updates.",
+      "url": "https://blogs.windows.com/windows-insider/2025/10/06/announcing-windows-11-insider-preview-build-26120-6772-beta-channel/"
     },
     {
-      "text": "Introducing Microsoft 365 Premium - **Microsoft 365 Premium** combines AI and productivity tools for individuals at an unbeatable price.",
-      "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2025/10/01/meet-microsoft-365-premium-your-ai-and-productivity-powerhouse/"
+      "text": "Windows 11 Insider Preview Build 26220.6772 Released - Introduces Click to Do improvements and enhanced sign-in security.",
+      "url": "https://blogs.windows.com/windows-insider/2025/10/06/announcing-windows-11-insider-preview-build-26220-6772-dev-channel/"
     },
     {
-      "text": "Cybersecurity Awareness Month - **Microsoft** emphasizes the importance of cybersecurity, promoting strong online safety habits.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2025/10/01/cybersecurity-awareness-month-security-starts-with-you/"
+      "text": "Windows 11 Insider Preview Build 27959 Launch - New settings allow users to customize hardware indicator positions.",
+      "url": "https://blogs.windows.com/windows-insider/2025/10/06/announcing-windows-11-insider-preview-build-27959-canary-channel/"
+    },
+    {
+      "text": "Microsoft Threat Intelligence Insights - Highlights the importance of calm leadership during security incidents.",
+      "url": "https://www.microsoft.com/en-us/security/security-insider/threat-landscape/inside-microsoft-threat-intelligence-calm-in-chaos#overview-video"
+    },
+    {
+      "text": "Critical CVE-2025-10035 Vulnerability Exploited - Urgent patching recommended for **GoAnywhere MFT** users to mitigate risks.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2025/10/06/investigating-active-exploitation-of-cve-2025-10035-goanywhere-managed-file-transfer-vulnerability/"
+    },
+    {
+      "text": "Windows ML Overview Released - Enables developers to run ONNX AI models locally on Windows PCs.",
+      "url": "https://learn.microsoft.com/en-us/windows/ai/new-windows-ml/overview"
+    },
+    {
+      "text": "Copilot+ PCs Developer Guide Published - Details on leveraging NPU for AI-intensive processes in Windows 11.",
+      "url": "https://learn.microsoft.com/en-us/windows/ai/npu-devices/"
     }
   ]
 }

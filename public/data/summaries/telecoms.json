@@ -1,33 +1,37 @@
 {
-  "generatedAt": "2025-10-08T08:45:07.422Z",
+  "generatedAt": "2025-10-09T08:45:04.308Z",
   "bullets": [
     {
-      "text": "MNOs Gear Up for mmWave – Ofcom approves UK operators for upcoming mmWave spectrum auction, enhancing 5G capabilities.",
+      "text": "UK MNOs Eye mmWave Spectrum – but Challenges Loom – Ofcom approves auction for mmWave spectrum, but deployment costs and range issues persist.",
       "url": "https://totaltele.com/uks-mnos-line-up-for-mmwave-spectrum-but-can-they-use-it-effectively/"
     },
     {
-      "text": "Virgin Media O2 Launches Giga Site – The first UK 5G Giga Site in London promises over 10 Gbps throughput.",
-      "url": "https://www.rcrwireless.com/20251006/5g/virgin-media-o2"
-    },
-    {
-      "text": "EE's 5G+ Expansion Plans – EE aims to cover 130 cities with its rebranded 5G+ network by 2025.",
-      "url": "https://www.rcrwireless.com/20251003/5g/ee-5g-uk"
-    },
-    {
-      "text": "VMO2's Giga Site Rollout – Virgin Media O2 plans to deploy 1,000 Giga Sites nationwide to enhance 5G connectivity.",
+      "text": "VMO2 Launches Giga Sites – First Giga Site in London boosts 5G with Nokia's MIMO tech for enhanced connectivity.",
       "url": "https://totaltele.com/vmo2-unveils-first-of-1000-giga-sites-to-boost-5g/"
     },
     {
-      "text": "Boldyn's Private Network Strategy – Boldyn Networks advances private and neutral-host networks in London and beyond.",
+      "text": "Boldyn Expands Private Networks – New projects in London and New York enhance urban connectivity and smart city initiatives.",
       "url": "https://www.rcrwireless.com/20251007/private-5g/boldyn-private-networks-neutral-host"
     },
     {
-      "text": "Device Intelligence in Private Networks – GSMA highlights the need for device visibility to secure private networks.",
+      "text": "Airbus Chooses Ericsson for 5G – Private 5G network to enhance smart factory operations in Hamburg and Toulouse.",
+      "url": "https://www.telecomstechnews.com/news/private-5g-takes-off-airbus-taps-ericsson-smart-factory-network/"
+    },
+    {
+      "text": "Device Intelligence Crucial for Private Networks – GSMA's tools enhance security and performance in growing private network deployments.",
       "url": "https://www.rcrwireless.com/20251006/private-5g/gsma-device-intelligence-private-networks"
     },
     {
-      "text": "Airbus Expands Private 5G – Airbus partners with Ericsson to deploy private 5G networks in Germany and France.",
-      "url": "https://www.rcrwireless.com/20251006/internet-of-things/airbus-private-5g-scale"
+      "text": "Verizon Appoints New CEO – Daniel Schulman takes over from Hans Vestberg to redefine Verizon's market strategy.",
+      "url": "https://totaltele.com/ex-paypal-ceo-takes-the-reins-at-verizon/"
+    },
+    {
+      "text": "China Tightens Telecom Supplier Regulations – New scrutiny on Nokia and Ericsson impacts their market share in China.",
+      "url": "https://www.telecomstechnews.com/news/china-telecom-reviews-deal-a-blow-to-nokia-and-ericsson/"
+    },
+    {
+      "text": "Meta Expands APAC Subsea Cable Network – New projects aim to boost connectivity and support rising digital service demands.",
+      "url": "https://www.telecomstechnews.com/news/meta-expands-subsea-cable-network-to-boost-apac-connectivity/"
     }
   ]
 }
