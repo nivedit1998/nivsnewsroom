@@ -1,37 +1,45 @@
 {
-  "generatedAt": "2025-10-10T08:45:07.175Z",
+  "generatedAt": "2025-10-11T08:40:40.285Z",
   "bullets": [
     {
-      "text": "Copilot Connectors Rollout - **Microsoft** Copilot now connects to **OneDrive**, **Outlook**, and **Google** services for seamless content access.",
+      "text": "Windows 11 Insider Preview Build 26220.6780 Released - New features enhance settings management and file sharing for Insiders.",
+      "url": "https://blogs.windows.com/windows-insider/2025/10/10/announcing-windows-11-insider-preview-build-26220-6780-dev-channel/"
+    },
+    {
+      "text": "Windows 11 Insider Preview Build 26120.6780 Now Available - Beta Channel users gain improved settings and file sharing capabilities.",
+      "url": "https://blogs.windows.com/windows-insider/2025/10/10/announcing-windows-11-insider-preview-build-26120-6780-beta-channel/"
+    },
+    {
+      "text": "Copilot on Windows Enhancements - New connectors for personal services streamline content retrieval across accounts.",
       "url": "https://blogs.windows.com/windows-insider/2025/10/09/copilot-on-windows-connectors-and-document-creation/"
     },
     {
-      "text": "AI Supercomputing Milestone - **Microsoft Azure** launches the first large-scale cluster with **NVIDIA** GB300 NVL72 for advanced AI workloads.",
+      "text": "Microsoft Azure Launches NVIDIA GB300 Cluster - First large-scale cluster for OpenAI workloads enhances AI model training efficiency.",
       "url": "https://azure.microsoft.com/en-us/blog/microsoft-azure-delivers-the-first-large-scale-cluster-with-nvidia-gb300-nvl72-for-openai-workloads/"
     },
     {
-      "text": "Cloud Expansion in Asia - **Microsoft** is investing billions to enhance its cloud infrastructure across Asia, launching new **Azure** datacenter regions.",
+      "text": "Microsoft Expands Cloud Infrastructure in Asia - New datacenter regions support growing demand for AI-ready services.",
       "url": "https://azure.microsoft.com/en-us/blog/microsofts-commitment-to-supporting-cloud-infrastructure-demand-in-asia/"
     },
     {
-      "text": "Windows 11 Insider Preview - New **Windows 11** Insider Preview Build introduces an updated Start menu and enhanced app accessibility.",
-      "url": "https://blogs.windows.com/windows-insider/2025/10/08/announcing-windows-11-insider-preview-build-27965-canary-channel/"
-    },
-    {
-      "text": "Microsoft Ignite 2025 - **Microsoft Ignite** focuses on security innovations and practical solutions for security professionals.",
+      "text": "Microsoft Ignite 2025 Focuses on Security - Sessions designed for security professionals highlight advancements in AI and cloud security.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/10/09/securing-agentic-ai-your-guide-to-the-microsoft-ignite-sessions-catalog/"
     },
     {
-      "text": "Disrupting Teams Threats - Guidance provided by **Microsoft** to enhance security against threats targeting **Microsoft Teams**.",
+      "text": "Microsoft Teams Security Enhancements - Guidance provided to disrupt threats targeting Teams collaboration features.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/10/07/disrupting-threats-targeting-microsoft-teams/"
     },
     {
-      "text": "AI Toolkit for VS Code - New **AI Toolkit** simplifies generative AI app development for **Visual Studio Code** users.",
-      "url": "https://learn.microsoft.com/en-us/windows/ai/toolkit/"
+      "text": "New Microsoft Secure Future Initiative Patterns - Practical guides released to strengthen security across various domains.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2025/10/07/new-microsoft-secure-future-initiative-sfi-patterns-and-practices-practical-guides-to-strengthen-security/"
     },
     {
-      "text": "Enhancing Security Practices - **Microsoft** introduces new patterns and practices to strengthen security through the **Secure Future Initiative**.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2025/10/07/new-microsoft-secure-future-initiative-sfi-patterns-and-practices-practical-guides-to-strengthen-security/"
+      "text": "Windows ML Overview - New capabilities enable local ONNX model execution on Windows PCs.",
+      "url": "https://learn.microsoft.com/en-us/windows/ai/new-windows-ml/overview"
+    },
+    {
+      "text": "AI Toolkit for Visual Studio Code Launched - Simplifies generative AI app development with integrated tools and models.",
+      "url": "https://learn.microsoft.com/en-us/windows/ai/toolkit/"
     }
   ]
 }
