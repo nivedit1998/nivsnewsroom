@@ -1,44 +1,44 @@
 {
-  "generatedAt": "2025-10-11T08:40:40.285Z",
+  "generatedAt": "2025-10-12T08:40:59.158Z",
   "bullets": [
     {
-      "text": "Windows 11 Insider Preview Build 26220.6780 Released - New features enhance settings management and file sharing for Insiders.",
+      "text": "Windows 11 Insider Preview Build 26220 Released - New features enhance settings management and multi-file sharing.",
       "url": "https://blogs.windows.com/windows-insider/2025/10/10/announcing-windows-11-insider-preview-build-26220-6780-dev-channel/"
     },
     {
-      "text": "Windows 11 Insider Preview Build 26120.6780 Now Available - Beta Channel users gain improved settings and file sharing capabilities.",
+      "text": "Windows 11 Insider Preview Build 26120 Launched - Beta Channel introduces improved settings and file sharing capabilities.",
       "url": "https://blogs.windows.com/windows-insider/2025/10/10/announcing-windows-11-insider-preview-build-26120-6780-beta-channel/"
     },
     {
-      "text": "Copilot on Windows Enhancements - New connectors for personal services streamline content retrieval across accounts.",
+      "text": "Copilot on Windows Enhancements - New connectors enable seamless integration with personal services like **OneDrive** and **Google Drive**.",
       "url": "https://blogs.windows.com/windows-insider/2025/10/09/copilot-on-windows-connectors-and-document-creation/"
     },
     {
-      "text": "Microsoft Azure Launches NVIDIA GB300 Cluster - First large-scale cluster for OpenAI workloads enhances AI model training efficiency.",
+      "text": "Microsoft Azure Unveils AI Supercluster - First large-scale cluster with **NVIDIA** GPUs accelerates **OpenAI** workloads.",
       "url": "https://azure.microsoft.com/en-us/blog/microsoft-azure-delivers-the-first-large-scale-cluster-with-nvidia-gb300-nvl72-for-openai-workloads/"
     },
     {
-      "text": "Microsoft Expands Cloud Infrastructure in Asia - New datacenter regions support growing demand for AI-ready services.",
+      "text": "Microsoft Expands Cloud Infrastructure in Asia - New datacenter regions enhance AI capabilities across the continent.",
       "url": "https://azure.microsoft.com/en-us/blog/microsofts-commitment-to-supporting-cloud-infrastructure-demand-in-asia/"
     },
     {
-      "text": "Microsoft Ignite 2025 Focuses on Security - Sessions designed for security professionals highlight advancements in AI and cloud security.",
+      "text": "Microsoft Ignite 2025 Security Focus - Sessions designed to enhance security strategies for professionals.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/10/09/securing-agentic-ai-your-guide-to-the-microsoft-ignite-sessions-catalog/"
     },
     {
-      "text": "Microsoft Teams Security Enhancements - Guidance provided to disrupt threats targeting Teams collaboration features.",
+      "text": "Microsoft Teams Security Enhancements - New guidance to protect against threats targeting collaboration tools.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/10/07/disrupting-threats-targeting-microsoft-teams/"
     },
     {
-      "text": "New Microsoft Secure Future Initiative Patterns - Practical guides released to strengthen security across various domains.",
+      "text": "New Microsoft Secure Future Initiative - Expanded guidance to strengthen security practices across organizations.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/10/07/new-microsoft-secure-future-initiative-sfi-patterns-and-practices-practical-guides-to-strengthen-security/"
     },
     {
-      "text": "Windows ML Overview - New capabilities enable local ONNX model execution on Windows PCs.",
+      "text": "Windows ML Overview Released - New capabilities for running AI models locally on Windows PCs.",
       "url": "https://learn.microsoft.com/en-us/windows/ai/new-windows-ml/overview"
     },
     {
-      "text": "AI Toolkit for Visual Studio Code Launched - Simplifies generative AI app development with integrated tools and models.",
+      "text": "AI Toolkit for Visual Studio Code Launched - Streamlined development for generative AI applications.",
       "url": "https://learn.microsoft.com/en-us/windows/ai/toolkit/"
     }
   ]
