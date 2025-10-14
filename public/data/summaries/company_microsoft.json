@@ -1,44 +1,36 @@
 {
-  "generatedAt": "2025-10-13T08:47:59.977Z",
+  "generatedAt": "2025-10-14T08:45:14.082Z",
   "bullets": [
     {
-      "text": "Windows 11 Insider Preview Build 26220.6780 Released - New features enhance settings management and multi-file sharing for users.",
+      "text": "Copilot Settings Rollout - **Microsoft** begins rolling out direct settings access for **Copilot** on Windows Insiders.",
+      "url": "https://blogs.windows.com/windows-insider/2025/10/13/copilot-on-windows-settings-support-begins-rolling-out-to-windows-insiders/"
+    },
+    {
+      "text": "AI Enthusiasts Rise - Users leveraging AI report increased ambition and confidence, according to **Microsoft**'s latest consumer AI report.",
+      "url": "https://blogs.windows.com/windowsexperience/2025/10/13/across-the-ambition-gap-how-ai-users-are-gaining-more-than-answers/"
+    },
+    {
+      "text": "Security Culture at Microsoft - **Microsoft** emphasizes a proactive security culture through revamped training and the Secure Future Initiative.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2025/10/13/building-a-lasting-security-culture-at-microsoft/"
+    },
+    {
+      "text": "Windows 11 Insider Preview - New features and improvements announced for **Windows 11** Insider Preview Build 26220.6780.",
       "url": "https://blogs.windows.com/windows-insider/2025/10/10/announcing-windows-11-insider-preview-build-26220-6780-dev-channel/"
     },
     {
-      "text": "Windows 11 Insider Preview Build 26120.6780 Unveiled - Beta Channel users gain improved settings and multi-file sharing capabilities.",
-      "url": "https://blogs.windows.com/windows-insider/2025/10/10/announcing-windows-11-insider-preview-build-26120-6780-beta-channel/"
-    },
-    {
-      "text": "Copilot on Windows Enhancements - New connectors simplify access to personal services like **OneDrive** and **Google Drive**.",
-      "url": "https://blogs.windows.com/windows-insider/2025/10/09/copilot-on-windows-connectors-and-document-creation/"
-    },
-    {
-      "text": "Microsoft Azure Launches NVIDIA Cluster - First large-scale cluster for **OpenAI** workloads promises faster model training.",
-      "url": "https://azure.microsoft.com/en-us/blog/microsoft-azure-delivers-the-first-large-scale-cluster-with-nvidia-gb300-nvl72-for-openai-workloads/"
-    },
-    {
-      "text": "Microsoft Expands Cloud Infrastructure in Asia - New datacenter regions to support growing demand for **AI-ready** services.",
+      "text": "AI-Ready Infrastructure Expansion - **Microsoft** is expanding its cloud infrastructure across Asia to meet growing demand.",
       "url": "https://azure.microsoft.com/en-us/blog/microsofts-commitment-to-supporting-cloud-infrastructure-demand-in-asia/"
     },
     {
-      "text": "Microsoft Ignite 2025 Focuses on Security - Key sessions will address AI-driven security solutions and strategies.",
+      "text": "Microsoft Ignite 2025 - **Microsoft** Ignite will focus on security advancements, featuring hands-on sessions and expert insights.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/10/09/securing-agentic-ai-your-guide-to-the-microsoft-ignite-sessions-catalog/"
     },
     {
-      "text": "Microsoft Teams Security Enhancements - New guidance aims to disrupt threats targeting **Microsoft Teams** collaboration features.",
+      "text": "Disrupting Teams Threats - **Microsoft** provides guidance on securing **Teams** against cyber threats in a new blog post.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/10/07/disrupting-threats-targeting-microsoft-teams/"
     },
     {
-      "text": "New Microsoft Secure Future Initiative Patterns - Practical guides to strengthen security across various systems.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2025/10/07/new-microsoft-secure-future-initiative-sfi-patterns-and-practices-practical-guides-to-strengthen-security/"
-    },
-    {
-      "text": "Windows ML Overview Released - Enables developers to run ONNX AI models locally on **Windows 11** PCs.",
-      "url": "https://learn.microsoft.com/en-us/windows/ai/new-windows-ml/overview"
-    },
-    {
-      "text": "AI Toolkit for Visual Studio Code Launched - Simplifies generative AI app development with integrated tools and models.",
+      "text": "AI Toolkit for VS Code - **Microsoft** introduces an AI Toolkit for **Visual Studio Code** to simplify generative AI app development.",
       "url": "https://learn.microsoft.com/en-us/windows/ai/toolkit/"
     }
   ]

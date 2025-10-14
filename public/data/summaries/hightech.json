@@ -1,29 +1,45 @@
 {
-  "generatedAt": "2025-10-13T08:46:56.892Z",
+  "generatedAt": "2025-10-14T08:44:01.214Z",
   "bullets": [
     {
-      "text": "Age Verification Wars Intensify - **UK**'s Online Safety Act mandates age-gating on social media and adult sites.",
-      "url": "https://www.theverge.com/column/798159/age-gating-internet"
+      "text": "California's Internet Age Law - **California** mandates age verification for tech devices to protect children online.",
+      "url": "https://www.theverge.com/news/798871/california-governor-newsom-age-gating-ab-1043"
     },
     {
-      "text": "Apple Vision Pro's Game Changer - Live **NBA** games in **Apple Immersive Video** set to enhance user experience.",
+      "text": "OpenAI's Custom AI Chips - **OpenAI** partners with **Broadcom** to create chips for AI data centers, reducing reliance on **Nvidia**.",
+      "url": "https://www.theverge.com/news/798827/openai-broadcom-custom-ai-chips"
+    },
+    {
+      "text": "AI Chatbot Regulation - **California** becomes the first state to regulate AI chatbots, enhancing safety for users.",
+      "url": "https://techcrunch.com/2025/10/13/california-becomes-first-state-to-regulate-ai-companion-chatbots/"
+    },
+    {
+      "text": "Salesforce's AI Agentforce 360 - **Salesforce** unveils Agentforce 360 to enhance AI capabilities for enterprises.",
+      "url": "https://techcrunch.com/2025/10/13/salesforce-announces-agentforce-360-as-enterprise-ai-competition-heats-up/"
+    },
+    {
+      "text": "Nvidia's Personal AI Supercomputer - **Nvidia** launches the DGX Spark, a powerful desktop AI supercomputer for researchers.",
+      "url": "https://www.theverge.com/news/798775/nvidia-spark-personal-ai-supercomputer"
+    },
+    {
+      "text": "Apple Vision Pro's Live Sports - **Apple** introduces live sports in Immersive Video for the Vision Pro headset.",
       "url": "https://9to5mac.com/2025/10/10/live-sports-could-be-exactly-the-killer-feature-apple-vision-pro-needs/"
     },
     {
-      "text": "Strava's IPO Buzz - **Strava** eyes public listing as user base surges to 50 million monthly active users.",
-      "url": "https://techcrunch.com/2025/10/12/strava-eyes-ipo-as-gen-z-trades-dating-apps-for-running-clubs/"
+      "text": "Google's Sponsored Results Update - **Google** allows users to hide sponsored search results after viewing them.",
+      "url": "https://www.theverge.com/tech/798901/google-will-let-you-hide-sponsored-results-in-search-after-youve-seen-them"
     },
     {
-      "text": "ZoraSafe App Launch - Aims to protect older users from online scams with gamified learning.",
-      "url": "https://techcrunch.com/2025/10/12/the-zorasafe-app-wants-to-protect-older-people-online-and-will-present-at-techcrunch-disrupt-2025/"
+      "text": "Slackbot Becomes AI Assistant - **Slack** enhances its bot to function more like an AI assistant for users.",
+      "url": "https://www.cnet.com/tech/services-and-software/slack-is-transforming-slackbot-into-an-ai-assistant/#ftag=CAD590a51e"
     },
     {
-      "text": "Nvidia's AI Investment Surge - **Nvidia** accelerates startup investments, capitalizing on the AI boom.",
-      "url": "https://techcrunch.com/2025/10/12/nvidias-ai-empire-a-look-at-its-top-startup-investments/"
+      "text": "NotebookLM's Video Overviews Upgrade - **Google** enhances NotebookLM with new video styles using **Nano Banana** technology.",
+      "url": "https://9to5google.com/2025/10/13/notebooklm-video-overviews-styles/"
     },
     {
-      "text": "Elon Musk's Regulatory Challenges - **Tesla** faces scrutiny over Full Self-Driving tech and insurance practices.",
-      "url": "https://techcrunch.com/2025/10/12/elon-musk-vs-the-regulators/"
+      "text": "Meta Revives Job Listings - **Meta** reintroduces job listings on **Facebook** to help users find local employment.",
+      "url": "https://www.cnet.com/news/social-media/meta-brings-back-local-job-listings-on-facebook-heres-how-to-apply/#ftag=CAD590a51e"
     }
   ]
 }

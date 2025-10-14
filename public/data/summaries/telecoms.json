@@ -1,37 +1,44 @@
 {
-  "generatedAt": "2025-10-13T08:47:33.151Z",
+  "generatedAt": "2025-10-14T08:44:41.205Z",
   "bullets": [
     {
-      "text": "CityFibre's Growth Ambitions - **CityFibre**'s new CEO emphasizes altnet consolidation to expand service reach.",
+      "text": "UK Manufacturing Matters - Choosing UK manufacturing enhances supply-chain resilience and supports local jobs in telecoms.",
+      "url": "https://totaltele.com/the-value-of-uk-manufacturing-a-better-future-engineered-together/"
+    },
+    {
+      "text": "CityFibre's Growth Ambitions - New CEO Simon Holden aims for expansion through altnet consolidation in the UK.",
       "url": "https://totaltele.com/new-cityfibre-ceo-talks-growth-and-altnet-consolidation-at-connected-britain/"
     },
     {
-      "text": "UK MNOs Eye mmWave Spectrum - **Ofcom** approves auction for mmWave spectrum, enhancing mobile network capabilities.",
+      "text": "UK MNOs Eye mmWave Spectrum - Ofcom approves auction for mmWave spectrum, promising high-speed connectivity.",
       "url": "https://totaltele.com/uks-mnos-line-up-for-mmwave-spectrum-but-can-they-use-it-effectively/"
     },
     {
-      "text": "Transforming Customer Experience - Telecoms shift focus from metrics to personalized engagement for improved satisfaction.",
+      "text": "Fibre Market Complexity - Integration vs aggregation models emerge to streamline UK fibre access for service providers.",
+      "url": "https://totaltele.com/integration-vs-aggregation-the-battle-for-fibres-future/"
+    },
+    {
+      "text": "Altnet Market Challenges - Aprecomm highlights saturation in UK's fibre market, urging altnets to focus on customer needs.",
+      "url": "https://totaltele.com/network-visibility-and-differentiation-at-the-altnet-inflection-point/"
+    },
+    {
+      "text": "Customer Experience Evolution - Telecoms shift from basic metrics to personalized engagement strategies for better satisfaction.",
       "url": "https://www.rcrwireless.com/20251010/carriers/customer-experience"
     },
     {
-      "text": "Medusa Cable Expansion Begins - The **Medusa** submarine cable system starts connecting Southern Europe and North Africa.",
-      "url": "https://totaltele.com/medusa-cable-begins-mediterranean-expansion-with-marseille-landing/"
-    },
-    {
-      "text": "Orange Business Enhances Crisis Comms - **Orange Business** integrates **OneWeb** for rapid emergency connectivity solutions.",
+      "text": "Orange Business Innovates - New SafetyCase solution integrates OneWeb for emergency connectivity during crises.",
       "url": "https://totaltele.com/orange-business-plugs-oneweb-into-its-crisis-comms-solution/"
     },
     {
-      "text": "Verizon's New Leadership - **Daniel Schulman**, ex-PayPal CEO, appointed as **Verizon**'s new CEO to drive growth.",
-      "url": "https://totaltele.com/ex-paypal-ceo-takes-the-reins-at-verizon/"
+      "text": "Medusa Cable Expansion - Submarine cable system begins rollout, enhancing connectivity between Southern Europe and North Africa.",
+      "url": "https://totaltele.com/medusa-cable-begins-mediterranean-expansion-with-marseille-landing/"
     },
     {
-      "text": "5G-A Innovations Unveiled - **Huawei** highlights 5G-A and AI's role in reshaping telecom operator value.",
-      "url": "https://www.rcrwireless.com/20251009/5g/huawei-ai-5g-a"
+      "text": "6G Rollout Insights - Industry learns from 5G's challenges, focusing on practical deployment and monetization strategies."
     },
     {
-      "text": "Private 5G Networks Expand - **Airbus** partners with **Ericsson** to deploy private 5G for smart factory operations.",
-      "url": "https://www.telecomstechnews.com/news/private-5g-takes-off-airbus-taps-ericsson-smart-factory-network/"
+      "text": "Ericsson's Local Production - Plans to manufacture all telecom equipment in India, including future 6G gear.",
+      "url": "https://www.telecomstechnews.com/news/ericsson-expands-made-in-india-production-to-6g/"
     }
   ]
 }
