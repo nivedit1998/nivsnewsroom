@@ -1,37 +1,45 @@
 {
-  "generatedAt": "2025-10-14T08:45:14.082Z",
+  "generatedAt": "2025-10-15T08:47:40.873Z",
   "bullets": [
     {
-      "text": "Copilot Settings Rollout - **Microsoft** begins rolling out direct settings access for **Copilot** on Windows Insiders.",
+      "text": "New Multiplayer Mode Unveiled - **Call of Duty: Black Ops 7** introduces Overload, enhancing competitive gameplay with engaging mini-objectives.",
+      "url": "https://blogs.windows.com/windowsexperience/2025/10/14/new-multiplayer-mode-on-call-of-duty-black-ops-7-encourages-competitive-fun/"
+    },
+    {
+      "text": "AI Cybersecurity Benchmarking Tool - **Microsoft** launches ExCyTIn-Bench, an innovative tool for evaluating AI in real-world cyberthreat scenarios.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2025/10/14/microsoft-raises-the-bar-a-smarter-way-to-measure-ai-for-cybersecurity/"
+    },
+    {
+      "text": "Copilot Enhancements for Windows - **Microsoft Copilot** now offers direct settings access, streamlining user experience for Windows Insiders.",
       "url": "https://blogs.windows.com/windows-insider/2025/10/13/copilot-on-windows-settings-support-begins-rolling-out-to-windows-insiders/"
     },
     {
-      "text": "AI Enthusiasts Rise - Users leveraging AI report increased ambition and confidence, according to **Microsoft**'s latest consumer AI report.",
+      "text": "AI Users Experience Growth - **Microsoft** reports that AI Enthusiasts are gaining confidence and ambition through AI-driven decision-making.",
       "url": "https://blogs.windows.com/windowsexperience/2025/10/13/across-the-ambition-gap-how-ai-users-are-gaining-more-than-answers/"
     },
     {
-      "text": "Security Culture at Microsoft - **Microsoft** emphasizes a proactive security culture through revamped training and the Secure Future Initiative.",
+      "text": "Strengthening Security Culture - **Microsoft** emphasizes a proactive security culture through revamped training and the Secure Future Initiative.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/10/13/building-a-lasting-security-culture-at-microsoft/"
     },
     {
-      "text": "Windows 11 Insider Preview - New features and improvements announced for **Windows 11** Insider Preview Build 26220.6780.",
+      "text": "Windows 11 Insider Preview Updates - New features and improvements are rolling out in the latest **Windows 11** Insider Preview builds.",
       "url": "https://blogs.windows.com/windows-insider/2025/10/10/announcing-windows-11-insider-preview-build-26220-6780-dev-channel/"
     },
     {
-      "text": "AI-Ready Infrastructure Expansion - **Microsoft** is expanding its cloud infrastructure across Asia to meet growing demand.",
+      "text": "AI Infrastructure Expansion in Asia - **Microsoft** is investing billions to enhance cloud infrastructure across Asia, supporting AI readiness.",
       "url": "https://azure.microsoft.com/en-us/blog/microsofts-commitment-to-supporting-cloud-infrastructure-demand-in-asia/"
     },
     {
-      "text": "Microsoft Ignite 2025 - **Microsoft** Ignite will focus on security advancements, featuring hands-on sessions and expert insights.",
+      "text": "Innovative AI Supercomputing Cluster - **Microsoft Azure** launches a large-scale cluster with NVIDIA GB300 NVL72 for advanced AI workloads.",
+      "url": "https://azure.microsoft.com/en-us/blog/microsoft-azure-delivers-the-first-large-scale-cluster-with-nvidia-gb300-nvl72-for-openai-workloads/"
+    },
+    {
+      "text": "Microsoft Ignite 2025 Focus on Security - **Microsoft Ignite** will spotlight AI-first security innovations and strategies for professionals.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/10/09/securing-agentic-ai-your-guide-to-the-microsoft-ignite-sessions-catalog/"
     },
     {
-      "text": "Disrupting Teams Threats - **Microsoft** provides guidance on securing **Teams** against cyber threats in a new blog post.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2025/10/07/disrupting-threats-targeting-microsoft-teams/"
-    },
-    {
-      "text": "AI Toolkit for VS Code - **Microsoft** introduces an AI Toolkit for **Visual Studio Code** to simplify generative AI app development.",
-      "url": "https://learn.microsoft.com/en-us/windows/ai/toolkit/"
+      "text": "Targeted Cyber Attacks Investigated - **Microsoft** investigates 'payroll pirate' attacks targeting US universities, emphasizing security measures.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2025/10/09/investigating-targeted-payroll-pirate-attacks-affecting-us-universities/"
     }
   ]
 }
