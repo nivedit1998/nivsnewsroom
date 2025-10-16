@@ -1,45 +1,45 @@
 {
-  "generatedAt": "2025-10-15T08:47:40.873Z",
+  "generatedAt": "2025-10-16T08:47:47.971Z",
   "bullets": [
     {
-      "text": "New Multiplayer Mode Unveiled - **Call of Duty: Black Ops 7** introduces Overload, enhancing competitive gameplay with engaging mini-objectives.",
-      "url": "https://blogs.windows.com/windowsexperience/2025/10/14/new-multiplayer-mode-on-call-of-duty-black-ops-7-encourages-competitive-fun/"
+      "text": "ROG Xbox Ally Tips - Enhance your gaming experience with essential tips for the new **Windows**-powered handheld.",
+      "url": "https://blogs.windows.com/windowsexperience/2025/10/15/tips-and-games-for-rog-xbox-ally-handhelds/"
     },
     {
-      "text": "AI Cybersecurity Benchmarking Tool - **Microsoft** launches ExCyTIn-Bench, an innovative tool for evaluating AI in real-world cyberthreat scenarios.",
+      "text": "Securing Customer Support - **Microsoft** emphasizes the need for robust security in customer support tools to prevent cyberattacks.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2025/10/15/the-importance-of-hardening-customer-support-tools-against-attack/"
+    },
+    {
+      "text": "AI-Ready Oracle Database - **Microsoft** and **Oracle** enhance cloud capabilities with new features for AI integration.",
+      "url": "https://azure.microsoft.com/en-us/blog/oracle-databaseazure-offers-new-features-regions-and-programs-to-unlock-data-and-ai-innovation/"
+    },
+    {
+      "text": "AI in Cybersecurity - **Microsoft** introduces ExCyTIn-Bench, a new tool for evaluating AI in real-world cyber investigations.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/10/14/microsoft-raises-the-bar-a-smarter-way-to-measure-ai-for-cybersecurity/"
     },
     {
-      "text": "Copilot Enhancements for Windows - **Microsoft Copilot** now offers direct settings access, streamlining user experience for Windows Insiders.",
+      "text": "Windows Copilot Updates - New features for **Copilot** on **Windows** enhance user experience with direct settings access.",
       "url": "https://blogs.windows.com/windows-insider/2025/10/13/copilot-on-windows-settings-support-begins-rolling-out-to-windows-insiders/"
     },
     {
-      "text": "AI Users Experience Growth - **Microsoft** reports that AI Enthusiasts are gaining confidence and ambition through AI-driven decision-making.",
+      "text": "AI Enthusiasts Rise - A new report highlights how users leveraging AI are experiencing increased ambition and confidence.",
       "url": "https://blogs.windows.com/windowsexperience/2025/10/13/across-the-ambition-gap-how-ai-users-are-gaining-more-than-answers/"
     },
     {
-      "text": "Strengthening Security Culture - **Microsoft** emphasizes a proactive security culture through revamped training and the Secure Future Initiative.",
+      "text": "Building Security Culture - **Microsoft** focuses on fostering a proactive security culture among employees to combat cyber threats.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/10/13/building-a-lasting-security-culture-at-microsoft/"
     },
     {
-      "text": "Windows 11 Insider Preview Updates - New features and improvements are rolling out in the latest **Windows 11** Insider Preview builds.",
+      "text": "AI Transformation by Developers - Developers are at the forefront of AI adoption, reshaping enterprise operations and customer experiences.",
+      "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2025/10/13/fyai-why-developers-will-lead-ai-transformation-across-the-enterprise/"
+    },
+    {
+      "text": "Windows 11 Insider Builds - New updates for **Windows 11** Insider Preview enhance user settings and experience.",
       "url": "https://blogs.windows.com/windows-insider/2025/10/10/announcing-windows-11-insider-preview-build-26220-6780-dev-channel/"
     },
     {
-      "text": "AI Infrastructure Expansion in Asia - **Microsoft** is investing billions to enhance cloud infrastructure across Asia, supporting AI readiness.",
-      "url": "https://azure.microsoft.com/en-us/blog/microsofts-commitment-to-supporting-cloud-infrastructure-demand-in-asia/"
-    },
-    {
-      "text": "Innovative AI Supercomputing Cluster - **Microsoft Azure** launches a large-scale cluster with NVIDIA GB300 NVL72 for advanced AI workloads.",
+      "text": "AI Infrastructure Expansion - **Microsoft Azure** launches a large-scale cluster with NVIDIA for advanced AI workloads.",
       "url": "https://azure.microsoft.com/en-us/blog/microsoft-azure-delivers-the-first-large-scale-cluster-with-nvidia-gb300-nvl72-for-openai-workloads/"
-    },
-    {
-      "text": "Microsoft Ignite 2025 Focus on Security - **Microsoft Ignite** will spotlight AI-first security innovations and strategies for professionals.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2025/10/09/securing-agentic-ai-your-guide-to-the-microsoft-ignite-sessions-catalog/"
-    },
-    {
-      "text": "Targeted Cyber Attacks Investigated - **Microsoft** investigates 'payroll pirate' attacks targeting US universities, emphasizing security measures.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2025/10/09/investigating-targeted-payroll-pirate-attacks-affecting-us-universities/"
     }
   ]
 }
