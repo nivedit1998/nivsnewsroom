@@ -1,45 +1,45 @@
 {
-  "generatedAt": "2025-10-16T08:46:46.634Z",
+  "generatedAt": "2025-10-17T08:44:54.210Z",
   "bullets": [
     {
-      "text": "M5 MacBook Pro Lacks Adapter - **Apple** omits power adapters in the UK and EU for environmental compliance.",
+      "text": "EU Charger Confusion Clarified - **Apple**'s M5 MacBook Pro lacks a charger, but it's not due to EU law.",
+      "url": "https://9to5mac.com/2025/10/16/no-the-eu-didnt-ban-apple-from-including-a-charger-with-the-m5-macbook-pro/"
+    },
+    {
+      "text": "M5 MacBook Pro Power Adapter Update - The latest **Apple** model sold in the UK and EU excludes a power adapter.",
       "url": "https://9to5mac.com/2025/10/15/m5-macbook-pro-not-sold-with-power-adapter-in-some-countries/"
     },
     {
-      "text": "Waymo's London Launch - **Waymo** plans to introduce fully autonomous ride-hailing in London by 2026.",
-      "url": "https://9to5google.com/2025/10/15/waymo-london-2026/"
-    },
-    {
-      "text": "Spotify's SongDNA Feature - **Spotify** is developing a feature to showcase music credits and contributors.",
-      "url": "https://techcrunch.com/2025/10/15/spotify-spotted-working-on-a-songdna-feature-that-showcases-the-people-behind-your-favorite-music/"
-    },
-    {
-      "text": "Google's Recovery Contacts - **Google** introduces a feature allowing friends to help recover compromised accounts.",
-      "url": "https://www.cnet.com/tech/services-and-software/google-security-feature-now-lets-you-phone-a-friend-to-recover-your-account/#ftag=CAD590a51e"
-    },
-    {
-      "text": "Apple's New Studio Display - Rumors suggest **Apple** may launch a Studio Display with a 120Hz refresh rate.",
+      "text": "New Studio Display Features Rumored - **Apple** hints at a 120Hz refresh rate for the upcoming Studio Display.",
       "url": "https://9to5mac.com/2025/10/15/apple-might-have-just-hinted-at-highly-requested-new-studio-display-feature/"
     },
     {
-      "text": "Kuku's Funding Success - Indian platform **Kuku** raises $85M to expand its audio and video content offerings.",
-      "url": "https://techcrunch.com/2025/10/15/indias-kuku-snags-85m-as-mobile-content-wars-intensify/"
+      "text": "AT&T Internet Price Hike - **AT&T** raises home internet prices by $5/month for the second consecutive year.",
+      "url": "https://www.theverge.com/news/801423/att-fiber-home-internet-december-2025-price-raise-hike"
     },
     {
-      "text": "Apple's Renewable Energy Push - **Apple** signs contracts for 650 megawatts of renewable energy in Europe.",
-      "url": "https://techcrunch.com/2025/10/15/apple-adds-650-megawatts-of-renewables-in-europe-with-more-coming-in-china/"
+      "text": "Reddit Expands AI Search - **Reddit** introduces AI-powered search in five new languages, enhancing user experience.",
+      "url": "https://techcrunch.com/2025/10/16/reddit-expands-its-ai-powered-search-to-five-new-languages/"
     },
     {
-      "text": "Nscale's AI Deal with Microsoft - **Nscale** partners with **Microsoft** to deploy Nvidia GPUs across multiple data centers.",
-      "url": "https://techcrunch.com/2025/10/15/nscale-inks-massive-ai-infrastructure-deal-with-microsoft/"
+      "text": "OpenAI Pauses Controversial Video Feature - **OpenAI** halts Sora video generations of Martin Luther King Jr. after backlash.",
+      "url": "https://techcrunch.com/2025/10/16/openai-pauses-sora-video-generations-of-martin-luther-king-jr/"
     },
     {
-      "text": "Threads Introduces Group Chats - **Meta's** Threads app adds group messaging for up to 50 users.",
-      "url": "https://techcrunch.com/2025/10/15/threads-is-getting-group-chats-as-messaging-rolls-out-to-the-eu/"
+      "text": "Waymo Partners with DoorDash - **Waymo** resumes delivery services through a new partnership with **DoorDash** in Phoenix.",
+      "url": "https://techcrunch.com/2025/10/16/waymo-dips-its-wheels-back-into-delivery-this-time-with-doordash/"
     },
     {
-      "text": "Apple's M5 Chip Launch - **Apple** unveils new devices powered by the M5 chip, enhancing performance significantly.",
-      "url": "https://techcrunch.com/2025/10/15/apple-upgrades-ipad-pro-macbook-pro-and-vision-pro-with-new-m5-chip/"
+      "text": "Pinterest Limits AI Content - **Pinterest** adds controls to reduce AI-generated content in user feeds amid backlash.",
+      "url": "https://techcrunch.com/2025/10/16/pinterest-adds-controls-to-let-you-limit-the-amount-of-ai-slop-in-your-feed/"
+    },
+    {
+      "text": "Meta Shuts Down Messenger Apps - **Meta** will discontinue Messenger desktop apps for Mac and Windows by December 15.",
+      "url": "https://techcrunch.com/2025/10/16/meta-to-shut-down-messenger-desktop-apps-for-mac-and-windows/"
+    },
+    {
+      "text": "Deel Achieves $17.3B Valuation - **Deel** raises $300M, reaching a valuation of $17.3 billion amid corporate rivalry.",
+      "url": "https://techcrunch.com/2025/10/16/deel-hits-17-3b-valuation-after-raising-300m-from-big-name-vcs/"
     }
   ]
 }

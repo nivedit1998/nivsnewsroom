@@ -1,45 +1,45 @@
 {
-  "generatedAt": "2025-10-16T08:47:47.971Z",
+  "generatedAt": "2025-10-17T08:46:00.671Z",
   "bullets": [
     {
-      "text": "ROG Xbox Ally Tips - Enhance your gaming experience with essential tips for the new **Windows**-powered handheld.",
-      "url": "https://blogs.windows.com/windowsexperience/2025/10/15/tips-and-games-for-rog-xbox-ally-handhelds/"
+      "text": "Windows 11 Insider Preview Build 27971 Released - New Notification Center features enhance multi-monitor support for users.",
+      "url": "https://blogs.windows.com/windows-insider/2025/10/16/announcing-windows-11-insider-preview-build-27972-canary-channel/"
     },
     {
-      "text": "Securing Customer Support - **Microsoft** emphasizes the need for robust security in customer support tools to prevent cyberattacks.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2025/10/15/the-importance-of-hardening-customer-support-tools-against-attack/"
+      "text": "Azure Storage Discovery Now Available - This service provides enterprise-wide visibility into data estates for better management.",
+      "url": "https://azure.microsoft.com/en-us/blog/from-queries-to-conversations-unlock-insights-about-your-data-using-azure-storage-discovery-now-generally-available/"
     },
     {
-      "text": "AI-Ready Oracle Database - **Microsoft** and **Oracle** enhance cloud capabilities with new features for AI integration.",
-      "url": "https://azure.microsoft.com/en-us/blog/oracle-databaseazure-offers-new-features-regions-and-programs-to-unlock-data-and-ai-innovation/"
+      "text": "Cyberattacks Driven by Ransomware - Over half of cyber incidents investigated by Microsoft were financially motivated.",
+      "url": "https://blogs.microsoft.com/on-the-issues/2025/10/16/mddr-2025/"
     },
     {
-      "text": "AI in Cybersecurity - **Microsoft** introduces ExCyTIn-Bench, a new tool for evaluating AI in real-world cyber investigations.",
+      "text": "New AI Experiences in Windows 11 - Copilot features enhance productivity and security across the operating system.",
+      "url": "https://blogs.windows.com/windowsexperience/2025/10/16/new-experiences-currently-rolling-out-for-windows-11/"
+    },
+    {
+      "text": "Securing AI Agents on Windows - New Copilot Actions enhance productivity while prioritizing security and user control.",
+      "url": "https://blogs.windows.com/windowsexperience/2025/10/16/securing-ai-agents-on-windows/"
+    },
+    {
+      "text": "Making Every Windows 11 PC an AI PC - New updates integrate powerful AI capabilities into everyday Windows experiences.",
+      "url": "https://blogs.windows.com/windowsexperience/2025/10/16/making-every-windows-11-pc-an-ai-pc/"
+    },
+    {
+      "text": "Microsoft Named Leader in SIEM - Recognition highlights Microsoft Sentinel's capabilities in modern security operations.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2025/10/16/microsoft-named-a-leader-in-the-2025-gartner-magic-quadrant-for-siem/"
+    },
+    {
+      "text": "Sora 2 Available in Azure AI Foundry - New video generation model empowers organizations to innovate creatively.",
+      "url": "https://azure.microsoft.com/en-us/blog/sora-2-now-available-in-azure-ai-foundry/"
+    },
+    {
+      "text": "ExCyTIn-Bench for AI Cybersecurity - New benchmarking tool evaluates AI systems in real-world cyber investigations.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/10/14/microsoft-raises-the-bar-a-smarter-way-to-measure-ai-for-cybersecurity/"
     },
     {
-      "text": "Windows Copilot Updates - New features for **Copilot** on **Windows** enhance user experience with direct settings access.",
-      "url": "https://blogs.windows.com/windows-insider/2025/10/13/copilot-on-windows-settings-support-begins-rolling-out-to-windows-insiders/"
-    },
-    {
-      "text": "AI Enthusiasts Rise - A new report highlights how users leveraging AI are experiencing increased ambition and confidence.",
-      "url": "https://blogs.windows.com/windowsexperience/2025/10/13/across-the-ambition-gap-how-ai-users-are-gaining-more-than-answers/"
-    },
-    {
-      "text": "Building Security Culture - **Microsoft** focuses on fostering a proactive security culture among employees to combat cyber threats.",
+      "text": "Building a Lasting Security Culture - Microsoft emphasizes the importance of security training for all employees.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/10/13/building-a-lasting-security-culture-at-microsoft/"
-    },
-    {
-      "text": "AI Transformation by Developers - Developers are at the forefront of AI adoption, reshaping enterprise operations and customer experiences.",
-      "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2025/10/13/fyai-why-developers-will-lead-ai-transformation-across-the-enterprise/"
-    },
-    {
-      "text": "Windows 11 Insider Builds - New updates for **Windows 11** Insider Preview enhance user settings and experience.",
-      "url": "https://blogs.windows.com/windows-insider/2025/10/10/announcing-windows-11-insider-preview-build-26220-6780-dev-channel/"
-    },
-    {
-      "text": "AI Infrastructure Expansion - **Microsoft Azure** launches a large-scale cluster with NVIDIA for advanced AI workloads.",
-      "url": "https://azure.microsoft.com/en-us/blog/microsoft-azure-delivers-the-first-large-scale-cluster-with-nvidia-gb300-nvl72-for-openai-workloads/"
     }
   ]
 }
