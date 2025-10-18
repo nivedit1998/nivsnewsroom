@@ -1,44 +1,32 @@
 {
-  "generatedAt": "2025-10-17T08:46:00.671Z",
+  "generatedAt": "2025-10-18T08:41:42.114Z",
   "bullets": [
     {
-      "text": "Windows 11 Insider Preview Build 27971 Released - New Notification Center features enhance multi-monitor support for users.",
-      "url": "https://blogs.windows.com/windows-insider/2025/10/16/announcing-windows-11-insider-preview-build-27972-canary-channel/"
+      "text": "Windows 11 Insider Preview Updates - New features and fixes enhance user experience across channels.",
+      "url": "https://blogs.windows.com/windows-insider/2025/10/17/announcing-windows-11-insider-preview-build-26220-6972-dev-channel/"
     },
     {
-      "text": "Azure Storage Discovery Now Available - This service provides enterprise-wide visibility into data estates for better management.",
+      "text": "Azure Storage Discovery Launch - New service provides enterprise-wide visibility into data management.",
       "url": "https://azure.microsoft.com/en-us/blog/from-queries-to-conversations-unlock-insights-about-your-data-using-azure-storage-discovery-now-generally-available/"
     },
     {
-      "text": "Cyberattacks Driven by Ransomware - Over half of cyber incidents investigated by Microsoft were financially motivated.",
+      "text": "Microsoft's Cybersecurity Insights - Over half of cyberattacks driven by financial motives, highlighting urgent need for robust defenses.",
       "url": "https://blogs.microsoft.com/on-the-issues/2025/10/16/mddr-2025/"
     },
     {
-      "text": "New AI Experiences in Windows 11 - Copilot features enhance productivity and security across the operating system.",
-      "url": "https://blogs.windows.com/windowsexperience/2025/10/16/new-experiences-currently-rolling-out-for-windows-11/"
-    },
-    {
-      "text": "Securing AI Agents on Windows - New Copilot Actions enhance productivity while prioritizing security and user control.",
-      "url": "https://blogs.windows.com/windowsexperience/2025/10/16/securing-ai-agents-on-windows/"
-    },
-    {
-      "text": "Making Every Windows 11 PC an AI PC - New updates integrate powerful AI capabilities into everyday Windows experiences.",
+      "text": "AI Integration in Windows 11 - New Copilot features enhance user interaction and productivity.",
       "url": "https://blogs.windows.com/windowsexperience/2025/10/16/making-every-windows-11-pc-an-ai-pc/"
     },
     {
-      "text": "Microsoft Named Leader in SIEM - Recognition highlights Microsoft Sentinel's capabilities in modern security operations.",
+      "text": "Microsoft Sentinel Leadership - Recognized as a leader in SIEM, enhancing security operations with AI.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/10/16/microsoft-named-a-leader-in-the-2025-gartner-magic-quadrant-for-siem/"
     },
     {
-      "text": "Sora 2 Available in Azure AI Foundry - New video generation model empowers organizations to innovate creatively.",
-      "url": "https://azure.microsoft.com/en-us/blog/sora-2-now-available-in-azure-ai-foundry/"
-    },
-    {
-      "text": "ExCyTIn-Bench for AI Cybersecurity - New benchmarking tool evaluates AI systems in real-world cyber investigations.",
+      "text": "ExCyTIn-Bench for AI Security - New benchmarking tool evaluates AI performance in cybersecurity investigations.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/10/14/microsoft-raises-the-bar-a-smarter-way-to-measure-ai-for-cybersecurity/"
     },
     {
-      "text": "Building a Lasting Security Culture - Microsoft emphasizes the importance of security training for all employees.",
+      "text": "Building Security Culture - Microsoft emphasizes a proactive security culture across all employee levels.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/10/13/building-a-lasting-security-culture-at-microsoft/"
     }
   ]
