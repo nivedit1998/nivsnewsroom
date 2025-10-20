@@ -1,44 +1,37 @@
 {
-  "generatedAt": "2025-10-19T08:39:53.546Z",
+  "generatedAt": "2025-10-20T08:52:06.094Z",
   "bullets": [
     {
-      "text": "Logitech MX Master 4 Impresses - The latest mouse features haptics, premium materials, and a new action wheel.",
+      "text": "AI Infrastructure Funding - **1001 AI** raises $9M for critical industries in MENA.",
+      "url": "https://techcrunch.com/2025/10/20/scale-ai-alum-raises-9m-for-ai-serving-critical-industries-in-mena/"
+    },
+    {
+      "text": "Logitech's MX Master 4 - The latest productivity mouse enhances user experience with haptics and new features.",
       "url": "https://9to5mac.com/2025/10/18/logitech-mx-master-4-mouse-for-mac-review/"
     },
     {
-      "text": "ChatGPT App Growth Slows - Download growth has plateaued, indicating potential challenges amid rising competition.",
+      "text": "ChatGPT Growth Stalls - Download growth for the mobile app slows, indicating potential market saturation.",
       "url": "https://techcrunch.com/2025/10/17/chatgpts-mobile-app-is-seeing-slowing-download-growth-and-daily-use-analysis-shows/"
     },
     {
-      "text": "M5 MacBook Pro Charger Confusion - New models sold in the UK lack power adapters, clarifying EU regulations.",
+      "text": "M5 MacBook Pro Update - New models sold without power adapters in the UK due to environmental regulations.",
       "url": "https://9to5mac.com/2025/10/16/no-the-eu-didnt-ban-apple-from-including-a-charger-with-the-m5-macbook-pro/"
     },
     {
-      "text": "Apple's Studio Display Rumored - Upcoming display may feature a highly-requested 120Hz refresh rate.",
-      "url": "https://9to5mac.com/2025/10/15/apple-might-have-just-hinted-at-highly-requested-new-studio-display-feature/"
+      "text": "Apple Services Outage - Major issues affected **Apple TV**, **Apple Music**, and the **App Store**.",
+      "url": "https://9to5mac.com/2025/10/19/apple-tv-music-down-apple-services-outage/"
     },
     {
-      "text": "WhatsApp Bans General-Purpose Chatbots - New API terms restrict AI assistants, focusing on business customer support.",
-      "url": "https://techcrunch.com/2025/10/18/whatssapp-changes-its-terms-to-bar-general-purpose-chatbots-from-its-platform/"
+      "text": "Kohler's Toilet Camera - The **Dekoda** camera analyzes toilet contents for health insights.",
+      "url": "https://techcrunch.com/2025/10/19/kohler-unveils-a-camera-for-your-toilet/"
     },
     {
-      "text": "Wikipedia Traffic Declines - AI summaries and social video are impacting user engagement and pageviews.",
-      "url": "https://techcrunch.com/2025/10/18/wikipedia-says-traffic-is-falling-due-to-ai-search-summaries-and-social-video/"
+      "text": "AI Browser Confusion - **Opera's Neon** browser introduces multiple AI bots, complicating user experience.",
+      "url": "https://www.theverge.com/tech/801899/opera-neon-ai-browser-trial-run"
     },
     {
-      "text": "GM's EV Battery Innovations - New lithium manganese rich batteries promise better range and lower costs.",
-      "url": "https://www.theverge.com/transportation/801780/gm-ev-battery-lab-lmr-range-cost"
-    },
-    {
-      "text": "YouTubers Diversify Revenue Streams - Creators are moving beyond ad revenue to build sustainable businesses.",
-      "url": "https://techcrunch.com/2025/10/18/youtubers-arent-relying-on-ad-revenue-anymore-heres-how-some-are-diversifying/"
-    },
-    {
-      "text": "Salesforce CEO Apologizes - Marc Benioff retracts comments about needing National Guard in San Francisco."
-    },
-    {
-      "text": "Amazon's Ring Expands Surveillance - New partnerships enable police to request footage from Ring users.",
-      "url": "https://www.cnet.com/home/security/amazons-ring-cameras-push-deeper-into-police-and-government-surveillance/#ftag=CAD590a51e"
+      "text": "AWS Outage Impact - A major **AWS** outage disrupts services like **Fortnite** and **Alexa**.",
+      "url": "https://www.theverge.com/news/802486/aws-outage-alexa-fortnite-snapchat-offline"
     }
   ]
 }
