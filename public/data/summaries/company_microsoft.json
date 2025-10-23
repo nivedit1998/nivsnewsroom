@@ -1,45 +1,45 @@
 {
-  "generatedAt": "2025-10-22T08:48:43.833Z",
+  "generatedAt": "2025-10-23T08:48:35.798Z",
   "bullets": [
     {
-      "text": "Windows 11 Updates Released - New builds 26100.7015 and 26200.7015 enhance user experience with redesigned features.",
+      "text": "AI-Powered Paint Update - **Microsoft** introduces Restyle feature in Paint for Windows Insiders, enhancing image transformation capabilities.",
+      "url": "https://blogs.windows.com/windows-insider/2025/10/22/restyle-in-paint-begins-rolling-out-to-windows-insiders/"
+    },
+    {
+      "text": "Windows 11 Build Release - **Microsoft** rolls out Build 22631.6132 to Release Preview Channel, addressing touch keyboard issues.",
+      "url": "https://blogs.windows.com/windows-insider/2025/10/22/releasing-windows-11-build-22631-6132-to-the-release-preview-channel/"
+    },
+    {
+      "text": "Cybersecurity Insights - **Microsoft** highlights urgent need for resilience in response to accelerating cyberthreats in latest report.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2025/10/22/the-ciso-imperative-building-resilience-in-an-era-of-accelerated-cyberthreats/"
+    },
+    {
+      "text": "New Windows Builds - **Microsoft** releases Windows 11 Builds 26100.7015 and 26200.7015, featuring UI enhancements and new settings.",
       "url": "https://blogs.windows.com/windows-insider/2025/10/21/releasing-windows-11-builds-26100-7015-and-26200-7015-to-the-release-preview-channel/"
     },
     {
-      "text": "Microsoft Security Store Launch - A unified platform for discovering and deploying trusted security solutions.",
+      "text": "AI Applications Evolution - **Microsoft** emphasizes the importance of continuous learning in AI applications for enhanced productivity.",
+      "url": "https://azure.microsoft.com/en-us/blog/the-signals-loop-fine-tuning-for-world-class-ai-apps-and-agents/"
+    },
+    {
+      "text": "Unified Security Platform - **Microsoft** launches Security Store, a hub for AI-powered security solutions and partnerships.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/10/21/the-new-microsoft-security-store-unites-partners-and-innovation/"
     },
     {
-      "text": "Holiday Season Promotions - Microsoft offers innovative products to enhance holiday gifting and experiences.",
+      "text": "Holiday Tech Gifts - **Microsoft** promotes innovative products for the holiday season, enhancing creativity and connectivity.",
       "url": "https://blogs.windows.com/devices/2025/10/20/experience-more-joy-this-holiday/"
     },
     {
-      "text": "Azure Blob Storage Threats - Cybercriminals target Azure Blob Storage, emphasizing the need for robust security measures.",
+      "text": "Azure SQL Migration Success - **Microsoft** showcases how organizations improve efficiency by migrating to Azure SQL.",
+      "url": "https://www.microsoft.com/en-us/sql-server/blog/2025/10/20/innovation-spotlight-how-3-customers-are-driving-change-with-migration-to-azure-sql/"
+    },
+    {
+      "text": "Blob Storage Threats - **Microsoft** outlines unique threats targeting Azure Blob Storage and recommends security measures.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/10/20/inside-the-attack-chain-threat-activity-targeting-azure-blob-storage/"
     },
     {
-      "text": "Windows 11 Insider Preview Builds - New features and improvements in builds 26220.6972 and 26120.6972.",
+      "text": "Windows Insider Preview - **Microsoft** announces Insider Preview Build 26220.6972, featuring new mobile device management settings.",
       "url": "https://blogs.windows.com/windows-insider/2025/10/17/announcing-windows-11-insider-preview-build-26220-6972-dev-channel/"
-    },
-    {
-      "text": "New Notification Center Features - Windows 11 Canary Channel expands Notification Center functionality to secondary monitors.",
-      "url": "https://blogs.windows.com/windows-insider/2025/10/16/announcing-windows-11-insider-preview-build-27972-canary-channel/"
-    },
-    {
-      "text": "Azure Storage Discovery Launched - A service for enterprise-wide visibility into data management and optimization.",
-      "url": "https://azure.microsoft.com/en-us/blog/from-queries-to-conversations-unlock-insights-about-your-data-using-azure-storage-discovery-now-generally-available/"
-    },
-    {
-      "text": "Cyberattack Trends Report - Over half of cyberattacks driven by extortion and ransomware, highlighting urgent security needs.",
-      "url": "https://blogs.microsoft.com/on-the-issues/2025/10/16/mddr-2025/"
-    },
-    {
-      "text": "New AI Experiences in Windows 11 - Copilot and agentic features enhance productivity and user interaction.",
-      "url": "https://blogs.windows.com/windowsexperience/2025/10/16/making-every-windows-11-pc-an-ai-pc/"
-    },
-    {
-      "text": "Microsoft Sentinel Recognized - Named a Leader in the 2025 Gartner Magic Quadrant for SIEM.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2025/10/16/microsoft-named-a-leader-in-the-2025-gartner-magic-quadrant-for-siem/"
     }
   ]
 }
