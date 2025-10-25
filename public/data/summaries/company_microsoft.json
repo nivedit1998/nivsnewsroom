@@ -1,45 +1,45 @@
 {
-  "generatedAt": "2025-10-24T08:45:45.471Z",
+  "generatedAt": "2025-10-25T08:41:34.807Z",
   "bullets": [
     {
-      "text": "Safe Browsing Innovations - **Microsoft Edge** introduces experimental agentic browsing features, enhancing user experience while addressing security risks.",
+      "text": "Windows 11 Insider Preview Build 26220.6982 Released - New features like Copy & Search enhance user experience in Windows 11.",
+      "url": "https://blogs.windows.com/windows-insider/2025/10/24/announcing-windows-11-insider-preview-build-26220-6982-dev-channel/"
+    },
+    {
+      "text": "Windows 11 Insider Preview Build 26120.6982 Available - Features like Voice Typing and Proactive Memory Diagnostics improve functionality.",
+      "url": "https://blogs.windows.com/windows-insider/2025/10/24/announcing-windows-11-insider-preview-build-26120-6982-beta-channel/"
+    },
+    {
+      "text": "Actions in Edge Preview Launched - New agentic browsing feature aims to enhance user interaction while browsing.",
       "url": "https://blogs.windows.com/msedgedev/2025/10/23/considerations-for-safe-agentic-browsing/"
     },
     {
-      "text": "Windows 11 Insider Preview - New build 27975 released, featuring improvements for touch keyboard and Windows Hello functionality.",
+      "text": "Windows 11 Insider Preview Build 27975 Released - Includes general improvements and fixes for a smoother experience.",
       "url": "https://blogs.windows.com/windows-insider/2025/10/23/announcing-windows-11-insider-preview-build-27975-canary-channel/"
     },
     {
-      "text": "AI-Powered Copilot Mode - **Microsoft Edge** enhances browsing with Copilot Mode, streamlining tasks and improving user interaction.",
+      "text": "Copilot Mode in Edge Introduced - AI features streamline browsing, allowing users to interact naturally with their browser.",
       "url": "https://blogs.windows.com/msedgedev/2025/10/23/meet-copilot-mode-in-edge-your-ai-browser/"
     },
     {
-      "text": "Strengthening Identity Defense - **Microsoft** emphasizes the importance of comprehensive identity security in a hybrid work environment.",
+      "text": "Improved Identity Defense Announced - Enhanced protection strategies are critical for modern enterprises facing cyber threats.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/10/23/harden-your-identity-defense-with-improved-protection-deeper-correlation-and-richer-context/"
     },
     {
-      "text": "AI in Paint - New Restyle feature in **Paint** allows users to transform images with AI, now rolling out to Insiders.",
+      "text": "Restyle in Paint Feature Rolling Out - AI-powered updates allow users to transform image styles easily.",
       "url": "https://blogs.windows.com/windows-insider/2025/10/22/restyle-in-paint-begins-rolling-out-to-windows-insiders/"
     },
     {
-      "text": "Windows 11 Updates - Builds 26100.7015 and 26200.7015 released, featuring enhancements and fixes for user experience.",
+      "text": "Windows 11 Build 22631.6132 Released - Update addresses touch keyboard issues and enhances overall system performance.",
+      "url": "https://blogs.windows.com/windows-insider/2025/10/22/releasing-windows-11-build-22631-6132-to-the-release-preview-channel/"
+    },
+    {
+      "text": "Windows 11 Builds 26100.7015 and 26200.7015 Released - New features and improvements enhance user experience across versions.",
       "url": "https://blogs.windows.com/windows-insider/2025/10/21/releasing-windows-11-builds-26100-7015-and-26200-7015-to-the-release-preview-channel/"
     },
     {
-      "text": "Cybersecurity Resilience - **Microsoft** highlights the evolving cyberthreat landscape and the need for strategic security adaptations.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2025/10/22/the-ciso-imperative-building-resilience-in-an-era-of-accelerated-cyberthreats/"
-    },
-    {
-      "text": "Unified Security Solutions - **Microsoft Security Store** launched, offering a platform for trusted security solutions and AI agents.",
+      "text": "Microsoft Security Store Launched - A unified platform for organizations to discover and deploy security solutions.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/10/21/the-new-microsoft-security-store-unites-partners-and-innovation/"
-    },
-    {
-      "text": "Holiday Tech Gifting - **Microsoft** promotes innovative products for the holiday season, enhancing creativity and connectivity.",
-      "url": "https://blogs.windows.com/devices/2025/10/20/experience-more-joy-this-holiday/"
-    },
-    {
-      "text": "Azure SQL Migration Success - Organizations like **Thomson Reuters** modernize operations by migrating to **Azure SQL**, enhancing efficiency.",
-      "url": "https://www.microsoft.com/en-us/sql-server/blog/2025/10/20/innovation-spotlight-how-3-customers-are-driving-change-with-migration-to-azure-sql/"
     }
   ]
 }
