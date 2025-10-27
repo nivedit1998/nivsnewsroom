@@ -1,41 +1,45 @@
 {
-  "generatedAt": "2025-10-26T08:41:13.565Z",
+  "generatedAt": "2025-10-27T08:48:42.541Z",
   "bullets": [
     {
-      "text": "Samsung & SoftBank's AI-RAN Pact - **Samsung** and **SoftBank** collaborate on 6G and AI-driven RAN technologies to enhance telecom innovation.",
+      "text": "Samsung and SoftBank Collaborate - **Samsung** and **SoftBank** join forces to advance **6G** and **AI-RAN** technologies.",
       "url": "https://www.rcrwireless.com/20251024/carriers/samsung-softbank-ai-ran"
     },
     {
-      "text": "Vodafone's AI for 5G Operations - **Vodafone** partners with Zinkworks to automate 5G network management using generative AI.",
-      "url": "https://www.telecomstechnews.com/news/how-vodafone-tapping-ai-to-automate-5g-network-operations/"
-    },
-    {
-      "text": "MasOrange Surpasses Synergy Goals - **MasOrange** achieves €259 million in synergies ahead of schedule post-merger.",
-      "url": "https://www.rcrwireless.com/20251024/5g/masorange-synergies"
-    },
-    {
-      "text": "T-Mobile's Record Growth - **T-Mobile US** reports record 2.35 million postpaid customer additions in Q3 2025.",
+      "text": "T-Mobile US Achieves Record Growth - **T-Mobile US** reports its best Q3 in over a decade with 2.35 million new postpaid customers.",
       "url": "https://www.rcrwireless.com/20251023/business/t-mobile-q3"
     },
     {
-      "text": "Vodafone's Open RAN Expansion - **Vodafone** collaborates with **Wind River** to deploy Open RAN across Germany.",
-      "url": "https://totaltele.com/vodafone-taps-wind-river-to-support-open-ran-rollout-in-germany/"
+      "text": "Vodafone's AI Network Automation - **Vodafone** partners with Zinkworks to develop an AI platform for efficient **5G** network operations.",
+      "url": "https://www.telecomstechnews.com/news/how-vodafone-tapping-ai-to-automate-5g-network-operations/"
     },
     {
-      "text": "PSTN Switch-Off Deadline Approaches - UK businesses must transition to all-IP networks by January 2027 to avoid disruptions.",
+      "text": "ZTE Wins Indoor Connectivity Award - **ZTE** recognized for its innovative indoor connectivity solutions at **Network X 2025**.",
+      "url": "https://www.rcrwireless.com/20251024/5g/zte-network-x"
+    },
+    {
+      "text": "PSTN Switch-Off Approaches - UK businesses must prepare for the **PSTN** switch-off by January 2027 to avoid operational risks.",
       "url": "https://totaltele.com/are-you-lagging-on-the-pstn-switch-off/"
     },
     {
-      "text": "Black Sea Cable Project Announced - **Vodafone Group** plans a €116 million submarine cable to enhance connectivity in the Black Sea.",
+      "text": "Vodafone's Black Sea Cable Project - **Vodafone** plans a new submarine cable to enhance connectivity in the Black Sea region.",
       "url": "https://totaltele.com/vodafone-group-and-vodafone-ukraine-plan-black-sea-cable-to-bypass-russia/"
     },
     {
-      "text": "Digital Twin Tech for Towers - Digital twin technology enhances tower management, enabling smarter decision-making and operational efficiency.",
-      "url": "https://www.telecomstechnews.com/news/top-five-digital-twin-software-companies-for-towers/"
+      "text": "Agentic AI in Telecoms - **Telcos** are poised to lead the AI economy, transforming customer interactions with **agentic AI**.",
+      "url": "https://www.rcrwireless.com/20251024/reader-forum/agentic-ai-industry"
     },
     {
-      "text": "AI's Role in Telecom Transformation - **EY's** Rob Atkinson discusses the challenges and potential of AI in telecom at Connected Britain.",
-      "url": "https://totaltele.com/hype-cycles-and-reality-checks-eys-rob-atkinson-dissects-ai-and-data-centres-at-connected-britain/"
+      "text": "Germany's Fibre Transition - **Vodafone Germany** launches aggressive fibre tariffs to accelerate the shift from DSL to fibre.",
+      "url": "https://totaltele.com/germany-switching-on-to-fibre/"
+    },
+    {
+      "text": "MasOrange Reports Strong Synergies - **MasOrange** achieves €259 million in synergies, exceeding half of its 2025 target.",
+      "url": "https://www.rcrwireless.com/20251024/5g/masorange-synergies"
+    },
+    {
+      "text": "5G FWA Growth Forecast - Global **5G FWA** subscriptions expected to reach 150 million by 2030, driven by India and the US.",
+      "url": "https://www.rcrwireless.com/20251023/5g/global-5g-fwa-omdia"
     }
   ]
 }

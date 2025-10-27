@@ -1,45 +1,25 @@
 {
-  "generatedAt": "2025-10-26T08:41:36.484Z",
+  "generatedAt": "2025-10-27T08:49:06.997Z",
   "bullets": [
     {
-      "text": "Windows 11 Insider Preview Build 26220.6982 Released - New features like Copy & Search enhance user experience in Windows 11.",
+      "text": "Windows 11 Insider Preview Updates - New features enhance user experience across Dev, Beta, and Canary Channels.",
       "url": "https://blogs.windows.com/windows-insider/2025/10/24/announcing-windows-11-insider-preview-build-26220-6982-dev-channel/"
     },
     {
-      "text": "Windows 11 Insider Preview Build 26120.6982 Available - Features like Voice Typing and Proactive Memory Diagnostics improve functionality.",
-      "url": "https://blogs.windows.com/windows-insider/2025/10/24/announcing-windows-11-insider-preview-build-26120-6982-beta-channel/"
-    },
-    {
-      "text": "Actions in Edge Preview Launched - New agentic browsing feature aims to enhance user interactions while browsing.",
-      "url": "https://blogs.windows.com/msedgedev/2025/10/23/considerations-for-safe-agentic-browsing/"
-    },
-    {
-      "text": "Windows 11 Insider Preview Build 27975 Released - General improvements and fixes enhance overall user experience.",
-      "url": "https://blogs.windows.com/windows-insider/2025/10/23/announcing-windows-11-insider-preview-build-27975-canary-channel/"
-    },
-    {
-      "text": "Azure Storage Mover Now Available - Simplifies cloud-to-cloud data transfers, enhancing migration efficiency.",
-      "url": "https://azure.microsoft.com/en-us/blog/fully-managed-cloud-to-cloud-transfers-with-azure-storage-mover/"
-    },
-    {
-      "text": "Copilot Mode in Edge Introduced - AI features in Edge enhance browsing efficiency and user experience.",
+      "text": "AI-Powered Copilot Mode in Edge - Enhances browsing with intelligent features for a seamless experience.",
       "url": "https://blogs.windows.com/msedgedev/2025/10/23/meet-copilot-mode-in-edge-your-ai-browser/"
     },
     {
-      "text": "Microsoft Named Leader in Gartner Magic Quadrant - Recognition reflects Azure's impact in hybrid infrastructure solutions.",
-      "url": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2025-gartner-magic-quadrant-for-distributed-hybrid-infrastructure/"
+      "text": "Azure Storage Mover Launch - Simplifies cloud-to-cloud data transfers, enhancing migration efficiency.",
+      "url": "https://azure.microsoft.com/en-us/blog/fully-managed-cloud-to-cloud-transfers-with-azure-storage-mover/"
     },
     {
-      "text": "New Microsoft Security Store Launched - Aims to unify security solutions and enhance organizational defenses.",
+      "text": "Microsoft Security Store Unveiled - A unified platform for security solutions and AI agents.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/10/21/the-new-microsoft-security-store-unites-partners-and-innovation/"
     },
     {
-      "text": "Restyle Feature in Paint Rolled Out - AI-powered art style transformation enhances creativity in Windows Paint.",
-      "url": "https://blogs.windows.com/windows-insider/2025/10/22/restyle-in-paint-begins-rolling-out-to-windows-insiders/"
-    },
-    {
-      "text": "Windows 11 Build 22631.6132 Released - Update addresses touch keyboard issues and enhances user experience.",
-      "url": "https://blogs.windows.com/windows-insider/2025/10/22/releasing-windows-11-build-22631-6132-to-the-release-preview-channel/"
+      "text": "Gartner Recognition for Microsoft - Named a Leader in Distributed Hybrid Infrastructure for the third consecutive year.",
+      "url": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2025-gartner-magic-quadrant-for-distributed-hybrid-infrastructure/"
     }
   ]
 }
