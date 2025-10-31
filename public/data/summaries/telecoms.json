@@ -1,45 +1,37 @@
 {
-  "generatedAt": "2025-10-30T08:46:25.457Z",
+  "generatedAt": "2025-10-31T08:45:24.709Z",
   "bullets": [
     {
-      "text": "Starlink Spectrum Boost - **Ofcom** grants **Starlink** E band spectrum for enhanced backhaul capacity in the UK.",
+      "text": "VMO2's £2bn Netomnia Talks - **VMO2** aims for major consolidation in the UK's fibre broadband market with **Netomnia** acquisition.",
+      "url": "https://totaltele.com/vmo2-in-talks-with-netomnia-for-2bn-takeover/"
+    },
+    {
+      "text": "ACOME's Sustainability Challenge - **ACOME** highlights the struggle to balance sustainability ambitions with cost pressures in telecoms.",
+      "url": "https://totaltele.com/ambitious-carbon-goals-and-the-conundrum-of-cost/"
+    },
+    {
+      "text": "Starlink Gains Spectrum Boost - **Ofcom** grants **Starlink** more spectrum to enhance satellite backhaul capacity in the UK.",
       "url": "https://totaltele.com/ofcom-temporarily-grants-starlink-more-spectrum-in-the-uk/"
     },
     {
-      "text": "Verizon Acquires Starry - **Verizon** acquires **Starry Internet** to enhance 5G fixed wireless access capabilities.",
-      "url": "https://www.rcrwireless.com/20251029/business/verizon-acquires-starry"
+      "text": "Equinix's £3.9bn Data Centre - **Equinix** plans a massive investment in a new data centre in Hertfordshire, UK.",
+      "url": "https://totaltele.com/equinix-to-build-3-9bn-hertfordshire-data-centre/"
     },
     {
-      "text": "Nvidia Backs Nokia - **NVIDIA** invests in **Nokia** to advance AI and 6G capabilities in telecom networks.",
+      "text": "O2 Partners with Starlink - **O2** collaborates with **Starlink** to enhance enterprise connectivity in rural areas.",
+      "url": "https://www.telecomstechnews.com/news/o2-uses-starlink-boost-enterprise-connectivity-remote-assets/"
+    },
+    {
+      "text": "Nvidia Invests in Nokia - **Nvidia** backs **Nokia** to advance enterprise edge AI and future 6G networks.",
       "url": "https://www.telecomstechnews.com/news/nvidia-backs-nokia-as-both-plan-enterprise-edge-ai-and-6g/"
     },
     {
-      "text": "5G Core Evolution - The **5G** core is transforming network architecture, enabling programmable and intelligent connectivity.",
-      "url": "https://www.rcrwireless.com/20251028/5g/5g-and-the-mobile-core"
-    },
-    {
-      "text": "MTN's StarEdge Horizon - **MTN** launches **StarEdge Horizon** for enhanced LEO satellite connectivity for enterprises.",
-      "url": "https://totaltele.com/mtn-launches-staredge-horizon-a-new-layer-2-based-solution-for-private-and-faster-leo-satellite-connectivity/"
-    },
-    {
-      "text": "AI-Native 6G Networks - **Samsung** explores AI-native **6G** networks to enhance enterprise operations and user experience.",
-      "url": "https://www.telecomstechnews.com/news/how-ai-native-6g-networks-boost-enterprise-operations/"
-    },
-    {
-      "text": "Telecoms Cloud Investment - Telecom operators are increasing cloud spending to automate operations and enhance AI capabilities.",
+      "text": "AI Drives Telecom Cloud Shift - Telecom operators are rapidly moving to cloud solutions to leverage AI for automation.",
       "url": "https://www.telecomstechnews.com/news/telecom-operators-ai-goals-cloud-spend/"
     },
     {
-      "text": "Zayo and Nokia Partnership - **Zayo** partners with **Nokia** to modernize IP network infrastructure for enhanced connectivity.",
-      "url": "https://www.rcrwireless.com/20251029/network-infrastructure/zayo-nokia-ip-network"
-    },
-    {
-      "text": "ZTE Revenue Growth - **ZTE** reports significant revenue growth driven by computing-related businesses and international expansion.",
-      "url": "https://www.rcrwireless.com/20251029/5g/zte-revenue"
-    },
-    {
-      "text": "Lynk and Omnispace Merger - **Lynk** and **Omnispace** merge to enhance global satellite direct-to-device connectivity.",
-      "url": "https://totaltele.com/lynk-and-omnispace-merge-to-accelerate-global-satellite-direct-to-device-connectivity/"
+      "text": "Verizon's Strategic Fiber Plans - **Verizon** announces new fiber expansion plans amid steady Q3 earnings growth.",
+      "url": "https://www.rcrwireless.com/20251029/uncategorized/verizon-q3-earnings"
     }
   ]
 }

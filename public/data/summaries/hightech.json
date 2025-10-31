@@ -1,41 +1,45 @@
 {
-  "generatedAt": "2025-10-30T08:45:46.939Z",
+  "generatedAt": "2025-10-31T08:44:47.248Z",
   "bullets": [
     {
-      "text": "Apple TV's New Drama Series - **Apple TV** launches 'Down Cemetery Road' to keep viewers engaged post 'Slow Horses'.",
+      "text": "Camera Showdown: iPhone vs. Galaxy - **iPhone 17 Pro** and **Galaxy S25 Ultra** excel in photography, but personal preference reigns.",
+      "url": "https://www.cnet.com/tech/mobile/iphone-17-pro-vs-galaxy-s25-ultra-i-tested-both-cameras-heres-what-i-found/#ftag=CAD590a51e"
+    },
+    {
+      "text": "New Drama Alert: Apple TV - **Apple TV** debuts **Down Cemetery Road**, keeping subscribers engaged post **Slow Horses**.",
       "url": "https://9to5mac.com/2025/10/29/apple-tv-down-cemetery-road-series-watch-now/"
     },
     {
-      "text": "iOS 26's Controversial Feature Returns - **Apple** reintroduces notification summaries for News and Entertainment apps in iOS 26.",
+      "text": "CarPlay Gets a Boost - **iOS 26** introduces widgets to **CarPlay**, enhancing user experience with glanceable info.",
+      "url": "https://9to5mac.com/2025/10/30/ios-26-adds-carplay-widgets-a-major-new-feature-for-your-vehicle/"
+    },
+    {
+      "text": "TechCrunch Disrupt Highlights - **TechCrunch Disrupt 2025** showcased innovative startups and key industry insights.",
+      "url": "https://techcrunch.com/2025/10/30/scenes-from-techcrunch-disrupt/"
+    },
+    {
+      "text": "AI Features Return in iOS - **iOS 26** reinstates controversial AI notification summaries, aiming for improved accuracy.",
       "url": "https://9to5mac.com/2025/10/27/ios-26-brought-back-a-controversial-ai-feature-heres-whats-new/"
     },
     {
-      "text": "Spotify's Revamped Apple TV App - **Spotify** launches a new Apple TV app with enhanced features for a better user experience.",
+      "text": "Microsoft's AI Ambitions - **GitHub** aims to be the hub for AI coding agents, enhancing developer workflows.",
+      "url": "https://www.theverge.com/tech/809889/github-agent-hq-platform-play-microsoft-jared-palmer-jay-parikh"
+    },
+    {
+      "text": "Spotify Revamps Apple TV App - **Spotify** launches a new **Apple TV 4K** app with enhanced features and performance.",
       "url": "https://9to5mac.com/2025/10/27/spotify-launches-new-apple-tv-4k-app-with-big-feature-upgrades/"
     },
     {
-      "text": "Uplift Network Launches - **World Mobile** and Tristan Thompson unveil a community-owned mobile network offering affordable data plans.",
-      "url": "https://techcrunch.com/2025/10/29/nba-champion-tristan-thompson-and-world-mobile-launch-community-owned-network-uplift/"
+      "text": "Navan's IPO Struggles - **Navan** sees a 20% drop on its first trading day, raising concerns over regulatory scrutiny.",
+      "url": "https://techcrunch.com/2025/10/30/navan-ipo-tumbles-20-after-historic-debut-under-sec-shutdown-workaround/"
     },
     {
-      "text": "AI Audio Models to Be Commoditized - **ElevenLabs** CEO predicts that AI audio models will become commoditized over time.",
-      "url": "https://techcrunch.com/2025/10/29/elevenlabs-ceo-says-ai-audio-models-will-be-commoditized-over-time/"
+      "text": "AI Expansion at Apple - **Tim Cook** announces plans to integrate more AI tools into **Apple's** ecosystem.",
+      "url": "https://www.theverge.com/news/810735/tim-cook-ai-apple-intelligence-integrations"
     },
     {
-      "text": "Microsoft Azure Outage Impact - **Microsoft** Azure experiences a significant outage affecting multiple services including **Xbox**.",
-      "url": "https://techcrunch.com/2025/10/29/microsoft-azure-is-down-affecting-365-xbox-minecraft-and-others/"
-    },
-    {
-      "text": "Fubo and Hulu Live TV Merge - **Fubo** officially combines with **Hulu Live TV**, creating a major player in the streaming market.",
-      "url": "https://techcrunch.com/2025/10/29/its-official-fubo-is-combining-with-hulu-live-tv/"
-    },
-    {
-      "text": "AI in Wildfire Detection - **Hewlett Packard Enterprise** partners with Vail to enhance wildfire detection using AI technology.",
-      "url": "https://www.theverge.com/report/809348/ai-fire-detection-vail-hpe-smart-city-platform"
-    },
-    {
-      "text": "Bending Spoons to Acquire AOL - **Bending Spoons** announces plans to acquire **AOL**, aiming to revitalize the iconic brand.",
-      "url": "https://techcrunch.com/2025/10/29/bending-spoons-to-acquire-aol/"
+      "text": "Nvidia's Big Bet - **Nvidia** reportedly invests up to $1 billion in **Poolside**, focusing on AI model development.",
+      "url": "https://techcrunch.com/2025/10/30/nvidia-is-reportedly-investing-up-to-1-billion-in-poolside/"
     }
   ]
 }
