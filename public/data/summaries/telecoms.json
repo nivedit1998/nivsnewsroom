@@ -1,20 +1,24 @@
 {
-  "generatedAt": "2025-10-31T08:45:24.709Z",
+  "generatedAt": "2025-11-01T08:41:45.086Z",
   "bullets": [
     {
-      "text": "VMO2's £2bn Netomnia Talks - **VMO2** aims for major consolidation in the UK's fibre broadband market with **Netomnia** acquisition.",
+      "text": "VMO2 Eyes Netomnia Takeover - **VMO2** is negotiating a £2 billion acquisition of **Netomnia**, marking a significant UK altnet consolidation.",
       "url": "https://totaltele.com/vmo2-in-talks-with-netomnia-for-2bn-takeover/"
     },
     {
-      "text": "ACOME's Sustainability Challenge - **ACOME** highlights the struggle to balance sustainability ambitions with cost pressures in telecoms.",
+      "text": "ACOME Tackles Sustainability - **ACOME** highlights the challenge of balancing sustainability ambitions with cost pressures in telecoms.",
       "url": "https://totaltele.com/ambitious-carbon-goals-and-the-conundrum-of-cost/"
     },
     {
-      "text": "Starlink Gains Spectrum Boost - **Ofcom** grants **Starlink** more spectrum to enhance satellite backhaul capacity in the UK.",
+      "text": "Starlink Gains Spectrum Boost - **Ofcom** grants **Starlink** additional spectrum to enhance backhaul capacity amid rising demand.",
       "url": "https://totaltele.com/ofcom-temporarily-grants-starlink-more-spectrum-in-the-uk/"
     },
     {
-      "text": "Equinix's £3.9bn Data Centre - **Equinix** plans a massive investment in a new data centre in Hertfordshire, UK.",
+      "text": "Nvidia Backs Nokia for 6G - **Nvidia** invests in **Nokia** to advance enterprise edge AI and 6G capabilities in radio networks.",
+      "url": "https://www.telecomstechnews.com/news/nvidia-backs-nokia-as-both-plan-enterprise-edge-ai-and-6g/"
+    },
+    {
+      "text": "Equinix Invests in Data Centres - **Equinix** plans a £3.9 billion data centre in Hertfordshire, boosting UK digital infrastructure.",
       "url": "https://totaltele.com/equinix-to-build-3-9bn-hertfordshire-data-centre/"
     },
     {
@@ -22,16 +26,16 @@
       "url": "https://www.telecomstechnews.com/news/o2-uses-starlink-boost-enterprise-connectivity-remote-assets/"
     },
     {
-      "text": "Nvidia Invests in Nokia - **Nvidia** backs **Nokia** to advance enterprise edge AI and future 6G networks.",
-      "url": "https://www.telecomstechnews.com/news/nvidia-backs-nokia-as-both-plan-enterprise-edge-ai-and-6g/"
-    },
-    {
-      "text": "AI Drives Telecom Cloud Shift - Telecom operators are rapidly moving to cloud solutions to leverage AI for automation.",
+      "text": "Telecoms Embrace AI Cloud - Telecom operators are rapidly shifting to cloud solutions to leverage AI for operational efficiency.",
       "url": "https://www.telecomstechnews.com/news/telecom-operators-ai-goals-cloud-spend/"
     },
     {
-      "text": "Verizon's Strategic Fiber Plans - **Verizon** announces new fiber expansion plans amid steady Q3 earnings growth.",
-      "url": "https://www.rcrwireless.com/20251029/uncategorized/verizon-q3-earnings"
+      "text": "OneLayer Secures £28m for 5G - **OneLayer** raises $28 million to enhance security in private 5G networks across industries.",
+      "url": "https://www.rcrwireless.com/20251031/private-5g/onelayer-private-5g-industry-40"
+    },
+    {
+      "text": "AI-Native 6G Networks Emerge - AI integration in **6G** networks promises to revolutionize enterprise operations and user experiences.",
+      "url": "https://www.telecomstechnews.com/news/how-ai-native-6g-networks-boost-enterprise-operations/"
     }
   ]
 }

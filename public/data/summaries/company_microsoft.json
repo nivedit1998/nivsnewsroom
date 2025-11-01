@@ -1,32 +1,44 @@
 {
-  "generatedAt": "2025-10-31T08:45:39.733Z",
+  "generatedAt": "2025-11-01T08:42:05.092Z",
   "bullets": [
     {
-      "text": "Immersive Productivity Unleashed - **Windows 11** and **Meta Quest** now integrate for enhanced mixed reality productivity.",
+      "text": "Cloud-Native App Development Revolutionized - **Microsoft** showcases building intelligent apps in under 30 minutes using **GitHub Copilot** and **VS Code**.",
+      "url": "https://devblogs.microsoft.com/blog/behind-the-universe-demo-with-vs-code-copilot-and-agent-framework"
+    },
+    {
+      "text": "Windows 11 Insider Preview Update - New features including **Ask Copilot** in the taskbar enhance user experience on Windows 11.",
+      "url": "https://blogs.windows.com/windows-insider/2025/10/31/announcing-windows-11-insider-preview-build-26220-7051-dev-beta-channels/"
+    },
+    {
+      "text": "Shared Audio Experience Launched - **Windows 11** now supports sharing audio between multiple Bluetooth devices using **LE Audio**.",
+      "url": "https://blogs.windows.com/windows-insider/2025/10/31/extending-bluetooth-le-audio-on-windows-11-with-shared-audio-preview/"
+    },
+    {
+      "text": "Enhanced Scareware Protection - **Microsoft Edge** expands its **Scareware blocker** to protect users from scams effectively.",
+      "url": "https://blogs.windows.com/msedgedev/2025/10/31/protecting-more-edge-users-with-expanded-scareware-blocker-availability-and-real-time-protection/"
+    },
+    {
+      "text": "Mixed Reality Productivity Tools - **Windows** and **Meta Quest** integration enhances productivity in immersive environments.",
       "url": "https://blogs.windows.com/windowsexperience/2025/10/30/immersive-productivity-with-windows-and-meta-quest-now-generally-available/"
     },
     {
-      "text": "Edge for Business Security Boost - New connectors enhance **Microsoft Edge** security, integrating with existing tools for better protection.",
+      "text": "New Edge for Business Connectors - **Microsoft Edge** introduces security connectors to enhance browser security for businesses.",
       "url": "https://blogs.windows.com/msedgedev/2025/10/30/secure-the-browser-your-way-with-new-edge-for-business-connectors/"
     },
     {
-      "text": "AI Security Threats Revealed - New e-book outlines critical generative AI threats and strategies for organizations to enhance security.",
+      "text": "AI Security Threats Explored - **Microsoft** releases an e-book detailing critical generative AI security threats organizations must address.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/10/30/the-5-generative-ai-security-threats-you-need-to-know-about-detailed-in-new-e-book/"
     },
     {
-      "text": "AI Evaluation Made Easy - **Microsoft.Extensions.AI.Evaluation** libraries help developers ensure AI applications deliver reliable results.",
+      "text": "AI Evaluation Libraries Introduced - **Microsoft.Extensions.AI.Evaluation** libraries help developers ensure AI applications provide accurate outcomes.",
       "url": "https://devblogs.microsoft.com/blog/put-your-ai-to-the-test-with-microsoft-extensions-ai-evaluation"
     },
     {
-      "text": "Copilot's New Text Features - **Windows Insiders** can now interact with **Copilot** using text input for enhanced user experience.",
+      "text": "Copilot Vision Update - **Microsoft Copilot** now allows text input for enhanced interaction on **Windows**.",
       "url": "https://blogs.windows.com/windows-insider/2025/10/28/copilot-on-windows-vision-with-text-input-begins-rolling-out-to-windows-insiders/"
     },
     {
-      "text": "AI-First Differentiation Strategy - **Microsoft** empowers customers to leverage AI for operational excellence and innovation.",
-      "url": "https://blogs.microsoft.com/blog/2025/10/28/becoming-frontier-how-human-ambition-and-ai-first-differentiation-are-helping-microsoft-customers-go-further-with-ai/"
-    },
-    {
-      "text": "Strengthening OpenAI Partnership - **Microsoft** and **OpenAI** sign new agreement to enhance collaboration and innovation in AI.",
+      "text": "Strengthening AI Partnerships - **Microsoft** and **OpenAI** announce a new agreement to further their collaboration in AI development.",
       "url": "https://blogs.microsoft.com/blog/2025/10/28/the-next-chapter-of-the-microsoft-openai-partnership/"
     }
   ]
