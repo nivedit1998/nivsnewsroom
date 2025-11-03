@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2025-11-02T08:40:53.219Z",
+  "generatedAt": "2025-11-03T08:48:45.704Z",
   "bullets": [
     {
-      "text": "VMO2 Eyes £2bn Netomnia Deal - **VMO2** is negotiating to acquire **Netomnia**, marking a significant UK altnet market consolidation.",
+      "text": "VMO2 Eyes £2bn Netomnia Deal - **VMO2** seeks to acquire **Netomnia**, marking a significant consolidation in the UK fibre market.",
       "url": "https://totaltele.com/vmo2-in-talks-with-netomnia-for-2bn-takeover/"
     },
     {
-      "text": "Sustainability Challenges in Telecom - **ACOME** highlights the struggle between carbon neutrality ambitions and cost pressures in telecom operations.",
+      "text": "ACOME's Sustainability Challenge - **ACOME** highlights the struggle to balance **sustainability** and cost in telecom operations.",
       "url": "https://totaltele.com/ambitious-carbon-goals-and-the-conundrum-of-cost/"
     },
     {
@@ -14,7 +14,11 @@
       "url": "https://totaltele.com/ofcom-temporarily-grants-starlink-more-spectrum-in-the-uk/"
     },
     {
-      "text": "Equinix's £3.9bn Data Centre - **Equinix** plans a major data centre investment in Hertfordshire, boosting UK's digital infrastructure.",
+      "text": "Nvidia Backs Nokia for 6G - **Nvidia** invests in **Nokia** to advance **AI** and **6G** in radio networks.",
+      "url": "https://www.telecomstechnews.com/news/nvidia-backs-nokia-as-both-plan-enterprise-edge-ai-and-6g/"
+    },
+    {
+      "text": "Equinix's £3.9bn Data Centre - **Equinix** plans a £3.9 billion data centre in Hertfordshire, boosting UK digital infrastructure.",
       "url": "https://totaltele.com/equinix-to-build-3-9bn-hertfordshire-data-centre/"
     },
     {
@@ -22,16 +26,20 @@
       "url": "https://www.telecomstechnews.com/news/o2-uses-starlink-boost-enterprise-connectivity-remote-assets/"
     },
     {
-      "text": "AI and Cloud Spending Surge - Telecom operators are accelerating cloud investments to leverage AI for operational efficiency.",
+      "text": "Telecoms Shift to AI Cloud - Telecom operators are rapidly increasing **cloud** investments to leverage **AI** for operational efficiency.",
       "url": "https://www.telecomstechnews.com/news/telecom-operators-ai-goals-cloud-spend/"
     },
     {
-      "text": "Nvidia Backs Nokia for 6G - **Nvidia** invests in **Nokia** to advance enterprise edge AI and future 6G networks.",
-      "url": "https://www.telecomstechnews.com/news/nvidia-backs-nokia-as-both-plan-enterprise-edge-ai-and-6g/"
+      "text": "OneLayer Secures £28m for 5G - **OneLayer** raises $28 million to enhance security in private **5G** networks.",
+      "url": "https://www.rcrwireless.com/20251031/private-5g/onelayer-private-5g-industry-40"
     },
     {
-      "text": "OneLayer Secures £28m for Private 5G - **OneLayer** aims to enhance security in private 5G networks with new funding.",
-      "url": "https://www.rcrwireless.com/20251031/private-5g/onelayer-private-5g-industry-40"
+      "text": "AI-Native 6G Networks Emerge - **AI-native 6G** networks promise to revolutionize enterprise operations and user experience.",
+      "url": "https://www.telecomstechnews.com/news/how-ai-native-6g-networks-boost-enterprise-operations/"
+    },
+    {
+      "text": "ATIS Promotes Self-Sovereign Identity - **ATIS** releases a guide for telecoms to adopt **self-sovereign identity** for enhanced security.",
+      "url": "https://www.rcrwireless.com/20251030/carriers/atis-ssi-telecom"
     }
   ]
 }

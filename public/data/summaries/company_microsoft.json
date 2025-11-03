@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2025-11-02T08:41:08.784Z",
+  "generatedAt": "2025-11-03T08:49:12.326Z",
   "bullets": [
     {
-      "text": "AI-Powered App Development - Microsoft showcased building a cloud-native app in under 30 minutes using **GitHub Copilot** and **VS Code**.",
+      "text": "AI-Powered App Development - Microsoft showcased building a cloud-native app in under 30 minutes using **VS Code**, **GitHub Copilot**, and the **Microsoft Agent Framework**.",
       "url": "https://devblogs.microsoft.com/blog/behind-the-universe-demo-with-vs-code-copilot-and-agent-framework"
     },
     {
-      "text": "Windows 11 Insider Update - New features including **Ask Copilot** in the taskbar enhance user interaction with Windows 11.",
+      "text": "Windows 11 Insider Preview - New build introduces **Ask Copilot** in the taskbar for enhanced user interaction and productivity.",
       "url": "https://blogs.windows.com/windows-insider/2025/10/31/announcing-windows-11-insider-preview-build-26220-7051-dev-beta-channels/"
     },
     {
-      "text": "Shared Audio Experience - Windows 11 now allows audio sharing between two Bluetooth devices, enhancing user connectivity.",
+      "text": "Shared Audio Feature - Windows 11 now supports sharing audio between two Bluetooth devices, enhancing user experience.",
       "url": "https://blogs.windows.com/windows-insider/2025/10/31/extending-bluetooth-le-audio-on-windows-11-with-shared-audio-preview/"
     },
     {
@@ -18,19 +18,15 @@
       "url": "https://blogs.windows.com/msedgedev/2025/10/31/protecting-more-edge-users-with-expanded-scareware-blocker-availability-and-real-time-protection/"
     },
     {
-      "text": "Mixed Reality Productivity - **Windows 11** and **Meta Quest** integration now available, enhancing immersive work environments.",
+      "text": "Mixed Reality Productivity - **Windows 11** and **Meta Quest** integration now generally available, enhancing immersive work environments.",
       "url": "https://blogs.windows.com/windowsexperience/2025/10/30/immersive-productivity-with-windows-and-meta-quest-now-generally-available/"
     },
     {
-      "text": "AI Evaluation Tools - New libraries for **.NET** developers help ensure AI applications produce reliable and safe outputs.",
+      "text": "AI Evaluation Tools - New libraries for .NET developers help ensure AI applications produce reliable and safe outputs.",
       "url": "https://devblogs.microsoft.com/blog/put-your-ai-to-the-test-with-microsoft-extensions-ai-evaluation"
     },
     {
-      "text": "Next-Gen AI Threats - Microsoft highlights critical generative AI security threats in a new e-book for organizations.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2025/10/30/the-5-generative-ai-security-threats-you-need-to-know-about-detailed-in-new-e-book/"
-    },
-    {
-      "text": "Strengthening AI Partnerships - Microsoft and **OpenAI** deepen their collaboration with a new agreement to advance AI responsibly.",
+      "text": "Next Steps with OpenAI - Microsoft strengthens its partnership with **OpenAI**, focusing on responsible AI advancement.",
       "url": "https://blogs.microsoft.com/blog/2025/10/28/the-next-chapter-of-the-microsoft-openai-partnership/"
     }
   ]
