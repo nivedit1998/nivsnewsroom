@@ -1,45 +1,45 @@
 {
-  "generatedAt": "2025-11-04T08:48:40.865Z",
+  "generatedAt": "2025-11-05T08:49:05.388Z",
   "bullets": [
     {
-      "text": "New Developer Resource Page - **Microsoft** enhances interoperability for **Microsoft 365** applications with a new developer resource page.",
+      "text": "Windows 11 Insider Preview Build 27982 Released - New lock screen widgets and drag tray feature enhance user experience.",
+      "url": "https://blogs.windows.com/blog/2025/11/04/announcing-windows-11-insider-preview-build-27982-canary-channel/"
+    },
+    {
+      "text": "Generative AI Transforms Security Operations - Microsoft Security Copilot enhances incident response and reduces analyst fatigue.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2025/11/04/learn-what-generative-ai-can-do-for-your-security-operations-center-soc/"
+    },
+    {
+      "text": "New Developer Resource for Microsoft 365 - Enhances interoperability and data portability for partners.",
       "url": "https://devblogs.microsoft.com/blog/new-developer-resource-page-for-microsoft-365-interoperability-and-data-portability"
     },
     {
-      "text": "Passkey Syncing in Edge - **Microsoft Edge** now allows secure passkey saving and syncing across devices for easier logins.",
+      "text": "Microsoft Edge Introduces Passkey Syncing - Passkeys enhance security and simplify sign-ins across devices.",
       "url": "https://blogs.windows.com/msedgedev/2025/11/03/microsoft-edge-introduces-passkey-saving-and-syncing-with-microsoft-password-manager/"
     },
     {
-      "text": "Novel Backdoor Discovered - **Microsoft** researchers uncover a backdoor using the **OpenAI** API for command-and-control communications.",
+      "text": "Novel Backdoor Uses OpenAI API - SesameOp exploits OpenAI for stealthy command-and-control communications.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/11/03/sesameop-novel-backdoor-uses-openai-assistants-api-for-command-and-control/"
     },
     {
-      "text": "GitHub Universe Highlights - **GitHub** showcases innovations in developer collaboration and AI integration at the annual event.",
-      "url": "https://azure.microsoft.com/en-us/blog/github-universe-2025-where-developer-innovation-took-center-stage/"
+      "text": "AI-Powered App Development Demo - GitHub Copilot and VS Code streamline app creation in under 30 minutes.",
+      "url": "https://devblogs.microsoft.com/blog/behind-the-universe-demo-with-vs-code-copilot-and-agent-framework"
     },
     {
-      "text": "Windows 11 Insider Preview - New features and updates are rolling out for **Windows 11** Insiders in the Dev and Beta Channels.",
+      "text": "Windows 11 Insider Preview Build 26220 Released - New features and updates available for Dev & Beta Channels.",
       "url": "https://blogs.windows.com/windows-insider/2025/10/31/announcing-windows-11-insider-preview-build-26220-7051-dev-beta-channels/"
     },
     {
-      "text": "AI Security Threats E-Book - **Microsoft** releases a guide detailing five generative AI security threats organizations must know.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2025/10/30/the-5-generative-ai-security-threats-you-need-to-know-about-detailed-in-new-e-book/"
+      "text": "Bluetooth LE Audio Shared Experience - New feature allows audio sharing between multiple Bluetooth devices.",
+      "url": "https://blogs.windows.com/windows-insider/2025/10/31/extending-bluetooth-le-audio-on-windows-11-with-shared-audio-preview/"
     },
     {
-      "text": "AI Evaluation Libraries - **Microsoft** introduces libraries to evaluate AI applications, ensuring quality and reliability.",
-      "url": "https://devblogs.microsoft.com/blog/put-your-ai-to-the-test-with-microsoft-extensions-ai-evaluation"
-    },
-    {
-      "text": "Expanded Edge Security - **Microsoft Edge** enhances user protection with an expanded scareware blocker and real-time protection.",
+      "text": "Expanded Scareware Blocker in Edge - Protects users from scams before traditional defenses can react.",
       "url": "https://blogs.windows.com/msedgedev/2025/10/31/protecting-more-edge-users-with-expanded-scareware-blocker-availability-and-real-time-protection/"
     },
     {
-      "text": "Immersive Productivity with Meta - **Microsoft** and **Meta** launch tools for enhanced productivity in mixed reality environments.",
+      "text": "Windows and Meta Quest Integration - Mixed Reality Link enhances productivity with immersive environments.",
       "url": "https://blogs.windows.com/windowsexperience/2025/10/30/immersive-productivity-with-windows-and-meta-quest-now-generally-available/"
-    },
-    {
-      "text": "AI Advancements with NVIDIA - **Microsoft** and **NVIDIA** announce new AI capabilities to enhance cloud and edge computing.",
-      "url": "https://azure.microsoft.com/en-us/blog/building-the-future-together-microsoft-and-nvidia-announce-ai-advancements-at-gtc-dc/"
     }
   ]
 }

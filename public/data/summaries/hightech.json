@@ -1,45 +1,45 @@
 {
-  "generatedAt": "2025-11-04T08:47:52.408Z",
+  "generatedAt": "2025-11-05T08:47:39.430Z",
   "bullets": [
     {
-      "text": "Disney Movies Vanish - **Disney** pulls content from **Google TV** amid ongoing disputes.",
+      "text": "Thin Phone Revolution - **Motorola's** Edge 70 sets a new standard for slim devices with impressive battery life.",
+      "url": "https://www.theverge.com/gadgets/813377/motorola-edge-70-review"
+    },
+    {
+      "text": "Disney Content Crisis - **Disney** pulls movies from **Google** platforms amid ongoing negotiations.",
       "url": "https://9to5google.com/2025/11/03/disney-movies-disappear-from-google-tv-youtube-and-play-amid-youtube-tv-feud/"
     },
     {
-      "text": "Apple's Christmas Competition - **Apple** invites UK iPad users to submit festive drawings for a chance to shine.",
-      "url": "https://9to5mac.com/2025/11/03/apple-has-a-christmas-tree-drawing-competition-on-ipad-uk-entries-only/"
-    },
-    {
-      "text": "AI Browser Evolution - **Dia** integrates features from **Arc**, enhancing user experience with AI capabilities.",
-      "url": "https://techcrunch.com/2025/11/03/dias-ai-browser-starts-adding-arcs-greatest-hits-to-its-feature-set/"
-    },
-    {
-      "text": "Windows 11 Audio Sharing - New feature allows users to share audio with multiple Bluetooth devices simultaneously.",
+      "text": "Windows 11 Audio Sharing - New feature allows simultaneous audio streaming to two Bluetooth devices.",
       "url": "https://www.cnet.com/tech/mobile/windows-11-previews-a-feature-that-lets-you-share-audio-with-another-persons-device/#ftag=CAD590a51e"
     },
     {
-      "text": "NotebookLM Chat Upgrade - **Google** enhances its AI notetaking tool, improving conversation flow and memory.",
-      "url": "https://www.cnet.com/tech/services-and-software/notebooklms-chat-feature-is-getting-a-big-upgrade-heres-whats-changing/#ftag=CAD590a51e"
+      "text": "Apple's Creative Competition - **Apple** invites UK iPad users to submit Christmas tree drawings for a public display.",
+      "url": "https://9to5mac.com/2025/11/03/apple-has-a-christmas-tree-drawing-competition-on-ipad-uk-entries-only/"
     },
     {
-      "text": "ChatGPT Voice Mode - **OpenAI**'s voice feature transforms interactions into natural conversations, enhancing usability.",
-      "url": "https://www.cnet.com/tech/services-and-software/chatgpts-voice-feature-is-the-conversational-assistant-ive-been-craving/#ftag=CAD590a51e"
+      "text": "iOS Freeform Upgrade - New **iOS 26.2** introduces table support in the Freeform app for enhanced productivity.",
+      "url": "https://9to5mac.com/2025/11/04/ios-26-2-gives-freeform-app-brand-new-tables-feature/"
     },
     {
-      "text": "Asus ProArt Display Review - The **Asus** ProArt 6K offers exceptional value for Mac users at $1300.",
+      "text": "AirPods Translation Feature - **Apple** confirms Live Translation for AirPods will launch in the EU next month.",
+      "url": "https://9to5mac.com/2025/11/04/airpods-live-translation-feature-coming-to-the-eu-next-month/"
+    },
+    {
+      "text": "macOS Spotlight Enhancements - **macOS Tahoe 26.1** adds privacy tools for clipboard history in Spotlight.",
+      "url": "https://9to5mac.com/2025/11/04/macos-tahoe-26-1-adds-new-tools-for-spotlights-clipboard-feature/"
+    },
+    {
+      "text": "iPadOS Productivity Boost - **iPadOS 26.1** reintroduces Slide Over for improved multitasking on iPad Pro.",
+      "url": "https://9to5mac.com/2025/11/04/ipados-26-1-made-my-ipad-pro-more-powerful-than-ever-with-one-feature/"
+    },
+    {
+      "text": "Affordable 6K Display - **Asus** ProArt Display 6K offers exceptional value for Mac users at $1300.",
       "url": "https://9to5mac.com/2025/11/03/review-asus-proart-display-6k-a-ridiculously-good-value-at-1300-video/"
     },
     {
-      "text": "Facebook Dating Surprises - **Meta** reveals 21.5 million daily users for its dating feature, challenging assumptions.",
-      "url": "https://techcrunch.com/2025/11/03/wait-people-actually-use-facebook-dating/"
-    },
-    {
-      "text": "Apple Music's Hidden Feature - New pinned music option in **iOS 26** enhances user experience with custom actions.",
-      "url": "https://9to5mac.com/2025/10/31/my-top-apple-music-upgrade-in-ios-26-has-a-hidden-feature-i-love/"
-    },
-    {
-      "text": "Baseus EnerGeek GX11 Review - This portable charger doubles as a hotspot, offering convenience on the go.",
-      "url": "https://9to5mac.com/2025/10/31/baseus-energeek-gx11-review/"
+      "text": "Epic and Google Settlement - **Epic Games** and **Google** reach a settlement that may reshape Android's app ecosystem.",
+      "url": "https://www.theverge.com/policy/813991/epic-google-proposed-settlement"
     }
   ]
 }
