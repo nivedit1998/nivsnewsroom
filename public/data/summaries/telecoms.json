@@ -1,41 +1,37 @@
 {
-  "generatedAt": "2025-11-05T08:48:38.114Z",
+  "generatedAt": "2025-11-06T08:47:15.191Z",
   "bullets": [
     {
-      "text": "Zoom Opens UK Data Centre - **Zoom** plans a UK data centre by 2026 to enhance local data residency and AI services.",
+      "text": "UK Telecoms Unite Against Scams - Major UK telcos commit to a new Telecommunications Fraud Charter to combat scam calls.",
+      "url": "https://totaltele.com/uk-telecom-industry-unites-to-combat-scam-calls-with-new-fraud-charter/"
+    },
+    {
+      "text": "Zoom's UK Data Centre Plans - Zoom will open a UK data centre in 2026 to enhance local data residency compliance.",
       "url": "https://totaltele.com/zoom-to-open-uk-data-centre-as-part-of-ai-focused-expansion/"
     },
     {
-      "text": "VMO2 Negotiates £2bn Acquisition - **Virgin Media O2** is in talks to acquire **Netomnia**, marking a significant UK fibre market consolidation.",
+      "text": "VMO2 Eyes £2bn Acquisition - Virgin Media O2 negotiates to acquire fibre altnet Netomnia, marking a significant market consolidation.",
       "url": "https://totaltele.com/vmo2-in-talks-with-netomnia-for-2bn-takeover/"
     },
     {
-      "text": "Equinix Invests £3.9bn in Data Centre - **Equinix** plans a £3.9 billion data centre in Hertfordshire, boosting UK digital infrastructure.",
+      "text": "Equinix's £3.9bn Data Centre - Equinix plans a major data centre in Hertfordshire, boosting the UK's digital infrastructure.",
       "url": "https://totaltele.com/equinix-to-build-3-9bn-hertfordshire-data-centre/"
     },
     {
-      "text": "O2 Partners with Starlink - **O2** collaborates with **Starlink** to enhance connectivity for remote assets in rural areas.",
+      "text": "O2 Partners with Starlink - O2 collaborates with Starlink to enhance connectivity for remote enterprise assets.",
       "url": "https://www.telecomstechnews.com/news/o2-uses-starlink-boost-enterprise-connectivity-remote-assets/"
     },
     {
-      "text": "Jamf Launches AI Forensics Tool - **Jamf** introduces AI analysis to enhance mobile forensics and threat detection capabilities.",
+      "text": "Telefónica's Growth Strategy - Telefónica launches a strategic plan focusing on AI and operational efficiency across key markets.",
+      "url": "https://www.rcrwireless.com/20251105/5g/telefonica-plan-growth"
+    },
+    {
+      "text": "Jamf's AI Forensics Tool - Jamf introduces AI analysis for mobile forensics, enhancing threat detection for high-value users.",
       "url": "https://www.telecomstechnews.com/news/jamf-releases-ai-analysis-for-ios-forensics/"
     },
     {
-      "text": "AI and 5G Convergence - **Nvidia** invests in **Nokia** to enhance AI capabilities in future 5G and 6G networks.",
-      "url": "https://www.telecomstechnews.com/news/nvidia-backs-nokia-as-both-plan-enterprise-edge-ai-and-6g/"
-    },
-    {
-      "text": "Changing Video Habits Create Data Challenges - UK viewers now prefer apps over traditional TV, complicating data management.",
+      "text": "Changing Video Habits Create Data Challenges - UK viewers increasingly prefer app-based content, complicating data management for enterprises.",
       "url": "https://www.telecomstechnews.com/news/changing-video-consumption-habits-create-data-challenge/"
-    },
-    {
-      "text": "AI Infrastructure Bottleneck - **SK Telecom** addresses the growing demands of AI with new data centre strategies.",
-      "url": "https://www.telecomstechnews.com/news/sk-telecom-why-ai-infrastructure-bottleneck-matters/"
-    },
-    {
-      "text": "AI Strategy as Industrial Race - The competition for AI dominance is shifting towards deployment speed and efficiency.",
-      "url": "https://www.rcrwireless.com/20251031/ai-ml/ai-strategy-industrial-race"
     }
   ]
 }
