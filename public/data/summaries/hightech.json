@@ -1,45 +1,37 @@
 {
-  "generatedAt": "2025-11-06T08:46:49.017Z",
+  "generatedAt": "2025-11-07T08:46:35.401Z",
   "bullets": [
     {
-      "text": "Motorola Edge 70 Launches - **Motorola**'s ultra-thin smartphone now available in the UK at €799.",
+      "text": "Starlink Expands Global Reach - **SpaceX** secures $2.6 billion in spectrum licenses as **Starlink** surpasses 8 million customers.",
+      "url": "https://techcrunch.com/2025/11/06/spacexs-starlink-secures-more-spectrum-and-airlines-as-it-passes-8-million-customers/"
+    },
+    {
+      "text": "Motorola Edge 70 Launches - The ultra-thin **Motorola Edge 70** debuts in the UK with a sleek 5.99mm profile.",
       "url": "https://9to5google.com/2025/11/05/motorola-edge-70-global-launch/"
     },
     {
-      "text": "iOS 26.2 Removes Feature - **Apple** will disable Wi-Fi syncing between iPhones and Apple Watches in the EU.",
-      "url": "https://9to5mac.com/2025/11/05/ios-26-2-will-remove-a-key-iphone-and-apple-watch-feature-in-eu-per-report/"
+      "text": "AI Lane Guidance for Cars - **Polestar 4** introduces a new feature to help drivers avoid missing exits.",
+      "url": "https://www.cnet.com/roadshow/news/this-new-ai-feature-for-cars-promises-to-keep-you-from-missing-your-exit/#ftag=CAD590a51e"
     },
     {
-      "text": "Apple's Christmas Competition - **Apple** invites UK iPad users to submit Christmas tree drawings for a London projection.",
-      "url": "https://9to5mac.com/2025/11/03/apple-has-a-christmas-tree-drawing-competition-on-ipad-uk-entries-only/"
+      "text": "iOS 26 Enhancements - New features in **iOS 26** include password version history and improved **Apple Podcasts** functionality.",
+      "url": "https://9to5mac.com/2025/11/06/ios-26-passwords-app-has-convenient-new-feature/"
     },
     {
-      "text": "AirPods Live Translation - **Apple** confirms the Live Translation feature for AirPods will launch in the EU next month.",
-      "url": "https://9to5mac.com/2025/11/04/airpods-live-translation-feature-coming-to-the-eu-next-month/"
+      "text": "Tesla's Cybercab Production - **Tesla** plans to start production of its autonomous **Cybercab** in April 2026.",
+      "url": "https://techcrunch.com/2025/11/06/tesla-to-begin-cybercab-production-in-april-musk-claims/"
     },
     {
-      "text": "New Reminders Feature - **Apple**'s iOS 26.2 introduces 'Urgent' alarms in the Reminders app.",
-      "url": "https://9to5mac.com/2025/11/05/ios-26-2s-new-reminders-feature-is-exactly-what-ive-wanted-for-years/"
+      "text": "Grand Theft Auto VI Delayed - **Rockstar Games** pushes back the launch of **GTA VI** to November 2026.",
+      "url": "https://techcrunch.com/2025/11/06/grand-theft-auto-vi-is-delayed-again/"
     },
     {
-      "text": "Verizon's Affordable Internet - **Verizon** launches a $25/month internet plan aimed at low-cost connectivity.",
-      "url": "https://www.cnet.com/home/internet/got-poor-internet-access-verizons-new-25-per-month-internet-plan-may-help/#ftag=CAD590a51e"
+      "text": "Meta's AI Video Feed - **Meta** launches its AI-generated video feed, **Vibes**, in Europe.",
+      "url": "https://techcrunch.com/2025/11/06/meta-brings-its-short-form-video-feed-of-ai-slop-to-europe/"
     },
     {
-      "text": "Discord Family Center Update - **Discord** enhances parental controls, allowing guardians to monitor teen purchases.",
-      "url": "https://techcrunch.com/2025/11/05/discords-family-center-update-now-lets-parents-monitor-weekly-purchases/"
-    },
-    {
-      "text": "Pinterest Embraces Open Source AI - **Pinterest** CEO highlights open source AI's potential for cost-effective visual AI solutions.",
-      "url": "https://techcrunch.com/2025/11/05/pinterest-ceo-touts-open-source-ai-tremendous-performance-with-reduced-costs/"
-    },
-    {
-      "text": "Apple's Siri Overhaul - **Apple** nears a $1 billion deal with **Google** to power a new version of Siri.",
-      "url": "https://techcrunch.com/2025/11/05/apple-nears-deal-to-pay-google-1b-annually-to-power-new-siri-report-says/"
-    },
-    {
-      "text": "Tinder's AI Features - **Tinder** plans to use AI to enhance user experience by accessing Camera Roll photos.",
-      "url": "https://techcrunch.com/2025/11/05/tinder-to-use-ai-to-get-to-know-users-tap-into-their-camera-roll-photos/"
+      "text": "OpenAI's Revenue Surge - **OpenAI** reports a $20 billion annual run rate and $1.4 trillion in data center commitments.",
+      "url": "https://techcrunch.com/2025/11/06/sam-altman-says-openai-has-20b-arr-and-about-1-4-trillion-in-data-center-commitments/"
     }
   ]
 }

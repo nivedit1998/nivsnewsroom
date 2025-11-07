@@ -1,37 +1,45 @@
 {
-  "generatedAt": "2025-11-06T08:47:15.191Z",
+  "generatedAt": "2025-11-07T08:47:23.893Z",
   "bullets": [
     {
-      "text": "UK Telecoms Unite Against Scams - Major UK telcos commit to a new Telecommunications Fraud Charter to combat scam calls.",
+      "text": "Combatting Scam Calls - **UK** telcos unite under a new **Telecommunications Fraud Charter** to tackle scam calls effectively.",
       "url": "https://totaltele.com/uk-telecom-industry-unites-to-combat-scam-calls-with-new-fraud-charter/"
     },
     {
-      "text": "Zoom's UK Data Centre Plans - Zoom will open a UK data centre in 2026 to enhance local data residency compliance.",
+      "text": "Zoom's UK Data Centre - **Zoom** plans to open a UK data centre in 2026 to enhance local data residency and compliance.",
       "url": "https://totaltele.com/zoom-to-open-uk-data-centre-as-part-of-ai-focused-expansion/"
     },
     {
-      "text": "VMO2 Eyes £2bn Acquisition - Virgin Media O2 negotiates to acquire fibre altnet Netomnia, marking a significant market consolidation.",
-      "url": "https://totaltele.com/vmo2-in-talks-with-netomnia-for-2bn-takeover/"
+      "text": "BT's Revenue Decline - **BT** reports a 3% drop in revenue, prompting significant job cuts amid competitive pressures.",
+      "url": "https://totaltele.com/bt-cuts-5000-jobs-as-openreach-bleeds-customers/"
     },
     {
-      "text": "Equinix's £3.9bn Data Centre - Equinix plans a major data centre in Hertfordshire, boosting the UK's digital infrastructure.",
-      "url": "https://totaltele.com/equinix-to-build-3-9bn-hertfordshire-data-centre/"
-    },
-    {
-      "text": "O2 Partners with Starlink - O2 collaborates with Starlink to enhance connectivity for remote enterprise assets.",
-      "url": "https://www.telecomstechnews.com/news/o2-uses-starlink-boost-enterprise-connectivity-remote-assets/"
-    },
-    {
-      "text": "Telefónica's Growth Strategy - Telefónica launches a strategic plan focusing on AI and operational efficiency across key markets.",
-      "url": "https://www.rcrwireless.com/20251105/5g/telefonica-plan-growth"
-    },
-    {
-      "text": "Jamf's AI Forensics Tool - Jamf introduces AI analysis for mobile forensics, enhancing threat detection for high-value users.",
+      "text": "AI in Mobile Forensics - **Jamf** launches AI Analysis for iOS forensics, enhancing mobile threat detection and response.",
       "url": "https://www.telecomstechnews.com/news/jamf-releases-ai-analysis-for-ios-forensics/"
     },
     {
-      "text": "Changing Video Habits Create Data Challenges - UK viewers increasingly prefer app-based content, complicating data management for enterprises.",
+      "text": "Open RAN Testing Expansion - **Digital Catapult** welcomes new vendors to accelerate **Open RAN** trials in the UK.",
+      "url": "https://totaltele.com/digital-catapult-draws-in-more-vendors-for-open-ran-testing/"
+    },
+    {
+      "text": "Telefónica's Growth Strategy - **Telefónica** unveils a strategic plan focusing on AI-driven innovation and operational efficiency.",
+      "url": "https://www.rcrwireless.com/20251105/5g/telefonica-plan-growth"
+    },
+    {
+      "text": "Changing Video Consumption - Over half of **UK** viewers now watch content via apps, posing new data challenges for enterprises.",
       "url": "https://www.telecomstechnews.com/news/changing-video-consumption-habits-create-data-challenge/"
+    },
+    {
+      "text": "MNOs Embrace New Models - Mobile operators are shifting towards managed overlays and consumption-based models in enterprise connectivity.",
+      "url": "https://www.rcrwireless.com/20251106/fundamentals/mpls-sd-wan-mpn-naas-mnos"
+    },
+    {
+      "text": "AWS's Fastnet Cable - **AWS** announces a new transatlantic cable, Fastnet, to enhance cloud and AI traffic resilience.",
+      "url": "https://totaltele.com/aws-unveils-plans-for-transatlantic-cable-fastnet/"
+    },
+    {
+      "text": "BT's 5G Leadership - **BT** maintains its top mobile network status for the 12th year, expanding 5G coverage to 66%.",
+      "url": "https://www.rcrwireless.com/20251106/5g/bt-revenues-h1"
     }
   ]
 }
