@@ -1,45 +1,41 @@
 {
-  "generatedAt": "2025-11-07T08:47:50.831Z",
+  "generatedAt": "2025-11-08T08:43:04.159Z",
   "bullets": [
     {
-      "text": "Microsoft Named Leader in IDC MarketScape - Microsoft has been recognized as a leader in application streaming and enterprise browsers.",
+      "text": "Windows 11 Insider Preview 28000 Released - This build focuses on general improvements and platform changes for Insiders.",
+      "url": "https://blogs.windows.com/windows-insider/2025/11/07/announcing-windows-11-insider-preview-build-28000-canary-channel/"
+    },
+    {
+      "text": "Windows 11 Insider Preview 26220.7070 Available - New features and improvements are rolling out to Dev and Beta Channels.",
+      "url": "https://blogs.windows.com/windows-insider/2025/11/07/announcing-windows-11-insider-preview-build-26220-7070-dev-beta-channels/"
+    },
+    {
+      "text": "Microsoft Recognized as Leader - IDC MarketScape highlights Microsoft's excellence in application streaming and enterprise browsers.",
       "url": "https://blogs.windows.com/msedgedev/2025/11/06/microsoft-recognized-as-a-leader-in-idc-marketscape-on-application-streaming-and-enterprise-browsers/"
     },
     {
-      "text": "Cloud Security at a Tipping Point - IDC reports a significant rise in cloud security incidents, urging a rethink in strategies.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2025/11/06/new-idc-research-highlights-a-major-cloud-security-shift/"
+      "text": "Whisper Leak Cyberattack Discovered - A new side-channel attack threatens the confidentiality of language model communications.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2025/11/07/whisper-leak-a-novel-side-channel-cyberattack-on-remote-language-models/"
     },
     {
-      "text": "AI's Dual Role in Cybersecurity - AI can enhance security or introduce new threats, emphasizing the need for careful management.",
-      "url": "https://blogs.microsoft.com/blog/2025/11/05/beware-of-double-agents-how-ai-can-fortify-or-fracture-your-cybersecurity/"
-    },
-    {
-      "text": "Europe's Cybersecurity Regulations Matter - New EU regulations are crucial for protecting critical infrastructure against cyber threats.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2025/11/05/securing-critical-infrastructure-why-europes-risk-based-regulations-matter/"
-    },
-    {
-      "text": "Windows 11 Insider Preview Updates - New features in Windows 11 Insider Preview Build 27982 enhance user experience and security.",
-      "url": "https://blogs.windows.com/blog/2025/11/04/announcing-windows-11-insider-preview-build-27982-canary-channel/"
-    },
-    {
-      "text": "Generative AI Transforms Security Operations - Microsoft Security Copilot leverages AI to enhance security operations and incident response.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2025/11/04/learn-what-generative-ai-can-do-for-your-security-operations-center-soc/"
-    },
-    {
-      "text": "New Developer Resources for Microsoft 365 - Microsoft enhances interoperability and data portability for developers integrating with Microsoft 365.",
-      "url": "https://devblogs.microsoft.com/blog/new-developer-resource-page-for-microsoft-365-interoperability-and-data-portability"
-    },
-    {
-      "text": "Microsoft Edge Introduces Passkeys - Edge now supports passkey saving and syncing, enhancing online security for users.",
+      "text": "Passkeys Now in Microsoft Edge - Edge introduces passkey saving and syncing for enhanced online security.",
       "url": "https://blogs.windows.com/msedgedev/2025/11/03/microsoft-edge-introduces-passkey-saving-and-syncing-with-microsoft-password-manager/"
     },
     {
-      "text": "Novel Backdoor Uses OpenAI API - A new backdoor exploits OpenAI API for command-and-control, showcasing evolving cyber threats.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2025/11/03/sesameop-novel-backdoor-uses-openai-assistants-api-for-command-and-control/"
+      "text": "AI's Role in Cybersecurity - AI can both enhance and threaten cybersecurity, requiring careful management.",
+      "url": "https://blogs.microsoft.com/blog/2025/11/05/beware-of-double-agents-how-ai-can-fortify-or-fracture-your-cybersecurity/"
     },
     {
-      "text": "Behind the Universe Demo at GitHub - Microsoft showcases rapid app development using AI tools at GitHub Universe.",
-      "url": "https://devblogs.microsoft.com/blog/behind-the-universe-demo-with-vs-code-copilot-and-agent-framework"
+      "text": "New Developer Resource for Microsoft 365 - Aimed at enhancing interoperability and data portability for developers.",
+      "url": "https://devblogs.microsoft.com/blog/new-developer-resource-page-for-microsoft-365-interoperability-and-data-portability"
+    },
+    {
+      "text": "Cloud Security Shift Highlighted by IDC - Organizations face increasing cloud security incidents, necessitating strategic changes.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2025/11/06/new-idc-research-highlights-a-major-cloud-security-shift/"
+    },
+    {
+      "text": "SesameOp Backdoor Exploits OpenAI API - A novel backdoor uses OpenAI API for command and control communications.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2025/11/03/sesameop-novel-backdoor-uses-openai-assistants-api-for-command-and-control/"
     }
   ]
 }
