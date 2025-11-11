@@ -1,37 +1,44 @@
 {
-  "generatedAt": "2025-11-10T08:48:48.686Z",
+  "generatedAt": "2025-11-11T08:46:17.335Z",
   "bullets": [
     {
-      "text": "Ikea's Smart Home Revolution - **Ikea** aims to democratize smart home tech with new **Matter-compatible** devices.",
-      "url": "https://www.theverge.com/tech/816650/ikea-just-took-over-your-smart-home"
-    },
-    {
-      "text": "Apple Fitness+ Under Review - **Apple** plans to reorganize **Fitness+** to combat high churn and low revenue.",
+      "text": "Apple Fitness+ Under Review - **Apple** is reorganizing Fitness+ to address high churn and low revenue potential.",
       "url": "https://9to5mac.com/2025/11/09/apple-fitness-under-review-amid-reorganization/"
     },
     {
-      "text": "Massive Apple Deals - Early **Black Friday** discounts include **M5 MacBook Pro** and **AirPods Pro 2**.",
+      "text": "Early Black Friday Deals - Major discounts on **Apple** products, including $125 off the M5 MacBook Pro.",
       "url": "https://9to5mac.com/2025/11/07/deals-m5-macbook-pro-airpods-pro-2-apple-solo-loops/"
     },
     {
-      "text": "ESR's 3-in-1 Charger - The new **ESR** MagSafe stand offers 25W charging for **iPhone**, **Apple Watch**, and **AirPods**.",
+      "text": "ESR's 3-in-1 Charger - New **ESR** MagSafe stand offers 25W charging for iPhone, Apple Watch, and AirPods.",
       "url": "https://9to5mac.com/2025/11/08/esr-3-in-1-magsafe-charging-stand-review-qi-2-2-25w/"
     },
     {
-      "text": "iOS 26.1 Enhancements - The latest **iOS** update boosts **AirPods Pro** with expanded Live Translation features.",
+      "text": "iOS 26.1 Enhancements - **Apple** expands AirPods Live Translation feature with five new languages.",
       "url": "https://9to5mac.com/2025/11/07/ios-26-1-makes-airpods-pros-latest-feature-even-better-heres-whats-new/"
     },
     {
-      "text": "YouTube TV's Customer Credit - Subscribers receive a $20 credit due to the **Disney** channel blackout.",
-      "url": "https://techcrunch.com/2025/11/09/youtube-tv-is-giving-customers-a-20-credit-for-disney-blackout/"
+      "text": "AI Coding Platform Growth - **Lovable** nears 8 million users, showing rapid growth in the AI coding sector.",
+      "url": "https://techcrunch.com/2025/11/10/lovable-says-its-nearing-8-million-users-as-the-year-old-ai-coding-startup-eyes-more-corporate-employees/"
     },
     {
-      "text": "Apple's Satellite Ambitions - **Apple** is developing satellite-powered features for the **iPhone**, enhancing connectivity.",
-      "url": "https://techcrunch.com/2025/11/09/apple-reportedly-plans-ambitious-satellite-powered-iphone-features/"
+      "text": "Kaltura Acquires eSelf - **Kaltura** expands its AI capabilities with a $27M acquisition of eSelf.ai.",
+      "url": "https://techcrunch.com/2025/11/10/kaltura-acquires-eself-founded-by-creator-of-snaps-ai-in-27m-deal/"
     },
     {
-      "text": "iOS 26.2 Feature Changes - Upcoming **iOS** update may remove Wi-Fi syncing for **Apple Watch** in the EU.",
-      "url": "https://9to5mac.com/2025/11/05/ios-26-2-will-remove-a-key-iphone-and-apple-watch-feature-in-eu-per-report/"
+      "text": "Google Maps AI Tools - **Google** introduces new AI features for interactive projects using Maps data."
+    },
+    {
+      "text": "Venmo Launches Rewards - **Venmo** introduces cashback rewards for debit card users, targeting younger consumers.",
+      "url": "https://techcrunch.com/2025/11/10/venmo-launches-cash-back-rewards-program-for-debit-cards/"
+    },
+    {
+      "text": "AI Presentation Tool Valuation - **Gamma** reaches a $2.1B valuation with $100M ARR, showcasing AI's impact.",
+      "url": "https://techcrunch.com/2025/11/10/ai-powerpoint-killer-gamma-hits-2-1b-valuation-100m-arr-founder-says/"
+    },
+    {
+      "text": "Wikipedia's AI API Call - **Wikipedia** urges AI firms to use its paid API instead of scraping content.",
+      "url": "https://techcrunch.com/2025/11/10/wikipedia-urges-ai-companies-to-use-its-paid-api-and-stop-scraping/"
     }
   ]
 }

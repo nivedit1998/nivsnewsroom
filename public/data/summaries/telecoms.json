@@ -1,44 +1,45 @@
 {
-  "generatedAt": "2025-11-10T08:50:19.697Z",
+  "generatedAt": "2025-11-11T08:46:59.757Z",
   "bullets": [
     {
-      "text": "STL's Competitive Edge - **STL** leads the UK's connectivity growth with fiber and data center solutions, targeting hyperscalers.",
+      "text": "STL's Competitive Edge - **STL** leads UK's fiber and data center solutions, anticipating growth from hyperscalers.",
       "url": "https://totaltele.com/why-ceo-rahul-puri-says-stl-will-keep-its-competitive-edge/"
     },
     {
-      "text": "UK Telcos Unite Against Scams - Major UK providers, including **BT** and **Vodafone**, commit to a new **Telecommunications Fraud Charter**.",
+      "text": "UK Telecoms Unite Against Scams - Major UK telcos launch a **Telecommunications Fraud Charter** to combat scam calls.",
       "url": "https://totaltele.com/uk-telecom-industry-unites-to-combat-scam-calls-with-new-fraud-charter/"
     },
     {
-      "text": "Zoom's UK Data Centre Plans - **Zoom** will open a UK data center in 2026 to enhance local data residency and AI services.",
+      "text": "Zoom's UK Data Centre Plans - **Zoom** to establish a UK data center by 2026, enhancing local data residency.",
       "url": "https://totaltele.com/zoom-to-open-uk-data-centre-as-part-of-ai-focused-expansion/"
     },
     {
-      "text": "BT's Revenue Decline - **BT** reports a 3% revenue drop, prompting significant job cuts amid competitive pressures.",
+      "text": "BT's Revenue Decline - **BT** reports a 3% drop in revenue, citing competitive pressures and legacy service declines.",
+      "url": "https://www.rcrwireless.com/20251106/5g/bt-revenues-h1"
+    },
+    {
+      "text": "Job Cuts at BT - **BT** cuts 5,000 jobs amid ongoing restructuring and revenue challenges.",
       "url": "https://totaltele.com/bt-cuts-5000-jobs-as-openreach-bleeds-customers/"
     },
     {
-      "text": "Verizon and AWS Fiber Expansion - **Verizon** partners with **AWS** to build new fiber routes for AI workload demands.",
-      "url": "https://www.telecomstechnews.com/news/verizon-business-builds-fibre-routes-with-aws-for-enterprise-ai/"
-    },
-    {
-      "text": "Digital Catapult's Open RAN Testing - **Digital Catapult** welcomes new vendors to accelerate **Open RAN** trials in the UK.",
+      "text": "Digital Catapult Expands Open RAN - **Digital Catapult** adds six vendors to accelerate Open RAN trials in the UK.",
       "url": "https://totaltele.com/digital-catapult-draws-in-more-vendors-for-open-ran-testing/"
     },
     {
-      "text": "Telefónica's Growth Strategy - **Telefónica** launches a strategic plan focused on AI-driven innovation and operational efficiency."
+      "text": "AI Drives Telco Cloud Boom - **Omdia** forecasts a 12% increase in CSP cloud spending in 2025, driven by AI.",
+      "url": "https://www.rcrwireless.com/20251110/carriers/ai-cloud-omdia"
     },
     {
-      "text": "Changing Video Consumption Trends - Over half of UK viewers now prefer apps over traditional broadcasts, creating data challenges.",
+      "text": "Verizon and AWS Fiber Expansion - **Verizon** partners with **AWS** to enhance fiber routes for AI workloads.",
+      "url": "https://www.rcrwireless.com/20251107/carriers/verizon-aws-build-fiber"
+    },
+    {
+      "text": "ESA's 5G Satellite Trial - **ESA** successfully tests satellite links in 5G networks, enhancing connectivity.",
+      "url": "https://www.telecomstechnews.com/news/esa-trial-brings-satellite-links-into-the-5g-enterprise-network/"
+    },
+    {
+      "text": "Changing Video Consumption - Over half of UK TV content is now consumed via apps, creating data challenges.",
       "url": "https://www.telecomstechnews.com/news/changing-video-consumption-habits-create-data-challenge/"
-    },
-    {
-      "text": "AI Infrastructure Bottleneck - **SK Telecom** aims to address AI demands with new data center initiatives in Korea and Vietnam.",
-      "url": "https://www.telecomstechnews.com/news/sk-telecom-why-ai-infrastructure-bottleneck-matters/"
-    },
-    {
-      "text": "AWS's Fastnet Cable Announcement - **AWS** plans a new transatlantic cable to enhance cloud and AI service resilience.",
-      "url": "https://totaltele.com/aws-unveils-plans-for-transatlantic-cable-fastnet/"
     }
   ]
 }
