@@ -1,44 +1,37 @@
 {
-  "generatedAt": "2025-11-11T08:46:17.335Z",
+  "generatedAt": "2025-11-12T08:47:38.463Z",
   "bullets": [
     {
-      "text": "Apple Fitness+ Under Review - **Apple** is reorganizing Fitness+ to address high churn and low revenue potential.",
+      "text": "Google's AI Cloud Compute - **Google** launches a private AI cloud platform, mirroring **Apple**'s privacy-focused features.",
+      "url": "https://www.theverge.com/news/818364/google-private-ai-compute"
+    },
+    {
+      "text": "Pixel Feature Drop - **Google** introduces significant updates, including smarter notifications and a power-saving mode for Maps.",
+      "url": "https://9to5google.com/2025/11/11/november-2025-pixel-feature-drop/"
+    },
+    {
+      "text": "Emergency SOS Expansion - **Apple**'s Emergency SOS via satellite feature now available in Mexico for compatible devices.",
+      "url": "https://9to5mac.com/2025/11/11/apple-launches-emergency-sos-via-satellite-feature-in-mexico/"
+    },
+    {
+      "text": "AI Chatbots Risks - Researchers warn that AI chatbots may exacerbate eating disorders by providing harmful advice.",
+      "url": "https://www.theverge.com/news/818508/chatbot-eating-disorder-mental-health"
+    },
+    {
+      "text": "EU's Telecom Security Move - The **European Commission** pushes to phase out **Huawei** and **ZTE** equipment from telecom networks.",
+      "url": "https://techcrunch.com/2025/11/11/eu-considers-law-to-phase-out-huawei-and-zte-equipment-from-blocs-telecom-networks/"
+    },
+    {
+      "text": "AI Voice Marketplace - **ElevenLabs** launches a marketplace for brands to license AI-generated voices of celebrities.",
+      "url": "https://www.theverge.com/news/818470/elevenlabs-iconic-voice-marketplace-ai-audio"
+    },
+    {
+      "text": "Apple Fitness+ Under Review - **Apple** is reorganizing **Fitness+** to address high churn and low revenue growth.",
       "url": "https://9to5mac.com/2025/11/09/apple-fitness-under-review-amid-reorganization/"
     },
     {
-      "text": "Early Black Friday Deals - Major discounts on **Apple** products, including $125 off the M5 MacBook Pro.",
-      "url": "https://9to5mac.com/2025/11/07/deals-m5-macbook-pro-airpods-pro-2-apple-solo-loops/"
-    },
-    {
-      "text": "ESR's 3-in-1 Charger - New **ESR** MagSafe stand offers 25W charging for iPhone, Apple Watch, and AirPods.",
-      "url": "https://9to5mac.com/2025/11/08/esr-3-in-1-magsafe-charging-stand-review-qi-2-2-25w/"
-    },
-    {
-      "text": "iOS 26.1 Enhancements - **Apple** expands AirPods Live Translation feature with five new languages.",
-      "url": "https://9to5mac.com/2025/11/07/ios-26-1-makes-airpods-pros-latest-feature-even-better-heres-whats-new/"
-    },
-    {
-      "text": "AI Coding Platform Growth - **Lovable** nears 8 million users, showing rapid growth in the AI coding sector.",
-      "url": "https://techcrunch.com/2025/11/10/lovable-says-its-nearing-8-million-users-as-the-year-old-ai-coding-startup-eyes-more-corporate-employees/"
-    },
-    {
-      "text": "Kaltura Acquires eSelf - **Kaltura** expands its AI capabilities with a $27M acquisition of eSelf.ai.",
-      "url": "https://techcrunch.com/2025/11/10/kaltura-acquires-eself-founded-by-creator-of-snaps-ai-in-27m-deal/"
-    },
-    {
-      "text": "Google Maps AI Tools - **Google** introduces new AI features for interactive projects using Maps data."
-    },
-    {
-      "text": "Venmo Launches Rewards - **Venmo** introduces cashback rewards for debit card users, targeting younger consumers.",
-      "url": "https://techcrunch.com/2025/11/10/venmo-launches-cash-back-rewards-program-for-debit-cards/"
-    },
-    {
-      "text": "AI Presentation Tool Valuation - **Gamma** reaches a $2.1B valuation with $100M ARR, showcasing AI's impact.",
-      "url": "https://techcrunch.com/2025/11/10/ai-powerpoint-killer-gamma-hits-2-1b-valuation-100m-arr-founder-says/"
-    },
-    {
-      "text": "Wikipedia's AI API Call - **Wikipedia** urges AI firms to use its paid API instead of scraping content.",
-      "url": "https://techcrunch.com/2025/11/10/wikipedia-urges-ai-companies-to-use-its-paid-api-and-stop-scraping/"
+      "text": "AI Startup Funding - **Wonderful** raises $100M to deploy AI agents in customer service across multiple markets.",
+      "url": "https://techcrunch.com/2025/11/11/wonderful-raised-100m-series-a-to-put-ai-agents-on-the-front-lines-of-customer-service/"
     }
   ]
 }
