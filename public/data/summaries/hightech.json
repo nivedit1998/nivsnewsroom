@@ -1,37 +1,45 @@
 {
-  "generatedAt": "2025-11-12T08:47:38.463Z",
+  "generatedAt": "2025-11-13T08:46:57.088Z",
   "bullets": [
     {
-      "text": "Google's AI Cloud Compute - **Google** launches a private AI cloud platform, mirroring **Apple**'s privacy-focused features.",
-      "url": "https://www.theverge.com/news/818364/google-private-ai-compute"
+      "text": "iPod's 24th Anniversary Celebrated - The original **iPod** revolutionized music portability, marking a nostalgic milestone for many.",
+      "url": "https://9to5mac.com/2025/11/11/looking-back-at-the-original-ipod-on-its-24th-anniversary/"
     },
     {
-      "text": "Pixel Feature Drop - **Google** introduces significant updates, including smarter notifications and a power-saving mode for Maps.",
-      "url": "https://9to5google.com/2025/11/11/november-2025-pixel-feature-drop/"
+      "text": "iOS 26.2 Enhances CarPlay - New toggle allows users to disable pinned messages in **CarPlay** for a simplified experience.",
+      "url": "https://9to5mac.com/2025/11/12/ios-26-2-lets-you-disable-new-carplay-feature-in-messages/"
     },
     {
-      "text": "Emergency SOS Expansion - **Apple**'s Emergency SOS via satellite feature now available in Mexico for compatible devices.",
+      "text": "macOS 26.2 Introduces Edge Light - The new **Edge Light** feature enhances video calls by illuminating users in low light.",
+      "url": "https://9to5mac.com/2025/11/12/macos-26-2-adds-new-edge-light-feature/"
+    },
+    {
+      "text": "Apple's Digital ID Launches - New **Digital ID** feature allows users to carry their passport on their iPhone for TSA use.",
+      "url": "https://techcrunch.com/2025/11/12/apple-launches-digital-id-a-way-to-carry-your-passport-on-your-phone-for-use-at-tsa-checkpoints/"
+    },
+    {
+      "text": "Emergency SOS Expands to Mexico - **Apple** launches Emergency SOS via satellite for users in Mexico, enhancing safety.",
       "url": "https://9to5mac.com/2025/11/11/apple-launches-emergency-sos-via-satellite-feature-in-mexico/"
     },
     {
-      "text": "AI Chatbots Risks - Researchers warn that AI chatbots may exacerbate eating disorders by providing harmful advice.",
-      "url": "https://www.theverge.com/news/818508/chatbot-eating-disorder-mental-health"
+      "text": "Willow's Voice Keyboard Unveiled - **Willow** launches a voice keyboard for iOS, enabling seamless voice typing and editing.",
+      "url": "https://techcrunch.com/2025/11/12/willows-voice-keyboard-lets-you-type-across-all-your-ios-apps-and-actually-edit-what-you-said/"
     },
     {
-      "text": "EU's Telecom Security Move - The **European Commission** pushes to phase out **Huawei** and **ZTE** equipment from telecom networks.",
-      "url": "https://techcrunch.com/2025/11/11/eu-considers-law-to-phase-out-huawei-and-zte-equipment-from-blocs-telecom-networks/"
+      "text": "Deepwatch Cuts Jobs for AI Focus - **Deepwatch** lays off dozens to accelerate investments in AI and automation.",
+      "url": "https://techcrunch.com/2025/11/12/cybersecurity-firm-deepwatch-lays-off-dozens-citing-move-to-accelerate-ai-investment/"
     },
     {
-      "text": "AI Voice Marketplace - **ElevenLabs** launches a marketplace for brands to license AI-generated voices of celebrities.",
-      "url": "https://www.theverge.com/news/818470/elevenlabs-iconic-voice-marketplace-ai-audio"
+      "text": "TuneIn Acquired for $175M - **TuneIn**, the internet radio service, is acquired by Stingray Group for $175 million.",
+      "url": "https://techcrunch.com/2025/11/12/radio-streamer-tunein-acquired-for-175m/"
     },
     {
-      "text": "Apple Fitness+ Under Review - **Apple** is reorganizing **Fitness+** to address high churn and low revenue growth.",
-      "url": "https://9to5mac.com/2025/11/09/apple-fitness-under-review-amid-reorganization/"
+      "text": "Data Centers Outpace Oil Investment - Global spending on **data centers** surpasses investment in new oil supplies, indicating a shift.",
+      "url": "https://techcrunch.com/2025/11/12/data-centers-now-attract-more-investment-than-finding-new-oil-supplies/"
     },
     {
-      "text": "AI Startup Funding - **Wonderful** raises $100M to deploy AI agents in customer service across multiple markets.",
-      "url": "https://techcrunch.com/2025/11/11/wonderful-raised-100m-series-a-to-put-ai-agents-on-the-front-lines-of-customer-service/"
+      "text": "OpenAI Faces Copyright Ruling - A German court rules that **OpenAI** violated copyright laws, ordering damages to be paid.",
+      "url": "https://techcrunch.com/2025/11/12/court-rules-that-openai-violated-german-copyright-law-ordered-it-to-pay-damages/"
     }
   ]
 }

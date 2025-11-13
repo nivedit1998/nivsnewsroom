@@ -1,37 +1,29 @@
 {
-  "generatedAt": "2025-11-12T08:48:20.353Z",
+  "generatedAt": "2025-11-13T08:47:51.849Z",
   "bullets": [
     {
-      "text": "AI Transformation Leaders - **Microsoft** highlights how Frontier firms leverage AI for significant business impact and growth.",
+      "text": "Azure AI Superfactory Unveiled - **Microsoft** launches a groundbreaking AI datacenter in Atlanta, enhancing global AI capabilities.",
+      "url": "https://blogs.microsoft.com/blog/2025/11/12/infinite-scale-the-architecture-behind-the-azure-ai-superfactory/"
+    },
+    {
+      "text": "Frontier Firms Lead AI - **Microsoft** study shows leading firms achieve three times higher returns through AI transformation.",
       "url": "https://blogs.microsoft.com/blog/2025/11/11/bridging-the-ai-divide-how-frontier-firms-are-transforming-business/"
     },
     {
-      "text": "Security Innovations Report - **Microsoft** shares advancements in security through the Secure Future Initiative, enhancing protection and resilience.",
-      "url": "https://blogs.windows.com/windowsexperience/2025/11/10/advancing-security-with-windows-and-surface-microsoft-sfi-report-nov-2025/"
+      "text": "Security Innovations Progress - **Microsoft** reports on advancements in security through its Secure Future Initiative, enhancing user protection.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2025/11/10/securing-our-future-november-2025-progress-report-on-microsofts-secure-future-initiative/"
     },
     {
-      "text": "New Game Launch - **Call of Duty: Black Ops 7** arrives on November 14, available on Game Pass Ultimate.",
-      "url": "https://blogs.windows.com/windowsexperience/2025/11/10/what-to-know-about-call-of-duty-black-ops-7-before-it-launches/"
+      "text": "Windows 11 Insider Updates - New builds released for **Windows 11** improve user experience and security features.",
+      "url": "https://blogs.windows.com/windows-insider/2025/11/07/announcing-windows-11-insider-preview-build-28000-canary-channel/"
     },
     {
-      "text": "Cybersecurity Landscape Shift - **IDC** research reveals a significant rise in cloud security incidents, urging a reevaluation of strategies.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2025/11/06/new-idc-research-highlights-a-major-cloud-security-shift/"
-    },
-    {
-      "text": "AI in Healthcare - **Microsoft** partners with UiPath to enhance healthcare workflows using Azure AI Foundry for better patient care.",
-      "url": "https://azure.microsoft.com/en-us/blog/driving-roi-with-azure-ai-foundry-and-uipath-intelligent-agents-in-real-world-healthcare-workflows/"
-    },
-    {
-      "text": "Microsoft's Browser Leadership - Recognized as a Leader in **IDC MarketScape** for application streaming and enterprise browsers.",
+      "text": "Cybersecurity Leadership Recognized - **Microsoft** named a leader in IDC MarketScape for application streaming and enterprise browsers.",
       "url": "https://blogs.windows.com/msedgedev/2025/11/06/microsoft-recognized-as-a-leader-in-idc-marketscape-on-application-streaming-and-enterprise-browsers/"
     },
     {
-      "text": "Whisper Leak Attack - **Microsoft** identifies a new side-channel attack on language models, emphasizing the need for robust privacy measures.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2025/11/07/whisper-leak-a-novel-side-channel-cyberattack-on-remote-language-models/"
-    },
-    {
-      "text": "Azure Ultra Disk Update - **Microsoft** enhances Azure Ultra Disk for mission-critical workloads, improving performance and cost efficiency.",
-      "url": "https://azure.microsoft.com/en-us/blog/the-new-era-of-azure-ultra-disk-experience-the-next-generation-of-mission-critical-block-storage/"
+      "text": "Cloud Security Shift - New **IDC** research highlights urgent need for improved cloud security strategies amidst rising incidents.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2025/11/06/new-idc-research-highlights-a-major-cloud-security-shift/"
     }
   ]
 }
