@@ -1,45 +1,45 @@
 {
-  "generatedAt": "2025-11-13T08:46:57.088Z",
+  "generatedAt": "2025-11-14T08:46:15.356Z",
   "bullets": [
     {
-      "text": "iPod's 24th Anniversary Celebrated - The original **iPod** revolutionized music portability, marking a nostalgic milestone for many.",
-      "url": "https://9to5mac.com/2025/11/11/looking-back-at-the-original-ipod-on-its-24th-anniversary/"
+      "text": "Self-Driving Cars Arrive - **Wayve** and **Uber** plan Level 4 autonomous robotaxi trials in London by 2026.",
+      "url": "https://www.theverge.com/report/820324/wayve-driverless-robotaxi-london"
     },
     {
-      "text": "iOS 26.2 Enhances CarPlay - New toggle allows users to disable pinned messages in **CarPlay** for a simplified experience.",
-      "url": "https://9to5mac.com/2025/11/12/ios-26-2-lets-you-disable-new-carplay-feature-in-messages/"
+      "text": "Apple's Developer Lawsuit - **Apple** denied appeal in a £1B lawsuit over abusive commission practices for app developers.",
+      "url": "https://9to5mac.com/2025/11/13/apple-seeking-permission-to-appeal-loss-in-1b-developer-lawsuit/"
     },
     {
-      "text": "macOS 26.2 Introduces Edge Light - The new **Edge Light** feature enhances video calls by illuminating users in low light.",
-      "url": "https://9to5mac.com/2025/11/12/macos-26-2-adds-new-edge-light-feature/"
+      "text": "New App Review Guidelines - **Apple** tightens rules on sharing personal data with third-party AI in updated guidelines.",
+      "url": "https://techcrunch.com/2025/11/13/apples-new-app-review-guidelines-clamp-down-on-apps-sharing-personal-data-with-third-party-ai/"
     },
     {
-      "text": "Apple's Digital ID Launches - New **Digital ID** feature allows users to carry their passport on their iPhone for TSA use.",
-      "url": "https://techcrunch.com/2025/11/12/apple-launches-digital-id-a-way-to-carry-your-passport-on-your-phone-for-use-at-tsa-checkpoints/"
+      "text": "Apple Wallet Upgrades - **Apple Wallet** introduces Digital ID and AI order tracking in iOS 26, enhancing user experience.",
+      "url": "https://9to5mac.com/2025/11/13/apple-wallet-got-two-feature-upgrades-it-really-needed-in-ios-26/"
     },
     {
-      "text": "Emergency SOS Expands to Mexico - **Apple** launches Emergency SOS via satellite for users in Mexico, enhancing safety.",
+      "text": "AI Group Chat Feature - **OpenAI** rolls out group chat functionality in **ChatGPT**, enhancing user interaction capabilities.",
+      "url": "https://9to5mac.com/2025/11/13/chatgpt-gaining-group-chat-feature-in-four-regions/"
+    },
+    {
+      "text": "Apple Halves Mini App Commissions - **Apple** launches a program reducing commissions for mini app developers to 15%.",
+      "url": "https://techcrunch.com/2025/11/13/apple-halves-commissions-for-mini-app-makers/"
+    },
+    {
+      "text": "Emergency SOS Expansion - **Apple** launches Emergency SOS via satellite feature in Mexico for iPhone and Apple Watch users.",
       "url": "https://9to5mac.com/2025/11/11/apple-launches-emergency-sos-via-satellite-feature-in-mexico/"
     },
     {
-      "text": "Willow's Voice Keyboard Unveiled - **Willow** launches a voice keyboard for iOS, enabling seamless voice typing and editing.",
-      "url": "https://techcrunch.com/2025/11/12/willows-voice-keyboard-lets-you-type-across-all-your-ios-apps-and-actually-edit-what-you-said/"
+      "text": "Blue Origin's New Glenn Success - **Blue Origin** successfully lands its New Glenn rocket and deploys NASA spacecraft.",
+      "url": "https://techcrunch.com/2025/11/13/blue-origin-sticks-first-new-glenn-rocket-landing-and-launches-nasa-spacecraft/"
     },
     {
-      "text": "Deepwatch Cuts Jobs for AI Focus - **Deepwatch** lays off dozens to accelerate investments in AI and automation.",
-      "url": "https://techcrunch.com/2025/11/12/cybersecurity-firm-deepwatch-lays-off-dozens-citing-move-to-accelerate-ai-investment/"
+      "text": "Uber Pilots Video Recording - **Uber** tests in-app video recording for drivers in India to deter misconduct.",
+      "url": "https://techcrunch.com/2025/11/13/uber-quietly-pilots-in-app-video-recording-for-drivers-in-india/"
     },
     {
-      "text": "TuneIn Acquired for $175M - **TuneIn**, the internet radio service, is acquired by Stingray Group for $175 million.",
-      "url": "https://techcrunch.com/2025/11/12/radio-streamer-tunein-acquired-for-175m/"
-    },
-    {
-      "text": "Data Centers Outpace Oil Investment - Global spending on **data centers** surpasses investment in new oil supplies, indicating a shift.",
-      "url": "https://techcrunch.com/2025/11/12/data-centers-now-attract-more-investment-than-finding-new-oil-supplies/"
-    },
-    {
-      "text": "OpenAI Faces Copyright Ruling - A German court rules that **OpenAI** violated copyright laws, ordering damages to be paid.",
-      "url": "https://techcrunch.com/2025/11/12/court-rules-that-openai-violated-german-copyright-law-ordered-it-to-pay-damages/"
+      "text": "AI Investment Shifts - VCs adapt to new investment strategies for AI startups, focusing on unique growth metrics.",
+      "url": "https://techcrunch.com/2025/11/13/vcs-abandon-old-rules-for-a-funky-time-of-investing-in-ai-startups/"
     }
   ]
 }

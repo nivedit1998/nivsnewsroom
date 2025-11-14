@@ -1,29 +1,25 @@
 {
-  "generatedAt": "2025-11-13T08:47:51.849Z",
+  "generatedAt": "2025-11-14T08:47:09.714Z",
   "bullets": [
     {
-      "text": "Azure AI Superfactory Unveiled - **Microsoft** launches a groundbreaking AI datacenter in Atlanta, enhancing global AI capabilities.",
+      "text": "Azure AI Superfactory Unveiled - **Microsoft** launches the world's first planet-scale AI superfactory in Atlanta, enhancing AI compute capabilities.",
       "url": "https://blogs.microsoft.com/blog/2025/11/12/infinite-scale-the-architecture-behind-the-azure-ai-superfactory/"
     },
     {
-      "text": "Frontier Firms Lead AI - **Microsoft** study shows leading firms achieve three times higher returns through AI transformation.",
+      "text": "Windows 11 Build Released - **Microsoft** rolls out Build 22631.6269 to the Release Preview Channel, featuring quality improvements.",
+      "url": "https://blogs.windows.com/windows-insider/2025/11/13/releasing-windows-11-build-22631-6269-to-the-release-preview-channel/"
+    },
+    {
+      "text": "AI Transformation Insights - **Microsoft** reveals that Frontier firms achieve three times higher returns by leveraging AI effectively.",
       "url": "https://blogs.microsoft.com/blog/2025/11/11/bridging-the-ai-divide-how-frontier-firms-are-transforming-business/"
     },
     {
-      "text": "Security Innovations Progress - **Microsoft** reports on advancements in security through its Secure Future Initiative, enhancing user protection.",
+      "text": "Security Initiative Progress - **Microsoft** reports advancements in its Secure Future Initiative, enhancing security across platforms.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/11/10/securing-our-future-november-2025-progress-report-on-microsofts-secure-future-initiative/"
     },
     {
-      "text": "Windows 11 Insider Updates - New builds released for **Windows 11** improve user experience and security features.",
-      "url": "https://blogs.windows.com/windows-insider/2025/11/07/announcing-windows-11-insider-preview-build-28000-canary-channel/"
-    },
-    {
-      "text": "Cybersecurity Leadership Recognized - **Microsoft** named a leader in IDC MarketScape for application streaming and enterprise browsers.",
-      "url": "https://blogs.windows.com/msedgedev/2025/11/06/microsoft-recognized-as-a-leader-in-idc-marketscape-on-application-streaming-and-enterprise-browsers/"
-    },
-    {
-      "text": "Cloud Security Shift - New **IDC** research highlights urgent need for improved cloud security strategies amidst rising incidents.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2025/11/06/new-idc-research-highlights-a-major-cloud-security-shift/"
+      "text": "New Cyberattack Discovered - **Microsoft** identifies a novel side-channel attack on remote language models, raising privacy concerns.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2025/11/07/whisper-leak-a-novel-side-channel-cyberattack-on-remote-language-models/"
     }
   ]
 }
