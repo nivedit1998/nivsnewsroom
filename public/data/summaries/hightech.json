@@ -1,45 +1,45 @@
 {
-  "generatedAt": "2025-11-14T08:46:15.356Z",
+  "generatedAt": "2025-11-15T08:42:07.460Z",
   "bullets": [
     {
-      "text": "Self-Driving Cars Arrive - **Wayve** and **Uber** plan Level 4 autonomous robotaxi trials in London by 2026.",
-      "url": "https://www.theverge.com/report/820324/wayve-driverless-robotaxi-london"
+      "text": "Oura Ring 4 Ceramic Shines - **Oura**'s latest smart ring combines style with wear-resistant zirconia ceramic for a sleek look.",
+      "url": "https://techcrunch.com/2025/11/14/oura-ring-4-ceramic-review-a-colorful-glow-up/"
     },
     {
-      "text": "Apple's Developer Lawsuit - **Apple** denied appeal in a £1B lawsuit over abusive commission practices for app developers.",
+      "text": "Pixel 10 Pro Fold's Durability - **Google**'s latest foldable phone features an IP68 rating and a new gearless hinge for sturdiness.",
+      "url": "https://techcrunch.com/2025/11/14/pixel-10-pro-fold-review-googles-bet-to-make-foldables-sturdy/"
+    },
+    {
+      "text": "Apple's Developer Lawsuit Loss - **Apple** faces potential damages of up to £2B after losing a lawsuit over app commission rates.",
       "url": "https://9to5mac.com/2025/11/13/apple-seeking-permission-to-appeal-loss-in-1b-developer-lawsuit/"
     },
     {
-      "text": "New App Review Guidelines - **Apple** tightens rules on sharing personal data with third-party AI in updated guidelines.",
+      "text": "Apple Watch Blood Oxygen Update - **Apple**'s redesigned Blood Oxygen feature faces scrutiny from the ITC due to patent issues.",
+      "url": "https://9to5mac.com/2025/11/14/redesigned-apple-watch-blood-oxygen-feature-faces-new-itc-scrutiny/"
+    },
+    {
+      "text": "WhatsApp's Third-Party Integration - **Meta** prepares to launch third-party chat integration on **WhatsApp** in compliance with EU regulations.",
+      "url": "https://techcrunch.com/2025/11/14/whatsapp-to-launch-third-party-chat-integration-in-europe-soon/"
+    },
+    {
+      "text": "Disney Channels Return to YouTube TV - **Disney** and **YouTube** resolve their dispute, restoring channels including ESPN for subscribers.",
+      "url": "https://www.cnet.com/tech/services-and-software/touchdown-disney-espn-and-other-channels-are-back-on-youtube-tv/#ftag=CAD590a51e"
+    },
+    {
+      "text": "Apple Wallet's Digital ID Feature - **Apple** launches a Digital ID feature in Wallet, enhancing user privacy and security.",
+      "url": "https://9to5mac.com/2025/11/12/apple-launches-digital-id-wallet-passport-support/"
+    },
+    {
+      "text": "OpenAI's Revenue Sharing with Microsoft - Leaked documents reveal **OpenAI** pays **Microsoft** significant revenue shares, highlighting financial ties.",
+      "url": "https://techcrunch.com/2025/11/14/leaked-documents-shed-light-into-how-much-openai-pays-microsoft/"
+    },
+    {
+      "text": "Apple Tightens App Review Guidelines - **Apple** introduces stricter rules to prevent apps from sharing personal data with third-party AI.",
       "url": "https://techcrunch.com/2025/11/13/apples-new-app-review-guidelines-clamp-down-on-apps-sharing-personal-data-with-third-party-ai/"
     },
     {
-      "text": "Apple Wallet Upgrades - **Apple Wallet** introduces Digital ID and AI order tracking in iOS 26, enhancing user experience.",
-      "url": "https://9to5mac.com/2025/11/13/apple-wallet-got-two-feature-upgrades-it-really-needed-in-ios-26/"
-    },
-    {
-      "text": "AI Group Chat Feature - **OpenAI** rolls out group chat functionality in **ChatGPT**, enhancing user interaction capabilities.",
-      "url": "https://9to5mac.com/2025/11/13/chatgpt-gaining-group-chat-feature-in-four-regions/"
-    },
-    {
-      "text": "Apple Halves Mini App Commissions - **Apple** launches a program reducing commissions for mini app developers to 15%.",
-      "url": "https://techcrunch.com/2025/11/13/apple-halves-commissions-for-mini-app-makers/"
-    },
-    {
-      "text": "Emergency SOS Expansion - **Apple** launches Emergency SOS via satellite feature in Mexico for iPhone and Apple Watch users.",
-      "url": "https://9to5mac.com/2025/11/11/apple-launches-emergency-sos-via-satellite-feature-in-mexico/"
-    },
-    {
-      "text": "Blue Origin's New Glenn Success - **Blue Origin** successfully lands its New Glenn rocket and deploys NASA spacecraft.",
-      "url": "https://techcrunch.com/2025/11/13/blue-origin-sticks-first-new-glenn-rocket-landing-and-launches-nasa-spacecraft/"
-    },
-    {
-      "text": "Uber Pilots Video Recording - **Uber** tests in-app video recording for drivers in India to deter misconduct.",
-      "url": "https://techcrunch.com/2025/11/13/uber-quietly-pilots-in-app-video-recording-for-drivers-in-india/"
-    },
-    {
-      "text": "AI Investment Shifts - VCs adapt to new investment strategies for AI startups, focusing on unique growth metrics.",
-      "url": "https://techcrunch.com/2025/11/13/vcs-abandon-old-rules-for-a-funky-time-of-investing-in-ai-startups/"
+      "text": "Tesla's Safety Report Released - **Tesla** publishes detailed safety data for its Full Self-Driving software, addressing transparency concerns.",
+      "url": "https://techcrunch.com/2025/11/14/tesla-releases-detailed-safety-report-after-waymo-co-ceo-called-for-more-data/"
     }
   ]
 }

@@ -1,25 +1,29 @@
 {
-  "generatedAt": "2025-11-14T08:47:09.714Z",
+  "generatedAt": "2025-11-15T08:42:58.636Z",
   "bullets": [
     {
-      "text": "Azure AI Superfactory Unveiled - **Microsoft** launches the world's first planet-scale AI superfactory in Atlanta, enhancing AI compute capabilities.",
-      "url": "https://blogs.microsoft.com/blog/2025/11/12/infinite-scale-the-architecture-behind-the-azure-ai-superfactory/"
+      "text": "Building Trusted Communities - **Microsoft** supports game developers with enhanced security features in **Windows 11**.",
+      "url": "https://blogs.windows.com/windowsexperience/2025/11/14/help-game-developers-build-trusted-communities/"
     },
     {
-      "text": "Windows 11 Build Released - **Microsoft** rolls out Build 22631.6269 to the Release Preview Channel, featuring quality improvements.",
+      "text": "Windows 11 Update Released - **Microsoft** rolls out Build 22631.6269 to the Release Preview Channel with quality improvements.",
       "url": "https://blogs.windows.com/windows-insider/2025/11/13/releasing-windows-11-build-22631-6269-to-the-release-preview-channel/"
     },
     {
-      "text": "AI Transformation Insights - **Microsoft** reveals that Frontier firms achieve three times higher returns by leveraging AI effectively.",
+      "text": "Planet-Scale AI Superfactory - **Microsoft** unveils a new **Azure AI** datacenter design to meet unprecedented AI compute demand.",
+      "url": "https://blogs.microsoft.com/blog/2025/11/12/infinite-scale-the-architecture-behind-the-azure-ai-superfactory/"
+    },
+    {
+      "text": "Transforming Business with AI - **Frontier firms** leverage **Microsoft AI** for significant business impact and industry leadership.",
       "url": "https://blogs.microsoft.com/blog/2025/11/11/bridging-the-ai-divide-how-frontier-firms-are-transforming-business/"
     },
     {
-      "text": "Security Initiative Progress - **Microsoft** reports advancements in its Secure Future Initiative, enhancing security across platforms.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2025/11/10/securing-our-future-november-2025-progress-report-on-microsofts-secure-future-initiative/"
+      "text": "Call of Duty Launch Details - **Microsoft** announces **Call of Duty: Black Ops 7** will be available on Game Pass from day one.",
+      "url": "https://blogs.windows.com/windowsexperience/2025/11/10/what-to-know-about-call-of-duty-black-ops-7-before-it-launches/"
     },
     {
-      "text": "New Cyberattack Discovered - **Microsoft** identifies a novel side-channel attack on remote language models, raising privacy concerns.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2025/11/07/whisper-leak-a-novel-side-channel-cyberattack-on-remote-language-models/"
+      "text": "Advancing Security Initiatives - **Microsoft**'s Secure Future Initiative reports progress in enhancing security across platforms.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2025/11/10/securing-our-future-november-2025-progress-report-on-microsofts-secure-future-initiative/"
     }
   ]
 }
