@@ -1,29 +1,45 @@
 {
-  "generatedAt": "2025-11-18T08:48:20.646Z",
+  "generatedAt": "2025-11-19T08:47:38.262Z",
   "bullets": [
     {
-      "text": "Copilot Actions Rollout - **Microsoft** introduces Copilot Actions for Windows Insiders, enabling task automation on local files.",
+      "text": "Windows 11 Insider Preview Build 28000.1199 Released - This build introduces general improvements for Insiders in the Canary Channel.",
+      "url": "https://blogs.windows.com/windows-insider/2025/11/18/announcing-windows-11-insider-preview-build-28000-1199-canary-channel/"
+    },
+    {
+      "text": "Ignite 2025 Highlights AI Integration - Windows evolves to empower organizations with AI tools for enhanced productivity and security.",
+      "url": "https://blogs.windows.com/windowsexperience/2025/11/18/ignite-2025-windows-at-the-frontier-of-work/"
+    },
+    {
+      "text": "Windows Security Innovations Unveiled - New features enhance security and resiliency for organizations in the AI era.",
+      "url": "https://blogs.windows.com/windowsexperience/2025/11/18/preparing-for-whats-next-windows-security-and-resiliency-innovations-help-organizations-mitigate-risks-recover-faster-and-prepare-for-the-era-of-ai/"
+    },
+    {
+      "text": "Developer Tools Enhanced at Ignite - New tools and frameworks empower developers to create secure AI applications on Windows.",
+      "url": "https://blogs.windows.com/windowsdeveloper/2025/11/18/ignite-2025-furthering-windows-as-the-premier-platform-for-developers-governed-by-security/"
+    },
+    {
+      "text": "Edge for Business Launched - A secure enterprise AI browser designed to enhance productivity without compromising security.",
+      "url": "https://blogs.windows.com/msedgedev/2025/11/18/edge-for-business-presents-the-worlds-first-secure-enterprise-ai-browser/"
+    },
+    {
+      "text": "AI Lifecycle Showcased at Ignite - Microsoft emphasizes the integration of AI throughout organizational workflows for innovation.",
+      "url": "https://blogs.microsoft.com/blog/2025/11/18/from-idea-to-deployment-the-complete-lifecycle-of-ai-on-display-at-ignite-2025/"
+    },
+    {
+      "text": "Strategic Partnerships Announced - Microsoft collaborates with **NVIDIA** and **Anthropic** to enhance AI capabilities on Azure.",
+      "url": "https://blogs.microsoft.com/blog/2025/11/18/microsoft-nvidia-and-anthropic-announce-strategic-partnerships/"
+    },
+    {
+      "text": "Security Copilot Integrated with Microsoft 365 E5 - New agents enhance security operations, empowering teams to combat cyber threats.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2025/11/18/agents-built-into-your-workflow-get-security-copilot-with-microsoft-365-e5/"
+    },
+    {
+      "text": "Ambient Security for AI Era Introduced - New solutions aim to secure AI agents and applications across organizational layers.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2025/11/18/ambient-and-autonomous-security-for-the-agentic-era/"
+    },
+    {
+      "text": "Copilot Actions Rollout Begins - New feature allows Windows Insiders to perform tasks using AI in a controlled environment.",
       "url": "https://blogs.windows.com/windows-insider/2025/11/17/copilot-on-windows-copilot-actions-begins-rolling-out-to-windows-insiders/"
-    },
-    {
-      "text": "New Windows 11 Builds - **Microsoft** releases Windows 11 Builds 26100.7296 and 26200.7296 to the Release Preview Channel.",
-      "url": "https://blogs.windows.com/windows-insider/2025/11/17/releasing-windows-11-builds-26100-7296-and-26200-7296-to-the-release-preview-channel/"
-    },
-    {
-      "text": "Windows 11 Insider Preview - **Microsoft** launches Insider Preview Build 26220.7262 for Dev & Beta Channels, enhancing user experience.",
-      "url": "https://blogs.windows.com/windows-insider/2025/11/17/announcing-windows-11-insider-preview-build-26220-7262-dev-beta-channels/"
-    },
-    {
-      "text": "Azure AI Superfactory - **Microsoft** unveils a new AI datacenter in Atlanta, enhancing global AI compute capabilities.",
-      "url": "https://blogs.microsoft.com/blog/2025/11/12/infinite-scale-the-architecture-behind-the-azure-ai-superfactory/"
-    },
-    {
-      "text": "AI-Driven Cybersecurity - **Microsoft** collaborates with **NVIDIA** to enhance real-time immunity against evolving AI-driven security threats.",
-      "url": "https://techcommunity.microsoft.com/blog/microsoft-security-blog/collaborative-research-by-microsoft-and-nvidia-on-real-time-immunity/4470164"
-    },
-    {
-      "text": "Trusted Gaming Communities - **Microsoft** supports game developers with security features to enhance player integrity in gaming.",
-      "url": "https://blogs.windows.com/windowsexperience/2025/11/14/help-game-developers-build-trusted-communities/"
     }
   ]
 }
