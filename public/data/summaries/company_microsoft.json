@@ -1,37 +1,41 @@
 {
-  "generatedAt": "2025-11-25T08:48:52.713Z",
+  "generatedAt": "2025-11-26T08:48:37.770Z",
   "bullets": [
     {
-      "text": "Xbox Full Screen Gaming Experience - A new immersive gaming interface for Windows 11 handhelds and PCs is now available.",
+      "text": "Containers Made Easy - **VS Code** integrates **Copilot** for seamless container management, enhancing developer productivity.",
+      "url": "https://devblogs.microsoft.com/blog/manage-containers-the-easy-way-copilot-vs-code"
+    },
+    {
+      "text": "Smart Holiday Shopping - **Copilot** in **Edge** offers cashback and price tracking to simplify festive shopping.",
+      "url": "https://blogs.windows.com/msedgedev/2025/11/25/shop-smarter-with-copilot-in-edge-this-holiday-season/"
+    },
+    {
+      "text": "Xbox Gaming Experience - **Windows 11** introduces a full screen gaming experience for handhelds and PCs.",
       "url": "https://blogs.windows.com/windowsexperience/2025/11/24/xbox-full-screen-gaming-experience-now-available-for-windows-11-handhelds-and-in-preview-for-pcs/"
     },
     {
-      "text": "Web Install API Ready for Testing - Developers can now enhance app installation experiences on their websites using Microsoft Edge.",
+      "text": "Web Install API Testing - **Microsoft Edge** now supports the **Web Install API** for improved web app installations.",
       "url": "https://blogs.windows.com/msedgedev/2025/11/24/the-web-install-api-is-ready-for-testing/"
     },
     {
-      "text": "Notepad Update for Windows Insiders - New features like table support and AI text streaming are rolling out to Insiders.",
+      "text": "AI in Security Operations - **Microsoft Defender Experts** leverage AI for enhanced SOC efficiency and threat detection.",
+      "url": "https://techcommunity.microsoft.com/blog/microsoftsecurityexperts/charting-the-future-of-soc-human-and-ai-collaboration-for-better-security/4470688"
+    },
+    {
+      "text": "Notepad Gets New Features - **Notepad** update introduces table support and AI text features for Windows Insiders.",
       "url": "https://blogs.windows.com/windows-insider/2025/11/21/notepad-update-begins-rolling-out-to-windows-insiders/"
     },
     {
-      "text": "Windows 11 Insider Preview Build Released - New features, including Xbox full screen experience, are available for Insiders.",
+      "text": "Windows 11 Insider Preview - New features and Xbox full screen experience now available for **Windows Insiders**.",
       "url": "https://blogs.windows.com/windows-insider/2025/11/21/announcing-windows-11-insider-preview-build-26100-7271-dev-beta-channels/"
     },
     {
-      "text": "Microsoft Named Leader in Access Management - Recognized for the ninth consecutive year in Gartner's Magic Quadrant.",
+      "text": "Gartner Recognition - **Microsoft** named a Leader in the **Gartner Magic Quadrant** for Access Management for the ninth year.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/11/21/microsoft-named-a-leader-in-the-gartner-magic-quadrant-for-access-management-for-the-ninth-consecutive-year/"
     },
     {
-      "text": "2025 Windows 11 PC Holiday Buying Guide - Explore the best devices and deals for the holiday season.",
+      "text": "Holiday Buying Guide - Explore the best **Windows 11 PCs** and deals for the holiday season.",
       "url": "https://blogs.windows.com/devices/2025/11/20/2025-windows-11-pc-holiday-buying-guide-best-devices-and-deals/"
-    },
-    {
-      "text": "Microsoft Ignite 2025 Highlights - Innovations in AI and security showcased, emphasizing Windows as a platform for the future.",
-      "url": "https://blogs.microsoft.com/blog/2025/11/18/from-idea-to-deployment-the-complete-lifecycle-of-ai-on-display-at-ignite-2025/"
-    },
-    {
-      "text": "Azure Copilot and AI Innovations - New features announced to modernize cloud infrastructure and enhance operational efficiency.",
-      "url": "https://azure.microsoft.com/en-us/blog/announcing-azure-copilot-agents-and-ai-infrastructure-innovations/"
     }
   ]
 }

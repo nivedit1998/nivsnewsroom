@@ -1,25 +1,45 @@
 {
-  "generatedAt": "2025-11-25T08:48:14.696Z",
+  "generatedAt": "2025-11-26T08:47:41.032Z",
   "bullets": [
     {
-      "text": "Fire Risk Alert for Rad Power Bikes - **CPSC** warns that certain e-bike batteries pose serious fire hazards.",
-      "url": "https://www.theverge.com/news/828004/rad-power-bikes-batteries-fire-cpsc"
+      "text": "YouTube's Custom Feed Launch - **YouTube** is testing a new feature to improve video recommendations based on user interests.",
+      "url": "https://techcrunch.com/2025/11/25/youtube-is-working-on-a-feature-that-will-fix-the-messy-home-feed/"
     },
     {
-      "text": "Revolut's Valuation Soars - **Revolut** achieves a staggering $75 billion valuation following a new funding round.",
-      "url": "https://techcrunch.com/2025/11/24/revolut-hits-75b-valuation-in-new-capital-raise/"
+      "text": "Affordable Bass Control - **Nothing's** CMF Headphone Pro offers intuitive bass adjustment at an impressive price point.",
+      "url": "https://9to5google.com/2025/11/25/nothing-cmf-headphone-pro-review/"
     },
     {
-      "text": "AI Infrastructure Investment - **AWS** commits $50 billion to enhance AI capabilities for U.S. government agencies.",
-      "url": "https://techcrunch.com/2025/11/24/aws-is-spending-50b-build-ai-infrastructure-for-the-us-government/"
+      "text": "AirTag Enhancements for Travelers - **Apple** improves AirTag's luggage tracking feature for better airline integration.",
+      "url": "https://9to5mac.com/2025/11/25/airtags-newest-feature-could-work-even-better-now-for-many-travelers/"
     },
     {
-      "text": "New AI Benchmark Launched - **HumaneBench** aims to assess whether chatbots prioritize user well-being.",
-      "url": "https://techcrunch.com/2025/11/24/a-new-ai-benchmark-tests-whether-chatbots-protect-human-wellbeing/"
+      "text": "Pocket Casts Introduces Smart Playlists - The **Pocket Casts** app now features smart playlists for easier podcast organization.",
+      "url": "https://9to5mac.com/2025/11/25/pocket-casts-app-introduces-smart-playlists-feature-to-organize-your-podcasts/"
     },
     {
-      "text": "OpenAI's AI Device Teased - **OpenAI** hints at a new screenless AI device designed for a calmer user experience.",
-      "url": "https://techcrunch.com/2025/11/24/altman-describes-openais-forthcoming-ai-device-as-more-peaceful-and-calm-than-the-iphone/"
+      "text": "ViewSonic's Affordable 5K Display - **ViewSonic** offers a 27” 5K display for Mac users at a competitive price.",
+      "url": "https://9to5mac.com/2025/11/24/viewsonic-27-5k-display-review-for-mac-retina-display-sharpness-under-1000/"
+    },
+    {
+      "text": "iOS 26.2 Enhances Invites App - **Apple**'s latest update simplifies event creation in the Invites app.",
+      "url": "https://9to5mac.com/2025/11/24/ios-26-2-adds-convenient-new-feature-designed-for-apples-invites-app/"
+    },
+    {
+      "text": "Uber's Driverless Robotaxi Milestone - **Uber** and **WeRide** launch fully driverless robotaxi service in Abu Dhabi.",
+      "url": "https://techcrunch.com/2025/11/25/uber-and-werides-robotaxi-service-in-abu-dhabi-is-officially-driverless/"
+    },
+    {
+      "text": "Qualcomm's Snapdragon 8 Gen 5 Unveiled - **Qualcomm** introduces a new chip for affordable flagship phones with enhanced performance.",
+      "url": "https://www.theverge.com/news/828959/qualcomm-snapdragon-8-gen-5"
+    },
+    {
+      "text": "AI Shopping Assistants Launch - **OpenAI** and **Perplexity** introduce AI features to enhance online shopping experiences.",
+      "url": "https://techcrunch.com/2025/11/25/openai-and-perplexity-are-launching-ai-shopping-assistants-but-competing-startups-arent-sweating-it/"
+    },
+    {
+      "text": "Fleet Space Discovers Lithium with AI - **Fleet Space** uses AI and satellites to locate a massive lithium deposit.",
+      "url": "https://techcrunch.com/2025/11/25/fleet-space-finds-massive-lithium-deposit-using-ai-and-satellites/"
     }
   ]
 }
