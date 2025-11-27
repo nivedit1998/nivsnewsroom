@@ -1,45 +1,37 @@
 {
-  "generatedAt": "2025-11-26T08:47:41.032Z",
+  "generatedAt": "2025-11-27T08:47:53.762Z",
   "bullets": [
     {
-      "text": "YouTube's Custom Feed Launch - **YouTube** is testing a new feature to improve video recommendations based on user interests.",
+      "text": "London Councils Hit Hard - **Cyberattacks** disrupt services across multiple councils, prompting emergency measures.",
+      "url": "https://techcrunch.com/2025/11/26/multiple-london-councils-report-disruption-amid-ongoing-cyberattack/"
+    },
+    {
+      "text": "Hisense U7 Shines Bright - The **Hisense U7** mini-LED TV offers impressive 4K quality at a competitive price.",
+      "url": "https://9to5google.com/2025/11/26/review-hisense-u7-mini-led-google-tv/"
+    },
+    {
+      "text": "YouTube's Custom Feed - **YouTube** tests a new feature to enhance personalized video recommendations for users.",
       "url": "https://techcrunch.com/2025/11/25/youtube-is-working-on-a-feature-that-will-fix-the-messy-home-feed/"
     },
     {
-      "text": "Affordable Bass Control - **Nothing's** CMF Headphone Pro offers intuitive bass adjustment at an impressive price point.",
-      "url": "https://9to5google.com/2025/11/25/nothing-cmf-headphone-pro-review/"
-    },
-    {
-      "text": "AirTag Enhancements for Travelers - **Apple** improves AirTag's luggage tracking feature for better airline integration.",
-      "url": "https://9to5mac.com/2025/11/25/airtags-newest-feature-could-work-even-better-now-for-many-travelers/"
-    },
-    {
-      "text": "Pocket Casts Introduces Smart Playlists - The **Pocket Casts** app now features smart playlists for easier podcast organization.",
+      "text": "Pocket Casts Gets Smarter - The **Pocket Casts** app introduces smart playlists to enhance podcast organization.",
       "url": "https://9to5mac.com/2025/11/25/pocket-casts-app-introduces-smart-playlists-feature-to-organize-your-podcasts/"
     },
     {
-      "text": "ViewSonic's Affordable 5K Display - **ViewSonic** offers a 27” 5K display for Mac users at a competitive price.",
-      "url": "https://9to5mac.com/2025/11/24/viewsonic-27-5k-display-review-for-mac-retina-display-sharpness-under-1000/"
+      "text": "OpenAI's Legal Battle - **OpenAI** denies liability in a lawsuit linked to a teen's tragic suicide involving ChatGPT.",
+      "url": "https://www.theverge.com/news/831207/openai-chatgpt-lawsuit-parental-controls-tos"
     },
     {
-      "text": "iOS 26.2 Enhances Invites App - **Apple**'s latest update simplifies event creation in the Invites app.",
-      "url": "https://9to5mac.com/2025/11/24/ios-26-2-adds-convenient-new-feature-designed-for-apples-invites-app/"
+      "text": "Tech Layoffs Continue - Over 22,000 tech workers have faced layoffs in 2025, highlighting ongoing industry challenges.",
+      "url": "https://techcrunch.com/2025/11/26/tech-layoffs-2025-list/"
     },
     {
-      "text": "Uber's Driverless Robotaxi Milestone - **Uber** and **WeRide** launch fully driverless robotaxi service in Abu Dhabi.",
-      "url": "https://techcrunch.com/2025/11/25/uber-and-werides-robotaxi-service-in-abu-dhabi-is-officially-driverless/"
+      "text": "Apple's AirTag Upgrade - **Apple** enhances AirTag features for better luggage tracking in collaboration with airlines.",
+      "url": "https://9to5mac.com/2025/11/25/airtags-newest-feature-could-work-even-better-now-for-many-travelers/"
     },
     {
-      "text": "Qualcomm's Snapdragon 8 Gen 5 Unveiled - **Qualcomm** introduces a new chip for affordable flagship phones with enhanced performance.",
-      "url": "https://www.theverge.com/news/828959/qualcomm-snapdragon-8-gen-5"
-    },
-    {
-      "text": "AI Shopping Assistants Launch - **OpenAI** and **Perplexity** introduce AI features to enhance online shopping experiences.",
-      "url": "https://techcrunch.com/2025/11/25/openai-and-perplexity-are-launching-ai-shopping-assistants-but-competing-startups-arent-sweating-it/"
-    },
-    {
-      "text": "Fleet Space Discovers Lithium with AI - **Fleet Space** uses AI and satellites to locate a massive lithium deposit.",
-      "url": "https://techcrunch.com/2025/11/25/fleet-space-finds-massive-lithium-deposit-using-ai-and-satellites/"
+      "text": "Nordic Startups Thrive - The **Nordic** startup ecosystem is booming, with founders taking bigger risks and achieving success.",
+      "url": "https://techcrunch.com/2025/11/26/breaking-down-the-boom-in-the-nordics-startup-ecosystem/"
     }
   ]
 }
