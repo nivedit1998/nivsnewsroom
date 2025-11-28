@@ -1,44 +1,37 @@
 {
-  "generatedAt": "2025-11-27T08:48:28.877Z",
+  "generatedAt": "2025-11-28T08:49:08.862Z",
   "bullets": [
     {
-      "text": "Manage Containers Easily - **VS Code** integrates **Copilot** for streamlined container management, enhancing developer productivity.",
+      "text": "Easier Container Management - **Copilot** integration in **VS Code** streamlines container management with conversational commands.",
       "url": "https://devblogs.microsoft.com/blog/manage-containers-the-easy-way-copilot-vs-code"
     },
     {
-      "text": "Shop Smarter This Holiday - **Microsoft Edge** introduces **Copilot** for an enhanced shopping experience with cashback and price tracking.",
+      "text": "Smart Holiday Shopping - **Microsoft Edge** introduces **Copilot** features for cashback, price tracking, and product insights.",
       "url": "https://blogs.windows.com/msedgedev/2025/11/25/shop-smarter-with-copilot-in-edge-this-holiday-season/"
     },
     {
-      "text": "Claude Opus 4.5 Launch - **Anthropic's** latest model is now available in **Microsoft Foundry**, enhancing AI capabilities.",
-      "url": "https://azure.microsoft.com/en-us/blog/introducing-claude-opus-4-5-in-microsoft-foundry/"
-    },
-    {
-      "text": "Xbox Full Screen Experience - Now available for **Windows 11** handhelds, enhancing gaming with a distraction-free interface.",
+      "text": "Xbox Gaming Experience - Full screen gaming now available for **Windows 11** handhelds and in preview for PCs.",
       "url": "https://blogs.windows.com/windowsexperience/2025/11/24/xbox-full-screen-gaming-experience-now-available-for-windows-11-handhelds-and-in-preview-for-pcs/"
     },
     {
-      "text": "Web Install API Testing - **Microsoft Edge** introduces the **Web Install API**, allowing seamless web app installations.",
+      "text": "Web Install API Testing - **Microsoft Edge**'s new **Web Install API** allows seamless app installations from websites.",
       "url": "https://blogs.windows.com/msedgedev/2025/11/24/the-web-install-api-is-ready-for-testing/"
     },
     {
-      "text": "AI Collaboration in Security - **Microsoft Defender** pioneers the future of SOC with AI-driven workflows for enhanced security.",
+      "text": "AI-Driven Security Operations - **Microsoft Defender Experts** leverage AI for enhanced SOC efficiency and threat response.",
       "url": "https://techcommunity.microsoft.com/blog/microsoftsecurityexperts/charting-the-future-of-soc-human-and-ai-collaboration-for-better-security/4470688"
     },
     {
-      "text": "Notepad Update for Insiders - New features include table support and AI text streaming in **Windows 11** Notepad.",
+      "text": "Notepad Update for Insiders - New **Notepad** features include table support and AI text streaming for enhanced usability.",
       "url": "https://blogs.windows.com/windows-insider/2025/11/21/notepad-update-begins-rolling-out-to-windows-insiders/"
     },
     {
-      "text": "Windows 11 Insider Preview - New build introduces features like Xbox full screen experience and point-in-time restore."
+      "text": "Windows 11 Insider Preview - New features and Xbox full screen experience expand to more **Windows 11** devices.",
+      "url": "https://blogs.windows.com/windows-insider/2025/11/21/announcing-windows-11-insider-preview-build-26100-7271-dev-beta-channels/"
     },
     {
-      "text": "Microsoft's Access Management Leadership - Recognized as a Leader in the **Gartner** Magic Quadrant for the ninth year.",
+      "text": "Gartner Leader Recognition - **Microsoft** named a Leader in the 2025 Gartner® Magic Quadrant™ for Access Management.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/11/21/microsoft-named-a-leader-in-the-gartner-magic-quadrant-for-access-management-for-the-ninth-consecutive-year/"
-    },
-    {
-      "text": "Windows 11 Holiday Buying Guide - Explore the best **Windows 11** PCs with **Copilot** for the holiday season.",
-      "url": "https://blogs.windows.com/devices/2025/11/20/2025-windows-11-pc-holiday-buying-guide-best-devices-and-deals/"
     }
   ]
 }

@@ -1,37 +1,45 @@
 {
-  "generatedAt": "2025-11-27T08:47:53.762Z",
+  "generatedAt": "2025-11-28T08:48:12.369Z",
   "bullets": [
     {
-      "text": "London Councils Hit Hard - **Cyberattacks** disrupt services across multiple councils, prompting emergency measures.",
+      "text": "Humanoid Robot Bubble Warning - **China** warns of a potential bubble in the humanoid robotics industry amid rising **AI** investments.",
+      "url": "https://www.theverge.com/news/831451/china-humanoid-robotics-bubble"
+    },
+    {
+      "text": "Cyberattack Disrupts London Councils - Multiple **London** councils face major disruptions due to an ongoing cyberattack, activating emergency protocols.",
       "url": "https://techcrunch.com/2025/11/26/multiple-london-councils-report-disruption-amid-ongoing-cyberattack/"
     },
     {
-      "text": "Hisense U7 Shines Bright - The **Hisense U7** mini-LED TV offers impressive 4K quality at a competitive price.",
-      "url": "https://9to5google.com/2025/11/26/review-hisense-u7-mini-led-google-tv/"
-    },
-    {
-      "text": "YouTube's Custom Feed - **YouTube** tests a new feature to enhance personalized video recommendations for users.",
-      "url": "https://techcrunch.com/2025/11/25/youtube-is-working-on-a-feature-that-will-fix-the-messy-home-feed/"
-    },
-    {
-      "text": "Pocket Casts Gets Smarter - The **Pocket Casts** app introduces smart playlists to enhance podcast organization.",
-      "url": "https://9to5mac.com/2025/11/25/pocket-casts-app-introduces-smart-playlists-feature-to-organize-your-podcasts/"
-    },
-    {
-      "text": "OpenAI's Legal Battle - **OpenAI** denies liability in a lawsuit linked to a teen's tragic suicide involving ChatGPT.",
-      "url": "https://www.theverge.com/news/831207/openai-chatgpt-lawsuit-parental-controls-tos"
-    },
-    {
-      "text": "Tech Layoffs Continue - Over 22,000 tech workers have faced layoffs in 2025, highlighting ongoing industry challenges.",
-      "url": "https://techcrunch.com/2025/11/26/tech-layoffs-2025-list/"
-    },
-    {
-      "text": "Apple's AirTag Upgrade - **Apple** enhances AirTag features for better luggage tracking in collaboration with airlines.",
+      "text": "AirTag Enhancements for Travelers - **Apple** improves AirTag features to help airlines recover lost luggage more efficiently.",
       "url": "https://9to5mac.com/2025/11/25/airtags-newest-feature-could-work-even-better-now-for-many-travelers/"
     },
     {
-      "text": "Nordic Startups Thrive - The **Nordic** startup ecosystem is booming, with founders taking bigger risks and achieving success.",
-      "url": "https://techcrunch.com/2025/11/26/breaking-down-the-boom-in-the-nordics-startup-ecosystem/"
+      "text": "Smart Playlists in Pocket Casts - The **Pocket Casts** app introduces smart playlists to enhance podcast organization and listening.",
+      "url": "https://9to5mac.com/2025/11/25/pocket-casts-app-introduces-smart-playlists-feature-to-organize-your-podcasts/"
+    },
+    {
+      "text": "Anduril's Autonomous Weapons Issues - **Anduril Industries** faces setbacks in testing its autonomous weapons systems, raising safety concerns.",
+      "url": "https://techcrunch.com/2025/11/27/andurils-autonomous-weapons-stumble-in-tests-and-combat-wsj-reports/"
+    },
+    {
+      "text": "Nvidia Under Fire from Investor - **Michael Burry** targets **Nvidia**, questioning the sustainability of its AI-driven stock surge.",
+      "url": "https://techcrunch.com/2025/11/27/this-thanksgivings-real-drama-may-be-michael-burry-versus-nvidia/"
+    },
+    {
+      "text": "Dreame's Robovac Deal - The **Dreame X40 Ultra** offers a hands-free cleaning experience, now available at a significant discount.",
+      "url": "https://www.theverge.com/gadgets/829006/dreame-x40-ultra-black-friday-2025-deal-sale"
+    },
+    {
+      "text": "Philips Hue Lights Discount - **Philips Hue** Festavia string lights are now heavily discounted, perfect for festive decorations.",
+      "url": "https://www.theverge.com/gadgets/826881/philips-hue-festavia-govee-christmas-lights-black-friday-deal-2025"
+    },
+    {
+      "text": "Microsoft's AI Developer Insights - **Microsoft** reveals that up to 30% of code in some projects is now written by AI.",
+      "url": "https://www.theverge.com/tech/831379/microsoft-developer-ai-usage-stats-notepad"
+    },
+    {
+      "text": "Glīd Wins Startup Battlefield - **Glīd** triumphs at Startup Battlefield 2025, aiming to simplify logistics with innovative solutions.",
+      "url": "https://techcrunch.com/2025/11/27/glid-won-startup-battlefield-2025-by-building-solutions-to-make-logistics-simpler-safer-and-smarter/"
     }
   ]
 }
