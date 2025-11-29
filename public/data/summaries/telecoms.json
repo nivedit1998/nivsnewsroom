@@ -1,44 +1,37 @@
 {
-  "generatedAt": "2025-11-28T08:48:50.533Z",
+  "generatedAt": "2025-11-29T08:44:29.788Z",
   "bullets": [
     {
-      "text": "PSTN Switchoff Milestone Achieved – Openreach closes its first exchange, marking a significant shift to digital full fibre infrastructure.",
+      "text": "PSTN Switchoff Milestone Achieved – Openreach closes its first exchange, marking a shift to digital full fibre across the UK.",
       "url": "https://totaltele.com/openreach-closes-first-exchange-in-pstn-switchoff-milestone/"
     },
     {
-      "text": "Motorway 5G Upgrades Announced – **VMO2** enhances 4G and 5G coverage across 600 miles of UK motorways.",
+      "text": "Motorway 5G Upgrades – **VMO2** enhances 4G and 5G coverage on over 600 miles of UK motorways.",
       "url": "https://totaltele.com/vmo2-upgrades-motorway-5g-across-the-uk/"
     },
     {
-      "text": "UK Undersea Networks Secured – The government vows to protect critical undersea infrastructure amid rising geopolitical threats.",
-      "url": "https://totaltele.com/uk-vows-to-protect-undersea-networks-amid-rising-threats-from-russia-and-china/"
+      "text": "Nokia's Strategic Shift – Job cuts in Europe contrast with a $4 billion investment in US R&D and manufacturing.",
+      "url": "https://www.rcrwireless.com/20251128/infrastructure/strange-week-for-nokia"
     },
     {
-      "text": "AI in Telecoms Gaining Momentum – A new challenge invites telecom operators to leverage AI for network fault detection.",
-      "url": "https://www.telecomstechnews.com/news/telco-groups-open-challenge-to-test-llms-on-real-network-faults/"
+      "text": "AI in Broadband Networks – The **Broadband Forum** launches initiative to integrate AI for improved service delivery.",
+      "url": "https://www.telecomstechnews.com/news/broadband-forum-aims-to-encourage-ai-for-providers/"
     },
     {
-      "text": "Private 5G Simplified – Moso Networks claims plug-and-play private 5G solutions are now a reality for enterprises.",
-      "url": "https://www.rcrwireless.com/20251125/private-5g/plug-and-play-private-5g"
-    },
-    {
-      "text": "AI Transformation Essential for Telcos – Industry experts warn of potential extinction for telecoms not adopting AI technologies.",
-      "url": "https://totaltele.com/extinction-facing-telcos-that-dont-adopt-ai-transformation/"
-    },
-    {
-      "text": "New Subsea Cable Enhances Connectivity – Google announces TalayLink, a subsea cable to improve internet traffic between Australia and Thailand."
-    },
-    {
-      "text": "World Communication Awards 2025 Shortlist Revealed – The awards celebrate innovation and excellence in the global telecom industry.",
-      "url": "https://totaltele.com/world-communication-awards-2025-shortlist-announced/"
-    },
-    {
-      "text": "Telefónica Plans Job Cuts – The company considers axing up to 5,000 jobs in Spain as part of efficiency measures.",
+      "text": "Telefónica Job Cuts – The company considers axing up to 5,000 jobs in Spain as part of efficiency measures.",
       "url": "https://totaltele.com/telefonica-considers-axing-5000-spanish-jobs-as-streamlining-continues/"
     },
     {
-      "text": "MSSA Recommends NTN Integration – The Mobile Satellite Services Association calls for fast-tracking non-terrestrial network interoperability.",
-      "url": "https://www.telecomstechnews.com/news/mssa-blueprint-recommends-fast-tracking-ntn-integration-and-interoperability/"
+      "text": "World Communication Awards 2025 – The shortlist highlights leading innovators in the telecom industry.",
+      "url": "https://totaltele.com/world-communication-awards-2025-shortlist-announced/"
+    },
+    {
+      "text": "Direct-to-Cell Satellite Connectivity – **Proximus Global** partners with **Starlink** to enhance mobile connectivity in Europe.",
+      "url": "https://totaltele.com/proximus-global-and-starlink-partner-to-expand-direct-to-cell-satellite-connectivity-in-europe/"
+    },
+    {
+      "text": "5G Infrastructure Expansion – **Telefónica Germany** extends its RAN deal with **Nokia** to boost 5G rollout.",
+      "url": "https://www.rcrwireless.com/20251126/5g/nokia-telefonica-ran"
     }
   ]
 }
