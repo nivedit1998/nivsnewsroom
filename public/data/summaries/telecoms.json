@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2025-11-29T08:44:29.788Z",
+  "generatedAt": "2025-11-30T08:42:56.815Z",
   "bullets": [
     {
-      "text": "PSTN Switchoff Milestone Achieved – Openreach closes its first exchange, marking a shift to digital full fibre across the UK.",
+      "text": "PSTN Switchoff Milestone Achieved – Openreach closes its first exchange in a nationwide shift to digital full fibre infrastructure.",
       "url": "https://totaltele.com/openreach-closes-first-exchange-in-pstn-switchoff-milestone/"
     },
     {
-      "text": "Motorway 5G Upgrades – **VMO2** enhances 4G and 5G coverage on over 600 miles of UK motorways.",
+      "text": "Motorway 5G Upgrades – **VMO2** enhances 4G and 5G coverage across 600 miles of UK motorways.",
       "url": "https://totaltele.com/vmo2-upgrades-motorway-5g-across-the-uk/"
     },
     {
@@ -14,24 +14,31 @@
       "url": "https://www.rcrwireless.com/20251128/infrastructure/strange-week-for-nokia"
     },
     {
-      "text": "AI in Broadband Networks – The **Broadband Forum** launches initiative to integrate AI for improved service delivery.",
+      "text": "AI in Broadband Networks – The **Broadband Forum** launches a project to guide providers in implementing AI.",
       "url": "https://www.telecomstechnews.com/news/broadband-forum-aims-to-encourage-ai-for-providers/"
     },
     {
-      "text": "Telefónica Job Cuts – The company considers axing up to 5,000 jobs in Spain as part of efficiency measures.",
-      "url": "https://totaltele.com/telefonica-considers-axing-5000-spanish-jobs-as-streamlining-continues/"
+      "text": "5G Expansion with Nokia – **Telefónica Germany** extends its RAN deal with Nokia to enhance 5G infrastructure.",
+      "url": "https://www.rcrwireless.com/20251126/5g/nokia-telefonica-ran"
     },
     {
-      "text": "World Communication Awards 2025 – The shortlist highlights leading innovators in the telecom industry.",
-      "url": "https://totaltele.com/world-communication-awards-2025-shortlist-announced/"
+      "text": "New Subsea Cable Launched – Google introduces **TalayLink** to improve connectivity between Australia and Thailand."
     },
     {
-      "text": "Direct-to-Cell Satellite Connectivity – **Proximus Global** partners with **Starlink** to enhance mobile connectivity in Europe.",
+      "text": "Direct-to-Cell Satellite Connectivity – **Proximus Global** partners with **Starlink** to enhance mobile coverage in Europe.",
       "url": "https://totaltele.com/proximus-global-and-starlink-partner-to-expand-direct-to-cell-satellite-connectivity-in-europe/"
     },
     {
-      "text": "5G Infrastructure Expansion – **Telefónica Germany** extends its RAN deal with **Nokia** to boost 5G rollout.",
-      "url": "https://www.rcrwireless.com/20251126/5g/nokia-telefonica-ran"
+      "text": "World Communication Awards 2025 – The shortlist highlights leading innovators in the global telecom industry.",
+      "url": "https://totaltele.com/world-communication-awards-2025-shortlist-announced/"
+    },
+    {
+      "text": "Job Cuts at Telefónica – The company considers axing 5,000 jobs in Spain as part of efficiency measures.",
+      "url": "https://totaltele.com/telefonica-considers-axing-5000-spanish-jobs-as-streamlining-continues/"
+    },
+    {
+      "text": "AI-RAN Partnership for 6G – **Samsung** and **SK Telecom** collaborate on AI-driven radio access network technologies.",
+      "url": "https://www.telecomstechnews.com/news/samsung-and-sk-telecom-partner-ai-ran-for-6g-infrastructure/"
     }
   ]
 }
