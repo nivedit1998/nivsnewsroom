@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2025-11-30T08:43:08.407Z",
+  "generatedAt": "2025-12-01T08:52:02.647Z",
   "bullets": [
     {
-      "text": "Streamlined Container Management - **Copilot** integrates with **VS Code** for easier container management through conversational commands.",
+      "text": "Streamlined Container Management - **VS Code** now integrates **Copilot** for easier container management, enhancing developer focus.",
       "url": "https://devblogs.microsoft.com/blog/manage-containers-the-easy-way-copilot-vs-code"
     },
     {
-      "text": "Smart Holiday Shopping - **Copilot** in **Edge** enhances shopping with features like cashback and price tracking.",
+      "text": "Smart Shopping with Copilot - **Microsoft Edge** introduces **Copilot** features for a seamless holiday shopping experience.",
       "url": "https://blogs.windows.com/msedgedev/2025/11/25/shop-smarter-with-copilot-in-edge-this-holiday-season/"
     },
     {
-      "text": "Xbox Gaming Experience - **Windows 11** handhelds now support a full screen **Xbox** gaming experience for seamless play.",
+      "text": "Xbox Gaming Experience Enhanced - **Windows 11** users can now enjoy a full-screen **Xbox** gaming experience on handhelds.",
       "url": "https://blogs.windows.com/windowsexperience/2025/11/24/xbox-full-screen-gaming-experience-now-available-for-windows-11-handhelds-and-in-preview-for-pcs/"
     },
     {
-      "text": "Web Install API Testing - The **Web Install API** is ready for testing, allowing easier web app installations via **Microsoft Edge**.",
+      "text": "Web Install API Testing - **Microsoft Edge** launches the **Web Install API** for improved web app installation experiences.",
       "url": "https://blogs.windows.com/msedgedev/2025/11/24/the-web-install-api-is-ready-for-testing/"
     },
     {
-      "text": "AI in Security Operations - **Microsoft Defender Experts** leverage AI to enhance SOC efficiency and redefine analyst roles.",
+      "text": "AI-Driven Security Operations - **Microsoft Defender Experts** integrates AI to enhance SOC efficiency and threat response.",
       "url": "https://techcommunity.microsoft.com/blog/microsoftsecurityexperts/charting-the-future-of-soc-human-and-ai-collaboration-for-better-security/4470688"
     }
   ]
