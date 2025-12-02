@@ -1,45 +1,45 @@
 {
-  "generatedAt": "2025-12-01T08:51:53.924Z",
+  "generatedAt": "2025-12-02T08:51:34.377Z",
   "bullets": [
     {
-      "text": "PSTN Switchoff Milestone Achieved – Openreach closes its first exchange, marking a shift to digital full fibre networks.",
+      "text": "Ofcom Fines Virgin Media £23.8m - Ofcom penalises **Virgin Media** for risking vulnerable customers during digital landline migration.",
+      "url": "https://totaltele.com/ofcom-fines-virgin-media-23-8m-for-putting-vulnerable-at-risk-during-digital-landline-migration/"
+    },
+    {
+      "text": "Openreach Closes First Exchange - **Openreach** decommissions its first PSTN exchange, marking a shift to digital full fibre.",
       "url": "https://totaltele.com/openreach-closes-first-exchange-in-pstn-switchoff-milestone/"
     },
     {
-      "text": "Motorway 5G Upgrades Launched – **VMO2** enhances 4G and 5G coverage across 600 miles of UK motorways.",
-      "url": "https://totaltele.com/vmo2-upgrades-motorway-5g-across-the-uk/"
+      "text": "Telecoms Must Embrace Agentic AI - The industry must adopt **agentic AI** to enhance efficiency and customer satisfaction.",
+      "url": "https://www.rcrwireless.com/20251201/reader-forum/agentic-ai-holds-the-key"
     },
     {
-      "text": "Nokia's Strategic Shift – Job cuts in Europe coincide with a $4 billion investment in US R&D and manufacturing.",
+      "text": "Wi-Fi 8 Focuses on Reliability - **Wi-Fi 8** prioritises intelligence and reliability over speed, adapting to AI-driven applications.",
+      "url": "https://www.rcrwireless.com/20251201/network-infrastructure/mediatek-wi-fi-8-2"
+    },
+    {
+      "text": "Nokia's Strange Week - **Nokia** faces scrutiny over job cuts in Europe while investing heavily in the US.",
       "url": "https://www.rcrwireless.com/20251128/infrastructure/strange-week-for-nokia"
     },
     {
-      "text": "AI in Broadband Networks – The **Broadband Forum** launches initiative to integrate AI into service-led broadband networks.",
-      "url": "https://www.telecomstechnews.com/news/broadband-forum-aims-to-encourage-ai-for-providers/"
+      "text": "Telco Groups Challenge AI Models - An industry challenge seeks to develop **AI** models for diagnosing network faults.",
+      "url": "https://www.telecomstechnews.com/news/telco-groups-open-challenge-to-test-llms-on-real-network-faults/"
     },
     {
-      "text": "Direct-to-Cell Satellite Connectivity – **Proximus Global** and **Starlink** partner to enhance mobile connectivity in Europe.",
-      "url": "https://totaltele.com/proximus-global-and-starlink-partner-to-expand-direct-to-cell-satellite-connectivity-in-europe/"
+      "text": "Vodafone Germany Challenges Cartel Office - **Vodafone** contests investigation into alleged anti-competitive behaviour towards **1&1**.",
+      "url": "https://totaltele.com/vodafone-germany-challenges-federal-cartel-office-in-11-case/"
     },
     {
-      "text": "World Communication Awards 2025 – Shortlist announced, showcasing innovators in the global telecom industry.",
-      "url": "https://totaltele.com/world-communication-awards-2025-shortlist-announced/"
-    },
-    {
-      "text": "Telefónica Job Cuts Proposed – Up to 5,000 roles may be cut in Spain as part of a streamlining strategy.",
-      "url": "https://totaltele.com/telefonica-considers-axing-5000-spanish-jobs-as-streamlining-continues/"
-    },
-    {
-      "text": "AI-RAN Collaboration – **Samsung** and **SK Telecom** partner to advance AI-driven radio access network technologies.",
+      "text": "Samsung and SK Telecom Partner on AI-RAN - The duo aims to enhance **6G** infrastructure with AI-driven radio access technology.",
       "url": "https://www.rcrwireless.com/20251126/5g/sk-telecom-ai-ran"
     },
     {
-      "text": "Nokia and Telefónica RAN Deal – New contract extends partnership to enhance 5G infrastructure in Germany.",
-      "url": "https://www.rcrwireless.com/20251126/5g/nokia-telefonica-ran"
+      "text": "World Communication Awards 2025 Shortlist - The **World Communication Awards** recognises leading innovators in the telecom industry.",
+      "url": "https://totaltele.com/world-communication-awards-2025-shortlist-announced/"
     },
     {
-      "text": "Copper Theft Causes Outage – **Optus** faces network disruption due to copper theft, impacting emergency services.",
-      "url": "https://totaltele.com/copper-thieves-see-optus-stung-by-yet-another-network-outage/"
+      "text": "Proximus and Starlink Expand Satellite Connectivity - **Proximus Global** partners with **Starlink** to enhance direct-to-cell satellite services in Europe.",
+      "url": "https://totaltele.com/proximus-global-and-starlink-partner-to-expand-direct-to-cell-satellite-connectivity-in-europe/"
     }
   ]
 }

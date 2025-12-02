@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2025-12-01T08:52:02.647Z",
+  "generatedAt": "2025-12-02T08:51:44.197Z",
   "bullets": [
+    {
+      "text": "OSS AI Summit Insights - Join experts from **LangChain** and **Microsoft** to explore next-gen AI development techniques.",
+      "url": "https://devblogs.microsoft.com/blog/join-the-oss-ai-summit-building-with-langchain-event"
+    },
+    {
+      "text": "Festive Microsoft Sweaters - Celebrate the season with unique holiday sweaters reflecting **Microsoft**'s rich history.",
+      "url": "https://blogs.windows.com/windowsexperience/2025/12/01/unwrap-joy-this-holiday-with-this-years-microsoft-holiday-sweaters/"
+    },
     {
       "text": "Streamlined Container Management - **VS Code** now integrates **Copilot** for easier container management, enhancing developer focus.",
       "url": "https://devblogs.microsoft.com/blog/manage-containers-the-easy-way-copilot-vs-code"
     },
     {
-      "text": "Smart Shopping with Copilot - **Microsoft Edge** introduces **Copilot** features for a seamless holiday shopping experience.",
+      "text": "Smart Shopping with Edge - **Copilot** in **Microsoft Edge** offers AI-powered shopping features for a seamless holiday experience.",
       "url": "https://blogs.windows.com/msedgedev/2025/11/25/shop-smarter-with-copilot-in-edge-this-holiday-season/"
     },
     {
-      "text": "Xbox Gaming Experience Enhanced - **Windows 11** users can now enjoy a full-screen **Xbox** gaming experience on handhelds.",
-      "url": "https://blogs.windows.com/windowsexperience/2025/11/24/xbox-full-screen-gaming-experience-now-available-for-windows-11-handhelds-and-in-preview-for-pcs/"
-    },
-    {
-      "text": "Web Install API Testing - **Microsoft Edge** launches the **Web Install API** for improved web app installation experiences.",
-      "url": "https://blogs.windows.com/msedgedev/2025/11/24/the-web-install-api-is-ready-for-testing/"
-    },
-    {
-      "text": "AI-Driven Security Operations - **Microsoft Defender Experts** integrates AI to enhance SOC efficiency and threat response.",
+      "text": "Future of Security Operations - **Microsoft Defender Experts** leverage AI to transform SOCs, enhancing threat detection and analyst efficiency.",
       "url": "https://techcommunity.microsoft.com/blog/microsoftsecurityexperts/charting-the-future-of-soc-human-and-ai-collaboration-for-better-security/4470688"
     }
   ]
