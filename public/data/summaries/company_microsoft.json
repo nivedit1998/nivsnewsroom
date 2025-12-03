@@ -1,25 +1,21 @@
 {
-  "generatedAt": "2025-12-02T08:51:44.197Z",
+  "generatedAt": "2025-12-03T08:50:39.299Z",
   "bullets": [
     {
-      "text": "OSS AI Summit Insights - Join experts from **LangChain** and **Microsoft** to explore next-gen AI development techniques.",
+      "text": "Mobile Security Reinvented - **Microsoft** introduces Device-Bound Request Signing to enhance mobile security against token theft.",
+      "url": "https://devblogs.microsoft.com/blog/securing-sensitive-mobile-operations-with-device-bound-request-signing"
+    },
+    {
+      "text": "Future-Proof Cybersecurity Teams - **Microsoft** emphasizes the need for diverse talent to combat AI-driven cyber threats.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2025/12/02/how-to-build-forward-thinking-cybersecurity-teams-for-tomorrow/"
+    },
+    {
+      "text": "Join the OSS AI Summit - Learn about LangChain and modern AI application development at **Microsoft**'s upcoming event.",
       "url": "https://devblogs.microsoft.com/blog/join-the-oss-ai-summit-building-with-langchain-event"
     },
     {
-      "text": "Festive Microsoft Sweaters - Celebrate the season with unique holiday sweaters reflecting **Microsoft**'s rich history.",
+      "text": "Celebrate with Holiday Sweaters - **Microsoft** launches unique holiday sweaters celebrating its rich history and iconic products.",
       "url": "https://blogs.windows.com/windowsexperience/2025/12/01/unwrap-joy-this-holiday-with-this-years-microsoft-holiday-sweaters/"
-    },
-    {
-      "text": "Streamlined Container Management - **VS Code** now integrates **Copilot** for easier container management, enhancing developer focus.",
-      "url": "https://devblogs.microsoft.com/blog/manage-containers-the-easy-way-copilot-vs-code"
-    },
-    {
-      "text": "Smart Shopping with Edge - **Copilot** in **Microsoft Edge** offers AI-powered shopping features for a seamless holiday experience.",
-      "url": "https://blogs.windows.com/msedgedev/2025/11/25/shop-smarter-with-copilot-in-edge-this-holiday-season/"
-    },
-    {
-      "text": "Future of Security Operations - **Microsoft Defender Experts** leverage AI to transform SOCs, enhancing threat detection and analyst efficiency.",
-      "url": "https://techcommunity.microsoft.com/blog/microsoftsecurityexperts/charting-the-future-of-soc-human-and-ai-collaboration-for-better-security/4470688"
     }
   ]
 }
