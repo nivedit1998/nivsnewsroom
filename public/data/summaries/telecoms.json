@@ -1,16 +1,36 @@
 {
-  "generatedAt": "2025-12-03T08:50:31.957Z",
+  "generatedAt": "2025-12-04T08:50:09.707Z",
   "bullets": [
     {
-      "text": "Virgin Media Fined £23.8m - Ofcom penalises Virgin Media for failing to protect vulnerable customers during digital landline migration.",
+      "text": "Ofcom Fines Virgin Media £23.8m - Ofcom penalises **Virgin Media** for endangering vulnerable customers during digital landline migration.",
       "url": "https://totaltele.com/ofcom-fines-virgin-media-23-8m-for-putting-vulnerable-at-risk-during-digital-landline-migration/"
     },
     {
-      "text": "Openreach Closes First Exchange - Deddington Exchange marks a significant step in the UK’s transition to digital full fibre.",
-      "url": "https://totaltele.com/openreach-closes-first-exchange-in-pstn-switchoff-milestone/"
+      "text": "AWS AI Factories Challenge Telcos - **AWS** launches AI Factories, targeting telcos for sovereign AI infrastructure.",
+      "url": "https://www.rcrwireless.com/20251203/ai/aws-ai-factories-telco-ai"
     },
     {
-      "text": "Sovereign AI Growth for Telcos - Major telcos poised to benefit from government investments in domestic AI infrastructure.",
+      "text": "Monetizing 5G Standalone is Key - Carriers must focus on monetizing **5G SA** before considering **6G** advancements.",
+      "url": "https://www.rcrwireless.com/20251203/5g/6g-5g-standalone"
+    },
+    {
+      "text": "Mimosa Offers FWA Alternative - **Mimosa Networks** presents fixed-wireless access as a simpler alternative to private **5G**.",
+      "url": "https://www.rcrwireless.com/20251203/private-5g/mimosa-purpose-built-fwa-2"
+    },
+    {
+      "text": "NTT's Growth Strategy Unveiled - **NTT** combines local expertise with global reach to drive data center innovation.",
+      "url": "https://www.rcrwireless.com/20251203/podcast/from-community-roots-to-global-impact-the-playbook-powering-ntts-growth-with-bruno-berti"
+    },
+    {
+      "text": "2026 Security Agenda Focus - Automated threats and cloud resilience are top priorities for enterprise security leaders.",
+      "url": "https://www.telecomstechnews.com/news/automated-threats-cloud-resilience-top-2026-security-agenda/"
+    },
+    {
+      "text": "Indian Government U-Turns on App - India reverses mandatory installation of a controversial mobile security app.",
+      "url": "https://totaltele.com/indian-government-u-turns-on-mandatory-mobile-security-app/"
+    },
+    {
+      "text": "Sovereign AI Growth for Telcos - Major telcos positioned to benefit from government investments in sovereign AI infrastructure.",
       "url": "https://www.rcrwireless.com/20251202/ai/sovereign-ai-telcos"
     },
     {
@@ -18,28 +38,8 @@
       "url": "https://www.rcrwireless.com/20251202/analyst-angle/telecom-consultants"
     },
     {
-      "text": "Closing Deployment Gaps - Digital inspections and drones aim to bridge the as-planned/as-built divide in tower deployments.",
+      "text": "Closing the Deployment Divide - New solutions aim to bridge the gap between planned and actual tower deployments.",
       "url": "https://www.telecomstechnews.com/news/accurate-antenna-deployment-closing-the-as-planned-as-built-divide-in-tower-deployment/"
-    },
-    {
-      "text": "Agentic AI Key for Telecoms - Embracing agentic AI is crucial for telecoms to enhance efficiency and customer satisfaction.",
-      "url": "https://www.rcrwireless.com/20251201/reader-forum/agentic-ai-holds-the-key"
-    },
-    {
-      "text": "Wi-Fi 8 Focuses on Reliability - The next Wi-Fi generation prioritises intelligence and real-world performance over speed.",
-      "url": "https://www.rcrwireless.com/20251201/network-infrastructure/mediatek-wi-fi-8-2"
-    },
-    {
-      "text": "Vietnam's 5G Shift to China - Huawei and ZTE secure significant 5G contracts as Vietnam warms to Chinese tech.",
-      "url": "https://www.telecomstechnews.com/news/huawei-and-zte-win-5g-deals-in-vietnam-as-us-tariffs-strain-ties/"
-    },
-    {
-      "text": "Satellite Edge Computing Advances - Fujitsu and Yamaguchi University cut satellite data latency significantly with edge computing.",
-      "url": "https://www.telecomstechnews.com/news/cutting-data-latency-with-satellite-edge-computing/"
-    },
-    {
-      "text": "AI in Broadband Networks Initiative - Broadband Forum aims to guide providers in integrating AI for improved services.",
-      "url": "https://www.telecomstechnews.com/news/broadband-forum-aims-to-encourage-ai-for-providers/"
     }
   ]
 }

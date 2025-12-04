@@ -1,20 +1,32 @@
 {
-  "generatedAt": "2025-12-03T08:50:39.299Z",
+  "generatedAt": "2025-12-04T08:50:22.361Z",
   "bullets": [
     {
-      "text": "Mobile Security Reinvented - **Microsoft** introduces Device-Bound Request Signing to enhance mobile security against token theft.",
+      "text": "Biggest Xbox Game Pass Launch - **Clair Obscur: Expedition 33** tops third-party launches in 2025, expanding audience reach.",
+      "url": "https://blogs.windows.com/windowsexperience/2025/12/03/biggest-new-third-party-launch-for-xbox-game-pass-2025-clair-obscur-expedition-33/"
+    },
+    {
+      "text": "Microsoft Store Awards 2025 - Celebrating innovative apps that enhance user experiences and drive productivity.",
+      "url": "https://blogs.windows.com/windowsdeveloper/2025/12/03/announcing-the-microsoft-store-awards-2025-winners/"
+    },
+    {
+      "text": "Advancing Windows Accessibility - New features like **Fluid Dictation** enhance usability for diverse user needs.",
+      "url": "https://blogs.windows.com/windowsexperience/2025/12/03/2025-a-year-in-recap-windows-accessibility/"
+    },
+    {
+      "text": "Enhancing Mobile Security - **Device-Bound Request Signing** strengthens authentication by linking requests to hardware-backed keys.",
       "url": "https://devblogs.microsoft.com/blog/securing-sensitive-mobile-operations-with-device-bound-request-signing"
     },
     {
-      "text": "Future-Proof Cybersecurity Teams - **Microsoft** emphasizes the need for diverse talent to combat AI-driven cyber threats.",
+      "text": "Future-Proofing Cybersecurity Teams - Emphasizing the need for diverse skills to combat AI-driven cyber threats.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/12/02/how-to-build-forward-thinking-cybersecurity-teams-for-tomorrow/"
     },
     {
-      "text": "Join the OSS AI Summit - Learn about LangChain and modern AI application development at **Microsoft**'s upcoming event.",
+      "text": "OSS AI Summit Announcement - Join experts to explore building advanced AI applications with **LangChain**.",
       "url": "https://devblogs.microsoft.com/blog/join-the-oss-ai-summit-building-with-langchain-event"
     },
     {
-      "text": "Celebrate with Holiday Sweaters - **Microsoft** launches unique holiday sweaters celebrating its rich history and iconic products.",
+      "text": "Holiday Cheer with Microsoft - Unique holiday sweaters celebrate Microsoft's history and iconic products.",
       "url": "https://blogs.windows.com/windowsexperience/2025/12/01/unwrap-joy-this-holiday-with-this-years-microsoft-holiday-sweaters/"
     }
   ]
