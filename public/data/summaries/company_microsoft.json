@@ -1,33 +1,33 @@
 {
-  "generatedAt": "2025-12-04T08:50:22.361Z",
+  "generatedAt": "2025-12-05T08:49:45.974Z",
   "bullets": [
     {
-      "text": "Biggest Xbox Game Pass Launch - **Clair Obscur: Expedition 33** tops third-party launches in 2025, expanding audience reach.",
-      "url": "https://blogs.windows.com/windowsexperience/2025/12/03/biggest-new-third-party-launch-for-xbox-game-pass-2025-clair-obscur-expedition-33/"
+      "text": "Prioritize Cybersecurity Basics - **Microsoft** emphasizes essential cyber hygiene practices to combat preventable cyberattacks.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2025/12/04/cybersecurity-strategies-to-prioritize-now/"
     },
     {
-      "text": "Microsoft Store Awards 2025 - Celebrating innovative apps that enhance user experiences and drive productivity.",
-      "url": "https://blogs.windows.com/windowsdeveloper/2025/12/03/announcing-the-microsoft-store-awards-2025-winners/"
+      "text": "AI-Powered Azure Innovations - **Microsoft Azure** enhances cloud services to meet evolving business needs without trade-offs.",
+      "url": "https://azure.microsoft.com/en-us/blog/new-options-for-ai-powered-innovation-resiliency-and-control-with-microsoft-azure/"
     },
     {
-      "text": "Advancing Windows Accessibility - New features like **Fluid Dictation** enhance usability for diverse user needs.",
-      "url": "https://blogs.windows.com/windowsexperience/2025/12/03/2025-a-year-in-recap-windows-accessibility/"
+      "text": "Mistral Large 3 Launch - **Microsoft Foundry** introduces a powerful open-source AI model for enterprise applications.",
+      "url": "https://azure.microsoft.com/en-us/blog/introducing-mistral-large-3-in-microsoft-foundry-open-capable-and-ready-for-production-workloads/"
     },
     {
-      "text": "Enhancing Mobile Security - **Device-Bound Request Signing** strengthens authentication by linking requests to hardware-backed keys.",
+      "text": "Enhancing Mobile Security - **Microsoft** unveils Device-Bound Request Signing to strengthen mobile app security.",
       "url": "https://devblogs.microsoft.com/blog/securing-sensitive-mobile-operations-with-device-bound-request-signing"
     },
     {
-      "text": "Future-Proofing Cybersecurity Teams - Emphasizing the need for diverse skills to combat AI-driven cyber threats.",
+      "text": "Celebrating 10 Years with Red Hat - **Microsoft** and **Red Hat** mark a decade of collaboration in open innovation.",
+      "url": "https://azure.microsoft.com/en-us/blog/a-decade-of-open-innovation-celebrating-10-years-of-microsoft-and-red-hat-partnership/"
+    },
+    {
+      "text": "Future-Proof Cybersecurity Teams - **Microsoft** stresses the need for innovative talent strategies in AI-driven cybersecurity.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/12/02/how-to-build-forward-thinking-cybersecurity-teams-for-tomorrow/"
     },
     {
-      "text": "OSS AI Summit Announcement - Join experts to explore building advanced AI applications with **LangChain**.",
-      "url": "https://devblogs.microsoft.com/blog/join-the-oss-ai-summit-building-with-langchain-event"
-    },
-    {
-      "text": "Holiday Cheer with Microsoft - Unique holiday sweaters celebrate Microsoft's history and iconic products.",
-      "url": "https://blogs.windows.com/windowsexperience/2025/12/01/unwrap-joy-this-holiday-with-this-years-microsoft-holiday-sweaters/"
+      "text": "Azure Networking Advancements - **Microsoft Azure** enhances networking capabilities to support AI workloads and cloud applications.",
+      "url": "https://azure.microsoft.com/en-us/blog/azure-networking-updates-on-security-reliability-and-high-availability/"
     }
   ]
 }
