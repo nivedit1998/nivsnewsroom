@@ -1,45 +1,45 @@
 {
-  "generatedAt": "2025-12-05T08:49:27.943Z",
+  "generatedAt": "2025-12-06T08:45:47.829Z",
   "bullets": [
     {
-      "text": "BT Launches Sovereign Platform - **BT** introduces a platform for UK businesses to enhance control over networks and data.",
+      "text": "BT's Sovereign Platform Launched - **BT** introduces a new platform for UK businesses, enhancing control over networks and data.",
       "url": "https://totaltele.com/bt-unveils-new-sovereign-platform-for-enterprise-customers/"
     },
     {
-      "text": "ISPs Must Offer More - **Incognito** highlights the need for ISPs to provide value-added services beyond just speed.",
+      "text": "ISPs Must Innovate - **Incognito** highlights the need for ISPs to offer value-added services to retain customers.",
       "url": "https://totaltele.com/not-just-a-pipe-incognito-talks-isp-agility-and-value-added-services/"
     },
     {
-      "text": "Virgin Media Fined £23.8m - **Ofcom** penalizes Virgin Media for endangering vulnerable customers during digital landline migration.",
+      "text": "Virgin Media Fined £23.8m - **Ofcom** penalizes **Virgin Media** for endangering vulnerable customers during digital migration.",
       "url": "https://totaltele.com/ofcom-fines-virgin-media-23-8m-for-putting-vulnerable-at-risk-during-digital-landline-migration/"
     },
     {
-      "text": "Wi-Fi 8 and AI Integration - The future of **Wi-Fi** focuses on reliability and AI management for improved user experience.",
+      "text": "Cloudflare Outage Exposes Risks - The recent **Cloudflare** outage reveals vulnerabilities in enterprise infrastructure reliance.",
+      "url": "https://www.telecomstechnews.com/news/cloudflare-outage-enterprise-infrastructure-dependence/"
+    },
+    {
+      "text": "Wi-Fi 8 and AI Integration - The future of **Wi-Fi** is shifting towards managed solutions, enhancing reliability and performance.",
       "url": "https://www.rcrwireless.com/20251204/network-infrastructure/why-the-future-of-wi-fi-is-managed"
     },
     {
-      "text": "AWS Targets Sovereign AI - **AWS** launches AI Factories to meet the growing demand for sovereign AI solutions.",
+      "text": "AWS Targets Sovereign AI - **AWS** launches AI Factories, challenging telcos in the sovereign AI market.",
       "url": "https://www.rcrwireless.com/20251203/ai/aws-ai-factories-telco-ai"
     },
     {
-      "text": "5G Monetization Challenges - Carriers must focus on monetizing **5G** before considering the transition to 6G.",
-      "url": "https://www.rcrwireless.com/20251203/5g/6g-5g-standalone"
+      "text": "Automated Threats Dominate Security - 2026 will see a focus on automated threats and cloud resilience in cybersecurity.",
+      "url": "https://www.telecomstechnews.com/news/automated-threats-cloud-resilience-top-2026-security-agenda/"
     },
     {
-      "text": "Mimosa's FWA Solution - **Mimosa** offers a cost-effective alternative to private 5G with fixed-wireless access solutions.",
-      "url": "https://www.rcrwireless.com/20251203/private-5g/mimosa-purpose-built-fwa-2"
-    },
-    {
-      "text": "Telcos Embrace AI-as-a-Service - Telecom operators are evolving to offer **AI** solutions alongside traditional connectivity.",
+      "text": "Telcos Embrace AI Services - Telecoms are evolving to offer AI-as-a-Service, leveraging existing infrastructure for new revenue.",
       "url": "https://www.rcrwireless.com/20251203/ai/telcos-as-ai-providers"
     },
     {
-      "text": "Vodacom Gains Control of Safaricom - **Vodacom** increases its stake in **Safaricom** to 55% for strategic growth.",
+      "text": "Vodacom Gains Majority in Safaricom - **Vodacom** increases its stake in **Safaricom**, enhancing its market position in Kenya.",
       "url": "https://totaltele.com/vodacom-buys-2-1bn-stake-in-safaricom-gains-majority-control/"
     },
     {
-      "text": "Nokia's Private 5G Strategy - **Nokia** faces scrutiny over its restructuring amid a major offshore 5G project.",
-      "url": "https://www.rcrwireless.com/20251203/private-5g/nokia-private-5g-future-protest"
+      "text": "Keysight's New RF Analyzers - **Keysight** introduces handheld RF analyzers for precise field testing in challenging environments.",
+      "url": "https://www.rcrwireless.com/20251205/test-measurement/keysight-brings-lab-like-precision-to-field-tests-with-new-d-series-fieldfox-rf-analyzers"
     }
   ]
 }

@@ -1,33 +1,25 @@
 {
-  "generatedAt": "2025-12-05T08:49:45.974Z",
+  "generatedAt": "2025-12-06T08:46:00.870Z",
   "bullets": [
     {
-      "text": "Prioritize Cybersecurity Basics - **Microsoft** emphasizes essential cyber hygiene practices to combat preventable cyberattacks.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2025/12/04/cybersecurity-strategies-to-prioritize-now/"
+      "text": "AI Dev Days Announced - Join Microsoft for a two-day virtual event on December 10-11 showcasing AI innovations.",
+      "url": "https://devblogs.microsoft.com/blog/join-us-for-ai-devdays"
     },
     {
-      "text": "AI-Powered Azure Innovations - **Microsoft Azure** enhances cloud services to meet evolving business needs without trade-offs.",
-      "url": "https://azure.microsoft.com/en-us/blog/new-options-for-ai-powered-innovation-resiliency-and-control-with-microsoft-azure/"
+      "text": "Windows 11 Insider Preview - New build 26220.7344 introduces native support for Model Context Protocol (MCP).",
+      "url": "https://blogs.windows.com/windows-insider/2025/12/05/announcing-windows-11-insider-preview-build-26220-7344-dev-beta-channels/"
     },
     {
-      "text": "Mistral Large 3 Launch - **Microsoft Foundry** introduces a powerful open-source AI model for enterprise applications.",
-      "url": "https://azure.microsoft.com/en-us/blog/introducing-mistral-large-3-in-microsoft-foundry-open-capable-and-ready-for-production-workloads/"
+      "text": "Microsoft Leads Email Security - Recognized as a Leader in the 2025 Gartner® Magic Quadrant™ for Email Security.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2025/12/05/microsoft-named-a-leader-in-the-2025-gartner-magic-quadrant-for-email-security/"
     },
     {
-      "text": "Enhancing Mobile Security - **Microsoft** unveils Device-Bound Request Signing to strengthen mobile app security.",
-      "url": "https://devblogs.microsoft.com/blog/securing-sensitive-mobile-operations-with-device-bound-request-signing"
+      "text": "Microsoft 365 Updates - New AI capabilities and pricing changes announced for Microsoft 365 effective July 2026.",
+      "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2025/12/04/advancing-microsoft-365-new-capabilities-and-pricing-update/"
     },
     {
-      "text": "Celebrating 10 Years with Red Hat - **Microsoft** and **Red Hat** mark a decade of collaboration in open innovation.",
-      "url": "https://azure.microsoft.com/en-us/blog/a-decade-of-open-innovation-celebrating-10-years-of-microsoft-and-red-hat-partnership/"
-    },
-    {
-      "text": "Future-Proof Cybersecurity Teams - **Microsoft** stresses the need for innovative talent strategies in AI-driven cybersecurity.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2025/12/02/how-to-build-forward-thinking-cybersecurity-teams-for-tomorrow/"
-    },
-    {
-      "text": "Azure Networking Advancements - **Microsoft Azure** enhances networking capabilities to support AI workloads and cloud applications.",
-      "url": "https://azure.microsoft.com/en-us/blog/azure-networking-updates-on-security-reliability-and-high-availability/"
+      "text": "Microsoft 365 Copilot Business - New AI solution for small businesses launched at an SMB-friendly price.",
+      "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2025/12/02/microsoft-365-copilot-business-the-future-of-work-for-small-businesses/"
     }
   ]
 }
