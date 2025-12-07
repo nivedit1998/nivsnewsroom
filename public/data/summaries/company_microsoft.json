@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2025-12-06T08:46:00.870Z",
+  "generatedAt": "2025-12-07T08:44:33.617Z",
   "bullets": [
     {
-      "text": "AI Dev Days Announced - Join Microsoft for a two-day virtual event on December 10-11 showcasing AI innovations.",
+      "text": "AI Dev Days Announced - Join Microsoft for a two-day virtual event on December 10-11 focused on AI innovations.",
       "url": "https://devblogs.microsoft.com/blog/join-us-for-ai-devdays"
     },
     {
-      "text": "Windows 11 Insider Preview - New build 26220.7344 introduces native support for Model Context Protocol (MCP).",
+      "text": "Windows 11 Insider Preview - New build 26220.7344 introduces native support for MCP, enhancing AI agent connectivity.",
       "url": "https://blogs.windows.com/windows-insider/2025/12/05/announcing-windows-11-insider-preview-build-26220-7344-dev-beta-channels/"
     },
     {
-      "text": "Microsoft Leads Email Security - Recognized as a Leader in the 2025 Gartner® Magic Quadrant™ for Email Security.",
+      "text": "Microsoft Leads Email Security - Recognized as a leader in the 2025 Gartner Magic Quadrant for Email Security.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/12/05/microsoft-named-a-leader-in-the-2025-gartner-magic-quadrant-for-email-security/"
     },
     {
-      "text": "Microsoft 365 Updates - New AI capabilities and pricing changes announced for Microsoft 365 effective July 2026.",
+      "text": "Microsoft 365 Updates - New AI and security capabilities announced for Microsoft 365, with pricing changes effective July 2026.",
       "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2025/12/04/advancing-microsoft-365-new-capabilities-and-pricing-update/"
     },
     {
-      "text": "Microsoft 365 Copilot Business - New AI solution for small businesses launched at an SMB-friendly price.",
+      "text": "Copilot Business Launch - Microsoft 365 Copilot Business now available, integrating AI into everyday tasks for small businesses.",
       "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2025/12/02/microsoft-365-copilot-business-the-future-of-work-for-small-businesses/"
     }
   ]
