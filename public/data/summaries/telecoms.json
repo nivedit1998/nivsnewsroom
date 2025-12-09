@@ -1,45 +1,37 @@
 {
-  "generatedAt": "2025-12-08T08:52:04.909Z",
+  "generatedAt": "2025-12-09T08:52:00.070Z",
   "bullets": [
     {
-      "text": "BT's Sovereign Platform Launched - **BT** introduces a new platform for UK businesses, enhancing control over networks and data.",
-      "url": "https://totaltele.com/bt-unveils-new-sovereign-platform-for-enterprise-customers/"
+      "text": "BT's Sovereign Platform Launched - **BT** introduces a new platform to enhance digital sovereignty for UK businesses and public sector.",
+      "url": "https://www.rcrwireless.com/20251208/carriers/bt-launches-digital"
     },
     {
-      "text": "ISPs Must Innovate - **Incognito** highlights the need for ISPs to offer value-added services to retain customers.",
-      "url": "https://totaltele.com/not-just-a-pipe-incognito-talks-isp-agility-and-value-added-services/"
+      "text": "AI-Driven Network Optimization - AI technologies are set to revolutionize network planning, enabling proactive maintenance and reduced downtime.",
+      "url": "https://www.rcrwireless.com/20251208/ai/ai-network-planning"
     },
     {
-      "text": "Virgin Media Fined £23.8m - **Ofcom** penalizes **Virgin Media** for endangering vulnerable customers during digital migration.",
-      "url": "https://totaltele.com/ofcom-fines-virgin-media-23-8m-for-putting-vulnerable-at-risk-during-digital-landline-migration/"
+      "text": "Lumine Acquires Synchronoss - **Lumine Group** expands its portfolio by acquiring **Synchronoss** for $116.4 million, enhancing cloud services.",
+      "url": "https://www.rcrwireless.com/20251208/telco-cloud/lumine-telco-cloud-synchronoss"
     },
     {
-      "text": "Cloudflare Outage Exposes Risks - Recent outages reveal vulnerabilities in enterprise infrastructure reliance on few providers.",
+      "text": "AI-Powered Cyber Defense Centers - **NTT DATA** announces new centers in the UK to bolster cybersecurity with AI technologies.",
+      "url": "https://totaltele.com/ntt-data-announces-six-new-ai-powered-cyber-defense-centers-to-strengthen-cyber-resilience-and-counter-an-evolving-threat-landscape/"
+    },
+    {
+      "text": "Cloudflare Outage Highlights Risks - Recent outages emphasize the fragility of concentrated cloud infrastructure in telecom networks.",
       "url": "https://www.telecomstechnews.com/news/cloudflare-outage-enterprise-infrastructure-dependence/"
     },
     {
-      "text": "Wi-Fi 8 and AI Integration - Future Wi-Fi advancements focus on reliability and AI management to enhance user experience.",
-      "url": "https://www.rcrwireless.com/20251204/network-infrastructure/why-the-future-of-wi-fi-is-managed"
+      "text": "AI Monetization for Telcos - Telecom companies are exploring AI services, with projected revenues reaching $4 billion by 2025.",
+      "url": "https://www.rcrwireless.com/20251205/ai/how-telcos-monetize-ai"
     },
     {
-      "text": "Automated Threats on the Rise - Security leaders must adapt to faster, automated cyber threats in 2026.",
-      "url": "https://www.telecomstechnews.com/news/automated-threats-cloud-resilience-top-2026-security-agenda/"
-    },
-    {
-      "text": "Telcos Eye AI Monetization - Telecoms are shifting to offer AI services, leveraging existing infrastructure for growth.",
-      "url": "https://www.rcrwireless.com/20251203/ai/telcos-as-ai-providers"
-    },
-    {
-      "text": "Vodacom Gains Control of Safaricom - **Vodacom** increases its stake in **Safaricom** to 55% for strategic growth.",
+      "text": "Vodacom Gains Majority in Safaricom - **Vodacom** acquires a $2.1 billion stake in **Safaricom**, increasing its control to 55%.",
       "url": "https://totaltele.com/vodacom-buys-2-1bn-stake-in-safaricom-gains-majority-control/"
     },
     {
-      "text": "Keysight's New RF Analyzers - **Keysight** launches D-Series analyzers for enhanced field testing precision.",
-      "url": "https://www.rcrwireless.com/20251205/test-measurement/keysight-brings-lab-like-precision-to-field-tests-with-new-d-series-fieldfox-rf-analyzers"
-    },
-    {
-      "text": "WBA Trials Show Wi-Fi QoS Gains - New trials demonstrate how Wi-Fi QoS can significantly reduce latency.",
-      "url": "https://www.rcrwireless.com/20251205/network-infrastructure/wi-fi-qos"
+      "text": "Private 5G for AI Integration - **Celona** positions private 5G as a key infrastructure layer for AI in industrial settings.",
+      "url": "https://www.rcrwireless.com/20251208/private-5g/private-5g-ai-enterprise-celona"
     }
   ]
 }

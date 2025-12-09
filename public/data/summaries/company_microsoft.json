@@ -1,45 +1,41 @@
 {
-  "generatedAt": "2025-12-08T08:52:30.986Z",
+  "generatedAt": "2025-12-09T08:52:19.793Z",
   "bullets": [
     {
-      "text": "AI Dev Days Announced - Join Microsoft for a two-day virtual event on December 10-11 focused on AI innovations.",
+      "text": "Node.js MCP on Azure Functions - **Azure Functions** now supports hosting **Node.js** MCP servers for scalable, serverless deployment.",
+      "url": "https://devblogs.microsoft.com/blog/host-your-node-js-mcp-server-on-azure-functions-in-3-simple-steps"
+    },
+    {
+      "text": "Beazley Collaboration Boosts Cyber Resilience - **Microsoft** partners with **Beazley** to enhance incident response and cyber resilience.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2025/12/08/stronger-together-new-beazley-collaboration-enhances-cyber-resilience/"
+    },
+    {
+      "text": "AI Dev Days Event - Join **Microsoft** for AI Dev Days on December 10-11 to explore the latest in AI innovation.",
       "url": "https://devblogs.microsoft.com/blog/join-us-for-ai-devdays"
     },
     {
-      "text": "Windows 11 Insider Preview - New build 26220.7344 introduces native support for MCP, enhancing AI agent connectivity.",
+      "text": "Windows 11 Insider Preview Released - New **Windows 11** build introduces native support for **MCP** and enhanced features.",
       "url": "https://blogs.windows.com/windows-insider/2025/12/05/announcing-windows-11-insider-preview-build-26220-7344-dev-beta-channels/"
     },
     {
-      "text": "Gartner Magic Quadrant Leader - **Microsoft** recognized as a leader in email security for its innovative Defender for Office 365.",
+      "text": "Leader in Email Security - **Microsoft** recognized as a leader in the 2025 **Gartner Magic Quadrant** for Email Security.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/12/05/microsoft-named-a-leader-in-the-2025-gartner-magic-quadrant-for-email-security/"
     },
     {
-      "text": "Cybersecurity Strategies - Prioritize essential cyber hygiene and modern security standards to combat evolving threats.",
+      "text": "Prioritize Cybersecurity Strategies - **Microsoft** emphasizes essential cybersecurity strategies to combat evolving threats.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/12/04/cybersecurity-strategies-to-prioritize-now/"
     },
     {
-      "text": "Xbox Game Pass Launch - **Clair Obscur: Expedition 33** becomes the biggest third-party launch in 2025.",
-      "url": "https://blogs.windows.com/windowsexperience/2025/12/03/biggest-new-third-party-launch-for-xbox-game-pass-2025-clair-obscur-expedition-33/"
+      "text": "Microsoft 365 Enhancements Announced - **Microsoft 365** to receive new AI capabilities and pricing updates in 2026.",
+      "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2025/12/04/advancing-microsoft-365-new-capabilities-and-pricing-update/"
     },
     {
-      "text": "Microsoft Store Awards Winners - Celebrating outstanding applications that enhance user experiences across the Windows ecosystem.",
-      "url": "https://blogs.windows.com/windowsdeveloper/2025/12/03/announcing-the-microsoft-store-awards-2025-winners/"
+      "text": "Copilot Business for SMBs - **Microsoft 365 Copilot Business** launched, offering AI solutions tailored for small businesses.",
+      "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2025/12/02/microsoft-365-copilot-business-the-future-of-work-for-small-businesses/"
     },
     {
-      "text": "AI-Powered Azure Innovations - New Azure options enhance control and resilience for mission-critical workloads.",
-      "url": "https://azure.microsoft.com/en-us/blog/new-options-for-ai-powered-innovation-resiliency-and-control-with-microsoft-azure/"
-    },
-    {
-      "text": "Accessibility Progress in 2025 - Microsoft highlights advancements in accessibility features based on community feedback.",
-      "url": "https://blogs.windows.com/windowsexperience/2025/12/03/2025-a-year-in-recap-windows-accessibility/"
-    },
-    {
-      "text": "Mistral Large 3 Launch - New open-source AI model available in Azure, designed for enterprise workloads.",
-      "url": "https://azure.microsoft.com/en-us/blog/introducing-mistral-large-3-in-microsoft-foundry-open-capable-and-ready-for-production-workloads/"
-    },
-    {
-      "text": "Device-Bound Request Signing - Enhancing mobile security by linking requests to hardware-backed keys.",
-      "url": "https://devblogs.microsoft.com/blog/securing-sensitive-mobile-operations-with-device-bound-request-signing"
+      "text": "Building Future-Ready Cybersecurity Teams - **Microsoft** discusses the need for innovative talent strategies in cybersecurity.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2025/12/02/how-to-build-forward-thinking-cybersecurity-teams-for-tomorrow/"
     }
   ]
 }
