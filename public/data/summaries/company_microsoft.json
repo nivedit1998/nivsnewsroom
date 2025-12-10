@@ -1,41 +1,45 @@
 {
-  "generatedAt": "2025-12-09T08:52:19.793Z",
+  "generatedAt": "2025-12-10T08:52:29.040Z",
   "bullets": [
     {
-      "text": "Node.js MCP on Azure Functions - **Azure Functions** now supports hosting **Node.js** MCP servers for scalable, serverless deployment.",
+      "text": "Windows 11 Insider Preview Released - New features and fixes enhance user experience for Insiders in the Canary Channel.",
+      "url": "https://blogs.windows.com/windows-insider/2025/12/09/announcing-windows-11-insider-preview-build-28000-1340-canary-channel/"
+    },
+    {
+      "text": "2025 Gaming Innovations - Windows 11 enhances gaming with handheld devices and DirectX advancements for immersive experiences.",
+      "url": "https://blogs.windows.com/windowsexperience/2025/12/09/windows-pc-gaming-in-2025-handheld-innovation-arm-progress-and-directx-advances/"
+    },
+    {
+      "text": "AI-Driven JavaScript Modernization - New tool simplifies upgrading JavaScript/TypeScript projects in Visual Studio Code.",
+      "url": "https://devblogs.microsoft.com/blog/jsts-modernizer-preview"
+    },
+    {
+      "text": "Faster Web Apps Proposal - Microsoft introduces Delayed Message Timing API to enhance web app performance.",
+      "url": "https://blogs.windows.com/msedgedev/2025/12/09/making-complex-web-apps-faster/"
+    },
+    {
+      "text": "Shai-Hulud 2.0 Attack Guidance - Microsoft outlines defense strategies against significant supply chain attacks.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2025/12/09/shai-hulud-2-0-guidance-for-detecting-investigating-and-defending-against-the-supply-chain-attack/"
+    },
+    {
+      "text": "Cyber Defense Evolution - Microsoft emphasizes the importance of graph-based thinking in cybersecurity strategies.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2025/12/09/changing-the-physics-of-cyber-defense/"
+    },
+    {
+      "text": "Node.js on Azure Functions - Simplified hosting for Node.js MCP servers now available on Azure Functions.",
       "url": "https://devblogs.microsoft.com/blog/host-your-node-js-mcp-server-on-azure-functions-in-3-simple-steps"
     },
     {
-      "text": "Beazley Collaboration Boosts Cyber Resilience - **Microsoft** partners with **Beazley** to enhance incident response and cyber resilience.",
+      "text": "Beazley Collaboration for Cyber Resilience - New partnership enhances incident response capabilities for Microsoft customers.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/12/08/stronger-together-new-beazley-collaboration-enhances-cyber-resilience/"
     },
     {
-      "text": "AI Dev Days Event - Join **Microsoft** for AI Dev Days on December 10-11 to explore the latest in AI innovation.",
+      "text": "AI Dev Days Event - Join Microsoft for a two-day virtual event focused on AI innovations and development.",
       "url": "https://devblogs.microsoft.com/blog/join-us-for-ai-devdays"
     },
     {
-      "text": "Windows 11 Insider Preview Released - New **Windows 11** build introduces native support for **MCP** and enhanced features.",
-      "url": "https://blogs.windows.com/windows-insider/2025/12/05/announcing-windows-11-insider-preview-build-26220-7344-dev-beta-channels/"
-    },
-    {
-      "text": "Leader in Email Security - **Microsoft** recognized as a leader in the 2025 **Gartner Magic Quadrant** for Email Security.",
+      "text": "Microsoft's Email Security Leadership - Recognized as a leader in the 2025 Gartner Magic Quadrant for Email Security.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/12/05/microsoft-named-a-leader-in-the-2025-gartner-magic-quadrant-for-email-security/"
-    },
-    {
-      "text": "Prioritize Cybersecurity Strategies - **Microsoft** emphasizes essential cybersecurity strategies to combat evolving threats.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2025/12/04/cybersecurity-strategies-to-prioritize-now/"
-    },
-    {
-      "text": "Microsoft 365 Enhancements Announced - **Microsoft 365** to receive new AI capabilities and pricing updates in 2026.",
-      "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2025/12/04/advancing-microsoft-365-new-capabilities-and-pricing-update/"
-    },
-    {
-      "text": "Copilot Business for SMBs - **Microsoft 365 Copilot Business** launched, offering AI solutions tailored for small businesses.",
-      "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2025/12/02/microsoft-365-copilot-business-the-future-of-work-for-small-businesses/"
-    },
-    {
-      "text": "Building Future-Ready Cybersecurity Teams - **Microsoft** discusses the need for innovative talent strategies in cybersecurity.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2025/12/02/how-to-build-forward-thinking-cybersecurity-teams-for-tomorrow/"
     }
   ]
 }

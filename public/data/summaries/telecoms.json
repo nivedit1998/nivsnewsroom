@@ -1,37 +1,45 @@
 {
-  "generatedAt": "2025-12-09T08:52:00.070Z",
+  "generatedAt": "2025-12-10T08:52:01.983Z",
   "bullets": [
     {
-      "text": "BT's Sovereign Platform Launched - **BT** introduces a new platform to enhance digital sovereignty for UK businesses and public sector.",
+      "text": "BT Launches Sovereign Platform - **BT** introduces a new platform for UK organizations to enhance digital sovereignty and control over data.",
       "url": "https://www.rcrwireless.com/20251208/carriers/bt-launches-digital"
     },
     {
-      "text": "AI-Driven Network Optimization - AI technologies are set to revolutionize network planning, enabling proactive maintenance and reduced downtime.",
+      "text": "BT's Sovereign Solutions - The platform aims to provide UK businesses with greater control over networks and data amid geopolitical uncertainty.",
+      "url": "https://totaltele.com/bt-unveils-new-sovereign-platform-for-enterprise-customers/"
+    },
+    {
+      "text": "ISPs Must Innovate - **Incognito** emphasizes that speed alone is insufficient; value-added services are crucial for customer retention.",
+      "url": "https://totaltele.com/not-just-a-pipe-incognito-talks-isp-agility-and-value-added-services/"
+    },
+    {
+      "text": "Cisco's AI Readiness Gap - Only 13% of organizations are fully ready for AI, highlighting a significant infrastructure deficit.",
+      "url": "https://www.rcrwireless.com/20251209/ai/cisco-ai-readiness-index-2025"
+    },
+    {
+      "text": "AI in Network Planning - AI can transform network management from reactive to proactive, predicting issues before they arise.",
       "url": "https://www.rcrwireless.com/20251208/ai/ai-network-planning"
     },
     {
-      "text": "Lumine Acquires Synchronoss - **Lumine Group** expands its portfolio by acquiring **Synchronoss** for $116.4 million, enhancing cloud services.",
+      "text": "Quantum Security Collaboration - **Viavi** partners with QNu Labs to develop quantum-safe communication standards.",
+      "url": "https://www.rcrwireless.com/20251208/test-measurement/viavi-partners-with-india-based-qnu-labs-in-quantum-security-push"
+    },
+    {
+      "text": "SoftBank's AI Ambitions - **SoftBank** is in talks to acquire **DigitalBridge**, enhancing its AI infrastructure capabilities.",
+      "url": "https://www.rcrwireless.com/20251208/uncategorized/softbank-digitalbridge"
+    },
+    {
+      "text": "6 GHz Wi-Fi Adoption - Global harmonization of 6 GHz is uneven, impacting the performance and competitiveness of Wi-Fi 8.",
+      "url": "https://www.rcrwireless.com/20251208/fundamentals/6-ghz-wi-fi-adoption"
+    },
+    {
+      "text": "Lumine Acquires Synchronoss - **Lumine Group** expands its telecom software portfolio with a $116m acquisition of **Synchronoss**.",
       "url": "https://www.rcrwireless.com/20251208/telco-cloud/lumine-telco-cloud-synchronoss"
     },
     {
-      "text": "AI-Powered Cyber Defense Centers - **NTT DATA** announces new centers in the UK to bolster cybersecurity with AI technologies.",
-      "url": "https://totaltele.com/ntt-data-announces-six-new-ai-powered-cyber-defense-centers-to-strengthen-cyber-resilience-and-counter-an-evolving-threat-landscape/"
-    },
-    {
-      "text": "Cloudflare Outage Highlights Risks - Recent outages emphasize the fragility of concentrated cloud infrastructure in telecom networks.",
-      "url": "https://www.telecomstechnews.com/news/cloudflare-outage-enterprise-infrastructure-dependence/"
-    },
-    {
-      "text": "AI Monetization for Telcos - Telecom companies are exploring AI services, with projected revenues reaching $4 billion by 2025.",
-      "url": "https://www.rcrwireless.com/20251205/ai/how-telcos-monetize-ai"
-    },
-    {
-      "text": "Vodacom Gains Majority in Safaricom - **Vodacom** acquires a $2.1 billion stake in **Safaricom**, increasing its control to 55%.",
-      "url": "https://totaltele.com/vodacom-buys-2-1bn-stake-in-safaricom-gains-majority-control/"
-    },
-    {
-      "text": "Private 5G for AI Integration - **Celona** positions private 5G as a key infrastructure layer for AI in industrial settings.",
-      "url": "https://www.rcrwireless.com/20251208/private-5g/private-5g-ai-enterprise-celona"
+      "text": "E&’s Music Expansion - **E&** renews partnership with **Tuned Global** to enhance music streaming capabilities in MENA.",
+      "url": "https://totaltele.com/telco-giant-es-music-partner-twist-strengthens-capability-with-tuned-global/"
     }
   ]
 }
