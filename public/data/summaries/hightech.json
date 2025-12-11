@@ -1,44 +1,45 @@
 {
-  "generatedAt": "2025-12-10T08:51:16.448Z",
+  "generatedAt": "2025-12-11T08:50:30.366Z",
   "bullets": [
     {
-      "text": "AI-Powered Doorbells Launch - **Amazon's Ring** introduces a controversial facial-recognition feature for video doorbells.",
-      "url": "https://techcrunch.com/2025/12/09/amazons-ring-rolls-out-controversial-ai-powered-facial-recognition-feature-to-video-doorbells/"
+      "text": "Mandatory Social Media Reviews - **Trump** administration may require tourists to disclose social media handles for entry into the US.",
+      "url": "https://www.theverge.com/news/842129/trump-admin-us-cbp-social-media-history-travelers"
     },
     {
-      "text": "Traffic Alerts in Apple Maps - **iOS 26** enhances **Apple Maps** with proactive traffic delay alerts based on user routines.",
+      "text": "Apple Glasses Rumored - **Apple** is expected to unveil smart glasses with advanced features next year.",
+      "url": "https://9to5mac.com/2025/12/10/apple-glasses-are-coming-heres-every-rumored-new-feature/"
+    },
+    {
+      "text": "iOS 26 Enhancements - **Apple**'s new Messages feature aims to reduce spam texts effectively.",
+      "url": "https://9to5mac.com/2025/12/10/ios-26s-new-messages-feature-got-better-when-i-changed-this-one-setting/"
+    },
+    {
+      "text": "Traffic Alerts in Maps - **Apple Maps** now learns user routes to provide proactive traffic delay alerts.",
       "url": "https://9to5mac.com/2025/12/09/ios-26s-apple-maps-feature-can-save-you-from-traffic-heres-how-to-set-it-up/"
     },
     {
-      "text": "AI in Dating Apps - **Hinge** CEO launches **Overtone**, an AI-driven dating app backed by **Match Group**.",
-      "url": "https://techcrunch.com/2025/12/09/hinge-ceo-steps-down-to-launch-overtone-an-ai-dating-app/"
+      "text": "Waymo's Unusual Delivery - A baby was born in a **Waymo** robotaxi, highlighting the unpredictability of driverless tech.",
+      "url": "https://techcrunch.com/2025/12/10/baby-delivered-in-waymo-continues-proud-tradition-of-not-making-it-to-the-hospital/"
     },
     {
-      "text": "AI Moratorium Controversy - Bipartisan backlash emerges against proposed AI moratorium amid rising regulatory concerns.",
-      "url": "https://www.theverge.com/column/841161/ai-moratorium-midterm-elections-republicans"
+      "text": "AI Regulation Concerns - State attorneys general urge **Microsoft**, **OpenAI**, and **Google** to address harmful AI outputs.",
+      "url": "https://techcrunch.com/2025/12/10/state-attorneys-general-warn-microsoft-openai-google-and-other-ai-giants-to-fix-delusional-outputs/"
     },
     {
-      "text": "AI Chatbot Usage Among Teens - Study reveals 30% of US teens use AI chatbots daily, raising safety concerns."
+      "text": "Nvidia's Tracking Software - **Nvidia** is testing software to track AI chip locations amid smuggling concerns.",
+      "url": "https://techcrunch.com/2025/12/10/nvidia-is-reportedly-testing-tracking-software-as-chip-smuggling-rumors-swirl/"
     },
     {
-      "text": "New AI Features in Google Photos - **Google Photos** launches video editing tools for easier highlight reel creation.",
-      "url": "https://techcrunch.com/2025/12/09/google-photos-launches-new-video-editing-tools/"
+      "text": "Emergency Video Sharing - **Google** introduces a feature for Android that allows live video sharing with emergency services.",
+      "url": "https://techcrunch.com/2025/12/10/you-can-now-share-live-video-with-emergency-services-on-android/"
     },
     {
-      "text": "AI Agents Standardization Effort - **OpenAI**, **Anthropic**, and **Block** join forces to standardize AI agents under the Linux Foundation.",
-      "url": "https://techcrunch.com/2025/12/09/openai-anthropic-and-block-join-new-linux-foundation-effort-to-standardize-the-ai-agent-era/"
+      "text": "Spotify's AI Playlists - **Spotify** tests AI-driven playlists that allow users to curate their music preferences.",
+      "url": "https://techcrunch.com/2025/12/10/spotify-tests-more-personalized-ai-powered-prompted-playlists/"
     },
     {
-      "text": "Truecaller Enhances Scam Protection - **Truecaller** introduces a family-level scam protection feature to combat rising fraud.",
-      "url": "https://techcrunch.com/2025/12/09/truecaller-now-lets-users-protect-households-from-scam-calls/"
-    },
-    {
-      "text": "Ford and Renault's EV Partnership - **Ford** teams up with **Renault** to develop affordable electric vehicles for Europe.",
-      "url": "https://techcrunch.com/2025/12/09/ford-and-renault-team-up-on-cheaper-evs-in-a-fight-for-our-lives/"
-    },
-    {
-      "text": "Rivian's AI Assistant Development - **Rivian** is building its own AI assistant, aiming for integration across vehicle controls.",
-      "url": "https://techcrunch.com/2025/12/09/rivian-is-building-its-own-ai-assistant/"
+      "text": "YouTube TV's New Plans - **YouTube TV** will offer genre-based subscription packages starting in 2026.",
+      "url": "https://techcrunch.com/2025/12/10/youtube-tv-to-launch-genre-based-subscription-plans-in-2026/"
     }
   ]
 }

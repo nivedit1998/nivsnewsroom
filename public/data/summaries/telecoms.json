@@ -1,45 +1,41 @@
 {
-  "generatedAt": "2025-12-10T08:52:01.983Z",
+  "generatedAt": "2025-12-11T08:51:04.601Z",
   "bullets": [
     {
-      "text": "BT Launches Sovereign Platform - **BT** introduces a new platform for UK organizations to enhance digital sovereignty and control over data.",
-      "url": "https://www.rcrwireless.com/20251208/carriers/bt-launches-digital"
+      "text": "Satellite Services Approved - **Ofcom** greenlights direct-to-device satellite services for UK smartphones, enhancing connectivity in remote areas.",
+      "url": "https://totaltele.com/ofcom-clears-the-way-for-satellite-to-smartphone-services/"
     },
     {
-      "text": "BT's Sovereign Solutions - The platform aims to provide UK businesses with greater control over networks and data amid geopolitical uncertainty.",
+      "text": "BT's Sovereign Platform - **BT** launches a sovereign platform for UK enterprises, ensuring data control amid geopolitical uncertainties.",
       "url": "https://totaltele.com/bt-unveils-new-sovereign-platform-for-enterprise-customers/"
     },
     {
-      "text": "ISPs Must Innovate - **Incognito** emphasizes that speed alone is insufficient; value-added services are crucial for customer retention.",
+      "text": "Generative AI Potential - **Frost & Sullivan** highlights the transformative impact of generative AI on telecom operations and customer experience.",
+      "url": "https://www.rcrwireless.com/20251210/carriers/gen-ai-telecom"
+    },
+    {
+      "text": "Value-Added Services Growth - **Incognito** emphasizes the importance of value-added services for ISPs to enhance customer retention.",
       "url": "https://totaltele.com/not-just-a-pipe-incognito-talks-isp-agility-and-value-added-services/"
     },
     {
-      "text": "Cisco's AI Readiness Gap - Only 13% of organizations are fully ready for AI, highlighting a significant infrastructure deficit.",
-      "url": "https://www.rcrwireless.com/20251209/ai/cisco-ai-readiness-index-2025"
+      "text": "AI-Driven Cyber Defense - **NTT DATA** announces new AI-powered cyber defense centers to bolster security against evolving threats.",
+      "url": "https://totaltele.com/ntt-data-announces-six-new-ai-powered-cyber-defense-centers-to-strengthen-cyber-resilience-and-counter-an-evolving-threat-landscape/"
     },
     {
-      "text": "AI in Network Planning - AI can transform network management from reactive to proactive, predicting issues before they arise.",
-      "url": "https://www.rcrwireless.com/20251208/ai/ai-network-planning"
+      "text": "Vodafone's Testing Automation - **Vodafone** partners with **Spirent** to automate software testing for faster 5G voice service rollouts.",
+      "url": "https://www.rcrwireless.com/20251210/test-measurement/vodafone-picks-spirent-to-fast-track-service-rollout-for-5g-voice-core-network-in-europe"
     },
     {
-      "text": "Quantum Security Collaboration - **Viavi** partners with QNu Labs to develop quantum-safe communication standards.",
-      "url": "https://www.rcrwireless.com/20251208/test-measurement/viavi-partners-with-india-based-qnu-labs-in-quantum-security-push"
+      "text": "Cloudflare Outage Insights - Recent **Cloudflare** outage underscores the risks of relying on concentrated infrastructure for enterprise services.",
+      "url": "https://www.telecomstechnews.com/news/cloudflare-outage-enterprise-infrastructure-dependence/"
     },
     {
-      "text": "SoftBank's AI Ambitions - **SoftBank** is in talks to acquire **DigitalBridge**, enhancing its AI infrastructure capabilities.",
-      "url": "https://www.rcrwireless.com/20251208/uncategorized/softbank-digitalbridge"
+      "text": "AI-RAN Transformation - **Indosat** shifts to an AI-native network strategy, enhancing efficiency and service delivery across Indonesia.",
+      "url": "https://www.rcrwireless.com/20251210/carriers/indosat-ai-ran"
     },
     {
-      "text": "6 GHz Wi-Fi Adoption - Global harmonization of 6 GHz is uneven, impacting the performance and competitiveness of Wi-Fi 8.",
-      "url": "https://www.rcrwireless.com/20251208/fundamentals/6-ghz-wi-fi-adoption"
-    },
-    {
-      "text": "Lumine Acquires Synchronoss - **Lumine Group** expands its telecom software portfolio with a $116m acquisition of **Synchronoss**.",
-      "url": "https://www.rcrwireless.com/20251208/telco-cloud/lumine-telco-cloud-synchronoss"
-    },
-    {
-      "text": "E&’s Music Expansion - **E&** renews partnership with **Tuned Global** to enhance music streaming capabilities in MENA.",
-      "url": "https://totaltele.com/telco-giant-es-music-partner-twist-strengthens-capability-with-tuned-global/"
+      "text": "World Communication Awards - Celebrating innovation, the **2025 World Communication Awards** recognize excellence across the telecom industry.",
+      "url": "https://totaltele.com/world-communication-award-winners-2025/"
     }
   ]
 }
