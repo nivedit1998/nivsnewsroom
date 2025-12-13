@@ -1,36 +1,44 @@
 {
-  "generatedAt": "2025-12-12T08:52:45.923Z",
+  "generatedAt": "2025-12-13T08:44:49.299Z",
   "bullets": [
     {
-      "text": "Ofcom Greenlights Satellite Services - **Ofcom** allows mobile operators to deliver satellite services directly to smartphones, enhancing connectivity.",
+      "text": "Satellite Services Approved - **Ofcom** greenlights direct-to-device satellite services for UK smartphones, enhancing connectivity in remote areas.",
       "url": "https://totaltele.com/ofcom-clears-the-way-for-satellite-to-smartphone-services/"
     },
     {
-      "text": "Deutsche Telekom's AI Ambitions - **Deutsche Telekom** partners with **OpenAI** to enhance network operations and customer service with AI.",
+      "text": "5G Protocol Testing Vital - Continuous **5G protocol testing** ensures seamless connectivity and prevents service disruptions in critical applications.",
+      "url": "https://www.rcrwireless.com/20251212/test-measurement/5g-protocol-testing-explained"
+    },
+    {
+      "text": "AI Revolutionizing Telecom - **AI** is set to drive significant growth in wireless and telecom sectors, enhancing connectivity and efficiency.",
+      "url": "https://www.rcrwireless.com/20251212/analyst-angle/ai-wireless-telecom"
+    },
+    {
+      "text": "AI Phones Transforming Economics - The shift to **AI phones** promises to streamline user tasks and redefine mobile economics.",
+      "url": "https://www.rcrwireless.com/20251212/analyst-angle/ai-phones"
+    },
+    {
+      "text": "2026 Telecom Strategies - Focus on **edge AI**, data sovereignty, and monetisation will shape telecom operations in 2026.",
+      "url": "https://www.telecomstechnews.com/news/telecoms-in-2026-edge-ai-data-sovereignty-monetisation/"
+    },
+    {
+      "text": "Deutsche Telekom's AI Partnership - **OpenAI** collaborates with **Deutsche Telekom** to enhance network operations and customer service with AI.",
       "url": "https://www.rcrwireless.com/20251211/ai/openai-deutsche-telekom"
     },
     {
-      "text": "Nokia Job Cuts Spark Protests - **Nokia** faces backlash as hundreds of jobs are cut across Europe, igniting protests.",
-      "url": "https://www.rcrwireless.com/20251211/europe/nokia-europe-protest"
-    },
-    {
-      "text": "AI-RAN Optimisation Validated - **Samsung** and **KT** demonstrate AI-driven network optimisation, reducing connection failures significantly.",
+      "text": "AI-RAN Validation Achieved - **Samsung** and **KT** demonstrate successful AI-driven radio access network optimisation on live networks.",
       "url": "https://www.telecomstechnews.com/news/samsung-and-kt-validate-ai-ran-optimisation-on-live-networks/"
     },
     {
-      "text": "Vodafone's Automated Testing - **Vodafone** partners with **Spirent** to fast-track software rollout for its 5G voice core network.",
-      "url": "https://www.rcrwireless.com/20251210/test-measurement/vodafone-picks-spirent-to-fast-track-service-rollout-for-5g-voice-core-network-in-europe"
+      "text": "AI's Impact on Network Design - AI-driven workloads are reshaping **fibre** planning and network security strategies for 2026.",
+      "url": "https://www.telecomstechnews.com/news/2026-network-outlook-how-ai-is-changing-fibre-automation-and-risk/"
     },
     {
-      "text": "Cloudflare Outage Raises Concerns - Recent **Cloudflare** outage highlights vulnerabilities in enterprise infrastructure reliance.",
-      "url": "https://www.telecomstechnews.com/news/cloudflare-outage-enterprise-infrastructure-dependence/"
-    },
-    {
-      "text": "AI-Powered Cyber Defense Centers - **NTT DATA** launches new AI-driven Cyber Defense Centers to enhance cybersecurity resilience.",
+      "text": "NTT DATA Expands Cyber Defense - Launching six new **AI-powered Cyber Defense Centers** to enhance cybersecurity resilience.",
       "url": "https://totaltele.com/ntt-data-announces-six-new-ai-powered-cyber-defense-centers-to-strengthen-cyber-resilience-and-counter-an-evolving-threat-landscape/"
     },
     {
-      "text": "Private 5G Growth Accelerates - **Ericsson** reports private 5G is outpacing Wi-Fi, driven by high-value industrial applications.",
+      "text": "Private 5G Growth Accelerating - **Ericsson** highlights rapid adoption of private 5G, outpacing Wi-Fi in industrial applications.",
       "url": "https://www.rcrwireless.com/20251211/private-5g/ericsson-private-5g-clear-roi"
     }
   ]
