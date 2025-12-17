@@ -1,45 +1,45 @@
 {
-  "generatedAt": "2025-12-16T08:53:00.113Z",
+  "generatedAt": "2025-12-17T08:52:02.172Z",
   "bullets": [
     {
-      "text": "Windows 11 Insider Preview Build 28020.1362 Released - New gaming features enhance handheld experiences on **Windows 11** devices.",
+      "text": "PowerToys AI Clipboard Upgrade - **PowerToys** adds AI capabilities to its Advanced Paste feature for enhanced clipboard management.",
+      "url": "https://learn.microsoft.com/en-us/windows/powertoys/advanced-paste#adding-a-model-provider"
+    },
+    {
+      "text": "Windows 11 Insider Preview - New features in **Windows 11** Insider Build enhance gaming and settings management.",
       "url": "https://blogs.windows.com/windows-insider/2025/12/15/announcing-windows-11-insider-preview-build-28020-1362-canary-channel/"
     },
     {
-      "text": "Critical CVE-2025-55182 Vulnerability Identified - Affects **React Server Components**, allowing remote code execution via malicious requests.",
+      "text": "Critical React Vulnerability Alert - **Microsoft** warns about CVE-2025-55182, a severe RCE vulnerability in React Server Components.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/12/15/defending-against-the-cve-2025-55182-react2shell-vulnerability-in-react-server-components/"
     },
     {
-      "text": "GPT-5.2 Now in Microsoft 365 Copilot - Enhanced reasoning and efficiency for complex business challenges and everyday tasks.",
-      "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2025/12/11/available-today-gpt-5-2-in-microsoft-365-copilot/"
-    },
-    {
-      "text": "Microsoft Named Leader in AI Defense - Recognized for enterprise-ready security and governance capabilities in **Generative AI**.",
+      "text": "Leader in Generative AI Defense - **Microsoft** recognized as a leader in KuppingerCole's report for Generative AI security.",
       "url": "https://techcommunity.microsoft.com/blog/microsoft-security-blog/microsoft-named-an-overall-leader-in-kuppingercole-leadership-compass-for-genera/4478093"
     },
     {
-      "text": "New Themes Department in Microsoft Store - Over 400 themes available for personalizing **Windows** devices.",
-      "url": "https://blogs.windows.com/windowsexperience/2025/12/11/your-pc-your-personality-new-themes-in-store-for-you/"
+      "text": "Introducing GPT-5.2 in Foundry - **Microsoft Foundry** launches GPT-5.2, setting a new standard for enterprise AI capabilities.",
+      "url": "https://azure.microsoft.com/en-us/blog/introducing-gpt-5-2-in-microsoft-foundry-the-new-standard-for-enterprise-ai/"
     },
     {
-      "text": "Azure Storage Innovations Unveiled - Enhancements support AI lifecycle and massive data workloads for organizations.",
-      "url": "https://azure.microsoft.com/en-us/blog/azure-storage-innovations-unlocking-the-future-of-data/"
-    },
-    {
-      "text": "Windows Terminal Enhanced with GitHub Copilot CLI - Streamlined command line experience for developers using **Windows Terminal**.",
+      "text": "Enhancing Windows Terminal - **GitHub Copilot CLI** integration brings new functionalities to the Windows Terminal experience.",
       "url": "https://devblogs.microsoft.com/blog/making-windows-terminal-awesome-with-github-copilot-cli"
     },
     {
-      "text": "Imposter Cyberattacks on the Rise - Cybercriminals posing as employees to gain access to sensitive data.",
+      "text": "New Themes in Microsoft Store - **Microsoft** rolls out a new Themes department for personalized Windows experiences.",
+      "url": "https://blogs.windows.com/windowsexperience/2025/12/11/your-pc-your-personality-new-themes-in-store-for-you/"
+    },
+    {
+      "text": "Azure Storage Innovations - **Microsoft Azure** enhances storage solutions to support AI workloads and data management.",
+      "url": "https://azure.microsoft.com/en-us/blog/azure-storage-innovations-unlocking-the-future-of-data/"
+    },
+    {
+      "text": "Cybersecurity Imposter Risks - **Microsoft** details how fake employees can infiltrate organizations, posing significant security threats.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/12/11/imposter-for-hire-how-fake-people-can-gain-very-real-access/"
     },
     {
-      "text": "Shai-Hulud 2.0 Supply Chain Attack Analysis - Highlights risks of compromised npm packages and cloud-native ecosystems.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2025/12/09/shai-hulud-2-0-guidance-for-detecting-investigating-and-defending-against-the-supply-chain-attack/"
-    },
-    {
-      "text": "New JavaScript/TypeScript Modernizer Tool - AI-assisted modernization for **VS Code** projects simplifies upgrades.",
-      "url": "https://devblogs.microsoft.com/blog/jsts-modernizer-preview"
+      "text": "Building a Security-First Culture - **Microsoft** emphasizes the importance of cybersecurity in the era of AI and intelligent agents.",
+      "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2025/12/10/from-awareness-to-action-building-a-security-first-culture-for-the-agentic-ai-era/"
     }
   ]
 }

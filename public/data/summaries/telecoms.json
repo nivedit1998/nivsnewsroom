@@ -1,44 +1,36 @@
 {
-  "generatedAt": "2025-12-16T08:52:35.286Z",
+  "generatedAt": "2025-12-17T08:51:35.685Z",
   "bullets": [
     {
-      "text": "Curbing Freeholder Obstruction - The UK government aims to ease fibre broadband deployment challenges for flats.",
+      "text": "Curbing Freeholder Obstruction - The UK government consults on easing fibre rollout to flats, targeting 1.2 million underserved homes.",
       "url": "https://totaltele.com/uk-plans-to-curb-freeholder-obstruction-of-fibre-to-flats-rollout/"
     },
     {
-      "text": "Ofcom Approves Satellite Services - Mobile operators can now offer direct-to-device satellite services to smartphones.",
+      "text": "AI Predicts Customer Churn - Telecoms leverage AI to proactively identify and retain at-risk customers, enhancing service quality.",
+      "url": "https://www.rcrwireless.com/20251216/ai/telcos-ai-customer-churn"
+    },
+    {
+      "text": "Ofcom Approves Satellite Services - Mobile operators can now offer direct-to-device satellite services, enhancing connectivity in remote areas.",
       "url": "https://totaltele.com/ofcom-clears-the-way-for-satellite-to-smartphone-services/"
     },
     {
-      "text": "Vodafone's IoT Hyperscale Ambition - Vodafone aims to enhance its IoT strategy through partnerships and platform investments.",
+      "text": "Vodafone's IoT Hyperscale Strategy - Vodafone aims for global IoT leadership through partnerships and platform simplification in the Americas.",
       "url": "https://www.rcrwireless.com/20251215/internet-of-things/vodafone-iot-hyperscale"
     },
     {
-      "text": "AI's Impact on Telecoms - AI is set to drive significant growth in wireless and telecom sectors.",
-      "url": "https://www.rcrwireless.com/20251212/analyst-angle/ai-wireless-telecom"
+      "text": "AI-RAN Optimisation Validated - Samsung and KT demonstrate AI-driven network adaptability, improving service quality in real-time.",
+      "url": "https://www.telecomstechnews.com/news/samsung-and-kt-validate-ai-ran-optimisation-on-live-networks/"
     },
     {
-      "text": "Deutsche Telekom's AI Partnership - A multi-year deal with OpenAI aims to enhance network operations and customer care.",
-      "url": "https://www.rcrwireless.com/20251211/ai/openai-deutsche-telekom"
+      "text": "AI Boom Challenges Networks - Nokia warns existing infrastructure may not support rising AI workloads, urging urgent upgrades.",
+      "url": "https://www.rcrwireless.com/20251216/ai-infrastructure/ai-boom-networks-nokia"
     },
     {
-      "text": "5G Protocol Testing Importance - Ensuring robust 5G connectivity through comprehensive protocol testing is crucial.",
-      "url": "https://www.rcrwireless.com/20251212/test-measurement/5g-protocol-testing-explained"
+      "text": "Data Privacy in AI Era - Telecoms face challenges balancing data monetisation with privacy concerns as AI integration deepens.",
+      "url": "https://www.rcrwireless.com/20251216/ai/privacy-ai-telcos"
     },
     {
-      "text": "FWA Speeds Decline - Fixed Wireless Access speeds are slowing down despite increased adoption.",
-      "url": "https://www.rcrwireless.com/20251215/carriers/fwa-ookla"
-    },
-    {
-      "text": "2026 Telecoms Outlook - AI and automation will redefine telecom strategies and operational efficiency.",
-      "url": "https://www.telecomstechnews.com/news/telecoms-in-2026-edge-ai-data-sovereignty-monetisation/"
-    },
-    {
-      "text": "Subsea Cables Dominate Traffic - Submarine cables carry 99% of global internet traffic, highlighting their importance.",
-      "url": "https://www.rcrwireless.com/20251212/fundamentals/subsea-cable-king"
-    },
-    {
-      "text": "World Communication Awards 2025 - Celebrating innovation and excellence in the global telecom industry.",
+      "text": "World Communication Awards 2025 - Celebrating innovation, Singtel and Ericsson win for 5G advancements and network slicing.",
       "url": "https://totaltele.com/world-communication-award-winners-2025/"
     }
   ]

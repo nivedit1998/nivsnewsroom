@@ -1,12 +1,20 @@
 {
-  "generatedAt": "2025-12-16T08:53:05.129Z",
+  "generatedAt": "2025-12-17T08:52:15.985Z",
   "bullets": [
     {
-      "text": "Bookkeepers: The Human API - **Bookkeepers** are essential for connecting fragmented systems in **UK** small businesses, ensuring smooth operations.",
+      "text": "MTD for Income Tax Exemptions - **HMRC** allows limited exemptions for individuals under **Making Tax Digital** rules starting April 2026.",
+      "url": "https://www.sage.com/en-gb/blog/am-i-excluded-from-mtd-for-income-tax/"
+    },
+    {
+      "text": "Bookkeepers as Human APIs - **Bookkeepers** are essential connectors in the fragmented systems of **UK** small businesses.",
       "url": "https://www.sage.com/en-gb/blog/how-bookkeepers-are-the-human-api-powering-uk-small-businesses/"
     },
     {
-      "text": "Prepare for MTD Chaos - Understanding **MTD for Income Tax** as an operational project is crucial for a smooth transition in 2026.",
+      "text": "Soft Landing for MTD Penalties - A new 'soft landing' period offers penalty relief for the first year of **MTD for Income Tax**.",
+      "url": "https://www.sage.com/en-gb/blog/mtd-for-income-tax-soft-landing-period-explained/"
+    },
+    {
+      "text": "Prepare for MTD Client Sign-ups - Sign up clients for **MTD** before the April 2026 deadline to avoid chaos.",
       "url": "https://www.sage.com/en-gb/blog/signup-clients-to-mtd-before-april-deadline-accountants-bookkeepers/"
     }
   ]
