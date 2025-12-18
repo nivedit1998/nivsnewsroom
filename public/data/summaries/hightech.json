@@ -1,37 +1,45 @@
 {
-  "generatedAt": "2025-12-17T08:51:11.634Z",
+  "generatedAt": "2025-12-18T08:50:49.880Z",
   "bullets": [
     {
-      "text": "Apple TV Supports Google Cast - **Apple** enhances its streaming service for Android users amidst **Netflix**'s withdrawal from the feature.",
-      "url": "https://techcrunch.com/2025/12/16/apple-tv-adds-support-for-google-cast-even-as-netflix-ditches-the-feature/"
+      "text": "Privacy-Focused Friend Finder - **Bluesky** introduces a secure way to connect with friends without spam invites.",
+      "url": "https://techcrunch.com/2025/12/17/bluesky-launches-a-privacy-focused-find-friends-feature-without-invite-spam/"
     },
     {
-      "text": "UK Government's Age Verification Push - **Apple** and **Google** may need to block nude photos without age verification.",
+      "text": "Age Verification for Nude Photos - The UK government pushes **Apple** and **Google** to block nude images without age checks.",
       "url": "https://9to5mac.com/2025/12/15/apple-and-google-will-be-asked-to-block-nude-photos-unless-user-age-is-verified/"
     },
     {
-      "text": "iOS 26.2 Enhances AirPods Features - New **AirPods** Live Translation expands to EU users, improving accessibility.",
+      "text": "Apple's iOS 26.3 Beta - New features simplify switching from iPhone to **Android**, enhancing user flexibility.",
+      "url": "https://www.cnet.com/tech/services-and-software/i-wont-use-this-potential-ios-26-3-feature-but-you-can-if-youre-craving-an-android/#ftag=CAD590a51e"
+    },
+    {
+      "text": "AirPods Live Translation Expansion - **Apple** extends its Live Translation feature to more EU users with iOS 26.2.",
       "url": "https://9to5mac.com/2025/12/16/ios-26-2-expands-airpods-pros-powerful-new-feature-heres-how-to-use-it/"
     },
     {
-      "text": "Tesla's Marketing Under Fire - A judge rules **Tesla** engaged in deceptive marketing regarding its Autopilot features.",
-      "url": "https://techcrunch.com/2025/12/16/tesla-engaged-in-deceptive-marketing-for-autopilot-and-full-self-driving-judge-rules/"
+      "text": "YouTube's Oscars Streaming Deal - **YouTube** secures exclusive rights to stream the Oscars starting in 2029.",
+      "url": "https://techcrunch.com/2025/12/17/youtube-will-stream-the-oscars-exclusively-beginning-in-2029/"
     },
     {
-      "text": "Netflix Expands Video Podcasts - **Netflix** partners with **iHeartMedia** to launch 14 exclusive video podcasts in 2026.",
-      "url": "https://techcrunch.com/2025/12/16/netflix-doubles-down-on-video-podcasts-with-iheartmedia-deal/"
+      "text": "Cisco's Zero-Day Vulnerability Alert - **Cisco** warns of a critical exploit affecting its products with no patches available.",
+      "url": "https://techcrunch.com/2025/12/17/cisco-says-chinese-hackers-are-exploiting-its-customers-with-a-new-zero-day/"
     },
     {
-      "text": "Meta's AI Glasses Update - **Meta** enhances its smart glasses to amplify conversations in noisy environments.",
-      "url": "https://techcrunch.com/2025/12/16/metas-ai-glasses-can-now-help-you-hear-conversations-better/"
+      "text": "Meta's Community Expansion - **Threads** adds over 200 communities, enhancing user engagement with new interest topics.",
+      "url": "https://9to5mac.com/2025/12/15/threads-communities-champion-badges/"
     },
     {
-      "text": "DoorDash Launches Zesty App - **DoorDash** introduces an AI-driven app for discovering local restaurants.",
-      "url": "https://techcrunch.com/2025/12/16/doordash-rolls-out-zesty-an-ai-social-app-for-discovering-new-restaurants/"
+      "text": "Rad Power Bikes Bankruptcy - **Rad Power Bikes** files for bankruptcy, seeking to sell the business amid financial struggles.",
+      "url": "https://techcrunch.com/2025/12/17/rad-power-bikes-files-for-bankruptcy-and-is-looking-to-sell-the-business/"
     },
     {
-      "text": "Whole Foods to Install Smart Bins - **Whole Foods** partners with **Mill** to deploy smart food waste bins starting in 2027.",
-      "url": "https://techcrunch.com/2025/12/16/whole-foods-to-install-smart-food-waste-bins-from-mill-starting-in-2027/"
+      "text": "Amazon's New AI Organization - **Amazon** appoints Peter DeSantis to lead a new AI-focused division within the company.",
+      "url": "https://techcrunch.com/2025/12/17/amazon-appoints-longtime-aws-exec-peter-desantis-to-lead-new-ai-org/"
+    },
+    {
+      "text": "Adobe Faces Class-Action Lawsuit - **Adobe** is accused of misusing authors' works for AI training in a new lawsuit.",
+      "url": "https://techcrunch.com/2025/12/17/adobe-hit-with-proposed-class-action-accused-of-misusing-authors-work-in-ai-training/"
     }
   ]
 }

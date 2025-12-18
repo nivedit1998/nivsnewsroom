@@ -1,45 +1,37 @@
 {
-  "generatedAt": "2025-12-17T08:52:02.172Z",
+  "generatedAt": "2025-12-18T08:51:26.177Z",
   "bullets": [
     {
-      "text": "PowerToys AI Clipboard Upgrade - **PowerToys** adds AI capabilities to its Advanced Paste feature for enhanced clipboard management.",
+      "text": "PowerToys AI Clipboard Upgrade - **Microsoft** enhances clipboard management with AI-powered features for versatile content pasting.",
       "url": "https://learn.microsoft.com/en-us/windows/powertoys/advanced-paste#adding-a-model-provider"
     },
     {
-      "text": "Windows 11 Insider Preview - New features in **Windows 11** Insider Build enhance gaming and settings management.",
+      "text": "Access Fabric Unveiled - **Microsoft** introduces a unified approach to identity and network access for enhanced security.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2025/12/17/access-fabric-a-modern-approach-to-identity-and-network-access/"
+    },
+    {
+      "text": "Windows 11 Insider Build Released - New features in **Windows 11** enhance gaming and settings management for users.",
       "url": "https://blogs.windows.com/windows-insider/2025/12/15/announcing-windows-11-insider-preview-build-28020-1362-canary-channel/"
     },
     {
-      "text": "Critical React Vulnerability Alert - **Microsoft** warns about CVE-2025-55182, a severe RCE vulnerability in React Server Components.",
+      "text": "Critical React Vulnerability Alert - **Microsoft** warns about a severe RCE vulnerability affecting React Server Components.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/12/15/defending-against-the-cve-2025-55182-react2shell-vulnerability-in-react-server-components/"
     },
     {
-      "text": "Leader in Generative AI Defense - **Microsoft** recognized as a leader in KuppingerCole's report for Generative AI security.",
+      "text": "Leader in AI Defense - **Microsoft** recognized as a leader in KuppingerCole's report for Generative AI Defense.",
       "url": "https://techcommunity.microsoft.com/blog/microsoft-security-blog/microsoft-named-an-overall-leader-in-kuppingercole-leadership-compass-for-genera/4478093"
     },
     {
-      "text": "Introducing GPT-5.2 in Foundry - **Microsoft Foundry** launches GPT-5.2, setting a new standard for enterprise AI capabilities.",
+      "text": "GPT-5.2 Launch in Foundry - **Microsoft Foundry** introduces GPT-5.2, setting a new standard for enterprise AI capabilities.",
       "url": "https://azure.microsoft.com/en-us/blog/introducing-gpt-5-2-in-microsoft-foundry-the-new-standard-for-enterprise-ai/"
     },
     {
-      "text": "Enhancing Windows Terminal - **GitHub Copilot CLI** integration brings new functionalities to the Windows Terminal experience.",
-      "url": "https://devblogs.microsoft.com/blog/making-windows-terminal-awesome-with-github-copilot-cli"
+      "text": "GPT-5.2 in Microsoft 365 - **Microsoft 365 Copilot** integrates GPT-5.2 for enhanced strategic insights and productivity.",
+      "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2025/12/11/available-today-gpt-5-2-in-microsoft-365-copilot/"
     },
     {
-      "text": "New Themes in Microsoft Store - **Microsoft** rolls out a new Themes department for personalized Windows experiences.",
-      "url": "https://blogs.windows.com/windowsexperience/2025/12/11/your-pc-your-personality-new-themes-in-store-for-you/"
-    },
-    {
-      "text": "Azure Storage Innovations - **Microsoft Azure** enhances storage solutions to support AI workloads and data management.",
-      "url": "https://azure.microsoft.com/en-us/blog/azure-storage-innovations-unlocking-the-future-of-data/"
-    },
-    {
-      "text": "Cybersecurity Imposter Risks - **Microsoft** details how fake employees can infiltrate organizations, posing significant security threats.",
+      "text": "Fake Employee Cyberattacks - **Microsoft** highlights the rising threat of cybercriminals posing as legitimate employees.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/12/11/imposter-for-hire-how-fake-people-can-gain-very-real-access/"
-    },
-    {
-      "text": "Building a Security-First Culture - **Microsoft** emphasizes the importance of cybersecurity in the era of AI and intelligent agents.",
-      "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2025/12/10/from-awareness-to-action-building-a-security-first-culture-for-the-agentic-ai-era/"
     }
   ]
 }

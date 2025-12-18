@@ -1,37 +1,45 @@
 {
-  "generatedAt": "2025-12-17T08:51:35.685Z",
+  "generatedAt": "2025-12-18T08:51:09.330Z",
   "bullets": [
     {
-      "text": "Curbing Freeholder Obstruction - The UK government consults on easing fibre rollout to flats, targeting 1.2 million underserved homes.",
+      "text": "Curbing Freeholder Obstruction - The UK government seeks to ease fibre broadband deployment challenges for flats.",
       "url": "https://totaltele.com/uk-plans-to-curb-freeholder-obstruction-of-fibre-to-flats-rollout/"
     },
     {
-      "text": "AI Predicts Customer Churn - Telecoms leverage AI to proactively identify and retain at-risk customers, enhancing service quality.",
-      "url": "https://www.rcrwireless.com/20251216/ai/telcos-ai-customer-churn"
+      "text": "AI Era Wi-Fi Challenges - Organizations must navigate diverse connectivity needs while ensuring security and seamless access.",
+      "url": "https://www.rcrwireless.com/20251217/ai-ml/wi-fi-in-the-ai-era"
     },
     {
-      "text": "Ofcom Approves Satellite Services - Mobile operators can now offer direct-to-device satellite services, enhancing connectivity in remote areas.",
-      "url": "https://totaltele.com/ofcom-clears-the-way-for-satellite-to-smartphone-services/"
+      "text": "Verizon's New Direction - CEO Dan Schulman aims to reinvent Verizon with a customer-first approach.",
+      "url": "https://www.rcrwireless.com/20251217/business/verizon-under-new-ceo"
     },
     {
-      "text": "Vodafone's IoT Hyperscale Strategy - Vodafone aims for global IoT leadership through partnerships and platform simplification in the Americas.",
-      "url": "https://www.rcrwireless.com/20251215/internet-of-things/vodafone-iot-hyperscale"
+      "text": "Agile Platforms Essential - 75% of telco CEOs believe legacy IT systems hinder innovation and growth.",
+      "url": "https://www.rcrwireless.com/20251217/5g/agile-platforms"
     },
     {
-      "text": "AI-RAN Optimisation Validated - Samsung and KT demonstrate AI-driven network adaptability, improving service quality in real-time.",
-      "url": "https://www.telecomstechnews.com/news/samsung-and-kt-validate-ai-ran-optimisation-on-live-networks/"
+      "text": "6G's AI Impact Uncertain - Only 7% of tech leaders see 6G as a top area for AI influence.",
+      "url": "https://www.rcrwireless.com/20251217/6g/6gs-ai-impact"
     },
     {
-      "text": "AI Boom Challenges Networks - Nokia warns existing infrastructure may not support rising AI workloads, urging urgent upgrades.",
-      "url": "https://www.rcrwireless.com/20251216/ai-infrastructure/ai-boom-networks-nokia"
+      "text": "Cellular vs. Wi-Fi in Airports - Mobile services outperform Wi-Fi in speed at most U.S. airports.",
+      "url": "https://www.rcrwireless.com/20251217/test-measurement/cellular-beats-wi-fi-in-most-us-airports-ookla-report"
     },
     {
-      "text": "Data Privacy in AI Era - Telecoms face challenges balancing data monetisation with privacy concerns as AI integration deepens.",
-      "url": "https://www.rcrwireless.com/20251216/ai/privacy-ai-telcos"
+      "text": "AI Infrastructure Revolution - Dell and AMD are redefining telecom infrastructure for the AI era.",
+      "url": "https://www.rcrwireless.com/20251217/ai-infrastructure/dell-technologies-amd-ai-infrastructure"
     },
     {
-      "text": "World Communication Awards 2025 - Celebrating innovation, Singtel and Ericsson win for 5G advancements and network slicing.",
-      "url": "https://totaltele.com/world-communication-award-winners-2025/"
+      "text": "Sovereign AI's Rise - Nations prioritize domestic AI capabilities, positioning telecoms at the forefront.",
+      "url": "https://www.rcrwireless.com/20251217/ai/sovereign-ai-could-shape-telecom"
+    },
+    {
+      "text": "Private 5G Convergence - Ericsson emphasizes the integration of private and neutral-host networks.",
+      "url": "https://www.rcrwireless.com/20251217/private-5g/ercisson-private-5g-challengers"
+    },
+    {
+      "text": "Hybrid Home Gateways - New architectures ensure mission-critical connectivity by integrating multiple access technologies.",
+      "url": "https://www.rcrwireless.com/20251217/5g/hybrid-home-gateways-for-a-mission-critical-world"
     }
   ]
 }
