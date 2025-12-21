@@ -1,32 +1,29 @@
 {
-  "generatedAt": "2025-12-20T08:45:43.106Z",
+  "generatedAt": "2025-12-21T08:46:15.575Z",
   "bullets": [
     {
-      "text": "Copilot Enhancements Roll Out - **Microsoft** introduces real-time text editing features in Copilot for Windows Insiders.",
+      "text": "Copilot Enhancements Roll Out - **Microsoft** introduces real-time text editing features for **Windows Insiders** via Copilot.",
       "url": "https://blogs.windows.com/windows-insider/2025/12/19/copilot-on-windows-new-text-editing-feature-begins-rolling-out-to-windows-insiders/"
     },
     {
-      "text": "Microsoft Store Milestones - Over 250 million monthly users enjoy a more personalized **Microsoft Store** experience in 2025.",
+      "text": "Microsoft Store Growth - Over 250 million users enjoyed a more personalized **Microsoft Store** experience in 2025.",
       "url": "https://blogs.windows.com/windowsdeveloper/2025/12/18/2025-in-review-how-we-elevated-the-microsoft-store-experience/"
     },
     {
-      "text": "Windows 11 Insider Preview - New features and improvements are available in the latest **Windows 11** Insider build.",
+      "text": "Windows 11 Insider Preview - New features and improvements are rolling out in **Windows 11** Insider Preview Build 26220.7523.",
       "url": "https://blogs.windows.com/windows-insider/2025/12/19/announcing-windows-11-insider-preview-build-26220-7522-dev-beta-channels/"
     },
     {
-      "text": "AI-Ready Security Solutions - **Microsoft** emphasizes unified security platforms to combat evolving cyber threats in its new e-book.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2025/12/18/new-microsoft-e-book-3-reasons-point-solutions-are-holding-you-back/"
+      "text": "AI-Driven Clipboard Management - **PowerToys** introduces an advanced clipboard management tool with AI capabilities.",
+      "url": "https://learn.microsoft.com/en-us/windows/powertoys/advanced-paste#adding-a-model-provider"
     },
     {
-      "text": "Access Fabric Introduced - **Microsoft** unveils a unified approach to identity and network access security.",
+      "text": "Unified Security Approach - **Microsoft** advocates for a unified, AI-ready security platform to combat cyberthreats effectively.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/12/17/access-fabric-a-modern-approach-to-identity-and-network-access/"
     },
     {
-      "text": "CVE-2025-55182 Vulnerability Alert - Critical RCE vulnerability in **React Server Components** poses significant risks.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2025/12/15/defending-against-the-cve-2025-55182-react2shell-vulnerability-in-react-server-components/"
-    },
-    {
-      "text": "Generative AI Defense Leader - **Microsoft** recognized as a leader in KuppingerCole's report for AI security capabilities."
+      "text": "Generative AI Defense Leader - **Microsoft** recognized as a leader in **KuppingerCole** Leadership Compass for Generative AI Defense.",
+      "url": "https://techcommunity.microsoft.com/blog/microsoft-security-blog/microsoft-named-an-overall-leader-in-kuppingercole-leadership-compass-for-genera/4478093"
     }
   ]
 }

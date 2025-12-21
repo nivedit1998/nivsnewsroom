@@ -1,37 +1,33 @@
 {
-  "generatedAt": "2025-12-20T08:45:21.919Z",
+  "generatedAt": "2025-12-21T08:45:59.692Z",
   "bullets": [
     {
-      "text": "Curbing Fibre Rollout Obstacles - The UK government aims to tackle freeholder issues hindering gigabit broadband access to flats.",
+      "text": "Curbing Fibre Rollout Obstacles - UK government aims to tackle freeholder issues hindering gigabit broadband access to flats.",
       "url": "https://totaltele.com/uk-plans-to-curb-freeholder-obstruction-of-fibre-to-flats-rollout/"
     },
     {
-      "text": "AI-Driven Telecom Growth - **HCLTech** acquires **HPE**'s Telco Solutions to enhance AI-led network automation.",
+      "text": "HCLTech Acquires HPE Unit - Strategic acquisition focuses on AI-driven network automation for telecom infrastructure.",
       "url": "https://www.rcrwireless.com/20251219/ai/hcltech-buys-hpe-telco"
     },
     {
-      "text": "Wi-Fi 8 Solutions Launched - **Broadcom** introduces Wi-Fi 8, with testing support from **Rohde & Schwarz**.",
-      "url": "https://www.rcrwireless.com/20251218/test-measurement/a-year-in-review-test-measurements-top-stories"
+      "text": "AI and Wi-Fi Convergence - Predictions highlight AI's role in enhancing Wi-Fi networks and user experiences in 2026.",
+      "url": "https://www.rcrwireless.com/20251219/analyst-angle/wi-fi-2026-predictions"
     },
     {
-      "text": "6G Innovations Ahead - **Keysight** predicts 6G will embed intelligence directly into the radio layer, reshaping network design.",
+      "text": "6G's Architectural Shift - 6G will embed intelligence directly into networks, redefining operational and energy paradigms.",
       "url": "https://www.rcrwireless.com/20251219/6g/6g-predictions-keysight"
     },
     {
-      "text": "Geospatial Analytics Revolution - Geospatial data is transforming telecom network planning and operational efficiency.",
+      "text": "Geospatial Analytics Revolution - Enhanced geospatial data is transforming network planning and operational efficiency for telcos.",
       "url": "https://www.rcrwireless.com/20251219/network-infrastructure/geospatial-breakthroughs"
     },
     {
-      "text": "Agentic AI in Telecom - **Huawei** emphasizes the role of AI agents in enhancing operational efficiency and revenue streams.",
-      "url": "https://totaltele.com/huawei-betting-big-on-telecoms-agentic-ai-revolution/"
-    },
-    {
-      "text": "Activation Over Coverage - The broadband industry shifts focus from 'homes passed' to network activation and user experience.",
-      "url": "https://totaltele.com/beginning-to-look-a-lot-like-christmas-why-homes-passed-is-no-longer-enough/"
-    },
-    {
-      "text": "2026 Predictions Unveiled - Experts outline key trends shaping telecom, including AI integration and satellite connectivity.",
+      "text": "AI's Role in Telecom Ops - AI is shifting from customer-facing tools to core network operations for enhanced efficiency.",
       "url": "https://www.rcrwireless.com/20251219/network-infrastructure/2026-predications-enea"
+    },
+    {
+      "text": "Dynamic Mobile Core Future - AI, edge access, and disaster protection are set to redefine mobile core networks in 2026.",
+      "url": "https://www.rcrwireless.com/20251219/network-infrastructure/mobile-core-future"
     }
   ]
 }
