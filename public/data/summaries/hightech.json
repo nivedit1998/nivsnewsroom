@@ -1,37 +1,33 @@
 {
-  "generatedAt": "2025-12-21T08:45:33.783Z",
+  "generatedAt": "2025-12-22T08:51:30.629Z",
   "bullets": [
     {
-      "text": "SwitchBot Wallet Finder: Essential Accessory - This sleek device tracks wallets via **Apple's** Find My app, enhancing lost item recovery.",
+      "text": "MagSafe Battery Pack Triumph - **Kuxiu S3** offers multifunctionality and reliability, replacing multiple chargers effectively.",
+      "url": "https://9to5mac.com/2025/12/21/this-magsafe-battery-pack-replaced/"
+    },
+    {
+      "text": "SwitchBot Wallet Finder - This sleek accessory integrates with **Find My** to help locate lost wallets effortlessly.",
       "url": "https://9to5mac.com/2025/12/20/review-switchbot-wallet-finder-is-an-incredibly-useful-accessory-to-track-your-wallet-with-iphone-find-my/"
     },
     {
-      "text": "ChatGPT Voice Feature Retiring - **OpenAI** will discontinue the Voice feature on macOS, focusing on unified experiences across platforms.",
+      "text": "Waymo's Robotaxi Resumes - After a blackout caused service disruptions, **Waymo** is back on the streets of San Francisco.",
+      "url": "https://techcrunch.com/2025/12/21/waymo-suspends-service-in-san-francisco-as-robotaxis-stall-during-blackout/"
+    },
+    {
+      "text": "Bankruptcy Hits Hardware Firms - **iRobot**, **Luminar**, and **Rad Power Bikes** face bankruptcy amid industry challenges.",
+      "url": "https://techcrunch.com/2025/12/21/a-rough-week-for-hardware-companies/"
+    },
+    {
+      "text": "EU Softens EV Goals - The revised 2035 plan allows hybrids, raising concerns among **EV startups** about competitiveness.",
+      "url": "https://techcrunch.com/2025/12/21/as-eu-waters-down-2035-ev-goals-electric-startups-express-concern/"
+    },
+    {
+      "text": "ChatGPT Voice Feature Retiring - **OpenAI** will discontinue the Voice feature on macOS by January 2026.",
       "url": "https://9to5mac.com/2025/12/19/chatgpt-voice-mode-retiring-on-macos-app/"
     },
     {
-      "text": "AI Safety Legislation in New York - Governor Kathy Hochul signs the **RAISE Act**, enhancing regulations for AI developers in the state.",
-      "url": "https://techcrunch.com/2025/12/20/new-york-governor-kathy-hochul-signs-raise-act-to-regulate-ai-safety/"
-    },
-    {
-      "text": "iRobot's Bankruptcy: A Cautionary Tale - The Roomba maker's downfall highlights regulatory challenges in tech acquisitions, as discussed by founder Colin Angle.",
-      "url": "https://techcrunch.com/2025/12/20/it-felt-so-wrong-colin-angle-on-irobot-the-ftc-and-the-amazon-deal-that-never-was/"
-    },
-    {
-      "text": "Customizing ChatGPT's Tone - **OpenAI** introduces options to adjust ChatGPT's warmth and enthusiasm, enhancing user interaction.",
-      "url": "https://techcrunch.com/2025/12/20/openai-allows-users-to-directly-adjust-chatgpts-warmth-and-enthusiasm/"
-    },
-    {
-      "text": "Bluetooth 6.0: Future of Connectivity - The new standard promises reduced latency and improved location tracking for wireless devices.",
-      "url": "https://www.cnet.com/tech/mobile/bluetooth-6-0-the-future-of-wireless-headphones/#ftag=CAD590a51e"
-    },
-    {
-      "text": "Nex Playground: A Mixed Review - This new gaming console captivates kids despite its technical shortcomings and subscription model.",
-      "url": "https://www.theverge.com/games/848449/nex-playground-review-nintendo-wii-microsoft-kinect-motion-tracking-camera"
-    },
-    {
-      "text": "Rivian's AI Ambitions - The EV maker pivots to develop its own self-driving technology, aiming for higher autonomy levels.",
-      "url": "https://www.theverge.com/transportation/846783/rivian-ai-autonomy-day-self-driving-lidar-chip-tesla"
+      "text": "PayPal's Honey Under Fire - **PayPal's** Honey extension faces backlash over alleged unethical practices affecting influencers.",
+      "url": "https://www.theverge.com/24343913/paypal-honey-megalag-coupon-scam-affiliate-fees"
     }
   ]
 }
