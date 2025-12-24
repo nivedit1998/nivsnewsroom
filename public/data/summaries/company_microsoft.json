@@ -1,29 +1,25 @@
 {
-  "generatedAt": "2025-12-23T08:50:57.322Z",
+  "generatedAt": "2025-12-24T08:50:38.798Z",
   "bullets": [
     {
       "text": "Copilot Enhances Text Editing - **Microsoft** Copilot now allows real-time text editing during Vision sessions for seamless collaboration.",
       "url": "https://blogs.windows.com/windows-insider/2025/12/19/copilot-on-windows-new-text-editing-feature-begins-rolling-out-to-windows-insiders/"
     },
     {
-      "text": "Microsoft Store Milestone - Over 250 million users enjoyed a more personalized experience in the **Microsoft Store** in 2025.",
+      "text": "Microsoft Store Growth - Over 250 million monthly users enjoyed a more personalized and delightful **Microsoft Store** experience in 2025.",
       "url": "https://blogs.windows.com/windowsdeveloper/2025/12/18/2025-in-review-how-we-elevated-the-microsoft-store-experience/"
     },
     {
-      "text": "Windows 11 Insider Preview - New features and updates are rolling out in **Windows 11** Insider Preview Build 26220.7523.",
+      "text": "Windows 11 Insider Preview - New **Windows 11** Insider Preview Build introduces Ask Copilot for enhanced productivity on the taskbar.",
       "url": "https://blogs.windows.com/windows-insider/2025/12/19/announcing-windows-11-insider-preview-build-26220-7522-dev-beta-channels/"
     },
     {
-      "text": "AI Application Development Leader - **Microsoft** recognized as a Leader in the 2025 Gartner® Magic Quadrant™ for AI platforms.",
+      "text": "AI Leadership Recognition - **Microsoft** named a Leader in the 2025 Gartner® Magic Quadrant™ for AI Application Development Platforms.",
       "url": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-gartner-magic-quadrant-for-ai-application-development-platforms/"
     },
     {
-      "text": "Unified Access Security - **Microsoft** introduces Access Fabric for improved identity and network access management.",
+      "text": "Unified Security Approach - **Microsoft** advocates for a unified Access Fabric to enhance identity and network access security.",
       "url": "https://www.microsoft.com/en-us/security/blog/2025/12/17/access-fabric-a-modern-approach-to-identity-and-network-access/"
-    },
-    {
-      "text": "Azure Updates for Partners - **Microsoft** outlines key Azure updates to enhance partner capabilities in AI integration.",
-      "url": "https://partner.microsoft.com/en-us/blog/article/azure-updates-december-2025"
     }
   ]
 }
