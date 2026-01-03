@@ -1,9 +1,25 @@
 {
-  "generatedAt": "2026-01-02T08:50:18.223Z",
+  "generatedAt": "2026-01-03T08:47:04.201Z",
   "bullets": [
     {
-      "text": "AI-Driven Digital Twins Revolutionize Telecoms - **AI** enhances digital twins, enabling proactive, intelligent network management and real-time decision-making.",
+      "text": "6G Remains Theoretical - **6G** is still in the study phase, with commercial deployment not expected until closer to 2030.",
+      "url": "https://www.rcrwireless.com/20260102/uncategorized/2026-6g-ai"
+    },
+    {
+      "text": "FR3 Spectrum Gains Attention - **Frequency Range 3** is shaping early **6G** thinking as a viable capacity layer.",
+      "url": "https://www.rcrwireless.com/20260102/fundamentals/fr3-explained"
+    },
+    {
+      "text": "Gogo's 5G Network Launch - **Gogo** successfully tests its **5G air-to-ground** network, ready for commercial rollout in North America.",
+      "url": "https://www.rcrwireless.com/20260102/test-measurement/gogo-clears-flight-testing-for-5g-air-to-ground-network-launches-service-in-north-america"
+    },
+    {
+      "text": "AI Enhances Digital Twins - **AI** is set to transform **digital twins**, enabling proactive network management and simulation.",
       "url": "https://www.rcrwireless.com/20260101/ai/digital-twins-ai"
+    },
+    {
+      "text": "LoRaWAN Hits Tipping Point - **LoRaWAN** surpasses 125 million devices, marking a significant milestone in the **IoT** market.",
+      "url": "https://www.rcrwireless.com/20260102/opinion/readerforum/lorawan-lpwan-iot-tipping-point-2"
     }
   ]
 }
