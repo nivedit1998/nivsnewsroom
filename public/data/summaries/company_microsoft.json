@@ -1,5 +1,9 @@
 {
-  "generatedAt": "2026-01-05T08:54:56.477Z",
-  "bullets": [],
-  "note": "no source items"
+  "generatedAt": "2026-01-06T08:52:46.456Z",
+  "bullets": [
+    {
+      "text": "Microsoft Acquires Osmos - **Microsoft** enhances **Fabric** with **Osmos** to streamline data workflows using agentic AI.",
+      "url": "https://blogs.microsoft.com/blog/2026/01/05/microsoft-announces-acquisition-of-osmos-to-accelerate-autonomous-data-engineering-in-fabric/"
+    }
+  ]
 }
