@@ -1,45 +1,45 @@
 {
-  "generatedAt": "2026-01-06T08:52:23.643Z",
+  "generatedAt": "2026-01-07T08:52:29.560Z",
   "bullets": [
     {
-      "text": "Pioneer’s Premium CarPlay Feature - **Pioneer** introduces the world’s first aftermarket spatial audio in-dash receiver with **Dolby Atmos** support.",
+      "text": "Meta Pauses Ray-Ban Glasses - **Meta** halts international sales of Ray-Ban Display glasses due to overwhelming demand and limited supply.",
+      "url": "https://techcrunch.com/2026/01/06/meta-pauses-international-expansion-of-its-ray-ban-display-glasses/"
+    },
+    {
+      "text": "Pioneer’s CarPlay Breakthrough - **Pioneer** introduces the world's first aftermarket spatial audio receiver for existing cars.",
       "url": "https://9to5mac.com/2026/01/05/pioneer-bringing-a-premium-carplay-feature-to-existing-cars/"
     },
     {
-      "text": "Shokz OpenFit Pro Buds - New **Shokz** earbuds feature noise reduction, enhancing listening experiences in noisy environments.",
-      "url": "https://www.theverge.com/tech/853290/shokz-open-fit-pro-hands-on-ces-2026-headphones-wearables"
+      "text": "Philips Hue’s Smart Lighting - **Philips Hue** launches SpatialAware to optimize color distribution based on room layout.",
+      "url": "https://www.theverge.com/tech/857250/philips-hue-spatial-aware-smart-lighting-feature"
     },
     {
-      "text": "Loona DeskMate AI Assistant - The **DeskMate** charging hub activates an AI companion app when an iPhone is connected.",
-      "url": "https://www.theverge.com/tech/856077/yoona-deskmate-iphone-robot-companion-ai-assistant"
+      "text": "Intel’s Handheld Gaming CPU - **Intel** develops custom Panther Lake CPUs for a new handheld gaming platform.",
+      "url": "https://www.theverge.com/tech/857252/intel-handheld-gaming-pc-panther-lake-custom-cpu"
     },
     {
-      "text": "Narwal’s AI Vacuum Cleaners - **Narwal** unveils smart vacuums that monitor pets and locate lost items using AI.",
-      "url": "https://techcrunch.com/2026/01/05/narwal-adds-ai-to-its-vacuum-cleaners-to-monitor-pets-and-find-jewelry/"
+      "text": "AI's Rapid Transformation - **McKinsey** and **General Catalyst** discuss how AI is reshaping investment strategies and workforce dynamics.",
+      "url": "https://techcrunch.com/2026/01/06/mckinsey-and-general-catalyst-execs-say-the-era-of-learn-once-work-forever-is-over/"
     },
     {
-      "text": "Nvidia’s GeForce Now Expansion - **Nvidia** announces native apps for Linux and Fire TV, enhancing cloud gaming accessibility.",
-      "url": "https://www.theverge.com/tech/854688/nvidias-geforce-now-is-getting-native-linux-and-fire-tv-apps"
+      "text": "Lenovo’s Cross-Device AI - **Lenovo** unveils Qira, an AI assistant designed to operate across its devices.",
+      "url": "https://www.theverge.com/column/857053/lenovo-ai-assistant-qira"
     },
     {
-      "text": "Nvidia G-Sync Monitors - New **Nvidia** monitors automatically adjust brightness based on ambient lighting for optimal viewing.",
-      "url": "https://www.theverge.com/tech/854662/nvidia-g-sync-pulsar-monitors-abmient-adaptive-technology-auto-brightness"
+      "text": "Mobileye Acquires Robotics Startup - **Mobileye** acquires Mentee Robotics for $900 million, expanding into humanoid robotics.",
+      "url": "https://techcrunch.com/2026/01/06/mobileye-acquires-humanoid-robot-startup-mentee-robotics-for-900m/"
     },
     {
-      "text": "Nvidia DLSS 4.5 Launch - **Nvidia** introduces DLSS 4.5, featuring 6x frame generation for enhanced gaming performance.",
-      "url": "https://www.theverge.com/tech/854610/nvidia-dlss-4-5-announcement-multi-frame-generation-6x-specs"
+      "text": "CES 2026 Highlights - **CES 2026** showcases groundbreaking tech, from AI innovations to quirky gadgets.",
+      "url": "https://techcrunch.com/2026/01/06/ces-2026-everything-revealed-from-nvidias-debuts-to-amds-new-chips-to-razers-ai-oddities/"
     },
     {
-      "text": "Emerson’s SmartVoice Appliances - **Emerson** launches appliances that respond to voice commands without needing Wi-Fi.",
-      "url": "https://www.theverge.com/tech/850919/smart-appliance-emerson-smartvoice-ces"
+      "text": "Fusion Power Progress - **Commonwealth Fusion Systems** installs first magnet in its Sparc fusion reactor, aiming for clean energy.",
+      "url": "https://techcrunch.com/2026/01/06/commonwealth-fusion-systems-installs-reactor-magnet-lands-deal-with-nvidia/"
     },
     {
-      "text": "AMD’s AI PC Processors - **AMD** unveils the Ryzen AI 400 Series, promising faster multitasking and content creation.",
-      "url": "https://techcrunch.com/2026/01/05/amd-unveils-new-ai-pc-processors-for-general-use-and-gaming-at-ces/"
-    },
-    {
-      "text": "Alienware’s New Gaming Laptops - **Alienware** announces plans for slim, affordable gaming laptops to attract a wider audience.",
-      "url": "https://www.theverge.com/news/851926/alienware-is-working-on-new-slim-and-cheaper-gaming-laptops"
+      "text": "AI Chatbot Regulation Proposal - California proposes a four-year ban on AI chatbots in children's toys for safety.",
+      "url": "https://techcrunch.com/2026/01/06/california-lawmaker-proposes-a-four-year-ban-on-ai-chatbots-in-kids-toys/"
     }
   ]
 }

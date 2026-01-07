@@ -1,15 +1,17 @@
 {
-  "generatedAt": "2026-01-06T08:52:51.554Z",
+  "generatedAt": "2026-01-07T08:53:03.236Z",
   "bullets": [
     {
-      "text": "Holiday Entitlement Simplified - **Sage** offers a comprehensive calculator to navigate complex holiday entitlement calculations.",
+      "text": "Free E-Book on MTD - This guide helps sole traders and landlords transition to Making Tax Digital for Income Tax by April 2026.",
+      "url": "https://www.sage.com/en-gb/blog/free-e-book-mtd-for-income-tax-a-guide-to-switching-from-self-assessment/"
+    },
+    {
+      "text": "Mental Health for Accountants - Accountants must create headspace to manage stress during the MTD roll-out and support clients effectively.",
+      "url": "https://www.sage.com/en-gb/blog/making-tax-digital-accountants-headspace/"
+    },
+    {
+      "text": "Holiday Entitlement Calculator - A tool to accurately calculate employee holiday entitlement and ensure compliance with UK regulations.",
       "url": "https://www.sage.com/en-gb/blog/holiday-entitlement-calculator/"
-    },
-    {
-      "text": "Understanding Statutory Leave - In the UK, employees are entitled to 5.6 weeks’ paid annual leave under the **WTR**."
-    },
-    {
-      "text": "Holiday Policies Matter - Employers can enhance holiday packages to attract talent, but must adhere to minimum statutory requirements."
     }
   ]
 }

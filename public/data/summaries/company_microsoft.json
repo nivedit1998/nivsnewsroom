@@ -1,8 +1,16 @@
 {
-  "generatedAt": "2026-01-06T08:52:46.456Z",
+  "generatedAt": "2026-01-07T08:52:55.908Z",
   "bullets": [
     {
-      "text": "Microsoft Acquires Osmos - **Microsoft** enhances **Fabric** with **Osmos** to streamline data workflows using agentic AI.",
+      "text": "Phishing Exploits Rising - **Microsoft** warns of increased phishing attacks using complex routing and misconfigured spoof protections.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/01/06/phishing-actors-exploit-complex-routing-and-misconfigurations-to-spoof-domains/"
+    },
+    {
+      "text": "Defender Experts Suite Launched - **Microsoft** introduces a new suite to bolster cybersecurity with expert-led services.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/01/06/introducing-the-microsoft-defender-experts-suite-elevate-your-security-with-expert-led-services/"
+    },
+    {
+      "text": "Osmos Acquisition Announced - **Microsoft** acquires Osmos to enhance autonomous data engineering capabilities in **Microsoft Fabric**.",
       "url": "https://blogs.microsoft.com/blog/2026/01/05/microsoft-announces-acquisition-of-osmos-to-accelerate-autonomous-data-engineering-in-fabric/"
     }
   ]
