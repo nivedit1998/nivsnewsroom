@@ -1,24 +1,28 @@
 {
-  "generatedAt": "2026-01-08T08:52:47.177Z",
+  "generatedAt": "2026-01-09T08:53:27.584Z",
   "bullets": [
     {
-      "text": "Enhanced Incident Response Services - **Microsoft** introduces proactive services to bolster organizational resilience against cyber incidents.",
+      "text": "Xbox Developer_Direct Returns - A new broadcast on January 22 celebrates Xbox’s 25th anniversary with game insights.",
+      "url": "https://blogs.windows.com/windowsexperience/2026/01/08/xbox-developer_direct-broadcast-returns-jan-22/"
+    },
+    {
+      "text": "Enhanced Cyber Resilience - Microsoft introduces proactive incident response services to strengthen organizational cybersecurity.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/01/07/explore-the-latest-microsoft-incident-response-proactive-services-for-enhanced-resilience/"
     },
     {
-      "text": "Phishing Attack Vector Exploited - **Microsoft** warns of phishing actors using complex routing to spoof domains and deliver deceptive emails.",
+      "text": "Phishing Attack Insights - Microsoft reveals how complex routing is exploited for sophisticated phishing campaigns.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/01/06/phishing-actors-exploit-complex-routing-and-misconfigurations-to-spoof-domains/"
     },
     {
-      "text": "Defender Experts Suite Launched - **Microsoft** unveils a new suite providing expert-led services to combat advanced cyberthreats.",
+      "text": "Defender Experts Suite Launched - New expert-led services aim to bolster security against advanced cyberthreats.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/01/06/introducing-the-microsoft-defender-experts-suite-elevate-your-security-with-expert-led-services/"
     },
     {
-      "text": "Strategic AI Datacenter Planning - **Microsoft** showcases seamless integration of NVIDIA Rubin platform into Azure's AI infrastructure.",
+      "text": "AI Datacenter Innovations - Microsoft’s strategic planning supports large-scale NVIDIA Rubin deployments for AI advancements.",
       "url": "https://azure.microsoft.com/en-us/blog/microsofts-strategic-ai-datacenter-planning-enables-seamless-large-scale-nvidia-rubin-deployments/"
     },
     {
-      "text": "Osmos Acquisition Announced - **Microsoft** acquires Osmos to enhance autonomous data engineering capabilities within **Microsoft Fabric**.",
+      "text": "Osmos Acquisition Announced - Microsoft acquires Osmos to enhance autonomous data engineering capabilities in Fabric.",
       "url": "https://blogs.microsoft.com/blog/2026/01/05/microsoft-announces-acquisition-of-osmos-to-accelerate-autonomous-data-engineering-in-fabric/"
     }
   ]

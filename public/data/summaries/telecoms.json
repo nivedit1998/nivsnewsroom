@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-01-08T08:52:37.603Z",
+  "generatedAt": "2026-01-09T08:53:10.706Z",
   "bullets": [
     {
-      "text": "ASA Bans Vodafone Ads - The ASA ruled Vodafone's 'Nation's Network' slogan misleading, banning the campaign due to lack of evidence.",
+      "text": "ASA Bans Vodafone Ads - The ASA finds Vodafone's 'Nation's Network' slogan misleading, banning the campaign for lack of evidence.",
       "url": "https://totaltele.com/asa-bans-vodafones-nations-network-ads-following-ee-complaint/"
     },
     {
-      "text": "AI Transforms Service Networks - AI and ML are crucial for modern service providers to enhance network reliability and efficiency.",
+      "text": "BT Sells US Federal Unit - BT divests its US government contracting operation to focus on a multi-cloud strategy.",
+      "url": "https://www.rcrwireless.com/20260108/carriers/bt-sells-us-federal-unit"
+    },
+    {
+      "text": "Cyberattack Costs Surge - Average recovery costs from cyberattacks hit $2.5 million, highlighting the need for resilience.",
+      "url": "https://www.telecomstechnews.com/news/average-cyberattack-cost-hits-2-5m-as-recovery-lags/"
+    },
+    {
+      "text": "AI in Service Provider Networks - AI and ML are becoming essential for modern service provider networks to meet subscriber demands.",
       "url": "https://www.rcrwireless.com/20260107/ai-ml/ai-ml-networks"
     },
     {
-      "text": "5G Rollout Collaboration - **Fastweb** and **Vodafone** partner with **TIM** for a shared 5G rollout in Italy, targeting small towns.",
-      "url": "https://www.rcrwireless.com/20260107/5g/fastweb-tim-5g-italy"
-    },
-    {
-      "text": "Network Sharing to Cut Costs - Italian operators are pursuing network sharing to manage rising 5G infrastructure costs effectively.",
-      "url": "https://www.telecomstechnews.com/news/italy-mobile-operators-turn-to-network-sharing-to-manage-5g-costs/"
-    },
-    {
-      "text": "UK Cybersecurity Investment - The UK government allocates £210m to enhance cybersecurity measures across public services.",
+      "text": "UK Cyber Defences Boosted - The UK government allocates £210 million to enhance cybersecurity across public services.",
       "url": "https://totaltele.com/uk-govt-earmarks-210m-to-fortify-its-cyber-defences/"
     },
     {
-      "text": "SoftBank's Strategic Acquisition - **SoftBank** acquires **DigitalBridge** to adapt telecom infrastructure for evolving AI demands.",
-      "url": "https://www.telecomstechnews.com/news/softbanks-digitalbridge-deal-shows-ai-impact-on-telecom-networks/"
+      "text": "Fastweb and TIM 5G Partnership - Fastweb and TIM agree on a RAN sharing model to accelerate 5G deployment in Italy.",
+      "url": "https://www.rcrwireless.com/20260107/5g/fastweb-tim-5g-italy"
     },
     {
-      "text": "Wi-Fi 7 Certification Expansion - The **Wi-Fi Alliance** certifies 20 MHz devices for Wi-Fi 7, enhancing IoT device capabilities.",
+      "text": "Wi-Fi Alliance Expands Wi-Fi 7 - New certification brings Wi-Fi 7 features to 20 MHz-only devices, enhancing IoT capabilities.",
       "url": "https://www.rcrwireless.com/20260107/network-infrastructure/wi-fi-7-20-mhz-devices"
     },
     {
-      "text": "6G Networks to Automate Workflows - Future **6G** networks will host AI agents to streamline enterprise operations and enhance connectivity.",
-      "url": "https://www.telecomstechnews.com/news/6g-networks-host-ai-agents-to-automate-enterprise-workflows/"
+      "text": "SoftBank's Strategic Acquisition - SoftBank's acquisition of DigitalBridge reflects a shift towards AI-driven telecom infrastructure.",
+      "url": "https://www.telecomstechnews.com/news/softbanks-digitalbridge-deal-shows-ai-impact-on-telecom-networks/"
     }
   ]
 }
