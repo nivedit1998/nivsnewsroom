@@ -1,41 +1,45 @@
 {
-  "generatedAt": "2026-01-10T08:46:42.339Z",
+  "generatedAt": "2026-01-11T08:47:37.079Z",
   "bullets": [
     {
-      "text": "Ofcom's 6 GHz Spectrum Strategy - Ofcom proposes a split-priority approach for mobile and Wi-Fi services in the 6 GHz band.",
+      "text": "Split-Priority Spectrum Strategy - **Ofcom** proposes a Wi-Fi-first approach for the upper 6 GHz band, balancing immediate and future needs.",
       "url": "https://www.rcrwireless.com/20260109/policy/ofcom-6-ghz"
     },
     {
-      "text": "Vodafone's Ad Campaign Banned - ASA bans Vodafone's 'Nation's Network' ads for misleading claims about network superiority.",
+      "text": "Wi-Fi and Mobile Spectrum Split - **Ofcom** aims to manage the 6 GHz band through a shared framework for Wi-Fi and mobile services.",
+      "url": "https://www.telecomstechnews.com/news/6-ghz-spectrum-to-be-split-between-mobile-and-wi-fi-services/"
+    },
+    {
+      "text": "Vodafone Ad Campaign Banned - The **ASA** bans Vodafone's 'Nation's Network' ads for misleading claims about network superiority.",
       "url": "https://totaltele.com/asa-bans-vodafones-nations-network-ads-following-ee-complaint/"
     },
     {
-      "text": "BT Sells US Federal Unit - BT divests its US government contracting operation to focus on multi-cloud services.",
-      "url": "https://www.rcrwireless.com/20260108/carriers/bt-sells-us-federal-unit"
-    },
-    {
-      "text": "Cyberattack Costs Surge - Average recovery costs from cyberattacks reach $2.5 million, highlighting resilience challenges.",
+      "text": "Cyberattack Recovery Costs Rise - Average recovery costs from cyberattacks have hit $2.5 million, highlighting resilience challenges.",
       "url": "https://www.telecomstechnews.com/news/average-cyberattack-cost-hits-2-5m-as-recovery-lags/"
     },
     {
-      "text": "AI's Role in Telecom Networks - AI and ML are increasingly integrated into service provider networks to enhance performance.",
-      "url": "https://www.rcrwireless.com/20260107/ai-ml/ai-ml-networks"
-    },
-    {
-      "text": "6G Networks to Automate Workflows - Future 6G networks will host AI agents to automate complex enterprise workflows.",
-      "url": "https://www.telecomstechnews.com/news/6g-networks-host-ai-agents-to-automate-enterprise-workflows/"
-    },
-    {
-      "text": "UK Government Cybersecurity Investment - The UK government allocates £210 million to enhance public sector cyber defences.",
+      "text": "UK Cybersecurity Investment - The UK government allocates £210 million to enhance public sector cyber defences and resilience.",
       "url": "https://totaltele.com/uk-govt-earmarks-210m-to-fortify-its-cyber-defences/"
     },
     {
-      "text": "SoftBank's DigitalBridge Acquisition - SoftBank's acquisition of DigitalBridge reflects AI's impact on telecom infrastructure strategy.",
+      "text": "AI's Role in Telecom Networks - **GSMA** report highlights the shift towards AI-driven customer experience in telecom service assurance.",
+      "url": "https://www.rcrwireless.com/20260109/carriers/ai-era-assurance"
+    },
+    {
+      "text": "SoftBank's AI Infrastructure Bet - **SoftBank** acquires **DigitalBridge** to align telecom infrastructure with AI-driven demand.",
       "url": "https://www.telecomstechnews.com/news/softbanks-digitalbridge-deal-shows-ai-impact-on-telecom-networks/"
     },
     {
-      "text": "FCC Votes on 6 GHz Devices - FCC proposes new 'geofenced variable power' devices for enhanced outdoor Wi-Fi capabilities.",
-      "url": "https://www.rcrwireless.com/20260108/wi-fi-2/fcc-votes-6ghz-wifi-iot"
+      "text": "6G Networks to Automate Workflows - Future 6G networks will host AI agents to streamline enterprise operations and enhance connectivity.",
+      "url": "https://www.telecomstechnews.com/news/6g-networks-host-ai-agents-to-automate-enterprise-workflows/"
+    },
+    {
+      "text": "BT Sells US Federal Unit - **BT** divests its US government contracting operation to focus on core UK services and multi-cloud strategy.",
+      "url": "https://www.rcrwireless.com/20260108/carriers/bt-sells-us-federal-unit"
+    },
+    {
+      "text": "Network Sharing in Italy - Italian mobile operators explore network sharing to mitigate rising 5G infrastructure costs.",
+      "url": "https://www.telecomstechnews.com/news/italy-mobile-operators-turn-to-network-sharing-to-manage-5g-costs/"
     }
   ]
 }

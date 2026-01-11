@@ -1,32 +1,32 @@
 {
-  "generatedAt": "2026-01-10T08:47:03.627Z",
+  "generatedAt": "2026-01-11T08:47:51.552Z",
   "bullets": [
     {
-      "text": "Windows 11 Insider Preview Released - New build 26220.7535 enhances accessibility with Copilot-powered image descriptions for Narrator.",
+      "text": "Windows 11 Insider Preview Build Released - New features and improvements are rolling out for Insiders in the Dev & Beta Channels.",
       "url": "https://blogs.windows.com/windows-insider/2026/01/09/announcing-windows-11-insider-preview-build-26220-7535-dev-beta-channels/"
     },
     {
-      "text": "Xbox Developer_Direct Returns - Celebrate Xbox's 25th anniversary with insights on upcoming games on January 22.",
+      "text": "Xbox Developer_Direct Returns - Celebrating Xbox's 25th anniversary with insights into upcoming games on January 22.",
       "url": "https://blogs.windows.com/windowsexperience/2026/01/08/xbox-developer_direct-broadcast-returns-jan-22/"
     },
     {
-      "text": "Enhanced Cyber Resilience Services - Microsoft introduces proactive incident response services to strengthen organizational resilience against cyber threats.",
+      "text": "Enhanced Cyber Resilience Services - New proactive incident response services introduced to help organizations strengthen cybersecurity.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/01/07/explore-the-latest-microsoft-incident-response-proactive-services-for-enhanced-resilience/"
     },
     {
-      "text": "Phishing Attack Vector Exploited - Threat actors are using complex routing to spoof domains and deliver phishing emails.",
+      "text": "Phishing Attack Vector Insights - Microsoft reveals how complex routing is exploited for effective domain spoofing in phishing attacks.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/01/06/phishing-actors-exploit-complex-routing-and-misconfigurations-to-spoof-domains/"
     },
     {
-      "text": "Introducing Microsoft Defender Experts Suite - New expert-led services aim to bolster cybersecurity and enhance resilience.",
+      "text": "Introducing Microsoft Defender Experts Suite - New expert-led services launched to enhance security against advanced cyberthreats.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/01/06/introducing-the-microsoft-defender-experts-suite-elevate-your-security-with-expert-led-services/"
     },
     {
-      "text": "Seamless NVIDIA Rubin Deployments - Microsoft’s strategic planning ensures Azure is ready for large-scale NVIDIA deployments.",
+      "text": "NVIDIA Rubin Platform Integration - Microsoft’s strategic planning enables seamless deployment of NVIDIA's next-gen AI infrastructure.",
       "url": "https://azure.microsoft.com/en-us/blog/microsofts-strategic-ai-datacenter-planning-enables-seamless-large-scale-nvidia-rubin-deployments/"
     },
     {
-      "text": "Acquisition of Osmos Announced - Microsoft aims to enhance data engineering capabilities in Fabric with Osmos acquisition.",
+      "text": "Microsoft Acquires Osmos - Acquisition aims to enhance autonomous data engineering capabilities within Microsoft Fabric.",
       "url": "https://blogs.microsoft.com/blog/2026/01/05/microsoft-announces-acquisition-of-osmos-to-accelerate-autonomous-data-engineering-in-fabric/"
     }
   ]
