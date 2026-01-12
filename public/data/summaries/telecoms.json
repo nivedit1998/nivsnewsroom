@@ -1,45 +1,37 @@
 {
-  "generatedAt": "2026-01-11T08:47:37.079Z",
+  "generatedAt": "2026-01-12T08:55:52.443Z",
   "bullets": [
     {
-      "text": "Split-Priority Spectrum Strategy - **Ofcom** proposes a Wi-Fi-first approach for the upper 6 GHz band, balancing immediate and future needs.",
+      "text": "Ofcom's 6 GHz Spectrum Split - Ofcom proposes a split-priority approach for mobile and Wi-Fi services in the 6 GHz band.",
       "url": "https://www.rcrwireless.com/20260109/policy/ofcom-6-ghz"
     },
     {
-      "text": "Wi-Fi and Mobile Spectrum Split - **Ofcom** aims to manage the 6 GHz band through a shared framework for Wi-Fi and mobile services.",
-      "url": "https://www.telecomstechnews.com/news/6-ghz-spectrum-to-be-split-between-mobile-and-wi-fi-services/"
-    },
-    {
-      "text": "Vodafone Ad Campaign Banned - The **ASA** bans Vodafone's 'Nation's Network' ads for misleading claims about network superiority.",
+      "text": "Vodafone's Ad Campaign Banned - ASA bans Vodafone's 'Nation's Network' ads for misleading claims about network superiority.",
       "url": "https://totaltele.com/asa-bans-vodafones-nations-network-ads-following-ee-complaint/"
     },
     {
-      "text": "Cyberattack Recovery Costs Rise - Average recovery costs from cyberattacks have hit $2.5 million, highlighting resilience challenges.",
-      "url": "https://www.telecomstechnews.com/news/average-cyberattack-cost-hits-2-5m-as-recovery-lags/"
-    },
-    {
-      "text": "UK Cybersecurity Investment - The UK government allocates £210 million to enhance public sector cyber defences and resilience.",
-      "url": "https://totaltele.com/uk-govt-earmarks-210m-to-fortify-its-cyber-defences/"
-    },
-    {
-      "text": "AI's Role in Telecom Networks - **GSMA** report highlights the shift towards AI-driven customer experience in telecom service assurance.",
-      "url": "https://www.rcrwireless.com/20260109/carriers/ai-era-assurance"
-    },
-    {
-      "text": "SoftBank's AI Infrastructure Bet - **SoftBank** acquires **DigitalBridge** to align telecom infrastructure with AI-driven demand.",
-      "url": "https://www.telecomstechnews.com/news/softbanks-digitalbridge-deal-shows-ai-impact-on-telecom-networks/"
-    },
-    {
-      "text": "6G Networks to Automate Workflows - Future 6G networks will host AI agents to streamline enterprise operations and enhance connectivity.",
-      "url": "https://www.telecomstechnews.com/news/6g-networks-host-ai-agents-to-automate-enterprise-workflows/"
-    },
-    {
-      "text": "BT Sells US Federal Unit - **BT** divests its US government contracting operation to focus on core UK services and multi-cloud strategy.",
+      "text": "BT Sells US Federal Unit - BT divests its US government contracting operation to focus on core UK services.",
       "url": "https://www.rcrwireless.com/20260108/carriers/bt-sells-us-federal-unit"
     },
     {
-      "text": "Network Sharing in Italy - Italian mobile operators explore network sharing to mitigate rising 5G infrastructure costs.",
-      "url": "https://www.telecomstechnews.com/news/italy-mobile-operators-turn-to-network-sharing-to-manage-5g-costs/"
+      "text": "Cyberattack Costs Soar - Average recovery costs from cyberattacks hit $2.5 million as downtime increases.",
+      "url": "https://www.telecomstechnews.com/news/average-cyberattack-cost-hits-2-5m-as-recovery-lags/"
+    },
+    {
+      "text": "AI's Role in Telecom Networks - AI and ML are becoming essential for managing complex service provider networks.",
+      "url": "https://www.rcrwireless.com/20260107/ai-ml/ai-ml-networks"
+    },
+    {
+      "text": "6G Networks to Automate Workflows - Future 6G networks will host AI agents to streamline enterprise processes.",
+      "url": "https://www.telecomstechnews.com/news/6g-networks-host-ai-agents-to-automate-enterprise-workflows/"
+    },
+    {
+      "text": "FCC Votes on 6 GHz Devices - FCC to create new high-power device category for enhanced Wi-Fi and IoT capabilities.",
+      "url": "https://www.rcrwireless.com/20260108/wi-fi-2/fcc-votes-6ghz-wifi-iot"
+    },
+    {
+      "text": "SoftBank's AI Infrastructure Bet - SoftBank's acquisition of DigitalBridge highlights AI's impact on telecom infrastructure.",
+      "url": "https://www.telecomstechnews.com/news/softbanks-digitalbridge-deal-shows-ai-impact-on-telecom-networks/"
     }
   ]
 }
