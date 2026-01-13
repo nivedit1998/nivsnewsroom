@@ -1,37 +1,41 @@
 {
-  "generatedAt": "2026-01-12T08:55:52.443Z",
+  "generatedAt": "2026-01-13T08:53:47.357Z",
   "bullets": [
     {
-      "text": "Ofcom's 6 GHz Spectrum Split - Ofcom proposes a split-priority approach for mobile and Wi-Fi services in the 6 GHz band.",
+      "text": "Millicom Eyes Telefónica Chile - **Millicom** considers a bid for **Telefónica Chile** as the latter exits non-core markets.",
+      "url": "https://www.rcrwireless.com/20260112/5g/millicom-telefonica-2"
+    },
+    {
+      "text": "Ofcom's 6 GHz Spectrum Plan - **Ofcom** proposes a split-priority approach for the upper 6 GHz band for Wi-Fi and mobile.",
       "url": "https://www.rcrwireless.com/20260109/policy/ofcom-6-ghz"
     },
     {
-      "text": "Vodafone's Ad Campaign Banned - ASA bans Vodafone's 'Nation's Network' ads for misleading claims about network superiority.",
+      "text": "Vodafone's Ads Banned - **ASA** bans **Vodafone**'s 'Nation's Network' ads for misleading claims about network superiority.",
       "url": "https://totaltele.com/asa-bans-vodafones-nations-network-ads-following-ee-complaint/"
     },
     {
-      "text": "BT Sells US Federal Unit - BT divests its US government contracting operation to focus on core UK services.",
-      "url": "https://www.rcrwireless.com/20260108/carriers/bt-sells-us-federal-unit"
+      "text": "UK Cybersecurity Boost - The UK government allocates £210m to enhance public sector cyber defences amid rising threats.",
+      "url": "https://totaltele.com/uk-govt-earmarks-210m-to-fortify-its-cyber-defences/"
     },
     {
-      "text": "Cyberattack Costs Soar - Average recovery costs from cyberattacks hit $2.5 million as downtime increases.",
-      "url": "https://www.telecomstechnews.com/news/average-cyberattack-cost-hits-2-5m-as-recovery-lags/"
+      "text": "5G Trials in Ukraine - **Kyivstar** launches a 5G pilot in **Lviv**, showcasing resilience amid ongoing conflict.",
+      "url": "https://www.rcrwireless.com/20260112/5g/kyivstar-5g"
     },
     {
-      "text": "AI's Role in Telecom Networks - AI and ML are becoming essential for managing complex service provider networks.",
-      "url": "https://www.rcrwireless.com/20260107/ai-ml/ai-ml-networks"
+      "text": "EchoStar's Spectrum Sell-off - **EchoStar** sells $40bn in spectrum to **AT&T** and **SpaceX**, reshaping U.S. wireless policy.",
+      "url": "https://www.rcrwireless.com/20260112/analyst-angle/echostar-spectrum"
     },
     {
-      "text": "6G Networks to Automate Workflows - Future 6G networks will host AI agents to streamline enterprise processes.",
+      "text": "AI-RAN Delivers ROI - **AI-RAN** technology promises operational efficiency and energy savings for telecom operators.",
+      "url": "https://www.telecomstechnews.com/news/how-ai-ran-delivers-operational-roi-for-telcos/"
+    },
+    {
+      "text": "Starlink's Free Internet - **Starlink** offers free internet in Venezuela amid political turmoil and regime challenges.",
+      "url": "https://totaltele.com/starlink-offers-free-internet-in-venezuela-as-regime-stays-put/"
+    },
+    {
+      "text": "6G Networks to Automate Workflows - Future **6G** networks will host AI agents to streamline enterprise operations.",
       "url": "https://www.telecomstechnews.com/news/6g-networks-host-ai-agents-to-automate-enterprise-workflows/"
-    },
-    {
-      "text": "FCC Votes on 6 GHz Devices - FCC to create new high-power device category for enhanced Wi-Fi and IoT capabilities.",
-      "url": "https://www.rcrwireless.com/20260108/wi-fi-2/fcc-votes-6ghz-wifi-iot"
-    },
-    {
-      "text": "SoftBank's AI Infrastructure Bet - SoftBank's acquisition of DigitalBridge highlights AI's impact on telecom infrastructure.",
-      "url": "https://www.telecomstechnews.com/news/softbanks-digitalbridge-deal-shows-ai-impact-on-telecom-networks/"
     }
   ]
 }
