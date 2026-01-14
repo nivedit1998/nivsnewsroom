@@ -1,25 +1,29 @@
 {
-  "generatedAt": "2026-01-13T08:54:00.534Z",
+  "generatedAt": "2026-01-14T08:55:26.971Z",
   "bullets": [
     {
-      "text": "Windows 11 Insider Preview Released - New build 26220.7535 offers features for Dev & Beta Channels, enhancing accessibility with Copilot.",
+      "text": "AI-Powered Innovations Unveiled - **Microsoft** showcases groundbreaking AI PCs and collaborations at CES 2026, enhancing user experiences.",
+      "url": "https://blogs.windows.com/windowsexperience/2026/01/13/ces-2026-showcasing-new-windows-11-pc-innovations-across-the-ecosystem/"
+    },
+    {
+      "text": "Navigating AI-Driven Careers - **Microsoft** and **LinkedIn** launch 'Open to Work', a guide for adapting to AI's impact on jobs.",
+      "url": "https://blogs.microsoft.com/blog/2026/01/13/announcing-open-to-work-how-to-get-ahead-in-the-age-of-ai/"
+    },
+    {
+      "text": "Privacy Meets Security - **Microsoft** emphasizes the integration of privacy and security as complementary priorities in its services.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/01/13/how-microsoft-builds-privacy-and-security-to-work-hand-in-hand/"
+    },
+    {
+      "text": "Windows 11 Insider Preview Released - New features and improvements rolled out in the latest Windows 11 Insider Preview build.",
       "url": "https://blogs.windows.com/windows-insider/2026/01/09/announcing-windows-11-insider-preview-build-26220-7535-dev-beta-channels/"
     },
     {
-      "text": "Xbox Developer_Direct Returns - Celebrate Xbox's 25th anniversary with insights into upcoming games on January 22.",
+      "text": "Xbox Developer_Direct Returns - Celebrate Xbox’s 25th anniversary with insights into upcoming games on January 22.",
       "url": "https://blogs.windows.com/windowsexperience/2026/01/08/xbox-developer_direct-broadcast-returns-jan-22/"
     },
     {
-      "text": "Enhanced Cyber Resilience Services - New proactive services from **Microsoft** Incident Response help organizations prepare for cyber incidents.",
+      "text": "Enhancing Cyber Resilience - **Microsoft** introduces proactive incident response services to help organizations strengthen cybersecurity.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/01/07/explore-the-latest-microsoft-incident-response-proactive-services-for-enhanced-resilience/"
-    },
-    {
-      "text": "Phishing Attack Insights - **Microsoft** reveals how complex routing enables phishing actors to spoof domains effectively.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/01/06/phishing-actors-exploit-complex-routing-and-misconfigurations-to-spoof-domains/"
-    },
-    {
-      "text": "Introducing Defender Experts Suite - **Microsoft** launches a new security offering to combat advanced cyberthreats with expert-led services.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/01/06/introducing-the-microsoft-defender-experts-suite-elevate-your-security-with-expert-led-services/"
     }
   ]
 }
