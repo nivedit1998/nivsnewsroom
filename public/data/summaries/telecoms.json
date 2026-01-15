@@ -1,45 +1,37 @@
 {
-  "generatedAt": "2026-01-14T08:55:14.276Z",
+  "generatedAt": "2026-01-15T08:53:03.117Z",
   "bullets": [
     {
-      "text": "6 GHz Spectrum Split - **Ofcom** proposes a shared spectrum model for mobile and Wi-Fi services in the UK.",
+      "text": "Chelsea Stadium Gets Mobile Boost - **Virgin Media O2** enhances connectivity for fans at Stamford Bridge with new mobile infrastructure.",
+      "url": "https://totaltele.com/virgin-media-o2-gives-chelsea-stadium-a-mobile-infra-upgrade/"
+    },
+    {
+      "text": "Ofcom's Spectrum Split Plan - **Ofcom** proposes dividing the 6 GHz band for mobile and Wi-Fi, enabling shared spectrum use.",
       "url": "https://www.telecomstechnews.com/news/6-ghz-spectrum-to-be-split-between-mobile-and-wi-fi-services/"
     },
     {
-      "text": "Vodafone Ad Ban - **ASA** bans Vodafone's misleading 'Nation's Network' ads following a complaint from **EE**.",
-      "url": "https://totaltele.com/asa-bans-vodafones-nations-network-ads-following-ee-complaint/"
+      "text": "AI Investment Surge - **KPMG** report reveals 84% of telecom CEOs expect positive ROI from AI within three years.",
+      "url": "https://www.rcrwireless.com/20260114/ai/kpmg-telco-ceos-ai-2025"
     },
     {
-      "text": "Samsung's vRAN Call - **Samsung** completes its first commercial call using virtualized RAN technology, enhancing network efficiency.",
-      "url": "https://www.rcrwireless.com/20260113/architecture/samsung-vran"
+      "text": "Single-Server vRAN Success - **Samsung** and **Intel** demonstrate single-server vRAN viability, reducing hardware sprawl for operators.",
+      "url": "https://www.telecomstechnews.com/news/single-server-vran-proves-viable-commercial-networks/"
     },
     {
-      "text": "CommScope's Leaner Future - **CommScope** divests its CCS business to **Amphenol**, focusing on broadband and campus networks.",
-      "url": "https://www.rcrwireless.com/20260113/network-infrastructure/commscope-amphenol-telescope"
-    },
-    {
-      "text": "Starlink's Satellite Expansion - **SpaceX** receives FCC approval for 7,500 additional **Starlink** satellites, boosting network capacity.",
-      "url": "https://www.rcrwireless.com/20260112/network-infrastructure/spacex-wins-fccs-approval-for-7500-additional-starlink-satellites"
+      "text": "FWA Market Expansion - Fixed Wireless Access subscriptions projected to exceed 191 million by 2029, driven by 5G technologies.",
+      "url": "https://www.rcrwireless.com/20260114/carriers/fwa-growth"
     },
     {
       "text": "Brady's Labelling Solutions - **Brady** updates mobile labelling printers to enhance telecom network maintenance efficiency.",
       "url": "https://totaltele.com/brady-updates-mobile-labelling-solutions-to-tackle-telecom-network-maintenance-challenges/"
     },
     {
-      "text": "AI in Telecoms - **CypressTel** integrates AI into SD-WAN and SASE solutions, enhancing network performance and security.",
-      "url": "https://totaltele.com/cypresstel-talks-sd-wan-sase-and-being-the-gateway-to-china/"
+      "text": "NEC Exits RAN Market - **NEC** halts 4G/5G base station development amid competitive pressures, shifting focus to specialized applications.",
+      "url": "https://www.rcrwireless.com/20260114/5g/nec-5g-market"
     },
     {
-      "text": "Cyberattack Costs Rise - Average recovery costs from cyberattacks hit $2.5 million, highlighting the need for resilience.",
-      "url": "https://www.telecomstechnews.com/news/average-cyberattack-cost-hits-2-5m-as-recovery-lags/"
-    },
-    {
-      "text": "AI-RAN Operational ROI - **AI-RAN** delivers operational ROI for telcos by enhancing energy efficiency and automation.",
+      "text": "AI-RAN Delivers ROI - **AI-RAN** technology offers operational efficiencies and energy savings for telecom operators.",
       "url": "https://www.telecomstechnews.com/news/how-ai-ran-delivers-operational-roi-for-telcos/"
-    },
-    {
-      "text": "Kyivstar's 5G Pilot - **Kyivstar** launches a 5G pilot in Lviv, pushing digital modernization amid ongoing conflict in Ukraine.",
-      "url": "https://www.rcrwireless.com/20260112/5g/kyivstar-5g"
     }
   ]
 }

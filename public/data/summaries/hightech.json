@@ -1,44 +1,45 @@
 {
-  "generatedAt": "2026-01-14T08:54:36.699Z",
+  "generatedAt": "2026-01-15T08:52:34.563Z",
   "bullets": [
     {
-      "text": "Samsung Expands Refurbished Program - **Samsung** brings its Certified Re-Newed program to the **UK**, France, and Germany.",
+      "text": "Musk Denies Grok's Issues - **Elon Musk** claims ignorance over **Grok**'s generation of explicit images as investigations commence.",
+      "url": "https://techcrunch.com/2026/01/14/musk-denies-awareness-of-grok-sexual-underage-images-as-california-ag-launches-probe/"
+    },
+    {
+      "text": "Netflix Enters Podcasting - **Netflix** launches original video podcasts featuring **Pete Davidson** and **Michael Irvin** to boost engagement.",
+      "url": "https://techcrunch.com/2026/01/14/netflixs-first-original-video-podcasts-feature-pete-davidson-and-michael-irvin/"
+    },
+    {
+      "text": "Google's Gemini Enhancements - **Google**'s **Gemini** app introduces proactive responses by integrating user data across platforms.",
+      "url": "https://techcrunch.com/2026/01/14/geminis-new-beta-feature-provides-proactive-responses-based-on-your-photos-emails-and-more/"
+    },
+    {
+      "text": "Samsung's Refurbished Program - **Samsung** expands its Certified Re-Newed program to the **UK**, promoting sustainability in tech.",
       "url": "https://9to5google.com/2026/01/13/samsung-certified-renewed-program-france-germany-uk/"
     },
     {
-      "text": "Apple's Creator Studio Launch - **Apple** introduces a new subscription bundle for creative apps at $12.99/month.",
-      "url": "https://techcrunch.com/2026/01/13/apple-launches-creator-studio-bundle-of-apps-for-12-99-per-month/"
+      "text": "Wikipedia Celebrates 25 Years - **Wikipedia** marks its 25th anniversary, showcasing the contributions of its dedicated volunteer editors.",
+      "url": "https://www.theverge.com/news/861935/wikipedia-25th-anniversary-2026"
     },
     {
-      "text": "Deepgram Raises $130M - **Deepgram** secures $130 million in funding, reaching a $1.3 billion valuation.",
-      "url": "https://techcrunch.com/2026/01/13/deepgram-raises-130m-at-1-3b-valuation-and-buys-a-yc-ai-startup/"
+      "text": "AI Models Solve Math Problems - **OpenAI**'s latest model shows promise in solving complex mathematical problems, pushing AI boundaries.",
+      "url": "https://techcrunch.com/2026/01/14/ai-models-are-starting-to-crack-high-level-math-problems/"
     },
     {
-      "text": "Google's AI Shopping Protocol Controversy - A consumer watchdog warns about **Google**'s new AI shopping features.",
-      "url": "https://techcrunch.com/2026/01/13/a-consumer-watchdog-issued-a-warning-about-googles-ai-agent-shopping-protocol-google-says-shes-wrong/"
+      "text": "Bandcamp Bans AI Music - **Bandcamp** prohibits AI-generated music, emphasizing the importance of human creativity in music production.",
+      "url": "https://techcrunch.com/2026/01/14/bandcamp-takes-a-stand-against-ai-music-banning-it-from-the-platform/"
     },
     {
-      "text": "Meta Cuts VR Studios - **Meta** closes three VR studios amid layoffs in its Reality Labs division.",
-      "url": "https://www.theverge.com/news/861420/meta-reality-labs-layoffs-vr-studios-twisted-pixel-sanzaru-armature"
+      "text": "Tesla Shifts to Subscriptions - **Tesla** will only offer subscriptions for its Full Self-Driving software, ending one-time purchases.",
+      "url": "https://techcrunch.com/2026/01/14/tesla-will-only-offer-subscriptions-for-full-self-driving-supervised-going-forward/"
     },
     {
-      "text": "Microsoft's New Data Centers - **Microsoft** announces new data centers while promising not to raise local electricity bills.",
-      "url": "https://techcrunch.com/2026/01/13/microsoft-announces-glut-of-new-data-centers-but-says-it-wont-let-your-electricity-bill-go-up/"
+      "text": "Verizon Resolves Outage - **Verizon** claims to have fixed a major service outage affecting over 2 million customers across the US.",
+      "url": "https://www.cnet.com/news-live/verizon-outage-january-2026/"
     },
     {
-      "text": "Slackbot Transforms into AI Agent - **Slackbot** evolves into an AI agent, enhancing productivity within the platform.",
-      "url": "https://techcrunch.com/2026/01/13/slackbot-is-an-ai-agent-now/"
-    },
-    {
-      "text": "Robotaxi Legislation in New York - New York Governor proposes legislation to legalize robotaxis outside NYC.",
-      "url": "https://techcrunch.com/2026/01/13/new-york-governor-clears-path-for-robotaxis-everywhere-with-one-notable-exception/"
-    },
-    {
-      "text": "ElevenLabs Surpasses $330M ARR - **ElevenLabs** reports crossing $330 million in annual recurring revenue."
-    },
-    {
-      "text": "AI in Healthcare Debate - Doctors express concerns over AI chatbots providing medical advice.",
-      "url": "https://techcrunch.com/2026/01/13/doctors-think-ai-has-a-place-in-healthcare-but-maybe-not-as-a-chatbot/"
+      "text": "WitnessAI Raises $58M - **WitnessAI** secures funding to enhance security measures for enterprise AI applications.",
+      "url": "https://techcrunch.com/video/how-witnessai-raised-58m-to-solve-enterprise-ais-biggest-risk/"
     }
   ]
 }
