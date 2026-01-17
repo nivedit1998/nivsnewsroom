@@ -1,37 +1,25 @@
 {
-  "generatedAt": "2026-01-16T08:51:56.612Z",
+  "generatedAt": "2026-01-17T08:46:54.610Z",
   "bullets": [
     {
-      "text": "RedVDS Cybercrime Uncovered - **Microsoft** reveals how a single virtual desktop provider fuels global cybercriminal operations.",
+      "text": "RedVDS Cybercrime Uncovered - **Microsoft** reveals how a single VDS provider fuels global cybercriminal operations.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/01/14/inside-redvds-how-a-single-virtual-desktop-provider-fueled-worldwide-cybercriminal-operations/"
     },
     {
-      "text": "Windows 11 Insider Preview - New build 28020.1371 released, featuring improvements for **Windows Insiders**.",
-      "url": "https://blogs.windows.com/windows-insider/2026/01/14/announcing-windows-11-insider-preview-build-28020-1371-canary-channel/"
+      "text": "Windows 11 Insider Preview - New features and fixes are rolling out in the latest **Windows 11** Insider builds.",
+      "url": "https://blogs.windows.com/windows-insider/2026/01/16/announcing-windows-11-insider-preview-build-26220-7653-beta-channel/"
     },
     {
-      "text": "Leader in AI Governance - **Microsoft** recognized as a leader in IDC MarketScape for unified AI governance platforms.",
+      "text": "AI Governance Leadership - **Microsoft** recognized as a leader in unified AI governance platforms by IDC MarketScape.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/01/14/microsoft-named-a-leader-in-idc-marketscape-for-unified-ai-governance-platforms/"
     },
     {
-      "text": "CES 2026 Innovations - **Microsoft** showcases new Windows 11 PC innovations, highlighting AI's mainstream adoption.",
+      "text": "Innovations at CES 2026 - **Microsoft** showcases new Windows 11 PCs and AI advancements at CES 2026.",
       "url": "https://blogs.windows.com/windowsexperience/2026/01/13/ces-2026-showcasing-new-windows-11-pc-innovations-across-the-ecosystem/"
     },
     {
-      "text": "Open to Work Book - **Microsoft** and LinkedIn launch a book addressing AI's impact on careers.",
-      "url": "https://blogs.microsoft.com/blog/2026/01/13/announcing-open-to-work-how-to-get-ahead-in-the-age-of-ai/"
-    },
-    {
-      "text": "Privacy and Security Synergy - **Microsoft** emphasizes the integration of privacy and security in its services.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/01/13/how-microsoft-builds-privacy-and-security-to-work-hand-in-hand/"
-    },
-    {
-      "text": "AI in Healthcare - **Microsoft Foundry** enhances AI capabilities for healthcare and life sciences with Claude.",
+      "text": "AI in Healthcare - **Microsoft Foundry** enhances healthcare capabilities with advanced AI tools for medical workflows.",
       "url": "https://www.microsoft.com/en-us/industry/blog/healthcare/2026/01/11/bridging-the-gap-between-ai-and-medicine-claude-in-microsoft-foundry-advances-capabilities-for-healthcare-and-life-sciences-customers/"
-    },
-    {
-      "text": "Windows 11 Insider Build 26220 - New features and improvements released for **Windows Insiders**.",
-      "url": "https://blogs.windows.com/windows-insider/2026/01/09/announcing-windows-11-insider-preview-build-26220-7535-dev-beta-channels/"
     }
   ]
 }
