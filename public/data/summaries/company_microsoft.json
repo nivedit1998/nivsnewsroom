@@ -1,25 +1,29 @@
 {
-  "generatedAt": "2026-01-18T08:47:20.186Z",
+  "generatedAt": "2026-01-19T08:56:11.880Z",
   "bullets": [
     {
-      "text": "RedVDS Cybercrime Hub Exposed - **Microsoft** disrupts a major virtual desktop provider fueling global cybercriminal operations.",
+      "text": "RedVDS Cybercrime Uncovered - **Microsoft** reveals how a single VDS provider fuels global cybercriminal operations.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/01/14/inside-redvds-how-a-single-virtual-desktop-provider-fueled-worldwide-cybercriminal-operations/"
     },
     {
-      "text": "Windows 11 Insider Preview Released - New features and fixes introduced in Build 26220.7653 for Beta Channel Insiders.",
+      "text": "Windows 11 Insider Preview - New features and fixes enhance user experience in the latest Insider builds.",
       "url": "https://blogs.windows.com/windows-insider/2026/01/16/announcing-windows-11-insider-preview-build-26220-7653-beta-channel/"
     },
     {
-      "text": "AI Governance Leader Recognition - **Microsoft** named a Leader in IDC MarketScape for Unified AI Governance Platforms.",
+      "text": "AI Strategy with Marketplace - **Microsoft Marketplace** offers extensive AI solutions for organizations to adopt AI effectively.",
+      "url": "https://azure.microsoft.com/en-us/blog/design-your-ai-and-agent-strategy-with-microsoft-marketplace/"
+    },
+    {
+      "text": "Unified AI Governance Leader - **Microsoft** recognized as a leader in IDC MarketScape for AI governance platforms.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/01/14/microsoft-named-a-leader-in-idc-marketscape-for-unified-ai-governance-platforms/"
     },
     {
-      "text": "Innovations at CES 2026 - **Microsoft** showcases new Windows 11 PC innovations and AI advancements at CES.",
+      "text": "CES 2026 Innovations - **Microsoft** showcases new Windows 11 PCs and AI-powered experiences at CES 2026.",
       "url": "https://blogs.windows.com/windowsexperience/2026/01/13/ces-2026-showcasing-new-windows-11-pc-innovations-across-the-ecosystem/"
     },
     {
-      "text": "Claude Enhances Healthcare AI - **Microsoft Foundry** integrates advanced AI capabilities for healthcare and life sciences.",
-      "url": "https://www.microsoft.com/en-us/industry/blog/healthcare/2026/01/11/bridging-the-gap-between-ai-and-medicine-claude-in-microsoft-foundry-advances-capabilities-for-healthcare-and-life-sciences-customers/"
+      "text": "Privacy and Security Synergy - **Microsoft** emphasizes the integration of privacy and security in its services.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/01/13/how-microsoft-builds-privacy-and-security-to-work-hand-in-hand/"
     }
   ]
 }
