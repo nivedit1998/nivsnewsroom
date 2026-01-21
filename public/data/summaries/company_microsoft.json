@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-01-20T08:56:32.034Z",
+  "generatedAt": "2026-01-21T08:54:58.231Z",
   "bullets": [
     {
-      "text": "RedVDS Cybercrime Exposed - **Microsoft** reveals how a virtual desktop provider fuels global cybercriminal operations.",
+      "text": "RedVDS Cybercrime Hub - **Microsoft** disrupts a major virtual desktop provider fueling global cybercriminal operations.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/01/14/inside-redvds-how-a-single-virtual-desktop-provider-fueled-worldwide-cybercriminal-operations/"
     },
     {
-      "text": "Windows 11 Insider Preview - New features and fixes are rolling out in the latest **Windows 11** builds.",
+      "text": "AI Security Priorities - **Microsoft** outlines four key strategies for enhancing identity and network access security in 2026.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/01/20/four-priorities-for-ai-powered-identity-and-network-access-security-in-2026/"
+    },
+    {
+      "text": "Windows 11 Insider Update - New features and fixes rolled out in **Windows 11** Insider Preview Build 26220.7653.",
       "url": "https://blogs.windows.com/windows-insider/2026/01/16/announcing-windows-11-insider-preview-build-26220-7653-beta-channel/"
     },
     {
-      "text": "AI Governance Leadership - **Microsoft** named a Leader in IDC MarketScape for Unified AI Governance Platforms.",
+      "text": "AI Strategy via Marketplace - **Microsoft Marketplace** offers extensive AI solutions to accelerate organizational transformation.",
+      "url": "https://azure.microsoft.com/en-us/blog/design-your-ai-and-agent-strategy-with-microsoft-marketplace/"
+    },
+    {
+      "text": "Leader in AI Governance - **Microsoft** recognized as a leader in unified AI governance platforms by IDC MarketScape.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/01/14/microsoft-named-a-leader-in-idc-marketscape-for-unified-ai-governance-platforms/"
-    },
-    {
-      "text": "CES 2026 Innovations - **Microsoft** showcases new Windows 11 PC innovations and AI advancements at CES.",
-      "url": "https://blogs.windows.com/windowsexperience/2026/01/13/ces-2026-showcasing-new-windows-11-pc-innovations-across-the-ecosystem/"
-    },
-    {
-      "text": "Privacy and Security Synergy - **Microsoft** emphasizes the integration of privacy and security in its technology solutions.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/01/13/how-microsoft-builds-privacy-and-security-to-work-hand-in-hand/"
     }
   ]
 }
