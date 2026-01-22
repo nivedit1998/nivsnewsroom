@@ -1,25 +1,32 @@
 {
-  "generatedAt": "2026-01-21T08:54:58.231Z",
+  "generatedAt": "2026-01-22T08:56:47.688Z",
   "bullets": [
     {
-      "text": "RedVDS Cybercrime Hub - **Microsoft** disrupts a major virtual desktop provider fueling global cybercriminal operations.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/01/14/inside-redvds-how-a-single-virtual-desktop-provider-fueled-worldwide-cybercriminal-operations/"
+      "text": "Windows 11 Insider Preview Updates - New features and fixes are rolling out for Windows Insiders in both Dev and Beta Channels.",
+      "url": "https://blogs.windows.com/windows-insider/2026/01/21/announcing-windows-11-insider-preview-build-26220-7653-dev-channel/"
     },
     {
-      "text": "AI Security Priorities - **Microsoft** outlines four key strategies for enhancing identity and network access security in 2026.",
+      "text": "Phishing Campaign Uncovered - A multi-stage AiTM phishing attack targets organizations, exploiting **SharePoint** for user compromise.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/01/21/multistage-aitm-phishing-bec-campaign-abusing-sharepoint/"
+    },
+    {
+      "text": "Notepad and Paint Updates - Enhancements for Notepad and Paint are now available to Windows Insiders, improving user experience.",
+      "url": "https://blogs.windows.com/windows-insider/2026/01/21/notepad-and-paint-updates-begin-rolling-out-to-windows-insiders/"
+    },
+    {
+      "text": "Xbox App on Arm PCs - The **Xbox** app is now available on Arm-based Windows 11 PCs, expanding gaming accessibility.",
+      "url": "https://blogs.windows.com/windowsexperience/2026/01/21/play-more-xbox-app-is-now-available-on-arm-based-windows-11-pcs/"
+    },
+    {
+      "text": "AI Agents Security Challenges - The rise of AI agents introduces complex security risks that require comprehensive management."
+    },
+    {
+      "text": "AI-Powered Identity Security - Four priorities for enhancing identity and network access security in 2026 focus on AI integration.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/01/20/four-priorities-for-ai-powered-identity-and-network-access-security-in-2026/"
     },
     {
-      "text": "Windows 11 Insider Update - New features and fixes rolled out in **Windows 11** Insider Preview Build 26220.7653.",
-      "url": "https://blogs.windows.com/windows-insider/2026/01/16/announcing-windows-11-insider-preview-build-26220-7653-beta-channel/"
-    },
-    {
-      "text": "AI Strategy via Marketplace - **Microsoft Marketplace** offers extensive AI solutions to accelerate organizational transformation.",
+      "text": "AI Strategy with Marketplace - **Microsoft Marketplace** offers a vast catalog of AI solutions to accelerate adoption and integration.",
       "url": "https://azure.microsoft.com/en-us/blog/design-your-ai-and-agent-strategy-with-microsoft-marketplace/"
-    },
-    {
-      "text": "Leader in AI Governance - **Microsoft** recognized as a leader in unified AI governance platforms by IDC MarketScape.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/01/14/microsoft-named-a-leader-in-idc-marketscape-for-unified-ai-governance-platforms/"
     }
   ]
 }
