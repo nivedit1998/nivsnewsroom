@@ -1,45 +1,44 @@
 {
-  "generatedAt": "2026-01-23T08:53:02.063Z",
+  "generatedAt": "2026-01-24T08:47:19.215Z",
   "bullets": [
     {
-      "text": "App Store Ads Expansion - **Apple** will introduce multiple ad placements in search results starting March 3 in the UK.",
+      "text": "Apple Pay Under Fire - A £1.5 billion lawsuit claims **Apple**'s control over Apple Pay harms UK consumers.",
+      "url": "https://9to5mac.com/2026/01/23/lawsuit-seeks-2-billion-over-claims-apple-pay-harmed-uk-consumers/"
+    },
+    {
+      "text": "App Store Ads Expansion - Starting March, **Apple** will show multiple ads in App Store search results.",
       "url": "https://9to5mac.com/2026/01/22/app-store-search-ads-more-ads-march/"
     },
     {
-      "text": "Ring Video Verification - **Ring** launches a feature to verify the authenticity of shared security videos.",
-      "url": "https://techcrunch.com/2026/01/22/ring-is-adding-a-new-content-verification-feature-to-videos/"
+      "text": "Google Photos Memes - **Google** Photos introduces a new feature to create memes using personal images.",
+      "url": "https://techcrunch.com/2026/01/23/google-photos-latest-feature-lets-you-meme-yourself/"
     },
     {
-      "text": "Hide My Email Feature - **Apple's** Hide My Email helps users avoid spam by generating random email aliases.",
-      "url": "https://www.cnet.com/tech/services-and-software/this-easy-ios-feature-is-how-i-protect-my-real-email-from-spam/"
+      "text": "AI Headlines in Google Discover - **Google** Discover retains AI-generated headlines due to user engagement.",
+      "url": "https://9to5google.com/2026/01/23/google-discover-ai-headlines-feature/"
     },
     {
-      "text": "Satechi Hub Review - The 7-in-1 USB-C hub from **Satechi** offers extensive connectivity for Apple devices.",
+      "text": "Satechi's USB-C Hub Review - The 7-in-1 hub enhances connectivity for **Apple** devices with MagSafe.",
       "url": "https://9to5mac.com/2026/01/22/satechi-7-in-1-usb-c-hub-magsafe-review-for-iphone-ipad-mac/"
     },
     {
-      "text": "AI Calendar Negotiation - Former **Sequoia** partner launches **Blockit**, an AI tool for seamless calendar scheduling.",
-      "url": "https://techcrunch.com/2026/01/22/former-sequoia-partners-new-startup-uses-ai-to-negotiate-your-calendar-for-you/"
+      "text": "Apple's AI Skepticism - **Apple**'s Craig Federighi rejected an AI feature for iPhone home screens.",
+      "url": "https://9to5mac.com/2026/01/22/apple-ai-home-screen-iphone/"
     },
     {
-      "text": "Google's SAT Prep - **Google** offers free SAT practice exams powered by its **Gemini** AI.",
-      "url": "https://techcrunch.com/2026/01/22/google-now-offers-free-sat-practice-exams-powered-by-gemini/"
+      "text": "Anker Power Bank Review - The **Anker** MagGo power bank impresses with its compact design and LED display."
     },
     {
-      "text": "Microsoft 365 Outage - A significant outage affected **Microsoft 365**, disrupting access to emails and files.",
-      "url": "https://techcrunch.com/2026/01/22/microsoft-365-hit-by-outage-preventing-access-to-emails-and-files/"
+      "text": "Waymo Under Investigation - The **NTSB** probes **Waymo** for illegal school bus behavior by its robotaxis.",
+      "url": "https://techcrunch.com/2026/01/23/waymo-probed-by-national-transportation-safety-board-over-illegal-school-bus-behavior/"
     },
     {
-      "text": "Tesla Robotaxi Milestone - **Tesla** begins unsupervised robotaxi rides in Austin, marking a significant AI achievement.",
-      "url": "https://techcrunch.com/2026/01/22/tesla-launches-robotaxi-rides-in-austin-with-no-human-safety-driver/"
+      "text": "TikTok's Ownership Changes - The **TikTok USDS** Joint Venture LLC is formed, altering the app's management.",
+      "url": "https://techcrunch.com/2026/01/23/heres-whats-you-should-know-about-the-us-tiktok-deal/"
     },
     {
-      "text": "Vimeo Layoffs Post-Acquisition - **Vimeo** lays off a large portion of staff following its acquisition by **Bending Spoons**.",
-      "url": "https://techcrunch.com/2026/01/22/vimeo-starts-layoffs-after-acquisition-by-bending-spoons/"
-    },
-    {
-      "text": "OpenAI's Enterprise Push - **OpenAI** reorganizes to enhance its enterprise AI offerings amid competitive pressures.",
-      "url": "https://techcrunch.com/2026/01/22/openai-is-coming-for-those-sweet-enterprise-dollars-in-2026/"
+      "text": "Microsoft Assists FBI - **Microsoft** provided BitLocker keys to the FBI to unlock suspects' laptops.",
+      "url": "https://techcrunch.com/2026/01/23/microsoft-gave-fbi-a-set-of-bitlocker-encryption-keys-to-unlock-suspects-laptops-reports/"
     }
   ]
 }
