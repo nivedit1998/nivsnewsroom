@@ -1,45 +1,45 @@
 {
-  "generatedAt": "2026-01-24T08:48:16.482Z",
+  "generatedAt": "2026-01-25T08:49:46.671Z",
   "bullets": [
     {
-      "text": "Work Context in GitHub Copilot - **GitHub Copilot SDK** enhances developer productivity by embedding work context directly into coding environments.",
+      "text": "GitHub Copilot SDK Launched - **Microsoft** enhances developer productivity by embedding work context into coding tools.",
       "url": "https://devblogs.microsoft.com/blog/bringing-work-context-to-your-code-in-github-copilot"
     },
     {
-      "text": "Securing AI Agents - **Microsoft Defender** introduces real-time protection for AI agents to mitigate risks during runtime.",
+      "text": "Securing AI Agents - **Microsoft Defender** introduces real-time protection for AI agents to mitigate security risks.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/01/23/runtime-risk-realtime-defense-securing-ai-agents/"
     },
     {
-      "text": "Windows 365 for Agents - **Windows 365** now supports autonomous AI agents, enhancing workflow automation and security.",
+      "text": "Windows 365 for Agents - **Microsoft** expands Cloud PC capabilities to run autonomous AI agents securely.",
       "url": "https://blogs.windows.com/windowsexperience/2026/01/22/windows-365-for-agents-the-cloud-pcs-next-chapter/"
     },
     {
-      "text": "Introducing winapp CLI - The **Windows App Development CLI** simplifies app development across various frameworks and toolchains.",
+      "text": "AI in Azure Storage - **Microsoft** focuses on optimizing Azure Storage for AI workloads and enhancing performance.",
+      "url": "https://azure.microsoft.com/en-us/blog/beyond-boundaries-the-future-of-azure-storage-in-2026/"
+    },
+    {
+      "text": "Windows App Development CLI - **Microsoft** unveils winapp to streamline Windows application development processes.",
       "url": "https://blogs.windows.com/windowsdeveloper/2026/01/22/announcing-winapp-the-windows-app-development-cli/"
     },
     {
-      "text": "Integrated Security Success - **Microsoft Security** showcases how integrated security is essential for AI transformation in organizations.",
+      "text": "Integrated Security Success - **Microsoft** highlights how integrated security frameworks drive AI transformation in enterprises.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/01/22/microsoft-security-success-stories-why-integrated-security-is-the-foundation-of-ai-transformation/"
     },
     {
-      "text": "Windows 11 Insider Preview - New features and improvements are rolling out in **Windows 11 Insider Preview Build 26220.7653**.",
+      "text": "Windows 11 Insider Preview - **Microsoft** releases new features and fixes in the latest Windows 11 Insider build.",
       "url": "https://blogs.windows.com/windows-insider/2026/01/21/announcing-windows-11-insider-preview-build-26220-7653-dev-channel/"
     },
     {
-      "text": "AiTM Phishing Campaign - A multi-stage **phishing** campaign exploiting **SharePoint** highlights the need for advanced security measures.",
+      "text": "Phishing Campaign Discovered - **Microsoft Defender** uncovers a multi-stage phishing campaign exploiting SharePoint.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/01/21/multistage-aitm-phishing-bec-campaign-abusing-sharepoint/"
     },
     {
-      "text": "Notepad and Paint Updates - **Notepad** and **Paint** receive updates enhancing functionality for Windows Insiders.",
+      "text": "Notepad and Paint Updates - **Microsoft** rolls out enhancements for Notepad and Paint apps for Windows Insiders.",
       "url": "https://blogs.windows.com/windows-insider/2026/01/21/notepad-and-paint-updates-begin-rolling-out-to-windows-insiders/"
     },
     {
-      "text": "Xbox App on Arm PCs - The **Xbox app** is now available on Arm-based **Windows 11 PCs**, expanding gaming accessibility.",
+      "text": "Xbox App for Arm PCs - **Microsoft** expands Xbox app availability to Arm-based Windows 11 PCs for gamers.",
       "url": "https://blogs.windows.com/windowsexperience/2026/01/21/play-more-xbox-app-is-now-available-on-arm-based-windows-11-pcs/"
-    },
-    {
-      "text": "AI Agents Security Posture - **Microsoft Defender** emphasizes the importance of securing AI agents to mitigate emerging risks.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/01/21/new-era-of-agents-new-era-of-posture/"
     }
   ]
 }
