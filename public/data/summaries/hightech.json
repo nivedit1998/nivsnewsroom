@@ -1,45 +1,32 @@
 {
-  "generatedAt": "2026-01-29T09:05:11.882Z",
+  "generatedAt": "2026-01-30T09:04:08.355Z",
   "bullets": [
     {
-      "text": "Apple Watch Detects Stroke Risk - Wearables like **Apple Watch** can flag atrial fibrillation, improving stroke risk detection.",
-      "url": "https://www.cnet.com/tech/stroke-risk-could-be-flagged-early-using-apple-watch-technology-studies-show/"
+      "text": "Google's AI Scraping Controversy - **Google** may allow publishers to opt out of content scraping for AI Overviews amid UK regulatory scrutiny.",
+      "url": "https://www.cnet.com/tech/services-and-software/google-considers-letting-websites-opt-out-of-having-content-scraped-for-ai-overviews/"
     },
     {
-      "text": "Apple TV Crime Thriller Returns - **Apple TV** announces season 2 of acclaimed show *Criminal Record*, premiering April 22.",
+      "text": "Apple's Location Privacy Boost - New **Apple** feature limits precise location data shared with carriers to enhance user privacy.",
+      "url": "https://techcrunch.com/2026/01/29/apples-new-iphone-and-ipad-security-feature-limits-cell-networks-from-collecting-precise-location-data/"
+    },
+    {
+      "text": "Apple TV's Crime Thriller Returns - **Apple TV** announces season 2 of 'Criminal Record', premiering April 22, 2026.",
       "url": "https://9to5mac.com/2026/01/28/apple-tv-has-acclaimed-london-crime-thriller-coming-back-soon/"
     },
     {
-      "text": "Apple's New Messages Feature - iOS 26 introduces 'Screen Unknown Senders' to filter spam texts effectively.",
-      "url": "https://9to5mac.com/2026/01/28/ios-26s-new-messages-feature-got-better-when-i-changed-this-one-setting/"
+      "text": "Nothing Expands Retail Presence - **Nothing** plans to open flagship stores in New York City and India, enhancing its retail strategy.",
+      "url": "https://9to5google.com/2026/01/27/nothing-says-it-wants-to-open-a-physical-retail-store-in-new-york-city/"
     },
     {
-      "text": "AirTag 2 Enhancements - The **AirTag 2** boasts improved range and sound, enhancing item tracking capabilities.",
-      "url": "https://9to5mac.com/2026/01/28/airtag-2-hands-on-review-apples-clever-item-tracker-finds-even-more-utility-with-longer-range-and-louder-sound/"
+      "text": "Apple's Record iPhone Quarter - **Apple** reports its best-ever iPhone quarter, with sales reaching $85 billion, driven by strong demand.",
+      "url": "https://techcrunch.com/2026/01/29/the-iphone-just-had-its-best-quarter-ever/"
     },
     {
-      "text": "Microsoft Hits 1 Billion Users - **Windows 11** reaches 1 billion users faster than its predecessor, Windows 10.",
-      "url": "https://www.theverge.com/news/869889/microsoft-windows-11-1-billion-users"
+      "text": "Waymo's Robotaxi Service Launch - **Waymo** begins operating robotaxis to and from San Francisco International Airport, expanding its service.",
+      "url": "https://techcrunch.com/2026/01/29/waymo-sfo-airport-robotaxis/"
     },
     {
-      "text": "Tesla Discontinues Model S and X - **Tesla** ends production of its flagship models to focus on AI and robotics.",
-      "url": "https://www.theverge.com/transportation/869872/tesla-model-s-model-x-discontinue-optimus-robot-factory"
-    },
-    {
-      "text": "Google's AI-Powered Chrome Feature - **Gemini AI** introduces 'auto browse' in Chrome, automating multi-step tasks.",
-      "url": "https://www.theverge.com/news/869731/google-gemini-ai-chrome-auto-browse"
-    },
-    {
-      "text": "Meta's AI Ambitions Grow - **Mark Zuckerberg** emphasizes AI's role in future social media during earnings call.",
-      "url": "https://www.theverge.com/news/869882/mark-zuckerberg-meta-earnings-q4-2025"
-    },
-    {
-      "text": "ServiceNow Partners with Anthropic - **ServiceNow** integrates **Anthropic**'s AI models into its enterprise workflow products.",
-      "url": "https://techcrunch.com/2026/01/28/servicenow-inks-another-ai-partnership-this-time-with-anthropic/"
-    },
-    {
-      "text": "AI Security Startup Funding - **Outtake** raises $40M to combat digital identity fraud with AI technology.",
-      "url": "https://techcrunch.com/2026/01/28/ai-security-startup-outtake-raises-40m-from-iconiq-satya-nadella-bill-ackman-and-other-big-names/"
+      "text": "Apple Acquires AI Startup Q.ai - **Apple** purchases Q.ai for $2 billion, enhancing its capabilities in audio and machine learning."
     }
   ]
 }
