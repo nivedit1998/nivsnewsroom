@@ -1,41 +1,33 @@
 {
-  "generatedAt": "2026-01-30T09:05:32.859Z",
+  "generatedAt": "2026-01-31T08:53:56.204Z",
   "bullets": [
     {
-      "text": "AI-Driven Threat Insights - **Microsoft** unveils an AI-assisted workflow to enhance threat detection efficiency and accuracy.",
+      "text": "Securing AI Supply Chains - **Microsoft** emphasizes the need for robust security in AI application supply chains to mitigate risks.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/01/30/case-study-securing-ai-application-supply-chains/"
+    },
+    {
+      "text": "AI-Driven Threat Detection - **Microsoft** introduces an AI-assisted workflow to streamline threat report analysis and enhance security.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/01/29/turning-threat-reports-detection-insights-ai/"
     },
     {
-      "text": "Secure AI Adoption Insights - The 2026 **Microsoft Data Security Index** highlights critical priorities for safeguarding data amid AI growth.",
+      "text": "Data Security Index Insights - **Microsoft's** report reveals critical priorities for secure AI adoption and data protection.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/01/29/new-microsoft-data-security-index-report-explores-secure-ai-adoption-to-protect-sensitive-data/"
     },
     {
-      "text": "Windows 11 Insider Updates - New builds released for **Windows 11** Insiders, featuring various improvements and fixes.",
+      "text": "Windows 11 Insider Updates - New builds released for **Windows 11** Insiders, enhancing user experience and fixing bugs.",
       "url": "https://blogs.windows.com/windows-insider/2026/01/28/announcing-windows-11-insider-preview-build-28020-1495-canary-channel/"
     },
     {
-      "text": "Frontier Transformation Unveiled - **Microsoft** introduces a new approach to align AI with human ambition for business growth.",
-      "url": "https://blogs.microsoft.com/blog/2026/01/27/how-microsoft-is-empowering-frontier-transformation-with-intelligence-trust/"
-    },
-    {
-      "text": "Celebrating Security Excellence - **Microsoft** announces winners of the 2026 Security Excellence Awards, highlighting collaborative cybersecurity efforts.",
+      "text": "Celebrating Security Excellence - **Microsoft** honors innovators in cybersecurity at the 2026 Security Excellence Awards.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/01/27/microsoft-announces-the-2026-security-excellence-awards-winners/"
     },
     {
-      "text": "AI Inference Breakthrough - **Microsoft** launches the Maia 200, an advanced AI accelerator designed for efficient inference.",
+      "text": "Introducing Maia 200 - **Microsoft** unveils Maia 200, a powerful AI inference accelerator designed for efficiency.",
       "url": "https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/"
     },
     {
-      "text": "Government Data Security Strategies - **Microsoft** emphasizes proactive measures to safeguard governmental data against evolving cyber threats.",
+      "text": "Government Data Security Strategies - **Microsoft** outlines proactive measures for safeguarding governmental data against cyber threats.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/01/26/security-strategies-for-safeguarding-governmental-data/"
-    },
-    {
-      "text": "Enhancing GitHub Copilot - New SDK enables **GitHub Copilot** to integrate work context, improving developer productivity.",
-      "url": "https://devblogs.microsoft.com/blog/bringing-work-context-to-your-code-in-github-copilot"
-    },
-    {
-      "text": "Securing AI Agents - **Microsoft** discusses the importance of runtime protection for AI agents to mitigate security risks.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/01/23/runtime-risk-realtime-defense-securing-ai-agents/"
     }
   ]
 }

@@ -1,32 +1,37 @@
 {
-  "generatedAt": "2026-01-30T09:04:08.355Z",
+  "generatedAt": "2026-01-31T08:52:50.469Z",
   "bullets": [
     {
-      "text": "Google's AI Scraping Controversy - **Google** may allow publishers to opt out of content scraping for AI Overviews amid UK regulatory scrutiny.",
-      "url": "https://www.cnet.com/tech/services-and-software/google-considers-letting-websites-opt-out-of-having-content-scraped-for-ai-overviews/"
+      "text": "Apple Ends iPhone Upgrade Program - **Apple** discontinues the iPhone Upgrade Program in the UK, introducing a new Flexible Finance Account.",
+      "url": "https://9to5mac.com/2026/01/30/apple-discontinues-iphone-upgrade-program-in-the-uk/"
     },
     {
-      "text": "Apple's Location Privacy Boost - New **Apple** feature limits precise location data shared with carriers to enhance user privacy.",
-      "url": "https://techcrunch.com/2026/01/29/apples-new-iphone-and-ipad-security-feature-limits-cell-networks-from-collecting-precise-location-data/"
+      "text": "iOS 26.2 Enhances Reminders - New 'Urgent' alarms in **iOS 26.2** improve task management with timely alerts.",
+      "url": "https://9to5mac.com/2026/01/30/ios-26-2s-new-reminders-feature-is-exactly-what-ive-wanted-for-years/"
     },
     {
-      "text": "Apple TV's Crime Thriller Returns - **Apple TV** announces season 2 of 'Criminal Record', premiering April 22, 2026.",
+      "text": "Apple Wallet's New Credit Card Feature - **iOS 26** introduces systemwide AutoFill for credit card details, enhancing user convenience.",
+      "url": "https://9to5mac.com/2026/01/30/apple-wallet-adds-time-saving-ios-26-credit-card-feature-heres-how-to-use-it/"
+    },
+    {
+      "text": "Criminal Record Season 2 Coming - **Apple TV** announces the return of the acclaimed crime thriller, premiering April 22.",
       "url": "https://9to5mac.com/2026/01/28/apple-tv-has-acclaimed-london-crime-thriller-coming-back-soon/"
     },
     {
-      "text": "Nothing Expands Retail Presence - **Nothing** plans to open flagship stores in New York City and India, enhancing its retail strategy.",
-      "url": "https://9to5google.com/2026/01/27/nothing-says-it-wants-to-open-a-physical-retail-store-in-new-york-city/"
+      "text": "Grok CSAM Issue Escalates - **Apple** and **Google** face pressure as 37 US states respond to the Grok chatbot's CSAM problem.",
+      "url": "https://9to5mac.com/2026/01/28/as-37-us-states-respond-to-grok-csam-problem-apple-really-needs-to-act/"
     },
     {
-      "text": "Apple's Record iPhone Quarter - **Apple** reports its best-ever iPhone quarter, with sales reaching $85 billion, driven by strong demand.",
-      "url": "https://techcrunch.com/2026/01/29/the-iphone-just-had-its-best-quarter-ever/"
+      "text": "AirTag 2 Introduces Precision Finding - **AirTag 2** expands its Precision Finding feature to the **Apple Watch**, enhancing item tracking.",
+      "url": "https://9to5mac.com/2026/01/29/airtags-best-feature-is-now-on-apple-watch-heres-how-to-set-it-up/"
     },
     {
-      "text": "Waymo's Robotaxi Service Launch - **Waymo** begins operating robotaxis to and from San Francisco International Airport, expanding its service.",
-      "url": "https://techcrunch.com/2026/01/29/waymo-sfo-airport-robotaxis/"
+      "text": "Apple's New Messages Feature - **iOS 26** improves spam filtering in Messages with the 'Screen Unknown Senders' option.",
+      "url": "https://9to5mac.com/2026/01/28/ios-26s-new-messages-feature-got-better-when-i-changed-this-one-setting/"
     },
     {
-      "text": "Apple Acquires AI Startup Q.ai - **Apple** purchases Q.ai for $2 billion, enhancing its capabilities in audio and machine learning."
+      "text": "iOS 26.3 Location Privacy Feature - New feature limits cellular networks' access to user location data, but requires Apple's modem.",
+      "url": "https://9to5mac.com/2026/01/28/this-ios-26-3-feature-is-a-sign-of-whats-to-come-for-iphone/"
     }
   ]
 }

@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-01-30T09:04:53.308Z",
+  "generatedAt": "2026-01-31T08:53:35.607Z",
   "bullets": [
     {
-      "text": "Gigabit IQ Crowdfunds £270,000 - **Gigabit IQ** seeks funds to expand its online safety-focused ISP services in the UK.",
+      "text": "500 UK Sites for 5G SA - **Virgin Media O2** expands its 5G Standalone network to over 500 locations, enhancing connectivity.",
+      "url": "https://www.rcrwireless.com/20260130/5g/virgin-media-o2-2"
+    },
+    {
+      "text": "Gigabit IQ Crowdfunding Push - **Gigabit IQ** seeks £270,000 to accelerate its expansion in the UK ISP market.",
       "url": "https://totaltele.com/altnet-gigabit-iq-seeking-to-crowdfund-270000/"
     },
     {
-      "text": "Vodafone Partners with Skylo - **Vodafone** collaborates with **Skylo Technologies** to enhance IoT connectivity via satellite.",
+      "text": "Nokia's AI Infrastructure Strategy - **Nokia** reports growth driven by fiber-optic demand, despite profit pressures from restructuring.",
+      "url": "https://www.rcrwireless.com/20260130/network-infrastructure/nokia-holds-stead-ai-infrastructure"
+    },
+    {
+      "text": "Vodafone's IoT Satellite Deal - **Vodafone** partners with **Skylo** to enhance IoT connectivity through satellite technology.",
       "url": "https://totaltele.com/vodafone-taps-skylos-satellite-tech-for-iot-connectivity/"
     },
     {
-      "text": "TalkTalk Explores Sale Options - **TalkTalk** is negotiating to sell its consumer ISP unit and wholesale platform business.",
+      "text": "TalkTalk's Consumer Unit Sale - **TalkTalk** seeks buyers for its consumer ISP and wholesale platform amid market speculation.",
       "url": "https://totaltele.com/talktalk-hunting-for-buyers-for-pxc-and-consumer-units/"
     },
     {
-      "text": "NEC Innovates 5G Power Efficiency - **NEC** introduces a compact amplifier module to reduce power consumption in 5G networks.",
+      "text": "NEC's Energy-Efficient 5G Module - **NEC** develops a compact amplifier to reduce power consumption in 5G base stations.",
       "url": "https://www.telecomstechnews.com/news/nec-cuts-5g-radio-power-draw-compact-amplifier-module/"
     },
     {
-      "text": "AI Infrastructure Investment Rises - Telecom operators are increasing investments in AI infrastructure to meet growing demands.",
-      "url": "https://www.telecomstechnews.com/news/telecom-operators-are-putting-more-money-into-ai-infrastructure/"
+      "text": "AI-Native Air Interfaces Explained - AI-native air interfaces could revolutionize 6G by optimizing signal design at the physical layer.",
+      "url": "https://www.rcrwireless.com/20260129/ai/ai-native-air-interfaces"
     },
     {
-      "text": "Open Cosmos Launches LEO Satellites - **Open Cosmos** successfully launches its first satellites for a new low-Earth orbit telecom constellation.",
-      "url": "https://totaltele.com/open-cosmos-launches-first-satellites-for-new-leo-constellation/"
-    },
-    {
-      "text": "Meta and Corning's $6bn Deal - **Meta** partners with **Corning** to supply fibre optic cables for AI data centres.",
-      "url": "https://totaltele.com/meta-and-corning-sign-6bn-fibre-deal-to-connect-data-centres/"
-    },
-    {
-      "text": "Intracom Telecom Expands with Nova - **Intracom Telecom** collaborates with **Nova** to enhance enterprise connectivity using 5G mmWave.",
-      "url": "https://totaltele.com/intracom-telecom-expands-strategic-collaboration-with-nova-to-enhance-enterprise-connectivity/"
+      "text": "Amazon Leo Satellites' Brightness Concerns - New **Amazon** satellites exceed brightness standards, raising alarms for astronomical research.",
+      "url": "https://www.rcrwireless.com/20260129/network-infrastructure/amazon-leo-constellation-exceeds-recommended-brightness-standards-study-finds"
     }
   ]
 }
