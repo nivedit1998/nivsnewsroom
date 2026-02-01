@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-01-31T08:52:50.469Z",
+  "generatedAt": "2026-02-01T08:55:06.243Z",
   "bullets": [
     {
-      "text": "Apple Ends iPhone Upgrade Program - **Apple** discontinues the iPhone Upgrade Program in the UK, introducing a new Flexible Finance Account.",
+      "text": "Motorola's Budget Phones Lack Updates - **Motorola** ships the **Moto G17** with outdated **Android 15**, no OS upgrades promised.",
+      "url": "https://9to5google.com/2026/01/31/motorola-android-os-updates-moto-g17/"
+    },
+    {
+      "text": "Apple Ends iPhone Upgrade Program - **Apple** discontinues its **iPhone Upgrade Program** in the **UK**, introducing a new finance option.",
       "url": "https://9to5mac.com/2026/01/30/apple-discontinues-iphone-upgrade-program-in-the-uk/"
     },
     {
-      "text": "iOS 26.2 Enhances Reminders - New 'Urgent' alarms in **iOS 26.2** improve task management with timely alerts.",
-      "url": "https://9to5mac.com/2026/01/30/ios-26-2s-new-reminders-feature-is-exactly-what-ive-wanted-for-years/"
+      "text": "AirTag 2 Enhancements Unveiled - The new **AirTag 2** features improved Precision Finding and a louder speaker for better tracking.",
+      "url": "https://9to5mac.com/2026/01/28/airtag-2-hands-on-review-apples-clever-item-tracker-finds-even-more-utility-with-longer-range-and-louder-sound/"
     },
     {
-      "text": "Apple Wallet's New Credit Card Feature - **iOS 26** introduces systemwide AutoFill for credit card details, enhancing user convenience.",
-      "url": "https://9to5mac.com/2026/01/30/apple-wallet-adds-time-saving-ios-26-credit-card-feature-heres-how-to-use-it/"
-    },
-    {
-      "text": "Criminal Record Season 2 Coming - **Apple TV** announces the return of the acclaimed crime thriller, premiering April 22.",
+      "text": "Apple TV's Crime Thriller Returns - **Criminal Record** season 2 premieres on **Apple TV** this spring, featuring London detectives.",
       "url": "https://9to5mac.com/2026/01/28/apple-tv-has-acclaimed-london-crime-thriller-coming-back-soon/"
     },
     {
-      "text": "Grok CSAM Issue Escalates - **Apple** and **Google** face pressure as 37 US states respond to the Grok chatbot's CSAM problem.",
-      "url": "https://9to5mac.com/2026/01/28/as-37-us-states-respond-to-grok-csam-problem-apple-really-needs-to-act/"
+      "text": "Nvidia CEO Denies OpenAI Tensions - **Nvidia** CEO confirms plans for a significant investment in **OpenAI**, dismissing reports of friction.",
+      "url": "https://techcrunch.com/2026/01/31/nvidia-ceo-pushes-back-against-report-that-his-companys-100b-openai-investment-has-stalled/"
     },
     {
-      "text": "AirTag 2 Introduces Precision Finding - **AirTag 2** expands its Precision Finding feature to the **Apple Watch**, enhancing item tracking.",
-      "url": "https://9to5mac.com/2026/01/29/airtags-best-feature-is-now-on-apple-watch-heres-how-to-set-it-up/"
+      "text": "Waymo's $16B Funding Round - **Waymo** reportedly finalizes a $16 billion funding round, valuing the robotaxi service at $110 billion.",
+      "url": "https://techcrunch.com/2026/01/31/waymo-reportedly-raising-a-16-billion-funding-round/"
     },
     {
-      "text": "Apple's New Messages Feature - **iOS 26** improves spam filtering in Messages with the 'Screen Unknown Senders' option.",
-      "url": "https://9to5mac.com/2026/01/28/ios-26s-new-messages-feature-got-better-when-i-changed-this-one-setting/"
+      "text": "SpaceX's Ambitious Satellite Plan - **SpaceX** seeks approval to launch 1 million solar-powered satellites for AI data centers.",
+      "url": "https://techcrunch.com/2026/01/31/spacex-seeks-federal-approval-to-launch-1-million-solar-powered-satellite-data-centers/"
     },
     {
-      "text": "iOS 26.3 Location Privacy Feature - New feature limits cellular networks' access to user location data, but requires Apple's modem.",
-      "url": "https://9to5mac.com/2026/01/28/this-ios-26-3-feature-is-a-sign-of-whats-to-come-for-iphone/"
+      "text": "New European Unicorns Emerge - Five startups achieve unicorn status in Europe, signaling strong VC investment interest.",
+      "url": "https://techcrunch.com/2026/01/31/meet-the-new-european-unicorns-of-2026/"
     }
   ]
 }

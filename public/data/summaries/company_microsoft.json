@@ -1,33 +1,25 @@
 {
-  "generatedAt": "2026-01-31T08:53:56.204Z",
+  "generatedAt": "2026-02-01T08:55:51.165Z",
   "bullets": [
     {
       "text": "Securing AI Supply Chains - **Microsoft** emphasizes the need for robust security in AI application supply chains to mitigate risks.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/01/30/case-study-securing-ai-application-supply-chains/"
     },
     {
-      "text": "AI-Driven Threat Detection - **Microsoft** introduces an AI-assisted workflow to streamline threat report analysis and enhance security.",
+      "text": "AI-Driven Threat Detection - **Microsoft** introduces an AI-assisted workflow to enhance detection analysis and close security gaps.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/01/29/turning-threat-reports-detection-insights-ai/"
     },
     {
-      "text": "Data Security Index Insights - **Microsoft's** report reveals critical priorities for secure AI adoption and data protection.",
+      "text": "Data Security Index Insights - The latest **Microsoft** report reveals critical priorities for secure AI adoption and data protection.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/01/29/new-microsoft-data-security-index-report-explores-secure-ai-adoption-to-protect-sensitive-data/"
     },
     {
-      "text": "Windows 11 Insider Updates - New builds released for **Windows 11** Insiders, enhancing user experience and fixing bugs.",
-      "url": "https://blogs.windows.com/windows-insider/2026/01/28/announcing-windows-11-insider-preview-build-28020-1495-canary-channel/"
-    },
-    {
-      "text": "Celebrating Security Excellence - **Microsoft** honors innovators in cybersecurity at the 2026 Security Excellence Awards.",
+      "text": "Celebrating Security Excellence - **Microsoft** honors the 2026 Security Excellence Awards winners for their contributions to cybersecurity.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/01/27/microsoft-announces-the-2026-security-excellence-awards-winners/"
     },
     {
-      "text": "Introducing Maia 200 - **Microsoft** unveils Maia 200, a powerful AI inference accelerator designed for efficiency.",
-      "url": "https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/"
-    },
-    {
-      "text": "Government Data Security Strategies - **Microsoft** outlines proactive measures for safeguarding governmental data against cyber threats.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/01/26/security-strategies-for-safeguarding-governmental-data/"
+      "text": "Empowering Frontier Transformation - **Microsoft** showcases how AI and trust can drive innovation and creativity across industries.",
+      "url": "https://blogs.microsoft.com/blog/2026/01/27/how-microsoft-is-empowering-frontier-transformation-with-intelligence-trust/"
     }
   ]
 }
