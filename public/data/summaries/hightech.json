@@ -1,37 +1,45 @@
 {
-  "generatedAt": "2026-02-01T08:55:06.243Z",
+  "generatedAt": "2026-02-02T09:08:27.606Z",
   "bullets": [
     {
-      "text": "Motorola's Budget Phones Lack Updates - **Motorola** ships the **Moto G17** with outdated **Android 15**, no OS upgrades promised.",
+      "text": "Motorola's Android Update Blunder - **Motorola** ships new budget phones with outdated **Android 15**, lacking upgrade promises.",
       "url": "https://9to5google.com/2026/01/31/motorola-android-os-updates-moto-g17/"
     },
     {
-      "text": "Apple Ends iPhone Upgrade Program - **Apple** discontinues its **iPhone Upgrade Program** in the **UK**, introducing a new finance option.",
+      "text": "Lenovo's Creator Laptop Triumph - The **Lenovo Yoga Pro 9i 16 Aura Edition** impresses with its stunning OLED display and performance.",
+      "url": "https://www.cnet.com/tech/computing/lenovo-yoga-pro-9i-16-aura-edition-review-kick-ass-laptop-for-creators/"
+    },
+    {
+      "text": "Apple's Upgrade Program Ends - **Apple** discontinues the **iPhone Upgrade Program** in the UK, introducing a new finance option.",
       "url": "https://9to5mac.com/2026/01/30/apple-discontinues-iphone-upgrade-program-in-the-uk/"
     },
     {
-      "text": "AirTag 2 Enhancements Unveiled - The new **AirTag 2** features improved Precision Finding and a louder speaker for better tracking.",
-      "url": "https://9to5mac.com/2026/01/28/airtag-2-hands-on-review-apples-clever-item-tracker-finds-even-more-utility-with-longer-range-and-louder-sound/"
+      "text": "Apple Watch Feature Request - Adding an **Action Button** to more Apple Watch models could enhance user experience.",
+      "url": "https://9to5mac.com/2026/01/31/apple-watch-feature-request-action-button-watchos-27/"
     },
     {
-      "text": "Apple TV's Crime Thriller Returns - **Criminal Record** season 2 premieres on **Apple TV** this spring, featuring London detectives.",
+      "text": "iOS Reminders Get Urgent Alerts - **iOS 26.2** introduces 'Urgent' alarms in **Reminders**, enhancing task management.",
+      "url": "https://9to5mac.com/2026/01/30/ios-26-2s-new-reminders-feature-is-exactly-what-ive-wanted-for-years/"
+    },
+    {
+      "text": "Apple Wallet's Credit Card Upgrade - **iOS 26** enhances **Apple Wallet** with improved credit card AutoFill capabilities.",
+      "url": "https://9to5mac.com/2026/01/30/apple-wallet-adds-time-saving-ios-26-credit-card-feature-heres-how-to-use-it/"
+    },
+    {
+      "text": "Apple TV's Crime Thriller Returns - **Criminal Record** season 2 premieres on **Apple TV**, continuing its gripping narrative.",
       "url": "https://9to5mac.com/2026/01/28/apple-tv-has-acclaimed-london-crime-thriller-coming-back-soon/"
     },
     {
-      "text": "Nvidia CEO Denies OpenAI Tensions - **Nvidia** CEO confirms plans for a significant investment in **OpenAI**, dismissing reports of friction.",
-      "url": "https://techcrunch.com/2026/01/31/nvidia-ceo-pushes-back-against-report-that-his-companys-100b-openai-investment-has-stalled/"
+      "text": "Grok CSAM Issue Escalates - **Apple** faces pressure as **Grok** generates alarming amounts of CSAM, prompting investigations.",
+      "url": "https://9to5mac.com/2026/01/28/as-37-us-states-respond-to-grok-csam-problem-apple-really-needs-to-act/"
     },
     {
-      "text": "Waymo's $16B Funding Round - **Waymo** reportedly finalizes a $16 billion funding round, valuing the robotaxi service at $110 billion.",
-      "url": "https://techcrunch.com/2026/01/31/waymo-reportedly-raising-a-16-billion-funding-round/"
+      "text": "Nothing Expands Retail Presence - **Nothing** plans to open new physical stores in **New York City** and **Tokyo**.",
+      "url": "https://9to5google.com/2026/01/27/nothing-says-it-wants-to-open-a-physical-retail-store-in-new-york-city/"
     },
     {
-      "text": "SpaceX's Ambitious Satellite Plan - **SpaceX** seeks approval to launch 1 million solar-powered satellites for AI data centers.",
-      "url": "https://techcrunch.com/2026/01/31/spacex-seeks-federal-approval-to-launch-1-million-solar-powered-satellite-data-centers/"
-    },
-    {
-      "text": "New European Unicorns Emerge - Five startups achieve unicorn status in Europe, signaling strong VC investment interest.",
-      "url": "https://techcrunch.com/2026/01/31/meet-the-new-european-unicorns-of-2026/"
+      "text": "India Lures AI Investment - **India** offers zero taxes through 2047 to attract global AI workloads and cloud providers.",
+      "url": "https://techcrunch.com/2026/02/01/india-offers-zero-taxes-through-2047-to-lure-global-ai-workloads/"
     }
   ]
 }
