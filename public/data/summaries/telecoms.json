@@ -1,37 +1,45 @@
 {
-  "generatedAt": "2026-02-02T09:09:12.716Z",
+  "generatedAt": "2026-02-03T09:05:31.255Z",
   "bullets": [
     {
-      "text": "Virgin Media O2 Expands 5G Coverage - Virgin Media O2's 5G SA network now covers over 500 UK sites, enhancing connectivity.",
-      "url": "https://www.rcrwireless.com/20260130/5g/virgin-media-o2-2"
+      "text": "Agentic AI Revolutionizes Networking - **Infovista** introduces an AI framework for autonomous network operations, enhancing efficiency for telcos.",
+      "url": "https://www.rcrwireless.com/20260202/test-measurement/agentic-ai-meets-intent-based-networking-a-new-era-of-network-automation"
     },
     {
-      "text": "Gigabit IQ Crowdfunding for Growth - The ISP aims to raise £270,000 to accelerate its expansion in the UK market.",
-      "url": "https://totaltele.com/altnet-gigabit-iq-seeking-to-crowdfund-270000/"
+      "text": "Remote Fiber Monitoring Gains Traction - Engineers can now detect fiber issues from afar, reducing repair times significantly.",
+      "url": "https://www.rcrwireless.com/20260202/test-measurement/how-engineers-spot-impairments-in-fiber-lines-from-afar"
     },
     {
-      "text": "Nokia's AI Infrastructure Strategy - Nokia reports growth driven by fiber-optic demand while restructuring for AI-focused services.",
-      "url": "https://www.rcrwireless.com/20260130/network-infrastructure/nokia-holds-stead-ai-infrastructure"
+      "text": "Telia Reports Flat Revenue - Despite stable revenue, **Telia** faces profit declines due to asset retirement obligations.",
+      "url": "https://www.rcrwireless.com/20260202/5g/telia-revenues-2025"
     },
     {
-      "text": "Vodafone Partners with Skylo for IoT - Vodafone taps Skylo's satellite tech to enhance IoT connectivity across 36 countries.",
+      "text": "Openreach Enhances Engineer Safety - New app launched to protect engineers from abuse while working in the field.",
+      "url": "https://totaltele.com/openreach-launches-app-to-keep-engineers-safe-from-abuse/"
+    },
+    {
+      "text": "Vodafone Partners with Skylo - New satellite tech to enhance IoT connectivity, expanding coverage for customers.",
       "url": "https://totaltele.com/vodafone-taps-skylos-satellite-tech-for-iot-connectivity/"
     },
     {
-      "text": "TalkTalk Explores Sale of Units - TalkTalk seeks buyers for its consumer ISP and wholesale platform amid market interest.",
-      "url": "https://totaltele.com/talktalk-hunting-for-buyers-for-pxc-and-consumer-units/"
-    },
-    {
-      "text": "NEC Cuts 5G Power Consumption - NEC's new compact amplifier module reduces energy draw in 5G base stations significantly.",
+      "text": "NEC Cuts 5G Power Consumption - New compact amplifier module reduces energy draw in 5G base stations.",
       "url": "https://www.telecomstechnews.com/news/nec-cuts-5g-radio-power-draw-compact-amplifier-module/"
     },
     {
-      "text": "Amazon Leo Satellites Raise Concerns - New study finds Amazon's Leo satellites exceed brightness standards, impacting astronomy.",
-      "url": "https://www.rcrwireless.com/20260129/network-infrastructure/amazon-leo-constellation-exceeds-recommended-brightness-standards-study-finds"
+      "text": "Meta and Corning Sign $6bn Deal - Partnership to supply fiber optic cables for AI data centers across the US.",
+      "url": "https://totaltele.com/meta-and-corning-sign-6bn-fibre-deal-to-connect-data-centres/"
     },
     {
-      "text": "AI-Native Air Interfaces for 6G - AI-native air interfaces could revolutionize signal design for future 6G networks.",
-      "url": "https://www.rcrwireless.com/20260129/ai/ai-native-air-interfaces"
+      "text": "Nokia's AI Infrastructure Strategy - **Nokia** sees growth in fiber demand, despite profit pressures from restructuring.",
+      "url": "https://www.rcrwireless.com/20260130/network-infrastructure/nokia-holds-stead-ai-infrastructure"
+    },
+    {
+      "text": "5G Launches Across North Africa - Libya becomes the last Mediterranean nation to launch 5G services.",
+      "url": "https://totaltele.com/north-africas-5g-wave-continues-with-libya-launch/"
+    },
+    {
+      "text": "Intracom Telecom Expands with Nova - New collaboration to enhance enterprise connectivity using 5G mmWave technology.",
+      "url": "https://totaltele.com/intracom-telecom-expands-strategic-collaboration-with-nova-to-enhance-enterprise-connectivity/"
     }
   ]
 }

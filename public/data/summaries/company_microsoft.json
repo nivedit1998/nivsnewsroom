@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-02-02T09:09:43.270Z",
+  "generatedAt": "2026-02-03T09:05:59.801Z",
   "bullets": [
     {
-      "text": "Securing AI Supply Chains - **Microsoft** emphasizes the importance of securing AI application supply chains against vulnerabilities like CVE-2025-68664.",
+      "text": "Infostealers Targeting macOS - **Microsoft Defender** identifies rising threats targeting macOS with credential-stealing malware.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/02/02/infostealers-without-borders-macos-python-stealers-and-platform-abuse/"
+    },
+    {
+      "text": "Securing AI Supply Chains - **Microsoft** emphasizes the importance of securing AI frameworks to prevent exploitation.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/01/30/case-study-securing-ai-application-supply-chains/"
     },
     {
-      "text": "AI-Driven Threat Detection - **Microsoft** introduces an AI-assisted workflow to streamline detection analysis from unstructured threat reports.",
+      "text": "AI-Driven Threat Detection - **Microsoft** introduces AI-assisted workflows to enhance threat detection and analysis.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/01/29/turning-threat-reports-detection-insights-ai/"
     },
     {
-      "text": "Data Security Index Insights - The 2026 **Microsoft** Data Security Index highlights the need for unified data security in AI adoption.",
+      "text": "Data Security Index Insights - **Microsoft** reveals critical priorities for securing AI adoption in the latest Data Security Index report.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/01/29/new-microsoft-data-security-index-report-explores-secure-ai-adoption-to-protect-sensitive-data/"
     },
     {
-      "text": "Celebrating Security Excellence - **Microsoft** honors the 2026 Security Excellence Awards winners for their contributions to cybersecurity.",
+      "text": "Windows 11 Insider Updates - New builds released for **Windows 11** Insiders include various feature enhancements and fixes.",
+      "url": "https://blogs.windows.com/windows-insider/2026/01/28/announcing-windows-11-insider-preview-build-28020-1495-canary-channel/"
+    },
+    {
+      "text": "Celebrating Security Excellence - **Microsoft** honors partners at the 2026 Security Excellence Awards for outstanding cybersecurity contributions.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/01/27/microsoft-announces-the-2026-security-excellence-awards-winners/"
-    },
-    {
-      "text": "AI Inference Breakthrough - **Microsoft** unveils Maia 200, an AI accelerator designed to enhance inference performance and efficiency.",
-      "url": "https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/"
-    },
-    {
-      "text": "Government Data Security Strategies - **Microsoft** outlines proactive measures for safeguarding governmental data against sophisticated cyber threats.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/01/26/security-strategies-for-safeguarding-governmental-data/"
     }
   ]
 }

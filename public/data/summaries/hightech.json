@@ -1,45 +1,45 @@
 {
-  "generatedAt": "2026-02-02T09:08:27.606Z",
+  "generatedAt": "2026-02-03T09:04:39.063Z",
   "bullets": [
     {
-      "text": "Motorola's Android Update Blunder - **Motorola** ships new budget phones with outdated **Android 15**, lacking upgrade promises.",
+      "text": "Waymo Raises $16B for Global Expansion - **Waymo** plans to scale its robotaxi fleet to cities like London and Tokyo.",
+      "url": "https://techcrunch.com/2026/02/02/waymo-raises-16-billion-round-to-scale-robotaxi-fleet-london-tokyo/"
+    },
+    {
+      "text": "Ikea Launches Playful Speaker - The **Grejsimojs** Bluetooth speaker is designed for kids and priced at £12.00 in the UK.",
+      "url": "https://www.theverge.com/tech/872434/ikea-wireless-bluetooth-speaker-grejsimojs-kid-friendly-purple-mouse"
+    },
+    {
+      "text": "Linq Secures $20M for Messaging AI - **Linq** aims to integrate AI assistants into messaging apps, enhancing customer communication.",
+      "url": "https://techcrunch.com/2026/02/02/linq-raises-20m-to-enable-ai-assistants-to-live-within-messaging-apps/"
+    },
+    {
+      "text": "Ring Expands Search Party Feature - **Ring** now allows non-camera owners to use its AI-powered feature to find lost dogs.",
+      "url": "https://techcrunch.com/2026/02/02/ring-brings-its-search-party-feature-for-finding-lost-dogs-to-non-ring-camera-owners/"
+    },
+    {
+      "text": "Motorola's Budget Phones Lack Updates - The **Moto G17** ships with Android 15, offering only two years of security updates.",
       "url": "https://9to5google.com/2026/01/31/motorola-android-os-updates-moto-g17/"
     },
     {
-      "text": "Lenovo's Creator Laptop Triumph - The **Lenovo Yoga Pro 9i 16 Aura Edition** impresses with its stunning OLED display and performance.",
-      "url": "https://www.cnet.com/tech/computing/lenovo-yoga-pro-9i-16-aura-edition-review-kick-ass-laptop-for-creators/"
-    },
-    {
-      "text": "Apple's Upgrade Program Ends - **Apple** discontinues the **iPhone Upgrade Program** in the UK, introducing a new finance option.",
+      "text": "Apple Ends iPhone Upgrade Program - **Apple** discontinues its iPhone Upgrade Program in the UK, introducing a new finance option.",
       "url": "https://9to5mac.com/2026/01/30/apple-discontinues-iphone-upgrade-program-in-the-uk/"
     },
     {
-      "text": "Apple Watch Feature Request - Adding an **Action Button** to more Apple Watch models could enhance user experience.",
-      "url": "https://9to5mac.com/2026/01/31/apple-watch-feature-request-action-button-watchos-27/"
+      "text": "Adobe Animate to Shut Down - **Adobe** will discontinue its animation software as it shifts focus to AI technologies.",
+      "url": "https://www.theverge.com/news/872731/adobe-animate-app-shutdown-date"
     },
     {
-      "text": "iOS Reminders Get Urgent Alerts - **iOS 26.2** introduces 'Urgent' alarms in **Reminders**, enhancing task management.",
-      "url": "https://9to5mac.com/2026/01/30/ios-26-2s-new-reminders-feature-is-exactly-what-ive-wanted-for-years/"
+      "text": "Notepad++ Hijacked by Hackers - A security breach allowed hackers to deliver malicious updates to **Notepad++** users for months.",
+      "url": "https://www.theverge.com/tech/872462/notepad-plus-plus-server-hijacking"
     },
     {
-      "text": "Apple Wallet's Credit Card Upgrade - **iOS 26** enhances **Apple Wallet** with improved credit card AutoFill capabilities.",
-      "url": "https://9to5mac.com/2026/01/30/apple-wallet-adds-time-saving-ios-26-credit-card-feature-heres-how-to-use-it/"
+      "text": "Firefox Adds AI Control Feature - **Mozilla** will let users disable AI features in Firefox, catering to diverse preferences.",
+      "url": "https://techcrunch.com/2026/02/02/firefox-will-soon-let-you-block-all-of-its-generative-ai-features/"
     },
     {
-      "text": "Apple TV's Crime Thriller Returns - **Criminal Record** season 2 premieres on **Apple TV**, continuing its gripping narrative.",
-      "url": "https://9to5mac.com/2026/01/28/apple-tv-has-acclaimed-london-crime-thriller-coming-back-soon/"
-    },
-    {
-      "text": "Grok CSAM Issue Escalates - **Apple** faces pressure as **Grok** generates alarming amounts of CSAM, prompting investigations.",
-      "url": "https://9to5mac.com/2026/01/28/as-37-us-states-respond-to-grok-csam-problem-apple-really-needs-to-act/"
-    },
-    {
-      "text": "Nothing Expands Retail Presence - **Nothing** plans to open new physical stores in **New York City** and **Tokyo**.",
-      "url": "https://9to5google.com/2026/01/27/nothing-says-it-wants-to-open-a-physical-retail-store-in-new-york-city/"
-    },
-    {
-      "text": "India Lures AI Investment - **India** offers zero taxes through 2047 to attract global AI workloads and cloud providers.",
-      "url": "https://techcrunch.com/2026/02/01/india-offers-zero-taxes-through-2047-to-lure-global-ai-workloads/"
+      "text": "Grubhub Waives Fees for Large Orders - **Grubhub** eliminates delivery fees on orders over $50 to compete with rivals.",
+      "url": "https://techcrunch.com/2026/02/02/grubhub-waives-delivery-service-fees-orders-over-50/"
     }
   ]
 }
