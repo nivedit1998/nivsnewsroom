@@ -1,45 +1,45 @@
 {
-  "generatedAt": "2026-02-03T09:05:31.255Z",
+  "generatedAt": "2026-02-04T09:06:21.472Z",
   "bullets": [
     {
-      "text": "Agentic AI Revolutionizes Networking - **Infovista** introduces an AI framework for autonomous network operations, enhancing efficiency for telcos.",
-      "url": "https://www.rcrwireless.com/20260202/test-measurement/agentic-ai-meets-intent-based-networking-a-new-era-of-network-automation"
+      "text": "Vodafone Idea Expands 4G Coverage - **Vodafone Idea** adds over 6,500 new towers, aiming for 95% 4G population coverage by 2025.",
+      "url": "https://www.rcrwireless.com/20260203/5g/vodafone-idea-broadband"
     },
     {
-      "text": "Remote Fiber Monitoring Gains Traction - Engineers can now detect fiber issues from afar, reducing repair times significantly.",
+      "text": "Google's Subsea Cable Milestone - **Google**'s Tabua cable enhances connectivity between the U.S. and Australia, entering service soon.",
+      "url": "https://www.rcrwireless.com/20260203/uncategorized/google-subsea-cable"
+    },
+    {
+      "text": "Ookla's Connectivity Insights - **T-Mobile US** leads in mobile network performance, achieving top speeds in Ookla's latest report.",
+      "url": "https://www.rcrwireless.com/20260203/5g/ookla"
+    },
+    {
+      "text": "AI Revolutionizes Network Automation - **InfoVista** introduces agentic AI for proactive network management, enhancing operational efficiency.",
+      "url": "https://www.rcrwireless.com/20260202/test-and-measurement/agentic-ai-meets-intent-based-networking-a-new-era-of-network-automation"
+    },
+    {
+      "text": "Remote Fiber Monitoring Gains Traction - Engineers use remote monitoring to quickly identify fiber line issues, reducing downtime.",
       "url": "https://www.rcrwireless.com/20260202/test-measurement/how-engineers-spot-impairments-in-fiber-lines-from-afar"
     },
     {
-      "text": "Telia Reports Flat Revenue - Despite stable revenue, **Telia** faces profit declines due to asset retirement obligations.",
-      "url": "https://www.rcrwireless.com/20260202/5g/telia-revenues-2025"
-    },
-    {
-      "text": "Openreach Enhances Engineer Safety - New app launched to protect engineers from abuse while working in the field.",
+      "text": "Openreach Enhances Engineer Safety - **Openreach** launches a safety app with GPS tracking and SOS features for field engineers.",
       "url": "https://totaltele.com/openreach-launches-app-to-keep-engineers-safe-from-abuse/"
     },
     {
-      "text": "Vodafone Partners with Skylo - New satellite tech to enhance IoT connectivity, expanding coverage for customers.",
-      "url": "https://totaltele.com/vodafone-taps-skylos-satellite-tech-for-iot-connectivity/"
+      "text": "KKR-Singtel Data Centre Deal - A consortium led by **KKR** and **Singtel** nears a $10bn acquisition of ST Telemedia Global Data Centres.",
+      "url": "https://totaltele.com/kkr-singtel-consortium-near-10bn-deal-for-stt-gdc/"
     },
     {
-      "text": "NEC Cuts 5G Power Consumption - New compact amplifier module reduces energy draw in 5G base stations.",
-      "url": "https://www.telecomstechnews.com/news/nec-cuts-5g-radio-power-draw-compact-amplifier-module/"
+      "text": "Starlink's BEAD Program Conflict - **Starlink** faces scrutiny over its broadband service conditions under the BEAD program.",
+      "url": "https://totaltele.com/is-a-bead-conflict-brewing-between-ntia-and-starlink/"
     },
     {
-      "text": "Meta and Corning Sign $6bn Deal - Partnership to supply fiber optic cables for AI data centers across the US.",
-      "url": "https://totaltele.com/meta-and-corning-sign-6bn-fibre-deal-to-connect-data-centres/"
+      "text": "Barracuda Cable Project Announced - **Sparkle** and Valencia Digital Port Connect to land the Barracuda subsea cable in Genoa.",
+      "url": "https://totaltele.com/sparkle-and-valencia-digital-port-connect-agreement-to-land-barracuda-subsea-cable-at-genoa-landing-platform/"
     },
     {
-      "text": "Nokia's AI Infrastructure Strategy - **Nokia** sees growth in fiber demand, despite profit pressures from restructuring.",
-      "url": "https://www.rcrwireless.com/20260130/network-infrastructure/nokia-holds-stead-ai-infrastructure"
-    },
-    {
-      "text": "5G Launches Across North Africa - Libya becomes the last Mediterranean nation to launch 5G services.",
+      "text": "Libya Joins 5G Revolution - **Almadar Aljadid** launches 5G services in Tripoli, enhancing connectivity across Libya.",
       "url": "https://totaltele.com/north-africas-5g-wave-continues-with-libya-launch/"
-    },
-    {
-      "text": "Intracom Telecom Expands with Nova - New collaboration to enhance enterprise connectivity using 5G mmWave technology.",
-      "url": "https://totaltele.com/intracom-telecom-expands-strategic-collaboration-with-nova-to-enhance-enterprise-connectivity/"
     }
   ]
 }

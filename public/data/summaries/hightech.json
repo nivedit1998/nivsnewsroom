@@ -1,45 +1,37 @@
 {
-  "generatedAt": "2026-02-03T09:04:39.063Z",
+  "generatedAt": "2026-02-04T09:05:48.432Z",
   "bullets": [
     {
-      "text": "Waymo Raises $16B for Global Expansion - **Waymo** plans to scale its robotaxi fleet to cities like London and Tokyo.",
-      "url": "https://techcrunch.com/2026/02/02/waymo-raises-16-billion-round-to-scale-robotaxi-fleet-london-tokyo/"
+      "text": "French Police Raid X Offices - **Elon Musk** summoned for questioning amid investigation into deepfakes and data fraud.",
+      "url": "https://www.cnet.com/tech/services-and-software/french-police-raid-x-offices-in-paris-uk-launches-investigation-into-grok/"
     },
     {
-      "text": "Ikea Launches Playful Speaker - The **Grejsimojs** Bluetooth speaker is designed for kids and priced at £12.00 in the UK.",
-      "url": "https://www.theverge.com/tech/872434/ikea-wireless-bluetooth-speaker-grejsimojs-kid-friendly-purple-mouse"
-    },
-    {
-      "text": "Linq Secures $20M for Messaging AI - **Linq** aims to integrate AI assistants into messaging apps, enhancing customer communication.",
-      "url": "https://techcrunch.com/2026/02/02/linq-raises-20m-to-enable-ai-assistants-to-live-within-messaging-apps/"
-    },
-    {
-      "text": "Ring Expands Search Party Feature - **Ring** now allows non-camera owners to use its AI-powered feature to find lost dogs.",
-      "url": "https://techcrunch.com/2026/02/02/ring-brings-its-search-party-feature-for-finding-lost-dogs-to-non-ring-camera-owners/"
-    },
-    {
-      "text": "Motorola's Budget Phones Lack Updates - The **Moto G17** ships with Android 15, offering only two years of security updates.",
-      "url": "https://9to5google.com/2026/01/31/motorola-android-os-updates-moto-g17/"
-    },
-    {
-      "text": "Apple Ends iPhone Upgrade Program - **Apple** discontinues its iPhone Upgrade Program in the UK, introducing a new finance option.",
+      "text": "Apple Discontinues Upgrade Program - **Apple** ends the iPhone Upgrade Program in the UK, introducing a new finance option.",
       "url": "https://9to5mac.com/2026/01/30/apple-discontinues-iphone-upgrade-program-in-the-uk/"
     },
     {
-      "text": "Adobe Animate to Shut Down - **Adobe** will discontinue its animation software as it shifts focus to AI technologies.",
-      "url": "https://www.theverge.com/news/872731/adobe-animate-app-shutdown-date"
+      "text": "Motorola's Android Update Issues - **Motorola** ships new budget phones with outdated Android 15, lacking upgrade promises.",
+      "url": "https://9to5google.com/2026/01/31/motorola-android-os-updates-moto-g17/"
     },
     {
-      "text": "Notepad++ Hijacked by Hackers - A security breach allowed hackers to deliver malicious updates to **Notepad++** users for months.",
-      "url": "https://www.theverge.com/tech/872462/notepad-plus-plus-server-hijacking"
+      "text": "Skyryse Secures $300M Funding - Aviation startup **Skyryse** raises funds to enhance flight automation systems.",
+      "url": "https://techcrunch.com/2026/02/03/skyryse-lands-another-300m-to-make-flying-even-helicopters-simple-and-safe/"
     },
     {
-      "text": "Firefox Adds AI Control Feature - **Mozilla** will let users disable AI features in Firefox, catering to diverse preferences.",
-      "url": "https://techcrunch.com/2026/02/02/firefox-will-soon-let-you-block-all-of-its-generative-ai-features/"
+      "text": "Intel Enters GPU Market - **Intel** announces plans to produce GPUs, challenging **Nvidia**'s dominance.",
+      "url": "https://techcrunch.com/2026/02/03/intel-will-start-making-gpus-a-market-dominated-by-nvidia/"
     },
     {
-      "text": "Grubhub Waives Fees for Large Orders - **Grubhub** eliminates delivery fees on orders over $50 to compete with rivals.",
-      "url": "https://techcrunch.com/2026/02/02/grubhub-waives-delivery-service-fees-orders-over-50/"
+      "text": "Apple Integrates AI in Xcode - **Apple** adds **OpenAI** and **Anthropic** coding agents to Xcode for enhanced development.",
+      "url": "https://www.theverge.com/news/873300/apple-xcode-openai-anthropic-ai-agentic-coding"
+    },
+    {
+      "text": "Microsoft's AI Licensing Hub - **Microsoft** develops an AI content licensing marketplace for publishers and developers.",
+      "url": "https://www.theverge.com/news/873296/microsoft-publisher-content-marketplace-ai-licensing"
+    },
+    {
+      "text": "Lotus Health Raises $35M - **Lotus Health** secures funding for an AI-driven healthcare service providing free consultations.",
+      "url": "https://techcrunch.com/2026/02/03/lotus-health-nabs-35m-for-ai-doctor-that-sees-patients-for-free/"
     }
   ]
 }
