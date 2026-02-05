@@ -1,41 +1,45 @@
 {
-  "generatedAt": "2026-02-04T09:06:42.528Z",
+  "generatedAt": "2026-02-05T09:09:43.767Z",
   "bullets": [
     {
-      "text": "Windows 11 Insider Preview Build 26300.7733 Released - **Microsoft** introduces Sysmon functionality natively for enhanced threat detection.",
-      "url": "https://blogs.windows.com/windows-insider/2026/02/03/announcing-windows-11-insider-preview-build-26300-7733-dev-channel/"
+      "text": "Windows 11 Insider Preview Build 28020.1546 Released - This Canary Channel update includes general improvements and fixes for OneDrive and Dropbox issues.",
+      "url": "https://blogs.windows.com/windows-insider/2026/02/04/announcing-windows-11-insider-preview-build-28020-1546-canary-channel/"
     },
     {
-      "text": "Windows 11 Insider Preview Build 26220.7752 Available - New features and fixes rolled out in the **Beta Channel** for **Windows 11**.",
-      "url": "https://blogs.windows.com/windows-insider/2026/02/03/announcing-windows-11-insider-preview-build-26220-7752-beta-channel/"
+      "text": "Overwatch's Year-Long Narrative Arc - A new story-driven era begins with 'The Reign of Talon' in **Overwatch**.",
+      "url": "https://blogs.windows.com/windowsexperience/2026/02/04/a-first-for-overwatch-a-year-long-story-arc/"
     },
     {
-      "text": "Evolving Security Practices for AI - **Microsoft's** Secure Development Lifecycle adapts to address AI-specific security challenges.",
+      "text": "Simplified Dev Environment Setup - **WinGet Configuration** allows developers to set up their machines with a single command.",
+      "url": "https://devblogs.microsoft.com/blog/winget-configuration-set-up-your-dev-machine-in-one-command"
+    },
+    {
+      "text": "Leadership Changes in Security - **Hayete Gallot** returns as EVP of Security, focusing on enhancing security and quality at **Microsoft**.",
+      "url": "https://blogs.microsoft.com/blog/2026/02/04/updates-in-two-of-our-core-priorities/"
+    },
+    {
+      "text": "Enhanced Data Resiliency with Azure - **Azure NetApp Files** introduces Elastic zone-redundant service for improved data availability.",
+      "url": "https://azure.microsoft.com/en-us/blog/enhanced-storage-resiliency-with-azure-netapp-files-elastic-zone-redundant-service/"
+    },
+    {
+      "text": "Detecting Backdoored Language Models - New research from **Microsoft** focuses on identifying backdoors in AI language models.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/02/04/detecting-backdoored-language-models-at-scale/"
+    },
+    {
+      "text": "AI Security Practices Evolving - **Microsoft's SDL** adapts to address AI-specific security challenges in software development.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/02/03/microsoft-sdl-evolving-security-practices-for-an-ai-powered-world/"
     },
     {
-      "text": "PostgreSQL on Azure Enhanced for AI - **Azure** optimizes **PostgreSQL** to support AI-driven applications and developer experiences.",
+      "text": "PostgreSQL on Azure for AI - **Azure** enhances **PostgreSQL** to support AI developers with improved performance and integration.",
       "url": "https://azure.microsoft.com/en-us/blog/postgresql-on-azure-supercharged-for-ai/"
     },
     {
-      "text": "Infostealers Targeting macOS - **Microsoft Defender** reports a rise in infostealer threats exploiting macOS and Python.",
+      "text": "Infostealers Targeting macOS - New threats exploit macOS vulnerabilities using social engineering techniques to deliver malware.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/02/02/infostealers-without-borders-macos-python-stealers-and-platform-abuse/"
     },
     {
-      "text": "Securing AI Application Supply Chains - **Microsoft** emphasizes the importance of securing AI frameworks against vulnerabilities.",
+      "text": "Securing AI Application Supply Chains - **Microsoft** emphasizes the importance of securing AI frameworks and components.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/01/30/case-study-securing-ai-application-supply-chains/"
-    },
-    {
-      "text": "AI-Driven Detection Insights - **Microsoft** introduces AI-assisted workflows to enhance threat detection and analysis.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/01/29/turning-threat-reports-detection-insights-ai/"
-    },
-    {
-      "text": "Data Security Index Report Released - **Microsoft** highlights the need for robust data security in the age of AI.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/01/29/new-microsoft-data-security-index-report-explores-secure-ai-adoption-to-protect-sensitive-data/"
-    },
-    {
-      "text": "Windows 11 Insider Preview Build 28020.1495 Launched - New features and fixes introduced in the **Canary Channel**.",
-      "url": "https://blogs.windows.com/windows-insider/2026/01/28/announcing-windows-11-insider-preview-build-28020-1495-canary-channel/"
     }
   ]
 }

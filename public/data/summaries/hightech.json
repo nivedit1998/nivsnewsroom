@@ -1,37 +1,45 @@
 {
-  "generatedAt": "2026-02-04T09:05:48.432Z",
+  "generatedAt": "2026-02-05T09:08:32.399Z",
   "bullets": [
     {
-      "text": "French Police Raid X Offices - **Elon Musk** summoned for questioning amid investigation into deepfakes and data fraud.",
-      "url": "https://www.cnet.com/tech/services-and-software/french-police-raid-x-offices-in-paris-uk-launches-investigation-into-grok/"
+      "text": "Roblox Launches 4D Creation Feature - **Roblox**'s new 4D creation tool enhances interactivity for digital items, now in open beta.",
+      "url": "https://techcrunch.com/2026/02/04/robloxs-4d-creation-feature-is-now-available-in-open-beta/"
     },
     {
-      "text": "Apple Discontinues Upgrade Program - **Apple** ends the iPhone Upgrade Program in the UK, introducing a new finance option.",
-      "url": "https://9to5mac.com/2026/01/30/apple-discontinues-iphone-upgrade-program-in-the-uk/"
+      "text": "Tim Cook Highlights Visual Intelligence - **Apple**'s visual intelligence feature is gaining traction and may soon become even more powerful.",
+      "url": "https://9to5mac.com/2026/02/04/tim-cook-revealed-standout-ai-feature-for-users-and-its-rumored-to-get-even-better/"
     },
     {
-      "text": "Motorola's Android Update Issues - **Motorola** ships new budget phones with outdated Android 15, lacking upgrade promises.",
+      "text": "iOS 26 Passwords App Update - **Apple**'s iOS 26 introduces a feature to recover unsaved generated passwords, easing user frustrations.",
+      "url": "https://9to5mac.com/2026/02/03/ios-26s-passwords-app-has-a-new-feature-that-can-save-you-a-headache/"
+    },
+    {
+      "text": "AirPods Live Translation Expands - **Apple**'s iOS 26.2 update brings Live Translation to more **AirPods** users across the EU.",
+      "url": "https://9to5mac.com/2026/02/03/ios-26-2-expands-airpods-pros-powerful-new-feature-heres-how-to-use-it/"
+    },
+    {
+      "text": "Motorola's Budget Phones Lack Updates - **Motorola**'s latest budget phones ship with outdated Android 15 and no promised OS upgrades.",
       "url": "https://9to5google.com/2026/01/31/motorola-android-os-updates-moto-g17/"
     },
     {
-      "text": "Skyryse Secures $300M Funding - Aviation startup **Skyryse** raises funds to enhance flight automation systems.",
-      "url": "https://techcrunch.com/2026/02/03/skyryse-lands-another-300m-to-make-flying-even-helicopters-simple-and-safe/"
+      "text": "Sam Altman Critiques Anthropic Ads - **OpenAI**'s Sam Altman calls **Anthropic**'s Super Bowl ads 'dishonest' amid competitive tensions.",
+      "url": "https://techcrunch.com/2026/02/04/sam-altman-got-exceptionally-testy-over-claude-super-bowl-ads/"
     },
     {
-      "text": "Intel Enters GPU Market - **Intel** announces plans to produce GPUs, challenging **Nvidia**'s dominance.",
-      "url": "https://techcrunch.com/2026/02/03/intel-will-start-making-gpus-a-market-dominated-by-nvidia/"
+      "text": "Valve's Steam Machine Delayed - **Valve** delays the launch of its Steam Machine due to ongoing memory and storage shortages.",
+      "url": "https://www.theverge.com/games/874196/valve-steam-machine-frame-controller-delay-pricing-memory-crisis"
     },
     {
-      "text": "Apple Integrates AI in Xcode - **Apple** adds **OpenAI** and **Anthropic** coding agents to Xcode for enhanced development.",
-      "url": "https://www.theverge.com/news/873300/apple-xcode-openai-anthropic-ai-agentic-coding"
+      "text": "Snap Reports Revenue Growth - **Snap** sees a 10% revenue increase in Q4 but faces a decline in daily active users.",
+      "url": "https://techcrunch.com/2026/02/04/as-it-preps-specs-for-the-masses-snaps-q4-shows-revenue-growth-but-fewer-daily-users/"
     },
     {
-      "text": "Microsoft's AI Licensing Hub - **Microsoft** develops an AI content licensing marketplace for publishers and developers.",
-      "url": "https://www.theverge.com/news/873296/microsoft-publisher-content-marketplace-ai-licensing"
+      "text": "Mundi Ventures Raises €750M - **Mundi Ventures** closes its largest fund to support deep tech and climate startups in Europe.",
+      "url": "https://techcrunch.com/2026/02/04/mundi-ventures-closes-on-e750m-for-kembara-its-largest-deep-tech-and-climate-fund/"
     },
     {
-      "text": "Lotus Health Raises $35M - **Lotus Health** secures funding for an AI-driven healthcare service providing free consultations.",
-      "url": "https://techcrunch.com/2026/02/03/lotus-health-nabs-35m-for-ai-doctor-that-sees-patients-for-free/"
+      "text": "Duna Secures €30M Series A - **Duna**, a startup for business identity verification, raises €30 million backed by **Stripe** alumni.",
+      "url": "https://techcrunch.com/2026/02/04/stripe-alumni-raise-e30m-series-a-for-duna-backed-by-stripe-and-adyen-execs/"
     }
   ]
 }

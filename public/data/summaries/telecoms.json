@@ -1,44 +1,44 @@
 {
-  "generatedAt": "2026-02-04T09:06:21.472Z",
+  "generatedAt": "2026-02-05T09:09:05.111Z",
   "bullets": [
     {
-      "text": "Vodafone Idea Expands 4G Coverage - **Vodafone Idea** adds over 6,500 new towers, aiming for 95% 4G population coverage by 2025.",
+      "text": "Managed Wi-Fi Needs Support — The bulk-managed Wi-Fi industry faces regulatory challenges threatening its economic model.",
+      "url": "https://www.rcrwireless.com/20260204/analyst-angle/bulk-managed-wi-fi"
+    },
+    {
+      "text": "New Subsea Cable for Greece — **Grid Telecom** announces the ARTEMIS subsea cable, enhancing regional connectivity.",
+      "url": "https://totaltele.com/grid-telecoms-new-artemis-cable/"
+    },
+    {
+      "text": "Russian Satellites Raise Concerns — **Luch satellites** pose new risks to European satellite communications.",
+      "url": "https://www.telecomstechnews.com/news/russian-luch-satellites-target-european-vital-connectivity/"
+    },
+    {
+      "text": "Nokia's Co-Dependence Insight — **Nokia** highlights the intertwined telecom supply chains between Europe and the US.",
+      "url": "https://www.telecomstechnews.com/news/why-nokia-sees-europe-us-co-dependence-in-telecom-networks/"
+    },
+    {
+      "text": "Vodafone Idea Expands 4G — **Vodafone Idea** boosts its 4G network with over 6,500 new towers.",
       "url": "https://www.rcrwireless.com/20260203/5g/vodafone-idea-broadband"
     },
     {
-      "text": "Google's Subsea Cable Milestone - **Google**'s Tabua cable enhances connectivity between the U.S. and Australia, entering service soon.",
-      "url": "https://www.rcrwireless.com/20260203/uncategorized/google-subsea-cable"
-    },
-    {
-      "text": "Ookla's Connectivity Insights - **T-Mobile US** leads in mobile network performance, achieving top speeds in Ookla's latest report.",
-      "url": "https://www.rcrwireless.com/20260203/5g/ookla"
-    },
-    {
-      "text": "AI Revolutionizes Network Automation - **InfoVista** introduces agentic AI for proactive network management, enhancing operational efficiency.",
-      "url": "https://www.rcrwireless.com/20260202/test-and-measurement/agentic-ai-meets-intent-based-networking-a-new-era-of-network-automation"
-    },
-    {
-      "text": "Remote Fiber Monitoring Gains Traction - Engineers use remote monitoring to quickly identify fiber line issues, reducing downtime.",
-      "url": "https://www.rcrwireless.com/20260202/test-measurement/how-engineers-spot-impairments-in-fiber-lines-from-afar"
-    },
-    {
-      "text": "Openreach Enhances Engineer Safety - **Openreach** launches a safety app with GPS tracking and SOS features for field engineers.",
+      "text": "Openreach's Safety Initiative — **Openreach** launches an app to protect engineers from abuse in the field.",
       "url": "https://totaltele.com/openreach-launches-app-to-keep-engineers-safe-from-abuse/"
     },
     {
-      "text": "KKR-Singtel Data Centre Deal - A consortium led by **KKR** and **Singtel** nears a $10bn acquisition of ST Telemedia Global Data Centres.",
-      "url": "https://totaltele.com/kkr-singtel-consortium-near-10bn-deal-for-stt-gdc/"
+      "text": "AT&T Acquires Fiber Business — **AT&T** completes a $5.75 billion acquisition of **Lumen's** fiber operations.",
+      "url": "https://totaltele.com/att-completes-acquisition-of-lumen-mass-markets-fiber-biz/"
     },
     {
-      "text": "Starlink's BEAD Program Conflict - **Starlink** faces scrutiny over its broadband service conditions under the BEAD program.",
-      "url": "https://totaltele.com/is-a-bead-conflict-brewing-between-ntia-and-starlink/"
+      "text": "5G-A Innovations in Malaysia — **U Mobile** targets 5G-A use cases with a new enterprise innovation platform.",
+      "url": "https://www.rcrwireless.com/20260203/5g/u-mobile-5g-a"
     },
     {
-      "text": "Barracuda Cable Project Announced - **Sparkle** and Valencia Digital Port Connect to land the Barracuda subsea cable in Genoa.",
-      "url": "https://totaltele.com/sparkle-and-valencia-digital-port-connect-agreement-to-land-barracuda-subsea-cable-at-genoa-landing-platform/"
+      "text": "AI's Impact on Subsea Cables — **Google** and **Meta** discuss how AI is reshaping subsea cable infrastructure.",
+      "url": "https://www.rcrwireless.com/20260203/network-infrastructure/google-meta-ai-subsea"
     },
     {
-      "text": "Libya Joins 5G Revolution - **Almadar Aljadid** launches 5G services in Tripoli, enhancing connectivity across Libya.",
+      "text": "Libya Joins 5G Wave — **Almadar Aljadid** launches 5G in Tripoli, marking a milestone for North Africa.",
       "url": "https://totaltele.com/north-africas-5g-wave-continues-with-libya-launch/"
     }
   ]
