@@ -1,45 +1,45 @@
 {
-  "generatedAt": "2026-02-05T09:09:05.111Z",
+  "generatedAt": "2026-02-06T09:07:47.282Z",
   "bullets": [
     {
-      "text": "Managed Wi-Fi Needs Support — The bulk-managed Wi-Fi industry faces regulatory challenges threatening its economic model.",
+      "text": "Amazon Seeks Launch Extension - **Amazon** requests a 24-month extension for its **Leo** satellite launch due to unforeseen delays.",
+      "url": "https://www.rcrwireless.com/20260205/uncategorized/amazon-requests-more-time-to-launch-leo-spacex-objects"
+    },
+    {
+      "text": "Quantum Security Looms - Experts warn that **quantum technology** capable of breaking current encryption may emerge in the 2030s.",
+      "url": "https://www.rcrwireless.com/20260205/network-infrastructure/quantum-secure"
+    },
+    {
+      "text": "Verizon's AI Infrastructure Vision - **Verizon** outlines plans to leverage metro fibre and private **5G** for enterprise AI applications.",
+      "url": "https://www.rcrwireless.com/20260205/internet-of-things/verizon-metro-fibre-private-5g-ai-inference"
+    },
+    {
+      "text": "Viavi Reports Strong Earnings - **Viavi** sees revenue growth driven by data center demand, projecting continued performance improvements.",
+      "url": "https://www.rcrwireless.com/20260205/test-measurement/viavis-q2-2026-earnings-hit-high-end-of-guidance-driven-by-data-center-demand"
+    },
+    {
+      "text": "AT&T and AWS Unite - **AT&T** integrates **AWS** cloud with its fiber and satellite networks to enhance enterprise connectivity.",
+      "url": "https://www.telecomstechnews.com/news/att-integrates-aws-cloud-with-fiber-and-satellite-networks/"
+    },
+    {
+      "text": "Managed Wi-Fi Faces Challenges - Regulatory changes threaten the **bulk-managed Wi-Fi** model in multifamily housing, requiring strategic industry responses.",
       "url": "https://www.rcrwireless.com/20260204/analyst-angle/bulk-managed-wi-fi"
     },
     {
-      "text": "New Subsea Cable for Greece — **Grid Telecom** announces the ARTEMIS subsea cable, enhancing regional connectivity.",
+      "text": "New Subsea Cable for Greece - **Grid Telecom** announces the ARTEMIS subsea cable to enhance connectivity between Crete and mainland Greece.",
       "url": "https://totaltele.com/grid-telecoms-new-artemis-cable/"
     },
     {
-      "text": "Russian Satellites Raise Concerns — **Luch satellites** pose new risks to European satellite communications.",
+      "text": "Russian Satellites Raise Concerns - **European** officials warn of potential risks from Russian **Luch** satellites near key connectivity satellites.",
       "url": "https://www.telecomstechnews.com/news/russian-luch-satellites-target-european-vital-connectivity/"
     },
     {
-      "text": "Nokia's Co-Dependence Insight — **Nokia** highlights the intertwined telecom supply chains between Europe and the US.",
+      "text": "Nokia Highlights US-Europe Ties - **Nokia** emphasizes the co-dependence of Europe and the US in telecom networks amid shifting security concerns.",
       "url": "https://www.telecomstechnews.com/news/why-nokia-sees-europe-us-co-dependence-in-telecom-networks/"
     },
     {
-      "text": "Vodafone Idea Expands 4G — **Vodafone Idea** boosts its 4G network with over 6,500 new towers.",
-      "url": "https://www.rcrwireless.com/20260203/5g/vodafone-idea-broadband"
-    },
-    {
-      "text": "Openreach's Safety Initiative — **Openreach** launches an app to protect engineers from abuse in the field.",
+      "text": "Openreach's Safety Initiative - **Openreach** launches a safety app to protect engineers from abuse while working in the field.",
       "url": "https://totaltele.com/openreach-launches-app-to-keep-engineers-safe-from-abuse/"
-    },
-    {
-      "text": "AT&T Acquires Fiber Business — **AT&T** completes a $5.75 billion acquisition of **Lumen's** fiber operations.",
-      "url": "https://totaltele.com/att-completes-acquisition-of-lumen-mass-markets-fiber-biz/"
-    },
-    {
-      "text": "5G-A Innovations in Malaysia — **U Mobile** targets 5G-A use cases with a new enterprise innovation platform.",
-      "url": "https://www.rcrwireless.com/20260203/5g/u-mobile-5g-a"
-    },
-    {
-      "text": "AI's Impact on Subsea Cables — **Google** and **Meta** discuss how AI is reshaping subsea cable infrastructure.",
-      "url": "https://www.rcrwireless.com/20260203/network-infrastructure/google-meta-ai-subsea"
-    },
-    {
-      "text": "Libya Joins 5G Wave — **Almadar Aljadid** launches 5G in Tripoli, marking a milestone for North Africa.",
-      "url": "https://totaltele.com/north-africas-5g-wave-continues-with-libya-launch/"
     }
   ]
 }
