@@ -1,37 +1,41 @@
 {
-  "generatedAt": "2026-02-06T09:08:08.546Z",
+  "generatedAt": "2026-02-07T08:55:19.774Z",
   "bullets": [
     {
-      "text": "New CrashFix Variant Detected - **Microsoft Defender** identifies a new tactic in the ClickFix campaign, escalating user disruption.",
+      "text": "Active Exploitation Alert - **Microsoft Defender** identifies ongoing attacks exploiting **SolarWinds Web Help Desk** vulnerabilities.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/02/06/active-exploitation-solarwinds-web-help-desk/"
+    },
+    {
+      "text": "New Clickfix Variant - The **CrashFix** campaign uses browser crashes to deploy a **Python Remote Access Trojan**.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/02/05/clickfix-variant-crashfix-deploying-python-rat-trojan/"
     },
     {
-      "text": "Operation Winter SHIELD Launched - A nine-week initiative by the **FBI** to bridge the security implementation gap in organizations.",
+      "text": "Microsoft 365 Community Event - Join the **Microsoft 365 Community Conference** in April for insights on intelligent work.",
+      "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/02/05/the-ultimate-microsoft-365-community-event-returns-your-front%e2%80%91row-seat-to-the-future-of-intelligent-work/"
+    },
+    {
+      "text": "Operation Winter SHIELD - **Microsoft** supports a new initiative to close the security implementation gap in organizations.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/02/05/the-security-implementation-gap-why-microsoft-is-supporting-operation-winter-shield/"
     },
     {
-      "text": "Windows 11 Insider Preview Released - New build 28020.1546 offers improvements and fixes for **Windows Insiders**.",
+      "text": "Windows 11 Insider Preview - New **Windows 11 Insider Preview Build 28020.1546** released with improvements.",
       "url": "https://blogs.windows.com/windows-insider/2026/02/04/announcing-windows-11-insider-preview-build-28020-1546-canary-channel/"
     },
     {
-      "text": "WinGet Configuration Simplifies Setup - **WinGet** allows developers to configure their environments with a single command.",
-      "url": "https://devblogs.microsoft.com/blog/winget-configuration-set-up-your-dev-machine-in-one-command"
+      "text": "Microsoft SDL Update - **Microsoft's Secure Development Lifecycle** evolves to address AI-specific security concerns.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/02/03/microsoft-sdl-evolving-security-practices-for-an-ai-powered-world/"
     },
     {
-      "text": "Updates in Security Leadership - **Microsoft** announces new leadership roles to enhance focus on security and quality.",
-      "url": "https://blogs.microsoft.com/blog/2026/02/04/updates-in-two-of-our-core-priorities/"
+      "text": "Enhanced Azure Storage - **Azure NetApp Files** introduces Elastic zone-redundant service for improved data resiliency.",
+      "url": "https://azure.microsoft.com/en-us/blog/enhanced-storage-resiliency-with-azure-netapp-files-elastic-zone-redundant-service/"
     },
     {
-      "text": "Detecting Backdoored Language Models - **Microsoft** releases research on identifying backdoors in language models at scale.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/02/04/detecting-backdoored-language-models-at-scale/"
+      "text": "AI-Ready PostgreSQL - **Azure** enhances **PostgreSQL** for AI applications, supporting modern developer needs.",
+      "url": "https://azure.microsoft.com/en-us/blog/postgresql-on-azure-supercharged-for-ai/"
     },
     {
-      "text": "Infostealers Targeting macOS - **Microsoft Defender** reports on the rise of infostealers exploiting macOS and Python.",
+      "text": "Infostealers Targeting macOS - **Microsoft Defender** reports a rise in infostealer threats targeting macOS environments.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/02/02/infostealers-without-borders-macos-python-stealers-and-platform-abuse/"
-    },
-    {
-      "text": "Securing AI Application Supply Chains - **Microsoft** emphasizes the importance of securing AI frameworks and SDKs.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/01/30/case-study-securing-ai-application-supply-chains/"
     }
   ]
 }
