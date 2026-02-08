@@ -1,41 +1,33 @@
 {
-  "generatedAt": "2026-02-07T08:55:19.774Z",
+  "generatedAt": "2026-02-08T08:56:03.225Z",
   "bullets": [
     {
-      "text": "Active Exploitation Alert - **Microsoft Defender** identifies ongoing attacks exploiting **SolarWinds Web Help Desk** vulnerabilities.",
+      "text": "Active Exploitation Alert - **Microsoft Defender** warns of ongoing attacks exploiting **SolarWinds Web Help Desk** vulnerabilities.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/02/06/active-exploitation-solarwinds-web-help-desk/"
     },
     {
-      "text": "New Clickfix Variant - The **CrashFix** campaign uses browser crashes to deploy a **Python Remote Access Trojan**.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/02/05/clickfix-variant-crashfix-deploying-python-rat-trojan/"
+      "text": "Claude Opus 4.6 Launch - **Anthropic's** latest AI model is now available in **Microsoft Foundry** for enhanced coding and workflows.",
+      "url": "https://azure.microsoft.com/en-us/blog/claude-opus-4-6-anthropics-powerful-model-for-coding-agents-and-enterprise-workflows-is-now-available-in-microsoft-foundry-on-azure/"
     },
     {
-      "text": "Microsoft 365 Community Event - Join the **Microsoft 365 Community Conference** in April for insights on intelligent work.",
-      "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/02/05/the-ultimate-microsoft-365-community-event-returns-your-front%e2%80%91row-seat-to-the-future-of-intelligent-work/"
+      "text": "New Clickfix Variant - The **CrashFix** variant deploys a **Python Remote Access Trojan** through browser disruptions.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/02/05/clickfix-variant-crashfix-deploying-python-rat-trojan/"
     },
     {
       "text": "Operation Winter SHIELD - **Microsoft** supports a new initiative to close the security implementation gap in organizations.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/02/05/the-security-implementation-gap-why-microsoft-is-supporting-operation-winter-shield/"
     },
     {
-      "text": "Windows 11 Insider Preview - New **Windows 11 Insider Preview Build 28020.1546** released with improvements.",
+      "text": "Windows 11 Insider Preview - New build 28020.1546 released with improvements for **Windows Insiders**.",
       "url": "https://blogs.windows.com/windows-insider/2026/02/04/announcing-windows-11-insider-preview-build-28020-1546-canary-channel/"
     },
     {
-      "text": "Microsoft SDL Update - **Microsoft's Secure Development Lifecycle** evolves to address AI-specific security concerns.",
+      "text": "Enhanced Security Practices - **Microsoft SDL** adapts to address AI-specific security challenges in software development.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/02/03/microsoft-sdl-evolving-security-practices-for-an-ai-powered-world/"
     },
     {
-      "text": "Enhanced Azure Storage - **Azure NetApp Files** introduces Elastic zone-redundant service for improved data resiliency.",
-      "url": "https://azure.microsoft.com/en-us/blog/enhanced-storage-resiliency-with-azure-netapp-files-elastic-zone-redundant-service/"
-    },
-    {
-      "text": "AI-Ready PostgreSQL - **Azure** enhances **PostgreSQL** for AI applications, supporting modern developer needs.",
+      "text": "PostgreSQL Supercharged - **Azure** enhances **PostgreSQL** for AI applications, supporting developers with improved tools.",
       "url": "https://azure.microsoft.com/en-us/blog/postgresql-on-azure-supercharged-for-ai/"
-    },
-    {
-      "text": "Infostealers Targeting macOS - **Microsoft Defender** reports a rise in infostealer threats targeting macOS environments.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/02/02/infostealers-without-borders-macos-python-stealers-and-platform-abuse/"
     }
   ]
 }
