@@ -1,36 +1,45 @@
 {
-  "generatedAt": "2026-02-09T09:14:08.675Z",
+  "generatedAt": "2026-02-10T09:30:27.659Z",
   "bullets": [
     {
-      "text": "AI Takes Center Stage - Super Bowl LX ads prominently feature AI, showcasing its growing influence in advertising.",
-      "url": "https://www.theverge.com/entertainment/874504/super-bowl-lx-ads-big-game"
+      "text": "AI-Powered Energy Savings - **Tem** raises $75M to transform electricity markets with AI, promising up to 30% savings for UK businesses.",
+      "url": "https://techcrunch.com/2026/02/09/tem-raises-75m-to-remake-electricity-markets-using-ai/"
     },
     {
-      "text": "Waymo's Ambitious Plans - With $16 billion, Waymo aims to expand its robotaxi services to more cities, including London.",
-      "url": "https://techcrunch.com/2026/02/08/techcrunch-mobility-is-16b-enough-to-build-a-profitable-robotaxi-business/"
+      "text": "Rugby Meets Tech - **Apple** showcases how England Rugby leverages iPads and Macs for real-time match analysis.",
+      "url": "https://9to5mac.com/2026/02/09/apple-highlights-how-england-rugby-uses-ipads-and-macs-to-analyze-live-match-data/"
     },
     {
-      "text": "Spotify's New Book Venture - Spotify will allow UK and US subscribers to purchase physical books through its app.",
+      "text": "YouTube Music's New Paywall - Lyrics now require a **Premium** subscription, limiting free users to just five views.",
+      "url": "https://www.cnet.com/tech/services-and-software/good-luck-singing-along-on-youtube-music-lyric-limits-are-here-for-free-users/"
+    },
+    {
+      "text": "Rivian's Apple Watch App - **Rivian** launches an app enabling remote vehicle controls and digital key features for Apple Watch users.",
+      "url": "https://9to5mac.com/2026/02/09/rivian-launching-apple-watch-app-with-remote-controls-and-gen-1-digital-key-feature/"
+    },
+    {
+      "text": "Spotify's Bookstore Expansion - **Spotify** to sell physical books for premium subscribers in the US and UK, diversifying its offerings.",
       "url": "https://9to5mac.com/2026/02/05/spotify-is-about-to-start-selling-physical-books-for-some-reason/"
     },
     {
-      "text": "OpenAI's Super Bowl Drama - OpenAI's ad feud with Anthropic escalates as both companies promote their AI products."
+      "text": "AI Burnout Risks - New research reveals that embracing **AI** can lead to increased burnout among workers, countering productivity claims.",
+      "url": "https://techcrunch.com/2026/02/09/the-first-signs-of-burnout-are-coming-from-the-people-who-embrace-ai-the-most/"
     },
     {
-      "text": "New York's AI Regulations - Proposed bills in New York aim to label AI-generated content and pause data center construction.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/875501/new-york-is-considering-two-bills-to-rein-in-the-ai-industry"
+      "text": "Waymo's Driverless Taxis - **Waymo** tests driverless robotaxis in Nashville, moving closer to launching a ride-hailing service.",
+      "url": "https://techcrunch.com/2026/02/09/waymo-is-testing-driverless-robotaxis-in-nashville/"
     },
     {
-      "text": "Crypto.com Makes History - The purchase of AI.com for $70 million marks a record-breaking domain acquisition.",
-      "url": "https://techcrunch.com/2026/02/08/crypto-com-places-70m-bet-on-ai-com-domain-ahead-of-super-bowl/"
+      "text": "MrBeast's Fintech Move - **MrBeast** acquires Step, a banking app aimed at Gen Z, enhancing financial literacy for young users.",
+      "url": "https://techcrunch.com/2026/02/09/mrbeasts-company-buys-gen-z-focused-fintech-app-step/"
     },
     {
-      "text": "Digital Keys Evolve - The latest Plugfest highlights advancements in digital car key technology among major automakers.",
-      "url": "https://www.theverge.com/transportation/873197/digital-key-car-ccc-plugfest-rivian"
+      "text": "ChatGPT Introduces Ads - **OpenAI** begins testing ads in ChatGPT for free users, aiming to support broader access to features.",
+      "url": "https://techcrunch.com/2026/02/09/chatgpt-rolls-out-ads/"
     },
     {
-      "text": "AI in Super Bowl Ads - Brands like Svedka and Anthropic leverage AI in their Super Bowl commercials, igniting debates.",
-      "url": "https://techcrunch.com/2026/02/08/super-bowl-60-ai-ads-svedka-anthropic-brands-commercials/"
+      "text": "Lidar Consolidation Continues - **Ouster** acquires StereoLabs, marking a trend of consolidation among perception sensor suppliers.",
+      "url": "https://techcrunch.com/2026/02/09/lidar-maker-ouster-buys-vision-company-stereolabs-as-sensor-consolidation-continues/"
     }
   ]
 }

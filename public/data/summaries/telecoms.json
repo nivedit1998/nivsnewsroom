@@ -1,45 +1,45 @@
 {
-  "generatedAt": "2026-02-09T09:14:49.261Z",
+  "generatedAt": "2026-02-10T09:31:06.202Z",
   "bullets": [
     {
-      "text": "T-Mobile's Legal Troubles Grow - **Verizon** challenges T-Mobile's switching strategy, alleging misleading savings claims and deceptive practices.",
+      "text": "Spirent Joins ESA for PNT - **Spirent** collaborates with the **European Space Agency** to enhance the UK's PNT resilience.",
+      "url": "https://www.rcrwireless.com/20260209/test-measurement/spirent-joins-esa-to-boost-pnt-resilience-in-the-uk"
+    },
+    {
+      "text": "Understanding PNT's Importance - **Positioning, navigation, and timing** (PNT) is crucial for modern telecommunications and various industries.",
+      "url": "https://www.rcrwireless.com/20260209/defense-communications/what-is-pnt"
+    },
+    {
+      "text": "BT's Q3 Revenue Decline - **BT Group** reports a 4% revenue drop, despite significant FTTP expansion and 5G user growth.",
+      "url": "https://www.rcrwireless.com/20260209/5g/bt-revenues-q3"
+    },
+    {
+      "text": "Dell’Oro Upgrades O-RAN Outlook - Long-term growth for **Open RAN** is expected to improve despite near-term revenue challenges.",
+      "url": "https://www.rcrwireless.com/20260209/5g/delloro-raises-o-ran"
+    },
+    {
+      "text": "Samsung's AI-Ready Networks - **Samsung** outlines how operators can modernize legacy infrastructure for AI integration.",
+      "url": "https://www.telecomstechnews.com/news/samsung-turning-legacy-infrastructure-ai-ready-networks/"
+    },
+    {
+      "text": "STC's Silklink Project in Syria - **STC Group** plans a $800 million project to enhance Syria's digital infrastructure.",
+      "url": "https://totaltele.com/the-silklink-project-stc-pledges-to-help-reconnect-war-torn-syria/"
+    },
+    {
+      "text": "T-Mobile's Legal Challenges - **Verizon** and **AT&T** challenge **T-Mobile's** aggressive switching strategy in court.",
       "url": "https://www.rcrwireless.com/20260206/business/t-mobile-us-court"
     },
     {
-      "text": "AT&T Partners with Amazon - **AT&T** integrates **Amazon Leo** satellite services with its fiber network to enhance connectivity.",
+      "text": "AT&T and Amazon Leo Partnership - **AT&T** partners with **Amazon Leo** for satellite connectivity to enhance service coverage.",
       "url": "https://www.rcrwireless.com/20260206/network-infrastructure/amazon-leo-to-provide-satellite-connectivity-to-att"
     },
     {
-      "text": "Open RAN Myths Debunked - **Wind River** asserts that **Open RAN** technology is now mature and scalable for all environments.",
+      "text": "Debunking Open RAN Myths - **Wind River** addresses misconceptions surrounding **Open RAN** technology and its scalability.",
       "url": "https://www.rcrwireless.com/20260206/open_ran/four-open-ran-myths-telcos-need-to-move-past-according-to-wind-river"
     },
     {
-      "text": "Bell's AI Revenue Surge - **Bell Canada** reports a 60% year-over-year growth in its AI-powered enterprise solutions.",
-      "url": "https://www.rcrwireless.com/20260206/carriers/bell-growth-ai-ceo"
-    },
-    {
-      "text": "5G Slicing Validated - **Ericsson**, **FET**, and **OPPO** confirm performance-based 5G slicing can enhance connectivity.",
+      "text": "Ericsson Validates 5G Slicing - **Ericsson**, **FET**, and **OPPO** confirm performance-based 5G slicing capabilities.",
       "url": "https://www.telecomstechnews.com/news/ericsson-fet-and-oppo-validate-performance-based-5g-slicing/"
-    },
-    {
-      "text": "Amazon's Leo Launch Delays - **Amazon** requests an extension for its **Leo** satellite launch, citing unavoidable issues.",
-      "url": "https://www.rcrwireless.com/20260205/uncategorized/amazon-requests-more-time-to-launch-leo-spacex-objects"
-    },
-    {
-      "text": "Quantum Security Concerns - Experts warn of impending quantum technology threats to current encryption methods by the 2030s.",
-      "url": "https://www.rcrwireless.com/20260205/network-infrastructure/quantum-secure"
-    },
-    {
-      "text": "Verizon's AI Infrastructure Strategy - **Verizon** outlines plans to leverage metro fiber and private 5G for enterprise AI workloads.",
-      "url": "https://www.rcrwireless.com/20260205/internet-of-things/verizon-metro-fibre-private-5g-ai-inference"
-    },
-    {
-      "text": "Network Digital Twins for Telecom - New software technology provides real-time visibility and predictive analytics for telecom networks.",
-      "url": "https://www.telecomstechnews.com/news/network-digital-twins-smarter-more-resilient-telecom-operations/"
-    },
-    {
-      "text": "AT&T Expands Fiber Network - **AT&T** completes acquisition of **Lumen's** fiber business, enhancing its service footprint.",
-      "url": "https://totaltele.com/att-completes-acquisition-of-lumen-mass-markets-fiber-biz/"
     }
   ]
 }

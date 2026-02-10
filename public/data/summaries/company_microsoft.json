@@ -1,41 +1,44 @@
 {
-  "generatedAt": "2026-02-09T09:18:27.868Z",
+  "generatedAt": "2026-02-10T09:31:36.457Z",
   "bullets": [
     {
       "text": "Active Exploitation Alert - **Microsoft Defender** identifies ongoing attacks exploiting **SolarWinds Web Help Desk** vulnerabilities.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/02/06/active-exploitation-solarwinds-web-help-desk/"
     },
     {
-      "text": "New Clickfix Variant - The **CrashFix** campaign uses browser crashes to deploy a **Python Remote Access Trojan**.",
+      "text": "Windows 11 Insider Preview - New features in **Windows 11** Beta Channel include Emoji 16.0 and camera controls.",
+      "url": "https://blogs.windows.com/windows-insider/2026/02/09/announcing-windows-11-insider-preview-build-26220-7755-beta-channel/"
+    },
+    {
+      "text": "Windows Security Evolution - **Microsoft** introduces **User Transparency and Consent** to enhance app security in **Windows 11**.",
+      "url": "https://blogs.windows.com/windowsexperience/2026/02/09/strengthening-windows-trust-and-security-through-user-transparency-and-consent/"
+    },
+    {
+      "text": "Prompt Attack Findings - **Microsoft** reveals vulnerabilities in **LLMs** that can be exploited through simple prompts.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/02/09/prompt-attack-breaks-llm-safety/"
+    },
+    {
+      "text": "New AI Model Launch - **Claude Opus 4.6** now available in **Microsoft Foundry**, enhancing enterprise AI capabilities.",
+      "url": "https://azure.microsoft.com/en-us/blog/claude-opus-4-6-anthropics-powerful-model-for-coding-agents-and-enterprise-workflows-is-now-available-in-microsoft-foundry-on-azure/"
+    },
+    {
+      "text": "Clickfix Variant Detected - New **CrashFix** variant uses social engineering to deploy a **Python RAT**.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/02/05/clickfix-variant-crashfix-deploying-python-rat-trojan/"
     },
     {
-      "text": "Microsoft 365 Community Event - Join the **Microsoft 365 Community Conference** for insights on the future of intelligent work.",
-      "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/02/05/the-ultimate-microsoft-365-community-event-returns-your-front%e2%80%91row-seat-to-the-future-of-intelligent-work/"
-    },
-    {
-      "text": "Operation Winter SHIELD - A new initiative to close the **security implementation gap** in organizations.",
+      "text": "Operation Winter SHIELD - **Microsoft** supports a new initiative to close the security implementation gap.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/02/05/the-security-implementation-gap-why-microsoft-is-supporting-operation-winter-shield/"
     },
     {
-      "text": "Windows 11 Insider Preview - New builds released for **Windows Insiders** in Canary and Beta Channels.",
-      "url": "https://blogs.windows.com/windows-insider/2026/02/04/announcing-windows-11-insider-preview-build-28020-1546-canary-channel/"
+      "text": "Windows 11 Insider Updates - New builds released in **Dev** and **Canary Channels** with various improvements."
     },
     {
-      "text": "AI Security Framework - **Microsoft SDL** expands to address security concerns specific to AI development.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/02/03/microsoft-sdl-evolving-security-practices-for-an-ai-powered-world/"
-    },
-    {
-      "text": "Enhanced Data Resiliency - **Azure NetApp Files** introduces Elastic zone-redundant service for improved data management.",
-      "url": "https://azure.microsoft.com/en-us/blog/enhanced-storage-resiliency-with-azure-netapp-files-elastic-zone-redundant-service/"
-    },
-    {
-      "text": "Detecting Backdoored Models - New research on identifying backdoors in **language models** to enhance AI trust.",
+      "text": "Detecting Backdoored Models - **Microsoft** releases research on identifying backdoors in language models.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/02/04/detecting-backdoored-language-models-at-scale/"
     },
     {
-      "text": "Infostealer Threats Rise - **Microsoft Defender** reports on the expansion of infostealers targeting macOS and Python environments.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/02/02/infostealers-without-borders-macos-python-stealers-and-platform-abuse/"
+      "text": "AI Security Practices - **Microsoft** expands its **Secure Development Lifecycle** to address AI-specific risks.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/02/03/microsoft-sdl-evolving-security-practices-for-an-ai-powered-world/"
     }
   ]
 }
