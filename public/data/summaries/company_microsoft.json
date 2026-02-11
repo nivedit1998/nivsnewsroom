@@ -1,44 +1,37 @@
 {
-  "generatedAt": "2026-02-10T09:31:36.457Z",
+  "generatedAt": "2026-02-11T09:13:48.971Z",
   "bullets": [
     {
-      "text": "Active Exploitation Alert - **Microsoft Defender** identifies ongoing attacks exploiting **SolarWinds Web Help Desk** vulnerabilities.",
+      "text": "Active Exploitation of SolarWinds - **Microsoft Defender** reveals ongoing attacks exploiting **SolarWinds Web Help Desk** vulnerabilities.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/02/06/active-exploitation-solarwinds-web-help-desk/"
     },
     {
-      "text": "Windows 11 Insider Preview - New features in **Windows 11** Beta Channel include Emoji 16.0 and camera controls.",
+      "text": "Safer Online Learning - **Microsoft Edge for Business** enhances security for K–12 online learning environments.",
+      "url": "https://blogs.windows.com/msedgedev/2026/02/10/supporting-safer-and-scalable-online-learning-in-k-12/"
+    },
+    {
+      "text": "AI Agents on the Rise - Over 80% of **Fortune 500** companies utilize active AI agents, emphasizing governance and security.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/02/10/80-of-fortune-500-use-active-ai-agents-observability-governance-and-security-shape-the-new-frontier/"
+    },
+    {
+      "text": "AI Recommendation Poisoning - New trend identified where companies manipulate AI recommendations for biased outcomes.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/02/10/ai-recommendation-poisoning/"
+    },
+    {
+      "text": "Windows 11 Insider Preview Updates - New builds released for **Windows 11** with features and improvements.",
       "url": "https://blogs.windows.com/windows-insider/2026/02/09/announcing-windows-11-insider-preview-build-26220-7755-beta-channel/"
     },
     {
-      "text": "Windows Security Evolution - **Microsoft** introduces **User Transparency and Consent** to enhance app security in **Windows 11**.",
+      "text": "Strengthening Windows Security - New initiatives focus on user transparency and consent to enhance security.",
       "url": "https://blogs.windows.com/windowsexperience/2026/02/09/strengthening-windows-trust-and-security-through-user-transparency-and-consent/"
-    },
-    {
-      "text": "Prompt Attack Findings - **Microsoft** reveals vulnerabilities in **LLMs** that can be exploited through simple prompts.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/02/09/prompt-attack-breaks-llm-safety/"
-    },
-    {
-      "text": "New AI Model Launch - **Claude Opus 4.6** now available in **Microsoft Foundry**, enhancing enterprise AI capabilities.",
-      "url": "https://azure.microsoft.com/en-us/blog/claude-opus-4-6-anthropics-powerful-model-for-coding-agents-and-enterprise-workflows-is-now-available-in-microsoft-foundry-on-azure/"
-    },
-    {
-      "text": "Clickfix Variant Detected - New **CrashFix** variant uses social engineering to deploy a **Python RAT**.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/02/05/clickfix-variant-crashfix-deploying-python-rat-trojan/"
-    },
-    {
-      "text": "Operation Winter SHIELD - **Microsoft** supports a new initiative to close the security implementation gap.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/02/05/the-security-implementation-gap-why-microsoft-is-supporting-operation-winter-shield/"
-    },
-    {
-      "text": "Windows 11 Insider Updates - New builds released in **Dev** and **Canary Channels** with various improvements."
     },
     {
       "text": "Detecting Backdoored Models - **Microsoft** releases research on identifying backdoors in language models.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/02/04/detecting-backdoored-language-models-at-scale/"
     },
     {
-      "text": "AI Security Practices - **Microsoft** expands its **Secure Development Lifecycle** to address AI-specific risks.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/02/03/microsoft-sdl-evolving-security-practices-for-an-ai-powered-world/"
+      "text": "Operation Winter SHIELD - **Microsoft** supports a cybersecurity initiative addressing the implementation gap in security.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/02/05/the-security-implementation-gap-why-microsoft-is-supporting-operation-winter-shield/"
     }
   ]
 }

@@ -1,45 +1,45 @@
 {
-  "generatedAt": "2026-02-10T09:31:06.202Z",
+  "generatedAt": "2026-02-11T09:13:24.474Z",
   "bullets": [
     {
-      "text": "Spirent Joins ESA for PNT - **Spirent** collaborates with the **European Space Agency** to enhance the UK's PNT resilience.",
+      "text": "Fractile's £100m Boost - **Fractile** expands UK operations, enhancing the AI hardware ecosystem with significant government support.",
+      "url": "https://totaltele.com/uk-govt-celebrates-100m-expansion-of-chip-challenger-fractile/"
+    },
+    {
+      "text": "Spirent Partners with ESA - **Spirent** collaborates with the European Space Agency to enhance PNT resilience in the UK.",
       "url": "https://www.rcrwireless.com/20260209/test-measurement/spirent-joins-esa-to-boost-pnt-resilience-in-the-uk"
     },
     {
-      "text": "Understanding PNT's Importance - **Positioning, navigation, and timing** (PNT) is crucial for modern telecommunications and various industries.",
-      "url": "https://www.rcrwireless.com/20260209/defense-communications/what-is-pnt"
+      "text": "Starlink Dominates Satellite Internet - **Starlink** leads the satellite broadband market with over 9 million subscribers globally.",
+      "url": "https://www.rcrwireless.com/20260210/network-infrastructure/starlink-is-winning-the-leo-based-internet-race-in-major-markets"
     },
     {
-      "text": "BT's Q3 Revenue Decline - **BT Group** reports a 4% revenue drop, despite significant FTTP expansion and 5G user growth.",
-      "url": "https://www.rcrwireless.com/20260209/5g/bt-revenues-q3"
+      "text": "MWC26 Barcelona Approaches - Major tech leaders confirmed for **MWC26**, showcasing innovations in mobile and digital transformation.",
+      "url": "https://www.rcrwireless.com/20260210/mwc-26/gsma-mwc26-barcelona"
     },
     {
-      "text": "Dell’Oro Upgrades O-RAN Outlook - Long-term growth for **Open RAN** is expected to improve despite near-term revenue challenges.",
-      "url": "https://www.rcrwireless.com/20260209/5g/delloro-raises-o-ran"
+      "text": "BT Group Leadership Changes - **BT Group** announces executive shifts, with Katie Milligan set to lead **Openreach**.",
+      "url": "https://totaltele.com/bt-group-shuffles-exec-team-at-openreach-and-bt-international/"
     },
     {
-      "text": "Samsung's AI-Ready Networks - **Samsung** outlines how operators can modernize legacy infrastructure for AI integration.",
-      "url": "https://www.telecomstechnews.com/news/samsung-turning-legacy-infrastructure-ai-ready-networks/"
+      "text": "AI in Non-Terrestrial Networks - AI could revolutionize handover management in **non-terrestrial networks**, enhancing connectivity.",
+      "url": "https://www.rcrwireless.com/20260210/ai/ai-non-terrestrial-networks"
     },
     {
-      "text": "STC's Silklink Project in Syria - **STC Group** plans a $800 million project to enhance Syria's digital infrastructure.",
-      "url": "https://totaltele.com/the-silklink-project-stc-pledges-to-help-reconnect-war-torn-syria/"
+      "text": "AT&T Expands Fiber Network - **AT&T** acquires Lumen's fiber business, enhancing its reach to over 4 million locations.",
+      "url": "https://totaltele.com/att-completes-acquisition-of-lumen-mass-markets-fiber-biz/"
     },
     {
-      "text": "T-Mobile's Legal Challenges - **Verizon** and **AT&T** challenge **T-Mobile's** aggressive switching strategy in court.",
-      "url": "https://www.rcrwireless.com/20260206/business/t-mobile-us-court"
+      "text": "Google Cloud Partners with Liberty Global - **Google Cloud** and **Liberty Global** sign a five-year deal for AI and network automation.",
+      "url": "https://www.rcrwireless.com/20260209/ai/google-cloud-liberty-global-deal"
     },
     {
-      "text": "AT&T and Amazon Leo Partnership - **AT&T** partners with **Amazon Leo** for satellite connectivity to enhance service coverage.",
-      "url": "https://www.rcrwireless.com/20260206/network-infrastructure/amazon-leo-to-provide-satellite-connectivity-to-att"
-    },
-    {
-      "text": "Debunking Open RAN Myths - **Wind River** addresses misconceptions surrounding **Open RAN** technology and its scalability.",
-      "url": "https://www.rcrwireless.com/20260206/open_ran/four-open-ran-myths-telcos-need-to-move-past-according-to-wind-river"
-    },
-    {
-      "text": "Ericsson Validates 5G Slicing - **Ericsson**, **FET**, and **OPPO** confirm performance-based 5G slicing capabilities.",
+      "text": "Ericsson Validates 5G Slicing - **Ericsson** confirms performance-based 5G slicing can enhance connectivity for mobile operators.",
       "url": "https://www.telecomstechnews.com/news/ericsson-fet-and-oppo-validate-performance-based-5g-slicing/"
+    },
+    {
+      "text": "Network Digital Twins for Telecom - **Network Digital Twins** technology offers real-time insights for smarter telecom operations.",
+      "url": "https://www.telecomstechnews.com/news/network-digital-twins-smarter-more-resilient-telecom-operations/"
     }
   ]
 }
