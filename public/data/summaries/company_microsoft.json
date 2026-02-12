@@ -1,37 +1,45 @@
 {
-  "generatedAt": "2026-02-11T09:13:48.971Z",
+  "generatedAt": "2026-02-12T09:11:41.208Z",
   "bullets": [
     {
-      "text": "Active Exploitation of SolarWinds - **Microsoft Defender** reveals ongoing attacks exploiting **SolarWinds Web Help Desk** vulnerabilities.",
+      "text": "Enhanced Developer Tools - **Microsoft Store** updates improve onboarding and analytics for app developers.",
+      "url": "https://blogs.windows.com/windowsdeveloper/2026/02/11/enhanced-developer-tools-on-the-microsoft-store/"
+    },
+    {
+      "text": "AI-Ready SIEM Guide - **Microsoft** outlines key features for future-proof security operations centers.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/02/11/the-strategic-siem-buyers-guide-choosing-an-ai-ready-platform-for-the-agentic-era/"
+    },
+    {
+      "text": "Active Exploitation Alert - **Microsoft Defender** warns of ongoing threats targeting **SolarWinds** Web Help Desk.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/02/06/active-exploitation-solarwinds-web-help-desk/"
     },
     {
-      "text": "Safer Online Learning - **Microsoft Edge for Business** enhances security for K–12 online learning environments.",
+      "text": "Safer Online Learning - **Microsoft Edge** for Business enhances security in K–12 education environments.",
       "url": "https://blogs.windows.com/msedgedev/2026/02/10/supporting-safer-and-scalable-online-learning-in-k-12/"
     },
     {
-      "text": "AI Agents on the Rise - Over 80% of **Fortune 500** companies utilize active AI agents, emphasizing governance and security.",
+      "text": "Arm Momentum in Japan - **Microsoft's** App Assure supports developers in optimizing apps for Arm-powered PCs.",
+      "url": "https://blogs.windows.com/windowsdeveloper/2026/02/10/accelerating-arm-momentum-in-japan-with-app-assure/"
+    },
+    {
+      "text": "Secure Boot Updates - **Microsoft** initiates major security updates for **Secure Boot** certificates.",
+      "url": "https://blogs.windows.com/windowsexperience/2026/02/10/refreshing-the-root-of-trust-industry-collaboration-on-secure-boot-certificate-updates/"
+    },
+    {
+      "text": "AI Agents on the Rise - **Microsoft** reveals 80% of Fortune 500 companies utilize active AI agents.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/02/10/80-of-fortune-500-use-active-ai-agents-observability-governance-and-security-shape-the-new-frontier/"
     },
     {
-      "text": "AI Recommendation Poisoning - New trend identified where companies manipulate AI recommendations for biased outcomes.",
+      "text": "AI Recommendation Poisoning - **Microsoft** identifies new threats manipulating AI memory for biased recommendations.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/02/10/ai-recommendation-poisoning/"
     },
     {
-      "text": "Windows 11 Insider Preview Updates - New builds released for **Windows 11** with features and improvements.",
+      "text": "Windows 11 Insider Preview - New features and improvements are rolling out in **Windows 11** builds.",
       "url": "https://blogs.windows.com/windows-insider/2026/02/09/announcing-windows-11-insider-preview-build-26220-7755-beta-channel/"
     },
     {
-      "text": "Strengthening Windows Security - New initiatives focus on user transparency and consent to enhance security.",
+      "text": "User Transparency in Windows - **Microsoft** enhances security through user consent and app behavior visibility.",
       "url": "https://blogs.windows.com/windowsexperience/2026/02/09/strengthening-windows-trust-and-security-through-user-transparency-and-consent/"
-    },
-    {
-      "text": "Detecting Backdoored Models - **Microsoft** releases research on identifying backdoors in language models.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/02/04/detecting-backdoored-language-models-at-scale/"
-    },
-    {
-      "text": "Operation Winter SHIELD - **Microsoft** supports a cybersecurity initiative addressing the implementation gap in security.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/02/05/the-security-implementation-gap-why-microsoft-is-supporting-operation-winter-shield/"
     }
   ]
 }
