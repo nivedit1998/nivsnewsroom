@@ -1,45 +1,45 @@
 {
-  "generatedAt": "2026-02-12T09:11:41.208Z",
+  "generatedAt": "2026-02-13T09:09:23.462Z",
   "bullets": [
     {
-      "text": "Enhanced Developer Tools - **Microsoft Store** updates improve onboarding and analytics for app developers.",
+      "text": "Windows 11 Insider Preview Build 28020.1611 Released - New Sysmon functionality enhances threat detection capabilities for users.",
+      "url": "https://blogs.windows.com/windows-insider/2026/02/12/announcing-windows-11-insider-preview-build-28020-1611-canary-channel/"
+    },
+    {
+      "text": "Microsoft Edge's Interop Project - Collaboration with major tech companies aims for a more interoperable web experience.",
+      "url": "https://blogs.windows.com/msedgedev/2026/02/12/microsoft-edge-and-interop-2026/"
+    },
+    {
+      "text": "Top 10 Risks in Copilot Studio - Identifying and preventing misconfigurations is crucial for AI security.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/02/12/copilot-studio-agent-security-top-10-risks-detect-prevent/"
+    },
+    {
+      "text": "AI's Impact on Security at RSAC 2026 - Microsoft showcases how AI is reshaping security practices and operations.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/02/12/your-complete-guide-to-microsoft-experiences-at-rsac-2026-conference/"
+    },
+    {
+      "text": "Enhanced Developer Tools on Microsoft Store - New features streamline app performance analytics for developers.",
       "url": "https://blogs.windows.com/windowsdeveloper/2026/02/11/enhanced-developer-tools-on-the-microsoft-store/"
     },
     {
-      "text": "AI-Ready SIEM Guide - **Microsoft** outlines key features for future-proof security operations centers.",
+      "text": "Choosing an AI-Ready SIEM Platform - A unified approach is essential for modern security operations.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/02/11/the-strategic-siem-buyers-guide-choosing-an-ai-ready-platform-for-the-agentic-era/"
     },
     {
-      "text": "Active Exploitation Alert - **Microsoft Defender** warns of ongoing threats targeting **SolarWinds** Web Help Desk.",
+      "text": "Active Exploitation of SolarWinds WHD - Ongoing attacks highlight the importance of timely patching and monitoring.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/02/06/active-exploitation-solarwinds-web-help-desk/"
     },
     {
-      "text": "Safer Online Learning - **Microsoft Edge** for Business enhances security in K–12 education environments.",
+      "text": "Safer Online Learning with Edge - Microsoft Edge for Business enhances security for K–12 education environments.",
       "url": "https://blogs.windows.com/msedgedev/2026/02/10/supporting-safer-and-scalable-online-learning-in-k-12/"
     },
     {
-      "text": "Arm Momentum in Japan - **Microsoft's** App Assure supports developers in optimizing apps for Arm-powered PCs.",
+      "text": "Accelerating Arm Momentum in Japan - App Assure supports developers in optimizing applications for Arm-powered PCs.",
       "url": "https://blogs.windows.com/windowsdeveloper/2026/02/10/accelerating-arm-momentum-in-japan-with-app-assure/"
     },
     {
-      "text": "Secure Boot Updates - **Microsoft** initiates major security updates for **Secure Boot** certificates.",
+      "text": "Secure Boot Certificate Updates - Microsoft collaborates with OEMs to refresh Secure Boot certificates for enhanced security.",
       "url": "https://blogs.windows.com/windowsexperience/2026/02/10/refreshing-the-root-of-trust-industry-collaboration-on-secure-boot-certificate-updates/"
-    },
-    {
-      "text": "AI Agents on the Rise - **Microsoft** reveals 80% of Fortune 500 companies utilize active AI agents.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/02/10/80-of-fortune-500-use-active-ai-agents-observability-governance-and-security-shape-the-new-frontier/"
-    },
-    {
-      "text": "AI Recommendation Poisoning - **Microsoft** identifies new threats manipulating AI memory for biased recommendations.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/02/10/ai-recommendation-poisoning/"
-    },
-    {
-      "text": "Windows 11 Insider Preview - New features and improvements are rolling out in **Windows 11** builds.",
-      "url": "https://blogs.windows.com/windows-insider/2026/02/09/announcing-windows-11-insider-preview-build-26220-7755-beta-channel/"
-    },
-    {
-      "text": "User Transparency in Windows - **Microsoft** enhances security through user consent and app behavior visibility.",
-      "url": "https://blogs.windows.com/windowsexperience/2026/02/09/strengthening-windows-trust-and-security-through-user-transparency-and-consent/"
     }
   ]
 }

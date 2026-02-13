@@ -1,45 +1,45 @@
 {
-  "generatedAt": "2026-02-12T09:11:09.047Z",
+  "generatedAt": "2026-02-13T09:08:50.489Z",
   "bullets": [
     {
-      "text": "Fractile's £100m Investment - **Fractile** expands UK operations, enhancing the AI hardware ecosystem with a £100 million boost.",
+      "text": "Fractile's £100m Boost - **Fractile** expands UK operations with a £100 million investment, enhancing the AI hardware ecosystem.",
       "url": "https://totaltele.com/uk-govt-celebrates-100m-expansion-of-chip-challenger-fractile/"
     },
     {
-      "text": "Amazon Leo's Maritime Expansion - **Amazon Leo** partners with maritime resellers to enhance onboard connectivity across global shipping.",
-      "url": "https://www.rcrwireless.com/20260211/network-infrastructure/amazon-leo-expands-service-distribution-through-maritime-resellers"
+      "text": "AI-RRM Enhances Wi-Fi 7 - **AI-RRM** optimizes Wi-Fi 7 networks for better performance and stability in dense environments.",
+      "url": "https://www.rcrwireless.com/20260212/fundamentals/ai-rrm-wi-fi-7"
     },
     {
-      "text": "BT Group Leadership Changes - **BT Group** announces executive shifts, positioning for future growth in digital infrastructure.",
-      "url": "https://totaltele.com/bt-group-shuffles-exec-team-at-openreach-and-bt-international/"
+      "text": "WPA3 Security Challenges - **WPA3** adoption faces hurdles in multi-dwelling units due to inconsistent implementations.",
+      "url": "https://www.rcrwireless.com/20260212/analyst-angle/wpa3-wi-fi-security"
     },
     {
-      "text": "Starlink Dominates Satellite Market - **Starlink** leads in satellite broadband with over 9 million subscribers and rapid growth.",
-      "url": "https://www.rcrwireless.com/20260210/network-infrastructure/starlink-is-winning-the-leo-based-internet-race-in-major-markets"
+      "text": "UK's 5G SA Investment Review - The UK government seeks industry input to support **5G SA** deployment by 2030.",
+      "url": "https://www.rcrwireless.com/20260212/5g/uk-5g-sa-investment"
     },
     {
-      "text": "Telefonica's Chilean Exit - **Telefonica** sells its Chilean unit for $1.2 billion, marking a strategic retreat from Latin America.",
-      "url": "https://totaltele.com/telefonica-makes-1-2bn-exit-from-chile/"
+      "text": "Vodafone's Private 5G Expansion - **Vodafone** reports 173 private 5G networks across 20 countries, targeting SMEs.",
+      "url": "https://www.rcrwireless.com/20260212/private-5g/vodafone-private-5g-173-vendors"
     },
     {
-      "text": "GreenMed Subsea Cable Project - **Sparkle** and partners to build a new subsea cable, enhancing connectivity between Europe and the Middle East.",
-      "url": "https://totaltele.com/sparkle-asn-and-elettra-to-build-greenmed-subsea-cable-in-the-mediterranean/"
-    },
-    {
-      "text": "AI-Driven Telecom Operations - **Samsung** outlines how AI can transform legacy networks into efficient, autonomous systems.",
+      "text": "Samsung's AI-Ready Networks - **Samsung** promotes virtualized infrastructure to support AI workloads and reduce costs.",
       "url": "https://www.telecomstechnews.com/news/samsung-turning-legacy-infrastructure-ai-ready-networks/"
     },
     {
-      "text": "AI's Role in Non-Terrestrial Networks - AI could enhance **satellite** connectivity by managing dynamic handovers between satellites and ground networks.",
-      "url": "https://www.rcrwireless.com/20260210/ai/ai-non-terrestrial-networks"
+      "text": "Amazon Leo's Maritime Push - **Amazon Leo** expands satellite services to maritime sectors, enhancing global ocean coverage.",
+      "url": "https://www.rcrwireless.com/20260211/network-infrastructure/amazon-leo-expands-service-distribution-through-maritime-resellers"
     },
     {
-      "text": "SoftBank's Strategic Growth - **SoftBank** reports record revenue while expanding its telecom strategy beyond traditional services.",
-      "url": "https://www.rcrwireless.com/20260210/business/softbank-telco-strategy"
+      "text": "GreenMed Subsea Cable Project - **Sparkle** announces the GreenMed subsea cable to enhance connectivity between Europe and the Middle East.",
+      "url": "https://totaltele.com/sparkle-asn-and-elettra-to-build-greenmed-subsea-cable-in-the-mediterranean/"
     },
     {
-      "text": "Network Digital Twins for Resilience - **Digital twins** provide telecom operators with real-time insights to enhance network reliability.",
-      "url": "https://www.telecomstechnews.com/news/network-digital-twins-smarter-more-resilient-telecom-operations/"
+      "text": "Ericsson Validates 5G Slicing - **Ericsson**, **FET**, and **OPPO** confirm performance-based connectivity through 5G slicing.",
+      "url": "https://www.telecomstechnews.com/news/ericsson-fet-and-oppo-validate-performance-based-5g-slicing/"
+    },
+    {
+      "text": "BT Group Leadership Changes - **BT Group** announces executive shifts at Openreach and BT International to enhance operations.",
+      "url": "https://totaltele.com/bt-group-shuffles-exec-team-at-openreach-and-bt-international/"
     }
   ]
 }
