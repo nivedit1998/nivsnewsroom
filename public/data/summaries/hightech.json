@@ -1,40 +1,37 @@
 {
-  "generatedAt": "2026-02-14T08:54:59.921Z",
+  "generatedAt": "2026-02-15T08:55:57.986Z",
   "bullets": [
     {
-      "text": "New Privacy Feature in iOS 26.3 - **Apple** introduces 'Limit Precise Location' to enhance user privacy.",
+      "text": "Thrilling Heist Game Unveiled - **Relooted** offers a unique narrative on reclaiming stolen artifacts from colonizers.",
+      "url": "https://www.theverge.com/games/878121/relooted-review-xbox-steam"
+    },
+    {
+      "text": "New Privacy Feature Launched - **iOS 26.3** introduces 'Limit Precise Location' to enhance user privacy.",
       "url": "https://9to5mac.com/2026/02/13/ios-26-3-adds-unique-new-privacy-feature-and-its-apple-at-its-best/"
     },
     {
-      "text": "Galaxy S26 Storage Upgrade Rumours - **Samsung** may offer free storage upgrades for pre-orders of the Galaxy S26 trio.",
+      "text": "Galaxy S26 Launch Approaches - **Samsung** hints at a potential free storage upgrade for pre-orders.",
       "url": "https://9to5google.com/2026/02/11/samsung-galaxy-s26-trio-free-storage-upgrade-at-launch-rumor/"
     },
     {
-      "text": "England Rugby Uses Apple Tech - **Apple** showcases how iPads and Macs assist England Rugby in live match analysis.",
-      "url": "https://9to5mac.com/2026/02/09/apple-highlights-how-england-rugby-uses-ipads-and-macs-to-analyze-live-match-data/"
+      "text": "AI Video Generator Sparks Outrage - **Seedance 2.0** faces backlash from Hollywood for copyright concerns.",
+      "url": "https://techcrunch.com/2026/02/14/hollywood-isnt-happy-about-the-new-seedance-2-0-video-generator/"
     },
     {
-      "text": "Ring Search Party Backlash - **Amazon's** new feature for finding lost dogs faces criticism for potential privacy concerns.",
-      "url": "https://9to5mac.com/2026/02/11/dystopian-ring-search-party-feature-sparks-public-backlash-video/"
+      "text": "India Invests in Startups - A new $1.1 billion fund aims to boost **venture capital** in deep tech sectors.",
+      "url": "https://techcrunch.com/2026/02/14/india-doubles-down-on-state-backed-venture-capital-approving-1-1b-fund/"
     },
     {
-      "text": "DJI Romo Robovac Security Issues - **DJI's** first robovac faces scrutiny after a major security vulnerability was exploited.",
-      "url": "https://www.theverge.com/tech/879088/dji-romo-hack-vulnerability-remote-control-camera-access-mqtt"
+      "text": "Dystopian Surveillance Concerns - **Ring's** new features face criticism amid fears of mass surveillance.",
+      "url": "https://www.theverge.com/report/879320/ring-flock-partnership-breakup-does-not-fix-problems"
     },
     {
-      "text": "Airbnb Embraces AI for Support - **Airbnb** reports that a third of its customer support is now handled by AI.",
-      "url": "https://techcrunch.com/2026/02/13/airbnb-says-a-third-of-its-customer-support-is-now-handled-by-ai-in-the-u-s-and-canada/"
+      "text": "AI Fashion Tech Collaboration - **Alta** partners with Public School to integrate styling tools into websites.",
+      "url": "https://techcrunch.com/2026/02/14/clueless-inspired-app-alta-partners-with-brand-public-school-to-start-integrating-styling-tools-into-websites/"
     },
     {
-      "text": "India Partners with Alibaba - India's government collaborates with **Alibaba.com** to boost exports for startups.",
-      "url": "https://techcrunch.com/2026/02/13/india-partners-with-alibaba-com-for-export-push-despite-past-china-tech-bans/"
-    },
-    {
-      "text": "Claude App Rises After Super Bowl - **Anthropic's** Claude app climbs to the top 10 following successful Super Bowl ads."
-    },
-    {
-      "text": "OpenAI Retires Controversial Models - **OpenAI** removes access to several legacy models, including the controversial GPT-4o.",
-      "url": "https://techcrunch.com/2026/02/13/openai-removes-access-to-sycophancy-prone-gpt-4o-model/"
+      "text": "New AI Dating Experience - **EVA AI** cafe offers unique dating experiences with virtual companions.",
+      "url": "https://www.theverge.com/report/879327/eva-ai-cafe-dating-ai-companions"
     }
   ]
 }

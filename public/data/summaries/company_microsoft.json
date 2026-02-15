@@ -1,45 +1,45 @@
 {
-  "generatedAt": "2026-02-14T08:55:39.419Z",
+  "generatedAt": "2026-02-15T08:57:08.435Z",
   "bullets": [
     {
-      "text": "Windows 11 Insider Preview Build 28020.1611 Released - New **Sysmon** functionality enhances threat detection capabilities.",
+      "text": "Windows 11 Insider Preview Build 28020.1611 Released - New Sysmon functionality enhances threat detection capabilities.",
       "url": "https://blogs.windows.com/windows-insider/2026/02/12/announcing-windows-11-insider-preview-build-28020-1611-canary-channel/"
     },
     {
-      "text": "Interop 2026 Unveiled - **Microsoft Edge** collaborates with industry leaders for a more interoperable web.",
+      "text": "Microsoft Edge Joins Interop 2026 - Collaboration with major tech firms aims for a more interoperable web.",
       "url": "https://blogs.windows.com/msedgedev/2026/02/12/microsoft-edge-and-interop-2026/"
     },
     {
-      "text": "Top 10 Risks in Copilot Studio - **Microsoft Defender** helps detect misconfigurations in AI workflows.",
+      "text": "AI-Powered Palette Generator Launched - Pantone's new tool leverages Azure Cosmos DB for real-time color curation.",
+      "url": "https://azure.microsoft.com/en-us/blog/the-data-behind-the-design-how-pantone-built-agentic-ai-with-an-ai-ready-database/"
+    },
+    {
+      "text": "Top 10 Risks in Copilot Studio - Identifying and preventing common misconfigurations is crucial for AI security.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/02/12/copilot-studio-agent-security-top-10-risks-detect-prevent/"
     },
     {
-      "text": "RSAC 2026 Conference Insights - **Microsoft** showcases AI's impact on security at the upcoming event.",
+      "text": "Microsoft at RSAC 2026 - Insights on AI's impact on security and the future of agentic defense.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/02/12/your-complete-guide-to-microsoft-experiences-at-rsac-2026-conference/"
     },
     {
-      "text": "Agentic Cloud Operations Introduced - **Azure Copilot** enhances cloud management with AI-powered agents.",
+      "text": "Introducing Agentic Cloud Operations - New model enhances cloud management with AI-powered agents.",
       "url": "https://azure.microsoft.com/en-us/blog/agentic-cloud-operations-a-new-way-to-run-the-cloud/"
     },
     {
-      "text": "Enhanced Developer Tools on Microsoft Store - New features streamline app development and analytics.",
+      "text": "Enhanced Developer Tools on Microsoft Store - Streamlined onboarding and analytics updates improve developer experience.",
       "url": "https://blogs.windows.com/windowsdeveloper/2026/02/11/enhanced-developer-tools-on-the-microsoft-store/"
     },
     {
-      "text": "AI-Ready SIEM Buyer’s Guide - Organizations need unified platforms to manage modern cyberthreats effectively.",
+      "text": "AI-Ready SIEM Buyer’s Guide Released - Organizations urged to adopt unified platforms for modern security challenges.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/02/11/the-strategic-siem-buyers-guide-choosing-an-ai-ready-platform-for-the-agentic-era/"
     },
     {
-      "text": "Safer Online Learning in K–12 - **Microsoft Edge for Business** enhances security in educational environments.",
+      "text": "Safer Online Learning with Edge for Business - New features enhance security and management in K–12 education.",
       "url": "https://blogs.windows.com/msedgedev/2026/02/10/supporting-safer-and-scalable-online-learning-in-k-12/"
     },
     {
-      "text": "AI Recommendation Poisoning Risks - New vulnerabilities in AI systems can manipulate recommendations.",
+      "text": "AI Recommendation Poisoning Threat Identified - New trend manipulates AI memory for biased recommendations.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/02/10/ai-recommendation-poisoning/"
-    },
-    {
-      "text": "Windows Trust and Security Enhanced - New transparency measures improve user consent and app behavior.",
-      "url": "https://blogs.windows.com/windowsexperience/2026/02/09/strengthening-windows-trust-and-security-through-user-transparency-and-consent/"
     }
   ]
 }
