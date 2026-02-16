@@ -1,44 +1,43 @@
 {
-  "generatedAt": "2026-02-15T08:56:32.771Z",
+  "generatedAt": "2026-02-16T09:13:15.540Z",
   "bullets": [
     {
       "text": "5G SA Launch in Manchester - **Virgin Media O2** activates 5G SA, enhancing connectivity for over 589,000 residents.",
       "url": "https://www.rcrwireless.com/20260213/5g/virgin-media-o2-5g-sa-2"
     },
     {
-      "text": "£100m Boost for Fractile - UK government supports **Fractile**'s expansion to enhance the AI hardware ecosystem.",
+      "text": "£100M Investment in AI Chips - **Fractile** expands UK operations, boosting the AI hardware ecosystem significantly.",
       "url": "https://totaltele.com/uk-govt-celebrates-100m-expansion-of-chip-challenger-fractile/"
     },
     {
-      "text": "AI in Networking Revolution - **Intent-Based Networking** simplifies network management using AI for automated configurations.",
+      "text": "AI-Driven Network Management - Intent-Based Networking simplifies network configurations using AI and natural language processing.",
       "url": "https://www.rcrwireless.com/20260213/ai/ai-in-intent-based-networking-ibn"
     },
     {
-      "text": "Vodafone's Private 5G Insights - **Vodafone Business** reports nearly 200 private 5G deployments, aiming for enterprise-friendly solutions.",
+      "text": "Vodafone's Private 5G Progress - **Vodafone Business** reports nearly 200 private 5G deployments, aiming for enterprise-friendly solutions.",
       "url": "https://www.rcrwireless.com/20260213/private-5g/two-vodafones-private-5g-uptime"
     },
     {
-      "text": "AI-RRM Enhances Wi-Fi 7 - **AI-RRM** optimizes Wi-Fi networks in real-time, improving performance in dense environments.",
+      "text": "AI-RRM Enhances Wi-Fi 7 - AI-driven Radio Resource Management optimizes Wi-Fi networks for better performance in dense environments.",
       "url": "https://www.rcrwireless.com/20260212/fundamentals/ai-rrm-wi-fi-7"
     },
     {
-      "text": "WPA3 Security Challenges - **WPA3** adoption faces hurdles in multi-dwelling units, complicating security implementations.",
+      "text": "WPA3 Security Challenges - WPA3 adoption in multi-dwelling units faces significant interoperability and implementation issues.",
       "url": "https://www.rcrwireless.com/20260212/analyst-angle/wpa3-wi-fi-security"
     },
     {
-      "text": "Private 5G Deployment Issues - Space constraints hinder private 5G rollouts, prompting a shift to virtualized architectures.",
+      "text": "Private 5G Deployment Issues - Space constraints hinder the rollout of private 5G networks in many environments.",
       "url": "https://www.telecomstechnews.com/news/private-5g-networks-solving-the-space-and-power-problem/"
     },
     {
-      "text": "Samsung's AI-Ready Networks - **Samsung** promotes AI integration in telecoms, enabling cost-effective, flexible network solutions.",
-      "url": "https://www.telecomstechnews.com/news/samsung-turning-legacy-infrastructure-ai-ready-networks/"
-    },
-    {
-      "text": "BT Group Executive Changes - **BT Group** announces leadership changes at Openreach and BT International to drive growth.",
+      "text": "BT Group Leadership Changes - **BT Group** announces executive shifts to strengthen leadership in Openreach and BT International.",
       "url": "https://totaltele.com/bt-group-shuffles-exec-team-at-openreach-and-bt-international/"
     },
     {
-      "text": "6G's Sensing Infrastructure - Future **6G** networks may integrate sensing capabilities, transforming connectivity into situational awareness.",
+      "text": "Samsung's AI-Ready Networks - **Samsung** promotes virtualized architectures to enable AI capabilities in telecom infrastructure."
+    },
+    {
+      "text": "6G's New Role - Future networks may integrate sensing capabilities, transforming infrastructure into a data-rich environment.",
       "url": "https://www.telecomstechnews.com/news/6g-may-arrive-as-sensing-infrastructure-not-just-connectivity/"
     }
   ]

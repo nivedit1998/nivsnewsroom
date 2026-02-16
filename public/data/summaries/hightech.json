@@ -1,37 +1,44 @@
 {
-  "generatedAt": "2026-02-15T08:55:57.986Z",
+  "generatedAt": "2026-02-16T09:11:59.617Z",
   "bullets": [
     {
-      "text": "Thrilling Heist Game Unveiled - **Relooted** offers a unique narrative on reclaiming stolen artifacts from colonizers.",
-      "url": "https://www.theverge.com/games/878121/relooted-review-xbox-steam"
+      "text": "AI Pet Disappointment - **Casio's** Moflin offers companionship but fails to deliver a satisfying experience.",
+      "url": "https://www.theverge.com/gadgets/877858/life-with-casio-moflin-robot-ai-pet"
     },
     {
-      "text": "New Privacy Feature Launched - **iOS 26.3** introduces 'Limit Precise Location' to enhance user privacy.",
+      "text": "GeekBook X14 Pro Review - **Geekom's** first laptop impresses with design but disappoints in battery life.",
+      "url": "https://www.cnet.com/tech/computing/geekom-geekbook-x14-pro-review-impressively-thin-light-battery-life-disappoints/"
+    },
+    {
+      "text": "iPhone Sleep Feature - The **Background Sounds** feature on iPhones enhances sleep quality with ambient soundscapes.",
+      "url": "https://www.cnet.com/health/sleep/one-iphone-feature-helped-more-quality-sleep/"
+    },
+    {
+      "text": "Privacy in iOS 26.3 - **Apple's** new 'Limit Precise Location' feature enhances user privacy significantly.",
       "url": "https://9to5mac.com/2026/02/13/ios-26-3-adds-unique-new-privacy-feature-and-its-apple-at-its-best/"
     },
     {
-      "text": "Galaxy S26 Launch Approaches - **Samsung** hints at a potential free storage upgrade for pre-orders.",
+      "text": "Galaxy S26 Rumours - **Samsung** may offer free storage upgrades for pre-orders of the Galaxy S26 trio.",
       "url": "https://9to5google.com/2026/02/11/samsung-galaxy-s26-trio-free-storage-upgrade-at-launch-rumor/"
     },
     {
-      "text": "AI Video Generator Sparks Outrage - **Seedance 2.0** faces backlash from Hollywood for copyright concerns.",
-      "url": "https://techcrunch.com/2026/02/14/hollywood-isnt-happy-about-the-new-seedance-2-0-video-generator/"
+      "text": "AI Data Center Power - **C2i Semiconductors** aims to solve power limitations in AI data centers with innovative solutions.",
+      "url": "https://techcrunch.com/2026/02/15/as-ai-data-centers-hit-power-limits-peak-xv-backs-indian-startup-c2i-to-fix-the-bottleneck/"
     },
     {
-      "text": "India Invests in Startups - A new $1.1 billion fund aims to boost **venture capital** in deep tech sectors.",
-      "url": "https://techcrunch.com/2026/02/14/india-doubles-down-on-state-backed-venture-capital-approving-1-1b-fund/"
+      "text": "Neysa's AI Infrastructure - **Blackstone** invests in Neysa to bolster AI compute capabilities in India amid growing demand."
     },
     {
-      "text": "Dystopian Surveillance Concerns - **Ring's** new features face criticism amid fears of mass surveillance.",
-      "url": "https://www.theverge.com/report/879320/ring-flock-partnership-breakup-does-not-fix-problems"
+      "text": "OpenClaw Joins OpenAI - **Peter Steinberger**, creator of OpenClaw, joins **OpenAI** to enhance multi-agent AI interactions.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/879623/openclaw-founder-peter-steinberger-joins-openai"
     },
     {
-      "text": "AI Fashion Tech Collaboration - **Alta** partners with Public School to integrate styling tools into websites.",
-      "url": "https://techcrunch.com/2026/02/14/clueless-inspired-app-alta-partners-with-brand-public-school-to-start-integrating-styling-tools-into-websites/"
+      "text": "Hollywood vs. Seedance 2.0 - **Hollywood** protests against **ByteDance's** Seedance 2.0 for potential copyright infringements.",
+      "url": "https://techcrunch.com/2026/02/15/hollywood-isnt-happy-about-the-new-seedance-2-0-video-generator/"
     },
     {
-      "text": "New AI Dating Experience - **EVA AI** cafe offers unique dating experiences with virtual companions.",
-      "url": "https://www.theverge.com/report/879327/eva-ai-cafe-dating-ai-companions"
+      "text": "Logitech's Superstrike Mouse - **Logitech's** new gaming mouse features analog sensors for faster, customizable performance.",
+      "url": "https://www.theverge.com/tech/879221/logitech-gpro-x2-superstrike-gaming-mouse-pc-hands-on"
     }
   ]
 }
