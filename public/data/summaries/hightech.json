@@ -1,44 +1,45 @@
 {
-  "generatedAt": "2026-02-16T09:11:59.617Z",
+  "generatedAt": "2026-02-17T09:09:58.070Z",
   "bullets": [
     {
-      "text": "AI Pet Disappointment - **Casio's** Moflin offers companionship but fails to deliver a satisfying experience.",
-      "url": "https://www.theverge.com/gadgets/877858/life-with-casio-moflin-robot-ai-pet"
+      "text": "Apple's Special Experience Event - Apple is hosting a unique event in New York, London, and Shanghai on March 4.",
+      "url": "https://www.theverge.com/tech/879671/apple-special-experience-event-march-2026"
     },
     {
-      "text": "GeekBook X14 Pro Review - **Geekom's** first laptop impresses with design but disappoints in battery life.",
-      "url": "https://www.cnet.com/tech/computing/geekom-geekbook-x14-pro-review-impressively-thin-light-battery-life-disappoints/"
+      "text": "New Android Backup Feature - Android introduces a local file backup feature via **Google Drive** for enhanced document safety.",
+      "url": "https://9to5google.com/2026/02/16/android-local-file-backup/"
     },
     {
-      "text": "iPhone Sleep Feature - The **Background Sounds** feature on iPhones enhances sleep quality with ambient soundscapes.",
-      "url": "https://www.cnet.com/health/sleep/one-iphone-feature-helped-more-quality-sleep/"
+      "text": "visionOS 26.4 Launches Foveated Streaming - New **Apple** update enhances immersive content delivery on **Apple Vision Pro**.",
+      "url": "https://9to5mac.com/2026/02/16/visionos-26-4-unlocks-new-foveated-streaming-feature-for-apps-and-games/"
     },
     {
-      "text": "Privacy in iOS 26.3 - **Apple's** new 'Limit Precise Location' feature enhances user privacy significantly.",
-      "url": "https://9to5mac.com/2026/02/13/ios-26-3-adds-unique-new-privacy-feature-and-its-apple-at-its-best/"
+      "text": "iOS 26.4 Introduces Playlist Playground - **Apple Music** adds AI-driven playlist creation based on user text prompts.",
+      "url": "https://9to5mac.com/2026/02/16/ios-26-4-beta-adds-new-playlist-playground-ai-feature-in-music/"
     },
     {
-      "text": "Galaxy S26 Rumours - **Samsung** may offer free storage upgrades for pre-orders of the Galaxy S26 trio.",
+      "text": "Key Theft Prevention in iOS 26.4 - **Apple** activates Stolen Device Protection by default for enhanced security.",
+      "url": "https://9to5mac.com/2026/02/16/ios-26-4-will-activate-key-theft-prevention-feature-on-all-iphones/"
+    },
+    {
+      "text": "Apple Music & TikTok Collaboration - New features allow TikTok users to play full songs from **Apple Music**.",
+      "url": "https://9to5mac.com/2026/02/16/apple-music-and-tiktok-team-up-on-new-listening-party-feature-more/"
+    },
+    {
+      "text": "Samsung Galaxy S26 Launch Approaches - Rumors suggest a free storage upgrade for early adopters at launch.",
       "url": "https://9to5google.com/2026/02/11/samsung-galaxy-s26-trio-free-storage-upgrade-at-launch-rumor/"
     },
     {
-      "text": "AI Data Center Power - **C2i Semiconductors** aims to solve power limitations in AI data centers with innovative solutions.",
-      "url": "https://techcrunch.com/2026/02/15/as-ai-data-centers-hit-power-limits-peak-xv-backs-indian-startup-c2i-to-fix-the-bottleneck/"
+      "text": "Samsung's Privacy Display Feature - New **Galaxy S26** display technology promises enhanced privacy for users.",
+      "url": "https://www.theverge.com/gadgets/879652/samsung-galaxy-s26-privacy-display-ad-flex-magic-pixel"
     },
     {
-      "text": "Neysa's AI Infrastructure - **Blackstone** invests in Neysa to bolster AI compute capabilities in India amid growing demand."
+      "text": "Steam Deck OLED Stock Issues - **Valve**'s Steam Deck OLED faces intermittent stock shortages due to RAM crisis.",
+      "url": "https://www.theverge.com/games/879845/valve-steam-deck-oled-out-of-stock-memory-storage-ram-crisis"
     },
     {
-      "text": "OpenClaw Joins OpenAI - **Peter Steinberger**, creator of OpenClaw, joins **OpenAI** to enhance multi-agent AI interactions.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/879623/openclaw-founder-peter-steinberger-joins-openai"
-    },
-    {
-      "text": "Hollywood vs. Seedance 2.0 - **Hollywood** protests against **ByteDance's** Seedance 2.0 for potential copyright infringements.",
-      "url": "https://techcrunch.com/2026/02/15/hollywood-isnt-happy-about-the-new-seedance-2-0-video-generator/"
-    },
-    {
-      "text": "Logitech's Superstrike Mouse - **Logitech's** new gaming mouse features analog sensors for faster, customizable performance.",
-      "url": "https://www.theverge.com/tech/879221/logitech-gpro-x2-superstrike-gaming-mouse-pc-hands-on"
+      "text": "Sony's PlayStation Release Delays - **Sony** may postpone its next console release due to memory shortages.",
+      "url": "https://www.theverge.com/tech/879668/sony-playstation-nintendo-switch-2-console-memory-shortage"
     }
   ]
 }
