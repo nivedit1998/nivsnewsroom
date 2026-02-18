@@ -1,45 +1,33 @@
 {
-  "generatedAt": "2026-02-17T09:11:03.347Z",
+  "generatedAt": "2026-02-18T09:10:27.225Z",
   "bullets": [
     {
-      "text": "Windows 11 Insider Preview Released - New Sysmon functionality enhances threat detection capabilities for users.",
-      "url": "https://blogs.windows.com/windows-insider/2026/02/12/announcing-windows-11-insider-preview-build-28020-1611-canary-channel/"
+      "text": "Windows 11 Builds Released - New features and improvements rolled out for Insiders in the Release Preview Channel.",
+      "url": "https://blogs.windows.com/windows-insider/2026/02/17/releasing-windows-11-builds-26100-7918-and-26200-7918-to-the-release-preview-channel/"
     },
     {
-      "text": "Microsoft Edge Interop 2026 Unveiled - Collaboration with major tech firms aims to improve web interoperability.",
+      "text": "Windows 11 Insider Preview Update - Beta Channel receives new features and notable fixes for enhanced user experience.",
+      "url": "https://blogs.windows.com/windows-insider/2026/02/17/announcing-windows-11-insider-preview-build-26220-7859-beta-channel/"
+    },
+    {
+      "text": "MIDI 2.0 Boosts Music Creation - Windows 11 now supports enhanced MIDI capabilities for musicians and creators.",
+      "url": "https://blogs.windows.com/windowsexperience/2026/02/17/making-music-with-midi-just-got-a-real-boost-in-windows-11/"
+    },
+    {
+      "text": "Microsoft Edge Interop 2026 - Collaboration with major tech firms aims to enhance web interoperability.",
       "url": "https://blogs.windows.com/msedgedev/2026/02/12/microsoft-edge-and-interop-2026/"
     },
     {
-      "text": "Top 10 Risks in Copilot Studio - Identifying and preventing misconfigurations is crucial for AI security.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/02/12/copilot-studio-agent-security-top-10-risks-detect-prevent/"
+      "text": "AI Security in Focus - New research highlights the operational costs of fragmented security operations.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/02/17/unify-now-or-pay-later-new-research-exposes-the-operational-cost-of-a-fragmented-soc/"
     },
     {
-      "text": "Microsoft at RSAC 2026 - Insights on AI's impact on security and the future of agentic defense.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/02/12/your-complete-guide-to-microsoft-experiences-at-rsac-2026-conference/"
-    },
-    {
-      "text": "Enhanced Developer Tools in Microsoft Store - Streamlined onboarding and improved analytics for developers.",
+      "text": "Enhanced Developer Tools - Microsoft Store updates improve onboarding and analytics for developers.",
       "url": "https://blogs.windows.com/windowsdeveloper/2026/02/11/enhanced-developer-tools-on-the-microsoft-store/"
     },
     {
-      "text": "Strategic SIEM Buyer’s Guide Released - Guidance for choosing AI-ready platforms in the agentic era.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/02/11/the-strategic-siem-buyers-guide-choosing-an-ai-ready-platform-for-the-agentic-era/"
-    },
-    {
-      "text": "Safer Online Learning in K–12 - Microsoft Edge for Business enhances security and management for educational environments.",
-      "url": "https://blogs.windows.com/msedgedev/2026/02/10/supporting-safer-and-scalable-online-learning-in-k-12/"
-    },
-    {
-      "text": "App Assure Accelerates Arm Adoption - Supporting developers in Japan to optimize applications for Arm-powered PCs.",
-      "url": "https://blogs.windows.com/windowsdeveloper/2026/02/10/accelerating-arm-momentum-in-japan-with-app-assure/"
-    },
-    {
-      "text": "Secure Boot Certificate Updates - Industry collaboration ensures continued protection as certificates reach end of life.",
-      "url": "https://blogs.windows.com/windowsexperience/2026/02/10/refreshing-the-root-of-trust-industry-collaboration-on-secure-boot-certificate-updates/"
-    },
-    {
-      "text": "AI Agents in Fortune 500 - Over 80% of companies use AI agents, highlighting the need for governance and security.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/02/10/80-of-fortune-500-use-active-ai-agents-observability-governance-and-security-shape-the-new-frontier/"
+      "text": "Agentic Cloud Operations Introduced - New model enhances cloud management with AI-powered agents.",
+      "url": "https://azure.microsoft.com/en-us/blog/agentic-cloud-operations-a-new-way-to-run-the-cloud/"
     }
   ]
 }

@@ -1,45 +1,45 @@
 {
-  "generatedAt": "2026-02-17T09:10:36.573Z",
+  "generatedAt": "2026-02-18T09:10:04.422Z",
   "bullets": [
     {
-      "text": "5G SA Launch in Manchester - **Virgin Media O2** activates 5G Standalone in Manchester, enhancing connectivity for over 589,000 residents.",
+      "text": "5G SA Launch in Manchester - **Virgin Media O2** activates 5G SA, enhancing connectivity for over 589,000 residents.",
       "url": "https://www.rcrwireless.com/20260213/5g/virgin-media-o2-5g-sa-2"
     },
     {
-      "text": "Fractile's £100m Investment - UK government celebrates **Fractile**'s £100 million expansion to boost the AI hardware ecosystem.",
-      "url": "https://totaltele.com/uk-govt-celebrates-100m-expansion-of-chip-challenger-fractile/"
+      "text": "Maritime 5G SA Trials - **Ericsson** and Leonardo test 5G SA for naval operations, showcasing secure data exchange.",
+      "url": "https://www.rcrwireless.com/20260217/defense-communications/ericsson-trials-maritime-5g-sa-as-it-ramps-up-defense-push-for-2026"
     },
     {
-      "text": "Data Breach at Odido - **Odido** reports a hack compromising data of 6.2 million customers, urging vigilance.",
-      "url": "https://totaltele.com/hackers-pose-as-it-department-to-break-into-odidos-systems/"
+      "text": "AI Boosts 5G Emissions Cuts - AI solutions can significantly reduce energy emissions in 5G networks, aiding ESG goals.",
+      "url": "https://www.telecomstechnews.com/news/using-ai-to-slash-5g-emissions-hit-esg-goals/"
     },
     {
-      "text": "Trusted Tech Alliance Formed - Major tech firms, including **Ericsson**, unite to enhance transparency and trust in the tech sector.",
+      "text": "Private 5G Network Challenges - Space constraints hinder private 5G deployment, pushing for virtualized architectures.",
+      "url": "https://www.telecomstechnews.com/news/private-5g-networks-solving-the-space-and-power-problem/"
+    },
+    {
+      "text": "Trusted Tech Alliance Formed - Major tech firms, including **Google** and **Ericsson**, unite for transparency and security.",
       "url": "https://totaltele.com/global-tech-giants-combine-to-create-trusted-tech-alliance/"
     },
     {
-      "text": "AI-RRM in Wi-Fi 7 - AI-driven Radio Resource Management optimizes **Wi-Fi 7** networks for better performance in dense environments.",
-      "url": "https://www.rcrwireless.com/20260212/fundamentals/ai-rrm-wi-fi-7"
+      "text": "Telia's Nationwide 5G SA - **Telia** launches commercial 5G SA in Norway, enhancing critical application support.",
+      "url": "https://www.rcrwireless.com/20260217/5g/telia-5g-sa-norway"
     },
     {
-      "text": "Private 5G Market Insights - **Vodafone** Business reports nearly 200 private 5G deployments, showcasing market maturity.",
+      "text": "Optical Switching for Reliability - **Taara** aims for carrier-grade uptime with new optical switching technology.",
+      "url": "https://www.telecomstechnews.com/news/taara-targets-carrier-grade-uptime-with-optical-switching/"
+    },
+    {
+      "text": "6G as Sensing Infrastructure - Future networks may integrate sensing capabilities, transforming connectivity into situational awareness.",
+      "url": "https://www.telecomstechnews.com/news/6g-may-arrive-as-sensing-infrastructure-not-just-connectivity/"
+    },
+    {
+      "text": "Vodafone's Private 5G Insights - **Vodafone Business** reports nearly 200 private 5G deployments, aiming for broader enterprise solutions.",
       "url": "https://www.rcrwireless.com/20260213/private-5g/two-vodafones-private-5g-uptime"
     },
     {
-      "text": "WPA3 Security Challenges - **WPA3** adoption in multi-dwelling units faces significant deployment challenges beyond certification.",
-      "url": "https://www.rcrwireless.com/20260212/analyst-angle/wpa3-wi-fi-security"
-    },
-    {
-      "text": "América Móvil's Chile Strategy - **América Móvil** continues to invest in Chile despite challenges following **Telefónica**'s sale.",
-      "url": "https://www.rcrwireless.com/20260212/5g/america-movil-chile"
-    },
-    {
-      "text": "Telefonica's Exit from Chile - **Telefonica** sells its Chilean unit to Millicom and NJJ for $1.2 billion, marking a strategic retreat.",
-      "url": "https://totaltele.com/telefonica-makes-1-2bn-exit-from-chile/"
-    },
-    {
-      "text": "GreenMed Subsea Cable Project - **Sparkle**, ASN, and Elettra to build a new subsea cable enhancing connectivity between Europe and the Middle East.",
-      "url": "https://totaltele.com/sparkle-asn-and-elettra-to-build-greenmed-subsea-cable-in-the-mediterranean/"
+      "text": "Radcom's Revenue Growth - **RADCOM** reports 17.2% revenue growth, driven by 5G and AI demand.",
+      "url": "https://www.rcrwireless.com/20260217/test-measurement/radcoms-revenue-in-line-with-six-consecutive-years-of-growth-supported-by-heavy-demand-from-5g-and-ai"
     }
   ]
 }
