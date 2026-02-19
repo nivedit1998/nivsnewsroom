@@ -1,33 +1,45 @@
 {
-  "generatedAt": "2026-02-18T09:10:27.225Z",
+  "generatedAt": "2026-02-19T09:10:30.242Z",
   "bullets": [
     {
-      "text": "Windows 11 Builds Released - New features and improvements rolled out for Insiders in the Release Preview Channel.",
+      "text": "New Windows 11 Insider Build - A fresh update for Canary Channel Insiders with new features and experiences.",
+      "url": "https://blogs.windows.com/windows-insider/2026/02/18/announcing-new-optional-windows-11-insider-preview-build-for-canary-channel-29531-1000/"
+    },
+    {
+      "text": "Carbon Negative Milestone Achieved - **Microsoft** matches 100% of global electricity consumption with renewable energy.",
+      "url": "https://blogs.microsoft.com/blog/2026/02/18/a-milestone-achievement-in-our-journey-to-carbon-negative/"
+    },
+    {
+      "text": "Windows 11 Builds Released - New features and improvements rolled out for Release Preview Channel Insiders.",
       "url": "https://blogs.windows.com/windows-insider/2026/02/17/releasing-windows-11-builds-26100-7918-and-26200-7918-to-the-release-preview-channel/"
     },
     {
-      "text": "Windows 11 Insider Preview Update - Beta Channel receives new features and notable fixes for enhanced user experience.",
+      "text": "Beta Channel Update Announced - New features and improvements in Windows 11 Insider Preview Build 26220.7859.",
       "url": "https://blogs.windows.com/windows-insider/2026/02/17/announcing-windows-11-insider-preview-build-26220-7859-beta-channel/"
     },
     {
-      "text": "MIDI 2.0 Boosts Music Creation - Windows 11 now supports enhanced MIDI capabilities for musicians and creators.",
+      "text": "MIDI 2.0 Boost for Windows 11 - Enhanced MIDI capabilities now available for musicians and developers.",
       "url": "https://blogs.windows.com/windowsexperience/2026/02/17/making-music-with-midi-just-got-a-real-boost-in-windows-11/"
     },
     {
-      "text": "Microsoft Edge Interop 2026 - Collaboration with major tech firms aims to enhance web interoperability.",
-      "url": "https://blogs.windows.com/msedgedev/2026/02/12/microsoft-edge-and-interop-2026/"
+      "text": "Azure Reliability Insights - New guidance on reliability, resiliency, and recoverability for cloud systems.",
+      "url": "https://azure.microsoft.com/en-us/blog/azure-reliability-resiliency-and-recoverability-build-continuity-by-design/"
     },
     {
-      "text": "AI Security in Focus - New research highlights the operational costs of fragmented security operations.",
+      "text": "Unify SOC Operations - New research highlights the costs of fragmented security operations centers.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/02/17/unify-now-or-pay-later-new-research-exposes-the-operational-cost-of-a-fragmented-soc/"
     },
     {
-      "text": "Enhanced Developer Tools - Microsoft Store updates improve onboarding and analytics for developers.",
-      "url": "https://blogs.windows.com/windowsdeveloper/2026/02/11/enhanced-developer-tools-on-the-microsoft-store/"
+      "text": "Claude Sonnet 4.6 Released - New AI capabilities in **Microsoft Foundry** for enterprise developers.",
+      "url": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/claude-sonnet-4-6-in-microsoft-foundry-frontier-performance-for-scale/4494873"
     },
     {
-      "text": "Agentic Cloud Operations Introduced - New model enhances cloud management with AI-powered agents.",
-      "url": "https://azure.microsoft.com/en-us/blog/agentic-cloud-operations-a-new-way-to-run-the-cloud/"
+      "text": "Windows Insider Preview Build 28020.1611 - New features and improvements for Canary Channel Insiders.",
+      "url": "https://blogs.windows.com/windows-insider/2026/02/12/announcing-windows-11-insider-preview-build-28020-1611-canary-channel/"
+    },
+    {
+      "text": "Microsoft Edge Interop 2026 - Collaboration with major tech players to enhance web interoperability.",
+      "url": "https://blogs.windows.com/msedgedev/2026/02/12/microsoft-edge-and-interop-2026/"
     }
   ]
 }
