@@ -1,45 +1,37 @@
 {
-  "generatedAt": "2026-02-19T09:10:30.242Z",
+  "generatedAt": "2026-02-20T09:05:31.654Z",
   "bullets": [
     {
-      "text": "New Windows 11 Insider Build - A fresh update for Canary Channel Insiders with new features and experiences.",
+      "text": "Proactive Defense Guide Released - **Microsoft** unveils a new e-book on enhancing security through exposure management maturity.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/02/19/new-e-book-establishing-a-proactive-defense-with-microsoft-security-exposure-management/"
+    },
+    {
+      "text": "OpenClaw Security Risks Highlighted - New insights reveal significant risks associated with deploying **OpenClaw** in unguarded environments.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/02/19/running-openclaw-safely-identity-isolation-runtime-risk/"
+    },
+    {
+      "text": "Windows 11 Insider Preview Update - New optional build 29531.1000 released for **Windows 11** Insider Canary Channel users.",
       "url": "https://blogs.windows.com/windows-insider/2026/02/18/announcing-new-optional-windows-11-insider-preview-build-for-canary-channel-29531-1000/"
     },
     {
-      "text": "Carbon Negative Milestone Achieved - **Microsoft** matches 100% of global electricity consumption with renewable energy.",
+      "text": "Carbon Negative Milestone Achieved - **Microsoft** successfully matches 100% of its electricity consumption with renewable energy by 2025.",
       "url": "https://blogs.microsoft.com/blog/2026/02/18/a-milestone-achievement-in-our-journey-to-carbon-negative/"
     },
     {
-      "text": "Windows 11 Builds Released - New features and improvements rolled out for Release Preview Channel Insiders.",
+      "text": "Windows 11 Builds Released - **Microsoft** announces new builds 26100.7918 and 26200.7918 for the Release Preview Channel.",
       "url": "https://blogs.windows.com/windows-insider/2026/02/17/releasing-windows-11-builds-26100-7918-and-26200-7918-to-the-release-preview-channel/"
     },
     {
-      "text": "Beta Channel Update Announced - New features and improvements in Windows 11 Insider Preview Build 26220.7859.",
+      "text": "New Insider Preview Build Launched - **Windows 11** Insider Preview Build 26220.7859 now available in the Beta Channel.",
       "url": "https://blogs.windows.com/windows-insider/2026/02/17/announcing-windows-11-insider-preview-build-26220-7859-beta-channel/"
     },
     {
-      "text": "MIDI 2.0 Boost for Windows 11 - Enhanced MIDI capabilities now available for musicians and developers.",
+      "text": "MIDI Support Enhanced in Windows 11 - **Windows 11** now supports both MIDI 1.0 and 2.0, boosting music production capabilities.",
       "url": "https://blogs.windows.com/windowsexperience/2026/02/17/making-music-with-midi-just-got-a-real-boost-in-windows-11/"
     },
     {
-      "text": "Azure Reliability Insights - New guidance on reliability, resiliency, and recoverability for cloud systems.",
-      "url": "https://azure.microsoft.com/en-us/blog/azure-reliability-resiliency-and-recoverability-build-continuity-by-design/"
-    },
-    {
-      "text": "Unify SOC Operations - New research highlights the costs of fragmented security operations centers.",
+      "text": "SOC Fragmentation Costs Revealed - New research from **Microsoft** highlights the operational costs of fragmented security operations.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/02/17/unify-now-or-pay-later-new-research-exposes-the-operational-cost-of-a-fragmented-soc/"
-    },
-    {
-      "text": "Claude Sonnet 4.6 Released - New AI capabilities in **Microsoft Foundry** for enterprise developers.",
-      "url": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/claude-sonnet-4-6-in-microsoft-foundry-frontier-performance-for-scale/4494873"
-    },
-    {
-      "text": "Windows Insider Preview Build 28020.1611 - New features and improvements for Canary Channel Insiders.",
-      "url": "https://blogs.windows.com/windows-insider/2026/02/12/announcing-windows-11-insider-preview-build-28020-1611-canary-channel/"
-    },
-    {
-      "text": "Microsoft Edge Interop 2026 - Collaboration with major tech players to enhance web interoperability.",
-      "url": "https://blogs.windows.com/msedgedev/2026/02/12/microsoft-edge-and-interop-2026/"
     }
   ]
 }
