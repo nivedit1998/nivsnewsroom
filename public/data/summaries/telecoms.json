@@ -1,45 +1,29 @@
 {
-  "generatedAt": "2026-02-20T09:05:10.362Z",
+  "generatedAt": "2026-02-25T09:14:06.561Z",
   "bullets": [
     {
-      "text": "AI Revolutionising Telecoms - **Nvidia**'s report shows 90% of telcos see revenue boosts from AI investments.",
-      "url": "https://www.rcrwireless.com/20260219/ai/nvidia-ai-telco"
+      "text": "Mobile Boost Creates 49,000 Businesses - **VodafoneThree** research shows improved connectivity could add £6.6bn to the UK economy.",
+      "url": "https://totaltele.com/mobile-boost-could-create-49000-new-businesses-says-vodafonethree/"
     },
     {
-      "text": "D2D Services Under Scrutiny - Experts question the commercial viability of **D2D** connectivity despite growing interest.",
-      "url": "https://www.rcrwireless.com/20260219/network-infrastructure/d2d-services-can-the-economics-catch-up-to-the-hype"
+      "text": "Agentic AI Optimizes 5G at Sea - **BubbleRAN** and **Telenor** launch AI-driven network optimization for maritime connectivity.",
+      "url": "https://totaltele.com/agentic-ai-optimising-private-5g-live-at-sea/"
     },
     {
-      "text": "Complexities of Open RAN - **Open RAN** deployment poses significant operational challenges for telecom operators.",
-      "url": "https://www.rcrwireless.com/20260219/open_ran/complexities-open-ran"
-    },
-    {
-      "text": "Bipartisan Satellite Bill Approved - New legislation aims to expedite **FCC** satellite licensing processes.",
-      "url": "https://www.rcrwireless.com/20260218/network-infrastructure/a-new-bipartisan-bill-that-seeks-to-eliminate-fccs-satellite-licensing-delays-wins-unanimous-approval-in-senate-commerce"
-    },
-    {
-      "text": "5G Network Upgrade at Silverstone - **Boldyn** enhances connectivity at the iconic motorsport venue with 5G.",
+      "text": "Boldyn Upgrades Silverstone's 5G Network - New high-capacity 5G network enhances connectivity for fans and teams at **Silverstone**.",
       "url": "https://totaltele.com/boldyn-puts-pedal-to-the-metal-with-silverstones-5g-network/"
     },
     {
-      "text": "Optical Switching for Reliability - **Taara** targets carrier-grade uptime with innovative optical switching technology.",
-      "url": "https://www.telecomstechnews.com/news/taara-targets-carrier-grade-uptime-with-optical-switching/"
+      "text": "Telefónica Launches Edge Computing Services - **Telefónica** activates B2B edge services in Spain, enhancing local data processing.",
+      "url": "https://totaltele.com/telefonica-begins-offering-edge-computing-services-in-spain/"
     },
     {
-      "text": "Data Breach at Odido - **Odido** confirms hack compromising data of 6.2 million customers.",
-      "url": "https://totaltele.com/hackers-pose-as-it-department-to-break-into-odidos-systems/"
-    },
-    {
-      "text": "Trusted Tech Alliance Formed - Major tech firms, including **Google** and **Ericsson**, unite for transparency in tech.",
-      "url": "https://totaltele.com/global-tech-giants-combine-to-create-trusted-tech-alliance/"
-    },
-    {
-      "text": "AI Driving 6G Planning - AI's influence reshapes future **6G** network designs to accommodate evolving demands.",
+      "text": "AI Reshapes 6G Network Planning - AI's role in future **6G** networks is crucial for adapting to evolving service demands.",
       "url": "https://www.telecomstechnews.com/news/why-ai-is-altering-planning-for-6g-mobile-networks/"
     },
     {
-      "text": "AI to Surge WAN Traffic - **Nokia** forecasts a 700% increase in WAN traffic driven by AI by 2034.",
-      "url": "https://www.rcrwireless.com/20260218/ai/ai-traffic-nokia"
+      "text": "Ericsson's AI Network Optimization Live - **Ericsson** launches AI-powered services to enhance network autonomy and efficiency.",
+      "url": "https://www.telecomstechnews.com/news/ericcsons-ai-network-optimisation-on-aws-launches/"
     }
   ]
 }

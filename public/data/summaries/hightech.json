@@ -1,45 +1,37 @@
 {
-  "generatedAt": "2026-02-20T09:04:18.971Z",
+  "generatedAt": "2026-02-25T09:13:13.583Z",
   "bullets": [
     {
-      "text": "AI Security Nightmare Unveiled - A hacker exploited **Cline** to install **OpenClaw**, highlighting vulnerabilities in AI tools.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/881574/cline-openclaw-prompt-injection-hack"
+      "text": "Wayve Raises $1.2B - **Wayve** secures major funding from **Nvidia**, **Uber**, and automakers for self-driving tech.",
+      "url": "https://techcrunch.com/2026/02/24/self-driving-tech-startup-wayve-raises-1-2b-from-nvidia-uber-and-three-automakers/"
     },
     {
-      "text": "Samsung's One UI 8.5 Beta - New **Bixby** features are rolling out, enhancing user experience for **Galaxy S25** owners.",
-      "url": "https://9to5google.com/2026/02/19/samsung-nearing-one-ui-8-5-new-bixby-release-with-its-latest-beta-update/"
+      "text": "Age Verification Rollout Delayed - **Discord** postpones global age verification amid user backlash.",
+      "url": "https://techcrunch.com/2026/02/24/discord-delays-global-rollout-of-age-verification-after-backlash/"
     },
     {
-      "text": "Apple's March Launch Rumours - Anticipation builds for multiple product announcements without a keynote event.",
-      "url": "https://9to5mac.com/2026/02/17/apples-march-launch-may-include-multiple-days-of-press-releases-with-no-keynote-per-rumor/"
+      "text": "Apple's Age Verification Tools - **Apple** launches age verification features to comply with new laws globally.",
+      "url": "https://techcrunch.com/2026/02/24/apple-rolls-out-age-verification-tools-worldwide-to-comply-with-growing-web-of-child-safety-laws/"
     },
     {
-      "text": "Reddit Tests AI Shopping Tool - A new feature matches community recommendations with products from partners.",
-      "url": "https://techcrunch.com/2026/02/19/reddit-is-testing-a-new-ai-search-feature-for-shopping/"
+      "text": "Samsung's Galaxy S26 Launch - Anticipation builds as **Samsung** prepares to unveil the **Galaxy S26** series.",
+      "url": "https://www.theverge.com/gadgets/883686/samsung-galaxy-s26-plus-ultra-reserve-preorder-unpacked-deal-sale"
     },
     {
-      "text": "Ring's Controversial Surveillance - A leaked email confirms plans to use **Ring** for human identification, sparking backlash.",
-      "url": "https://9to5mac.com/2026/02/19/leaked-email-proves-ring-intended-to-use-surveillance-feature-for-people/"
+      "text": "Uber Expands into Parking - **Uber** acquires **SpotHero** to enhance parking reservation services.",
+      "url": "https://www.cnet.com/roadshow/news/uber-buys-spothero-adding-parking-reservations/"
     },
     {
-      "text": "Apple Music & TikTok Collaboration - New features allow users to enjoy full songs and host listening parties.",
-      "url": "https://9to5mac.com/2026/02/16/apple-music-and-tiktok-team-up-on-new-listening-party-feature-more/"
+      "text": "YouTube Premium Lite Enhancements - **YouTube** adds background play and downloads to its Premium Lite plan.",
+      "url": "https://www.cnet.com/tech/services-and-software/youtube-adds-background-play-and-downloads-to-premium-lite-plan/"
     },
     {
-      "text": "YouTube Expands AI Tool to TVs - Users can now interact with a conversational AI while watching videos.",
-      "url": "https://techcrunch.com/2026/02/19/youtubes-latest-experiment-brings-its-conversational-ai-tool-to-tvs/"
+      "text": "Nvidia Challenger Raises $500M - **MatX**, an AI chip startup, secures funding to compete with **Nvidia**.",
+      "url": "https://techcrunch.com/2026/02/24/nvidia-challenger-ai-chip-startup-matx-raised-500m/"
     },
     {
-      "text": "Texas Sues TP-Link Over China Ties - Allegations claim the company misleads customers about its connections to China.",
-      "url": "https://www.theverge.com/tech/881500/texas-tp-link-china-lawsuit-anzu-robotics"
-    },
-    {
-      "text": "Nvidia's AI Startup Push in India - The company deepens its engagement with early-stage AI startups in the region.",
-      "url": "https://techcrunch.com/2026/02/19/nvidia-deepens-early-stage-push-into-indias-ai-startup-ecosystem/"
-    },
-    {
-      "text": "ATM Jackpotting Attacks Surge - The FBI reports a rise in ATM jackpotting, netting hackers millions.",
-      "url": "https://techcrunch.com/2026/02/19/fbi-says-atm-jackpotting-attacks-are-on-the-rise-and-netting-hackers-millions-in-stolen-cash/"
+      "text": "Google's Clean Energy Initiative - **Google** announces a massive clean energy deal for its new data center.",
+      "url": "https://techcrunch.com/2026/02/24/googles-new-1-9gw-clean-energy-deal-includes-massive-100-hour-battery/"
     }
   ]
 }
