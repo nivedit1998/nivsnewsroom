@@ -1,29 +1,36 @@
 {
-  "generatedAt": "2026-02-25T09:14:06.561Z",
+  "generatedAt": "2026-02-26T09:11:53.199Z",
   "bullets": [
     {
-      "text": "Mobile Boost Creates 49,000 Businesses - **VodafoneThree** research shows improved connectivity could add £6.6bn to the UK economy.",
+      "text": "Mobile Boost Creates 49,000 Businesses - **VodafoneThree** research indicates improved connectivity could add £6.6bn to the UK economy.",
       "url": "https://totaltele.com/mobile-boost-could-create-49000-new-businesses-says-vodafonethree/"
     },
     {
-      "text": "Agentic AI Optimizes 5G at Sea - **BubbleRAN** and **Telenor** launch AI-driven network optimization for maritime connectivity.",
-      "url": "https://totaltele.com/agentic-ai-optimising-private-5g-live-at-sea/"
+      "text": "AI-Native Networks Emerge - **SK Telecom** outlines its strategy for integrating AI into future 6G networks.",
+      "url": "https://www.rcrwireless.com/20260224/carriers/sk-telecom-ai-network"
     },
     {
-      "text": "Boldyn Upgrades Silverstone's 5G Network - New high-capacity 5G network enhances connectivity for fans and teams at **Silverstone**.",
-      "url": "https://totaltele.com/boldyn-puts-pedal-to-the-metal-with-silverstones-5g-network/"
+      "text": "Cargill Scales Private 5G - Cargill expands private 5G to 50 sites, enhancing connectivity across its operations.",
+      "url": "https://www.rcrwireless.com/20260225/private-5g/cargill-private-5g-infrastructure"
     },
     {
-      "text": "Telefónica Launches Edge Computing Services - **Telefónica** activates B2B edge services in Spain, enhancing local data processing.",
-      "url": "https://totaltele.com/telefonica-begins-offering-edge-computing-services-in-spain/"
+      "text": "Samsung and Orange Expand RAN - The partnership aims to increase vRAN and Open RAN deployments across Europe.",
+      "url": "https://www.rcrwireless.com/20260225/carriers/samsung-orange-vran"
     },
     {
-      "text": "AI Reshapes 6G Network Planning - AI's role in future **6G** networks is crucial for adapting to evolving service demands.",
+      "text": "5G Standalone Transformation - **Ericsson** highlights the imminent benefits of 5G Standalone for UK mobile networks.",
+      "url": "https://totaltele.com/5g-standalone-slicing-and-the-path-to-network-monetisaton/"
+    },
+    {
+      "text": "AI Reshapes Network Planning - AI's influence on 6G planning emphasizes flexibility to accommodate evolving demands.",
       "url": "https://www.telecomstechnews.com/news/why-ai-is-altering-planning-for-6g-mobile-networks/"
     },
     {
-      "text": "Ericsson's AI Network Optimization Live - **Ericsson** launches AI-powered services to enhance network autonomy and efficiency.",
-      "url": "https://www.telecomstechnews.com/news/ericcsons-ai-network-optimisation-on-aws-launches/"
+      "text": "Telefónica Launches Edge Services - **Telefónica** activates Edge Computing services across five Spanish cities.",
+      "url": "https://totaltele.com/telefonica-begins-offering-edge-computing-services-in-spain/"
+    },
+    {
+      "text": "Google's $15B Subsea Cable - **Google** plans a major subsea cable to enhance AI infrastructure and connectivity."
     }
   ]
 }

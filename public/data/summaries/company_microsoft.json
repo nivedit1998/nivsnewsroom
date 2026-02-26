@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-02-25T09:14:24.631Z",
+  "generatedAt": "2026-02-26T09:12:11.710Z",
   "bullets": [
     {
-      "text": "Sovereign Cloud Expansion - **Microsoft** enhances its Sovereign Cloud with new capabilities for secure AI operations, even offline.",
+      "text": "Sovereign Cloud Innovations - **Microsoft** enhances its Sovereign Cloud with new capabilities for secure AI operations in disconnected environments.",
       "url": "https://blogs.microsoft.com/blog/2026/02/24/microsoft-sovereign-cloud-adds-governance-productivity-and-support-for-large-ai-models-securely-running-even-when-completely-disconnected/"
     },
     {
-      "text": "Asha Sharma Takes Charge - **Microsoft** appoints Asha Sharma as EVP and CEO of **Microsoft Gaming**, marking a new leadership era.",
+      "text": "New Leadership in Gaming - **Asha Sharma** appointed as EVP and CEO of **Microsoft Gaming**, marking a new era for the division.",
       "url": "https://blogs.microsoft.com/blog/2026/02/20/asha-sharma-named-evp-and-ceo-microsoft-gaming/"
     },
     {
-      "text": "Windows 11 Insider Updates - New **Windows 11** Insider Preview builds released, enhancing features and user experience.",
+      "text": "Windows 11 Insider Updates - New builds released for **Windows 11** Insider Program, enhancing user experience and functionality.",
       "url": "https://blogs.windows.com/windows-insider/2026/02/20/announcing-windows-11-insider-preview-build-26220-7872-beta-channel/"
     },
     {
-      "text": "Carbon Negative Milestone - **Microsoft** achieves its goal of matching 100% of global electricity consumption with renewable energy by 2025.",
-      "url": "https://blogs.microsoft.com/blog/2026/02/18/a-milestone-achievement-in-our-journey-to-carbon-negative/"
+      "text": "Proactive Security Management - New e-book released by **Microsoft** focusing on enhancing exposure management for better security.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/02/19/new-e-book-establishing-a-proactive-defense-with-microsoft-security-exposure-management/"
     },
     {
-      "text": "Budget Bytes Initiative - **Microsoft** launches Budget Bytes, empowering developers to create AI apps affordably on **Azure**.",
-      "url": "https://devblogs.microsoft.com/azure-sql/introducing-budget-bytes/"
+      "text": "Developer Security Threats - **Microsoft Defender** uncovers a campaign targeting developers through malicious **Next.js** repositories.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/02/24/c2-developer-targeting-campaign/"
     }
   ]
 }
