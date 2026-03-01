@@ -1,36 +1,37 @@
 {
-  "generatedAt": "2026-02-26T09:11:53.199Z",
+  "generatedAt": "2026-03-01T08:53:54.706Z",
   "bullets": [
     {
-      "text": "Mobile Boost Creates 49,000 Businesses - **VodafoneThree** research indicates improved connectivity could add £6.6bn to the UK economy.",
+      "text": "Mobile Boost for UK Economy - Improved connectivity could create 49,000 businesses and add £6.6bn annually, says **VodafoneThree**.",
       "url": "https://totaltele.com/mobile-boost-could-create-49000-new-businesses-says-vodafonethree/"
     },
     {
-      "text": "AI-Native Networks Emerge - **SK Telecom** outlines its strategy for integrating AI into future 6G networks.",
-      "url": "https://www.rcrwireless.com/20260224/carriers/sk-telecom-ai-network"
+      "text": "TalkTalk Business Independence - **TalkTalk Business** completes separation from parent, enhancing its autonomy and growth potential.",
+      "url": "https://totaltele.com/talktalk-business-formally-separates-from-parent-business/"
     },
     {
-      "text": "Cargill Scales Private 5G - Cargill expands private 5G to 50 sites, enhancing connectivity across its operations.",
-      "url": "https://www.rcrwireless.com/20260225/private-5g/cargill-private-5g-infrastructure"
+      "text": "O2 Satellite Service Launched - **Virgin Media O2** introduces satellite-to-mobile service, boosting coverage to 95% across the UK.",
+      "url": "https://totaltele.com/vmo2-lauches-starlink-backed-o2-satellite-service/"
     },
     {
-      "text": "Samsung and Orange Expand RAN - The partnership aims to increase vRAN and Open RAN deployments across Europe.",
-      "url": "https://www.rcrwireless.com/20260225/carriers/samsung-orange-vran"
+      "text": "Data Sovereignty in Cloud Calling - **BT** unveils Sovereign Voice to ensure compliance with local regulations for cloud communications.",
+      "url": "https://www.telecomstechnews.com/news/cloud-calling-data-sovereignty-secures-business-operations/"
     },
     {
-      "text": "5G Standalone Transformation - **Ericsson** highlights the imminent benefits of 5G Standalone for UK mobile networks.",
+      "text": "6G Strategy Unveiled by ZTE - **ZTE** outlines its vision for 6G, focusing on AI integration and space-air-ground network convergence.",
+      "url": "https://www.rcrwireless.com/20260228/6g/zte-6g-strategy-gigamimo"
+    },
+    {
+      "text": "Agentic AI in Network Optimization - New AI solutions are enhancing network performance and reliability in challenging environments.",
+      "url": "https://totaltele.com/agentic-ai-optimising-private-5g-live-at-sea/"
+    },
+    {
+      "text": "Orange and Samsung Expand Open RAN - **Orange** and **Samsung** enhance their partnership to grow Open RAN deployments in Europe.",
+      "url": "https://www.telecomstechnews.com/news/orange-and-samsung-european-open-ran-networks/"
+    },
+    {
+      "text": "5G Standalone Transformation Ahead - **Ericsson** highlights the imminent benefits of 5G SA for UK mobile networks and customer experience.",
       "url": "https://totaltele.com/5g-standalone-slicing-and-the-path-to-network-monetisaton/"
-    },
-    {
-      "text": "AI Reshapes Network Planning - AI's influence on 6G planning emphasizes flexibility to accommodate evolving demands.",
-      "url": "https://www.telecomstechnews.com/news/why-ai-is-altering-planning-for-6g-mobile-networks/"
-    },
-    {
-      "text": "Telefónica Launches Edge Services - **Telefónica** activates Edge Computing services across five Spanish cities.",
-      "url": "https://totaltele.com/telefonica-begins-offering-edge-computing-services-in-spain/"
-    },
-    {
-      "text": "Google's $15B Subsea Cable - **Google** plans a major subsea cable to enhance AI infrastructure and connectivity."
     }
   ]
 }

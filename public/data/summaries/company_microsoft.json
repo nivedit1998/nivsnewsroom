@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-02-26T09:12:11.710Z",
+  "generatedAt": "2026-03-01T08:54:08.899Z",
   "bullets": [
     {
-      "text": "Sovereign Cloud Innovations - **Microsoft** enhances its Sovereign Cloud with new capabilities for secure AI operations in disconnected environments.",
+      "text": "Windows 11 Insider Preview Updates - New builds enhance security and user experience across channels.",
+      "url": "https://blogs.windows.com/windows-insider/2026/02/27/announcing-windows-11-insider-preview-build-28020-1673-canary-channel/"
+    },
+    {
+      "text": "Microsoft and OpenAI Partnership - Collaboration continues to advance AI responsibly and innovatively.",
+      "url": "https://blogs.microsoft.com/blog/2026/02/27/microsoft-and-openai-joint-statement-on-continuing-partnership/"
+    },
+    {
+      "text": "New Cloud PC Devices - Microsoft unveils devices designed for seamless Windows 365 integration.",
+      "url": "https://blogs.windows.com/windowsexperience/2026/02/26/announcing-new-cloud-pc-devices-designed-for-windows-365/"
+    },
+    {
+      "text": "AI Threat Modeling Insights - New approaches needed for risk assessment in AI systems.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/02/26/threat-modeling-ai-applications/"
+    },
+    {
+      "text": "Microsoft Sovereign Cloud Updates - Enhanced capabilities for secure, disconnected AI operations.",
       "url": "https://blogs.microsoft.com/blog/2026/02/24/microsoft-sovereign-cloud-adds-governance-productivity-and-support-for-large-ai-models-securely-running-even-when-completely-disconnected/"
-    },
-    {
-      "text": "New Leadership in Gaming - **Asha Sharma** appointed as EVP and CEO of **Microsoft Gaming**, marking a new era for the division.",
-      "url": "https://blogs.microsoft.com/blog/2026/02/20/asha-sharma-named-evp-and-ceo-microsoft-gaming/"
-    },
-    {
-      "text": "Windows 11 Insider Updates - New builds released for **Windows 11** Insider Program, enhancing user experience and functionality.",
-      "url": "https://blogs.windows.com/windows-insider/2026/02/20/announcing-windows-11-insider-preview-build-26220-7872-beta-channel/"
-    },
-    {
-      "text": "Proactive Security Management - New e-book released by **Microsoft** focusing on enhancing exposure management for better security.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/02/19/new-e-book-establishing-a-proactive-defense-with-microsoft-security-exposure-management/"
-    },
-    {
-      "text": "Developer Security Threats - **Microsoft Defender** uncovers a campaign targeting developers through malicious **Next.js** repositories.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/02/24/c2-developer-targeting-campaign/"
     }
   ]
 }
