@@ -1,37 +1,45 @@
 {
-  "generatedAt": "2026-03-01T08:53:54.706Z",
+  "generatedAt": "2026-03-03T09:07:03.003Z",
   "bullets": [
     {
-      "text": "Mobile Boost for UK Economy - Improved connectivity could create 49,000 businesses and add £6.6bn annually, says **VodafoneThree**.",
-      "url": "https://totaltele.com/mobile-boost-could-create-49000-new-businesses-says-vodafonethree/"
+      "text": "Charter's $34.5B Acquisition Approved - **Charter Communications** acquires **Cox Enterprises** assets, promising enhanced network access and lower prices.",
+      "url": "https://totaltele.com/fcc-approves-charters-34-5b-acquisition-of-cox-key-details/"
     },
     {
-      "text": "TalkTalk Business Independence - **TalkTalk Business** completes separation from parent, enhancing its autonomy and growth potential.",
-      "url": "https://totaltele.com/talktalk-business-formally-separates-from-parent-business/"
-    },
-    {
-      "text": "O2 Satellite Service Launched - **Virgin Media O2** introduces satellite-to-mobile service, boosting coverage to 95% across the UK.",
+      "text": "O2 Satellite Service Launched - **Virgin Media O2** introduces **O2 Satellite**, enhancing UK mobile connectivity in remote areas.",
       "url": "https://totaltele.com/vmo2-lauches-starlink-backed-o2-satellite-service/"
     },
     {
-      "text": "Data Sovereignty in Cloud Calling - **BT** unveils Sovereign Voice to ensure compliance with local regulations for cloud communications.",
-      "url": "https://www.telecomstechnews.com/news/cloud-calling-data-sovereignty-secures-business-operations/"
+      "text": "TalkTalk Business Becomes Independent - **TalkTalk Business** completes its separation, aiming for accelerated growth as a standalone provider.",
+      "url": "https://totaltele.com/talktalk-business-formally-separates-from-parent-business/"
     },
     {
-      "text": "6G Strategy Unveiled by ZTE - **ZTE** outlines its vision for 6G, focusing on AI integration and space-air-ground network convergence.",
-      "url": "https://www.rcrwireless.com/20260228/6g/zte-6g-strategy-gigamimo"
+      "text": "Deutsche Telekom Expands 5G Coverage - **Deutsche Telekom** targets 95% 5G coverage in Europe, adding over 1 million fiber homes in 2026.",
+      "url": "https://www.rcrwireless.com/20260302/5g/deutsche-telekom-5g-2"
     },
     {
-      "text": "Agentic AI in Network Optimization - New AI solutions are enhancing network performance and reliability in challenging environments.",
+      "text": "Lumen's AI Infrastructure Strategy - **Lumen Technologies** repositions as critical infrastructure for the AI economy, focusing on data center connectivity.",
+      "url": "https://www.rcrwireless.com/20260227/network-infrastructure/lumen-ai-corridors"
+    },
+    {
+      "text": "TIM Tests Quantum-Safe Connections - **TIM** successfully tests quantum key distribution for secure data transmission between data centers.",
+      "url": "https://totaltele.com/tim-tests-quantum-safe-connection-between-two-data-centres/"
+    },
+    {
+      "text": "Nokia's AI Network Evolution - **Nokia** emphasizes the need for networks to adapt to AI workloads, moving towards programmable architectures.",
+      "url": "https://www.rcrwireless.com/20260302/network-infrastructure/ai-nokia-structural-reset"
+    },
+    {
+      "text": "Agentic AI Optimizes Maritime Networks - **BubbleRAN** and **Telenor** launch AI-driven network optimization for enhanced connectivity at sea.",
       "url": "https://totaltele.com/agentic-ai-optimising-private-5g-live-at-sea/"
     },
     {
-      "text": "Orange and Samsung Expand Open RAN - **Orange** and **Samsung** enhance their partnership to grow Open RAN deployments in Europe.",
-      "url": "https://www.telecomstechnews.com/news/orange-and-samsung-european-open-ran-networks/"
+      "text": "Qualcomm's Wi-Fi 8 for AI - **Qualcomm** unveils Wi-Fi 8 infrastructure to support AI-driven connectivity demands across devices.",
+      "url": "https://www.rcrwireless.com/20260302/ai-ml/qualcomm-ai-wi-fi-8"
     },
     {
-      "text": "5G Standalone Transformation Ahead - **Ericsson** highlights the imminent benefits of 5G SA for UK mobile networks and customer experience.",
-      "url": "https://totaltele.com/5g-standalone-slicing-and-the-path-to-network-monetisaton/"
+      "text": "Orange and Samsung Expand RAN Partnership - **Orange** and **Samsung** enhance their collaboration on vRAN and Open RAN in Europe.",
+      "url": "https://totaltele.com/orange-and-samsung-expand-open-ran-and-vran-partnership/"
     }
   ]
 }

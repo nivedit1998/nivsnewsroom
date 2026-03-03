@@ -1,37 +1,45 @@
 {
-  "generatedAt": "2026-03-01T08:52:53.850Z",
+  "generatedAt": "2026-03-03T09:06:17.211Z",
   "bullets": [
     {
-      "text": "UK Age Verification Bug Fixed - **Apple** clarifies that the age verification prompt in iOS 26.4 beta 2 was an error.",
+      "text": "AI Art Not Copyrightable - **US Supreme Court** declines to review ruling on AI-generated art copyright.",
+      "url": "https://www.theverge.com/policy/887678/supreme-court-ai-art-copyright"
+    },
+    {
+      "text": "Apple's Age Verification Bug - **Apple** clarifies UK age verification prompt in iOS 26.4 beta was an error.",
       "url": "https://9to5mac.com/2026/02/27/apple-says-uk-age-verification-message-in-ios-26-4-beta-2-was-a-bug/"
     },
     {
-      "text": "Spotify Expands Audiobook Charts - **Spotify** launches new Audiobook Charts for users in the UK to discover titles.",
+      "text": "Spotify's Audiobook Charts - **Spotify** launches new discovery feature for audiobooks in the UK and US.",
       "url": "https://9to5mac.com/2026/02/27/spotify-pushing-further-into-books-with-audiobook-charts-discovery-feature/"
     },
     {
-      "text": "iOS 26.4 Enhances Reminders - **Apple** adds a dedicated smart list for 'Urgent' reminders in the latest iOS update.",
-      "url": "https://9to5mac.com/2026/02/27/ios-26-4-gives-reminders-best-new-feature-the-one-thing-it-was-missing/"
+      "text": "Cursor's Revenue Surge - **Cursor** surpasses $2 billion in annualized revenue amid rising competition.",
+      "url": "https://techcrunch.com/2026/03/02/cursor-has-reportedly-surpassed-2b-in-annualized-revenue/"
     },
     {
-      "text": "Xiaomi Unveils 17 Ultra - **Xiaomi** launches its flagship 17 Ultra smartphone with advanced camera features at MWC 2026.",
-      "url": "https://techcrunch.com/2026/02/28/xiaomi-launches-17-ultra-smartphone-an-airtag-clone-and-an-ultra-slim-powerbank/"
+      "text": "ChatGPT Uninstalls Spike - **ChatGPT** app uninstalls surged 295% after news of **OpenAI**'s DoD deal.",
+      "url": "https://techcrunch.com/2026/03/02/chatgpt-uninstalls-surged-by-295-after-dod-deal/"
     },
     {
-      "text": "Galaxy S26 Ultra's Privacy Display - **Samsung** introduces a new Privacy Display feature to enhance user confidentiality.",
-      "url": "https://9to5google.com/2026/02/25/samsung-galaxy-s26-ultra-privacy-display-demo-hands-on/"
+      "text": "Stripe's AI Cost Solution - **Stripe** introduces feature to help AI startups manage costs and profit margins.",
+      "url": "https://techcrunch.com/2026/03/02/stripe-wants-to-turn-your-ai-costs-into-a-profit-center/"
     },
     {
-      "text": "iPhone 17e Launch Imminent - **Apple** is set to reveal the iPhone 17e with exciting new features next week.",
-      "url": "https://9to5mac.com/2026/02/26/one-more-iphone-17-model-launches-next-week-heres-every-new-feature/"
+      "text": "PayPay's IPO Delayed - **PayPay** postpones U.S. IPO amid geopolitical tensions and market volatility.",
+      "url": "https://techcrunch.com/2026/03/02/geopolitical-drama-reportedly-stalls-ipo-of-softbank-backed-paypay/"
     },
     {
-      "text": "Xiaomi's Leica Leitzphone Review - The **Xiaomi** Leica Leitzphone impresses with its camera capabilities and design.",
-      "url": "https://www.theverge.com/gadgets/886131/xiaomi-leica-leitzphone-17-ultra-review"
+      "text": "Tech Workers Support Anthropic - Tech workers urge the DoD to withdraw **Anthropic**'s supply-chain risk designation.",
+      "url": "https://techcrunch.com/2026/03/02/tech-workers-urge-dod-congress-to-withdraw-anthropic-label-as-a-supply-chain-risk/"
     },
     {
-      "text": "OpenAI's Pentagon Deal - **OpenAI** secures a deal with the Pentagon for its AI models amidst industry tensions.",
-      "url": "https://techcrunch.com/2026/02/28/openais-sam-altman-announces-pentagon-deal-with-technical-safeguards/"
+      "text": "Nvidia's $4B Investment - **Nvidia** invests $4 billion in photonics to enhance AI data center capabilities.",
+      "url": "https://www.theverge.com/tech/887635/nvidia-ai-photonics-lumentum-coherent"
+    },
+    {
+      "text": "MyFitnessPal Acquires Cal AI - **MyFitnessPal** acquires **Cal AI**, a viral calorie counting app developed by teens.",
+      "url": "https://techcrunch.com/2026/03/02/myfitnesspal-has-acquired-cal-ai-the-viral-calorie-app-built-by-teens/"
     }
   ]
 }
