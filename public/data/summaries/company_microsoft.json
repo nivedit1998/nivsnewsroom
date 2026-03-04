@@ -1,45 +1,41 @@
 {
-  "generatedAt": "2026-03-03T09:07:36.262Z",
+  "generatedAt": "2026-03-04T09:04:26.900Z",
   "bullets": [
     {
       "text": "Highlight Reels for Xbox Insiders - **Xbox** Insiders can now create highlight reels via the Xbox PC app.",
       "url": "https://blogs.windows.com/windowsexperience/2026/03/02/new-feature-for-rog-xbox-ally-x-highlight-reels-in-xbox-pc-app/"
     },
     {
-      "text": "JavaScript AI Build-a-thon Launches - A hands-on program to integrate **AI** into JavaScript applications kicks off today.",
+      "text": "Malware Targeting Workplace Apps - **Microsoft Defender** identified signed malware impersonating workplace applications to deploy RMM backdoors.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/03/03/signed-malware-impersonating-workplace-apps-deploys-rmm-backdoors/"
+    },
+    {
+      "text": "JavaScript AI Build-a-thon Launch - A hands-on program to integrate AI into JavaScript applications kicks off today.",
       "url": "https://devblogs.microsoft.com/blog/the-javascript-ai-build-a-thon-season-2-starts-today"
     },
     {
-      "text": "GitHub Copilot Dev Days Announced - A series of events to enhance developer productivity with **GitHub Copilot** begins soon.",
+      "text": "GitHub Copilot Dev Days Announced - A series of events to enhance AI-assisted development in **Visual Studio** and **VS Code**.",
       "url": "https://devblogs.microsoft.com/blog/github-copilot-dev-days"
     },
     {
-      "text": "OAuth Abuse Threats Identified - **Microsoft** warns of phishing attacks exploiting OAuth redirection mechanisms.",
+      "text": "OAuth Redirection Abuse Detected - **Microsoft** warns of phishing campaigns exploiting OAuth mechanisms for malware delivery.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/03/02/oauth-redirection-abuse-enables-phishing-malware-delivery/"
     },
     {
-      "text": "Sovereign Cloud Enhancements - **Microsoft** Sovereign Cloud now supports large **AI** models in disconnected environments.",
-      "url": "https://blogs.microsoft.com/blog/2026/02/24/microsoft-sovereign-cloud-adds-governance-productivity-and-support-for-large-ai-models-securely-running-even-when-completely-disconnected/"
-    },
-    {
-      "text": "Windows 11 Insider Preview Updates - New features and improvements are rolling out in the latest **Windows 11** builds.",
+      "text": "Windows 11 Insider Preview Updates - New features and improvements rolled out in the latest **Windows 11** Insider builds.",
       "url": "https://blogs.windows.com/windows-insider/2026/02/27/announcing-windows-11-insider-preview-build-28020-1673-canary-channel/"
     },
     {
-      "text": "Microsoft and OpenAI Partnership Continues - **Microsoft** reaffirms its strong collaboration with **OpenAI** amid new developments.",
+      "text": "Microsoft and OpenAI Partnership Continues - **Microsoft** reaffirms its strong collaboration with **OpenAI** in advancing AI technologies.",
       "url": "https://blogs.microsoft.com/blog/2026/02/27/microsoft-and-openai-joint-statement-on-continuing-partnership/"
     },
     {
-      "text": "New Cloud PC Devices Unveiled - **Microsoft** announces new devices designed for seamless **Windows 365** integration.",
+      "text": "New Cloud PC Devices Unveiled - **Microsoft** announces upcoming Cloud PC devices designed for **Windows 365**.",
       "url": "https://blogs.windows.com/windowsexperience/2026/02/26/announcing-new-cloud-pc-devices-designed-for-windows-365/"
     },
     {
-      "text": "Threat Modeling for AI Applications - **Microsoft** emphasizes the need for updated threat modeling in AI systems.",
+      "text": "Threat Modeling for AI Applications - **Microsoft** emphasizes the need for tailored threat modeling in AI systems.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/02/26/threat-modeling-ai-applications/"
-    },
-    {
-      "text": "Scaling Security Operations with Microsoft Defender - **Microsoft Defender** introduces autonomous defense strategies for modern threats.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/02/24/scaling-security-operations-with-microsoft-defender-autonomous-defense-and-expert-led-services/"
     }
   ]
 }

@@ -1,45 +1,45 @@
 {
-  "generatedAt": "2026-03-03T09:07:03.003Z",
+  "generatedAt": "2026-03-04T09:04:05.251Z",
   "bullets": [
     {
-      "text": "Charter's $34.5B Acquisition Approved - **Charter Communications** acquires **Cox Enterprises** assets, promising enhanced network access and lower prices.",
-      "url": "https://totaltele.com/fcc-approves-charters-34-5b-acquisition-of-cox-key-details/"
+      "text": "AI Dominates MWC 2026 - Expect AI to frame discussions, especially in RAN operations and next-gen investment cycles.",
+      "url": "https://www.rcrwireless.com/20260303/spectrum/mwc-spectrum-effect"
     },
     {
-      "text": "O2 Satellite Service Launched - **Virgin Media O2** introduces **O2 Satellite**, enhancing UK mobile connectivity in remote areas.",
-      "url": "https://totaltele.com/vmo2-lauches-starlink-backed-o2-satellite-service/"
+      "text": "Ookla's 5G Slice Validation - New methodology allows performance monitoring of individual 5G network slices for better service assurance.",
+      "url": "https://www.rcrwireless.com/20260303/test-measurement/ooklas-big-week-5g-slice-validation-with-ericsson-and-a-surprising-exit-from-ziff-davis"
     },
     {
-      "text": "TalkTalk Business Becomes Independent - **TalkTalk Business** completes its separation, aiming for accelerated growth as a standalone provider.",
+      "text": "T-Mobile US Leads AI-Native Shift - Strategic partnerships aim to accelerate the transition from 5G to AI-native 6G technologies.",
+      "url": "https://www.rcrwireless.com/20260303/carriers/t-mobile-us-mwc-2026"
+    },
+    {
+      "text": "ZTE's AIR MAX Revolution - New mobile network solution optimizes energy, labor, and investment efficiency for AI integration.",
+      "url": "https://www.rcrwireless.com/20260303/ai/zte-air-max"
+    },
+    {
+      "text": "Huawei's AI-Centric Solutions - Enhanced network solutions aim to unlock 5G-A potential and prepare for seamless 6G transition.",
+      "url": "https://totaltele.com/huawei-launches-enhanced-ai-centric-network-solutions-for-all-intelligence-at-mwc-2026/"
+    },
+    {
+      "text": "TalkTalk Business Goes Independent - Formal separation from TalkTalk Group enhances operational autonomy and growth potential.",
       "url": "https://totaltele.com/talktalk-business-formally-separates-from-parent-business/"
     },
     {
-      "text": "Deutsche Telekom Expands 5G Coverage - **Deutsche Telekom** targets 95% 5G coverage in Europe, adding over 1 million fiber homes in 2026.",
-      "url": "https://www.rcrwireless.com/20260302/5g/deutsche-telekom-5g-2"
+      "text": "O2 Satellite Service Launched - Virgin Media O2 introduces satellite-to-mobile service to enhance connectivity in rural areas.",
+      "url": "https://totaltele.com/vmo2-lauches-starlink-backed-o2-satellite-service/"
     },
     {
-      "text": "Lumen's AI Infrastructure Strategy - **Lumen Technologies** repositions as critical infrastructure for the AI economy, focusing on data center connectivity.",
-      "url": "https://www.rcrwireless.com/20260227/network-infrastructure/lumen-ai-corridors"
+      "text": "Vodafone Calls for Satellite Standards - Emphasis on safety and security rules for integrating satellite services with terrestrial networks.",
+      "url": "https://www.rcrwireless.com/20260303/carriers/vodafone-ceo-satellite"
     },
     {
-      "text": "TIM Tests Quantum-Safe Connections - **TIM** successfully tests quantum key distribution for secure data transmission between data centers.",
-      "url": "https://totaltele.com/tim-tests-quantum-safe-connection-between-two-data-centres/"
+      "text": "Deutsche Telekom's AI Integration - AI agents optimize mobile capacity and enhance enterprise infrastructure at scale.",
+      "url": "https://www.rcrwireless.com/20260303/carriers/deutsche-telekom-ai-4"
     },
     {
-      "text": "Nokia's AI Network Evolution - **Nokia** emphasizes the need for networks to adapt to AI workloads, moving towards programmable architectures.",
-      "url": "https://www.rcrwireless.com/20260302/network-infrastructure/ai-nokia-structural-reset"
-    },
-    {
-      "text": "Agentic AI Optimizes Maritime Networks - **BubbleRAN** and **Telenor** launch AI-driven network optimization for enhanced connectivity at sea.",
-      "url": "https://totaltele.com/agentic-ai-optimising-private-5g-live-at-sea/"
-    },
-    {
-      "text": "Qualcomm's Wi-Fi 8 for AI - **Qualcomm** unveils Wi-Fi 8 infrastructure to support AI-driven connectivity demands across devices.",
-      "url": "https://www.rcrwireless.com/20260302/ai-ml/qualcomm-ai-wi-fi-8"
-    },
-    {
-      "text": "Orange and Samsung Expand RAN Partnership - **Orange** and **Samsung** enhance their collaboration on vRAN and Open RAN in Europe.",
-      "url": "https://totaltele.com/orange-and-samsung-expand-open-ran-and-vran-partnership/"
+      "text": "Cloud RAN Trial Success - AI boosts network efficiency, proving its potential for better resource management in telecoms.",
+      "url": "https://www.telecomstechnews.com/news/cloud-ran-trial-proves-ai-improves-network-efficiency/"
     }
   ]
 }
