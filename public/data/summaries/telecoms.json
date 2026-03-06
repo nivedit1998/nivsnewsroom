@@ -1,45 +1,45 @@
 {
-  "generatedAt": "2026-03-04T09:04:05.251Z",
+  "generatedAt": "2026-03-06T09:02:32.679Z",
   "bullets": [
     {
-      "text": "AI Dominates MWC 2026 - Expect AI to frame discussions, especially in RAN operations and next-gen investment cycles.",
-      "url": "https://www.rcrwireless.com/20260303/spectrum/mwc-spectrum-effect"
+      "text": "Telcos Struggle With Expectations - **Capgemini** report reveals a significant gap between enterprise expectations and telco performance.",
+      "url": "https://www.rcrwireless.com/20260305/carriers/telcos-enterprise"
     },
     {
-      "text": "Ookla's 5G Slice Validation - New methodology allows performance monitoring of individual 5G network slices for better service assurance.",
-      "url": "https://www.rcrwireless.com/20260303/test-measurement/ooklas-big-week-5g-slice-validation-with-ericsson-and-a-surprising-exit-from-ziff-davis"
+      "text": "AI Needs Context - **Totogi** emphasizes the importance of context for effective AI deployment in telecoms.",
+      "url": "https://www.rcrwireless.com/20260304/ai/totogi-mwc-barcelona-2026"
     },
     {
-      "text": "T-Mobile US Leads AI-Native Shift - Strategic partnerships aim to accelerate the transition from 5G to AI-native 6G technologies.",
-      "url": "https://www.rcrwireless.com/20260303/carriers/t-mobile-us-mwc-2026"
+      "text": "Starlink Mobile Launch - **SpaceX** introduces Starlink Mobile, enhancing connectivity with second-generation satellites.",
+      "url": "https://www.rcrwireless.com/20260304/5g/spacex-starlink-mobile"
     },
     {
-      "text": "ZTE's AIR MAX Revolution - New mobile network solution optimizes energy, labor, and investment efficiency for AI integration.",
-      "url": "https://www.rcrwireless.com/20260303/ai/zte-air-max"
+      "text": "Huawei Surpasses Connectivity Goals - **Huawei** connects 170 million people, exceeding its ITU pledge.",
+      "url": "https://www.rcrwireless.com/20260304/huawei/huawei-itu-mwc-2026"
     },
     {
-      "text": "Huawei's AI-Centric Solutions - Enhanced network solutions aim to unlock 5G-A potential and prepare for seamless 6G transition.",
+      "text": "Military 5G Insights - **Telefónica**'s military 5G deployments offer a model for resilient private networks.",
+      "url": "https://www.telecomstechnews.com/news/military-5g-deployments-offer-blueprint-resilient-private-networks/"
+    },
+    {
+      "text": "Huawei's AI-Centric Solutions - **Huawei** unveils AI-centric network solutions to enhance telecom capabilities.",
       "url": "https://totaltele.com/huawei-launches-enhanced-ai-centric-network-solutions-for-all-intelligence-at-mwc-2026/"
     },
     {
-      "text": "TalkTalk Business Goes Independent - Formal separation from TalkTalk Group enhances operational autonomy and growth potential.",
+      "text": "TalkTalk Business Independence - **TalkTalk Business** successfully separates from its parent company, enhancing operational autonomy.",
       "url": "https://totaltele.com/talktalk-business-formally-separates-from-parent-business/"
     },
     {
-      "text": "O2 Satellite Service Launched - Virgin Media O2 introduces satellite-to-mobile service to enhance connectivity in rural areas.",
-      "url": "https://totaltele.com/vmo2-lauches-starlink-backed-o2-satellite-service/"
+      "text": "Quantum-Safe Connection Tested - **TIM** successfully tests quantum-safe communications between data centers in Milan.",
+      "url": "https://totaltele.com/tim-tests-quantum-safe-connection-between-two-data-centres/"
     },
     {
-      "text": "Vodafone Calls for Satellite Standards - Emphasis on safety and security rules for integrating satellite services with terrestrial networks.",
-      "url": "https://www.rcrwireless.com/20260303/carriers/vodafone-ceo-satellite"
+      "text": "Data Sovereignty in Cloud Calling - **BT** launches Sovereign Voice to ensure data sovereignty for cloud communications.",
+      "url": "https://www.telecomstechnews.com/news/cloud-calling-data-sovereignty-secures-business-operations/"
     },
     {
-      "text": "Deutsche Telekom's AI Integration - AI agents optimize mobile capacity and enhance enterprise infrastructure at scale.",
-      "url": "https://www.rcrwireless.com/20260303/carriers/deutsche-telekom-ai-4"
-    },
-    {
-      "text": "Cloud RAN Trial Success - AI boosts network efficiency, proving its potential for better resource management in telecoms.",
-      "url": "https://www.telecomstechnews.com/news/cloud-ran-trial-proves-ai-improves-network-efficiency/"
+      "text": "Trust in the AI Era - **Orange** CEO stresses the need for telecoms to become architects of trust in a digital world.",
+      "url": "https://www.rcrwireless.com/20260305/carriers/orange-ceo-ai"
     }
   ]
 }

@@ -1,41 +1,45 @@
 {
-  "generatedAt": "2026-03-04T09:04:26.900Z",
+  "generatedAt": "2026-03-06T09:03:24.117Z",
   "bullets": [
     {
-      "text": "Highlight Reels for Xbox Insiders - **Xbox** Insiders can now create highlight reels via the Xbox PC app.",
+      "text": "Highlight Reels for Xbox Ally X - Xbox Insiders can now access new highlight reels feature via the Xbox PC app.",
       "url": "https://blogs.windows.com/windowsexperience/2026/03/02/new-feature-for-rog-xbox-ally-x-highlight-reels-in-xbox-pc-app/"
     },
     {
-      "text": "Malware Targeting Workplace Apps - **Microsoft Defender** identified signed malware impersonating workplace applications to deploy RMM backdoors.",
+      "text": "Effortless Keyboard Navigation - Microsoft addresses accessibility issues in web navigation for keyboard users.",
+      "url": "https://blogs.windows.com/msedgedev/2026/03/05/making-keyboard-navigation-effortless/"
+    },
+    {
+      "text": "Empowering Women in Cybersecurity - Microsoft highlights the importance of diversity in cybersecurity during Women's History Month.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/03/05/womens-history-month-encouraging-women-in-cybersecurity-at-every-career-stage/"
+    },
+    {
+      "text": "Malicious AI Extensions Detected - Microsoft Defender uncovers browser extensions harvesting sensitive data from users.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/03/05/malicious-ai-assistant-extensions-harvest-llm-chat-histories/"
+    },
+    {
+      "text": "Copilot App Enhancements - New features in the Copilot App allow seamless web link access alongside conversations.",
+      "url": "https://blogs.windows.com/windows-insider/2026/03/04/copilot-app-on-windows-opening-web-links-alongside-your-conversations-begins-rolling-out-to-windows-insiders/"
+    },
+    {
+      "text": "Azure IaaS Resource Center Launched - Microsoft introduces a centralized hub for infrastructure design and optimization.",
+      "url": "https://azure.microsoft.com/en-us/blog/azure-iaas-series-explore-new-resources-for-building-a-stronger-more-efficient-infrastructure/"
+    },
+    {
+      "text": "Tycoon2FA Phishing Kit Analysis - Microsoft reveals insights into the widespread phishing-as-a-service platform.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/03/04/inside-tycoon2fa-how-a-leading-aitm-phishing-kit-operated-at-scale/"
+    },
+    {
+      "text": "GitHub Copilot CLI Course Available - A free course helps developers leverage GitHub Copilot CLI for enhanced productivity.",
+      "url": "https://devblogs.microsoft.com/blog/get-started-with-github-copilot-cli-a-free-hands-on-course"
+    },
+    {
+      "text": "Signed Malware Campaigns Identified - Microsoft Defender uncovers signed malware impersonating workplace applications.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/03/03/signed-malware-impersonating-workplace-apps-deploys-rmm-backdoors/"
     },
     {
-      "text": "JavaScript AI Build-a-thon Launch - A hands-on program to integrate AI into JavaScript applications kicks off today.",
-      "url": "https://devblogs.microsoft.com/blog/the-javascript-ai-build-a-thon-season-2-starts-today"
-    },
-    {
-      "text": "GitHub Copilot Dev Days Announced - A series of events to enhance AI-assisted development in **Visual Studio** and **VS Code**.",
-      "url": "https://devblogs.microsoft.com/blog/github-copilot-dev-days"
-    },
-    {
-      "text": "OAuth Redirection Abuse Detected - **Microsoft** warns of phishing campaigns exploiting OAuth mechanisms for malware delivery.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/03/02/oauth-redirection-abuse-enables-phishing-malware-delivery/"
-    },
-    {
-      "text": "Windows 11 Insider Preview Updates - New features and improvements rolled out in the latest **Windows 11** Insider builds.",
-      "url": "https://blogs.windows.com/windows-insider/2026/02/27/announcing-windows-11-insider-preview-build-28020-1673-canary-channel/"
-    },
-    {
-      "text": "Microsoft and OpenAI Partnership Continues - **Microsoft** reaffirms its strong collaboration with **OpenAI** in advancing AI technologies.",
-      "url": "https://blogs.microsoft.com/blog/2026/02/27/microsoft-and-openai-joint-statement-on-continuing-partnership/"
-    },
-    {
-      "text": "New Cloud PC Devices Unveiled - **Microsoft** announces upcoming Cloud PC devices designed for **Windows 365**.",
-      "url": "https://blogs.windows.com/windowsexperience/2026/02/26/announcing-new-cloud-pc-devices-designed-for-windows-365/"
-    },
-    {
-      "text": "Threat Modeling for AI Applications - **Microsoft** emphasizes the need for tailored threat modeling in AI systems.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/02/26/threat-modeling-ai-applications/"
+      "text": "Instant Access Snapshots in Azure - New feature allows immediate restoration of disks from incremental snapshots.",
+      "url": "https://azure.microsoft.com/en-us/blog/instant-access-incremental-snapshots-restore-without-waiting/"
     }
   ]
 }
