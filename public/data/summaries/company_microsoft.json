@@ -1,44 +1,35 @@
 {
-  "generatedAt": "2026-03-06T09:03:24.117Z",
+  "generatedAt": "2026-03-08T08:54:36.447Z",
   "bullets": [
     {
-      "text": "Highlight Reels for Xbox Ally X - Xbox Insiders can now access new highlight reels feature via the Xbox PC app.",
+      "text": "Highlight Reels for Xbox - Xbox Insiders can now try highlight reels in the Xbox PC app for ROG Xbox Ally X.",
       "url": "https://blogs.windows.com/windowsexperience/2026/03/02/new-feature-for-rog-xbox-ally-x-highlight-reels-in-xbox-pc-app/"
     },
     {
-      "text": "Effortless Keyboard Navigation - Microsoft addresses accessibility issues in web navigation for keyboard users.",
-      "url": "https://blogs.windows.com/msedgedev/2026/03/05/making-keyboard-navigation-effortless/"
+      "text": "Windows 11 Insider Preview - New Canary Channel build introduces voice typing in File Explorer and improved storage management.",
+      "url": "https://blogs.windows.com/windows-insider/2026/03/06/announcing-windows-11-insider-preview-build-28020-1685-canary-channel/"
     },
     {
-      "text": "Empowering Women in Cybersecurity - Microsoft highlights the importance of diversity in cybersecurity during Women's History Month.",
+      "text": "AI Threat Landscape - Microsoft highlights how threat actors are operationalizing AI to enhance cyberattack strategies.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/03/06/ai-as-tradecraft-how-threat-actors-operationalize-ai/"
+    },
+    {
+      "text": "Women in Cybersecurity - Microsoft emphasizes the importance of diversity in cybersecurity during Women's History Month.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/03/05/womens-history-month-encouraging-women-in-cybersecurity-at-every-career-stage/"
     },
     {
-      "text": "Malicious AI Extensions Detected - Microsoft Defender uncovers browser extensions harvesting sensitive data from users.",
+      "text": "Malicious AI Extensions - Microsoft Defender warns of malicious browser extensions harvesting sensitive data from AI chats.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/03/05/malicious-ai-assistant-extensions-harvest-llm-chat-histories/"
     },
     {
-      "text": "Copilot App Enhancements - New features in the Copilot App allow seamless web link access alongside conversations.",
+      "text": "Copilot App Update - New feature allows Copilot to open web links in a sidepane, enhancing user experience.",
       "url": "https://blogs.windows.com/windows-insider/2026/03/04/copilot-app-on-windows-opening-web-links-alongside-your-conversations-begins-rolling-out-to-windows-insiders/"
     },
     {
-      "text": "Azure IaaS Resource Center Launched - Microsoft introduces a centralized hub for infrastructure design and optimization.",
-      "url": "https://azure.microsoft.com/en-us/blog/azure-iaas-series-explore-new-resources-for-building-a-stronger-more-efficient-infrastructure/"
+      "text": "OAuth Exploitation - Microsoft identifies phishing campaigns exploiting OAuth redirection mechanisms to deliver malware."
     },
     {
-      "text": "Tycoon2FA Phishing Kit Analysis - Microsoft reveals insights into the widespread phishing-as-a-service platform.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/03/04/inside-tycoon2fa-how-a-leading-aitm-phishing-kit-operated-at-scale/"
-    },
-    {
-      "text": "GitHub Copilot CLI Course Available - A free course helps developers leverage GitHub Copilot CLI for enhanced productivity.",
-      "url": "https://devblogs.microsoft.com/blog/get-started-with-github-copilot-cli-a-free-hands-on-course"
-    },
-    {
-      "text": "Signed Malware Campaigns Identified - Microsoft Defender uncovers signed malware impersonating workplace applications.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/03/03/signed-malware-impersonating-workplace-apps-deploys-rmm-backdoors/"
-    },
-    {
-      "text": "Instant Access Snapshots in Azure - New feature allows immediate restoration of disks from incremental snapshots.",
+      "text": "Instant Access Snapshots - Azure introduces instant access for incremental snapshots, enhancing data recovery speed.",
       "url": "https://azure.microsoft.com/en-us/blog/instant-access-incremental-snapshots-restore-without-waiting/"
     }
   ]
