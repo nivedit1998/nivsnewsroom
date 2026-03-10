@@ -1,39 +1,27 @@
 {
-  "generatedAt": "2026-03-09T09:08:23.484Z",
+  "generatedAt": "2026-03-10T09:08:31.236Z",
   "bullets": [
     {
-      "text": "Highlight Reels for Xbox - Xbox Insiders can now test highlight reels in the Xbox PC app for ROG Xbox Ally X.",
-      "url": "https://blogs.windows.com/windowsexperience/2026/03/02/new-feature-for-rog-xbox-ally-x-highlight-reels-in-xbox-pc-app/"
+      "text": "Real-World AI Agents Simplified - **Microsoft** showcases an open-source Interview Coach using **Microsoft Agent Framework** and **Foundry**.",
+      "url": "https://devblogs.microsoft.com/blog/build-a-real-world-example-with-microsoft-agent-framework-microsoft-foundry-mcp-and-aspire"
     },
     {
-      "text": "Windows 11 Insider Preview - New Canary Channel build introduces voice typing and improved storage management.",
-      "url": "https://blogs.windows.com/windows-insider/2026/03/06/announcing-windows-11-insider-preview-build-28020-1685-canary-channel/"
+      "text": "AI Transformation with Trust - **Microsoft** unveils the Frontier Suite, merging AI with human ambition for real business outcomes.",
+      "url": "https://blogs.microsoft.com/blog/2026/03/09/introducing-the-first-frontier-suite-built-on-intelligence-trust/"
     },
     {
-      "text": "AI in Cybersecurity - Threat actors are leveraging AI to enhance cyberattack efficiency and scale.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/03/06/ai-as-tradecraft-how-threat-actors-operationalize-ai/"
+      "text": "Secure AI Management - **Microsoft Agent 365** offers a unified control plane for managing agentic AI securely.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/03/09/secure-agentic-ai-for-your-frontier-transformation/"
     },
     {
-      "text": "Women in Cybersecurity - Microsoft emphasizes the importance of diversity in cybersecurity during Women's History Month.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/03/05/womens-history-month-encouraging-women-in-cybersecurity-at-every-career-stage/"
+      "text": "Boosting Developer Productivity - **Microsoft Foundry** enables a 327% ROI by enhancing developer efficiency in AI projects.",
+      "url": "https://azure.microsoft.com/en-us/blog/the-economics-of-enterprise-ai-what-the-forrester-tei-study-reveals-about-microsoft-foundry/"
     },
     {
-      "text": "Malicious AI Extensions - Microsoft Defender warns of harmful browser extensions impersonating AI tools to collect sensitive data.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/03/05/malicious-ai-assistant-extensions-harvest-llm-chat-histories/"
+      "text": "Introducing GPT-5.4 - **Microsoft Foundry** now features **OpenAI's** GPT-5.4, enhancing AI agents for production environments."
     },
     {
-      "text": "Copilot App Update - New feature allows Copilot to open web links in a sidepane, enhancing user experience.",
-      "url": "https://blogs.windows.com/windows-insider/2026/03/04/copilot-app-on-windows-opening-web-links-alongside-your-conversations-begins-rolling-out-to-windows-insiders/"
-    },
-    {
-      "text": "Instant Access Snapshots - Azure introduces instant access for incremental snapshots, improving recovery speed and performance.",
-      "url": "https://azure.microsoft.com/en-us/blog/instant-access-incremental-snapshots-restore-without-waiting/"
-    },
-    {
-      "text": "OAuth Abuse for Phishing - Microsoft identifies phishing campaigns exploiting OAuth redirection for malware delivery."
-    },
-    {
-      "text": "Mistral Document AI - New AI model enhances document understanding, turning unstructured data into actionable insights."
+      "text": "Advanced Document Understanding - **Mistral Document AI** in **Microsoft Foundry** transforms unstructured documents into actionable data."
     }
   ]
 }
