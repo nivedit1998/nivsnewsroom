@@ -1,27 +1,44 @@
 {
-  "generatedAt": "2026-03-10T09:08:31.236Z",
+  "generatedAt": "2026-03-11T09:08:07.438Z",
   "bullets": [
     {
-      "text": "Real-World AI Agents Simplified - **Microsoft** showcases an open-source Interview Coach using **Microsoft Agent Framework** and **Foundry**.",
+      "text": "AI Agents Made Easy - Microsoft introduces a real-world example of AI agents using the **Microsoft Agent Framework** and **Foundry**.",
       "url": "https://devblogs.microsoft.com/blog/build-a-real-world-example-with-microsoft-agent-framework-microsoft-foundry-mcp-and-aspire"
     },
     {
-      "text": "AI Transformation with Trust - **Microsoft** unveils the Frontier Suite, merging AI with human ambition for real business outcomes.",
+      "text": "Frontier Suite Launch - **Microsoft 365 E7** and **Agent 365** set to transform business with AI and trust.",
       "url": "https://blogs.microsoft.com/blog/2026/03/09/introducing-the-first-frontier-suite-built-on-intelligence-trust/"
     },
     {
-      "text": "Secure AI Management - **Microsoft Agent 365** offers a unified control plane for managing agentic AI securely.",
+      "text": "Secure AI Governance - **Agent 365** provides a unified control plane for managing AI agents securely.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/03/09/secure-agentic-ai-for-your-frontier-transformation/"
     },
     {
-      "text": "Boosting Developer Productivity - **Microsoft Foundry** enables a 327% ROI by enhancing developer efficiency in AI projects.",
+      "text": "Boosting Developer Productivity - **Microsoft Foundry** shows a 327% ROI through enhanced developer efficiency.",
       "url": "https://azure.microsoft.com/en-us/blog/the-economics-of-enterprise-ai-what-the-forrester-tei-study-reveals-about-microsoft-foundry/"
     },
     {
-      "text": "Introducing GPT-5.4 - **Microsoft Foundry** now features **OpenAI's** GPT-5.4, enhancing AI agents for production environments."
+      "text": "AI Threat Landscape - Threat actors are increasingly using AI to enhance cyberattack strategies.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/03/06/ai-as-tradecraft-how-threat-actors-operationalize-ai/"
     },
     {
-      "text": "Advanced Document Understanding - **Mistral Document AI** in **Microsoft Foundry** transforms unstructured documents into actionable data."
+      "text": "Phishing Kit Insights - **Tycoon2FA** emerges as a leading phishing-as-a-service platform, bypassing MFA.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/03/04/inside-tycoon2fa-how-a-leading-aitm-phishing-kit-operated-at-scale/"
+    },
+    {
+      "text": "New Copilot Features - The **Copilot App** now opens web links in a sidepane for better context management.",
+      "url": "https://blogs.windows.com/windows-insider/2026/03/04/copilot-app-on-windows-opening-web-links-alongside-your-conversations-begins-rolling-out-to-windows-insiders/"
+    },
+    {
+      "text": "Empowering Women in Cybersecurity - Celebrating women's contributions and encouraging diversity in the field.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/03/05/womens-history-month-encouraging-women-in-cybersecurity-at-every-career-stage/"
+    },
+    {
+      "text": "Malicious Extensions Alert - **Microsoft Defender** warns about harmful browser extensions harvesting sensitive data.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/03/05/malicious-ai-assistant-extensions-harvest-llm-chat-histories/"
+    },
+    {
+      "text": "Introducing GPT-5.4 - **Microsoft Foundry** now features GPT-5.4 for enhanced AI-driven workflows."
     }
   ]
 }
