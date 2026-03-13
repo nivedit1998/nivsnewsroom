@@ -1,45 +1,44 @@
 {
-  "generatedAt": "2026-03-11T09:07:02.791Z",
+  "generatedAt": "2026-03-13T09:05:29.021Z",
   "bullets": [
     {
-      "text": "50 Masts Activated in Wales - **Shared Rural Network** reaches a significant milestone, enhancing mobile coverage in rural areas.",
+      "text": "50 Masts Activated in Wales - **Shared Rural Network** upgrades enhance mobile coverage for rural communities across Wales.",
       "url": "https://totaltele.com/shared-rural-network-upgrades-hit-50-mast-milestone-in-wales/"
     },
     {
-      "text": "AI Drives Test Demand - The surge in **AI** infrastructure is creating unprecedented needs for test and measurement solutions.",
-      "url": "https://www.rcrwireless.com/20260310/uncategorized/where-ais-billion-dollar-boom-is-driving-demand-for-test-and-measurement"
+      "text": "AI Sprawl Needs Solutions - **Equinix** proposes neutral hubs to manage distributed AI workloads and improve network performance.",
+      "url": "https://www.rcrwireless.com/20260312/ai-infrastructure/agents-of-chaos-equinix-ai"
     },
     {
-      "text": "Turkcell's AI Strategy - **Turkcell** partners with **Huawei** to advance AI capabilities and 5G evolution.",
-      "url": "https://totaltele.com/turkcell-advancing-ai-capabilities-accelerating-5g-evolution-autonomous-network-technologies-and-pioneering-next-generation-networks/"
+      "text": "Detecting Water Leaks with Fiber - **Openreach** uses acoustic sensing technology to prevent water loss in collaboration with **Affinity Water**.",
+      "url": "https://totaltele.com/openreachs-network-to-support-acoustic-sensing-for-leaky-water-pipes/"
     },
     {
-      "text": "VMO2 Flags Scam Calls - **Virgin Media O2** uses AI to label over 1 billion suspected scam calls, enhancing customer safety.",
+      "text": "Mobile AI Traffic Surge - AI-related mobile traffic is set to grow significantly, demanding network evolution for telecoms.",
+      "url": "https://totaltele.com/mobile-ai-is-here-why-networks-must-evolve-for-the-age-of-ai-agents/"
+    },
+    {
+      "text": "Telcos Must Seize AI Opportunity - Telecom operators can redefine their role in the AI economy by offering tailored services.",
+      "url": "https://www.rcrwireless.com/20260311/reader-forum/ai-opportunity-telcos"
+    },
+    {
+      "text": "Horizontal Telco Clouds Essential - **Deutsche Telekom** emphasizes the need for horizontal cloud models to support AI operations."
+    },
+    {
+      "text": "Cyberattack Hits Ericsson's US Subsidiary - A breach compromises data of over 15,000 individuals, prompting an investigation.",
+      "url": "https://totaltele.com/ericssons-us-subsidiary-hit-by-cyberattack/"
+    },
+    {
+      "text": "VMO2 Flags 1 Billion Scam Calls - **Virgin Media O2** uses AI to label and block suspected scam calls for customer safety.",
       "url": "https://totaltele.com/vmo2s-ai-flags-over-1bn-scam-calls-to-o2-customers/"
     },
     {
-      "text": "Military 5G as Blueprint - Military deployments provide a model for resilient private networks in commercial sectors.",
-      "url": "https://www.telecomstechnews.com/news/military-5g-deployments-offer-blueprint-resilient-private-networks/"
+      "text": "AI-Driven Telecom Vision in India - India showcases rapid 5G rollout and AI integration at **MWC 2026**, aiming for intelligent networks.",
+      "url": "https://www.rcrwireless.com/20260311/5g/india-ai-mwc"
     },
     {
-      "text": "AI Era Reshapes Telecom - **Jio** CEO predicts the AI transition will redefine telecom economics and create new opportunities.",
-      "url": "https://www.rcrwireless.com/20260309/carriers/jio-ceo-ai"
-    },
-    {
-      "text": "AI in RAN Testing - **Keysight** launches unified AI-RAN testing workflows to streamline validation processes.",
-      "url": "https://www.rcrwireless.com/20260309/test-measurement/keysight-mwc-roundup-ai-ran-testing-ai-driven-uplink-performance-and-pre-6g-interoperability-validation"
-    },
-    {
-      "text": "AI and Digital Divide - Industry leaders stress the importance of digital skills and infrastructure for AI inclusion.",
+      "text": "AI and Digital Divide Discussion - Industry leaders stress the importance of digital skills and infrastructure for equitable AI access.",
       "url": "https://totaltele.com/ai-and-the-digital-divide-technology-cannot-be-allowed-to-outpace-inclusion/"
-    },
-    {
-      "text": "AT&T's $250bn Investment - **AT&T** commits over $250 billion to enhance U.S. connectivity and infrastructure.",
-      "url": "https://totaltele.com/att-to-invest-250bn-to-expand-and-enhance-networks/"
-    },
-    {
-      "text": "AI Infrastructure Shaping Telecom - **Turkcell** emphasizes the role of AI and data sovereignty in telecom's future.",
-      "url": "https://www.rcrwireless.com/20260310/carriers/turkcell-ai-infra"
     }
   ]
 }
