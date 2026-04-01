@@ -1,45 +1,41 @@
 {
-  "generatedAt": "2026-03-13T09:07:07.697Z",
+  "generatedAt": "2026-04-01T09:45:01.373Z",
   "bullets": [
     {
-      "text": "Malware via Fake Interviews - **Microsoft Defender** warns of a campaign targeting developers through deceptive recruitment processes.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/03/11/contagious-interview-malware-delivered-through-fake-developer-job-interviews/"
+      "text": "AI's Impact on Careers - **Microsoft**'s new book guides navigating job changes in the AI era.",
+      "url": "https://blogs.microsoft.com/blog/2026/03/31/open-to-work-how-to-get-ahead-in-the-age-of-ai/"
     },
     {
-      "text": "Windows 11 Updates Released - New builds 26100.8106 and 26200.8106 introduce features and performance improvements.",
-      "url": "https://blogs.windows.com/windows-insider/2026/03/12/releasing-windows-11-builds-26100-8106-and-26200-8106-to-the-release-preview-channel/"
+      "text": "Evolving Cyber Threats - **Microsoft** warns critical infrastructure faces new persistent cyber threats.",
+      "url": "https://www.microsoft.com/en-us/security/security-insider/threat-landscape/threat-to-critical-infrastructure-has-changed"
     },
     {
-      "text": "Leadership Changes at Microsoft - **Rajesh Jha** announces retirement, with new executives stepping into key roles.",
-      "url": "https://blogs.microsoft.com/blog/2026/03/12/microsoft-announces-experiences-devices-leadership-changes/"
+      "text": "Securing AI Systems - **Microsoft** provides essential security advice for CISOs managing AI technologies.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/03/31/applying-security-fundamentals-to-ai-practical-advice-for-cisos/"
     },
     {
-      "text": "SEO Poisoning for Credential Theft - **Microsoft Defender** identifies a campaign distributing fake VPN clients through search manipulation.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/03/12/storm-2561-uses-seo-poisoning-to-distribute-fake-vpn-clients-for-credential-theft/"
+      "text": "WhatsApp Malware Alert - **Microsoft Defender** identifies a sophisticated malware campaign using WhatsApp.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/03/31/whatsapp-malware-campaign-delivers-vbs-payloads-msi-backdoors/"
     },
     {
-      "text": "Email Security Benchmark Insights - Latest data shows **Microsoft Defender** effectively mitigates modern email threats.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/03/12/from-transparency-to-action-what-the-latest-microsoft-email-security-benchmark-reveals/"
+      "text": "Windows 11 Insider Updates - **Microsoft** releases new Insider Preview builds with exciting features.",
+      "url": "https://blogs.windows.com/windows-insider/2026/03/30/announcing-windows-11-insider-preview-build-for-canary-channel-29558-1000/"
     },
     {
-      "text": "Prompt Abuse in AI Tools - **Microsoft** outlines strategies to detect and respond to prompt abuse in AI applications.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/03/12/detecting-analyzing-prompt-abuse-in-ai-tools/"
+      "text": "AI in Nuclear Energy - **Microsoft** partners with NVIDIA to enhance nuclear project efficiency with AI.",
+      "url": "https://www.microsoft.com/en-us/industry/blog/energy-and-resources/2026/03/24/ai-for-nuclear-energy-powering-an-intelligent-resilient-future/"
     },
     {
-      "text": "Next-Gen Xbox Unveiled - **Xbox** reveals Project Helix, designed for seamless console and PC gaming experiences.",
-      "url": "https://blogs.windows.com/windowsexperience/2026/03/11/gdc-2026-next-generation-of-xbox-designed-to-play-console-and-pc-games/"
+      "text": "Identity Security Focus - **Microsoft** emphasizes the need for integrated identity security in modern cyber defense.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/03/25/identity-security-is-the-new-pressure-point-for-modern-cyberattacks/"
     },
     {
-      "text": "Windows Game Developer Tools - New updates for **Windows 11** aim to enhance the experience for PC game developers.",
-      "url": "https://blogs.windows.com/windowsdeveloper/2026/03/11/gdc-2026-announcing-new-tools-and-platform-updates-for-windows-pc-game-developers/"
+      "text": "Agentic AI Risks - **Microsoft** addresses OWASP's Top 10 risks for agentic AI applications.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/03/30/addressing-the-owasp-top-10-risks-in-agentic-ai-with-microsoft-copilot-studio/"
     },
     {
-      "text": "Modernization Solutions on Azure - **Microsoft** announces new agentic solutions to streamline IT and developer workflows.",
-      "url": "https://azure.microsoft.com/en-us/blog/many-agents-one-team-scaling-modernization-on-azure/"
-    },
-    {
-      "text": "Fireworks AI on Microsoft Foundry - New integration enhances open model inference capabilities within **Azure**.",
-      "url": "https://azure.microsoft.com/en-us/blog/introducing-fireworks-ai-on-microsoft-foundry-bringing-high-performance-low-latency-open-model-inference-to-azure/"
+      "text": "Copilot Cowork Launch - **Microsoft 365 Copilot** introduces new features for enhanced productivity in workflows.",
+      "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/30/copilot-cowork-now-available-in-frontier/"
     }
   ]
 }
