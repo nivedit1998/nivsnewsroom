@@ -1,41 +1,45 @@
 {
-  "generatedAt": "2026-04-01T09:45:01.373Z",
+  "generatedAt": "2026-04-05T09:06:30.599Z",
   "bullets": [
     {
-      "text": "AI's Impact on Careers - **Microsoft**'s new book guides navigating job changes in the AI era.",
-      "url": "https://blogs.microsoft.com/blog/2026/03/31/open-to-work-how-to-get-ahead-in-the-age-of-ai/"
+      "text": "Windows 11 Insider Preview Build 28020.1803 Released - This Canary Channel update includes refinements to **Pen settings** and improved voice typing.",
+      "url": "https://blogs.windows.com/windows-insider/2026/04/03/announcing-windows-11-insider-preview-build-28020-1803-canary-channel/"
     },
     {
-      "text": "Evolving Cyber Threats - **Microsoft** warns critical infrastructure faces new persistent cyber threats.",
-      "url": "https://www.microsoft.com/en-us/security/security-insider/threat-landscape/threat-to-critical-infrastructure-has-changed"
+      "text": "New Canary Build 29560.1000 Available - This update addresses freezes and USB device issues for **Windows Insiders**.",
+      "url": "https://blogs.windows.com/windows-insider/2026/04/03/announcing-windows-11-insider-preview-build-for-canary-channel-29560-1000/"
     },
     {
-      "text": "Securing AI Systems - **Microsoft** provides essential security advice for CISOs managing AI technologies.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/03/31/applying-security-fundamentals-to-ai-practical-advice-for-cisos/"
+      "text": "Windows 11 Insider Preview Build 26300.8155 Released - This **Dev Channel** build introduces haptic feedback for compatible devices.",
+      "url": "https://blogs.windows.com/windows-insider/2026/04/03/announcing-windows-11-insider-preview-build-26300-8155-dev-channel/"
     },
     {
-      "text": "WhatsApp Malware Alert - **Microsoft Defender** identifies a sophisticated malware campaign using WhatsApp.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/03/31/whatsapp-malware-campaign-delivers-vbs-payloads-msi-backdoors/"
+      "text": "Beta Channel Build 26220.8148 Now Live - This release enhances **Windows Protected Print Mode** and touchpad settings.",
+      "url": "https://blogs.windows.com/windows-insider/2026/04/03/announcing-windows-11-insider-preview-build-26220-8148-beta-channel/"
     },
     {
-      "text": "Windows 11 Insider Updates - **Microsoft** releases new Insider Preview builds with exciting features.",
-      "url": "https://blogs.windows.com/windows-insider/2026/03/30/announcing-windows-11-insider-preview-build-for-canary-channel-29558-1000/"
+      "text": "Microsoft Named Leader in Gartner Magic Quadrant - Recognized for excellence in **Integration Platform as a Service** for the eighth consecutive year.",
+      "url": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-2026-gartner-magic-quadrant-for-integration-platform-as-a-service/"
     },
     {
-      "text": "AI in Nuclear Energy - **Microsoft** partners with NVIDIA to enhance nuclear project efficiency with AI.",
-      "url": "https://www.microsoft.com/en-us/industry/blog/energy-and-resources/2026/03/24/ai-for-nuclear-energy-powering-an-intelligent-resilient-future/"
+      "text": "AI Threat Landscape Evolving - Threat actors are embedding **AI** into cyberattacks, increasing precision and effectiveness.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/04/02/threat-actor-abuse-of-ai-accelerates-from-tool-to-cyberattack-surface/"
     },
     {
-      "text": "Identity Security Focus - **Microsoft** emphasizes the need for integrated identity security in modern cyber defense.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/03/25/identity-security-is-the-new-pressure-point-for-modern-cyberattacks/"
+      "text": "New Features in Copilot Studio - Multi-agent orchestration capabilities are now available, enhancing collaboration across tools.",
+      "url": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-multi-agent-orchestration-connected-experiences-and-faster-prompt-iteration/"
     },
     {
-      "text": "Agentic AI Risks - **Microsoft** addresses OWASP's Top 10 risks for agentic AI applications.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/03/30/addressing-the-owasp-top-10-risks-in-agentic-ai-with-microsoft-copilot-studio/"
+      "text": "Babylon.js 9.0 Enhancements Announced - New features include **OpenPBR** support and improved dynamic IBL shadows for 3D rendering.",
+      "url": "https://blogs.windows.com/windowsdeveloper/2026/04/02/part-3-babylon-js-9-0-openpbr-and-additional-engine-updates/"
     },
     {
-      "text": "Copilot Cowork Launch - **Microsoft 365 Copilot** introduces new features for enhanced productivity in workflows.",
-      "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/30/copilot-cowork-now-available-in-frontier/"
+      "text": "Mitigating Axios npm Supply Chain Compromise - Malicious versions of **Axios** npm packages have been identified, linked to North Korean actors.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/"
+    },
+    {
+      "text": "Navigating Digital Sovereignty - Microsoft emphasizes the importance of operational continuity and AI governance in digital transformation.",
+      "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2026/03/25/navigating-digital-sovereignty-at-the-frontier-of-transformation/"
     }
   ]
 }
