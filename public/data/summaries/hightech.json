@@ -1,33 +1,45 @@
 {
-  "generatedAt": "2026-04-05T09:05:07.460Z",
+  "generatedAt": "2026-04-07T09:42:05.133Z",
   "bullets": [
     {
-      "text": "Siri's Weather Reports Need Improvement - **Apple**'s voice assistant lacks accurate weather data for locations outside California.",
+      "text": "Tesla Investigation Closed - **NHTSA** found crashes from **Tesla's** remote parking feature were rare and not severe.",
+      "url": "https://techcrunch.com/2026/04/06/tesla-actually-smart-summon-nhtsa-investigation-smart-parking/"
+    },
+    {
+      "text": "UGREEN Charging Station Review - The **UGREEN 2-in-1 Qi2** charger offers compact design and fast charging for **iPhone** and **AirPods**.",
+      "url": "https://9to5mac.com/2026/04/06/magsafe-monday-ugreen-2-in-1-qi2-foldable-charging-station-review/"
+    },
+    {
+      "text": "Apple's Medical Imaging Feature - **Studio Display XDR** receives **FDA** clearance for medical imaging, enhancing diagnostic capabilities.",
+      "url": "https://9to5mac.com/2026/04/06/studio-display-xdr-medical-imaging-feature-fda-clearance/"
+    },
+    {
+      "text": "Siri Weather Reports - **Apple** needs to improve **Siri's** weather accuracy for locations outside California, especially in the **UK**.",
       "url": "https://9to5mac.com/2026/04/03/hey-siri-give-us-weather-reports-that-work-outside-california/"
     },
     {
-      "text": "Nothing Phone (4a) Pro Impresses - **Nothing**'s latest smartphone offers a refreshing design and solid performance.",
-      "url": "https://9to5google.com/2026/04/03/nothing-phone-4a-pro-review/"
+      "text": "AI Startup Rocket Launches - **Rocket** aims to provide **AI**-driven consulting reports at a fraction of traditional costs.",
+      "url": "https://techcrunch.com/2026/04/06/indian-startup-rocket-wants-its-ai-to-do-mckinsey-style-consulting-at-a-fraction-of-the-cost/"
     },
     {
-      "text": "AirPods Max 2 and Mac Pro News - **Apple** celebrates its 50th anniversary while discontinuing the Mac Pro.",
-      "url": "https://9to5mac.com/2026/04/02/happy-hour-584/"
+      "text": "Picsart Monetization Program - **Picsart** launches a program for creators to earn revenue through original content creation.",
+      "url": "https://techcrunch.com/2026/04/06/ai-design-platform-picsart-launches-a-creator-monetization-program/"
     },
     {
-      "text": "iOS 26.4 Enhances Reminders - New features in **Apple**'s Reminders app make urgent tasks easier to manage.",
-      "url": "https://9to5mac.com/2026/04/01/ios-26-4-makes-apples-best-new-reminders-feature-easier-to-use/"
+      "text": "Netflix Playground Launch - **Netflix** introduces a new app for kids' games, available in the **UK** and other regions.",
+      "url": "https://techcrunch.com/2026/04/06/netflix-launches-a-standalone-app-for-kids-games/"
     },
     {
-      "text": "AirTag 2 Anti-Stalking Update - **Apple** improves AirTag's anti-stalking features with a louder alert sound.",
-      "url": "https://9to5mac.com/2026/04/01/apple-just-changed-airtag-2s-anti-stalking-feature/"
+      "text": "OpenAI's New Fund - **OpenAI** alums establish a $100M fund to invest in emerging **AI** technologies and startups.",
+      "url": "https://techcrunch.com/2026/04/06/openai-alums-have-been-quietly-investing-from-a-new-potentially-100m-fund/"
     },
     {
-      "text": "Samsung Messages to Discontinue - **Samsung** will phase out its Messages app in July, transitioning to Google Messages.",
-      "url": "https://9to5google.com/2026/04/04/samsung-messages-discontinued-us/"
+      "text": "Artemis II Sets Distance Record - **NASA's Artemis II** crew breaks the Apollo 13 record for the farthest distance from Earth.",
+      "url": "https://www.theverge.com/science/907364/nasa-artemis-ii-astronauts-moon-orion-distance-record"
     },
     {
-      "text": "AT&T's OneConnect Bundles Services - **AT&T** introduces a new bundle combining mobile and home internet for new customers.",
-      "url": "https://www.cnet.com/tech/mobile/att-oneconnect-bundle-subscription/"
+      "text": "TechCrunch Disrupt Ticket Savings - Save up to $500 on tickets for **TechCrunch Disrupt 2026**, ending soon.",
+      "url": "https://techcrunch.com/2026/04/06/massive-ticket-savings-of-up-to-500-this-week-for-techcrunch-disrupt-2026/"
     }
   ]
 }
