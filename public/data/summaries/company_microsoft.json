@@ -1,25 +1,29 @@
 {
-  "generatedAt": "2026-04-07T09:43:12.112Z",
+  "generatedAt": "2026-04-08T09:43:27.563Z",
   "bullets": [
     {
-      "text": "Storm-1175 Targets Vulnerabilities - **Storm-1175** exploits N-days, impacting sectors like healthcare and finance in the **UK**.",
+      "text": "Ransomware Alert: Storm-1175 Strikes - **Storm-1175** targets vulnerable web-facing systems, rapidly deploying **Medusa ransomware** post-exploitation.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/04/06/storm-1175-focuses-gaze-on-vulnerable-web-facing-assets-in-high-tempo-medusa-ransomware-operations/"
     },
     {
-      "text": "AI-Driven Phishing Campaign - An **AI-enabled** phishing campaign uses dynamic code generation to compromise accounts at scale.",
+      "text": "SOHO Device Risk: DNS Hijacking - **Forest Blizzard** compromises **SOHO routers** for DNS hijacking, impacting numerous organizations.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/04/07/soho-router-compromise-leads-to-dns-hijacking-and-adversary-in-the-middle-attacks/"
+    },
+    {
+      "text": "AI Phishing Surge: Device Code Abuse - A new **phishing campaign** exploits Device Code Authentication, leveraging AI for greater success.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/04/06/ai-enabled-device-code-phishing-campaign-april-2026/"
     },
     {
-      "text": "AI's Role in Cyberattacks - **AI** is now embedded in cyberattacks, enhancing precision and effectiveness of phishing operations.",
+      "text": "Windows 11 Insider Preview: New Builds - Recent **Windows 11 Insider** builds introduce improvements across various channels.",
+      "url": "https://blogs.windows.com/windows-insider/2026/04/03/announcing-windows-11-insider-preview-build-28020-1803-canary-channel/"
+    },
+    {
+      "text": "AI in Cybersecurity: A Double-Edged Sword - Threat actors are embedding **AI** into cyberattacks, enhancing precision and scale.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/04/02/threat-actor-abuse-of-ai-accelerates-from-tool-to-cyberattack-surface/"
     },
     {
-      "text": "Axios NPM Compromise - Malicious **Axios** packages were linked to a North Korean state actor, compromising multiple systems.",
+      "text": "Supply Chain Threat: Axios npm Compromise - Malicious **Axios** npm packages linked to **Sapphire Sleet** deploy remote access trojans.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/"
-    },
-    {
-      "text": "WhatsApp Malware Campaign - A new campaign delivers **VBS** payloads via WhatsApp, establishing persistent access on systems.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/03/31/whatsapp-malware-campaign-delivers-vbs-payloads-msi-backdoors/"
     }
   ]
 }
