@@ -1,29 +1,25 @@
 {
-  "generatedAt": "2026-04-08T09:43:27.563Z",
+  "generatedAt": "2026-04-11T09:06:48.323Z",
   "bullets": [
     {
-      "text": "Ransomware Alert: Storm-1175 Strikes - **Storm-1175** targets vulnerable web-facing systems, rapidly deploying **Medusa ransomware** post-exploitation.",
+      "text": "Storm-1175 Targets Vulnerable Assets - **Microsoft** warns of high-tempo ransomware operations exploiting N-day vulnerabilities.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/04/06/storm-1175-focuses-gaze-on-vulnerable-web-facing-assets-in-high-tempo-medusa-ransomware-operations/"
     },
     {
-      "text": "SOHO Device Risk: DNS Hijacking - **Forest Blizzard** compromises **SOHO routers** for DNS hijacking, impacting numerous organizations.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/04/07/soho-router-compromise-leads-to-dns-hijacking-and-adversary-in-the-middle-attacks/"
+      "text": "Windows 11 Insider Preview Updates - New builds released for **Windows 11** Insiders with various enhancements and features.",
+      "url": "https://blogs.windows.com/windows-insider/2026/04/10/announcing-windows-11-insider-preview-build-28020-1812-canary-channel/"
     },
     {
-      "text": "AI Phishing Surge: Device Code Abuse - A new **phishing campaign** exploits Device Code Authentication, leveraging AI for greater success.",
+      "text": "Microsoft's Sovereign Cloud Leadership - **Microsoft** recognized as a leader in The Forrester Wave™ for Sovereign Cloud Platforms.",
+      "url": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-forrester-wave-for-sovereign-cloud-platforms/"
+    },
+    {
+      "text": "AI-Enabled Phishing Campaign Escalates - **Microsoft Defender** reports sophisticated phishing attacks using device code authentication.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/04/06/ai-enabled-device-code-phishing-campaign-april-2026/"
     },
     {
-      "text": "Windows 11 Insider Preview: New Builds - Recent **Windows 11 Insider** builds introduce improvements across various channels.",
-      "url": "https://blogs.windows.com/windows-insider/2026/04/03/announcing-windows-11-insider-preview-build-28020-1803-canary-channel/"
-    },
-    {
-      "text": "AI in Cybersecurity: A Double-Edged Sword - Threat actors are embedding **AI** into cyberattacks, enhancing precision and scale.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/04/02/threat-actor-abuse-of-ai-accelerates-from-tool-to-cyberattack-surface/"
-    },
-    {
-      "text": "Supply Chain Threat: Axios npm Compromise - Malicious **Axios** npm packages linked to **Sapphire Sleet** deploy remote access trojans.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/"
+      "text": "Intent Redirection Vulnerability Found - **Microsoft** identifies a severe flaw in a third-party Android SDK affecting millions.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/04/09/intent-redirection-vulnerability-third-party-sdk-android/"
     }
   ]
 }
