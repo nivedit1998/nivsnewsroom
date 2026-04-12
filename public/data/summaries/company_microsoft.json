@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-04-11T09:06:48.323Z",
+  "generatedAt": "2026-04-12T09:10:59.871Z",
   "bullets": [
     {
       "text": "Storm-1175 Targets Vulnerable Assets - **Microsoft** warns of high-tempo ransomware operations exploiting N-day vulnerabilities.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/04/06/storm-1175-focuses-gaze-on-vulnerable-web-facing-assets-in-high-tempo-medusa-ransomware-operations/"
     },
     {
-      "text": "Windows 11 Insider Preview Updates - New builds released for **Windows 11** Insiders with various enhancements and features.",
+      "text": "Windows 11 Insider Preview Released - New Canary Build 28020.1812 introduces touchpad settings and Windows Security enhancements.",
       "url": "https://blogs.windows.com/windows-insider/2026/04/10/announcing-windows-11-insider-preview-build-28020-1812-canary-channel/"
     },
     {
-      "text": "Microsoft's Sovereign Cloud Leadership - **Microsoft** recognized as a leader in The Forrester Wave™ for Sovereign Cloud Platforms.",
+      "text": "Microsoft Leads in Sovereign Cloud - Recognized as a leader in The Forrester Wave™ for Sovereign Cloud Platforms.",
       "url": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-forrester-wave-for-sovereign-cloud-platforms/"
     },
     {
-      "text": "AI-Enabled Phishing Campaign Escalates - **Microsoft Defender** reports sophisticated phishing attacks using device code authentication.",
+      "text": "AI-Enabled Phishing Campaign Uncovered - **Microsoft Defender** reveals sophisticated device code phishing using automation.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/04/06/ai-enabled-device-code-phishing-campaign-april-2026/"
     },
     {
-      "text": "Intent Redirection Vulnerability Found - **Microsoft** identifies a severe flaw in a third-party Android SDK affecting millions.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/04/09/intent-redirection-vulnerability-third-party-sdk-android/"
+      "text": "SOHO Router Compromise Alert - **Microsoft** warns of DNS hijacking and adversary-in-the-middle attacks from compromised routers.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/04/07/soho-router-compromise-leads-to-dns-hijacking-and-adversary-in-the-middle-attacks/"
     }
   ]
 }

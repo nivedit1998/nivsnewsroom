@@ -1,45 +1,41 @@
 {
-  "generatedAt": "2026-04-11T09:06:02.950Z",
+  "generatedAt": "2026-04-12T09:10:05.379Z",
   "bullets": [
     {
-      "text": "Fury vs. Makhmudov Fight - Tyson Fury returns to the ring against Arslanbek Makhmudov on Netflix this Saturday.",
-      "url": "https://www.cnet.com/tech/services-and-software/tyson-fury-vs-arslanbek-makhmudov-fight-how-to-watch/"
-    },
-    {
-      "text": "Samsung Galaxy Z Fold 8 - Launching in London on July 22, the new foldable may bring back the S Pen.",
+      "text": "Samsung Galaxy Z Fold 8 Launch - Samsung's next Unpacked event in London will unveil the Galaxy Z Fold 8 on July 22.",
       "url": "https://9to5google.com/2026/04/09/samsung-galaxy-z-fold-8-launch-date-s-pen-report/"
     },
     {
-      "text": "Apple Watch Series 12 - Rumored to introduce a major feature while retaining its familiar design.",
-      "url": "https://www.cnet.com/tech/mobile/apple-watch-series-12-rumors-touch-id-fingerprint-sensor/"
-    },
-    {
-      "text": "AirPods Max 2 Review - Small upgrades in comfort and sound quality make a significant impact.",
-      "url": "https://www.cnet.com/tech/mobile/apple-airpods-max-2-review/"
-    },
-    {
-      "text": "Apple TV's Criminal Record - Season 2 of the acclaimed London crime thriller premieres April 22.",
+      "text": "Apple TV's Criminal Record Returns - Season 2 of the acclaimed London crime thriller premieres on April 22.",
       "url": "https://9to5mac.com/2026/04/08/apple-tv-unveils-return-of-acclaimed-london-crime-thriller/"
     },
     {
-      "text": "iOS 26 Messages Upgrade - Enhanced search capabilities make finding conversations easier than ever.",
+      "text": "iOS 26 Messages Upgrade - The Messages app now features enhanced search capabilities using natural language.",
       "url": "https://9to5mac.com/2026/04/09/ios-26s-messages-app-got-a-big-upgrade-for-an-essential-feature/"
     },
     {
-      "text": "Spotify's New Audio Focus - Users can now disable video features for a more immersive audio experience.",
+      "text": "Spotify Focus Mode - A new feature allows users to disable videos, enhancing the audio experience.",
       "url": "https://9to5mac.com/2026/04/09/spotifys-newest-feature-lets-you-focus-on-audio-without-distractions/"
     },
     {
-      "text": "iPadOS 26.4 Enhancements - New feature helps users manage multiple app windows more effectively.",
+      "text": "iPadOS 26.4 Enhancements - New features improve multitasking for power users with better window management.",
       "url": "https://9to5mac.com/2026/04/08/ipados-26-4-adds-convenient-new-feature-for-ipad-power-users/"
     },
     {
-      "text": "Artemis II Splashdown - NASA's crew returns safely from a historic mission around the Moon.",
-      "url": "https://www.cnet.com/news-live/nasa-artemis-ii-astronauts-return-home-historic-moon-mission/"
+      "text": "iPhone 18 Pro Camera Simplification - Rumored updates may simplify the Camera Control button for better usability.",
+      "url": "https://9to5mac.com/2026/04/08/iphone-18-pros-rumored-camera-feature-could-prove-that-less-is-more/"
     },
     {
-      "text": "France Moves to Linux - The French government plans to switch from Windows to Linux for digital sovereignty.",
-      "url": "https://techcrunch.com/2026/04/10/france-to-ditch-windows-for-linux-to-reduce-reliance-on-us-tech/"
+      "text": "Nvidia-Backed SiFive Valuation - SiFive reaches a $3.65 billion valuation, focusing on open AI chip designs.",
+      "url": "https://techcrunch.com/2026/04/11/nvidia-backed-sifive-hits-3-65-billion-valuation-for-open-ai-chips/"
+    },
+    {
+      "text": "Generalist AI's Robot Dexterity - New AI model enables robots to perform complex tasks like stuffing cash into wallets.",
+      "url": "https://www.cnet.com/tech/computing/gen-1-physical-ai-model-robot-dexterity/"
+    },
+    {
+      "text": "Artemis II Astronauts Return - NASA's Artemis II crew successfully splashed down after their historic moon mission.",
+      "url": "https://www.cnet.com/news-live/nasa-artemis-ii-astronauts-return-home-historic-moon-mission/"
     }
   ]
 }
