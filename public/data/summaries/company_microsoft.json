@@ -1,25 +1,37 @@
 {
-  "generatedAt": "2026-04-12T09:10:59.871Z",
+  "generatedAt": "2026-04-16T09:55:21.247Z",
   "bullets": [
     {
-      "text": "Storm-1175 Targets Vulnerable Assets - **Microsoft** warns of high-tempo ransomware operations exploiting N-day vulnerabilities.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/04/06/storm-1175-focuses-gaze-on-vulnerable-web-facing-assets-in-high-tempo-medusa-ransomware-operations/"
+      "text": "Ultimate College Bundle Launched - **Microsoft** offers students over $500 in value with new Windows 11 PCs and services.",
+      "url": "https://blogs.windows.com/windowsexperience/2026/04/15/introducing-the-ultimate-college-bundle-built-for-student-life/"
     },
     {
-      "text": "Windows 11 Insider Preview Released - New Canary Build 28020.1812 introduces touchpad settings and Windows Security enhancements.",
+      "text": "AI Incident Response Insights - **Microsoft** outlines new challenges in incident response with AI's unpredictable outputs.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/04/15/incident-response-for-ai-same-fire-different-fuel/"
+    },
+    {
+      "text": "PostgreSQL App Development Boost - **Microsoft** introduces resources to enhance PostgreSQL integration across Azure platforms.",
+      "url": "https://devblogs.microsoft.com/blog/take-your-postgresql-backed-apps-to-the-next-level"
+    },
+    {
+      "text": "Windows 11 Insider Preview Updates - New builds released for **Windows Insiders** with enhancements and security features.",
       "url": "https://blogs.windows.com/windows-insider/2026/04/10/announcing-windows-11-insider-preview-build-28020-1812-canary-channel/"
     },
     {
-      "text": "Microsoft Leads in Sovereign Cloud - Recognized as a leader in The Forrester Wave™ for Sovereign Cloud Platforms.",
+      "text": "Forrester Recognizes Microsoft - **Microsoft** named a Leader in Sovereign Cloud Platforms, emphasizing digital sovereignty.",
       "url": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-forrester-wave-for-sovereign-cloud-platforms/"
     },
     {
-      "text": "AI-Enabled Phishing Campaign Uncovered - **Microsoft Defender** reveals sophisticated device code phishing using automation.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/04/06/ai-enabled-device-code-phishing-campaign-april-2026/"
+      "text": "Agentic SOC Concept Introduced - **Microsoft** redefines security operations to proactively counter cyber threats with AI.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/04/09/the-agentic-soc-rethinking-secops-for-the-next-decade/"
     },
     {
-      "text": "SOHO Router Compromise Alert - **Microsoft** warns of DNS hijacking and adversary-in-the-middle attacks from compromised routers.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/04/07/soho-router-compromise-leads-to-dns-hijacking-and-adversary-in-the-middle-attacks/"
+      "text": "Storm-2755 Cyber Threat Analysis - **Microsoft** investigates a new financial threat targeting Canadian payroll systems.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/04/09/investigating-storm-2755-payroll-pirate-attacks-targeting-canadian-employees/"
+    },
+    {
+      "text": "Android SDK Vulnerability Discovered - **Microsoft** identifies a critical flaw in EngageSDK affecting millions of Android wallets.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/04/09/intent-redirection-vulnerability-third-party-sdk-android/"
     }
   ]
 }
