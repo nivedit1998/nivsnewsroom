@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-04-16T09:55:21.247Z",
+  "generatedAt": "2026-04-17T09:53:32.106Z",
   "bullets": [
     {
-      "text": "Ultimate College Bundle Launched - **Microsoft** offers students over $500 in value with new Windows 11 PCs and services.",
+      "text": "First Look at Metro 2039 - **Xbox** showcases the upcoming title, promising a thrilling single-player experience this winter.",
+      "url": "https://blogs.windows.com/windowsexperience/2026/04/16/xbox-gives-pc-gaming-fans-a-first-look-at-metro-2039/"
+    },
+    {
+      "text": "Cryptographic Inventory Strategy - **Microsoft** emphasizes the need for a comprehensive cryptographic inventory for quantum readiness.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/04/16/building-your-cryptographic-inventory-a-customer-strategy-for-cryptographic-posture-management/"
+    },
+    {
+      "text": "Sapphire Sleet Cyber Campaign - **Microsoft** reveals a North Korean cyber threat targeting macOS users through social engineering.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
+    },
+    {
+      "text": "Ultimate College Bundle - **Microsoft** offers students exclusive deals on Windows 11 PCs, enhancing productivity and gaming.",
       "url": "https://blogs.windows.com/windowsexperience/2026/04/15/introducing-the-ultimate-college-bundle-built-for-student-life/"
     },
     {
-      "text": "AI Incident Response Insights - **Microsoft** outlines new challenges in incident response with AI's unpredictable outputs.",
+      "text": "AI Incident Response Challenges - **Microsoft** discusses the evolving landscape of incident response in the age of AI.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/04/15/incident-response-for-ai-same-fire-different-fuel/"
     },
     {
-      "text": "PostgreSQL App Development Boost - **Microsoft** introduces resources to enhance PostgreSQL integration across Azure platforms.",
+      "text": "PostgreSQL on Azure - **Microsoft** launches resources to enhance PostgreSQL app development and migration.",
       "url": "https://devblogs.microsoft.com/blog/take-your-postgresql-backed-apps-to-the-next-level"
     },
     {
-      "text": "Windows 11 Insider Preview Updates - New builds released for **Windows Insiders** with enhancements and security features.",
+      "text": "Smart Tier for Azure Storage - **Microsoft** announces general availability of smart tier, optimizing storage costs automatically.",
+      "url": "https://azure.microsoft.com/en-us/blog/optimize-object-storage-costs-automatically-with-smart-tier-now-generally-available/"
+    },
+    {
+      "text": "Windows 11 Insider Preview Updates - **Microsoft** rolls out new Insider Preview builds, enhancing user experience and security.",
       "url": "https://blogs.windows.com/windows-insider/2026/04/10/announcing-windows-11-insider-preview-build-28020-1812-canary-channel/"
-    },
-    {
-      "text": "Forrester Recognizes Microsoft - **Microsoft** named a Leader in Sovereign Cloud Platforms, emphasizing digital sovereignty.",
-      "url": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-forrester-wave-for-sovereign-cloud-platforms/"
-    },
-    {
-      "text": "Agentic SOC Concept Introduced - **Microsoft** redefines security operations to proactively counter cyber threats with AI.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/04/09/the-agentic-soc-rethinking-secops-for-the-next-decade/"
-    },
-    {
-      "text": "Storm-2755 Cyber Threat Analysis - **Microsoft** investigates a new financial threat targeting Canadian payroll systems.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/04/09/investigating-storm-2755-payroll-pirate-attacks-targeting-canadian-employees/"
-    },
-    {
-      "text": "Android SDK Vulnerability Discovered - **Microsoft** identifies a critical flaw in EngageSDK affecting millions of Android wallets.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/04/09/intent-redirection-vulnerability-third-party-sdk-android/"
     }
   ]
 }
