@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-04-17T09:53:32.106Z",
+  "generatedAt": "2026-04-18T09:10:59.607Z",
   "bullets": [
     {
-      "text": "First Look at Metro 2039 - **Xbox** showcases the upcoming title, promising a thrilling single-player experience this winter.",
-      "url": "https://blogs.windows.com/windowsexperience/2026/04/16/xbox-gives-pc-gaming-fans-a-first-look-at-metro-2039/"
+      "text": "Windows 11 Insider Preview Build 28020.1863 Released - This Canary Channel update includes general improvements and fixes for Insiders.",
+      "url": "https://blogs.windows.com/windows-insider/2026/04/17/announcing-windows-11-insider-preview-build-28020-1863-canary-channel/"
     },
     {
-      "text": "Cryptographic Inventory Strategy - **Microsoft** emphasizes the need for a comprehensive cryptographic inventory for quantum readiness.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/04/16/building-your-cryptographic-inventory-a-customer-strategy-for-cryptographic-posture-management/"
+      "text": "New Xbox Mode in Windows 11 - The latest Canary build introduces Xbox mode for a streamlined gaming experience on PCs.",
+      "url": "https://blogs.windows.com/windows-insider/2026/04/17/announcing-windows-11-insider-preview-build-for-canary-channel-29570-1000/"
     },
     {
-      "text": "Sapphire Sleet Cyber Campaign - **Microsoft** reveals a North Korean cyber threat targeting macOS users through social engineering.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
+      "text": "Windows 11 Builds 26100.8313 and 26200.8313 Released - Gradual rollout of new features and performance improvements for Insiders.",
+      "url": "https://blogs.windows.com/windows-insider/2026/04/17/releasing-windows-11-builds-26100-8313-and-26200-8313-to-the-release-preview-channel/"
     },
     {
-      "text": "Ultimate College Bundle - **Microsoft** offers students exclusive deals on Windows 11 PCs, enhancing productivity and gaming.",
+      "text": "Windows 11 Insider Preview Build 26220.8271 Available - This Beta Channel update brings notable fixes and new features.",
+      "url": "https://blogs.windows.com/windows-insider/2026/04/17/announcing-windows-11-insider-preview-build-26220-8271-beta-channel/"
+    },
+    {
+      "text": "Windows 11 Insider Preview Build 26300.8276 Released - New features and improvements are rolling out for Insiders in the Dev Channel.",
+      "url": "https://blogs.windows.com/windows-insider/2026/04/17/announcing-windows-11-insider-preview-build-26300-8276-dev-channel/"
+    },
+    {
+      "text": "Predictive Shielding Enhances Security - Microsoft Defender's new capability helps disrupt identity-based attacks in real-time.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/04/17/domain-compromise-predictive-shielding-shut-down-lateral-movement/"
+    },
+    {
+      "text": "New College Bundle for Students - Microsoft offers a comprehensive package including PCs and subscriptions to aid student life.",
       "url": "https://blogs.windows.com/windowsexperience/2026/04/15/introducing-the-ultimate-college-bundle-built-for-student-life/"
     },
     {
-      "text": "AI Incident Response Challenges - **Microsoft** discusses the evolving landscape of incident response in the age of AI.",
+      "text": "AI Incident Response Strategies - Microsoft outlines new approaches for managing AI-related security incidents effectively.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/04/15/incident-response-for-ai-same-fire-different-fuel/"
-    },
-    {
-      "text": "PostgreSQL on Azure - **Microsoft** launches resources to enhance PostgreSQL app development and migration.",
-      "url": "https://devblogs.microsoft.com/blog/take-your-postgresql-backed-apps-to-the-next-level"
-    },
-    {
-      "text": "Smart Tier for Azure Storage - **Microsoft** announces general availability of smart tier, optimizing storage costs automatically.",
-      "url": "https://azure.microsoft.com/en-us/blog/optimize-object-storage-costs-automatically-with-smart-tier-now-generally-available/"
-    },
-    {
-      "text": "Windows 11 Insider Preview Updates - **Microsoft** rolls out new Insider Preview builds, enhancing user experience and security.",
-      "url": "https://blogs.windows.com/windows-insider/2026/04/10/announcing-windows-11-insider-preview-build-28020-1812-canary-channel/"
     }
   ]
 }
