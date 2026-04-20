@@ -1,37 +1,29 @@
 {
-  "generatedAt": "2026-04-18T09:10:59.607Z",
+  "generatedAt": "2026-04-20T10:14:52.910Z",
   "bullets": [
     {
-      "text": "Windows 11 Insider Preview Build 28020.1863 Released - This Canary Channel update includes general improvements and fixes for Insiders.",
+      "text": "Cross-Tenant Attack Alert - **Microsoft Teams** is being exploited for social engineering attacks, enabling data exfiltration.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/04/18/crosstenant-helpdesk-impersonation-data-exfiltration-human-operated-intrusion-playbook/"
+    },
+    {
+      "text": "Windows 11 Insider Preview - New builds released for **Windows 11**, enhancing user experience and gaming features.",
       "url": "https://blogs.windows.com/windows-insider/2026/04/17/announcing-windows-11-insider-preview-build-28020-1863-canary-channel/"
     },
     {
-      "text": "New Xbox Mode in Windows 11 - The latest Canary build introduces Xbox mode for a streamlined gaming experience on PCs.",
-      "url": "https://blogs.windows.com/windows-insider/2026/04/17/announcing-windows-11-insider-preview-build-for-canary-channel-29570-1000/"
-    },
-    {
-      "text": "Windows 11 Builds 26100.8313 and 26200.8313 Released - Gradual rollout of new features and performance improvements for Insiders.",
-      "url": "https://blogs.windows.com/windows-insider/2026/04/17/releasing-windows-11-builds-26100-8313-and-26200-8313-to-the-release-preview-channel/"
-    },
-    {
-      "text": "Windows 11 Insider Preview Build 26220.8271 Available - This Beta Channel update brings notable fixes and new features.",
-      "url": "https://blogs.windows.com/windows-insider/2026/04/17/announcing-windows-11-insider-preview-build-26220-8271-beta-channel/"
-    },
-    {
-      "text": "Windows 11 Insider Preview Build 26300.8276 Released - New features and improvements are rolling out for Insiders in the Dev Channel.",
-      "url": "https://blogs.windows.com/windows-insider/2026/04/17/announcing-windows-11-insider-preview-build-26300-8276-dev-channel/"
-    },
-    {
-      "text": "Predictive Shielding Enhances Security - Microsoft Defender's new capability helps disrupt identity-based attacks in real-time.",
+      "text": "Predictive Shielding Success - **Microsoft Defender** effectively disrupts lateral movement during domain compromises.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/04/17/domain-compromise-predictive-shielding-shut-down-lateral-movement/"
     },
     {
-      "text": "New College Bundle for Students - Microsoft offers a comprehensive package including PCs and subscriptions to aid student life.",
-      "url": "https://blogs.windows.com/windowsexperience/2026/04/15/introducing-the-ultimate-college-bundle-built-for-student-life/"
+      "text": "Post-Quantum Cryptography Strategy - **Microsoft** emphasizes the importance of cryptographic inventory for quantum readiness.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/04/16/building-your-cryptographic-inventory-a-customer-strategy-for-cryptographic-posture-management/"
     },
     {
-      "text": "AI Incident Response Strategies - Microsoft outlines new approaches for managing AI-related security incidents effectively.",
+      "text": "AI Incident Response Challenges - Traditional incident response methods need adaptation for AI's unique dynamics.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/04/15/incident-response-for-ai-same-fire-different-fuel/"
+    },
+    {
+      "text": "Smart Tier Launch - **Azure Blob Storage** introduces smart tier for automatic cost optimization based on usage.",
+      "url": "https://azure.microsoft.com/en-us/blog/optimize-object-storage-costs-automatically-with-smart-tier-now-generally-available/"
     }
   ]
 }
