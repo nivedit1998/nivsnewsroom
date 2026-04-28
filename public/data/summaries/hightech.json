@@ -1,41 +1,45 @@
 {
-  "generatedAt": "2026-04-27T10:31:09.109Z",
+  "generatedAt": "2026-04-28T10:29:24.205Z",
   "bullets": [
     {
-      "text": "Google Wallet Expands IDs - **Google Wallet** now supports digital passports from Brazil, Singapore, and Taiwan on Android.",
+      "text": "AI Breakthrough Funding - **DeepMind**'s David Silver raises $1.1B for a new AI venture focused on learning without human data.",
+      "url": "https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/"
+    },
+    {
+      "text": "Nothing's File-Sharing Comeback - **Nothing** revives its Android-to-computer file-sharing tool, Warp, after initial withdrawal.",
+      "url": "https://www.cnet.com/tech/services-and-software/nothing-android-computer-file-sharing-tool/"
+    },
+    {
+      "text": "Giannandrea Joins CuspAI - Former **Apple** AI chief John Giannandrea takes an advisory role at UK startup **CuspAI**.",
+      "url": "https://9to5mac.com/2026/04/27/john-giannandrea-has-found-a-new-role-after-leaving-apple/"
+    },
+    {
+      "text": "Samsung Wallet's Travel Feature - New **Samsung Wallet** feature organizes travel plans into a detailed itinerary.",
+      "url": "https://www.cnet.com/tech/services-and-software/samsung-wallet-trips-feature-travel-itinerary/"
+    },
+    {
+      "text": "Google Wallet Expands ID Support - **Google Wallet** adds support for digital passport IDs from Brazil, Singapore, and Taiwan.",
       "url": "https://9to5google.com/2026/04/25/google-wallet-passport-brazil-singapore-taiwan/"
     },
     {
-      "text": "iOS Update Enhances Security - **Apple**'s iOS 26.4.1 automatically enables Stolen Device Protection for some iPhones.",
-      "url": "https://www.cnet.com/tech/services-and-software/ios-26-4-1-bug-fixes-iphone-security-feature/"
-    },
-    {
-      "text": "Apple Wallet's Digital ID Grows - **Apple Wallet** now allows age verification using Digital ID for select services.",
+      "text": "Apple Wallet's Digital ID Update - **Apple Wallet** enhances its Digital ID feature for age verification and more.",
       "url": "https://9to5mac.com/2026/04/24/apple-wallets-new-digital-id-feature-just-added-more-ways-to-use-it/"
     },
     {
-      "text": "Apple TV Crime Thriller Returns - **Apple TV**'s acclaimed series **Criminal Record** is back with a new season.",
-      "url": "https://9to5mac.com/2026/04/22/apple-tvs-acclaimed-london-crime-thriller-is-back-with-new-season/"
+      "text": "Social Media Scam Surge - Consumers lost $2.1 billion to social media scams in 2025, with **Facebook** being the most reported platform.",
+      "url": "https://techcrunch.com/2026/04/27/consumers-lost-2-1-billion-to-social-media-scams-in-2025-ftc-reports/"
     },
     {
-      "text": "Meta's Solar Power Innovation - **Meta** partners with Overview Energy to beam solar power from space to Earth.",
-      "url": "https://techcrunch.com/2026/04/27/meta-inks-deal-for-solar-power-at-night-beamed-from-space/"
+      "text": "AI Features Coming to Ubuntu - **Canonical** plans to integrate AI features into **Ubuntu** throughout 2026.",
+      "url": "https://www.theverge.com/tech/919411/canonical-ubuntu-linux-ai-features"
     },
     {
-      "text": "Truecaller Faces Growth Challenges - **Truecaller** experiences slowing growth as competition intensifies in caller ID services.",
-      "url": "https://techcrunch.com/2026/04/26/truecaller-faces-mounting-pressures-as-its-growth-matures/"
+      "text": "Investors Back AI Home Screen App - **Skye**, an AI app for iPhone, garners significant investor interest ahead of launch.",
+      "url": "https://techcrunch.com/2026/04/27/investors-back-skye-signull-labs-ai-home-screen-app-for-iphone-ahead-of-launch/"
     },
     {
-      "text": "Apple TV Executive Moves to Amazon - **Apple TV**'s Oliver Jones transitions to lead scripted content at **Amazon**.",
-      "url": "https://9to5mac.com/2026/04/21/apple-tv-executive-behind-monarch-legacy-of-monsters-leaves-for-amazon/"
-    },
-    {
-      "text": "Tim Cook to Step Down - **Apple** CEO **Tim Cook** announces his departure, paving the way for John Ternus.",
-      "url": "https://techcrunch.com/2026/04/26/what-tim-cook-built/"
-    },
-    {
-      "text": "Google's Icon Design Update - **Google** rolls out new gradient icon designs across more apps.",
-      "url": "https://www.theverge.com/tech/918852/googles-new-gradient-icon-design-is-coming-to-more-apps"
+      "text": "OpenAI Resolves Legal Issues - **OpenAI** renegotiates its deal with **Microsoft**, easing concerns over its $50 billion Amazon deal.",
+      "url": "https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/"
     }
   ]
 }
