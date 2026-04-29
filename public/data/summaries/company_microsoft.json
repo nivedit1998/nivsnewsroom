@@ -1,33 +1,45 @@
 {
-  "generatedAt": "2026-04-28T10:30:36.976Z",
+  "generatedAt": "2026-04-29T10:22:57.135Z",
   "bullets": [
     {
-      "text": "Sovereign Cloud Scaling - **Azure Local** now supports thousands of nodes for enhanced local workloads and compliance.",
+      "text": "AI-Driven Business Growth - **Microsoft** empowers organizations to unlock creativity and innovation through AI integration in daily operations.",
+      "url": "https://blogs.microsoft.com/blog/2026/04/28/unlocking-human-ambition-to-drive-business-growth-with-ai/"
+    },
+    {
+      "text": "Enhanced AWS Defense - **Microsoft Sentinel UEBA** enriches AWS logs with behavioral insights for faster anomaly detection.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/04/28/simplifying-aws-defense-microsoft-sentinel-ueba/"
+    },
+    {
+      "text": "Scaling Sovereign Cloud - **Azure Local** now supports thousands of nodes, enabling larger workloads within sovereign environments.",
       "url": "https://blogs.microsoft.com/blog/2026/04/27/microsoft-sovereign-private-cloud-scales-to-thousands-of-nodes-with-azure-local/"
     },
     {
-      "text": "Evolving AI Partnership - **Microsoft** and **OpenAI** streamline their collaboration to enhance AI platform capabilities.",
+      "text": "Strengthened Microsoft-OpenAI Partnership - An amended agreement enhances collaboration and AI platform development between **Microsoft** and **OpenAI**.",
       "url": "https://blogs.microsoft.com/blog/2026/04/27/the-next-phase-of-the-microsoft-openai-partnership/"
     },
     {
-      "text": "Windows Update Control - New features enhance user control over updates, addressing feedback on disruption.",
+      "text": "Windows Update Improvements - **Microsoft** enhances user control over updates, addressing feedback for a smoother experience.",
       "url": "https://blogs.windows.com/windows-insider/2026/04/24/your-windows-update-experience-just-got-updated/"
     },
     {
-      "text": "Agentic AI in Office - **Copilot** now offers advanced capabilities in **Word**, **Excel**, and **PowerPoint** for enhanced productivity.",
-      "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/22/copilots-agentic-capabilities-in-word-excel-and-powerpoint-are-generally-available/"
+      "text": "New Windows Insider Channels - Transitioning to **Experimental** and **Beta** channels for improved user experiences in Windows.",
+      "url": "https://blogs.windows.com/windows-insider/2026/04/24/were-moving-to-experimental-and-beta-announcing-new-builds/"
     },
     {
-      "text": "AI-Driven Security - **Microsoft** leverages AI to enhance cybersecurity measures against evolving threats.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/04/22/ai-powered-defense-for-an-ai-accelerated-threat-landscape/"
+      "text": "GPT-5.5 Launch in Foundry - **OpenAI's** latest model is now available in **Microsoft Foundry**, enhancing enterprise AI capabilities.",
+      "url": "https://azure.microsoft.com/en-us/blog/openais-gpt-5-5-in-microsoft-foundry-frontier-intelligence-on-an-enterprise-ready-platform/"
     },
     {
-      "text": "Database Modernization Initiative - **Azure Accelerate for Databases** aims to enhance AI readiness through modernization.",
-      "url": "https://azure.microsoft.com/en-us/blog/introducing-azure-accelerate-for-databases-modernize-your-data-for-ai-with-experts-and-investments/"
+      "text": "LangChain.js Course - A free course from **Microsoft** teaches building agentic AI apps with JavaScript.",
+      "url": "https://devblogs.microsoft.com/blog/langchainjs-for-beginners"
     },
     {
-      "text": "Passkey Sync Security - **Microsoft Password Manager** enhances security for syncing passkeys across devices.",
-      "url": "https://blogs.windows.com/msedgedev/2026/04/22/engineering-secure-passkey-sync-in-microsoft-password-manager/"
+      "text": "Securing Agent Tool Execution - **Microsoft** introduces governance for the Model Context Protocol to enhance security in AI tools.",
+      "url": "https://devblogs.microsoft.com/blog/securing-mcp-a-control-plane-for-agent-tool-execution"
+    },
+    {
+      "text": "Advancing R&D with Microsoft Discovery - **Microsoft Discovery** expands access to agentic AI capabilities for research and development.",
+      "url": "https://azure.microsoft.com/en-us/blog/microsoft-discovery-advancing-agentic-rd-at-scale/"
     }
   ]
 }

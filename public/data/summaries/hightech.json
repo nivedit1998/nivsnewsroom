@@ -1,45 +1,45 @@
 {
-  "generatedAt": "2026-04-28T10:29:24.205Z",
+  "generatedAt": "2026-04-29T10:22:05.651Z",
   "bullets": [
     {
-      "text": "AI Breakthrough Funding - **DeepMind**'s David Silver raises $1.1B for a new AI venture focused on learning without human data.",
-      "url": "https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/"
+      "text": "GitHub Fixes Vulnerability Fast - **GitHub** addressed a critical vulnerability in under six hours, safeguarding millions of repositories.",
+      "url": "https://www.theverge.com/news/920295/github-remote-code-execution-vulnerability-fix"
     },
     {
-      "text": "Nothing's File-Sharing Comeback - **Nothing** revives its Android-to-computer file-sharing tool, Warp, after initial withdrawal.",
-      "url": "https://www.cnet.com/tech/services-and-software/nothing-android-computer-file-sharing-tool/"
-    },
-    {
-      "text": "Giannandrea Joins CuspAI - Former **Apple** AI chief John Giannandrea takes an advisory role at UK startup **CuspAI**.",
+      "text": "Giannandrea Joins CuspAI - Former **Apple** AI head, John Giannandrea, is set to aid **CuspAI** in expanding to the US.",
       "url": "https://9to5mac.com/2026/04/27/john-giannandrea-has-found-a-new-role-after-leaving-apple/"
     },
     {
-      "text": "Samsung Wallet's Travel Feature - New **Samsung Wallet** feature organizes travel plans into a detailed itinerary.",
-      "url": "https://www.cnet.com/tech/services-and-software/samsung-wallet-trips-feature-travel-itinerary/"
+      "text": "YouTube Tests AI Search - **YouTube** is rolling out an AI-powered search feature for guided answers to user queries.",
+      "url": "https://techcrunch.com/2026/04/28/youtube-is-testing-an-ai-powered-search-feature-that-shows-guided-answers/"
+    },
+    {
+      "text": "Otter Enhances Enterprise Search - **Otter** introduces a feature allowing users to search across multiple enterprise tools.",
+      "url": "https://techcrunch.com/2026/04/28/otters-new-feature-lets-users-search-across-their-enterprise-tools/"
+    },
+    {
+      "text": "Google Translate's New Tool - **Google** introduces a pronunciation feature for **Translate**, enhancing language learning.",
+      "url": "https://www.cnet.com/tech/services-and-software/google-20-years-translate-new-pronunciation-feature/"
+    },
+    {
+      "text": "Philips Hue's SpatialAware Launch - **Philips Hue** lights now feature SpatialAware for immersive lighting experiences.",
+      "url": "https://9to5mac.com/2026/04/28/philips-hue-lights-enhanced-with-immersive-spatialaware-feature-now-available/"
     },
     {
       "text": "Google Wallet Expands ID Support - **Google Wallet** adds support for digital passport IDs from Brazil, Singapore, and Taiwan.",
       "url": "https://9to5google.com/2026/04/25/google-wallet-passport-brazil-singapore-taiwan/"
     },
     {
-      "text": "Apple Wallet's Digital ID Update - **Apple Wallet** enhances its Digital ID feature for age verification and more.",
-      "url": "https://9to5mac.com/2026/04/24/apple-wallets-new-digital-id-feature-just-added-more-ways-to-use-it/"
+      "text": "Amazon Offers AI Shopping Q&A - **Amazon** launches an AI-powered audio Q&A feature for product inquiries.",
+      "url": "https://techcrunch.com/2026/04/28/amazon-launches-an-ai-powered-audio-qa-experience-on-product-pages/"
     },
     {
-      "text": "Social Media Scam Surge - Consumers lost $2.1 billion to social media scams in 2025, with **Facebook** being the most reported platform.",
-      "url": "https://techcrunch.com/2026/04/27/consumers-lost-2-1-billion-to-social-media-scams-in-2025-ftc-reports/"
+      "text": "Custom Multiview on YouTube TV - **YouTube TV** introduces customizable multiview for a personalized viewing experience.",
+      "url": "https://www.theverge.com/streaming/919958/youtube-tv-custom-multiview-channel"
     },
     {
-      "text": "AI Features Coming to Ubuntu - **Canonical** plans to integrate AI features into **Ubuntu** throughout 2026.",
-      "url": "https://www.theverge.com/tech/919411/canonical-ubuntu-linux-ai-features"
-    },
-    {
-      "text": "Investors Back AI Home Screen App - **Skye**, an AI app for iPhone, garners significant investor interest ahead of launch.",
-      "url": "https://techcrunch.com/2026/04/27/investors-back-skye-signull-labs-ai-home-screen-app-for-iphone-ahead-of-launch/"
-    },
-    {
-      "text": "OpenAI Resolves Legal Issues - **OpenAI** renegotiates its deal with **Microsoft**, easing concerns over its $50 billion Amazon deal.",
-      "url": "https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/"
+      "text": "Musk's Court Drama Continues - **Elon Musk** testifies in his trial against **OpenAI**, claiming his intent was to save humanity.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/920048/elon-musk-testimony-save-humanity"
     }
   ]
 }
