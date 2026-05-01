@@ -1,45 +1,43 @@
 {
-  "generatedAt": "2026-04-29T10:22:05.651Z",
+  "generatedAt": "2026-05-01T10:01:49.278Z",
   "bullets": [
     {
-      "text": "GitHub Fixes Vulnerability Fast - **GitHub** addressed a critical vulnerability in under six hours, safeguarding millions of repositories.",
-      "url": "https://www.theverge.com/news/920295/github-remote-code-execution-vulnerability-fix"
+      "text": "iCloud Search Feature Launched - iOS 26.4 enhances iCloud.com with a new search feature for files and photos.",
+      "url": "https://9to5mac.com/2026/04/29/ios-26-4-adds-convenient-new-icloud-feature-heres-how-to-enable-it/"
     },
     {
-      "text": "Giannandrea Joins CuspAI - Former **Apple** AI head, John Giannandrea, is set to aid **CuspAI** in expanding to the US.",
+      "text": "Siri Mode Coming to Camera - iOS 27 will introduce a new Siri mode for enhanced camera functionality.",
+      "url": "https://9to5mac.com/2026/04/29/camera-in-ios-27-to-feature-siri-mode-with-enhanced-visual-intelligence-per-report/"
+    },
+    {
+      "text": "MagSafe Now Standard on iPhones - Every new iPhone includes MagSafe, a feature absent in Samsung devices."
+    },
+    {
+      "text": "John Giannandrea Joins CuspAI - Former Apple AI head to assist UK startup CuspAI with US expansion.",
       "url": "https://9to5mac.com/2026/04/27/john-giannandrea-has-found-a-new-role-after-leaving-apple/"
     },
     {
-      "text": "YouTube Tests AI Search - **YouTube** is rolling out an AI-powered search feature for guided answers to user queries.",
-      "url": "https://techcrunch.com/2026/04/28/youtube-is-testing-an-ai-powered-search-feature-that-shows-guided-answers/"
-    },
-    {
-      "text": "Otter Enhances Enterprise Search - **Otter** introduces a feature allowing users to search across multiple enterprise tools.",
-      "url": "https://techcrunch.com/2026/04/28/otters-new-feature-lets-users-search-across-their-enterprise-tools/"
-    },
-    {
-      "text": "Google Translate's New Tool - **Google** introduces a pronunciation feature for **Translate**, enhancing language learning.",
-      "url": "https://www.cnet.com/tech/services-and-software/google-20-years-translate-new-pronunciation-feature/"
-    },
-    {
-      "text": "Philips Hue's SpatialAware Launch - **Philips Hue** lights now feature SpatialAware for immersive lighting experiences.",
+      "text": "Philips Hue's New Feature - SpatialAware mode enhances smart lighting for a more immersive experience.",
       "url": "https://9to5mac.com/2026/04/28/philips-hue-lights-enhanced-with-immersive-spatialaware-feature-now-available/"
     },
     {
-      "text": "Google Wallet Expands ID Support - **Google Wallet** adds support for digital passport IDs from Brazil, Singapore, and Taiwan.",
-      "url": "https://9to5google.com/2026/04/25/google-wallet-passport-brazil-singapore-taiwan/"
+      "text": "New Alarm Feature in iOS 26.4 - iOS 26.4 allows iPhone alarms to sound even when using an Apple Watch.",
+      "url": "https://9to5mac.com/2026/04/28/ios-26-4-gave-your-iphone-an-alarm-feature-thats-long-been-missing/"
     },
     {
-      "text": "Amazon Offers AI Shopping Q&A - **Amazon** launches an AI-powered audio Q&A feature for product inquiries.",
-      "url": "https://techcrunch.com/2026/04/28/amazon-launches-an-ai-powered-audio-qa-experience-on-product-pages/"
+      "text": "Apple Reports Record Sales - Despite chip shortages, Apple achieved $111.2 billion in revenue last quarter.",
+      "url": "https://techcrunch.com/2026/04/30/as-tim-cook-steps-down-apple-hit-record-sales-but-a-chip-shortage-looms/"
     },
     {
-      "text": "Custom Multiview on YouTube TV - **YouTube TV** introduces customizable multiview for a personalized viewing experience.",
-      "url": "https://www.theverge.com/streaming/919958/youtube-tv-custom-multiview-channel"
+      "text": "Rivian's Revenue Growth - Rivian's Q1 revenue increased as R2 production ramps up, despite challenges."
     },
     {
-      "text": "Musk's Court Drama Continues - **Elon Musk** testifies in his trial against **OpenAI**, claiming his intent was to save humanity.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/920048/elon-musk-testimony-save-humanity"
+      "text": "Hackers Exploit cPanel Bug - A critical vulnerability in cPanel is being actively exploited by hackers.",
+      "url": "https://techcrunch.com/2026/04/30/hackers-are-actively-exploiting-a-bug-in-cpanel-used-by-millions-of-websites/"
+    },
+    {
+      "text": "OpenAI Enhances ChatGPT Security - New advanced security features launched for ChatGPT accounts, including Yubico partnership.",
+      "url": "https://techcrunch.com/2026/04/30/openai-announces-new-advanced-security-for-chatgpt-accounts-including-a-partnership-with-yubico/"
     }
   ]
 }
