@@ -1,43 +1,44 @@
 {
-  "generatedAt": "2026-05-01T10:01:49.278Z",
+  "generatedAt": "2026-05-02T09:39:06.194Z",
   "bullets": [
     {
-      "text": "iCloud Search Feature Launched - iOS 26.4 enhances iCloud.com with a new search feature for files and photos.",
+      "text": "iOS 26.4 Enhances iCloud Search - iOS 26.4 introduces a search feature for iCloud.com, improving web usability.",
       "url": "https://9to5mac.com/2026/04/29/ios-26-4-adds-convenient-new-icloud-feature-heres-how-to-enable-it/"
     },
     {
-      "text": "Siri Mode Coming to Camera - iOS 27 will introduce a new Siri mode for enhanced camera functionality.",
+      "text": "Siri Mode Coming to Camera - iOS 27 will feature a new Siri mode in the Camera app for enhanced AI capabilities.",
       "url": "https://9to5mac.com/2026/04/29/camera-in-ios-27-to-feature-siri-mode-with-enhanced-visual-intelligence-per-report/"
     },
     {
-      "text": "MagSafe Now Standard on iPhones - Every new iPhone includes MagSafe, a feature absent in Samsung devices."
+      "text": "Every iPhone Now Has MagSafe - All new iPhones include MagSafe, a feature absent in Samsung's lineup."
     },
     {
-      "text": "John Giannandrea Joins CuspAI - Former Apple AI head to assist UK startup CuspAI with US expansion.",
-      "url": "https://9to5mac.com/2026/04/27/john-giannandrea-has-found-a-new-role-after-leaving-apple/"
+      "text": "Uber's Sensor Grid Ambition - Uber plans to equip driver cars with sensors to gather data for autonomous vehicle companies.",
+      "url": "https://techcrunch.com/2026/05/01/uber-wants-to-turn-its-millions-of-drivers-into-a-sensor-grid-for-self-driving-companies/"
     },
     {
-      "text": "Philips Hue's New Feature - SpatialAware mode enhances smart lighting for a more immersive experience.",
+      "text": "Philips Hue's SpatialAware Feature - Philips Hue lights now feature SpatialAware for immersive lighting experiences.",
       "url": "https://9to5mac.com/2026/04/28/philips-hue-lights-enhanced-with-immersive-spatialaware-feature-now-available/"
     },
     {
-      "text": "New Alarm Feature in iOS 26.4 - iOS 26.4 allows iPhone alarms to sound even when using an Apple Watch.",
+      "text": "New Alarm Feature in iOS 26.4 - iOS 26.4 allows iPhones to sound alarms even when Apple Watch is worn to bed.",
       "url": "https://9to5mac.com/2026/04/28/ios-26-4-gave-your-iphone-an-alarm-feature-thats-long-been-missing/"
     },
     {
-      "text": "Apple Reports Record Sales - Despite chip shortages, Apple achieved $111.2 billion in revenue last quarter.",
-      "url": "https://techcrunch.com/2026/04/30/as-tim-cook-steps-down-apple-hit-record-sales-but-a-chip-shortage-looms/"
+      "text": "Musely Secures $360M Funding - Musely raises $360M in non-dilutive capital to expand its telemedicine platform.",
+      "url": "https://techcrunch.com/2026/05/01/musely-secures-360m-from-general-catalyst-without-giving-up-equity/"
     },
     {
-      "text": "Rivian's Revenue Growth - Rivian's Q1 revenue increased as R2 production ramps up, despite challenges."
+      "text": "Pentagon Partners with Tech Giants - The Pentagon signs deals with Nvidia, Microsoft, and AWS to deploy AI on classified networks.",
+      "url": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/"
     },
     {
-      "text": "Hackers Exploit cPanel Bug - A critical vulnerability in cPanel is being actively exploited by hackers.",
-      "url": "https://techcrunch.com/2026/04/30/hackers-are-actively-exploiting-a-bug-in-cpanel-used-by-millions-of-websites/"
+      "text": "Ubuntu Services Hit by DDoS Attack - Ubuntu's infrastructure faces outages due to a DDoS attack by hacktivists.",
+      "url": "https://techcrunch.com/2026/05/01/ubuntu-services-hit-by-outages-after-ddos-attack/"
     },
     {
-      "text": "OpenAI Enhances ChatGPT Security - New advanced security features launched for ChatGPT accounts, including Yubico partnership.",
-      "url": "https://techcrunch.com/2026/04/30/openai-announces-new-advanced-security-for-chatgpt-accounts-including-a-partnership-with-yubico/"
+      "text": "Musk v. Altman Trial Unfolds - The legal battle between Musk and Altman reveals early communications from OpenAI's inception.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/920775/evidence-exhibits-elon-musk-sam-altman-openai-trial"
     }
   ]
 }
