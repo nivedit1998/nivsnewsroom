@@ -1,44 +1,40 @@
 {
-  "generatedAt": "2026-05-02T09:39:06.194Z",
+  "generatedAt": "2026-05-03T09:44:59.104Z",
   "bullets": [
     {
-      "text": "iOS 26.4 Enhances iCloud Search - iOS 26.4 introduces a search feature for iCloud.com, improving web usability.",
+      "text": "Turtlebox Ranger Review: Compact Power - This rugged Bluetooth speaker impresses with quality sound and strong battery life.",
+      "url": "https://www.cnet.com/tech/home-entertainment/turtlebox-ranger-bluetooth-speaker-review/"
+    },
+    {
+      "text": "iOS 26.4 Enhances iCloud - New search feature improves web access for files and photos on iCloud.",
       "url": "https://9to5mac.com/2026/04/29/ios-26-4-adds-convenient-new-icloud-feature-heres-how-to-enable-it/"
     },
     {
-      "text": "Siri Mode Coming to Camera - iOS 27 will feature a new Siri mode in the Camera app for enhanced AI capabilities.",
+      "text": "Siri Mode Coming to Camera - iOS 27 will introduce a new Siri mode with enhanced Visual Intelligence features.",
       "url": "https://9to5mac.com/2026/04/29/camera-in-ios-27-to-feature-siri-mode-with-enhanced-visual-intelligence-per-report/"
     },
     {
-      "text": "Every iPhone Now Has MagSafe - All new iPhones include MagSafe, a feature absent in Samsung's lineup."
+      "text": "AI Actors Ineligible for Oscars - New rules state only human performances and screenplays can win Academy Awards.",
+      "url": "https://techcrunch.com/2026/05/02/ai-generated-actors-and-scripts-are-now-ineligible-for-oscars/"
     },
     {
-      "text": "Uber's Sensor Grid Ambition - Uber plans to equip driver cars with sensors to gather data for autonomous vehicle companies.",
+      "text": "Ask.com Shuts Down - The once-popular Q&A service has officially closed its doors after 30 years.",
+      "url": "https://techcrunch.com/2026/05/02/farewell-jeeves-ask-com-shuts-down/"
+    },
+    {
+      "text": "Every iPhone Now Has MagSafe - Apple's latest iPhones include MagSafe, a feature absent in Samsung devices."
+    },
+    {
+      "text": "Uber's Data Collection Ambitions - Uber plans to turn its drivers' cars into data-collection platforms for AV companies.",
       "url": "https://techcrunch.com/2026/05/01/uber-wants-to-turn-its-millions-of-drivers-into-a-sensor-grid-for-self-driving-companies/"
     },
     {
-      "text": "Philips Hue's SpatialAware Feature - Philips Hue lights now feature SpatialAware for immersive lighting experiences.",
-      "url": "https://9to5mac.com/2026/04/28/philips-hue-lights-enhanced-with-immersive-spatialaware-feature-now-available/"
+      "text": "Google's New Travel Features - Google introduces tools for tracking hotel prices and enhancing travel planning.",
+      "url": "https://www.cnet.com/tech/services-and-software/google-rolls-out-new-travel-features/"
     },
     {
-      "text": "New Alarm Feature in iOS 26.4 - iOS 26.4 allows iPhones to sound alarms even when Apple Watch is worn to bed.",
-      "url": "https://9to5mac.com/2026/04/28/ios-26-4-gave-your-iphone-an-alarm-feature-thats-long-been-missing/"
-    },
-    {
-      "text": "Musely Secures $360M Funding - Musely raises $360M in non-dilutive capital to expand its telemedicine platform.",
-      "url": "https://techcrunch.com/2026/05/01/musely-secures-360m-from-general-catalyst-without-giving-up-equity/"
-    },
-    {
-      "text": "Pentagon Partners with Tech Giants - The Pentagon signs deals with Nvidia, Microsoft, and AWS to deploy AI on classified networks.",
-      "url": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/"
-    },
-    {
-      "text": "Ubuntu Services Hit by DDoS Attack - Ubuntu's infrastructure faces outages due to a DDoS attack by hacktivists.",
-      "url": "https://techcrunch.com/2026/05/01/ubuntu-services-hit-by-outages-after-ddos-attack/"
-    },
-    {
-      "text": "Musk v. Altman Trial Unfolds - The legal battle between Musk and Altman reveals early communications from OpenAI's inception.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/920775/evidence-exhibits-elon-musk-sam-altman-openai-trial"
+      "text": "Heybike's Ranger 3.0 Pro Deal - This foldable ebike is now $500 off, making it a strong alternative to cars.",
+      "url": "https://www.cnet.com/roadshow/news/may-1-heybike-ranger-3-pro-deal/"
     }
   ]
 }

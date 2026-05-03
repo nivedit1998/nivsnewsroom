@@ -1,33 +1,45 @@
 {
-  "generatedAt": "2026-05-02T09:39:55.418Z",
+  "generatedAt": "2026-05-03T09:46:19.497Z",
   "bullets": [
     {
-      "text": "Largest Flight Sim Update - Sim Update 5 for **Microsoft Flight Simulator 2024** introduces fully unlocked career modes.",
+      "text": "Massive Flight Simulator Update - Sim Update 5 unlocks all career modes for aspiring pilots in **Microsoft Flight Simulator 2024**.",
       "url": "https://blogs.windows.com/windowsexperience/2026/05/01/microsoft-flight-simulator-2024-releases-largest-sim-update-yet/"
     },
     {
-      "text": "Windows Insider Enhancements - New updates simplify navigation and control for **Windows Insiders**, enhancing user experience.",
+      "text": "Windows Insider Enhancements - New updates improve navigation and control for **Windows Insiders**, focusing on transparency and user feedback.",
       "url": "https://blogs.windows.com/windows-insider/2026/05/01/windows-quality-update-progress-weve-made-since-march/"
     },
     {
-      "text": "CVE-2026-31431 Vulnerability - A high-severity **Linux** privilege escalation flaw poses risks to cloud environments.",
+      "text": "Critical Linux Vulnerability Alert - **Microsoft Defender** identifies a high-severity privilege escalation flaw affecting major Linux distributions.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/05/01/cve-2026-31431-copy-fail-vulnerability-enables-linux-root-privilege-escalation/"
     },
     {
-      "text": "Microsoft Agent 365 Launch - **Agent 365** now available, enhancing governance and security for AI agents.",
+      "text": "New Windows Insider Builds - Latest **Windows 11 Insider Preview** builds released, enhancing user experience and ISO support.",
+      "url": "https://blogs.windows.com/windows-insider/2026/05/01/announcing-new-builds-for-1-may-2026-and-extending-iso-support/"
+    },
+    {
+      "text": "Agent 365 Launch - **Microsoft Agent 365** now available, enhancing governance and security for AI agents across environments.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/05/01/microsoft-agent-365-now-generally-available-expands-capabilities-and-integrations/"
     },
     {
-      "text": "Email Threat Trends - **Microsoft** detected 8.3 billion phishing threats in Q1 2026, with QR code attacks rising.",
+      "text": "Xbox Mode for Gamers - **Windows 11** introduces Xbox mode, offering a streamlined gaming experience for PC users.",
+      "url": "https://blogs.windows.com/windowsexperience/2026/04/30/windows-11-pc-gamers-xbox-mode-rolls-out-and-rog-xbox-ally-updates-include-auto-sr-preview/"
+    },
+    {
+      "text": "Open-Sourcing Azure HSM - **Microsoft** commits to transparency by open-sourcing the Azure Integrated HSM for enhanced security.",
+      "url": "https://azure.microsoft.com/en-us/blog/enforcing-trust-and-transparency-open-sourcing-the-azure-integrated-hsm/"
+    },
+    {
+      "text": "Email Threat Trends - **Microsoft** reports a decline in phishing threats, with QR code phishing emerging as a significant risk.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/04/30/email-threat-landscape-q1-2026-trends-and-insights/"
     },
     {
-      "text": "Sovereign Private Cloud Scaling - **Azure Local** now supports thousands of nodes, enhancing local workload management.",
-      "url": "https://blogs.microsoft.com/blog/2026/04/27/microsoft-sovereign-private-cloud-scales-to-thousands-of-nodes-with-azure-local/"
+      "text": "CISO Best Practices - **Microsoft** shares essential strategies for CISOs to conduct effective risk reviews in cybersecurity.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/04/29/8-best-practices-for-cisos-conducting-risk-reviews/"
     },
     {
-      "text": "Next Phase with OpenAI - **Microsoft** and **OpenAI** announce an amended agreement to enhance AI platform collaboration.",
-      "url": "https://blogs.microsoft.com/blog/2026/04/27/the-next-phase-of-the-microsoft-openai-partnership/"
+      "text": "AI for Business Growth - **Microsoft** emphasizes the role of AI in driving business innovation and operational efficiency.",
+      "url": "https://blogs.microsoft.com/blog/2026/04/28/unlocking-human-ambition-to-drive-business-growth-with-ai/"
     }
   ]
 }
