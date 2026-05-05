@@ -1,45 +1,44 @@
 {
-  "generatedAt": "2026-05-04T10:32:19.979Z",
+  "generatedAt": "2026-05-05T10:17:03.253Z",
   "bullets": [
     {
-      "text": "Massive Flight Simulator Update - Sim Update 5 unlocks all career modes for players in **Microsoft Flight Simulator 2024**.",
+      "text": "AI Collaboration Patterns Emerge - **Microsoft** outlines four distinct patterns of human-agent collaboration reshaping business operations.",
+      "url": "https://blogs.microsoft.com/blog/2026/05/05/how-frontier-firms-are-rebuilding-the-operating-model-for-the-age-of-ai/"
+    },
+    {
+      "text": "Phishing Campaigns Evolve - A sophisticated multi-stage phishing campaign targets users with **Microsoft Defender** highlighting the need for robust security.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/05/04/breaking-the-code-multi-stage-code-of-conduct-phishing-campaign-leads-to-aitm-token-compromise/"
+    },
+    {
+      "text": "Flight Simulator Update Released - **Microsoft Flight Simulator 2024** receives its largest update, unlocking all career modes for players.",
       "url": "https://blogs.windows.com/windowsexperience/2026/05/01/microsoft-flight-simulator-2024-releases-largest-sim-update-yet/"
     },
     {
-      "text": "Windows Insider Enhancements - New features improve navigation and control for **Windows Insiders** in the latest update.",
+      "text": "Windows Insider Program Enhancements - **Microsoft** introduces new features and improved navigation for Windows Insiders, enhancing user experience.",
       "url": "https://blogs.windows.com/windows-insider/2026/05/01/windows-quality-update-progress-weve-made-since-march/"
     },
     {
-      "text": "Critical Linux Vulnerability Alert - **Microsoft Defender** identifies a high-severity privilege escalation flaw affecting major Linux distributions.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/05/01/cve-2026-31431-copy-fail-vulnerability-enables-linux-root-privilege-escalation/"
-    },
-    {
-      "text": "New Windows Insider Builds - Latest builds released for **Windows 11** Insiders, enhancing user experience and ISO support.",
+      "text": "New Windows Builds Announced - **Microsoft** expands Windows Insider experience with new builds and ISO support for easier installations.",
       "url": "https://blogs.windows.com/windows-insider/2026/05/01/announcing-new-builds-for-1-may-2026-and-extending-iso-support/"
     },
     {
-      "text": "Agent 365 Launches - **Microsoft Agent 365** now available, offering governance and security for AI agents across environments.",
+      "text": "Critical Linux Vulnerability Identified - **Microsoft Defender** warns of a high-severity privilege escalation vulnerability affecting multiple Linux distributions."
+    },
+    {
+      "text": "Agent 365 Launches - **Microsoft Agent 365** now generally available, providing governance and security for AI agents across environments.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/05/01/microsoft-agent-365-now-generally-available-expands-capabilities-and-integrations/"
     },
     {
-      "text": "Xbox Mode for Gamers - **Windows 11** introduces Xbox mode, enhancing gaming experience with a streamlined interface.",
+      "text": "Xbox Mode for Windows 11 - **Microsoft** rolls out Xbox mode for Windows 11 PCs, enhancing the gaming experience with a streamlined interface.",
       "url": "https://blogs.windows.com/windowsexperience/2026/04/30/windows-11-pc-gamers-xbox-mode-rolls-out-and-rog-xbox-ally-updates-include-auto-sr-preview/"
     },
     {
-      "text": "Open-Sourcing Azure HSM - **Microsoft** commits to transparency by open-sourcing the Azure Integrated HSM for better security.",
-      "url": "https://azure.microsoft.com/en-us/blog/enforcing-trust-and-transparency-open-sourcing-the-azure-integrated-hsm/"
-    },
-    {
-      "text": "Email Threat Trends - **Microsoft Threat Intelligence** reports rising phishing attacks, with QR code phishing emerging as a key vector.",
+      "text": "Email Threat Trends Analyzed - **Microsoft** reveals Q1 2026 phishing trends, highlighting the rise of QR code phishing and evolving tactics.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/04/30/email-threat-landscape-q1-2026-trends-and-insights/"
     },
     {
-      "text": "CISO Best Practices - **Microsoft** shares essential strategies for CISOs to conduct effective risk reviews in cybersecurity.",
+      "text": "CISO Risk Review Best Practices - **Microsoft** shares eight best practices for CISOs to effectively conduct risk reviews in cybersecurity.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/04/29/8-best-practices-for-cisos-conducting-risk-reviews/"
-    },
-    {
-      "text": "AI-Driven Business Growth - **Microsoft** emphasizes the role of AI in transforming businesses and enhancing operational efficiency.",
-      "url": "https://blogs.microsoft.com/blog/2026/04/28/unlocking-human-ambition-to-drive-business-growth-with-ai/"
     }
   ]
 }
