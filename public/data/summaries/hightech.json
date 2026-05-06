@@ -1,45 +1,45 @@
 {
-  "generatedAt": "2026-05-05T10:16:03.473Z",
+  "generatedAt": "2026-05-06T10:30:46.100Z",
   "bullets": [
     {
-      "text": "Apple Wallet's New Feature - iOS 27 will allow users to create custom passes for unsupported tickets.",
+      "text": "Lego Batman Game Preview - **Traveller's Tales** brings a family-friendly yet respectful take on the Dark Knight.",
+      "url": "https://www.cnet.com/tech/gaming/i-played-the-new-lego-batman-preview/"
+    },
+    {
+      "text": "iOS 27 Wallet Update - New 'Create a Pass' feature allows users to convert physical passes to digital.",
       "url": "https://9to5mac.com/2026/05/04/ios-27-apple-wallet-adding-new-create-a-pass-feature-per-report/"
     },
     {
-      "text": "DeepMind Workers Unionize - Employees aim to prevent AI tech from aiding military operations.",
-      "url": "https://www.theverge.com/tech/923918/google-deepmind-union-bid-ai-military-israel"
+      "text": "Chrome AI Storage Issue - **Google Chrome** may consume 4GB of storage due to on-device AI model files.",
+      "url": "https://www.theverge.com/tech/924933/google-chrome-4gb-gemini-nano-ai-features"
     },
     {
-      "text": "Microsoft Ditches MSN Feed - Windows 11 widgets will hide the MSN news feed by default.",
-      "url": "https://www.theverge.com/news/923884/microsoft-hide-msn-feed-windows-widgets"
+      "text": "QuTwo's Impressive Valuation - Finnish AI lab **QuTwo** reaches $380M valuation after a successful funding round.",
+      "url": "https://techcrunch.com/2026/05/05/peter-sarlins-qutwo-reaches-380m-valuation-in-angel-round/"
     },
     {
-      "text": "Nvidia's Job Creation Claim - CEO asserts AI is generating numerous jobs, countering fears of unemployment.",
-      "url": "https://techcrunch.com/2026/05/04/as-workers-worry-about-ai-nvidias-jensen-huang-says-ai-is-creating-an-enormous-number-of-jobs/"
+      "text": "AI-Powered Restaurant Launch - **Marc Lore** aims to let anyone create a restaurant brand using AI technology.",
+      "url": "https://techcrunch.com/2026/05/05/marc-lore-says-that-ai-will-soon-enable-anyone-open-a-restaurant/"
     },
     {
-      "text": "Fervo Energy's IPO Plans - Geothermal startup aims to raise up to $1.3 billion in its initial public offering.",
-      "url": "https://techcrunch.com/2026/05/04/geothermal-startup-fervo-energy-to-raise-up-to-1-3b-in-ipo/"
+      "text": "Nuro's Driverless Testing - **Nuro** receives permit for driverless testing of autonomous vehicles in California.",
+      "url": "https://techcrunch.com/2026/05/05/nuro-receives-driverless-testing-permit-ahead-of-uber-robotaxi-service-launch/"
     },
     {
-      "text": "CopyFail Bug Alert - A severe vulnerability in Linux systems is actively exploited by hackers.",
-      "url": "https://techcrunch.com/2026/05/04/u-s-government-warns-of-severe-copyfail-bug-affecting-major-versions-of-linux/"
+      "text": "SAP's AI Investment - **SAP** plans to invest $1.16B in a German AI lab to enhance enterprise software.",
+      "url": "https://techcrunch.com/2026/05/05/sap-bets-1-16b-on-18-month-old-german-ai-lab-and-says-yes-to-nemoclaw/"
     },
     {
-      "text": "Elon Musk's Twitter Settlement - Musk agrees to a $1.5 million penalty without admitting wrongdoing.",
-      "url": "https://www.theverge.com/tech/923612/elon-musk-sec-1-5-million-penalty-twitter-x"
+      "text": "Bumble's User Decline - **Bumble** reports a 21.1% drop in paying users as it prepares for a major overhaul.",
+      "url": "https://techcrunch.com/2026/05/05/bumbles-paying-users-are-slipping-as-it-bets-on-an-overhaul-later-this-year/"
     },
     {
-      "text": "Cerebras IPO on the Horizon - AI chipmaker plans to raise up to $3.5 billion in its upcoming IPO.",
-      "url": "https://techcrunch.com/2026/05/04/openais-cozy-partner-cerebras-is-on-track-for-a-blockbuster-ipo/"
+      "text": "Altara's Data Solutions - **Altara** secures $7M to streamline data management in physical sciences.",
+      "url": "https://techcrunch.com/2026/05/05/altara-secures-7m-to-bridge-the-data-gap-thats-slowing-down-physical-sciences/"
     },
     {
-      "text": "AI Models Drive App Growth - Image AI releases are generating significantly more downloads than chatbots.",
-      "url": "https://techcrunch.com/2026/05/04/image-ai-models-now-drive-app-growth-beating-chatbot-upgrades/"
-    },
-    {
-      "text": "DoorDash Enhances Merchant Tools - New AI features streamline onboarding and improve dish presentation.",
-      "url": "https://techcrunch.com/2026/05/04/doordash-adds-ai-tools-to-speed-up-merchant-onboarding-edit-photos-of-dishes/"
+      "text": "Lucid Motors Uncertainty - **Lucid Motors** is unsure of its EV production targets amid leadership changes.",
+      "url": "https://techcrunch.com/2026/05/05/lucid-motors-doesnt-know-how-many-evs-it-will-build-this-year/"
     }
   ]
 }

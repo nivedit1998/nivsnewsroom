@@ -1,44 +1,44 @@
 {
-  "generatedAt": "2026-05-05T10:17:03.253Z",
+  "generatedAt": "2026-05-06T10:31:36.007Z",
   "bullets": [
     {
-      "text": "AI Collaboration Patterns Emerge - **Microsoft** outlines four distinct patterns of human-agent collaboration reshaping business operations.",
+      "text": "Azure Cosmos DB Insights – Lessons Learned",
+      "url": "https://devblogs.microsoft.com/blog/azure-cosmos-db-conf-2026-recap-lessons-from-production"
+    },
+    {
+      "text": "AI Collaboration Patterns Emerge",
       "url": "https://blogs.microsoft.com/blog/2026/05/05/how-frontier-firms-are-rebuilding-the-operating-model-for-the-age-of-ai/"
     },
     {
-      "text": "Phishing Campaigns Evolve - A sophisticated multi-stage phishing campaign targets users with **Microsoft Defender** highlighting the need for robust security.",
+      "text": "Azure IaaS Security Principles Explained",
+      "url": "https://azure.microsoft.com/en-us/blog/azure-iaas-defense-in-depth-built-on-secure-by-design-principles/"
+    },
+    {
+      "text": "Phishing Campaigns Evolve",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/05/04/breaking-the-code-multi-stage-code-of-conduct-phishing-campaign-leads-to-aitm-token-compromise/"
     },
     {
-      "text": "Flight Simulator Update Released - **Microsoft Flight Simulator 2024** receives its largest update, unlocking all career modes for players.",
+      "text": "Flight Simulator Update Released",
       "url": "https://blogs.windows.com/windowsexperience/2026/05/01/microsoft-flight-simulator-2024-releases-largest-sim-update-yet/"
     },
     {
-      "text": "Windows Insider Program Enhancements - **Microsoft** introduces new features and improved navigation for Windows Insiders, enhancing user experience.",
+      "text": "Windows Insider Program Updates",
       "url": "https://blogs.windows.com/windows-insider/2026/05/01/windows-quality-update-progress-weve-made-since-march/"
     },
     {
-      "text": "New Windows Builds Announced - **Microsoft** expands Windows Insider experience with new builds and ISO support for easier installations.",
+      "text": "Critical Linux Vulnerability Identified"
+    },
+    {
+      "text": "New Windows Insider Builds Announced",
       "url": "https://blogs.windows.com/windows-insider/2026/05/01/announcing-new-builds-for-1-may-2026-and-extending-iso-support/"
     },
     {
-      "text": "Critical Linux Vulnerability Identified - **Microsoft Defender** warns of a high-severity privilege escalation vulnerability affecting multiple Linux distributions."
-    },
-    {
-      "text": "Agent 365 Launches - **Microsoft Agent 365** now generally available, providing governance and security for AI agents across environments.",
+      "text": "Microsoft Agent 365 Launches",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/05/01/microsoft-agent-365-now-generally-available-expands-capabilities-and-integrations/"
     },
     {
-      "text": "Xbox Mode for Windows 11 - **Microsoft** rolls out Xbox mode for Windows 11 PCs, enhancing the gaming experience with a streamlined interface.",
+      "text": "Xbox Mode for Windows 11 Gamers",
       "url": "https://blogs.windows.com/windowsexperience/2026/04/30/windows-11-pc-gamers-xbox-mode-rolls-out-and-rog-xbox-ally-updates-include-auto-sr-preview/"
-    },
-    {
-      "text": "Email Threat Trends Analyzed - **Microsoft** reveals Q1 2026 phishing trends, highlighting the rise of QR code phishing and evolving tactics.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/04/30/email-threat-landscape-q1-2026-trends-and-insights/"
-    },
-    {
-      "text": "CISO Risk Review Best Practices - **Microsoft** shares eight best practices for CISOs to effectively conduct risk reviews in cybersecurity.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/04/29/8-best-practices-for-cisos-conducting-risk-reviews/"
     }
   ]
 }
