@@ -1,44 +1,37 @@
 {
-  "generatedAt": "2026-05-06T10:31:36.007Z",
+  "generatedAt": "2026-05-07T10:40:59.479Z",
   "bullets": [
     {
-      "text": "Azure Cosmos DB Insights – Lessons Learned",
-      "url": "https://devblogs.microsoft.com/blog/azure-cosmos-db-conf-2026-recap-lessons-from-production"
+      "text": "Microsoft Flight Simulator Shines - Aerial firefighting missions introduced in collaboration with **New South Wales Rural Fire Service**.",
+      "url": "https://blogs.windows.com/windowsexperience/2026/05/06/with-latest-world-update-microsoft-flight-simulator-shines-light-on-aerial-firefighting/"
     },
     {
-      "text": "AI Collaboration Patterns Emerge",
-      "url": "https://blogs.microsoft.com/blog/2026/05/05/how-frontier-firms-are-rebuilding-the-operating-model-for-the-age-of-ai/"
+      "text": "Microsoft Leads AI Security - Recognized as an Overall Leader in **KuppingerCole**'s 2026 AI Security Operations Center report.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/05/06/microsoft-named-an-overall-leader-in-kuppingercole-analysts-2026-emerging-ai-security-operations-center-soc-report/"
     },
     {
-      "text": "Azure IaaS Security Principles Explained",
-      "url": "https://azure.microsoft.com/en-us/blog/azure-iaas-defense-in-depth-built-on-secure-by-design-principles/"
-    },
-    {
-      "text": "Phishing Campaigns Evolve",
+      "text": "Phishing Campaigns Evolve - New multi-stage phishing tactics observed, targeting users with sophisticated social engineering.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/05/04/breaking-the-code-multi-stage-code-of-conduct-phishing-campaign-leads-to-aitm-token-compromise/"
     },
     {
-      "text": "Flight Simulator Update Released",
-      "url": "https://blogs.windows.com/windowsexperience/2026/05/01/microsoft-flight-simulator-2024-releases-largest-sim-update-yet/"
+      "text": "Azure Cosmos DB Insights - Key lessons on performance optimization shared at the **Azure Cosmos DB Conf 2026**.",
+      "url": "https://devblogs.microsoft.com/blog/azure-cosmos-db-conf-2026-recap-lessons-from-production"
     },
     {
-      "text": "Windows Insider Program Updates",
-      "url": "https://blogs.windows.com/windows-insider/2026/05/01/windows-quality-update-progress-weve-made-since-march/"
-    },
-    {
-      "text": "Critical Linux Vulnerability Identified"
-    },
-    {
-      "text": "New Windows Insider Builds Announced",
+      "text": "Windows Insider Updates - New builds and features announced, enhancing user control and experience in the **Windows Insider Program**.",
       "url": "https://blogs.windows.com/windows-insider/2026/05/01/announcing-new-builds-for-1-may-2026-and-extending-iso-support/"
     },
     {
-      "text": "Microsoft Agent 365 Launches",
+      "text": "AI Agent Security Expanded - **Microsoft Agent 365** now generally available, enhancing governance and security for AI agents.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/05/01/microsoft-agent-365-now-generally-available-expands-capabilities-and-integrations/"
     },
     {
-      "text": "Xbox Mode for Windows 11 Gamers",
-      "url": "https://blogs.windows.com/windowsexperience/2026/04/30/windows-11-pc-gamers-xbox-mode-rolls-out-and-rog-xbox-ally-updates-include-auto-sr-preview/"
+      "text": "Email Threat Trends - **Microsoft Threat Intelligence** reports significant phishing activity and evolving tactics in Q1 2026.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/04/30/email-threat-landscape-q1-2026-trends-and-insights/"
+    },
+    {
+      "text": "Azure IaaS Security Principles - Emphasizing defense-in-depth and secure-by-design principles for cloud infrastructure.",
+      "url": "https://azure.microsoft.com/en-us/blog/azure-iaas-defense-in-depth-built-on-secure-by-design-principles/"
     }
   ]
 }
