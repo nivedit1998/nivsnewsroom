@@ -1,45 +1,44 @@
 {
-  "generatedAt": "2026-05-07T10:39:49.089Z",
+  "generatedAt": "2026-05-08T10:00:59.770Z",
   "bullets": [
     {
-      "text": "Pornhub Uses Apple Verification - **Pornhub** adopts **Apple's** age verification feature to comply with UK regulations.",
+      "text": "Pornhub Utilises Apple Verification - **Pornhub** adopts **Apple's** age verification for UK users, complying with new regulations.",
       "url": "https://9to5mac.com/2026/05/06/pornhub-is-now-using-apples-own-age-verification-feature-in-the-uk/"
     },
     {
-      "text": "CarPlay Allows Video Playback - **Apple** introduces video playback in **CarPlay** for parked vehicles starting with iOS 26.",
+      "text": "Apple TV 4K Gets AI Upgrade - New **Apple TV 4K** may feature AI enhancements inspired by **Netflix's** voice search.",
+      "url": "https://9to5mac.com/2026/05/07/new-apple-tv-4k-adding-ai-might-look-like-this-netflix-feature/"
+    },
+    {
+      "text": "CarPlay Allows Video Playback - **iOS 26** introduces video playback on **CarPlay**, but only when parked.",
       "url": "https://9to5mac.com/2026/05/06/carplay-video-ios-26/"
     },
     {
-      "text": "New Wallet Feature in iOS 27 - **Apple Wallet** will allow users to create digital passes from physical QR codes.",
-      "url": "https://9to5mac.com/2026/05/04/ios-27-apple-wallet-adding-new-create-a-pass-feature-per-report/"
+      "text": "PS5 Sales Decline Significantly - **Sony** reports a 46% drop in **PS5** sales due to price increases and economic pressures.",
+      "url": "https://www.theverge.com/news/926609/sonys-ps5-sales-plummet-memory-costs-price-hikes"
     },
     {
-      "text": "AI Economy Faces Bottlenecks - Experts discuss challenges in the **AI** supply chain at the Milken Global Conference.",
-      "url": "https://techcrunch.com/2026/05/06/five-architects-of-the-ai-economy-explain-where-the-wheels-are-coming-off/"
+      "text": "Nintendo Switch 2 Price Hike - **Nintendo** raises **Switch 2** prices globally, forecasting a sales drop.",
+      "url": "https://www.theverge.com/games/926606/nintendo-switch-2-price-hikes-earnings-results"
     },
     {
-      "text": "Snap Ends Perplexity Deal - **Snap** amicably terminates its $400M partnership with **Perplexity** amid integration challenges.",
-      "url": "https://techcrunch.com/2026/05/06/snap-says-its-400m-deal-with-perplexity-amicably-ended/"
+      "text": "OpenAI Launches Voice Features - **OpenAI** introduces new voice intelligence capabilities in its API for developers.",
+      "url": "https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api/"
     },
     {
-      "text": "Microsoft's Clean Energy Goals at Risk - **Microsoft** debates scaling back its clean energy targets due to AI data center demands.",
-      "url": "https://techcrunch.com/2026/05/06/microsofts-ai-data-center-push-is-colliding-with-its-clean-power-goals/"
+      "text": "Gusto Hits $1B Revenue - **Gusto** surpasses $1 billion in revenue, positioning itself closer to public markets.",
+      "url": "https://techcrunch.com/2026/05/07/gusto-hits-1b-revenue-a-figure-that-brings-it-closer-to-public-markets/"
     },
     {
-      "text": "Corgi Valuation Hits $1.3B - Insurance startup **Corgi** secures $160M Series B, reaching a valuation of $1.3 billion.",
-      "url": "https://techcrunch.com/2026/05/06/insurance-startup-corgi-hits-1-3b-valuation-4-months-after-its-series-a/"
+      "text": "Elon Musk's Lawsuit Against OpenAI - **Musk's** lawsuit scrutinizes **OpenAI's** safety practices amid ongoing court battles."
     },
     {
-      "text": "DeepSeek's Valuation Soars - **DeepSeek** could reach a $45B valuation as it seeks its first venture capital round.",
-      "url": "https://techcrunch.com/2026/05/06/deepseek-could-hit-45b-valuation-from-its-first-investment-round/"
+      "text": "Disney Plans Unified Super App - **Disney** executives discuss merging **Disney+** with other apps into a single platform.",
+      "url": "https://techcrunch.com/2026/05/07/disney-looking-to-make-a-unified-super-app-report-says/"
     },
     {
-      "text": "Braintrust Confirms Security Breach - **Braintrust** advises customers to rotate API keys after confirming unauthorized access.",
-      "url": "https://techcrunch.com/2026/05/06/ai-evaluation-startup-braintrust-confirms-breach-tells-every-customer-to-rotate-sensitive-keys/"
-    },
-    {
-      "text": "Qualcomm Launches New Chips - **Qualcomm** unveils midrange chips with **Wi-Fi 7** support, enhancing gaming for budget phones.",
-      "url": "https://www.cnet.com/tech/mobile/qualcomms-new-midrange-chips-add-wi-fi-7-improve-gaming-for-lower-cost-phones/"
+      "text": "Bumble Ditches Swiping Feature - **Bumble** CEO announces the removal of swiping, aiming for a revolutionary app redesign.",
+      "url": "https://techcrunch.com/2026/05/07/bumble-is-getting-rid-of-the-swipe-ceo-says/"
     }
   ]
 }
