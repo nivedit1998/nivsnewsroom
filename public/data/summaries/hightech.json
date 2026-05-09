@@ -1,44 +1,45 @@
 {
-  "generatedAt": "2026-05-08T10:00:59.770Z",
+  "generatedAt": "2026-05-09T09:50:58.939Z",
   "bullets": [
     {
-      "text": "Pornhub Utilises Apple Verification - **Pornhub** adopts **Apple's** age verification for UK users, complying with new regulations.",
+      "text": "Pornhub Uses Apple Verification - **Pornhub** adopts **Apple's** age verification feature for UK users to comply with new regulations.",
       "url": "https://9to5mac.com/2026/05/06/pornhub-is-now-using-apples-own-age-verification-feature-in-the-uk/"
     },
     {
-      "text": "Apple TV 4K Gets AI Upgrade - New **Apple TV 4K** may feature AI enhancements inspired by **Netflix's** voice search.",
+      "text": "AI Cuts Jobs at Cloudflare - **Cloudflare** reports 1,100 job cuts due to AI advancements, despite record revenue growth.",
+      "url": "https://techcrunch.com/2026/05/08/cloudflare-says-ai-made-1100-jobs-obsolete-even-as-revenue-hit-a-record-high/"
+    },
+    {
+      "text": "Google I/O 2026 Approaches - Anticipation builds for **Google I/O 2026**, with expected updates on **Gemini** and AI features.",
+      "url": "https://www.cnet.com/tech/services-and-software/google-io-2026-everything-to-know/"
+    },
+    {
+      "text": "New Apple TV Rumors - Upcoming **Apple TV 4K** may feature AI enhancements inspired by **Netflix's** latest functionalities.",
       "url": "https://9to5mac.com/2026/05/07/new-apple-tv-4k-adding-ai-might-look-like-this-netflix-feature/"
     },
     {
-      "text": "CarPlay Allows Video Playback - **iOS 26** introduces video playback on **CarPlay**, but only when parked.",
-      "url": "https://9to5mac.com/2026/05/06/carplay-video-ios-26/"
+      "text": "Avride Under Investigation - **Avride**, an Uber partner, faces scrutiny over self-driving crashes amid safety concerns.",
+      "url": "https://techcrunch.com/2026/05/08/uber-partner-avride-is-under-investigation-for-self-driving-crashes/"
     },
     {
-      "text": "PS5 Sales Decline Significantly - **Sony** reports a 46% drop in **PS5** sales due to price increases and economic pressures.",
-      "url": "https://www.theverge.com/news/926609/sonys-ps5-sales-plummet-memory-costs-price-hikes"
+      "text": "Porsche Shuts Subsidiaries - **Porsche** closes three subsidiaries to refocus on core business amid declining sales.",
+      "url": "https://techcrunch.com/2026/05/08/porsche-shutters-e-bike-battery-software-subsidiaries-as-part-of-company-overhaul/"
     },
     {
-      "text": "Nintendo Switch 2 Price Hike - **Nintendo** raises **Switch 2** prices globally, forecasting a sales drop.",
-      "url": "https://www.theverge.com/games/926606/nintendo-switch-2-price-hikes-earnings-results"
+      "text": "Intel and Apple Collaboration - **Apple** reportedly strikes a deal with **Intel** to use its chips again in future devices.",
+      "url": "https://www.theverge.com/tech/926988/apple-intel-chips"
     },
     {
-      "text": "OpenAI Launches Voice Features - **OpenAI** introduces new voice intelligence capabilities in its API for developers.",
-      "url": "https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api/"
+      "text": "Yarbo Responds to Security Issues - **Yarbo** addresses vulnerabilities in its robot mower after a hacker incident.",
+      "url": "https://www.theverge.com/tech/926989/yarbo-robot-lawn-mower-hack-company-update-security-promise"
     },
     {
-      "text": "Gusto Hits $1B Revenue - **Gusto** surpasses $1 billion in revenue, positioning itself closer to public markets.",
-      "url": "https://techcrunch.com/2026/05/07/gusto-hits-1b-revenue-a-figure-that-brings-it-closer-to-public-markets/"
+      "text": "Amazon's New Video Feature - **Amazon Prime Video** introduces a TikTok-like 'Clips' feed to enhance user engagement.",
+      "url": "https://techcrunch.com/2026/05/08/prime-video-follows-netflix-and-disney-by-adding-a-tiktok-like-clips-feed-in-its-app/"
     },
     {
-      "text": "Elon Musk's Lawsuit Against OpenAI - **Musk's** lawsuit scrutinizes **OpenAI's** safety practices amid ongoing court battles."
-    },
-    {
-      "text": "Disney Plans Unified Super App - **Disney** executives discuss merging **Disney+** with other apps into a single platform.",
-      "url": "https://techcrunch.com/2026/05/07/disney-looking-to-make-a-unified-super-app-report-says/"
-    },
-    {
-      "text": "Bumble Ditches Swiping Feature - **Bumble** CEO announces the removal of swiping, aiming for a revolutionary app redesign.",
-      "url": "https://techcrunch.com/2026/05/07/bumble-is-getting-rid-of-the-swipe-ceo-says/"
+      "text": "Poland's Water Security Threat - **Poland** reports cyberattacks on water treatment plants, highlighting global infrastructure vulnerabilities.",
+      "url": "https://techcrunch.com/2026/05/08/poland-says-hackers-breached-water-treatment-plants-and-the-u-s-is-facing-the-same-threat/"
     }
   ]
 }
