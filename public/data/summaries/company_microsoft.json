@@ -1,41 +1,45 @@
 {
-  "generatedAt": "2026-05-10T09:52:48.342Z",
+  "generatedAt": "2026-05-12T10:47:39.400Z",
   "bullets": [
     {
-      "text": "Microsoft Flight Simulator's New Mission - Players engage in aerial firefighting with RFS-inspired missions in Australia.",
+      "text": "Microsoft Flight Simulator's New Mission - Players can engage in aerial firefighting with a mission inspired by the **New South Wales Rural Fire Service**.",
       "url": "https://blogs.windows.com/windowsexperience/2026/05/06/with-latest-world-update-microsoft-flight-simulator-shines-light-on-aerial-firefighting/"
     },
     {
-      "text": "Azure Expands in Europe - Microsoft Azure scales cloud and AI infrastructure to meet rising demand across Europe.",
+      "text": "Azure Expands Across Europe - **Microsoft Azure** is enhancing its infrastructure to meet the growing demand for cloud and AI services.",
       "url": "https://azure.microsoft.com/en-us/blog/scaling-cloud-and-ai-microsoft-azures-commitment-to-europes-digital-future/"
     },
     {
-      "text": "New Windows Insider Builds - Microsoft releases new Windows 11 Insider Preview Builds for enhanced user experience.",
+      "text": "Xbox and Discord Unite - The partnership enhances **Xbox Game Pass** accessibility for **Discord Nitro** users, enriching gaming experiences.",
+      "url": "https://blogs.windows.com/windowsexperience/2026/05/11/xbox-and-discord-partnership-bringing-more-benefits-to-players/"
+    },
+    {
+      "text": "New Windows Insider Builds Released - **Microsoft** continues to roll out new builds for Windows Insiders, enhancing user experience.",
       "url": "https://blogs.windows.com/windows-insider/2026/05/08/announcing-new-builds-for-8-may-2026/"
     },
     {
-      "text": "Dirty Frag Vulnerability Disclosed - A new Linux vulnerability allows privilege escalation, posing risks to various distributions.",
+      "text": "Dirty Frag Vulnerability Disclosed - A critical **Linux** vulnerability allows privilege escalation, posing significant security risks.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/05/08/active-attack-dirty-frag-linux-vulnerability-expands-post-compromise-risk/"
     },
     {
-      "text": "Free Microsoft Store Registration - Companies can now publish to the Microsoft Store with free registration and faster onboarding.",
-      "url": "https://blogs.windows.com/windowsdeveloper/2026/05/07/publish-to-microsoft-store-as-a-company-now-with-free-registration-and-faster-onboarding/"
-    },
-    {
-      "text": "World Passkey Day Celebrated - Microsoft promotes passwordless authentication to enhance security and reduce phishing risks.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/05/07/world-passkey-day-advancing-passwordless-authentication/"
-    },
-    {
-      "text": "Microsoft Leads in AI Security - Recognized as a leader in KuppingerCole's 2026 AI Security Operations Center report.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/05/06/microsoft-named-an-overall-leader-in-kuppingercole-analysts-2026-emerging-ai-security-operations-center-soc-report/"
-    },
-    {
-      "text": "AI Agent Framework Vulnerabilities - Microsoft identifies critical vulnerabilities in AI frameworks that could lead to RCE.",
+      "text": "AI Framework Vulnerabilities Uncovered - **Microsoft** reveals critical vulnerabilities in AI agent frameworks, highlighting security risks in prompt injections.",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/05/07/prompts-become-shells-rce-vulnerabilities-ai-agent-frameworks/"
     },
     {
-      "text": "ClickFix Campaign Targets macOS - New phishing campaign uses fake utilities to deliver infostealers to macOS users.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/05/06/clickfix-campaign-uses-fake-macos-utilities-lures-deliver-infostealers/"
+      "text": "Advancing Passwordless Authentication - **Microsoft** promotes passkey adoption to enhance security and reduce reliance on passwords.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/05/07/world-passkey-day-advancing-passwordless-authentication/"
+    },
+    {
+      "text": "Microsoft Leads in AI SOC - **Microsoft** recognized as a leader in the emerging AI Security Operations Center market.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/05/06/microsoft-named-an-overall-leader-in-kuppingercole-analysts-2026-emerging-ai-security-operations-center-soc-report/"
+    },
+    {
+      "text": "Free Microsoft Store Registration - Companies can now publish to the **Microsoft Store** with free registration and streamlined onboarding.",
+      "url": "https://blogs.windows.com/windowsdeveloper/2026/05/07/publish-to-microsoft-store-as-a-company-now-with-free-registration-and-faster-onboarding/"
+    },
+    {
+      "text": "Azure Cosmos DB Insights - Lessons from **Azure Cosmos DB Conf 2026** highlight the importance of effective data modeling.",
+      "url": "https://devblogs.microsoft.com/blog/azure-cosmos-db-conf-2026-recap-lessons-from-production"
     }
   ]
 }
