@@ -1,45 +1,41 @@
 {
-  "generatedAt": "2026-05-12T10:46:44.111Z",
+  "generatedAt": "2026-05-13T11:03:59.119Z",
   "bullets": [
     {
-      "text": "TikTok's Ad-Free Subscription - **TikTok** introduces a £3.99 monthly ad-free plan in the UK, enhancing user privacy.",
-      "url": "https://techcrunch.com/2026/05/11/tiktok-launches-an-ad-free-subscription-plan-in-the-uk/"
+      "text": "Samsung's Exciting July Launch - **Samsung** is set to unveil its **Galaxy Glasses** and **Galaxy Watch 9** at a London event.",
+      "url": "https://9to5google.com/2026/05/12/samsung-galaxy-glasses-watch-9-launch-date-report/"
     },
     {
-      "text": "Smart AirPods Cameras - **Apple** may soon launch AirPods with cameras, enhancing user interaction with AI features.",
-      "url": "https://9to5mac.com/2026/05/11/smart-airpods-cameras-could-be-a-killer-feature-if-they-work/"
+      "text": "Android's Anti-Doomscrolling Feature - **Google** introduces **Pause Point** to help users manage app distractions effectively.",
+      "url": "https://techcrunch.com/2026/05/12/android-adds-a-feature-to-stop-you-from-doomscrolling/"
     },
     {
-      "text": "Apple's Hide My Email Improvements - Suggestions for enhancing **Apple's** Hide My Email feature could boost user accessibility.",
-      "url": "https://9to5mac.com/2026/05/10/apple-hide-my-email-icloud-feature-requests-improvements/"
+      "text": "Custom Widgets on Android - **Google** launches **Create My Widget**, allowing users to design personalized widgets using natural language.",
+      "url": "https://techcrunch.com/2026/05/12/googles-create-my-widget-feature-will-let-you-vibe-code-your-own-widgets/"
     },
     {
-      "text": "macOS 27 UI Tweaks - **Apple** plans to refine the macOS interface, addressing user feedback on design elements.",
-      "url": "https://9to5mac.com/2026/05/10/report-macos-27-to-feature-ui-tweaks-to-address-some-tahoe-design-complaints/"
+      "text": "Enhanced Android Security - **Google** rolls out **Intrusion Logging** to help detect spyware attacks on Android devices.",
+      "url": "https://techcrunch.com/2026/05/12/google-launches-new-android-security-feature-to-help-uncover-spyware-attacks/"
     },
     {
-      "text": "Google Celebrates Attenborough - **Google Search** features a tribute to Sir David Attenborough for his 100th birthday.",
+      "text": "AI-Powered Pothole Solutions - **Samsara** uses AI to help cities detect and manage potholes more efficiently.",
+      "url": "https://techcrunch.com/2026/05/12/potholes-cost-cities-millions-samsara-using-ai-trucks-fix/"
+    },
+    {
+      "text": "David Attenborough Tribute on Google - **Google Search** celebrates **Sir David Attenborough's** 100th birthday with a special Easter egg.",
       "url": "https://9to5google.com/2026/05/07/david-attenborough/"
     },
     {
-      "text": "Amazon's 30-Minute Delivery - **Amazon** expands its rapid delivery service, competing with other quick delivery platforms.",
-      "url": "https://techcrunch.com/2026/05/12/amazon-expands-30-minute-delivery-across-the-u-s/"
+      "text": "AI Legal Services Growth - **Anthropic** expands its legal chatbot features to automate tasks for law firms.",
+      "url": "https://techcrunch.com/2026/05/12/the-ai-legal-services-industry-is-heating-up-anthropic-is-getting-in-on-the-action/"
     },
     {
-      "text": "New Roombas Launch - **iRobot** introduces smaller, cheaper Roomba models with enhanced features for better home navigation.",
-      "url": "https://www.theverge.com/tech/928373/irobot-roomba-robot-vacuums-price-specs-release-date"
+      "text": "Apple's Camera App Customization - **iOS 27** may introduce extensive customization options for the **Camera app**.",
+      "url": "https://www.theverge.com/tech/929152/apple-ios-27-camera-app-customization"
     },
     {
-      "text": "Sony's Wearable AC Upgrade - **Sony** enhances its wearable air conditioner for better comfort and discreet use.",
-      "url": "https://www.theverge.com/tech/928220/sony-reon-pocket-pro-plus-personal-wearable-air-conditioner"
-    },
-    {
-      "text": "AI Listening Models - **Thinking Machines** aims to develop AI that interacts more naturally, responding in real-time.",
-      "url": "https://techcrunch.com/2026/05/11/thinking-machines-wants-to-build-an-ai-that-actually-listens-while-it-talks/"
-    },
-    {
-      "text": "Robinhood's New IPO - **Robinhood** prepares to launch a second retail venture IPO, aiming to democratize startup investments.",
-      "url": "https://techcrunch.com/2026/05/11/riding-an-ai-rally-robinhood-preps-second-retail-venture-ipo/"
+      "text": "Meta's New Teen Features - **Meta** enhances parental controls by notifying parents about their teens' interests on **Instagram**.",
+      "url": "https://www.theverge.com/tech/929009/meta-teen-accounts-algorithm-parental-controls"
     }
   ]
 }
