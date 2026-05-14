@@ -1,41 +1,45 @@
 {
-  "generatedAt": "2026-05-13T11:03:59.119Z",
+  "generatedAt": "2026-05-14T10:39:50.596Z",
   "bullets": [
     {
-      "text": "Samsung's Exciting July Launch - **Samsung** is set to unveil its **Galaxy Glasses** and **Galaxy Watch 9** at a London event.",
+      "text": "Criterion Collection Sale - 30% Off",
+      "url": "https://www.theverge.com/gadgets/929760/the-criterion-collection-spring-sale-anora-wes-anderson-deal-sale"
+    },
+    {
+      "text": "Android AI Predicts Actions",
+      "url": "https://www.theverge.com/tech/930318/android-contextual-suggestions-google-ai-feature-rollout"
+    },
+    {
+      "text": "Samsung's Galaxy Glasses Debut",
       "url": "https://9to5google.com/2026/05/12/samsung-galaxy-glasses-watch-9-launch-date-report/"
     },
     {
-      "text": "Android's Anti-Doomscrolling Feature - **Google** introduces **Pause Point** to help users manage app distractions effectively.",
-      "url": "https://techcrunch.com/2026/05/12/android-adds-a-feature-to-stop-you-from-doomscrolling/"
+      "text": "Instagram Launches 'Instants'",
+      "url": "https://techcrunch.com/2026/05/13/instagrams-new-instants-feature-combines-elements-from-snapchat-and-bereal/"
     },
     {
-      "text": "Custom Widgets on Android - **Google** launches **Create My Widget**, allowing users to design personalized widgets using natural language.",
-      "url": "https://techcrunch.com/2026/05/12/googles-create-my-widget-feature-will-let-you-vibe-code-your-own-widgets/"
+      "text": "Strava Integrates with AirPods Pro 3",
+      "url": "https://9to5mac.com/2026/05/13/stravas-iphone-app-now-works-with-apples-new-airpods-pro-3-fitness-feature/"
     },
     {
-      "text": "Enhanced Android Security - **Google** rolls out **Intrusion Logging** to help detect spyware attacks on Android devices.",
-      "url": "https://techcrunch.com/2026/05/12/google-launches-new-android-security-feature-to-help-uncover-spyware-attacks/"
+      "text": "Meta's New App 'Instants'",
+      "url": "https://9to5mac.com/2026/05/13/meta-launches-instants-a-new-iphone-app-and-instagram-feature-for-ephemeral-sharing/"
     },
     {
-      "text": "AI-Powered Pothole Solutions - **Samsara** uses AI to help cities detect and manage potholes more efficiently.",
-      "url": "https://techcrunch.com/2026/05/12/potholes-cost-cities-millions-samsara-using-ai-trucks-fix/"
+      "text": "Apple Expands Privacy Feature",
+      "url": "https://9to5mac.com/2026/05/13/apples-new-iphone-privacy-feature-just-expanded-to-more-users/"
     },
     {
-      "text": "David Attenborough Tribute on Google - **Google Search** celebrates **Sir David Attenborough's** 100th birthday with a special Easter egg.",
-      "url": "https://9to5google.com/2026/05/07/david-attenborough/"
+      "text": "Windows Update Enhancements",
+      "url": "https://www.theverge.com/news/930303/windows-update-automatic-driver-rollback-feature"
     },
     {
-      "text": "AI Legal Services Growth - **Anthropic** expands its legal chatbot features to automate tasks for law firms.",
-      "url": "https://techcrunch.com/2026/05/12/the-ai-legal-services-industry-is-heating-up-anthropic-is-getting-in-on-the-action/"
+      "text": "Notion's AI Agent Hub",
+      "url": "https://techcrunch.com/2026/05/13/notion-just-turned-its-workspace-into-a-hub-for-ai-agents/"
     },
     {
-      "text": "Apple's Camera App Customization - **iOS 27** may introduce extensive customization options for the **Camera app**.",
-      "url": "https://www.theverge.com/tech/929152/apple-ios-27-camera-app-customization"
-    },
-    {
-      "text": "Meta's New Teen Features - **Meta** enhances parental controls by notifying parents about their teens' interests on **Instagram**.",
-      "url": "https://www.theverge.com/tech/929009/meta-teen-accounts-algorithm-parental-controls"
+      "text": "YouTube's New Creator Shows",
+      "url": "https://www.theverge.com/news/930092/youtube-creators-shows-sponsors-netflix-upfront"
     }
   ]
 }
