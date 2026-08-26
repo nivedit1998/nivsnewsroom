@@ -1,45 +1,37 @@
 {
-  "generatedAt": "2026-05-14T10:40:43.782Z",
+  "generatedAt": "2026-08-26T10:41:30.864Z",
   "bullets": [
     {
-      "text": "Driver Quality Initiative Launched - **Microsoft** introduces a comprehensive effort to enhance driver quality and reliability across Windows.",
-      "url": "https://blogs.windows.com/windowsexperience/2026/05/14/raising-the-bar-together-introducing-the-driver-quality-initiative-at-winhec-2026/"
+      "text": "Windows on Arm Ecosystem Expands - **Microsoft** and **NVIDIA** launch powerful Arm-based PCs, boosting app development and customer demand.",
+      "url": "https://blogs.windows.com/windowsdeveloper/2026/08/25/expanding-the-windows-on-arm-app-ecosystem/"
     },
     {
-      "text": "Edge Updates Enhance Productivity - New **Edge** features streamline browsing and integrate Copilot for improved user experience.",
-      "url": "https://blogs.windows.com/msedgedev/2026/05/13/new-updates-to-edge-across-desktop-and-mobile/"
+      "text": "Azure SQL Foundations Launched - A new video series guides developers through modernization and AI integration in databases.",
+      "url": "https://devblogs.microsoft.com/blog/start-here-azure-sql-foundations-series/"
     },
     {
-      "text": "AI Transformation with SAP - **Microsoft** and **SAP** unveil advancements in enterprise AI during SAP Sapphire 2026.",
-      "url": "https://azure.microsoft.com/en-us/blog/advancing-enterprise-ai-new-sap-on-azure-announcements-from-sap-sapphire-2026/"
+      "text": "Rethinking Cybersecurity Strategies - The patch window is collapsing, necessitating a new approach to vulnerability management.",
+      "url": "https://azure.microsoft.com/en-us/blog/the-patch-window-is-collapsing-why-security-needs-a-new-control-plane/"
     },
     {
-      "text": "AI-Driven Security Enhancements - **Microsoft** leverages AI to generate synthetic attack logs for better threat detection.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/05/12/accelerating-detection-engineering-using-ai-assisted-synthetic-attack-logs-generation/"
+      "text": "Azure SRE Agent Trial Available - New customers can explore Azure SRE Agent with a 30-day trial and no setup charges.",
+      "url": "https://devblogs.microsoft.com/blog/try-azure-sre-agent-with-no-always-on-charges/"
     },
     {
-      "text": "Multi-Model Security System Success - **Microsoft's** new AI-powered security system achieves top industry benchmarks.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/05/12/defense-at-ai-speed-microsofts-new-multi-model-agentic-security-system-tops-leading-industry-benchmark/"
+      "text": "WebView2 Release Cadence Accelerated - **Microsoft Edge** transitions to a two-week release cycle for faster updates and security fixes.",
+      "url": "https://blogs.windows.com/msedgedev/2026/08/24/webview2-is-moving-to-a-2-week-release-cadence/"
     },
     {
-      "text": "DDoS Defense Strategies - **Microsoft** outlines comprehensive approaches to protect against modern DDoS attacks.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/05/12/defending-consumer-web-properties-against-modern-ddos-attacks/"
+      "text": "Windows 365 Celebrates Five Years - **Microsoft** reflects on the success and evolution of Cloud PCs in enabling flexible workspaces.",
+      "url": "https://blogs.windows.com/windowsexperience/2026/08/20/windows-365-turns-five-cloud-pcs-enable-workspaces-at-scale/"
     },
     {
-      "text": "Investigating Third-Party Compromise - **Microsoft** details a stealthy intrusion leveraging trusted relationships for access.",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/05/12/undermining-the-trust-boundary-investigating-a-stealthy-intrusion-through-third-party-compromise/"
+      "text": "Microsoft Recognized as Leader - **Microsoft** earns top spots in both **Gartner** and **IDC** reports for Desktop as a Service.",
+      "url": "https://blogs.windows.com/windowsexperience/2026/08/20/windows-365-turns-five-cloud-pcs-enable-workspaces-at-scale/"
     },
     {
-      "text": "Red Hat Summit Highlights - **Microsoft** and **Red Hat** showcase Azure Red Hat OpenShift for enterprise AI workloads.",
-      "url": "https://azure.microsoft.com/en-us/blog/red-hat-summit-2026-platform-modernization-and-ai-on-azure-microsoft-red-hat-openshift/"
-    },
-    {
-      "text": "Xbox and Discord Collaboration - New partnership enhances **Xbox Game Pass** benefits for **Discord** users.",
-      "url": "https://blogs.windows.com/windowsexperience/2026/05/11/xbox-and-discord-partnership-bringing-more-benefits-to-players/"
-    },
-    {
-      "text": "AI Apps with Cosmos DB - Key trends from **Cosmos Conf 2026** highlight AI's impact on application development.",
-      "url": "https://azure.microsoft.com/en-us/blog/build-ai-apps-with-azure-cosmos-db-key-trends-from-cosmos-conf-2026/"
+      "text": "Frost Radar Recognition Achieved - **Microsoft** is named a leader in Cloud Workload Protection Platforms for unified security.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/08/19/microsoft-named-a-leader-in-the-frost-radar-cloud-workload-protection-platforms-2026/"
     }
   ]
 }
