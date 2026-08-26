@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Nivs Tech & Telecoms Pulse
 
-## Getting Started
+Nivs Newsroom is a Next.js site that publishes a ranked weekly view of UK-relevant technology and telecoms news.
 
-First, run the development server:
+## Content areas
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- High Tech: CNET, TechCrunch, The Verge, 9to5Google, and 9to5Mac.
+- Telecoms: Telecoms Tech News, Total Telecom, RCR Wireless, GSMA, and UK DSIT.
+- Company Specific: Accenture, Capco, and Sage.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Accenture and Capco use first-party sitemap discovery. Sage uses its first-party RSS feed. Google News RSS is used only as a controlled fallback when a configured primary source fails.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Summary behaviour
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Each category and company retains its full ranked article dataset, but the AI summary is generated from the top five ranked articles only. The API, website, newsletter, and fallback summaries all enforce a maximum of five insight bullets.
 
-## Learn More
+## Local development
 
-To learn more about Next.js, take a look at the following resources:
+Install dependencies and start the development server:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+    npm ci
+    npm run dev
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Open http://localhost:3000.
 
-## Deploy on Vercel
+## Ingestion and checks
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Run the data validator:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+    npm run check:data
+
+Check configured RSS/Atom feeds and sitemaps without changing data:
+
+    npm run check:sources
+
+Run a safe, small ingestion test:
+
+    OPENAI_API_KEY="" TEST_MODE=1 DRY_RUN=1 node scripts/ingest.mjs
+
+Generate a local newsletter preview:
+
+    npm run preview:newsletter
+
+The OPENAI_API_KEY is optional because the ingestion has deterministic fallback summaries. OpenAI API billing is separate from any ChatGPT subscription.
+
+## Automation
+
+GitHub Actions runs the daily ingestion workflow. Generated JSON is committed to the main branch, which triggers the Vercel deployment. Vercel Cron sends the weekly newsletter and writes the Supabase heartbeat.
+
+Required GitHub Actions secret:
+
+- OPENAI_API_KEY
+
+Required Vercel environment variables:
+
+- CRON_SECRET
+- SUPABASE_URL
+- SUPABASE_SERVICE_ROLE_KEY
+- AWS_REGION
+- SES_FROM
+
+Never commit local environment files or secret values.

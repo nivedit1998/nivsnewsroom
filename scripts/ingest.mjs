@@ -7,7 +7,17 @@ import path from "node:path";
 import RSSParser from "rss-parser";
 import { DateTime } from "luxon";
 import { extract } from "@extractus/article-extractor";
+import { XMLParser } from "fast-xml-parser";
 import { fileURLToPath } from "node:url";
+import {
+  COMPANY_ALLOWED_HOSTS,
+  COMPANY_KEYS,
+  COMPANY_SOURCES,
+  FEED_SOURCES,
+  SOURCE_AUTHORITY,
+  SOURCE_FALLBACKS,
+  SUMMARY_LIMIT,
+} from "./news-sources.mjs";
 
 /** =========================
  *  SETTINGS
@@ -18,6 +28,9 @@ const TEST_MODE = process.env.TEST_MODE === "1";
 const DRY_RUN = process.env.DRY_RUN === "1";
 const FEED_TIMEOUT_MS = 20_000;
 const FEED_RETRIES = 2;
+const ARTICLE_TIMEOUT_MS = 20_000;
+const ARTICLE_CONCURRENCY = 4;
+const SITEMAP_ITEM_LIMIT = 30;
 
 const DATA_DIR = path.join(process.cwd(), "public", "data");
 const SUMMARY_DIR = path.join(DATA_DIR, "summaries");
@@ -29,92 +42,6 @@ const parser = new RSSParser({
     headers: { "User-Agent": "NivsNewsRoomBot/1.2 (+youremail@example.com)" },
   },
 });
-
-/** =========================
- *  SOURCES (Groups)
- *  Keep global pubs, but UK weighting will lift UK items.
- *  ========================= */
-const SOURCES = {
-  hightech: [
-    "https://www.cnet.com/rss/news/",
-    "https://techcrunch.com/feed/",
-    "https://www.theverge.com/rss/index.xml",
-    "https://9to5google.com/feed/",
-    "https://9to5mac.com/feed/",
-    // (Optional UK-leaning tech feeds; add if you like)
-    // "https://www.theregister.com/headlines.atom",
-    // "https://uktechnews.co.uk/feed/",
-  ],
-  telecoms: [
-    "https://telecomstechnews.com/feed",
-    "https://www.telecomstechnews.com/feed/",
-    "https://totaltele.com/category/technology/feed/",
-    "https://www.totaltele.com/feed/",
-    "https://www.rcrwireless.com/rss",
-    "https://www.lightreading.com/rss_simple.asp",
-    // (Optional UK telco-specific feeds)
-    // "https://www.ispreview.co.uk/feed",
-    // "https://www.thinkbroadband.com/news/rss.xml",
-  ],
-};
-
-/** =========================
- *  COMPANY FEEDS (FIRST-PARTY ONLY, widened)
- *  ========================= */
-const COMPANY_RSS = {
-  microsoft: [
-    "https://blogs.microsoft.com/feed/",
-    "https://azure.microsoft.com/en-us/blog/feed/",
-    "https://www.microsoft.com/en-us/microsoft-365/blog/feed/",
-    "https://blogs.windows.com/feed/",
-    "https://devblogs.microsoft.com/feed/",
-    "https://www.microsoft.com/en-us/security/blog/feed/",
-  ],
-  sage: [
-    "https://www.sage.com/en-gb/blog/feed/",
-    "https://www.sage.com/en-gb/newsroom/feed/",
-  ],
-};
-
-/** =========================
- *  FALLBACKS (Google News site: search)
- *  — Used if a feed 404s or times out
- *  ========================= */
-const FEED_FALLBACKS = {
-  // Group fallbacks
-  "https://telecomstechnews.com/feed":
-    "https://news.google.com/rss/search?q=site:telecomstechnews.com&hl=en-GB&gl=GB&ceid=GB:en",
-  "https://www.telecomstechnews.com/feed/":
-    "https://news.google.com/rss/search?q=site:telecomstechnews.com&hl=en-GB&gl=GB&ceid=GB:en",
-  "https://totaltele.com/category/technology/feed/":
-    "https://news.google.com/rss/search?q=site:totaltele.com%20technology&hl=en-GB&gl=GB&ceid=GB:en",
-  "https://www.totaltele.com/feed/":
-    "https://news.google.com/rss/search?q=site:totaltele.com&hl=en-GB&gl=GB&ceid=GB:en",
-  "https://www.rcrwireless.com/rss":
-    "https://news.google.com/rss/search?q=site:rcrwireless.com&hl=en-GB&gl=GB&ceid=GB:en",
-  "https://www.lightreading.com/rss_simple.asp":
-    "https://news.google.com/rss/search?q=site:lightreading.com&hl=en-GB&gl=GB&ceid=GB:en",
-
-  // Microsoft fallbacks (domain-scoped)
-  "https://blogs.microsoft.com/feed/":
-    "https://news.google.com/rss/search?q=site:blogs.microsoft.com&hl=en-GB&gl=GB&ceid=GB:en",
-  "https://azure.microsoft.com/en-us/blog/feed/":
-    "https://news.google.com/rss/search?q=site:azure.microsoft.com/blog&hl=en-GB&gl=GB&ceid=GB:en",
-  "https://www.microsoft.com/en-us/microsoft-365/blog/feed/":
-    "https://news.google.com/rss/search?q=site:microsoft.com%20\"Microsoft%20365\"%20blog&hl=en-GB&gl=GB&ceid=GB:en",
-  "https://blogs.windows.com/feed/":
-    "https://news.google.com/rss/search?q=site:blogs.windows.com&hl=en-GB&gl=GB&ceid=GB:en",
-  "https://devblogs.microsoft.com/feed/":
-    "https://news.google.com/rss/search?q=site:devblogs.microsoft.com&hl=en-GB&gl=GB&ceid=GB:en",
-  "https://www.microsoft.com/en-us/security/blog/feed/":
-    "https://news.google.com/rss/search?q=site:microsoft.com%20\"Security%20blog\"&hl=en-GB&gl=GB&ceid=GB:en",
-
-  // Sage fallbacks (domain-scoped)
-  "https://www.sage.com/en-gb/blog/feed/":
-    "https://news.google.com/rss/search?q=site:sage.com%20blog&hl=en-GB&gl=GB&ceid=GB:en",
-  "https://www.sage.com/en-gb/newsroom/feed/":
-    "https://news.google.com/rss/search?q=site:sage.com%20newsroom&hl=en-GB&gl=GB&ceid=GB:en",
-};
 
 /** =========================
  *  UK PRIORITY SIGNALS
@@ -192,7 +119,9 @@ function ukSignals(item, context = "general") {
     companyHit = UK_TELECOM_TERMS.some((kw) => haystack.includes(kw));
   } else if (context.startsWith("company_")) {
     companyHit =
-      haystack.includes(" microsoft uk") ||
+      haystack.includes(" accenture uk") ||
+      haystack.includes(" accenture") ||
+      haystack.includes(" capco") ||
       haystack.includes(" sage uk") ||
       haystack.includes(" uk ") ||
       haystack.includes(" united kingdom") ||
@@ -279,39 +208,7 @@ function detectTopTake(title = "") {
 
 function sourceAuthority(host = "") {
   const h = host.replace(/^www\./, "").toLowerCase();
-  const table = {
-    "theverge.com": 0.25,
-    "techcrunch.com": 0.25,
-    "cnet.com": 0.2,
-    "rcrwireless.com": 0.25,
-    "totaltele.com": 0.2,
-    "telecomstechnews.com": 0.2,
-    "9to5google.com": 0.15,
-    "9to5mac.com": 0.15,
-    "lightreading.com": 0.28,
-
-    "blogs.microsoft.com": 0.3,
-    "azure.microsoft.com": 0.3,
-    "microsoft.com": 0.25,
-    "blogs.windows.com": 0.3,
-    "devblogs.microsoft.com": 0.3,
-
-    "sage.com": 0.25,
-
-    "ofcom.org.uk": 0.35,
-    "openreach.co.uk": 0.3,
-    "bt.com": 0.3,
-    "vodafone.co.uk": 0.3,
-    "virginmediao2.co.uk": 0.3,
-    "o2.co.uk": 0.25,
-    "ee.co.uk": 0.25,
-    "three.co.uk": 0.25,
-    "sky.com": 0.2,
-    "talktalk.co.uk": 0.2,
-    "ispreview.co.uk": 0.25,
-    "thinkbroadband.com": 0.25,
-  };
-  return table[h] || (h.endsWith(".co.uk") ? 0.18 : 0);
+  return SOURCE_AUTHORITY[h] || (h.endsWith(".co.uk") ? 0.18 : 0);
 }
 
 function ageDays(iso) {
@@ -336,7 +233,9 @@ function scoreItem(it, groupSize, context) {
 /** =========================
  *  FEED + ENRICH
  *  ========================= */
-async function parseFeedWithRetry(url) {
+const sitemapParser = new XMLParser({ ignoreAttributes: false });
+
+async function fetchTextWithRetry(url) {
   let lastError;
   for (let attempt = 0; attempt <= FEED_RETRIES; attempt += 1) {
     const controller = new AbortController();
@@ -346,8 +245,10 @@ async function parseFeedWithRetry(url) {
         headers: { "User-Agent": "NivsNewsRoomBot/1.2 (+youremail@example.com)" },
         signal: controller.signal,
       });
-      if (!response.ok) throw new Error(`Status code ${response.status}`);
-      return await parser.parseString(await response.text());
+      if (!response.ok) throw new Error("Status code " + response.status);
+      const text = await response.text();
+      if (!text.trim()) throw new Error("Empty response body");
+      return text;
     } catch (error) {
       lastError = error;
       const message = String(error?.message || error);
@@ -362,55 +263,166 @@ async function parseFeedWithRetry(url) {
   throw lastError;
 }
 
+function hostnameOf(url) {
+  try {
+    return new URL(url).hostname.toLowerCase();
+  } catch {
+    return "";
+  }
+}
+
+function normaliseHostname(host) {
+  return String(host || "").replace(/^www\./, "").toLowerCase();
+}
+
+function isAllowedHost(url, allowedHosts = []) {
+  const host = normaliseHostname(hostnameOf(url));
+  return !allowedHosts.length || allowedHosts.some((allowed) => normaliseHostname(allowed) === host);
+}
+
+async function resolveNewsLink(url) {
+  if (hostnameOf(url) !== "news.google.com") return url;
+
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), FEED_TIMEOUT_MS);
+  try {
+    const response = await fetch(url, {
+      headers: { "User-Agent": "NivsNewsRoomBot/1.2 (+youremail@example.com)" },
+      redirect: "follow",
+      signal: controller.signal,
+    });
+    return response.url || url;
+  } catch {
+    return "";
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
 async function parseFeed(url) {
-  const feed = await parseFeedWithRetry(url);
-  let items = (feed.items || []).map((i) => {
-    const link = i.link || "";
-    const hostFromLink = link ? new URL(link).hostname.replace(/^www\./, "") : "";
-    const hostFromFeed = new URL(url).hostname.replace(/^www\./, "");
+  const feed = await parser.parseString(await fetchTextWithRetry(url));
+  const hostFromFeed = normaliseHostname(hostnameOf(url));
+  const rawItems = hostFromFeed === "news.google.com"
+    ? (feed.items || []).slice(0, TEST_MODE ? 2 : SITEMAP_ITEM_LIMIT)
+    : (feed.items || []);
+  const items = await Promise.all(rawItems.map(async (i) => {
+    const rawLink = String(i.link || "").trim();
+    const link = await resolveNewsLink(rawLink);
+    const sourceMetaUrl =
+      typeof i.source === "object" ? String(i.source?.url || i.source?.href || "") : "";
+    const hostFromLink = normaliseHostname(hostnameOf(link));
+    const hostFromSource = normaliseHostname(hostnameOf(sourceMetaUrl));
     const iso = toISOorNull(i.isoDate || i.pubDate || null);
     return {
       title: sanitize(i.title || ""),
       url: link,
       publishedAt: iso,
-      source: hostFromLink || hostFromFeed,
+      source: hostFromLink || hostFromSource || hostFromFeed,
       snippet: sanitize(i.contentSnippet || i.content || i.summary || ""),
     };
-  });
+  }));
 
-  items = items.filter((it) => withinWindow(it.publishedAt));
-  items.sort((a, b) => new Date(b.publishedAt || 0) - new Date(a.publishedAt || 0));
-  if (TEST_MODE) items = items.slice(0, 2);
-  return items;
+  let filtered = items.filter((it) => withinWindow(it.publishedAt));
+  filtered.sort((a, b) => new Date(b.publishedAt || 0) - new Date(a.publishedAt || 0));
+  if (TEST_MODE) filtered = filtered.slice(0, 2);
+  return filtered;
 }
 
-async function getFeedItems(feedUrl) {
+function filterSourceItems(items, source) {
+  return items.filter((item) => {
+    if (!item.url || !isAllowedHost(item.url, source.allowedHosts)) return false;
+    return Boolean(item.title && /^https?:\/\//i.test(item.url));
+  });
+}
+
+function parseSitemapRows(xml) {
+  const parsed = sitemapParser.parse(xml);
+  const rows = Array.isArray(parsed?.urlset?.url)
+    ? parsed.urlset.url
+    : parsed?.urlset?.url
+      ? [parsed.urlset.url]
+      : [];
+  return rows
+    .map((row) => ({
+      url: String(row?.loc || "").trim(),
+      lastmod: String(row?.lastmod || "").trim(),
+    }))
+    .filter((row) => row.url);
+}
+
+async function getSitemapItems(source) {
+  const xml = await fetchTextWithRetry(source.url);
+  const rows = parseSitemapRows(xml);
+  const candidates = rows
+    .filter((row) => {
+      const pathname = new URL(row.url).pathname;
+      source.includePath.lastIndex = 0;
+      return source.includePath.test(pathname);
+    })
+    .filter((row) => isAllowedHost(row.url, source.allowedHosts))
+    .filter((row) => withinWindow(toISOorNull(row.lastmod)))
+    .slice(0, TEST_MODE ? 2 : SITEMAP_ITEM_LIMIT);
+
+  return candidates.map((row) => ({
+    title: "",
+    url: row.url,
+    publishedAt: toISOorNull(row.lastmod),
+    source: normaliseHostname(hostnameOf(row.url)),
+    snippet: "",
+  }));
+}
+
+async function getSourceItems(source) {
   try {
-    const items = await parseFeed(feedUrl);
-    feedDiagnostics.push({ feedUrl, mode: "primary", count: items.length });
+    const primaryItems = source.kind === "sitemap"
+      ? await getSitemapItems(source)
+      : await parseFeed(source.url);
+    const items = source.kind === "sitemap"
+      ? primaryItems
+      : filterSourceItems(primaryItems, source);
+    if (!items.length) throw new Error("No usable items");
+    feedDiagnostics.push({
+      source: source.label,
+      feedUrl: source.url,
+      kind: source.kind,
+      mode: "primary",
+      count: items.length,
+    });
     return items;
   } catch (err) {
-    const fb = FEED_FALLBACKS[feedUrl];
-    if (fb) {
+    const fallback = source.fallback || SOURCE_FALLBACKS[source.url];
+    if (fallback) {
       try {
-        console.warn(`Feed failed (${feedUrl}). Using fallback: ${fb}`);
-        const items = await parseFeed(fb);
-        feedDiagnostics.push({ feedUrl, mode: "fallback", fallback: fb, count: items.length });
-        return items;
-      } catch (e2) {
-        console.warn(`Fallback failed (${fb}): ${e2?.message || e2}`);
+        console.warn("Source failed (" + source.url + "). Using fallback: " + fallback);
+        const fallbackItems = filterSourceItems(await parseFeed(fallback), source);
+        if (!fallbackItems.length) throw new Error("No usable fallback items");
         feedDiagnostics.push({
-          feedUrl,
+          source: source.label,
+          feedUrl: source.url,
+          kind: source.kind,
+          mode: "fallback",
+          fallback,
+          count: fallbackItems.length,
+        });
+        return fallbackItems;
+      } catch (fallbackError) {
+        console.warn("Fallback failed (" + fallback + "): " + (fallbackError?.message || fallbackError));
+        feedDiagnostics.push({
+          source: source.label,
+          feedUrl: source.url,
+          kind: source.kind,
           mode: "failed",
-          fallback: fb,
+          fallback,
           count: 0,
-          error: String(e2?.message || e2),
+          error: String(fallbackError?.message || fallbackError),
         });
       }
     } else {
-      console.warn(`Feed failed (${feedUrl}): ${err?.message || err}`);
+      console.warn("Source failed (" + source.url + "): " + (err?.message || err));
       feedDiagnostics.push({
-        feedUrl,
+        source: source.label,
+        feedUrl: source.url,
+        kind: source.kind,
         mode: "failed",
         count: 0,
         error: String(err?.message || err),
@@ -420,19 +432,61 @@ async function getFeedItems(feedUrl) {
   }
 }
 
+function withTimeout(promise, timeoutMs, label) {
+  let timer;
+  const timeout = new Promise((_, reject) => {
+    timer = setTimeout(
+      () => reject(new Error(label + " timed out after " + timeoutMs + "ms")),
+      timeoutMs
+    );
+  });
+  return Promise.race([promise, timeout]).finally(() => clearTimeout(timer));
+}
+
+async function mapWithConcurrency(items, worker, limit) {
+  const output = new Array(items.length);
+  let nextIndex = 0;
+  async function runWorker() {
+    while (true) {
+      const index = nextIndex++;
+      if (index >= items.length) return;
+      output[index] = await worker(items[index], index);
+    }
+  }
+  await Promise.all(Array.from(
+    { length: Math.min(limit, Math.max(1, items.length)) },
+    () => runWorker()
+  ));
+  return output.filter(Boolean);
+}
+
 /** Pull full article text; also keep a short excerpt */
 async function addFullText(item) {
   try {
-    const res = await extract(item.url);
+    const res = await withTimeout(extract(item.url), ARTICLE_TIMEOUT_MS, "Article extraction");
+    const title = sanitize(item.title || res?.title || "");
+    const publishedAt = toISOorNull(res?.published || res?.date || "") || item.publishedAt;
+    const snippet = sanitize(item.snippet || res?.description || "");
+    if (!title) {
+      extractionFailures += 1;
+      return null;
+    }
     if (!res || !(res.content || res.text)) {
       extractionFailures += 1;
-      return { ...item, fullText: "", excerpt: "" };
+      return { ...item, title, publishedAt, snippet, fullText: "", excerpt: "" };
     }
     const plain = htmlToPlain(res.content || res.text || "");
-    return { ...item, fullText: plain, excerpt: firstTwoParagraphs(plain) };
+    return {
+      ...item,
+      title,
+      publishedAt,
+      snippet,
+      fullText: plain,
+      excerpt: firstTwoParagraphs(plain),
+    };
   } catch {
     extractionFailures += 1;
-    return { ...item, fullText: "", excerpt: "" };
+    return item.title ? { ...item, fullText: "", excerpt: "" } : null;
   }
 }
 
@@ -498,18 +552,13 @@ async function generateWeeklyBullets(tabName, items) {
 
   const ctx = contextOfTab(tabName);
 
-  // Build rich context: up to N items, each with ~50% body (capped)
-  const CONTEXT_ITEM_LIMIT = 60;
+  // Build context from only the top five ranked items.
+  const summaryItems = items.slice(0, SUMMARY_LIMIT);
   const WORDS_PER_ITEM_CAP = 600;
-  const TOTAL_WORD_BUDGET = 10000;
 
   const ctxParts = [];
-  let totalWords = 0;
-  for (const [i, it] of items.slice(0, CONTEXT_ITEM_LIMIT).entries()) {
+  for (const [i, it] of summaryItems.entries()) {
     const half = firstHalfWords(it.fullText || it.excerpt || it.snippet || "", WORDS_PER_ITEM_CAP);
-    const w = half ? half.trim().split(/\s+/).length : 0;
-    if (totalWords + w > TOTAL_WORD_BUDGET) break;
-    totalWords += w;
 
     const ukTag = ukSignals(it, ctx) > 0 ? "[UK-relevant]" : "";
     ctxParts.push(
@@ -520,7 +569,7 @@ async function generateWeeklyBullets(tabName, items) {
 
   // Fallback (no key)
   if (!process.env.OPENAI_API_KEY) {
-    const bullets = items.slice(0, 10).map((it) => ({
+    const bullets = summaryItems.map((it) => ({
       text: makePunchyFallback(it),
       url: it.url,
     }));
@@ -534,13 +583,14 @@ async function generateWeeklyBullets(tabName, items) {
     const system = [
       "You are Niv, a concise UK tech & telecoms curator.",
       "Write in a crisp editorial tone. No first-person. No 'I saw / I read / I learned'.",
-      "For EACH item:",
+      "For EACH supplied item:",
       "- Start with a PUNCH LEAD: 2–5 words that capture the gist, in Title Case, enthusiastic but professional.",
       "- Then an em dash (-) and ONE short insight sentence (≤ 20 words).",
       "- You may bold KEY TERMS/COMPANIES using **double asterisks**.",
       "- Use ONLY the provided items; do not invent facts.",
       "Return STRICT JSON only: {\"bullets\":[{\"text\":\"...\",\"urls\":[\"...\"]}, ...]}",
-      "If you include URLs, they must come from the provided items (1–3 per bullet).",
+      "Create at most five bullets, one for each supplied item.",
+      "If you include URLs, they must come from the supplied items.",
       "Prefer items marked [UK-relevant] when selecting or phrasing."
     ].join(" ");
 
@@ -561,15 +611,15 @@ async function generateWeeklyBullets(tabName, items) {
     try { parsed = JSON.parse(raw); } catch { parsed = null; }
 
     // Default to punchy fallback list
-    let bullets = items.slice(0, 10).map((it) => ({
+    let bullets = summaryItems.map((it) => ({
       text: makePunchyFallback(it),
       url: it.url,
     }));
 
     if (parsed && Array.isArray(parsed.bullets) && parsed.bullets.length) {
       // Only keep URLs we actually ingested
-      const allowed = new Set(items.map((it) => it.url).filter(Boolean));
-      const fromModel = parsed.bullets.slice(0, 10).map((b) => {
+      const allowed = new Set(summaryItems.map((it) => it.url).filter(Boolean));
+      const fromModel = parsed.bullets.slice(0, SUMMARY_LIMIT).map((b) => {
         const firstUrl =
           Array.isArray(b.urls) && b.urls[0] && allowed.has(String(b.urls[0]))
             ? String(b.urls[0])
@@ -589,18 +639,26 @@ async function generateWeeklyBullets(tabName, items) {
           .trim(),
       }));
 
-      if (cleaned.some((b) => b.text)) {
-        bullets = cleaned;
-      }
+      const seenUrls = new Set();
+      const validModelBullets = cleaned.filter((bullet) => {
+        if (!bullet.text) return false;
+        if (bullet.url && seenUrls.has(bullet.url)) return false;
+        if (bullet.url) seenUrls.add(bullet.url);
+        return true;
+      });
+      const topUp = summaryItems
+        .filter((item) => !seenUrls.has(item.url))
+        .map((item) => ({ text: makePunchyFallback(item), url: item.url }));
+      bullets = validModelBullets.concat(topUp).slice(0, SUMMARY_LIMIT);
     }
 
     return { bullets };
   } catch (e) {
-    const bullets = items.slice(0, 10).map((it) => ({
+    const bullets = summaryItems.map((it) => ({
       text: makePunchyFallback(it),
       url: it.url,
     }));
-    return { bullets, note: "fallback (summary generation error)" };
+    return { bullets: bullets.slice(0, SUMMARY_LIMIT), note: "fallback (summary generation error)" };
   }
 }
 
@@ -645,18 +703,22 @@ function annotateHotness(items, context) {
 /** =========================
  *  PROCESSORS
  *  ========================= */
-async function processGroupWeekly(key, urls) {
+function isCompanyUrlAllowed(company, url) {
+  const allowedHosts = COMPANY_ALLOWED_HOSTS[company];
+  if (!allowedHosts) return false;
+  const host = normaliseHostname(hostnameOf(url));
+  return [...allowedHosts].some((allowed) => normaliseHostname(allowed) === host);
+}
+
+async function processGroupWeekly(key, sources) {
   const collected = [];
-  for (const u of urls) {
-    const items = await getFeedItems(u);
+  for (const source of sources) {
+    const items = await getSourceItems(source);
     collected.push(...items);
   }
 
   const unique = dedupeByUrl(collected);
-  const enriched = [];
-  for (const it of unique) {
-    enriched.push(await addFullText(it));
-  }
+  const enriched = await mapWithConcurrency(unique, addFullText, ARTICLE_CONCURRENCY);
 
   const ranked = annotateHotness(enriched, key);
   await writeJson(`${key}.json`, ranked);
@@ -667,18 +729,20 @@ async function processGroupWeekly(key, urls) {
   return { key, items: ranked.length, bullets: (summary?.bullets || []).length };
 }
 
-async function processCompanyWeekly(company, rssUrls) {
+async function processCompanyWeekly(company) {
+  if (!COMPANY_KEYS.includes(company)) {
+    throw new Error("Unknown company source: " + company);
+  }
+
   const collected = [];
-  for (const u of rssUrls) {
-    const items = await getFeedItems(u);
+  for (const source of COMPANY_SOURCES[company]) {
+    const items = await getSourceItems(source);
     collected.push(...items);
   }
 
   const unique = dedupeByUrl(collected);
-  const enriched = [];
-  for (const it of unique) {
-    enriched.push(await addFullText(it));
-  }
+  const companyItems = unique.filter((item) => isCompanyUrlAllowed(company, item.url));
+  const enriched = await mapWithConcurrency(companyItems, addFullText, ARTICLE_CONCURRENCY);
 
   const context = `company_${company}`;
   const ranked = annotateHotness(enriched, context);
@@ -696,12 +760,13 @@ async function processCompanyWeekly(company, rssUrls) {
 async function main() {
   // Groups
   const results = [];
-  results.push(await processGroupWeekly("hightech", SOURCES.hightech));
-  results.push(await processGroupWeekly("telecoms", SOURCES.telecoms));
+  results.push(await processGroupWeekly("hightech", FEED_SOURCES.hightech));
+  results.push(await processGroupWeekly("telecoms", FEED_SOURCES.telecoms));
 
-  // Companies (first-party widened sources)
-  results.push(await processCompanyWeekly("microsoft", COMPANY_RSS.microsoft));
-  results.push(await processCompanyWeekly("sage", COMPANY_RSS.sage));
+  // Company sources: Accenture, Capco, and Sage.
+  for (const company of COMPANY_KEYS) {
+    results.push(await processCompanyWeekly(company));
+  }
 
   const totalItems = results.reduce((sum, result) => sum + result.items, 0);
   console.log("Ingest diagnostics:", JSON.stringify({

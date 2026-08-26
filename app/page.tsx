@@ -21,6 +21,15 @@ type Item = {
 };
 
 type SummaryBullet = { text: string; url?: string } | string;
+type Company = "accenture" | "capco" | "sage";
+
+const SUMMARY_LIMIT = 5;
+
+const COMPANY_LABELS: Record<Company, string> = {
+  accenture: "Accenture",
+  capco: "Capco",
+  sage: "Sage",
+};
 
 const TABS = ["Company Specific", "High Tech", "Telecoms"] as const;
 type Tab = typeof TABS[number];
@@ -63,7 +72,7 @@ function wordCount(s: string) {
 
 export default function HomePage() {
   const [tab, setTab] = useState<Tab>("Telecoms");
-  const [company, setCompany] = useState<"microsoft" | "sage">("microsoft");
+  const [company, setCompany] = useState<Company>("accenture");
   const [items, setItems] = useState<Item[]>([]);
   const [loading, setLoading] = useState(false);
   const [err, setErr] = useState<string | null>(null);
@@ -73,7 +82,6 @@ export default function HomePage() {
   const [sumErr, setSumErr] = useState<string | null>(null);
 
   const [expanded, setExpanded] = useState<Record<string, boolean>>({});
-  const [showAllBullets, setShowAllBullets] = useState(false);
   const [showSubForm, setShowSubForm] = useState(false);
 
   const [pendingLoads, setPendingLoads] = useState(0);
@@ -150,7 +158,7 @@ export default function HomePage() {
         const normalized = arr.map((b: any) =>
           typeof b === "string" ? { text: b } : { text: String(b.text || ""), url: b.url || undefined }
         );
-        setBullets(normalized.slice(0, 10));
+        setBullets(normalized.slice(0, SUMMARY_LIMIT));
       } catch (e: any) {
         if (e?.name !== "AbortError") setSumErr("Summary temporarily unavailable");
       } finally {
@@ -166,7 +174,7 @@ export default function HomePage() {
       ? "Key insights from High Tech this week"
       : tab === "Telecoms"
       ? "Key insights from Telecoms this week"
-      : `Key insights from ${company[0].toUpperCase()}${company.slice(1)} this week`;
+      : `Key insights from ${COMPANY_LABELS[company]} this week`;
 
   const toggle = (key: string) => setExpanded((s) => ({ ...s, [key]: !s[key] }));
 
@@ -181,13 +189,6 @@ export default function HomePage() {
     const budget = Math.max(80, Math.floor(total * 0.3));
     return limitParagraphsByWords(getParagraphs(it), budget);
   };
-
-  const collapsedFadeStart = 4;
-  const collapsedFadeEnd = 5;
-  const showCollapsed = !showAllBullets;
-  const visibleBullets = showAllBullets
-    ? bullets
-    : bullets.slice(0, Math.min(bullets.length, collapsedFadeEnd + 1));
 
   const pillBase = "inline-flex items-center gap-1 rounded-md px-2 py-0.5 text-[11px]";
 
@@ -288,7 +289,6 @@ export default function HomePage() {
               key={t}
               onClick={() => {
                 setTab(t);
-                setShowAllBullets(false);
               }}
               className={`snap-start shrink-0 rounded-full px-3 py-1.5 text-sm transition ring-1 ${
                 tab === t
@@ -306,12 +306,12 @@ export default function HomePage() {
               <select
                 value={company}
                 onChange={(e) => {
-                  setCompany(e.target.value as any);
-                  setShowAllBullets(false);
+                  setCompany(e.target.value as Company);
                 }}
                 className="rounded-lg border border-gray-300 bg-white px-2 py-1 shadow-sm"
               >
-                <option value="microsoft">Microsoft</option>
+                <option value="accenture">Accenture</option>
+                <option value="capco">Capco</option>
                 <option value="sage">Sage</option>
               </select>
             </label>
@@ -355,27 +355,21 @@ export default function HomePage() {
               {bullets.length > 0 && (
                 <>
                   <ul className="mt-4 sm:mt-5 grid gap-3 sm:gap-4 grid-cols-1 landscape:grid-cols-2 sm:grid-cols-2">
-                    {visibleBullets.map((b, i) => {
+                    {bullets.map((b, i) => {
                       const clean = String((b as any).text || "").replace(/^•\s*/, "");
                       const url = (b as any).url as string | undefined;
-                      const isFadedPreview =
-                        !showAllBullets && i >= 4 && i <= 5;
 
                       return (
                         <li
                           key={i}
-                          className={`relative rounded-2xl bg-white ring-1 ring-gray-200 shadow-sm transition hover:shadow-md p-3 sm:p-4 ${
-                            isFadedPreview ? "opacity-60 max-h-36 overflow-hidden pointer-events-none" : ""
-                          }`}
+                          className="relative rounded-2xl bg-white ring-1 ring-gray-200 shadow-sm transition hover:shadow-md p-3 sm:p-4"
                         >
                           {url && (
                             <a
                               href={`${url}${url.includes("?") ? "&" : "?"}utm_source=site&utm_medium=weekly_summary`}
                               target="_blank"
                               rel="noopener noreferrer"
-                              className={`absolute right-3 top-3 ${"inline-flex items-center gap-1 rounded-md px-2 py-0.5 text-[11px] bg-gray-100 text-gray-700 ring-1 ring-gray-200 hover:bg-gray-200"} ${
-                                isFadedPreview ? "hidden" : ""
-                              }`}
+                              className="absolute right-3 top-3 inline-flex items-center gap-1 rounded-md px-2 py-0.5 text-[11px] bg-gray-100 text-gray-700 ring-1 ring-gray-200 hover:bg-gray-200"
                             >
                               Learn →
                             </a>
@@ -384,34 +378,11 @@ export default function HomePage() {
                             <span className="font-extrabold text-fuchsia-700 mr-1">{i + 1}.</span>
                             {renderWithBold(clean)}
                           </p>
-                          {isFadedPreview && (
-                            <div className="pointer-events-none absolute inset-x-0 bottom-0 h-16 bg-gradient-to-t from-white to-transparent" />
-                          )}
                         </li>
                       );
                     })}
                   </ul>
 
-                  <div className="mt-3 sm:mt-4 flex justify-center">
-                    {!showAllBullets ? (
-                      <button
-                        onClick={() => setShowAllBullets(true)}
-                        className="rounded-xl bg-gray-50 px-3 py-1.5 text-sm text-gray-700 ring-1 ring-gray-200 hover:bg-gray-100"
-                      >
-                        Show all
-                      </button>
-                    ) : (
-                      <button
-                        onClick={() => {
-                          setShowAllBullets(false);
-                          scrollToAbsoluteTop();
-                        }}
-                        className="rounded-xl bg-gray-50 px-3 py-1.5 text-sm text-gray-700 ring-1 ring-gray-200 hover:bg-gray-100"
-                      >
-                        Show fewer
-                      </button>
-                    )}
-                  </div>
                 </>
               )}
             </div>

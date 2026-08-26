@@ -16,12 +16,12 @@ async function readSummary(rel: string) {
 export async function GET(req: Request) {
   const url = new URL(req.url);
   const tab = (url.searchParams.get("tab") || "").toLowerCase(); // "hightech" | "telecoms" | "company"
-  const company = (url.searchParams.get("company") || "").toLowerCase(); // "microsoft" | "sage"
+  const company = (url.searchParams.get("company") || "").toLowerCase(); // "accenture" | "capco" | "sage"
 
   let rel = "";
   if (tab === "hightech") rel = "hightech.json";
   else if (tab === "telecoms") rel = "telecoms.json";
-  else if (tab === "company" && (company === "microsoft" || company === "sage")) {
+  else if (tab === "company" && (company === "accenture" || company === "capco" || company === "sage")) {
     rel = `company_${company}.json`;
   } else {
     return NextResponse.json({ error: "invalid tab/company" }, { status: 400 });
@@ -30,5 +30,6 @@ export async function GET(req: Request) {
   const data = await readSummary(rel);
   if (!data) return NextResponse.json({ bullets: [], note: "no summary yet" });
 
-  return NextResponse.json(data);
+  const bullets = Array.isArray(data?.bullets) ? data.bullets.slice(0, 5) : [];
+  return NextResponse.json({ ...data, bullets });
 }

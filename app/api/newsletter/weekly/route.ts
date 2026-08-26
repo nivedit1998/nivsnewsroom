@@ -10,6 +10,8 @@ import { supabaseAdmin } from "@/lib/supabaseAdmin";
 import { sendBulk } from "@/lib/ses";
 import { getPublicSiteUrl } from "@/lib/siteUrl";
 
+const SUMMARY_LIMIT = 5;
+
 /* ---------------- Types ---------------- */
 type Bullet = { text: string; url?: string };
 type SummaryFile = { generatedAt?: string; bullets?: Bullet[] };
@@ -57,22 +59,22 @@ async function readRankedBase(nameNoExt: "hightech" | "telecoms"): Promise<Ranke
 /** Top 5 bullets for a tab, aligned with site ranking */
 async function getTop5BulletsForTab(tab: "hightech" | "telecoms"): Promise<Bullet[]> {
   const ranked = await readRankedBase(tab);
-  const rankedTop = ranked.slice(0, 12); // buffer for mismatches
+  const rankedTop = ranked.slice(0, SUMMARY_LIMIT);
   const rankedUrls = new Set(rankedTop.map((r) => r.url).filter(Boolean));
 
   const summary = await readSummaryBase(tab);
   const bullets = summary?.bullets ?? [];
 
-  const matched = bullets.filter((b) => b.url && rankedUrls.has(b.url as string)).slice(0, 5);
+  const matched = bullets.filter((b) => b.url && rankedUrls.has(b.url as string)).slice(0, SUMMARY_LIMIT);
 
   let out = matched.slice();
-  if (out.length < 5) {
+  if (out.length < SUMMARY_LIMIT) {
     const remaining = bullets.filter((b) => !out.includes(b));
-    out = out.concat(remaining).slice(0, 5);
+    out = out.concat(remaining).slice(0, SUMMARY_LIMIT);
   }
 
-  if (out.length < 5) {
-    const need = 5 - out.length;
+  if (out.length < SUMMARY_LIMIT) {
+    const need = SUMMARY_LIMIT - out.length;
     const synth = rankedTop
       .filter((r) => !out.some((b) => b.url && b.url === r.url))
       .slice(0, need)
@@ -83,7 +85,7 @@ async function getTop5BulletsForTab(tab: "hightech" | "telecoms"): Promise<Bulle
     out = out.concat(synth);
   }
 
-  return out.slice(0, 5);
+  return out.slice(0, SUMMARY_LIMIT);
 }
 
 function synthBulletFromRanked(r: RankedItem): string {
@@ -114,7 +116,7 @@ function escWithBold(text: string) {
 }
 
 function renderSection(title: string, bullets: Bullet[]) {
-  const items = bullets.slice(0, 5).map((b) => {
+  const items = bullets.slice(0, SUMMARY_LIMIT).map((b) => {
     const clean = escWithBold(stripUrls(b.text || ""));
     return `<li style="margin:0 0 12px 0;line-height:1.7;color:#111">${clean}</li>`;
   }).join("");
