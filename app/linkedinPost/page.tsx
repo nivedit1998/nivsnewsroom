@@ -4,7 +4,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import CopyPostButton from "./CopyPostButton";
 
-const SUMMARY_LIMIT = 5;
+const LINKEDIN_INSIGHT_LIMIT = 3;
 
 type SummaryBullet = {
   text?: string;
@@ -42,7 +42,7 @@ function cleanBullet(text = "") {
 
 function bulletLines(summary: SummaryFile) {
   return (summary.bullets || [])
-    .slice(0, SUMMARY_LIMIT)
+    .slice(0, LINKEDIN_INSIGHT_LIMIT)
     .map((bullet) => cleanBullet(bullet.text))
     .filter(Boolean)
     .map((text) => `⭐️ ${text}`);
