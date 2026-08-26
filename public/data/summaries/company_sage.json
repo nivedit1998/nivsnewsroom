@@ -1,13 +1,19 @@
 {
-  "generatedAt": "2026-08-26T13:39:24.057Z",
+  "generatedAt": "2026-08-26T15:22:29.352Z",
   "bullets": [
     {
-      "text": "Landlord Tax Calculator Launched - **Sage** offers a new tool to help landlords estimate their tax liabilities accurately.",
+      "text": "Landlord Tax Calculator Launched — A new online tool helps landlords estimate their tax liabilities, addressing common issues of overpaying or underpaying taxes due to complex regulations. This aids individual landlords in managing their finances better.",
       "url": "https://www.sage.com/en-gb/blog/landlord-tax-calculator/"
     },
     {
-      "text": "AI Skills Gap Identified - **Sage** highlights a significant skills gap in accountancy, impacting AI implementation efforts.",
+      "text": "AI Skills Gap Highlighted — Nearly half of accountants report a lack of skilled personnel as a major challenge in adopting artificial intelligence, impacting the efficiency of accountancy practices. This affects job security and career development within the profession.",
       "url": "https://www.sage.com/en-gb/blog/ai-skills-gap-accountants-bookkeepers/"
     }
+  ],
+  "promptVersion": "insights-v2",
+  "scoringVersion": "insights-v2",
+  "contextUrls": [
+    "https://www.sage.com/en-gb/blog/landlord-tax-calculator/",
+    "https://www.sage.com/en-gb/blog/ai-skills-gap-accountants-bookkeepers/"
   ]
 }

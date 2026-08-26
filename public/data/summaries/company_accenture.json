@@ -1,9 +1,14 @@
 {
-  "generatedAt": "2026-08-26T13:39:17.132Z",
+  "generatedAt": "2026-08-26T15:22:20.176Z",
   "bullets": [
     {
-      "text": "Accenture Acquires McCoy - **Accenture** strengthens its **SAP** expertise and AI innovation for mid-market clients with this acquisition.",
+      "text": "Accenture Acquires McCoy — Accenture is acquiring McCoy, a leading SAP consultancy, to enhance its capabilities in AI and SAP solutions for mid-market clients in Europe.",
       "url": "https://newsroom.accenture.com/news/2026/accenture-to-acquire-mccoy-strengthening-sap-expertise-and-ai-innovation-for-mid-market"
     }
+  ],
+  "promptVersion": "insights-v2",
+  "scoringVersion": "insights-v2",
+  "contextUrls": [
+    "https://newsroom.accenture.com/news/2026/accenture-to-acquire-mccoy-strengthening-sap-expertise-and-ai-innovation-for-mid-market"
   ]
 }

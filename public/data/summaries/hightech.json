@@ -1,25 +1,34 @@
 {
-  "generatedAt": "2026-08-26T13:38:55.415Z",
+  "generatedAt": "2026-08-26T15:21:51.514Z",
   "bullets": [
     {
-      "text": "Instagram’s First Draft Simplifies Reels Editing - **Instagram** introduces a feature that automates video editing, saving creators time.",
-      "url": "https://techcrunch.com/2026/08/25/instagrams-first-draft-feature-aims-to-make-editing-reels-less-tedious/"
+      "text": "AI Privacy Concerns Raised — A DuckDuckGo survey reveals that many users share personal information with AI chatbots, often unaware of how their data is used, raising significant privacy issues.",
+      "url": "https://9to5mac.com/2026/08/25/duckduckgo-survey-highlights-how-much-personal-information-users-share-with-ai/"
     },
     {
-      "text": "Uber Enhances Teen Ride Safety - A new live video feature allows parents to monitor their teens' Uber rides in real time.",
-      "url": "https://www.cnet.com/tech/services-and-software/uber-lets-parents-watch-live-video-teen-rides/"
+      "text": "Generalist Valuation Surges — Robotics startup Generalist reaches a $3 billion valuation after raising nearly $200 million, indicating strong investor confidence in AI-driven robotics.",
+      "url": "https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/"
     },
     {
-      "text": "Pixel 11’s Rambler Voice-to-Text Impresses - **Google**'s new tool effectively processes speech, but lacks live preview functionality.",
-      "url": "https://9to5google.com/2026/08/25/google-pixel-11-rambler-feature-upgrade-idea/"
+      "text": "Runable Secures $21 Million — Indian startup Runable raises $21 million to develop AI agents that help businesses grow, targeting small businesses with a focus on customer acquisition.",
+      "url": "https://techcrunch.com/2026/08/26/runable-hits-21m-to-bet-ai-agents-can-go-from-building-businesses-to-growing-them/"
     },
     {
-      "text": "Claude Memory Unification by Anthropic - **Anthropic** streamlines memory features across Claude Cowork and chat for improved user experience.",
-      "url": "https://9to5mac.com/2026/08/25/anthropic-update-unifies-memory-feature-across-claude-cowork-and-chat/"
+      "text": "Siri AI Waitlist Introduced — Apple announces a waitlist for new Siri AI features in iOS 27, potentially delaying access for users and highlighting server capacity challenges.",
+      "url": "https://9to5mac.com/2026/08/25/prepare-to-wait-for-siri-ai-access-when-ios-27-launches-next-month/"
     },
     {
-      "text": "AirTag 2 Price Drops to $20 - **Apple**'s latest tracking device sees significant price reductions ahead of new features.",
-      "url": "https://9to5mac.com/2026/08/24/airtag-2-deal-best-price/"
+      "text": "Affordable 360-Degree Camera Launched — Wyze releases a new Indoor Cam Pan with enhanced features for $40, making advanced home surveillance more accessible to consumers.",
+      "url": "https://9to5google.com/2026/08/25/wyze-indoor-cam-pan-launch/"
     }
+  ],
+  "promptVersion": "insights-v2",
+  "scoringVersion": "insights-v2",
+  "contextUrls": [
+    "https://9to5mac.com/2026/08/25/duckduckgo-survey-highlights-how-much-personal-information-users-share-with-ai/",
+    "https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/",
+    "https://techcrunch.com/2026/08/26/runable-hits-21m-to-bet-ai-agents-can-go-from-building-businesses-to-growing-them/",
+    "https://9to5mac.com/2026/08/25/prepare-to-wait-for-siri-ai-access-when-ios-27-launches-next-month/",
+    "https://9to5google.com/2026/08/25/wyze-indoor-cam-pan-launch/"
   ]
 }

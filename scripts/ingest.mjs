@@ -38,7 +38,9 @@ export const FINTECH_SUMMARY_OUTPUT_LIMIT = 5;
 export const FINTECH_LINKEDIN_LIMIT = 3;
 export const FINTECH_MAX_ITEMS_PER_SOURCE = 12;
 export const FINTECH_WORDS_PER_ITEM_CAP = 400;
-export const FINTECH_SUMMARY_PROMPT_VERSION = "fintech-v1";
+export const INSIGHTS_SCORING_VERSION = "insights-v2";
+export const GENERAL_SUMMARY_PROMPT_VERSION = "insights-v2";
+export const FINTECH_SUMMARY_PROMPT_VERSION = "fintech-insights-v2";
 
 const DATA_DIR = path.join(process.cwd(), "public", "data");
 const SUMMARY_DIR = path.join(DATA_DIR, "summaries");
@@ -47,6 +49,7 @@ let extractionFailures = 0;
 let aiSummaryCalls = 0;
 let fintechAiSummaryCalls = 0;
 let fintechSummaryCacheHits = 0;
+const summaryContextCounts = {};
 
 const parser = new RSSParser({
   requestOptions: {
@@ -190,6 +193,232 @@ const FINTECH_CATEGORY_HOSTS = new Set([
   "pymnts.com",
 ]);
 
+const HIGH_TECH_TERMS = [
+  "artificial intelligence",
+  "ai",
+  "machine learning",
+  "generative ai",
+  "models",
+  "agents",
+  "chips",
+  "semiconductors",
+  "processors",
+  "gpus",
+  "advanced packaging",
+  "quantum computing",
+  "robotics",
+  "automation",
+  "cloud computing",
+  "data centres",
+  "data centers",
+  "software platform",
+  "cybersecurity",
+  "privacy",
+  "identity",
+  "security technology",
+  "electric vehicles",
+  "batteries",
+  "autonomous vehicles",
+  "smartphone",
+  "wearables",
+  "mixed reality",
+  "smart home",
+];
+
+const TELECOMS_TERMS = [
+  "5g",
+  "6g",
+  "mobile network",
+  "network infrastructure",
+  "telecoms",
+  "telecommunications",
+  "connectivity",
+  "spectrum",
+  "radio access network",
+  "open ran",
+  "core network",
+  "edge computing",
+  "fibre",
+  "fiber",
+  "broadband",
+  "full fibre",
+  "full fiber",
+  "fixed wireless access",
+  "satellite connectivity",
+  "direct to device",
+  "non terrestrial network",
+  "wi-fi",
+  "private network",
+  "network api",
+  "network automation",
+  "internet of things",
+  "iot",
+  "roaming",
+  "coverage",
+  "capacity",
+  "latency",
+];
+
+const IMPACT_STRONG_TERMS = [
+  "regulation",
+  "regulatory decision",
+  "new rule",
+  "mandate",
+  "ban",
+  "enforcement",
+  "major compliance change",
+  "outage",
+  "disruption",
+  "data breach",
+  "cyber incident",
+  "security incident",
+  "safety incident",
+  "service failure",
+  "acquisition",
+  "merger",
+  "major investment",
+  "market exit",
+  "market entry",
+  "material commercial shift",
+  "national network",
+  "major platform",
+  "important infrastructure",
+  "commercial deployment",
+  "production availability",
+  "breakthrough",
+  "successful test",
+];
+
+const IMPACT_MEDIUM_TERMS = [
+  "new product",
+  "new service",
+  "product launch",
+  "service launch",
+  "network expansion",
+  "coverage expansion",
+  "performance improvement",
+  "price change",
+  "partnership",
+  "collaboration",
+  "trial",
+  "pilot",
+  "rollout",
+  "deployment",
+];
+
+const PRACTICAL_TERMS = [
+  "customers",
+  "consumers",
+  "users",
+  "businesses",
+  "merchants",
+  "developers",
+  "operators",
+  "regulators",
+  "security",
+  "privacy",
+  "price",
+  "pricing",
+  "coverage",
+  "speed",
+  "access",
+  "reliability",
+  "availability",
+  "capacity",
+];
+
+const NOVELTY_TERMS = [
+  "launches",
+  "launched",
+  "introduces",
+  "introduced",
+  "unveils",
+  "unveiled",
+  "releases",
+  "released",
+  "deploys",
+  "deployed",
+  "rolls out",
+  "rolled out",
+  "approves",
+  "approved",
+  "adopts",
+  "adopted",
+  "requires",
+  "required",
+  "bans",
+  "banned",
+  "changes",
+  "changed",
+  "first",
+  "milestone",
+  "surpasses",
+  "reaches",
+  "becomes",
+  "tests",
+  "tested",
+  "trials",
+  "pilots",
+  "demonstrates",
+  "achieves",
+  "acquires",
+  "acquired",
+  "merges",
+  "merged",
+  "expands",
+  "expanded",
+];
+
+const LOW_SIGNAL_TERMS = [
+  "job",
+  "jobs",
+  "career",
+  "careers",
+  "vacancy",
+  "vacancies",
+  "recruitment",
+  "event",
+  "events",
+  "conference",
+  "webinar",
+  "podcast",
+  "author",
+  "tag",
+  "archive",
+  "category",
+];
+
+const ROUTINE_TERMS = [
+  "appoints",
+  "appointed",
+  "names new",
+  "joins forces",
+  "partnership",
+  "collaboration",
+  "sponsorship",
+  "sponsors",
+  "award",
+  "awards",
+  "quarterly results",
+  "annual results",
+  "financial results",
+  "earnings",
+  "proud to announce",
+];
+
+const PROMOTIONAL_TERMS = [
+  "world leading",
+  "world-leading",
+  "game changing",
+  "game-changing",
+  "revolutionary",
+  "exciting",
+  "cutting edge",
+  "cutting-edge",
+  "next generation",
+  "next-generation",
+];
+
 function isBlockedFintechUrl(url) {
   try {
     const pathname = new URL(url).pathname.toLowerCase();
@@ -307,28 +536,174 @@ function detectTopTake(title = "") {
   return /\b(opinion|analysis|explainer|column|editorial|interview|feature|review)\b/.test(t);
 }
 
+function normaliseScoringText(...bits) {
+  return bits
+    .filter(Boolean)
+    .join(" ")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function termPattern(term) {
+  const words = normaliseScoringText(term).split(" ").filter(Boolean);
+  if (!words.length) return null;
+  return new RegExp("\\b" + words.map((word) => word.replace(/[\\^$.*+?()[\]{}|]/g, "\\$&")).join("\\s+") + "\\b", "i");
+}
+
+function hasScoringTerm(text, term) {
+  const pattern = termPattern(term);
+  return Boolean(pattern && pattern.test(text));
+}
+
+function matchingTerms(text, terms = []) {
+  return terms.filter((term) => hasScoringTerm(text, term));
+}
+
+function scoringText(item) {
+  return normaliseScoringText(
+    item.title,
+    item.snippet,
+    item.excerpt,
+    String(item.fullText || "").slice(0, 1800)
+  );
+}
+
+function categoryTerms(context) {
+  if (context === "hightech") return HIGH_TECH_TERMS;
+  if (context === "telecoms") return TELECOMS_TERMS;
+  if (context === "fintech") return FINTECH_INCLUDE_TERMS;
+  return [];
+}
+
+function topicFitSignal(item, context, titleText, bodyText) {
+  const terms = categoryTerms(context);
+  if (context.startsWith("company_")) {
+    let score = 1;
+    if (hasScoringTerm(titleText, context.slice("company_".length))) score += 0.5;
+    if (matchingTerms(bodyText, ["technology", "platform", "software", "services", "innovation"]).length) {
+      score += 0.3;
+    }
+    return Math.min(2.4, score);
+  }
+
+  if (!terms.length) return 0;
+  const titleMatches = matchingTerms(titleText, terms);
+  const bodyMatches = matchingTerms(bodyText, terms);
+  let score = 0;
+  if (titleMatches.length) score += 1;
+  if (bodyMatches.length) score += 0.5;
+  if (new Set([...titleMatches, ...bodyMatches]).size >= 2) score += 0.3;
+  return Math.min(2.4, score);
+}
+
+function impactSignal(titleText, bodyText) {
+  const strongTitle = matchingTerms(titleText, IMPACT_STRONG_TERMS);
+  const strongBody = matchingTerms(bodyText, IMPACT_STRONG_TERMS);
+  const mediumTitle = matchingTerms(titleText, IMPACT_MEDIUM_TERMS);
+  const mediumBody = matchingTerms(bodyText, IMPACT_MEDIUM_TERMS);
+  let score = 0;
+  if (strongTitle.length) score += 1.2;
+  else if (strongBody.length) score += 0.7;
+  if (mediumTitle.length) score += 0.7;
+  else if (mediumBody.length) score += 0.35;
+  const scalePattern = /\b(?:\d[\d,.]*\s*(?:million|billion|thousand|m|bn|devices?|users?|customers?|households?|percent|%))\b/i;
+  if (scalePattern.test(titleText) || scalePattern.test(bodyText)) score += 0.4;
+  return Math.min(2.4, score);
+}
+
+function practicalValueSignal(titleText, bodyText) {
+  const titleMatches = matchingTerms(titleText, PRACTICAL_TERMS);
+  const bodyMatches = matchingTerms(bodyText, PRACTICAL_TERMS);
+  const concreteChange = [
+    "price",
+    "pricing",
+    "coverage",
+    "speed",
+    "access",
+    "availability",
+    "reliability",
+    "capacity",
+    "security",
+    "privacy",
+  ].some((term) => hasScoringTerm(titleText + " " + bodyText, term));
+  let score = 0;
+  if (titleMatches.length) score += 0.6;
+  if (bodyMatches.length) score += 0.35;
+  if (concreteChange) score += 0.4;
+  return Math.min(1.3, score);
+}
+
+function noveltySignal(titleText, bodyText) {
+  const titleMatches = matchingTerms(titleText, NOVELTY_TERMS);
+  const bodyMatches = matchingTerms(bodyText, NOVELTY_TERMS);
+  const milestone = ["first", "first commercial", "milestone", "surpasses", "reaches", "becomes"]
+    .some((term) => hasScoringTerm(titleText, term));
+  let score = 0;
+  if (titleMatches.length) score += 0.6;
+  if (milestone) score += 0.5;
+  if (!titleMatches.length && bodyMatches.length) score += 0.25;
+  return Math.min(1.1, score);
+}
+
+function penaltySignal(item, titleText, bodyText, impact, novelty) {
+  const urlText = normaliseScoringText(item.url);
+  const lowSignal = matchingTerms(titleText + " " + urlText, LOW_SIGNAL_TERMS).length > 0;
+  const routine = matchingTerms(titleText, ROUTINE_TERMS).length > 0;
+  const promotional = matchingTerms(titleText, PROMOTIONAL_TERMS).length > 0;
+  let score = 0;
+  if (lowSignal) score += 2.5;
+  if (routine) score += impact === 0 && novelty === 0 ? 1 : 0.6;
+  if (promotional && impact === 0) score += 0.2;
+  return Math.min(3, score);
+}
+
 function sourceAuthority(host = "") {
   const h = host.replace(/^www\./, "").toLowerCase();
   return SOURCE_AUTHORITY[h] || (h.endsWith(".co.uk") ? 0.18 : 0);
 }
 
-function ageDays(iso) {
+function ageDays(iso, nowOverride) {
   if (!iso) return LOOKBACK_DAYS;
-  const now = DateTime.now().setZone(TIMEZONE);
+  const now = nowOverride
+    ? (typeof nowOverride === "string" ? DateTime.fromISO(nowOverride, { zone: TIMEZONE }) : nowOverride)
+    : DateTime.now().setZone(TIMEZONE);
   const d = DateTime.fromISO(iso, { zone: TIMEZONE });
-  if (!d.isValid) return LOOKBACK_DAYS;
+  if (!d.isValid || !now?.isValid) return LOOKBACK_DAYS;
   return Math.max(0, now.diff(d, "days").days);
 }
 
-/** Compute hotness score WITH UK boost */
-function scoreItem(it, groupSize, context) {
-  const pop = Math.log1p(groupSize || 1);
-  const age = ageDays(it.publishedAt);
-  const recency = Math.max(0, 1.5 - 0.12 * age);
-  const analysis = detectTopTake(it.title) ? 0.5 : 0;
-  const authority = sourceAuthority(it.source);
-  const ukBoost = ukSignals(it, context);
-  return +(1 + pop + recency + analysis + authority + ukBoost).toFixed(3);
+export function scoreItem(it, groupSize = 1, context = "general", options = {}) {
+  const titleText = normaliseScoringText(it.title);
+  const bodyText = scoringText(it);
+  const age = ageDays(it.publishedAt, options.now);
+  const impact = impactSignal(titleText, bodyText);
+  const novelty = noveltySignal(titleText, bodyText);
+  const distinctSourceCount = Math.max(1, Number(options.sourceCount) || 1);
+  const breakdown = {
+    topicFit: topicFitSignal(it, context, titleText, bodyText),
+    impact,
+    practicalValue: practicalValueSignal(titleText, bodyText),
+    novelty,
+    recency: Math.max(0, 0.9 - 0.09 * age),
+    authority: Math.min(0.2, sourceAuthority(it.source) * 0.5),
+    ukRelevance: Math.min(0.7, (ukSignals(it, context) / 2.2) * 0.7),
+    crossSource: Math.min(0.5, Math.max(0, distinctSourceCount - 1) * 0.25),
+    penalties: penaltySignal(it, titleText, bodyText, impact, novelty),
+  };
+  const score = 1 + Object.entries(breakdown)
+    .filter(([key]) => key !== "penalties")
+    .reduce((total, [, value]) => total + value, 0) - breakdown.penalties;
+  return {
+    score: Math.max(0, +score.toFixed(3)),
+    breakdown: {
+      ...breakdown,
+      scoringVersion: INSIGHTS_SCORING_VERSION,
+      groupSize: Math.max(1, Number(groupSize) || 1),
+      distinctSourceCount,
+    },
+  };
 }
 
 /** =========================
@@ -646,7 +1021,50 @@ export function selectFintechContext(items) {
   return selected;
 }
 
-export function buildSummaryInputHash(items) {
+export function selectSummaryContext(items, limit = SUMMARY_LIMIT, options = {}) {
+  const maxPerSource = Number.isFinite(options.maxPerSource) ? options.maxPerSource : 2;
+  const diverse = options.diverse !== false;
+  if (!diverse) return items.slice(0, limit);
+  const sourceTotal = new Set(
+    items.map((item) => normaliseHostname(item.source || hostnameOf(item.url))).filter(Boolean)
+  ).size;
+  const enforceSourceLimit = diverse && sourceTotal >= 3;
+  const selected = [];
+  const sourceCounts = new Map();
+  const titleCounts = new Set();
+
+  const add = (item, allowDuplicateTitle = false, allowSourceOverflow = false) => {
+    const source = normaliseHostname(item.source || hostnameOf(item.url)) || item.url || item.title;
+    const title = normalizeTitle(item.title);
+    const sourceCount = sourceCounts.get(source) || 0;
+    if (!allowSourceOverflow && enforceSourceLimit && sourceCount >= maxPerSource) return false;
+    if (!allowDuplicateTitle && title && titleCounts.has(title)) return false;
+    sourceCounts.set(source, sourceCount + 1);
+    if (title) titleCounts.add(title);
+    selected.push(item);
+    return true;
+  };
+
+  for (const item of items) {
+    if (selected.length >= limit) break;
+    add(item);
+  }
+  if (selected.length < limit) {
+    for (const item of items) {
+      if (selected.length >= limit || selected.includes(item)) continue;
+      add(item, true);
+    }
+  }
+  if (selected.length < limit) {
+    for (const item of items) {
+      if (selected.length >= limit || selected.includes(item)) continue;
+      add(item, true, true);
+    }
+  }
+  return selected.slice(0, limit);
+}
+
+export function buildSummaryInputHash(items, versions = {}) {
   const payload = items.map((item) => ({
     url: item.url || "",
     title: item.title || "",
@@ -654,7 +1072,11 @@ export function buildSummaryInputHash(items) {
     excerpt: firstHalfWords(item.fullText || item.excerpt || item.snippet || "", FINTECH_WORDS_PER_ITEM_CAP),
   }));
   return createHash("sha256")
-    .update(JSON.stringify({ version: FINTECH_SUMMARY_PROMPT_VERSION, items: payload }))
+    .update(JSON.stringify({
+      scoringVersion: versions.scoringVersion || INSIGHTS_SCORING_VERSION,
+      version: versions.promptVersion || FINTECH_SUMMARY_PROMPT_VERSION,
+      items: payload,
+    }))
     .digest("hex");
 }
 
@@ -732,9 +1154,16 @@ async function generateWeeklyBullets(tabName, items) {
   // Build context from only the bounded ranked selection for this category.
   const summaryItems = isFintech
     ? selectFintechContext(items)
-    : items.slice(0, SUMMARY_LIMIT);
+    : ctx.startsWith("company_")
+      ? items.slice(0, SUMMARY_LIMIT)
+      : selectSummaryContext(items, SUMMARY_LIMIT);
   const outputLimit = isFintech ? FINTECH_SUMMARY_OUTPUT_LIMIT : SUMMARY_LIMIT;
   const wordsPerItemCap = isFintech ? FINTECH_WORDS_PER_ITEM_CAP : 600;
+  const promptVersion = isFintech
+    ? FINTECH_SUMMARY_PROMPT_VERSION
+    : GENERAL_SUMMARY_PROMPT_VERSION;
+  const contextUrls = summaryItems.map((item) => item.url).filter(Boolean);
+  summaryContextCounts[tabName] = summaryItems.length;
   const inputHash = isFintech ? buildSummaryInputHash(summaryItems) : undefined;
 
   if (isFintech && inputHash) {
@@ -742,6 +1171,7 @@ async function generateWeeklyBullets(tabName, items) {
     if (
       cached?.inputHash === inputHash &&
       cached?.promptVersion === FINTECH_SUMMARY_PROMPT_VERSION &&
+      cached?.scoringVersion === INSIGHTS_SCORING_VERSION &&
       Array.isArray(cached?.bullets)
     ) {
       fintechSummaryCacheHits += 1;
@@ -749,7 +1179,8 @@ async function generateWeeklyBullets(tabName, items) {
         bullets: cached.bullets.slice(0, outputLimit),
         inputHash,
         promptVersion: FINTECH_SUMMARY_PROMPT_VERSION,
-        contextUrls: summaryItems.map((item) => item.url).filter(Boolean),
+        scoringVersion: INSIGHTS_SCORING_VERSION,
+        contextUrls,
         note: "cached (FinTech input unchanged)",
       };
     }
@@ -774,8 +1205,10 @@ async function generateWeeklyBullets(tabName, items) {
     }));
     return {
       bullets,
-      ...(isFintech ? { inputHash, promptVersion: FINTECH_SUMMARY_PROMPT_VERSION } : {}),
-      ...(isFintech ? { contextUrls: summaryItems.map((item) => item.url).filter(Boolean) } : {}),
+      ...(isFintech ? { inputHash } : {}),
+      promptVersion,
+      scoringVersion: INSIGHTS_SCORING_VERSION,
+      contextUrls,
       note: "fallback (no OPENAI_API_KEY)",
     };
   }
@@ -788,29 +1221,39 @@ async function generateWeeklyBullets(tabName, items) {
 
     const system = isFintech
       ? [
-        "You are Niv, a concise UK fintech curator.",
-        "Write in a crisp editorial tone. No first-person. No 'I saw / I read / I learned'.",
-        "Use ONLY the supplied top 10 FinTech articles; do not invent facts.",
-        "Synthesize related stories into distinct themes where useful.",
-        "Return no more than five bullets.",
-        "Each bullet starts with a PUNCH LEAD of 2–5 words in Title Case, followed by an em dash (-) and ONE short insight sentence (≤ 20 words).",
-        "You may bold key terms using **double asterisks**.",
+        "You are Niv, a concise UK-focused FinTech curator.",
+        "Write for an intelligent beginner who may not know specialist terms.",
+        "Use a crisp, useful editorial tone. No first-person. No 'I saw', 'I read', or 'I learned'.",
+        "Use ONLY the supplied top FinTech articles. Do not invent facts, numbers, dates, causes, or consequences.",
+        "Choose the most meaningful supplied stories and return no more than five bullets.",
+        "Synthesize related articles into distinct themes where useful, but do not combine unrelated facts.",
+        "Every bullet must explain what happened and why it matters in plain English.",
+        "Mention who may be affected when the supplied context supports it.",
+        "Expand important acronyms or technical terms at first use, briefly.",
+        "Avoid jargon, generic AI language, empty hype, and company marketing claims.",
+        "Each bullet starts with a clear PUNCH LEAD of 2–5 words in Title Case.",
+        "Follow the lead with an em dash and one concise sentence of no more than 28 words.",
+        "You may use **double asterisks** for a small number of key terms.",
         "Return STRICT JSON only: {\"bullets\":[{\"text\":\"...\",\"urls\":[\"...\"]}, ...]}.",
         "If you include URLs, they must come from the supplied articles.",
-        "Prefer [UK-relevant] items when selecting or phrasing."
+        "Prefer [UK-relevant] items when the stories are otherwise similarly important."
       ].join(" ")
       : [
-        "You are Niv, a concise UK tech & telecoms curator.",
-        "Write in a crisp editorial tone. No first-person. No 'I saw / I read / I learned'.",
-        "For EACH supplied item:",
-        "- Start with a PUNCH LEAD: 2–5 words that capture the gist, in Title Case, enthusiastic but professional.",
-        "- Then an em dash (-) and ONE short insight sentence (≤ 20 words).",
-        "- You may bold KEY TERMS/COMPANIES using **double asterisks**.",
-        "- Use ONLY the provided items; do not invent facts.",
-        "Return STRICT JSON only: {\"bullets\":[{\"text\":\"...\",\"urls\":[\"...\"]}, ...]}",
-        "Create at most five bullets, one for each supplied item.",
-        "If you include URLs, they must come from the supplied items.",
-        "Prefer items marked [UK-relevant] when selecting or phrasing."
+        "You are Niv, a concise UK tech, telecoms, and innovation curator.",
+        "Write for an intelligent beginner who may not know specialist terms.",
+        "Use a crisp, useful editorial tone. No first-person. No 'I saw', 'I read', or 'I learned'.",
+        "Use ONLY the supplied articles. Do not invent facts, numbers, dates, causes, or consequences.",
+        "Choose the most meaningful supplied stories and return no more than five bullets.",
+        "Every bullet must explain what happened and why it matters in plain English.",
+        "Mention who may be affected when the supplied context supports it.",
+        "Expand important acronyms or technical terms at first use, briefly.",
+        "Avoid jargon, generic AI language, empty hype, and company marketing claims.",
+        "Each bullet starts with a clear PUNCH LEAD of 2–5 words in Title Case.",
+        "Follow the lead with an em dash and one concise sentence of no more than 28 words.",
+        "You may use **double asterisks** for a small number of key terms.",
+        "Return STRICT JSON only: {\"bullets\":[{\"text\":\"...\",\"urls\":[\"...\"]}, ...]}.",
+        "If you include URLs, they must come from the supplied articles.",
+        "Prefer [UK-relevant] items when the stories are otherwise similarly important."
       ].join(" ");
 
     const user = `Create my weekly summary for "${tabName}" based ONLY on this dataset:\n\n${context}`;
@@ -874,13 +1317,10 @@ async function generateWeeklyBullets(tabName, items) {
 
     return {
       bullets: bullets.slice(0, outputLimit),
-      ...(isFintech
-        ? {
-          inputHash,
-          promptVersion: FINTECH_SUMMARY_PROMPT_VERSION,
-          contextUrls: summaryItems.map((item) => item.url).filter(Boolean),
-        }
-        : {}),
+      ...(isFintech ? { inputHash } : {}),
+      promptVersion,
+      scoringVersion: INSIGHTS_SCORING_VERSION,
+      contextUrls,
     };
   } catch (e) {
     const bullets = summaryItems.slice(0, outputLimit).map((it) => ({
@@ -889,13 +1329,10 @@ async function generateWeeklyBullets(tabName, items) {
     }));
     return {
       bullets: bullets.slice(0, outputLimit),
-      ...(isFintech
-        ? {
-          inputHash,
-          promptVersion: FINTECH_SUMMARY_PROMPT_VERSION,
-          contextUrls: summaryItems.map((item) => item.url).filter(Boolean),
-        }
-        : {}),
+      ...(isFintech ? { inputHash } : {}),
+      promptVersion,
+      scoringVersion: INSIGHTS_SCORING_VERSION,
+      contextUrls,
       note: "fallback (summary generation error)",
     };
   }
@@ -904,11 +1341,10 @@ async function generateWeeklyBullets(tabName, items) {
 /** =========================
  *  SCORING / ORDERING with UK weighting
  *  ========================= */
-function annotateHotness(items, context) {
+export function annotateHotness(items, context, options = {}) {
   const map = new Map();
   items.forEach((it, idx) => {
-    const key = normalizeTitle(it.title);
-    if (!key) return;
+    const key = normalizeTitle(it.title) || it.url || String(idx);
     const arr = map.get(key) || [];
     arr.push(idx);
     map.set(key, arr);
@@ -917,15 +1353,31 @@ function annotateHotness(items, context) {
   const out = items.map((it) => ({ ...it, score: 1, groupSize: 1, tags: [] }));
   for (const [, idxs] of map.entries()) {
     const size = idxs.length;
+    const distinctSourceCount = new Set(
+      idxs.map((index) => normaliseHostname(out[index].source || hostnameOf(out[index].url))).filter(Boolean)
+    ).size || 1;
     for (const i of idxs) {
       const item = out[i];
-      const score = scoreItem(item, size, context);
+      const scored = scoreItem(item, size, context, {
+        now: options.now,
+        sourceCount: distinctSourceCount,
+      });
 
       const tags = [...(item.tags || [])];
       if (detectTopTake(item.title)) tags.push("top-take");
       if (ukSignals(item, context) > 0) tags.push("uk");
+      if (scored.breakdown.impact >= 0.7) tags.push("high-impact");
+      if (scored.breakdown.penalties >= 2.5) tags.push("low-signal");
+      if (scored.breakdown.penalties >= 0.6 && scored.breakdown.penalties < 2.5) tags.push("routine");
 
-      out[i] = { ...item, score, groupSize: size, tags };
+      out[i] = {
+        ...item,
+        score: scored.score,
+        groupSize: size,
+        scoringVersion: INSIGHTS_SCORING_VERSION,
+        scoreBreakdown: scored.breakdown,
+        tags: [...new Set(tags)],
+      };
     }
   }
 
@@ -933,7 +1385,8 @@ function annotateHotness(items, context) {
     if (b.score !== a.score) return b.score - a.score;
     const ta = new Date(a.publishedAt || 0).getTime();
     const tb = new Date(b.publishedAt || 0).getTime();
-    return tb - ta;
+    if (tb !== ta) return tb - ta;
+    return String(a.url || "").localeCompare(String(b.url || ""));
   });
 
   return out;
@@ -1026,6 +1479,8 @@ async function main() {
     aiSummaryCalls,
     fintechAiSummaryCalls,
     fintechSummaryCacheHits,
+    scoringVersion: INSIGHTS_SCORING_VERSION,
+    summaryContextCounts,
     extractionFailures,
     feeds: feedDiagnostics,
   }, null, 2));

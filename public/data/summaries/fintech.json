@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-08-26T13:44:01.953Z",
+  "generatedAt": "2026-08-26T15:22:15.071Z",
   "bullets": [
     {
-      "text": "Ozone API Accelerates cVRP Adoption - Ozone API enables non-CMA9 banks to implement **Variable Recurring Payments** in just 8 weeks.",
-      "url": "https://thefintechtimes.com/ozone-api-brings-cvrp-infrastructure-to-non-cma9-banks-in-8-weeks/"
+      "text": "Regulators Propose Crypto Rules — The SEC and Financial Accounting Standards Board introduced proposals to regulate crypto assets, aiming to clarify capital-raising pathways for entrepreneurs, impacting the crypto industry significantly.",
+      "url": "https://www.paymentsdive.com/news/sec-fasb-advance-separate-crypto-proposals/828396/"
     },
     {
-      "text": "Tokenisation Taskforce Formed - HM Treasury's taskforce aims to unify **tokenisation** efforts among 54 financial institutions to unlock £33 billion.",
-      "url": "https://thefintechtimes.com/tokenisation-why-interoperability-decides-the-uks-33bn-prize/"
-    },
-    {
-      "text": "Legacy Systems Costly to Maintain - Outdated payment infrastructures hinder growth and incur hidden costs, prompting a shift to modernisation.",
+      "text": "Legacy Systems Costly — Outdated payment infrastructures are hindering banks' efficiency and profitability, with hidden costs often exceeding maintenance expenses, affecting financial institutions across Europe.",
       "url": "https://thefintechtimes.com/legacy-is-no-longer-cheap-the-economics-of-payments-modernisation/"
     },
     {
-      "text": "FCA Supports Growth of FinTechs - The FCA's Scale-up Unit aids innovative firms in navigating regulation and scaling sustainably.",
+      "text": "FCA Supports Innovative Firms — The Financial Conduct Authority has launched a Scale-up Unit to assist five fast-growing UK fintech firms, helping them navigate regulation and promote sustainable growth.",
       "url": "https://www.fca.org.uk/news/press-releases/fca-boosts-support-innovative-firms-scale-grow"
     },
     {
-      "text": "AI as a Competitive Weapon - Payments firms must leverage **AI** strategically to reshape market economics, not just for productivity.",
-      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/splitit-ceo-says-payments-firms-must-build-for-ai-not-just-use-it/"
+      "text": "Revolut Launches Stablecoin — Revolut introduced a euro-pegged stablecoin, EURR, in three countries, marking a significant step in integrating cryptocurrencies into mainstream finance for European users.",
+      "url": "https://www.pymnts.com/cryptocurrency/2026/revolut-debuts-euro-pegged-stablecoin-in-3-countries/"
+    },
+    {
+      "text": "Stripe Acquires OpenRouter — Stripe's acquisition of OpenRouter aims to enhance AI integration for businesses, allowing better management of AI-related expenses and positioning Stripe as a leader in AI economic infrastructure.",
+      "url": "https://www.paymentsdive.com/news/stripe-openrouter-finally-strike-a-deal/828326/"
     }
   ],
-  "inputHash": "9b4e4f7c936ad292bab1640231e9c8f5bf78e317d4bf381c45a7212e7c82757f",
-  "promptVersion": "fintech-v1",
+  "inputHash": "86016dc112d36bc99ac92e548ec229e597b4b471b64118540d3c97271c8dc151",
+  "promptVersion": "fintech-insights-v2",
+  "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://thefintechtimes.com/ozone-api-brings-cvrp-infrastructure-to-non-cma9-banks-in-8-weeks/",
-    "https://thefintechtimes.com/tokenisation-why-interoperability-decides-the-uks-33bn-prize/",
+    "https://www.paymentsdive.com/news/sec-fasb-advance-separate-crypto-proposals/828396/",
     "https://thefintechtimes.com/legacy-is-no-longer-cheap-the-economics-of-payments-modernisation/",
-    "https://www.fca.org.uk/news/press-releases/fca-boosts-support-innovative-firms-scale-grow",
-    "https://www.finextra.com/pressarticle/110734/sweetwater-goes-live-with-gr4vy",
-    "https://www.fca.org.uk/news/blogs/strengthening-resilience-across-increasingly-interconnected-financial-system",
+    "https://thefintechtimes.com/the-fintech-landscape-of-canada-in-2026/",
+    "https://thefintechtimes.com/tokenisation-why-interoperability-decides-the-uks-33bn-prize/",
+    "https://www.pymnts.com/news/artificial-intelligence/2026/splitit-ceo-says-payments-firms-must-build-for-ai-not-just-use-it/",
     "https://www.pymnts.com/cryptocurrency/2026/revolut-debuts-euro-pegged-stablecoin-in-3-countries/",
-    "https://www.fca.org.uk/news/blogs/making-compliance-simpler-opening-fca-handbook-new-api",
     "https://www.pymnts.com/news/acquiring/2026/priority-commerce-moves-into-public-sector-with-intellipay-acquisition/",
-    "https://www.pymnts.com/news/artificial-intelligence/2026/splitit-ceo-says-payments-firms-must-build-for-ai-not-just-use-it/"
-  ],
-  "note": "cached (FinTech input unchanged)"
+    "https://www.paymentsdive.com/news/walmart-adds-digital-wallet-options/828600/",
+    "https://www.fca.org.uk/news/press-releases/fca-boosts-support-innovative-firms-scale-grow",
+    "https://www.paymentsdive.com/news/stripe-openrouter-finally-strike-a-deal/828326/"
+  ]
 }

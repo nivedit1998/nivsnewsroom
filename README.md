@@ -13,7 +13,11 @@ Accenture and Capco use first-party sitemap discovery. Sage uses its first-party
 
 ## Summary behaviour
 
-Each category and company retains its full ranked article dataset, but High Tech, Telecoms, and company summaries use the top five ranked articles as AI context. FinTech uses a maximum of 10 ranked articles as context, capped at 400 words per article, and produces no more than five insights. FinTech is summarised with at most one AI request per ingestion run, with an input-fingerprint cache to avoid repeat calls when the top 10 has not changed.
+Each category and company retains its full ranked article dataset. Ranking uses deterministic editorial signals for category fit, impact, practical value, novelty, recency, UK relevance, source authority, cross-source corroboration, and low-signal penalties. Scores are not reader popularity figures or AI judgements. Analysis and feature labels do not receive an automatic ranking bonus.
+
+High Tech and Telecoms summaries use a maximum of five selected ranked articles as AI context, with source diversity where enough sources are available. Company summaries use the top five ranked articles. FinTech uses a maximum of 10 ranked articles as context, capped at 400 words per article, and produces no more than five insights. FinTech is summarised with at most one AI request per ingestion run, with an input-fingerprint cache to avoid repeat calls when the top 10 has not changed.
+
+AI explains the bounded selected stories in beginner-friendly plain English; it does not score every article. The normal full ingestion run makes at most six summary calls: High Tech, Telecoms, FinTech, Accenture, Capco, and Sage.
 
 The API and website read saved summary JSON and do not call AI at page-view time. The LinkedIn page reuses the first three saved bullets for each category and does not call AI. If the OpenAI key is unavailable, deterministic fallback summaries are used. GOV.UK is intentionally excluded from the FinTech source list.
 
@@ -47,6 +51,10 @@ Refresh only the FinTech dataset and summary when testing FinTech changes:
 Run the focused FinTech helper tests:
 
     npm run test:fintech
+
+Run the deterministic ranking and summary-context tests:
+
+    npm run test:insights
 
 Generate a local newsletter preview:
 

@@ -5,9 +5,26 @@ import {
   COMPANY_KEYS,
   FEED_SOURCES,
 } from "./news-sources.mjs";
+import {
+  FINTECH_CONTEXT_LIMIT,
+  FINTECH_SUMMARY_PROMPT_VERSION,
+  GENERAL_SUMMARY_PROMPT_VERSION,
+  INSIGHTS_SCORING_VERSION,
+} from "./ingest.mjs";
 
 const ROOT = process.cwd();
 const MAX_SUMMARY_BULLETS = 5;
+const SCORE_LIMITS = {
+  topicFit: 2.4,
+  impact: 2.4,
+  practicalValue: 1.3,
+  novelty: 1.1,
+  recency: 0.9,
+  authority: 0.2,
+  ukRelevance: 0.7,
+  crossSource: 0.5,
+  penalties: 3,
+};
 const DATASETS = [
   ["hightech", "public/data/hightech.json", "public/data/summaries/hightech.json"],
   ["telecoms", "public/data/telecoms.json", "public/data/summaries/telecoms.json"],
@@ -73,8 +90,6 @@ for (const [name, dataPath, summaryPath] of DATASETS) {
 
   totalItems += articles.length;
   const articleUrls = new Set();
-  const linkedRankLimit = name === "fintech" ? 10 : MAX_SUMMARY_BULLETS;
-  const rankedTopUrls = new Set(articles.slice(0, linkedRankLimit).map((item) => item?.url).filter(Boolean));
   for (const [index, item] of articles.entries()) {
     if (!item || typeof item.title !== "string" || !item.title.trim()) {
       errors.push(name + ": article " + index + " has no title");
@@ -102,6 +117,46 @@ for (const [name, dataPath, summaryPath] of DATASETS) {
         }
       }
     }
+    if (!Number.isFinite(item?.score)) {
+      errors.push(name + ": article " + index + " has a non-finite score");
+    }
+    if (item?.scoringVersion !== INSIGHTS_SCORING_VERSION) {
+      errors.push(name + ": article " + index + " has an invalid scoringVersion");
+    }
+    if (!item?.scoreBreakdown || typeof item.scoreBreakdown !== "object") {
+      errors.push(name + ": article " + index + " has no scoreBreakdown");
+    } else {
+      for (const [field, maximum] of Object.entries(SCORE_LIMITS)) {
+        const value = item.scoreBreakdown[field];
+        if (!Number.isFinite(value) || value < 0 || value > maximum) {
+          errors.push(
+            name + ": article " + index + " scoreBreakdown." + field +
+            " must be between 0 and " + maximum
+          );
+        }
+      }
+      if (item.scoreBreakdown.scoringVersion !== INSIGHTS_SCORING_VERSION) {
+        errors.push(name + ": article " + index + " scoreBreakdown has an invalid scoringVersion");
+      }
+      if (!Number.isInteger(item.scoreBreakdown.groupSize) || item.scoreBreakdown.groupSize < 1) {
+        errors.push(name + ": article " + index + " scoreBreakdown has an invalid groupSize");
+      }
+      if (!Number.isInteger(item.scoreBreakdown.distinctSourceCount) || item.scoreBreakdown.distinctSourceCount < 1) {
+        errors.push(name + ": article " + index + " scoreBreakdown has an invalid distinctSourceCount");
+      }
+    }
+    if (index > 0) {
+      const previous = articles[index - 1];
+      const scoreOrder = Number(previous?.score) - Number(item?.score);
+      const previousDate = new Date(previous?.publishedAt || 0).getTime();
+      const currentDate = new Date(item?.publishedAt || 0).getTime();
+      const tieOrder = previousDate === currentDate
+        ? String(item?.url || "").localeCompare(String(previous?.url || ""))
+        : previousDate - currentDate;
+      if (scoreOrder < 0 || (scoreOrder === 0 && tieOrder < 0)) {
+        errors.push(name + ": articles are not sorted by score/date/URL at index " + index);
+      }
+    }
   }
 
   try {
@@ -124,27 +179,35 @@ for (const [name, dataPath, summaryPath] of DATASETS) {
   if (!summary.generatedAt || !Number.isFinite(Date.parse(summary.generatedAt))) {
     errors.push(name + ": " + summaryPath + " has an invalid generatedAt timestamp");
   }
+  if (summary.scoringVersion !== INSIGHTS_SCORING_VERSION) {
+    errors.push(name + ": " + summaryPath + " has an invalid scoringVersion");
+  }
+  const expectedPromptVersion = name === "fintech"
+    ? FINTECH_SUMMARY_PROMPT_VERSION
+    : GENERAL_SUMMARY_PROMPT_VERSION;
+  if (summary.promptVersion !== expectedPromptVersion) {
+    errors.push(name + ": " + summaryPath + " has an invalid promptVersion");
+  }
+  const contextLimit = name === "fintech" ? FINTECH_CONTEXT_LIMIT : MAX_SUMMARY_BULLETS;
+  if (!Array.isArray(summary.contextUrls) || summary.contextUrls.length > contextLimit) {
+    errors.push(name + ": " + summaryPath + " must record no more than " + contextLimit + " contextUrls");
+  }
+  const summaryContextUrls = Array.isArray(summary.contextUrls)
+    ? new Set(summary.contextUrls)
+    : new Set();
+  if (summaryContextUrls.size !== (summary.contextUrls || []).length) {
+    errors.push(name + ": " + summaryPath + " contains duplicate contextUrls");
+  }
+  for (const contextUrl of summaryContextUrls) {
+    if (!articleUrls.has(contextUrl)) {
+      errors.push(name + ": summary context URL is not present in its article dataset: " + contextUrl);
+    }
+  }
   if (name === "fintech") {
     if (typeof summary.inputHash !== "string" || !summary.inputHash.trim()) {
       errors.push(name + ": " + summaryPath + " has no inputHash cache fingerprint");
     }
-    if (summary.promptVersion !== "fintech-v1") {
-      errors.push(name + ": " + summaryPath + " has an invalid promptVersion");
-    }
-    if (!Array.isArray(summary.contextUrls) || summary.contextUrls.length > 10) {
-      errors.push(name + ": " + summaryPath + " must record no more than 10 contextUrls");
-    } else {
-      for (const contextUrl of summary.contextUrls) {
-        if (!articleUrls.has(contextUrl)) {
-          errors.push(name + ": summary context URL is not present in its article dataset: " + contextUrl);
-        }
-      }
-    }
   }
-
-  const summaryContextUrls = name === "fintech" && Array.isArray(summary.contextUrls)
-    ? new Set(summary.contextUrls)
-    : rankedTopUrls;
 
   for (const [index, bullet] of summary.bullets.entries()) {
     if (!bullet || typeof bullet.text !== "string" || !bullet.text.trim()) {

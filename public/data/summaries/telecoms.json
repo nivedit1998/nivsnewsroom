@@ -1,25 +1,34 @@
 {
-  "generatedAt": "2026-08-26T13:39:01.693Z",
+  "generatedAt": "2026-08-26T15:22:00.151Z",
   "bullets": [
     {
-      "text": "Duos Technologies Enhances Edge AI - **Duos Technologies** is deploying modular data centers to improve connectivity in underserved markets.",
-      "url": "https://rcrwireless.com/20260826/podcast/doug-recker-on-how-duos-technologies-is-bringing-gpu-power-and-edge-ai-closer-to-the-customer"
+      "text": "Malawi's Digital Access Gap – A new GSMA report reveals that 80% of Malawians remain offline despite mobile coverage, highlighting barriers to digital adoption that could hinder economic growth.",
+      "url": "https://www.gsma.com/newsroom/press-release/80-of-malawians-remain-offline-despite-coverage-new-gsma-report-highlights-path-to-inclusive-digital-access-and-mwk-1-1-trillion-growth/"
     },
     {
-      "text": "Huawei and HP Patent Deal - **Huawei** and **HP Inc.** sign a significant cross-licensing agreement for WiFi patents.",
-      "url": "https://totaltele.com/huawei-and-hp-inc-sign-landmark-patent-cross-licensing-agreement/"
+      "text": "Huawei and HP Patent Deal – Huawei has signed a global patent licensing agreement with HP, marking a significant step in commercialising its Wi-Fi technology innovations.",
+      "url": "https://rcrwireless.com/20260826/network-infrastructure/huawei-hp-wi-fi-patent"
     },
     {
-      "text": "AI Supercycle Investment Surge - The current AI supercycle is driving rapid investment and planning challenges across industries.",
-      "url": "https://rcrwireless.com/20260821/tech/planning-next-black-swans-ai-frenzy"
-    },
-    {
-      "text": "KT Launches Sovereign AI Server - **KT** unveils a fully on-premise AI server, ensuring compliance with local regulations.",
-      "url": "https://rcrwireless.com/20260820/ai/kt-npu-llm-station"
-    },
-    {
-      "text": "EE's Fast Lane 5G Service - **EE** introduces a premium network slicing service to enhance mobile performance during peak times.",
+      "text": "EE Launches 5G Fast Lane – EE introduces a premium 5G network slicing service, ensuring high-quality mobile service for users during peak times at busy events.",
       "url": "https://totaltele.com/ee-introduces-premium-fast-lane-5g-network-slicing-service/"
+    },
+    {
+      "text": "Project Gigabit Progress Update – Building Digital UK reports that over 296,000 premises have been connected under Project Gigabit, advancing the UK’s broadband rollout efforts.",
+      "url": "https://totaltele.com/bduk-gives-august-2026-update-on-project-gigabit-progress/"
+    },
+    {
+      "text": "Shift to Smart Building Contracts – A new report indicates a trend towards consolidating smart building technologies into single contracts, driven by cost efficiency and operational simplicity.",
+      "url": "https://rcrwireless.com/20260825/smart-buildings/smart-building-contract"
     }
+  ],
+  "promptVersion": "insights-v2",
+  "scoringVersion": "insights-v2",
+  "contextUrls": [
+    "https://www.gsma.com/newsroom/press-release/80-of-malawians-remain-offline-despite-coverage-new-gsma-report-highlights-path-to-inclusive-digital-access-and-mwk-1-1-trillion-growth/",
+    "https://rcrwireless.com/20260826/network-infrastructure/huawei-hp-wi-fi-patent",
+    "https://totaltele.com/ee-introduces-premium-fast-lane-5g-network-slicing-service/",
+    "https://totaltele.com/bduk-gives-august-2026-update-on-project-gigabit-progress/",
+    "https://rcrwireless.com/20260825/smart-buildings/smart-building-contract"
   ]
 }

@@ -6,7 +6,10 @@ import {
   FINTECH_CONTEXT_LIMIT,
   FINTECH_MAX_ITEMS_PER_SOURCE,
   FINTECH_SUMMARY_OUTPUT_LIMIT,
+  FINTECH_SUMMARY_PROMPT_VERSION,
   FINTECH_WORDS_PER_ITEM_CAP,
+  INSIGHTS_SCORING_VERSION,
+  annotateHotness,
   buildSummaryInputHash,
   filterFintechItems,
   selectFintechContext,
@@ -100,4 +103,26 @@ assert.notEqual(
 
 assert.equal(FINTECH_SUMMARY_OUTPUT_LIMIT, 5);
 assert.equal(FINTECH_WORDS_PER_ITEM_CAP, 400);
+assert.equal(FINTECH_SUMMARY_PROMPT_VERSION, "fintech-insights-v2");
+
+const ranked = annotateHotness(filtered, "fintech", {
+  now: "2026-08-26T12:00:00.000Z",
+});
+assert.ok(ranked.every((item) => item.scoringVersion === INSIGHTS_SCORING_VERSION));
+assert.ok(ranked.every((item) => item.scoreBreakdown?.scoringVersion === INSIGHTS_SCORING_VERSION));
+assert.notEqual(ranked[0].scoreBreakdown?.topicFit, undefined);
+
+const changedDate = context.map((item, index) =>
+  index === 0 ? { ...item, publishedAt: "2026-08-25T12:00:00.000Z" } : item
+);
+assert.notEqual(
+  hash,
+  buildSummaryInputHash(changedDate),
+  "changed publication date should invalidate the fingerprint"
+);
+assert.notEqual(
+  hash,
+  buildSummaryInputHash(context, { scoringVersion: "changed-scoring" }),
+  "changed scoring version should invalidate the fingerprint"
+);
 console.log("FinTech helper tests passed.");

@@ -1,25 +1,34 @@
 {
-  "generatedAt": "2026-08-26T13:39:21.467Z",
+  "generatedAt": "2026-08-26T15:22:25.365Z",
   "bullets": [
     {
-      "text": "Evolving AI Governance - Regulators are prioritising accountability and evidence in AI governance for financial institutions.",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/ai-governance-mas-readiness"
-    },
-    {
-      "text": "Crypto Travel Rule Impact - The Travel Rule enhances transparency in digital asset transfers, aligning them with traditional finance.",
+      "text": "Crypto Travel Rule Implemented — The UK's Crypto Travel Rule, effective from September 2023, mandates virtual asset service providers to enhance transparency in digital asset transactions, impacting compliance for crypto firms.",
       "url": "https://www.capco.com/intelligence/capco-intelligence/crypto-travel-rule-and-its-impact-on-digital-asset-markets"
     },
     {
-      "text": "Future of UK Retail Disclosure - The FCA's CCI regime shifts to a consumer-focused investment information framework by 2027.",
+      "text": "Energy Cyber Resilience Critical — Europe's energy sector faces heightened cyber threats, necessitating robust cyber resilience strategies to safeguard energy supply and maintain public trust amid geopolitical tensions.",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/energy-sovereignty-cyber-resilience"
+    },
+    {
+      "text": "AI Governance Evolving — Singapore's Monetary Authority of Singapore (MAS) is shifting towards evidence-based AI governance, requiring financial institutions to demonstrate compliance with new risk management guidelines by 2026.",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/ai-governance-mas-readiness"
+    },
+    {
+      "text": "UK Retail Disclosure Changes — The FCA's new Consumer-Centric Investment (CCI) regime, starting in 2026, aims to enhance retail investment disclosures, impacting how firms communicate product information to consumers.",
       "url": "https://www.capco.com/intelligence/capco-intelligence/cci-and-the-future-of-uk-retail-disclosure"
     },
     {
-      "text": "Capco's Charity Partnership - Capco partners with KidsOut to support children facing challenges through community initiatives.",
+      "text": "Capco Expands in Canada — Capco has launched a dedicated energy practice in Calgary to support clients in navigating changes in the energy sector, reflecting its commitment to industry growth.",
       "url": "https://www.capco.com/about-us/newsroom-and-media"
-    },
-    {
-      "text": "Canada Payment Fraud Insights - A significant percentage of Canadians express concerns over payment fraud and deep fake technology.",
-      "url": "https://www.capco.com/about-us/newsroom-and-media/canada-payments-fraud-survey"
     }
+  ],
+  "promptVersion": "insights-v2",
+  "scoringVersion": "insights-v2",
+  "contextUrls": [
+    "https://www.capco.com/intelligence/capco-intelligence/crypto-travel-rule-and-its-impact-on-digital-asset-markets",
+    "https://www.capco.com/intelligence/capco-intelligence/energy-sovereignty-cyber-resilience",
+    "https://www.capco.com/intelligence/capco-intelligence/ai-governance-mas-readiness",
+    "https://www.capco.com/about-us/newsroom-and-media",
+    "https://www.capco.com/intelligence/capco-intelligence/cci-and-the-future-of-uk-retail-disclosure"
   ]
 }
