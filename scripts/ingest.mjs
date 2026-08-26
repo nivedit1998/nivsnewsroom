@@ -48,7 +48,6 @@ const parser = new RSSParser({
  *  ========================= */
 const UK_DOMAINS = new Set([
   "bbc.co.uk",
-  "gov.uk",
   "ofcom.org.uk",
   "openreach.co.uk",
   "bt.com",

@@ -119,12 +119,11 @@ Keep the existing independent publishers for breadth, but add authoritative sour
 | Priority | Source | Feed/adapter | Reason |
 | --- | --- | --- | --- |
 | 1 | GSMA Newsroom | https://www.gsma.com/newsroom/feed/ | First-party mobile-industry announcements, reports, and connectivity developments. |
-| 1 | UK Department for Science, Innovation and Technology | https://www.gov.uk/government/organisations/department-for-science-innovation-and-technology.atom | Official UK policy, digital infrastructure, AI, science, and technology developments. |
 | 2 | Ofcom News Centre | https://www.ofcom.org.uk/news-centre | High-value UK telecoms and media regulation source; the page is live but does not currently expose a verified RSS endpoint, so use a dedicated page/sitemap adapter only after the first source pass. |
 | 2 | Openreach News | https://www.openreach.com/news | Useful UK fibre rollout and network infrastructure source; add only after verifying a stable feed or sitemap. |
 | 2 | BT Newsroom | https://www.bt.com/about/newsroom | Useful operator and network announcements; add only after verifying a stable feed or sitemap. |
 
-The first implementation should add GSMA and DSIT because both expose usable RSS/Atom feeds. Ofcom, Openreach, and BT should be evaluated as a second phase rather than scraping several HTML pages immediately.
+The first implementation added GSMA. Ofcom, Openreach, and BT should be evaluated as a second phase rather than scraping several HTML pages immediately. Government feeds are intentionally excluded from the active registry.
 
 ### 3.3 Source-quality rules
 
@@ -137,7 +136,7 @@ Implement these rules while adding sources:
 - Do not treat a successful HTTP response with zero parseable articles as a healthy feed.
 - Keep failed-source diagnostics visible in the GitHub Actions log.
 - Avoid publishing navigation pages, category pages, careers pages, and duplicate press-release URLs.
-- Keep the existing UK relevance weighting, but add explicit authority scores for GSMA, DSIT, Accenture, Capco, Ofcom, Openreach, and BT.
+- Keep the existing UK relevance weighting, but add explicit authority scores for GSMA, Accenture, Capco, Ofcom, Openreach, and BT.
 
 ## 4. Exact implementation changes
 
@@ -527,7 +526,7 @@ The change is complete when:
 - Accenture data comes primarily from the official newsroom sitemap.
 - Capco data comes primarily from the official sitemap with strict path filtering.
 - Sage first-party feeds continue to work.
-- GSMA and DSIT improve Telecoms/UK authority coverage.
+- GSMA improves Telecoms authority coverage.
 - Duplicate and dead primary feed URLs are removed or clearly treated as fallbacks.
 - Each summary is generated from at most five ranked articles.
 - No summary/API/UI/newsletter path can emit more than five bullets.
@@ -569,7 +568,6 @@ Source checks were performed on 26 August 2026:
 - [Capco sitemap](https://www.capco.com/sitemap.xml)
 - [GSMA RSS feeds](https://www.gsma.com/newsroom/rss-feeds/)
 - [GSMA Newsroom feed](https://www.gsma.com/newsroom/feed/)
-- [DSIT GOV.UK organisation feed](https://www.gov.uk/government/organisations/department-for-science-innovation-and-technology.atom)
 - [Ofcom News Centre](https://www.ofcom.org.uk/news-centre)
 
 These references support the source choices. Availability should still be checked by npm run check:sources immediately before implementation and on future source changes.

@@ -45,11 +45,6 @@ export const FEED_SOURCES = {
       "https://news.google.com/rss/search?q=site%3Arcrwireless.com&hl=en-GB&gl=GB&ceid=GB%3Aen"
     ),
     rss("https://www.gsma.com/newsroom/feed/", "GSMA Newsroom", ["gsma.com", "www.gsma.com"]),
-    rss(
-      "https://www.gov.uk/government/organisations/department-for-science-innovation-and-technology.atom",
-      "UK DSIT",
-      ["gov.uk", "www.gov.uk"]
-    ),
   ],
 };
 
@@ -112,7 +107,6 @@ export const SOURCE_AUTHORITY = {
   "9to5mac.com": 0.15,
   "lightreading.com": 0.28,
   "gsma.com": 0.35,
-  "gov.uk": 0.4,
   "newsroom.accenture.com": 0.35,
   "newsroom.accenture.co.uk": 0.4,
   "accenture.com": 0.3,

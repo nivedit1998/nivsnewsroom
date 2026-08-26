@@ -5,7 +5,7 @@ Nivs Newsroom is a Next.js site that publishes a ranked weekly view of UK-releva
 ## Content areas
 
 - High Tech: CNET, TechCrunch, The Verge, 9to5Google, and 9to5Mac.
-- Telecoms: Telecoms Tech News, Total Telecom, RCR Wireless, GSMA, and UK DSIT.
+- Telecoms: Telecoms Tech News, Total Telecom, RCR Wireless, and GSMA Newsroom.
 - Company Specific: Accenture, Capco, and Sage.
 
 Accenture and Capco use first-party sitemap discovery. Sage uses its first-party RSS feed. Google News RSS is used only as a controlled fallback when a configured primary source fails.
