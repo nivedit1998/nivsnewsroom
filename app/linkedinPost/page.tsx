@@ -31,6 +31,10 @@ async function readSummary(fileName: string): Promise<SummaryFile> {
 
 function cleanBullet(text = "") {
   return text
+    .normalize("NFKC")
+    .replace(/\*\*(.*?)\*\*/g, "$1")
+    .replace(/__(.*?)__/g, "$1")
+    .replace(/(^|\s)\*([^*\n]+)\*(?=\s|$)/g, "$1$2")
     .replace(/\*\*/g, "")
     .replace(/\s+/g, " ")
     .trim();
@@ -51,10 +55,10 @@ function buildLinkedInPost(telecoms: SummaryFile, highTech: SummaryFile) {
     "",
     "Here’s what stood out this week:",
     "",
-    "📞 𝐓𝐞𝐥𝐞𝐜𝐨𝐦𝐬",
+    "📞 Telecoms",
     ...bulletLines(telecoms),
     "",
-    "💻 𝐇𝐢𝐠𝐡 𝐓𝐞𝐜𝐡",
+    "💻 High Tech",
     ...bulletLines(highTech),
     "",
     "📩 If you’d like these updates every Monday morning straight to your inbox, you can hit subscribe in the top right of the site.",
@@ -89,7 +93,7 @@ export default async function LinkedInPostPage() {
               This week’s Tech and Telecoms update
             </h1>
             <p className="mt-2 text-sm text-gray-600">
-              Copy-ready text generated from the latest published newsroom summaries.
+              Plain-text format for LinkedIn: line breaks, bullets, and emojis only.
             </p>
           </div>
 
