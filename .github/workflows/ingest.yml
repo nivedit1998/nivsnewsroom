@@ -2,46 +2,62 @@ name: Daily ingest & publish JSON
 
 on:
   schedule:
-    # Runs daily at 08:30 UTC (≈ 09:30 London during BST; 08:30 London in winter)
     - cron: "30 8 * * *"
-  workflow_dispatch: {} # allow manual run from GitHub UI
+  workflow_dispatch:
+    inputs:
+      test_mode:
+        description: "Use a small feed sample"
+        required: false
+        default: "0"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ingest-main
+  cancel-in-progress: false
 
 jobs:
   ingest:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write  # allow committing generated JSON back to the repo
-    concurrency:
-      group: "ingest"
-      cancel-in-progress: false
+    timeout-minutes: 30
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      LOOKBACK_DAYS: "7"
+      TEST_MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.test_mode || '0' }}
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "20.x"
+          cache: "npm"
 
-      - name: Install deps
-        run: npm ci
+      - name: Install dependencies
+        run: npm ci --no-audit --no-fund
 
-      - name: Generate JSON (ingest)
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          LOOKBACK_DAYS: "7"
-          TEST_MODE: "0"
+      - name: Validate current data
+        run: npm run check:data
+
+      - name: Generate JSON
         run: node scripts/ingest.mjs
 
-      - name: Commit changes (if any)
+      - name: Validate generated data
+        run: npm run check:data
+
+      - name: Commit and push generated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if ! git diff --quiet; then
-            git add -A
-            git commit -m "chore(data): refresh news JSON [skip ci]"
-            git push
-          else
-            echo "No changes to commit."
+          git add public/data
+          if git diff --cached --quiet; then
+            echo "No generated data changes."
+            exit 0
           fi
+          git commit -m "chore(data): refresh news JSON [skip ci]"
+          git push origin HEAD:main

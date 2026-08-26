@@ -70,6 +70,7 @@ export default function HomePage() {
 
   const [bullets, setBullets] = useState<Array<{ text: string; url?: string }>>([]);
   const [sumLoading, setSumLoading] = useState(false);
+  const [sumErr, setSumErr] = useState<string | null>(null);
 
   const [expanded, setExpanded] = useState<Record<string, boolean>>({});
   const [showAllBullets, setShowAllBullets] = useState(false);
@@ -140,15 +141,19 @@ export default function HomePage() {
     (async () => {
       setPendingLoads((n) => n + 1);
       setSumLoading(true);
+      setSumErr(null);
       try {
         const res = await fetch(summaryUrl, { cache: "no-store", signal: ctrl.signal });
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
         const json = await res.json().catch(() => ({}));
         const arr = Array.isArray(json?.bullets) ? json.bullets : [];
         const normalized = arr.map((b: any) =>
           typeof b === "string" ? { text: b } : { text: String(b.text || ""), url: b.url || undefined }
         );
         setBullets(normalized.slice(0, 10));
-      } catch {} finally {
+      } catch (e: any) {
+        if (e?.name !== "AbortError") setSumErr("Summary temporarily unavailable");
+      } finally {
         setSumLoading(false);
         setPendingLoads((n) => Math.max(0, n - 1));
       }
@@ -341,6 +346,10 @@ export default function HomePage() {
             <div className={`relative transition-opacity duration-200 ${isSwitching ? "opacity-60" : "opacity-100"}`}>
               {sumLoading && bullets.length === 0 && (
                 <p className="mt-4 text-sm text-gray-500">Loading insights</p>
+              )}
+
+              {sumErr && bullets.length === 0 && (
+                <p className="mt-4 text-sm text-amber-700">{sumErr}. Try again shortly.</p>
               )}
 
               {bullets.length > 0 && (

@@ -15,9 +15,14 @@ import { fileURLToPath } from "node:url";
 const TIMEZONE = "Europe/London";
 const LOOKBACK_DAYS = parseInt(process.env.LOOKBACK_DAYS || "7", 10); // stays 7 by default
 const TEST_MODE = process.env.TEST_MODE === "1";
+const DRY_RUN = process.env.DRY_RUN === "1";
+const FEED_TIMEOUT_MS = 20_000;
+const FEED_RETRIES = 2;
 
 const DATA_DIR = path.join(process.cwd(), "public", "data");
 const SUMMARY_DIR = path.join(DATA_DIR, "summaries");
+const feedDiagnostics = [];
+let extractionFailures = 0;
 
 const parser = new RSSParser({
   requestOptions: {
@@ -79,10 +84,16 @@ const FEED_FALLBACKS = {
   // Group fallbacks
   "https://telecomstechnews.com/feed":
     "https://news.google.com/rss/search?q=site:telecomstechnews.com&hl=en-GB&gl=GB&ceid=GB:en",
+  "https://www.telecomstechnews.com/feed/":
+    "https://news.google.com/rss/search?q=site:telecomstechnews.com&hl=en-GB&gl=GB&ceid=GB:en",
   "https://totaltele.com/category/technology/feed/":
     "https://news.google.com/rss/search?q=site:totaltele.com%20technology&hl=en-GB&gl=GB&ceid=GB:en",
+  "https://www.totaltele.com/feed/":
+    "https://news.google.com/rss/search?q=site:totaltele.com&hl=en-GB&gl=GB&ceid=GB:en",
   "https://www.rcrwireless.com/rss":
     "https://news.google.com/rss/search?q=site:rcrwireless.com&hl=en-GB&gl=GB&ceid=GB:en",
+  "https://www.lightreading.com/rss_simple.asp":
+    "https://news.google.com/rss/search?q=site:lightreading.com&hl=en-GB&gl=GB&ceid=GB:en",
 
   // Microsoft fallbacks (domain-scoped)
   "https://blogs.microsoft.com/feed/":
@@ -325,8 +336,34 @@ function scoreItem(it, groupSize, context) {
 /** =========================
  *  FEED + ENRICH
  *  ========================= */
+async function parseFeedWithRetry(url) {
+  let lastError;
+  for (let attempt = 0; attempt <= FEED_RETRIES; attempt += 1) {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), FEED_TIMEOUT_MS);
+    try {
+      const response = await fetch(url, {
+        headers: { "User-Agent": "NivsNewsRoomBot/1.2 (+youremail@example.com)" },
+        signal: controller.signal,
+      });
+      if (!response.ok) throw new Error(`Status code ${response.status}`);
+      return await parser.parseString(await response.text());
+    } catch (error) {
+      lastError = error;
+      const message = String(error?.message || error);
+      const permanent = /^Status code 4\d\d$/.test(message);
+      if (attempt < FEED_RETRIES && !permanent) {
+        await new Promise((resolve) => setTimeout(resolve, 1000 * (attempt + 1)));
+      }
+    } finally {
+      clearTimeout(timer);
+    }
+  }
+  throw lastError;
+}
+
 async function parseFeed(url) {
-  const feed = await parser.parseURL(url);
+  const feed = await parseFeedWithRetry(url);
   let items = (feed.items || []).map((i) => {
     const link = i.link || "";
     const hostFromLink = link ? new URL(link).hostname.replace(/^www\./, "") : "";
@@ -349,18 +386,35 @@ async function parseFeed(url) {
 
 async function getFeedItems(feedUrl) {
   try {
-    return await parseFeed(feedUrl);
+    const items = await parseFeed(feedUrl);
+    feedDiagnostics.push({ feedUrl, mode: "primary", count: items.length });
+    return items;
   } catch (err) {
     const fb = FEED_FALLBACKS[feedUrl];
     if (fb) {
       try {
         console.warn(`Feed failed (${feedUrl}). Using fallback: ${fb}`);
-        return await parseFeed(fb);
+        const items = await parseFeed(fb);
+        feedDiagnostics.push({ feedUrl, mode: "fallback", fallback: fb, count: items.length });
+        return items;
       } catch (e2) {
         console.warn(`Fallback failed (${fb}): ${e2?.message || e2}`);
+        feedDiagnostics.push({
+          feedUrl,
+          mode: "failed",
+          fallback: fb,
+          count: 0,
+          error: String(e2?.message || e2),
+        });
       }
     } else {
       console.warn(`Feed failed (${feedUrl}): ${err?.message || err}`);
+      feedDiagnostics.push({
+        feedUrl,
+        mode: "failed",
+        count: 0,
+        error: String(err?.message || err),
+      });
     }
     return [];
   }
@@ -370,19 +424,39 @@ async function getFeedItems(feedUrl) {
 async function addFullText(item) {
   try {
     const res = await extract(item.url);
-    if (!res || !(res.content || res.text)) return { ...item, fullText: "", excerpt: "" };
+    if (!res || !(res.content || res.text)) {
+      extractionFailures += 1;
+      return { ...item, fullText: "", excerpt: "" };
+    }
     const plain = htmlToPlain(res.content || res.text || "");
     return { ...item, fullText: plain, excerpt: firstTwoParagraphs(plain) };
   } catch {
+    extractionFailures += 1;
     return { ...item, fullText: "", excerpt: "" };
   }
 }
 
 async function writeJson(relPath, data) {
+  if (DRY_RUN) {
+    console.log(`[dry-run] would write ${relPath} (${Array.isArray(data) ? data.length : "object"})`);
+    return;
+  }
   const full = path.join(DATA_DIR, relPath);
   await fs.mkdir(path.dirname(full), { recursive: true });
   await fs.writeFile(full, JSON.stringify(data, null, 2));
   console.log(`wrote ${relPath} (${Array.isArray(data) ? data.length : "object"})`);
+}
+
+async function writeSummary(relPath, summary) {
+  if (DRY_RUN) {
+    console.log(`[dry-run] would write ${relPath} (${(summary?.bullets || []).length} bullets)`);
+    return;
+  }
+  await fs.mkdir(SUMMARY_DIR, { recursive: true });
+  await fs.writeFile(
+    path.join(SUMMARY_DIR, relPath),
+    JSON.stringify({ generatedAt: new Date().toISOString(), ...summary }, null, 2)
+  );
 }
 
 /** =========================
@@ -588,12 +662,9 @@ async function processGroupWeekly(key, urls) {
   await writeJson(`${key}.json`, ranked);
 
   const summary = await generateWeeklyBullets(key, ranked);
-  await fs.mkdir(SUMMARY_DIR, { recursive: true });
-  await fs.writeFile(
-    path.join(SUMMARY_DIR, `${key}.json`),
-    JSON.stringify({ generatedAt: new Date().toISOString(), ...summary }, null, 2)
-  );
+  await writeSummary(`${key}.json`, summary);
   console.log(`wrote summaries/${key}.json (${(summary?.bullets || []).length} bullets)`);
+  return { key, items: ranked.length, bullets: (summary?.bullets || []).length };
 }
 
 async function processCompanyWeekly(company, rssUrls) {
@@ -614,12 +685,9 @@ async function processCompanyWeekly(company, rssUrls) {
   await writeJson(`company/${company}.json`, ranked);
 
   const summary = await generateWeeklyBullets(context, ranked);
-  await fs.mkdir(SUMMARY_DIR, { recursive: true });
-  await fs.writeFile(
-    path.join(SUMMARY_DIR, `company_${company}.json`),
-    JSON.stringify({ generatedAt: new Date().toISOString(), ...summary }, null, 2)
-  );
+  await writeSummary(`company_${company}.json`, summary);
   console.log(`wrote summaries/company_${company}.json (${(summary?.bullets || []).length} bullets)`);
+  return { key: context, items: ranked.length, bullets: (summary?.bullets || []).length };
 }
 
 /** =========================
@@ -627,12 +695,29 @@ async function processCompanyWeekly(company, rssUrls) {
  *  ========================= */
 async function main() {
   // Groups
-  await processGroupWeekly("hightech", SOURCES.hightech);
-  await processGroupWeekly("telecoms", SOURCES.telecoms);
+  const results = [];
+  results.push(await processGroupWeekly("hightech", SOURCES.hightech));
+  results.push(await processGroupWeekly("telecoms", SOURCES.telecoms));
 
   // Companies (first-party widened sources)
-  await processCompanyWeekly("microsoft", COMPANY_RSS.microsoft);
-  await processCompanyWeekly("sage", COMPANY_RSS.sage);
+  results.push(await processCompanyWeekly("microsoft", COMPANY_RSS.microsoft));
+  results.push(await processCompanyWeekly("sage", COMPANY_RSS.sage));
+
+  const totalItems = results.reduce((sum, result) => sum + result.items, 0);
+  console.log("Ingest diagnostics:", JSON.stringify({
+    dryRun: DRY_RUN,
+    testMode: TEST_MODE,
+    lookbackDays: LOOKBACK_DAYS,
+    groups: results,
+    extractionFailures,
+    feeds: feedDiagnostics,
+  }, null, 2));
+
+  if (totalItems === 0) {
+    throw new Error("Ingest produced zero items across all content groups");
+  }
+
+  return results;
 }
 
 export async function runAll() {

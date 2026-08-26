@@ -1,7 +1,15 @@
 // lib/ses.ts
 import { SESv2Client, SendEmailCommand } from "@aws-sdk/client-sesv2";
 
-const region = process.env.AWS_REGION!;
+function required(name: string) {
+  const value = process.env[name]?.trim();
+  if (!value) throw new Error(`Missing required environment variable: ${name}`);
+  return value;
+}
+
+const region = required("AWS_REGION");
+const defaultFrom = required("SES_FROM");
+const defaultReplyTo = process.env.SES_REPLY_TO?.trim();
 export const ses = new SESv2Client({ region });
 
 type Recipient = { email: string };
@@ -14,8 +22,8 @@ export async function sendEmail({
   subject,
   html,
   text,
-  from = process.env.SES_FROM!,
-  replyTo = process.env.SES_REPLY_TO,
+  from = defaultFrom,
+  replyTo = defaultReplyTo,
 }: {
   to: string;
   subject: string;
@@ -52,8 +60,8 @@ export async function sendBulk({
   recipients,
   subject,
   renderFor,
-  from = process.env.SES_FROM!,
-  replyTo = process.env.SES_REPLY_TO,
+  from = defaultFrom,
+  replyTo = defaultReplyTo,
 }: {
   recipients: Recipient[];
   subject: string;

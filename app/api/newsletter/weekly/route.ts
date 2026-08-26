@@ -8,6 +8,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { supabaseAdmin } from "@/lib/supabaseAdmin";
 import { sendBulk } from "@/lib/ses";
+import { getPublicSiteUrl } from "@/lib/siteUrl";
 
 /* ---------------- Types ---------------- */
 type Bullet = { text: string; url?: string };
@@ -192,26 +193,15 @@ function renderEmailHTML(weekLabel: string, hightech: Bullet[], telecoms: Bullet
 </html>`;
 }
 
-/* ----------------------- Gate: Vercel Cron + token (no time check) ----------------------- */
+/* ----------------------- Gate: Vercel Cron bearer secret ----------------------- */
 function guard(req: Request) {
-  const url = new URL(req.url);
-  const token = url.searchParams.get("token") || "";
-  const expected = process.env.NEWSLETTER_CRON_TOKEN || process.env.INGEST_TOKEN || "";
+  const secret = process.env.CRON_SECRET;
+  const authorization = req.headers.get("authorization");
 
-  // Require the token so the route isn’t publicly triggerable
-  if (!expected || token !== expected) {
-    return { allowed: false, reason: "bad_token" };
+  if (!secret || authorization !== `Bearer ${secret}`) {
+    return { allowed: false, reason: "bad_cron_secret" };
   }
 
-  // Accept either the header OR the official Vercel Cron user-agent
-  const hasHeader = req.headers.get("x-vercel-cron") === "1";
-  const ua = (req.headers.get("user-agent") || "").toLowerCase();
-  const isVercelCronUA = ua.startsWith("vercel-cron/");
-  if (!hasHeader && !isVercelCronUA) {
-    return { allowed: false, reason: "not_vercel_cron" };
-  }
-
-  // No time gate here — trust Vercel’s scheduler (and its timezone config)
   return { allowed: true, reason: "ok" };
 }
 
@@ -285,7 +275,7 @@ function escapeText(s: string) {
   return s.replace(/\s+/g, " ").trim();
 }
 
-async function doSend(testTo?: string) {
+async function doSend(testTo: string | undefined, siteUrl: string) {
   const [hightech, telecoms] = await Promise.all([
     getTop5BulletsForTab("hightech"),
     getTop5BulletsForTab("telecoms"),
@@ -317,7 +307,7 @@ async function doSend(testTo?: string) {
     recipients,
     subject,
     renderFor: ({ email }) => {
-      const unsubUrl = `${process.env.PUBLIC_SITE_URL}/api/newsletter/unsubscribe?email=${encodeURIComponent(email)}`;
+      const unsubUrl = `${siteUrl}/api/newsletter/unsubscribe?email=${encodeURIComponent(email)}`;
       const html = renderEmailHTML(weekLabel, hightech, telecoms, unsubUrl);
       const text =
         `Niv’s Tech and Telecom Pulse — Week of ${weekLabel}\n\n` +
@@ -335,7 +325,11 @@ async function doSend(testTo?: string) {
     return NextResponse.json({ ok: true, mode: "test", sent: result.ok, to: testTo });
   }
   if (result.failed.length) {
-    return NextResponse.json({ ok: true, sent: result.ok, failed: result.failed.length, errors: result.failed });
+    console.error("Newsletter partial failure", result.failed);
+    return NextResponse.json(
+      { ok: false, sent: result.ok, failed: result.failed.length },
+      { status: 500 }
+    );
   }
   return NextResponse.json({ ok: true, sent: recipients.length });
 }
@@ -354,6 +348,13 @@ export async function GET(req: Request) {
     );
   }
 
+  let siteUrl: string;
+  try {
+    siteUrl = getPublicSiteUrl(req);
+  } catch (e: any) {
+    return NextResponse.json({ error: e?.message || "Missing site URL" }, { status: 500 });
+  }
+
   if (isTest) {
     if (!testTo || !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(testTo)) {
       return NextResponse.json({ error: "Provide a valid 'to' email in test mode" }, { status: 400 });
@@ -361,7 +362,7 @@ export async function GET(req: Request) {
   }
 
   try {
-    return await doSend(isTest ? testTo : undefined);
+    return await doSend(isTest ? testTo : undefined, siteUrl);
   } catch (e: any) {
     return NextResponse.json({ error: e?.message || "Failed to send" }, { status: 500 });
   }
