@@ -15,11 +15,12 @@ async function readSummary(rel: string) {
 
 export async function GET(req: Request) {
   const url = new URL(req.url);
-  const tab = (url.searchParams.get("tab") || "").toLowerCase(); // "hightech" | "telecoms" | "company"
+  const tab = (url.searchParams.get("tab") || "").toLowerCase(); // "hightech" | "fintech" | "telecoms" | "company"
   const company = (url.searchParams.get("company") || "").toLowerCase(); // "accenture" | "capco" | "sage"
 
   let rel = "";
   if (tab === "hightech") rel = "hightech.json";
+  else if (tab === "fintech") rel = "fintech.json";
   else if (tab === "telecoms") rel = "telecoms.json";
   else if (tab === "company" && (company === "accenture" || company === "capco" || company === "sage")) {
     rel = `company_${company}.json`;

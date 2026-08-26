@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 const siteUrl = "https://www.nivstechpulse.com";
-const title = "Niv’s Tech and Telecom Pulse";
+const title = "Niv’s Tech, Telecoms and FinTech Pulse";
 const description =
-  "Concise weekly take: hottest Tech & Telecoms stories, UK-weighted. Subscribe for the Top 5 in your inbox.";
+  "Concise weekly take: hottest Tech, Telecoms and FinTech stories, UK-weighted. Subscribe for the Top 5 in your inbox.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
         url: "/opengraph-image.png", // Add a 1200x630 image in /public
         width: 1200,
         height: 630,
-        alt: "Niv’s Tech and Telecom Pulse",
+        alt: "Niv’s Tech, Telecoms and FinTech Pulse",
       },
     ],
   },

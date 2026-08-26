@@ -1,18 +1,21 @@
-# Nivs Tech & Telecoms Pulse
+# Nivs Tech, Telecoms & FinTech Pulse
 
-Nivs Newsroom is a Next.js site that publishes a ranked weekly view of UK-relevant technology and telecoms news.
+Nivs Newsroom is a Next.js site that publishes a ranked weekly view of UK-relevant technology, telecoms, and FinTech news.
 
 ## Content areas
 
 - High Tech: CNET, TechCrunch, The Verge, 9to5Google, and 9to5Mac.
 - Telecoms: Telecoms Tech News, Total Telecom, RCR Wireless, and GSMA Newsroom.
+- FinTech: Finextra Payments, The FinTech Times, Open Banking Limited, filtered FCA News, Payments Dive, and PYMNTS.
 - Company Specific: Accenture, Capco, and Sage.
 
 Accenture and Capco use first-party sitemap discovery. Sage uses its first-party RSS feed. Google News RSS is used only as a controlled fallback when a configured primary source fails.
 
 ## Summary behaviour
 
-Each category and company retains its full ranked article dataset, but the AI summary is generated from the top five ranked articles only. The API, website, newsletter, and fallback summaries all enforce a maximum of five insight bullets.
+Each category and company retains its full ranked article dataset, but High Tech, Telecoms, and company summaries use the top five ranked articles as AI context. FinTech uses a maximum of 10 ranked articles as context, capped at 400 words per article, and produces no more than five insights. FinTech is summarised with at most one AI request per ingestion run, with an input-fingerprint cache to avoid repeat calls when the top 10 has not changed.
+
+The API and website read saved summary JSON and do not call AI at page-view time. The LinkedIn page reuses the first three saved bullets for each category and does not call AI. If the OpenAI key is unavailable, deterministic fallback summaries are used. GOV.UK is intentionally excluded from the FinTech source list.
 
 ## Local development
 
@@ -36,6 +39,14 @@ Check configured RSS/Atom feeds and sitemaps without changing data:
 Run a safe, small ingestion test:
 
     OPENAI_API_KEY="" TEST_MODE=1 DRY_RUN=1 node scripts/ingest.mjs
+
+Refresh only the FinTech dataset and summary when testing FinTech changes:
+
+    INGEST_GROUP=fintech TEST_MODE=0 DRY_RUN=0 node scripts/ingest.mjs
+
+Run the focused FinTech helper tests:
+
+    npm run test:fintech
 
 Generate a local newsletter preview:
 

@@ -1,12 +1,17 @@
 import fs from "node:fs/promises";
 import path from "node:path";
-import { COMPANY_ALLOWED_HOSTS, COMPANY_KEYS } from "./news-sources.mjs";
+import {
+  COMPANY_ALLOWED_HOSTS,
+  COMPANY_KEYS,
+  FEED_SOURCES,
+} from "./news-sources.mjs";
 
 const ROOT = process.cwd();
 const MAX_SUMMARY_BULLETS = 5;
 const DATASETS = [
   ["hightech", "public/data/hightech.json", "public/data/summaries/hightech.json"],
   ["telecoms", "public/data/telecoms.json", "public/data/summaries/telecoms.json"],
+  ["fintech", "public/data/fintech.json", "public/data/summaries/fintech.json"],
   ...COMPANY_KEYS.map((company) => [
     company,
     "public/data/company/" + company + ".json",
@@ -36,6 +41,10 @@ function normaliseHostname(host) {
   return String(host || "").replace(/^www\./, "").toLowerCase();
 }
 
+const FINTECH_ALLOWED_HOSTS = new Set(
+  FEED_SOURCES.fintech.flatMap((source) => source.allowedHosts.map(normaliseHostname))
+);
+
 function isCompanyUrlAllowed(company, url) {
   const allowed = COMPANY_ALLOWED_HOSTS[company];
   if (!allowed) return false;
@@ -64,7 +73,8 @@ for (const [name, dataPath, summaryPath] of DATASETS) {
 
   totalItems += articles.length;
   const articleUrls = new Set();
-  const rankedTopUrls = new Set(articles.slice(0, MAX_SUMMARY_BULLETS).map((item) => item?.url).filter(Boolean));
+  const linkedRankLimit = name === "fintech" ? 10 : MAX_SUMMARY_BULLETS;
+  const rankedTopUrls = new Set(articles.slice(0, linkedRankLimit).map((item) => item?.url).filter(Boolean));
   for (const [index, item] of articles.entries()) {
     if (!item || typeof item.title !== "string" || !item.title.trim()) {
       errors.push(name + ": article " + index + " has no title");
@@ -81,6 +91,15 @@ for (const [name, dataPath, summaryPath] of DATASETS) {
       articleUrls.add(item.url);
       if (COMPANY_KEYS.includes(name) && !isCompanyUrlAllowed(name, item.url)) {
         errors.push(name + ": article " + index + " URL is outside the company allowlist: " + item.url);
+      }
+      if (name === "fintech") {
+        const host = normaliseHostname(hostnameOf(item.url));
+        if (!FINTECH_ALLOWED_HOSTS.has(host)) {
+          errors.push(name + ": article " + index + " URL is outside the FinTech source allowlist: " + item.url);
+        }
+        if (host === "news.google.com" || host === "gov.uk" || host.endsWith(".gov.uk")) {
+          errors.push(name + ": article " + index + " uses a disallowed aggregator or GOV.UK URL: " + item.url);
+        }
       }
     }
   }
@@ -105,6 +124,27 @@ for (const [name, dataPath, summaryPath] of DATASETS) {
   if (!summary.generatedAt || !Number.isFinite(Date.parse(summary.generatedAt))) {
     errors.push(name + ": " + summaryPath + " has an invalid generatedAt timestamp");
   }
+  if (name === "fintech") {
+    if (typeof summary.inputHash !== "string" || !summary.inputHash.trim()) {
+      errors.push(name + ": " + summaryPath + " has no inputHash cache fingerprint");
+    }
+    if (summary.promptVersion !== "fintech-v1") {
+      errors.push(name + ": " + summaryPath + " has an invalid promptVersion");
+    }
+    if (!Array.isArray(summary.contextUrls) || summary.contextUrls.length > 10) {
+      errors.push(name + ": " + summaryPath + " must record no more than 10 contextUrls");
+    } else {
+      for (const contextUrl of summary.contextUrls) {
+        if (!articleUrls.has(contextUrl)) {
+          errors.push(name + ": summary context URL is not present in its article dataset: " + contextUrl);
+        }
+      }
+    }
+  }
+
+  const summaryContextUrls = name === "fintech" && Array.isArray(summary.contextUrls)
+    ? new Set(summary.contextUrls)
+    : rankedTopUrls;
 
   for (const [index, bullet] of summary.bullets.entries()) {
     if (!bullet || typeof bullet.text !== "string" || !bullet.text.trim()) {
@@ -116,8 +156,8 @@ for (const [name, dataPath, summaryPath] of DATASETS) {
     if (bullet?.url && !articleUrls.has(bullet.url)) {
       errors.push(name + ": summary bullet " + index + " URL is not present in its article dataset");
     }
-    if (bullet?.url && !rankedTopUrls.has(bullet.url)) {
-      errors.push(name + ": summary bullet " + index + " URL is outside the ranked top five");
+    if (bullet?.url && !summaryContextUrls.has(bullet.url)) {
+      errors.push(name + ": summary bullet " + index + " URL is outside the permitted summary context");
     }
   }
 

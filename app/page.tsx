@@ -31,7 +31,7 @@ const COMPANY_LABELS: Record<Company, string> = {
   sage: "Sage",
 };
 
-const TABS = ["Company Specific", "High Tech", "Telecoms"] as const;
+const TABS = ["Company Specific", "High Tech", "FinTech", "Telecoms"] as const;
 type Tab = typeof TABS[number];
 
 /** Replace **bold** markers with <strong> tags safely */
@@ -111,12 +111,14 @@ export default function HomePage() {
 
   const dataPath = useMemo(() => {
     if (tab === "High Tech") return "/data/hightech.json";
+    if (tab === "FinTech") return "/data/fintech.json";
     if (tab === "Telecoms") return "/data/telecoms.json";
     return `/data/company/${company}.json`;
   }, [tab, company]);
 
   const summaryUrl = useMemo(() => {
     if (tab === "High Tech") return "/api/weekly-summary?tab=hightech";
+    if (tab === "FinTech") return "/api/weekly-summary?tab=fintech";
     if (tab === "Telecoms") return "/api/weekly-summary?tab=telecoms";
     return `/api/weekly-summary?tab=company&company=${company}`;
   }, [tab, company]);
@@ -172,6 +174,8 @@ export default function HomePage() {
   const title =
     tab === "High Tech"
       ? "Key insights from High Tech this week"
+      : tab === "FinTech"
+      ? "Key insights from FinTech this week"
       : tab === "Telecoms"
       ? "Key insights from Telecoms this week"
       : `Key insights from ${COMPANY_LABELS[company]} this week`;
@@ -214,8 +218,8 @@ export default function HomePage() {
             />
             <div className="leading-tight">
               <h1 className="text-base sm:text-lg font-bold tracking-tight">
-                Niv’s <span className="text-sky-600">Tech</span> &{" "}
-                <span className="text-fuchsia-700">Telecoms</span> Pulse
+                Niv’s <span className="text-sky-600">Tech</span>,{" "}
+                <span className="text-fuchsia-700">Telecoms</span> & FinTech Pulse
               </h1>
               <p className="hidden xs:block text-[10px] sm:text-[11px] text-gray-600 -mt-0.5">
                 A weekly look — hottest topics first

@@ -35,6 +35,18 @@ function isAllowedHost(url, allowedHosts = []) {
   );
 }
 
+function textify(...bits) {
+  return (" " + bits.filter(Boolean).join(" ").toLowerCase() + " ").replace(/\s+/g, " ");
+}
+
+function matchesSourceTopic(item, source) {
+  const includeTerms = source.includeTerms || [];
+  const excludeTerms = source.excludeTerms || [];
+  const haystack = textify(item.title, item.contentSnippet, item.content, item.summary);
+  if (excludeTerms.some((term) => haystack.includes(String(term).toLowerCase()))) return false;
+  return !includeTerms.length || includeTerms.some((term) => haystack.includes(String(term).toLowerCase()));
+}
+
 async function fetchText(url) {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), TIMEOUT_MS);
@@ -79,13 +91,15 @@ async function inspectSource(source) {
   }
 
   const feed = await parser.parseString(text);
-  const usable = (feed.items || []).filter((item) => {
+  const rawUsable = (feed.items || []).filter((item) => {
     const url = String(item.link || "").trim();
     return Boolean(item.title && /^https?:\/\//i.test(url) && isAllowedHost(url, source.allowedHosts));
   });
+  const usable = rawUsable.filter((item) => matchesSourceTopic(item, source));
   return {
     contentType,
     total: (feed.items || []).length,
+    rawUsable: rawUsable.length,
     usable: usable.length,
   };
 }
@@ -98,7 +112,10 @@ for (const source of SOURCE_REGISTRY) {
     console.log(
       "OK " + (source.group || "company:" + source.company) + " | " +
       source.label + " | " + source.kind + " | HTTP content-type " +
-      inspected.contentType + " | " + inspected.usable + "/" + inspected.total + " usable"
+      inspected.contentType + " | " + inspected.usable + "/" + inspected.total + " usable" +
+      (inspected.rawUsable !== undefined && inspected.rawUsable !== inspected.usable
+        ? " (" + inspected.rawUsable + " passed URL/host checks)"
+        : "")
     );
   } catch (error) {
     results.push({

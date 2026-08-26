@@ -2,6 +2,7 @@
 import dotenv from "dotenv";
 dotenv.config({ path: ".env.local" });
 
+import { createHash } from "node:crypto";
 import fs from "node:fs/promises";
 import path from "node:path";
 import RSSParser from "rss-parser";
@@ -26,16 +27,26 @@ const TIMEZONE = "Europe/London";
 const LOOKBACK_DAYS = parseInt(process.env.LOOKBACK_DAYS || "7", 10); // stays 7 by default
 const TEST_MODE = process.env.TEST_MODE === "1";
 const DRY_RUN = process.env.DRY_RUN === "1";
+const INGEST_GROUP = String(process.env.INGEST_GROUP || "").trim().toLowerCase();
 const FEED_TIMEOUT_MS = 20_000;
 const FEED_RETRIES = 2;
 const ARTICLE_TIMEOUT_MS = 20_000;
 const ARTICLE_CONCURRENCY = 4;
 const SITEMAP_ITEM_LIMIT = 30;
+export const FINTECH_CONTEXT_LIMIT = 10;
+export const FINTECH_SUMMARY_OUTPUT_LIMIT = 5;
+export const FINTECH_LINKEDIN_LIMIT = 3;
+export const FINTECH_MAX_ITEMS_PER_SOURCE = 12;
+export const FINTECH_WORDS_PER_ITEM_CAP = 400;
+export const FINTECH_SUMMARY_PROMPT_VERSION = "fintech-v1";
 
 const DATA_DIR = path.join(process.cwd(), "public", "data");
 const SUMMARY_DIR = path.join(DATA_DIR, "summaries");
 const feedDiagnostics = [];
 let extractionFailures = 0;
+let aiSummaryCalls = 0;
+let fintechAiSummaryCalls = 0;
+let fintechSummaryCacheHits = 0;
 
 const parser = new RSSParser({
   requestOptions: {
@@ -62,6 +73,10 @@ const UK_DOMAINS = new Set([
   "ispreview.co.uk",
   "thinkbroadband.com",
   "theguardian.com", // UK heavy (not .co.uk)
+  "finextra.com",
+  "thefintechtimes.com",
+  "openbanking.org.uk",
+  "fca.org.uk",
 ]);
 
 const UK_KEYWORDS = [
@@ -101,6 +116,89 @@ const UK_TELECOM_TERMS = [
   "ofcom",
 ];
 
+const UK_FINTECH_TERMS = [
+  "open banking",
+  "open finance",
+  "fca",
+  "psr",
+  "pay.uk",
+  "faster payments",
+  "chaps",
+  "uk payments",
+  "uk fintech",
+  "british fintech",
+  "london",
+];
+
+export const FINTECH_INCLUDE_TERMS = [
+  "fintech",
+  "financial technology",
+  "payments",
+  "payment infrastructure",
+  "digital wallet",
+  "mobile payments",
+  "open banking",
+  "open finance",
+  "embedded finance",
+  "banking as a service",
+  "banking-as-a-service",
+  "real-time payments",
+  "instant payments",
+  "account-to-account",
+  "neobank",
+  "challenger bank",
+  "digital banking",
+  "lending technology",
+  "buy now pay later",
+  "bnpl",
+  "merchant services",
+  "acquiring",
+  "payment orchestration",
+  "fraud prevention",
+  "identity verification",
+  "financial crime",
+  "regtech",
+  "wealthtech",
+  "insurtech",
+  "capital markets technology",
+  "stablecoin",
+  "tokenisation",
+  "tokenization",
+  "digital assets",
+  "central bank digital currency",
+  "digital money",
+  "ai in banking",
+  "ai in payments",
+];
+
+const FINTECH_EXCLUDE_TERMS = [
+  "job listing",
+  "job openings",
+  "careers",
+  "webinar",
+  "podcast",
+  "unauthorised firm",
+  "unauthorized firm",
+  "warning list",
+];
+
+const FINTECH_CATEGORY_HOSTS = new Set([
+  "finextra.com",
+  "thefintechtimes.com",
+  "openbanking.org.uk",
+  "paymentsdive.com",
+  "pymnts.com",
+]);
+
+function isBlockedFintechUrl(url) {
+  try {
+    const pathname = new URL(url).pathname.toLowerCase();
+    return /\/(?:event-info|events?|webinars?|podcasts?|jobs?|careers?|tags?|categories?|authors?)(?:\/|$)/i.test(pathname);
+  } catch {
+    return true;
+  }
+}
+
 function textify(...bits) {
   return (" " + bits.filter(Boolean).join(" ").toLowerCase() + " ").replace(/\s+/g, " ");
 }
@@ -116,6 +214,8 @@ function ukSignals(item, context = "general") {
   let companyHit = false;
   if (context === "telecoms") {
     companyHit = UK_TELECOM_TERMS.some((kw) => haystack.includes(kw));
+  } else if (context === "fintech") {
+    companyHit = UK_FINTECH_TERMS.some((kw) => haystack.includes(kw));
   } else if (context.startsWith("company_")) {
     companyHit =
       haystack.includes(" accenture uk") ||
@@ -132,7 +232,9 @@ function ukSignals(item, context = "general") {
   const wCompany = companyHit ? 0.8 : 0;
 
   let score = (wDomain + wKeyword + wCompany) *
-    (context === "telecoms" ? 1.15 : context.startsWith("company_") ? 1.1 : 1.0);
+    (context === "telecoms" || context === "fintech"
+      ? 1.15
+      : context.startsWith("company_") ? 1.1 : 1.0);
 
   return Math.min(score, 2.2);
 }
@@ -274,9 +376,36 @@ function normaliseHostname(host) {
   return String(host || "").replace(/^www\./, "").toLowerCase();
 }
 
+function canonicaliseUrl(rawUrl) {
+  try {
+    const url = new URL(String(rawUrl || "").trim());
+    for (const key of [...url.searchParams.keys()]) {
+      if (/^(utm_|gclid$|fbclid$)/i.test(key)) url.searchParams.delete(key);
+    }
+    return url.toString();
+  } catch {
+    return String(rawUrl || "").trim();
+  }
+}
+
 function isAllowedHost(url, allowedHosts = []) {
   const host = normaliseHostname(hostnameOf(url));
   return !allowedHosts.length || allowedHosts.some((allowed) => normaliseHostname(allowed) === host);
+}
+
+function hasAnyTerm(item, terms = []) {
+  const haystack = textify(item.title, item.snippet, item.excerpt);
+  return terms.some((term) => haystack.includes(String(term).toLowerCase()));
+}
+
+function applySourceTopicFilters(items, source) {
+  const includeTerms = source.includeTerms || [];
+  const excludeTerms = source.excludeTerms || [];
+  if (!includeTerms.length && !excludeTerms.length) return items;
+  return items.filter((item) => {
+    if (hasAnyTerm(item, excludeTerms)) return false;
+    return !includeTerms.length || hasAnyTerm(item, includeTerms);
+  });
 }
 
 async function resolveNewsLink(url) {
@@ -314,7 +443,7 @@ async function parseFeed(url) {
     const iso = toISOorNull(i.isoDate || i.pubDate || null);
     return {
       title: sanitize(i.title || ""),
-      url: link,
+      url: canonicaliseUrl(link),
       publishedAt: iso,
       source: hostFromLink || hostFromSource || hostFromFeed,
       snippet: sanitize(i.contentSnippet || i.content || i.summary || ""),
@@ -328,10 +457,13 @@ async function parseFeed(url) {
 }
 
 function filterSourceItems(items, source) {
-  return items.filter((item) => {
+  const valid = items.filter((item) => {
     if (!item.url || !isAllowedHost(item.url, source.allowedHosts)) return false;
     return Boolean(item.title && /^https?:\/\//i.test(item.url));
   });
+  const topical = applySourceTopicFilters(valid, source);
+  const maxItems = Number(source.maxItems);
+  return Number.isFinite(maxItems) && maxItems > 0 ? topical.slice(0, maxItems) : topical;
 }
 
 function parseSitemapRows(xml) {
@@ -489,6 +621,43 @@ async function addFullText(item) {
   }
 }
 
+export function filterFintechItems(items) {
+  return items.filter((item) => {
+    if (isBlockedFintechUrl(item.url)) return false;
+    if (hasAnyTerm(item, FINTECH_EXCLUDE_TERMS)) return false;
+    const host = normaliseHostname(item.source || hostnameOf(item.url));
+    if (FINTECH_CATEGORY_HOSTS.has(host) || host === "fca.org.uk") return true;
+    return hasAnyTerm(item, FINTECH_INCLUDE_TERMS);
+  });
+}
+
+export function selectFintechContext(items) {
+  const selected = [];
+  const sourceCounts = new Map();
+  for (const item of items) {
+    const source = normaliseHostname(item.source || hostnameOf(item.url)) || item.url || item.title;
+    const count = sourceCounts.get(source) || 0;
+    if (count >= 3) continue;
+    sourceCounts.set(source, count + 1);
+    selected.push(item);
+    if (selected.length >= FINTECH_CONTEXT_LIMIT) return selected;
+  }
+
+  return selected;
+}
+
+export function buildSummaryInputHash(items) {
+  const payload = items.map((item) => ({
+    url: item.url || "",
+    title: item.title || "",
+    publishedAt: item.publishedAt || null,
+    excerpt: firstHalfWords(item.fullText || item.excerpt || item.snippet || "", FINTECH_WORDS_PER_ITEM_CAP),
+  }));
+  return createHash("sha256")
+    .update(JSON.stringify({ version: FINTECH_SUMMARY_PROMPT_VERSION, items: payload }))
+    .digest("hex");
+}
+
 async function writeJson(relPath, data) {
   if (DRY_RUN) {
     console.log(`[dry-run] would write ${relPath} (${Array.isArray(data) ? data.length : "object"})`);
@@ -510,6 +679,14 @@ async function writeSummary(relPath, summary) {
     path.join(SUMMARY_DIR, relPath),
     JSON.stringify({ generatedAt: new Date().toISOString(), ...summary }, null, 2)
   );
+}
+
+async function readSummaryFile(relPath) {
+  try {
+    return JSON.parse(await fs.readFile(path.join(SUMMARY_DIR, relPath), "utf8"));
+  } catch {
+    return null;
+  }
 }
 
 /** =========================
@@ -550,14 +727,37 @@ async function generateWeeklyBullets(tabName, items) {
   }
 
   const ctx = contextOfTab(tabName);
+  const isFintech = tabName === "fintech";
 
-  // Build context from only the top five ranked items.
-  const summaryItems = items.slice(0, SUMMARY_LIMIT);
-  const WORDS_PER_ITEM_CAP = 600;
+  // Build context from only the bounded ranked selection for this category.
+  const summaryItems = isFintech
+    ? selectFintechContext(items)
+    : items.slice(0, SUMMARY_LIMIT);
+  const outputLimit = isFintech ? FINTECH_SUMMARY_OUTPUT_LIMIT : SUMMARY_LIMIT;
+  const wordsPerItemCap = isFintech ? FINTECH_WORDS_PER_ITEM_CAP : 600;
+  const inputHash = isFintech ? buildSummaryInputHash(summaryItems) : undefined;
+
+  if (isFintech && inputHash) {
+    const cached = await readSummaryFile("fintech.json");
+    if (
+      cached?.inputHash === inputHash &&
+      cached?.promptVersion === FINTECH_SUMMARY_PROMPT_VERSION &&
+      Array.isArray(cached?.bullets)
+    ) {
+      fintechSummaryCacheHits += 1;
+      return {
+        bullets: cached.bullets.slice(0, outputLimit),
+        inputHash,
+        promptVersion: FINTECH_SUMMARY_PROMPT_VERSION,
+        contextUrls: summaryItems.map((item) => item.url).filter(Boolean),
+        note: "cached (FinTech input unchanged)",
+      };
+    }
+  }
 
   const ctxParts = [];
   for (const [i, it] of summaryItems.entries()) {
-    const half = firstHalfWords(it.fullText || it.excerpt || it.snippet || "", WORDS_PER_ITEM_CAP);
+    const half = firstHalfWords(it.fullText || it.excerpt || it.snippet || "", wordsPerItemCap);
 
     const ukTag = ukSignals(it, ctx) > 0 ? "[UK-relevant]" : "";
     ctxParts.push(
@@ -568,30 +768,50 @@ async function generateWeeklyBullets(tabName, items) {
 
   // Fallback (no key)
   if (!process.env.OPENAI_API_KEY) {
-    const bullets = summaryItems.map((it) => ({
+    const bullets = summaryItems.slice(0, outputLimit).map((it) => ({
       text: makePunchyFallback(it),
       url: it.url,
     }));
-    return { bullets, note: "fallback (no OPENAI_API_KEY)" };
+    return {
+      bullets,
+      ...(isFintech ? { inputHash, promptVersion: FINTECH_SUMMARY_PROMPT_VERSION } : {}),
+      ...(isFintech ? { contextUrls: summaryItems.map((item) => item.url).filter(Boolean) } : {}),
+      note: "fallback (no OPENAI_API_KEY)",
+    };
   }
 
   try {
     const { default: OpenAI } = await import("openai");
     const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+    aiSummaryCalls += 1;
+    if (isFintech) fintechAiSummaryCalls += 1;
 
-    const system = [
-      "You are Niv, a concise UK tech & telecoms curator.",
-      "Write in a crisp editorial tone. No first-person. No 'I saw / I read / I learned'.",
-      "For EACH supplied item:",
-      "- Start with a PUNCH LEAD: 2–5 words that capture the gist, in Title Case, enthusiastic but professional.",
-      "- Then an em dash (-) and ONE short insight sentence (≤ 20 words).",
-      "- You may bold KEY TERMS/COMPANIES using **double asterisks**.",
-      "- Use ONLY the provided items; do not invent facts.",
-      "Return STRICT JSON only: {\"bullets\":[{\"text\":\"...\",\"urls\":[\"...\"]}, ...]}",
-      "Create at most five bullets, one for each supplied item.",
-      "If you include URLs, they must come from the supplied items.",
-      "Prefer items marked [UK-relevant] when selecting or phrasing."
-    ].join(" ");
+    const system = isFintech
+      ? [
+        "You are Niv, a concise UK fintech curator.",
+        "Write in a crisp editorial tone. No first-person. No 'I saw / I read / I learned'.",
+        "Use ONLY the supplied top 10 FinTech articles; do not invent facts.",
+        "Synthesize related stories into distinct themes where useful.",
+        "Return no more than five bullets.",
+        "Each bullet starts with a PUNCH LEAD of 2–5 words in Title Case, followed by an em dash (-) and ONE short insight sentence (≤ 20 words).",
+        "You may bold key terms using **double asterisks**.",
+        "Return STRICT JSON only: {\"bullets\":[{\"text\":\"...\",\"urls\":[\"...\"]}, ...]}.",
+        "If you include URLs, they must come from the supplied articles.",
+        "Prefer [UK-relevant] items when selecting or phrasing."
+      ].join(" ")
+      : [
+        "You are Niv, a concise UK tech & telecoms curator.",
+        "Write in a crisp editorial tone. No first-person. No 'I saw / I read / I learned'.",
+        "For EACH supplied item:",
+        "- Start with a PUNCH LEAD: 2–5 words that capture the gist, in Title Case, enthusiastic but professional.",
+        "- Then an em dash (-) and ONE short insight sentence (≤ 20 words).",
+        "- You may bold KEY TERMS/COMPANIES using **double asterisks**.",
+        "- Use ONLY the provided items; do not invent facts.",
+        "Return STRICT JSON only: {\"bullets\":[{\"text\":\"...\",\"urls\":[\"...\"]}, ...]}",
+        "Create at most five bullets, one for each supplied item.",
+        "If you include URLs, they must come from the supplied items.",
+        "Prefer items marked [UK-relevant] when selecting or phrasing."
+      ].join(" ");
 
     const user = `Create my weekly summary for "${tabName}" based ONLY on this dataset:\n\n${context}`;
 
@@ -602,6 +822,7 @@ async function generateWeeklyBullets(tabName, items) {
         { role: "user", content: user },
       ],
       temperature: 0.25,
+      max_completion_tokens: 400,
       response_format: { type: "json_object" },
     });
 
@@ -618,7 +839,7 @@ async function generateWeeklyBullets(tabName, items) {
     if (parsed && Array.isArray(parsed.bullets) && parsed.bullets.length) {
       // Only keep URLs we actually ingested
       const allowed = new Set(summaryItems.map((it) => it.url).filter(Boolean));
-      const fromModel = parsed.bullets.slice(0, SUMMARY_LIMIT).map((b) => {
+      const fromModel = parsed.bullets.slice(0, outputLimit).map((b) => {
         const firstUrl =
           Array.isArray(b.urls) && b.urls[0] && allowed.has(String(b.urls[0]))
             ? String(b.urls[0])
@@ -648,16 +869,35 @@ async function generateWeeklyBullets(tabName, items) {
       const topUp = summaryItems
         .filter((item) => !seenUrls.has(item.url))
         .map((item) => ({ text: makePunchyFallback(item), url: item.url }));
-      bullets = validModelBullets.concat(topUp).slice(0, SUMMARY_LIMIT);
+      bullets = validModelBullets.concat(topUp).slice(0, outputLimit);
     }
 
-    return { bullets };
+    return {
+      bullets: bullets.slice(0, outputLimit),
+      ...(isFintech
+        ? {
+          inputHash,
+          promptVersion: FINTECH_SUMMARY_PROMPT_VERSION,
+          contextUrls: summaryItems.map((item) => item.url).filter(Boolean),
+        }
+        : {}),
+    };
   } catch (e) {
-    const bullets = summaryItems.map((it) => ({
+    const bullets = summaryItems.slice(0, outputLimit).map((it) => ({
       text: makePunchyFallback(it),
       url: it.url,
     }));
-    return { bullets: bullets.slice(0, SUMMARY_LIMIT), note: "fallback (summary generation error)" };
+    return {
+      bullets: bullets.slice(0, outputLimit),
+      ...(isFintech
+        ? {
+          inputHash,
+          promptVersion: FINTECH_SUMMARY_PROMPT_VERSION,
+          contextUrls: summaryItems.map((item) => item.url).filter(Boolean),
+        }
+        : {}),
+      note: "fallback (summary generation error)",
+    };
   }
 }
 
@@ -718,8 +958,9 @@ async function processGroupWeekly(key, sources) {
 
   const unique = dedupeByUrl(collected);
   const enriched = await mapWithConcurrency(unique, addFullText, ARTICLE_CONCURRENCY);
+  const prepared = key === "fintech" ? filterFintechItems(enriched) : enriched;
 
-  const ranked = annotateHotness(enriched, key);
+  const ranked = annotateHotness(prepared, key);
   await writeJson(`${key}.json`, ranked);
 
   const summary = await generateWeeklyBullets(key, ranked);
@@ -759,20 +1000,32 @@ async function processCompanyWeekly(company) {
 async function main() {
   // Groups
   const results = [];
-  results.push(await processGroupWeekly("hightech", FEED_SOURCES.hightech));
-  results.push(await processGroupWeekly("telecoms", FEED_SOURCES.telecoms));
+  if (INGEST_GROUP) {
+    if (INGEST_GROUP !== "fintech") {
+      throw new Error("Unsupported INGEST_GROUP: " + INGEST_GROUP);
+    }
+    results.push(await processGroupWeekly("fintech", FEED_SOURCES.fintech));
+  } else {
+    results.push(await processGroupWeekly("hightech", FEED_SOURCES.hightech));
+    results.push(await processGroupWeekly("telecoms", FEED_SOURCES.telecoms));
+    results.push(await processGroupWeekly("fintech", FEED_SOURCES.fintech));
 
-  // Company sources: Accenture, Capco, and Sage.
-  for (const company of COMPANY_KEYS) {
-    results.push(await processCompanyWeekly(company));
+    // Company sources: Accenture, Capco, and Sage.
+    for (const company of COMPANY_KEYS) {
+      results.push(await processCompanyWeekly(company));
+    }
   }
 
   const totalItems = results.reduce((sum, result) => sum + result.items, 0);
   console.log("Ingest diagnostics:", JSON.stringify({
     dryRun: DRY_RUN,
     testMode: TEST_MODE,
+    ingestGroup: INGEST_GROUP || "all",
     lookbackDays: LOOKBACK_DAYS,
     groups: results,
+    aiSummaryCalls,
+    fintechAiSummaryCalls,
+    fintechSummaryCacheHits,
     extractionFailures,
     feeds: feedDiagnostics,
   }, null, 2));

@@ -1,10 +1,11 @@
 export const SUMMARY_LIMIT = 5;
 
-const rss = (url, label, allowedHosts, fallback) => ({
+const rss = (url, label, allowedHosts, fallback, options = {}) => ({
   kind: "rss",
   url,
   label,
   allowedHosts,
+  ...options,
   ...(fallback ? { fallback } : {}),
 });
 
@@ -45,6 +46,87 @@ export const FEED_SOURCES = {
       "https://news.google.com/rss/search?q=site%3Arcrwireless.com&hl=en-GB&gl=GB&ceid=GB%3Aen"
     ),
     rss("https://www.gsma.com/newsroom/feed/", "GSMA Newsroom", ["gsma.com", "www.gsma.com"]),
+  ],
+  fintech: [
+    rss(
+      "https://www.finextra.com/rss/channel.aspx?channel=payments",
+      "Finextra Payments",
+      ["finextra.com", "www.finextra.com"],
+      undefined,
+      { maxItems: 12 }
+    ),
+    rss(
+      "https://thefintechtimes.com/feed/",
+      "The FinTech Times",
+      ["thefintechtimes.com", "www.thefintechtimes.com"],
+      undefined,
+      { maxItems: 12 }
+    ),
+    rss(
+      "https://www.openbanking.org.uk/feed/",
+      "Open Banking Limited",
+      ["openbanking.org.uk", "www.openbanking.org.uk"],
+      undefined,
+      { maxItems: 12 }
+    ),
+    rss(
+      "https://www.fca.org.uk/news/rss.xml",
+      "Financial Conduct Authority",
+      ["fca.org.uk", "www.fca.org.uk"],
+      undefined,
+      {
+        maxItems: 12,
+        includeTerms: [
+          "fintech",
+          "payments",
+          "open banking",
+          "crypto",
+          "digital assets",
+          "financial crime",
+          "innovation",
+          "regtech",
+        ],
+        excludeTerms: [
+          "unauthorised firm",
+          "unauthorized firm",
+          "warning list",
+          "ipo",
+          "initial public offering",
+          "equity market",
+          "securities",
+          "visa rules",
+          "enters administration",
+          "mini-bond",
+          "loan note",
+          "pension",
+          "banned",
+          "fines",
+          "censures",
+          "tribunal",
+          "transaction reporting",
+          "annex 1",
+          "illegal promotions",
+          "financial promotions",
+          "market transparency",
+          "attaché",
+          "attache",
+        ],
+      }
+    ),
+    rss(
+      "https://www.paymentsdive.com/feeds/news/",
+      "Payments Dive",
+      ["paymentsdive.com", "www.paymentsdive.com"],
+      undefined,
+      { maxItems: 12 }
+    ),
+    rss(
+      "https://www.pymnts.com/feed/",
+      "PYMNTS",
+      ["pymnts.com", "www.pymnts.com"],
+      undefined,
+      { maxItems: 12 }
+    ),
   ],
 };
 
@@ -124,6 +206,12 @@ export const SOURCE_AUTHORITY = {
   "talktalk.co.uk": 0.2,
   "ispreview.co.uk": 0.25,
   "thinkbroadband.com": 0.25,
+  "finextra.com": 0.3,
+  "thefintechtimes.com": 0.28,
+  "openbanking.org.uk": 0.35,
+  "fca.org.uk": 0.38,
+  "paymentsdive.com": 0.28,
+  "pymnts.com": 0.24,
 };
 
 export const SOURCE_REGISTRY = [
