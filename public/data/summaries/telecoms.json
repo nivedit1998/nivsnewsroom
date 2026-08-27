@@ -1,34 +1,29 @@
 {
-  "generatedAt": "2026-08-26T15:22:00.151Z",
+  "generatedAt": "2026-08-27T20:04:02.693Z",
   "bullets": [
     {
-      "text": "Malawi's Digital Access Gap – A new GSMA report reveals that 80% of Malawians remain offline despite mobile coverage, highlighting barriers to digital adoption that could hinder economic growth.",
-      "url": "https://www.gsma.com/newsroom/press-release/80-of-malawians-remain-offline-despite-coverage-new-gsma-report-highlights-path-to-inclusive-digital-access-and-mwk-1-1-trillion-growth/"
+      "text": "Smart Livestock Monitoring Launched — Boldyn Networks is deploying a private 5G network in West Sussex to enhance livestock monitoring, improving animal welfare and farm resilience amid extreme weather challenges.",
+      "url": "https://totaltele.com/boldyn-networks-5g-redcap-to-support-smart-livestock-monitoring-in-west-sussex/"
     },
     {
-      "text": "Huawei and HP Patent Deal – Huawei has signed a global patent licensing agreement with HP, marking a significant step in commercialising its Wi-Fi technology innovations.",
-      "url": "https://rcrwireless.com/20260826/network-infrastructure/huawei-hp-wi-fi-patent"
-    },
-    {
-      "text": "EE Launches 5G Fast Lane – EE introduces a premium 5G network slicing service, ensuring high-quality mobile service for users during peak times at busy events.",
-      "url": "https://totaltele.com/ee-introduces-premium-fast-lane-5g-network-slicing-service/"
-    },
-    {
-      "text": "Project Gigabit Progress Update – Building Digital UK reports that over 296,000 premises have been connected under Project Gigabit, advancing the UK’s broadband rollout efforts.",
+      "text": "Project Gigabit Update Released — Building Digital UK reports progress on its £5 billion broadband initiative, with over 296,000 premises now connected, benefiting rural communities and businesses.",
       "url": "https://totaltele.com/bduk-gives-august-2026-update-on-project-gigabit-progress/"
     },
     {
-      "text": "Shift to Smart Building Contracts – A new report indicates a trend towards consolidating smart building technologies into single contracts, driven by cost efficiency and operational simplicity.",
-      "url": "https://rcrwireless.com/20260825/smart-buildings/smart-building-contract"
+      "text": "Huawei and HP Patent Deal — A new patent cross-licensing agreement between Huawei and HP Inc. allows for shared Wi-Fi technology, enhancing innovation in the tech industry.",
+      "url": "https://totaltele.com/huawei-and-hp-inc-sign-landmark-patent-cross-licensing-agreement/"
+    },
+    {
+      "text": "MWC26 Doha Event Planned — The GSMA will co-locate MWC26 with the ITU Plenipotentiary Conference in November 2026, uniting global leaders to discuss digital policy and connectivity.",
+      "url": "https://www.gsma.com/newsroom/press-release/gsma-mwc26-doha-to-co-locate-alongside-the-itu-plenipotentiary-conference-in-november-2026/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://www.gsma.com/newsroom/press-release/80-of-malawians-remain-offline-despite-coverage-new-gsma-report-highlights-path-to-inclusive-digital-access-and-mwk-1-1-trillion-growth/",
-    "https://rcrwireless.com/20260826/network-infrastructure/huawei-hp-wi-fi-patent",
-    "https://totaltele.com/ee-introduces-premium-fast-lane-5g-network-slicing-service/",
+    "https://totaltele.com/boldyn-networks-5g-redcap-to-support-smart-livestock-monitoring-in-west-sussex/",
     "https://totaltele.com/bduk-gives-august-2026-update-on-project-gigabit-progress/",
-    "https://rcrwireless.com/20260825/smart-buildings/smart-building-contract"
+    "https://totaltele.com/huawei-and-hp-inc-sign-landmark-patent-cross-licensing-agreement/",
+    "https://www.gsma.com/newsroom/press-release/gsma-mwc26-doha-to-co-locate-alongside-the-itu-plenipotentiary-conference-in-november-2026/"
   ]
 }

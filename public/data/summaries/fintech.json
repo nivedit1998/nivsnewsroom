@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-08-26T15:22:15.071Z",
+  "generatedAt": "2026-08-27T20:04:16.201Z",
   "bullets": [
     {
-      "text": "Regulators Propose Crypto Rules — The SEC and Financial Accounting Standards Board introduced proposals to regulate crypto assets, aiming to clarify capital-raising pathways for entrepreneurs, impacting the crypto industry significantly.",
+      "text": "Regulators Propose Crypto Rules — The SEC and Financial Accounting Standards Board introduced new proposals for crypto asset regulations, aiming to provide clearer capital-raising pathways for entrepreneurs and investors.",
       "url": "https://www.paymentsdive.com/news/sec-fasb-advance-separate-crypto-proposals/828396/"
     },
     {
-      "text": "Legacy Systems Costly — Outdated payment infrastructures are hindering banks' efficiency and profitability, with hidden costs often exceeding maintenance expenses, affecting financial institutions across Europe.",
-      "url": "https://thefintechtimes.com/legacy-is-no-longer-cheap-the-economics-of-payments-modernisation/"
-    },
-    {
-      "text": "FCA Supports Innovative Firms — The Financial Conduct Authority has launched a Scale-up Unit to assist five fast-growing UK fintech firms, helping them navigate regulation and promote sustainable growth.",
+      "text": "FCA Supports Innovative Firms — The Financial Conduct Authority has launched a Scale-up Unit to assist five fast-growing UK fintech firms in navigating regulations and fostering sustainable growth.",
       "url": "https://www.fca.org.uk/news/press-releases/fca-boosts-support-innovative-firms-scale-grow"
     },
     {
-      "text": "Revolut Launches Stablecoin — Revolut introduced a euro-pegged stablecoin, EURR, in three countries, marking a significant step in integrating cryptocurrencies into mainstream finance for European users.",
-      "url": "https://www.pymnts.com/cryptocurrency/2026/revolut-debuts-euro-pegged-stablecoin-in-3-countries/"
+      "text": "FCA Launches Compliance API — A new API from the FCA simplifies access to regulatory rules, helping firms integrate compliance requirements more efficiently into their systems.",
+      "url": "https://www.fca.org.uk/news/blogs/making-compliance-simpler-opening-fca-handbook-new-api"
     },
     {
-      "text": "Stripe Acquires OpenRouter — Stripe's acquisition of OpenRouter aims to enhance AI integration for businesses, allowing better management of AI-related expenses and positioning Stripe as a leader in AI economic infrastructure.",
-      "url": "https://www.paymentsdive.com/news/stripe-openrouter-finally-strike-a-deal/828326/"
+      "text": "Payments Modernisation Costs — Legacy payment systems are proving costly for banks, leading to lost revenue and customer frustration, highlighting the need for modern, flexible technology solutions.",
+      "url": "https://thefintechtimes.com/legacy-is-no-longer-cheap-the-economics-of-payments-modernisation/"
+    },
+    {
+      "text": "Experian Utilises AI for Credit — Experian has launched a credit card app on ChatGPT, showcasing the growing trend of integrating artificial intelligence into financial services for enhanced user experience.",
+      "url": "https://www.finextra.com/pressarticle/110748/experian-launches-credit-cards-app-on-chatgpt"
     }
   ],
-  "inputHash": "86016dc112d36bc99ac92e548ec229e597b4b471b64118540d3c97271c8dc151",
+  "inputHash": "c610797eae1939de4f4a8d4d044ffe03ab2b42c1d3abe882f5d53e3fe619dcdf",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://www.paymentsdive.com/news/sec-fasb-advance-separate-crypto-proposals/828396/",
     "https://thefintechtimes.com/legacy-is-no-longer-cheap-the-economics-of-payments-modernisation/",
     "https://thefintechtimes.com/the-fintech-landscape-of-canada-in-2026/",
-    "https://thefintechtimes.com/tokenisation-why-interoperability-decides-the-uks-33bn-prize/",
-    "https://www.pymnts.com/news/artificial-intelligence/2026/splitit-ceo-says-payments-firms-must-build-for-ai-not-just-use-it/",
-    "https://www.pymnts.com/cryptocurrency/2026/revolut-debuts-euro-pegged-stablecoin-in-3-countries/",
-    "https://www.pymnts.com/news/acquiring/2026/priority-commerce-moves-into-public-sector-with-intellipay-acquisition/",
+    "https://thefintechtimes.com/turkmenistan-can-fintech-develop-behind-a-closed-digital-door/",
     "https://www.paymentsdive.com/news/walmart-adds-digital-wallet-options/828600/",
     "https://www.fca.org.uk/news/press-releases/fca-boosts-support-innovative-firms-scale-grow",
-    "https://www.paymentsdive.com/news/stripe-openrouter-finally-strike-a-deal/828326/"
+    "https://www.paymentsdive.com/news/amexs-low-fraud-rate-turns-on-its-closed-system/828716/",
+    "https://www.fca.org.uk/news/blogs/making-compliance-simpler-opening-fca-handbook-new-api",
+    "https://www.finextra.com/pressarticle/110748/experian-launches-credit-cards-app-on-chatgpt",
+    "https://www.pymnts.com/earnings/2026/dollar-tree-attracts-higher-income-customers-as-sales-climb-7percent/"
   ]
 }

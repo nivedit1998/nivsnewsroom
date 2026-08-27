@@ -1,14 +1,28 @@
 {
-  "generatedAt": "2026-08-26T15:22:20.176Z",
+  "generatedAt": "2026-08-27T20:04:20.182Z",
   "bullets": [
     {
-      "text": "Accenture Acquires McCoy — Accenture is acquiring McCoy, a leading SAP consultancy, to enhance its capabilities in AI and SAP solutions for mid-market clients in Europe.",
+      "text": "Accenture Acquires COMWARE — Accenture is acquiring COMWARE to enhance its digital transformation services for mid-market companies in Japan, adding over 180 professionals with expertise in IT and SAP.",
+      "url": "https://newsroom.accenture.com/news/2026/accenture-to-acquire-comware-to-strengthen-accenture-edge-and-accelerate-digital-core-reinvention-for-mid-market-companies-in-japan"
+    },
+    {
+      "text": "Accenture Acquires McCoy — The acquisition of McCoy will bolster Accenture's SAP capabilities and AI innovation, further supporting mid-market clients in the Netherlands and EMEA region.",
       "url": "https://newsroom.accenture.com/news/2026/accenture-to-acquire-mccoy-strengthening-sap-expertise-and-ai-innovation-for-mid-market"
+    },
+    {
+      "text": "Focus on Mid-Market Growth — Both acquisitions aim to strengthen Accenture Edge's offerings, helping mid-market companies modernize operations and integrate AI into their business processes."
+    },
+    {
+      "text": "Enhanced SAP Expertise — McCoy's expertise in SAP solutions will provide Accenture with advanced tools and methodologies, improving service delivery for clients in various sectors."
+    },
+    {
+      "text": "Strategic AI Integration — The combined capabilities from COMWARE and McCoy will enable faster, more efficient AI-driven transformations for clients, enhancing competitiveness in their respective markets."
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
+    "https://newsroom.accenture.com/news/2026/accenture-to-acquire-comware-to-strengthen-accenture-edge-and-accelerate-digital-core-reinvention-for-mid-market-companies-in-japan",
     "https://newsroom.accenture.com/news/2026/accenture-to-acquire-mccoy-strengthening-sap-expertise-and-ai-innovation-for-mid-market"
   ]
 }
