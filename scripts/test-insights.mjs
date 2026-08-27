@@ -7,9 +7,11 @@ import {
   INSIGHTS_SCORING_VERSION,
   annotateHotness,
   buildSummaryInputHash,
+  generateWeeklyBullets,
   scoreItem,
   selectFintechContext,
   selectSummaryContext,
+  shouldPreservePrevious,
 } from "./ingest.mjs";
 
 const NOW = "2026-08-26T12:00:00.000Z";
@@ -230,5 +232,15 @@ assert.notEqual(
 assert.equal(FINTECH_SUMMARY_PROMPT_VERSION, "fintech-insights-v2");
 assert.equal(GENERAL_SUMMARY_PROMPT_VERSION, "insights-v2");
 assert.equal(FINTECH_WORDS_PER_ITEM_CAP, 400);
+
+assert.equal(shouldPreservePrevious([{ title: "old" }], []), true);
+assert.equal(shouldPreservePrevious([], []), false);
+assert.equal(shouldPreservePrevious([{ title: "old" }], [{ title: "new" }]), false);
+
+const emptySageSummary = await generateWeeklyBullets("company_sage", []);
+assert.deepEqual(emptySageSummary.bullets, []);
+assert.equal(emptySageSummary.scoringVersion, INSIGHTS_SCORING_VERSION);
+assert.equal(emptySageSummary.promptVersion, GENERAL_SUMMARY_PROMPT_VERSION);
+assert.deepEqual(emptySageSummary.contextUrls, []);
 
 console.log("Better insights scoring and context tests passed.");

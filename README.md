@@ -64,7 +64,9 @@ The OPENAI_API_KEY is optional because the ingestion has deterministic fallback 
 
 ## Automation
 
-GitHub Actions runs the daily ingestion workflow. Generated JSON is committed to the main branch, which triggers the Vercel deployment. Vercel Cron sends the weekly newsletter and writes the Supabase heartbeat.
+GitHub Actions runs the daily ingestion workflow on Node 24-compatible action releases. Generated JSON is committed to the main branch, which triggers the Vercel deployment. Vercel Cron sends the weekly newsletter and writes the Supabase heartbeat.
+
+If a source temporarily returns no usable articles, ingestion preserves the last non-empty dataset and summary for that group instead of publishing an empty replacement. The source failure remains visible in the ingestion diagnostics for follow-up.
 
 Required GitHub Actions secret:
 

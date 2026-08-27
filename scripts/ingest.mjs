@@ -50,6 +50,7 @@ let aiSummaryCalls = 0;
 let fintechAiSummaryCalls = 0;
 let fintechSummaryCacheHits = 0;
 const summaryContextCounts = {};
+const preservedEmptySources = [];
 
 const parser = new RSSParser({
   requestOptions: {
@@ -1091,6 +1092,21 @@ async function writeJson(relPath, data) {
   console.log(`wrote ${relPath} (${Array.isArray(data) ? data.length : "object"})`);
 }
 
+async function readDataFile(relPath) {
+  try {
+    return JSON.parse(await fs.readFile(path.join(DATA_DIR, relPath), "utf8"));
+  } catch {
+    return null;
+  }
+}
+
+export function shouldPreservePrevious(previous, current) {
+  return Array.isArray(current) &&
+    current.length === 0 &&
+    Array.isArray(previous) &&
+    previous.length > 0;
+}
+
 async function writeSummary(relPath, summary) {
   if (DRY_RUN) {
     console.log(`[dry-run] would write ${relPath} (${(summary?.bullets || []).length} bullets)`);
@@ -1143,13 +1159,23 @@ function contextOfTab(tabName) {
   return "general";
 }
 
-async function generateWeeklyBullets(tabName, items) {
+export async function generateWeeklyBullets(tabName, items) {
+  const isFintech = tabName === "fintech";
+  const promptVersion = isFintech
+    ? FINTECH_SUMMARY_PROMPT_VERSION
+    : GENERAL_SUMMARY_PROMPT_VERSION;
   if (!items || items.length === 0) {
-    return { bullets: [], note: "no source items" };
+    return {
+      bullets: [],
+      ...(isFintech ? { inputHash: buildSummaryInputHash([]) } : {}),
+      promptVersion,
+      scoringVersion: INSIGHTS_SCORING_VERSION,
+      contextUrls: [],
+      note: "no source items",
+    };
   }
 
   const ctx = contextOfTab(tabName);
-  const isFintech = tabName === "fintech";
 
   // Build context from only the bounded ranked selection for this category.
   const summaryItems = isFintech
@@ -1159,9 +1185,6 @@ async function generateWeeklyBullets(tabName, items) {
       : selectSummaryContext(items, SUMMARY_LIMIT);
   const outputLimit = isFintech ? FINTECH_SUMMARY_OUTPUT_LIMIT : SUMMARY_LIMIT;
   const wordsPerItemCap = isFintech ? FINTECH_WORDS_PER_ITEM_CAP : 600;
-  const promptVersion = isFintech
-    ? FINTECH_SUMMARY_PROMPT_VERSION
-    : GENERAL_SUMMARY_PROMPT_VERSION;
   const contextUrls = summaryItems.map((item) => item.url).filter(Boolean);
   summaryContextCounts[tabName] = summaryItems.length;
   const inputHash = isFintech ? buildSummaryInputHash(summaryItems) : undefined;
@@ -1414,6 +1437,23 @@ async function processGroupWeekly(key, sources) {
   const prepared = key === "fintech" ? filterFintechItems(enriched) : enriched;
 
   const ranked = annotateHotness(prepared, key);
+  if (!ranked.length) {
+    const previous = await readDataFile(key + ".json");
+    const previousSummary = await readSummaryFile(key + ".json");
+    if (shouldPreservePrevious(previous, ranked)) {
+      preservedEmptySources.push(key);
+      console.warn(
+        "No current " + key + " items; preserving " + previous.length +
+        " previously generated items and summary."
+      );
+      return {
+        key,
+        items: previous.length,
+        bullets: Array.isArray(previousSummary?.bullets) ? previousSummary.bullets.length : 0,
+        preservedPrevious: true,
+      };
+    }
+  }
   await writeJson(`${key}.json`, ranked);
 
   const summary = await generateWeeklyBullets(key, ranked);
@@ -1439,6 +1479,23 @@ async function processCompanyWeekly(company) {
 
   const context = `company_${company}`;
   const ranked = annotateHotness(enriched, context);
+  if (!ranked.length) {
+    const previous = await readDataFile("company/" + company + ".json");
+    const previousSummary = await readSummaryFile("company_" + company + ".json");
+    if (shouldPreservePrevious(previous, ranked)) {
+      preservedEmptySources.push(context);
+      console.warn(
+        "No current " + context + " items; preserving " + previous.length +
+        " previously generated items and summary."
+      );
+      return {
+        key: context,
+        items: previous.length,
+        bullets: Array.isArray(previousSummary?.bullets) ? previousSummary.bullets.length : 0,
+        preservedPrevious: true,
+      };
+    }
+  }
   await writeJson(`company/${company}.json`, ranked);
 
   const summary = await generateWeeklyBullets(context, ranked);
@@ -1481,6 +1538,7 @@ async function main() {
     fintechSummaryCacheHits,
     scoringVersion: INSIGHTS_SCORING_VERSION,
     summaryContextCounts,
+    preservedEmptySources,
     extractionFailures,
     feeds: feedDiagnostics,
   }, null, 2));
