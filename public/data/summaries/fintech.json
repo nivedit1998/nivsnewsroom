@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-08-27T20:04:16.201Z",
+  "generatedAt": "2026-08-28T20:17:30.121Z",
   "bullets": [
     {
-      "text": "Regulators Propose Crypto Rules — The SEC and Financial Accounting Standards Board introduced new proposals for crypto asset regulations, aiming to provide clearer capital-raising pathways for entrepreneurs and investors.",
-      "url": "https://www.paymentsdive.com/news/sec-fasb-advance-separate-crypto-proposals/828396/"
+      "text": "Sweden Embraces Cash Again — After years of promoting a cashless society, Sweden is now prioritising cash resilience amid cybersecurity and network disruption concerns, impacting consumers and fintech firms alike.",
+      "url": "https://thefintechtimes.com/sweden-the-fintech-pioneer-rediscovering-the-value-of-cash/"
     },
     {
-      "text": "FCA Supports Innovative Firms — The Financial Conduct Authority has launched a Scale-up Unit to assist five fast-growing UK fintech firms in navigating regulations and fostering sustainable growth.",
+      "text": "FCA Supports Innovative Firms — The Financial Conduct Authority (FCA) has launched a Scale-up Unit to assist five fast-growing fintech firms, enhancing their ability to navigate regulations and innovate.",
       "url": "https://www.fca.org.uk/news/press-releases/fca-boosts-support-innovative-firms-scale-grow"
     },
     {
-      "text": "FCA Launches Compliance API — A new API from the FCA simplifies access to regulatory rules, helping firms integrate compliance requirements more efficiently into their systems.",
+      "text": "AI Adoption in Banking — HSBC's appointment of a Chief AI Officer highlights the shift in banking towards integrating artificial intelligence, focusing on workforce readiness and skills development.",
+      "url": "https://thefintechtimes.com/ai-in-banking-is-a-workforce-problem-not-a-technology-one/"
+    },
+    {
+      "text": "New API Simplifies Compliance — The FCA has introduced an Application Programming Interface (API) for its Handbook, making it easier for firms to comply with regulations and access necessary information.",
       "url": "https://www.fca.org.uk/news/blogs/making-compliance-simpler-opening-fca-handbook-new-api"
     },
     {
-      "text": "Payments Modernisation Costs — Legacy payment systems are proving costly for banks, leading to lost revenue and customer frustration, highlighting the need for modern, flexible technology solutions.",
-      "url": "https://thefintechtimes.com/legacy-is-no-longer-cheap-the-economics-of-payments-modernisation/"
-    },
-    {
-      "text": "Experian Utilises AI for Credit — Experian has launched a credit card app on ChatGPT, showcasing the growing trend of integrating artificial intelligence into financial services for enhanced user experience.",
-      "url": "https://www.finextra.com/pressarticle/110748/experian-launches-credit-cards-app-on-chatgpt"
+      "text": "AI Optimises ATM Cash Management — Banks are using artificial intelligence to improve cash forecasting for ATMs, potentially reducing cash demand by up to 40%, benefiting both banks and consumers.",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/banks-use-ai-stop-overstocking-atms/"
     }
   ],
-  "inputHash": "c610797eae1939de4f4a8d4d044ffe03ab2b42c1d3abe882f5d53e3fe619dcdf",
+  "inputHash": "9d6947f6c9a07fa108b900d5d8111e9111b886abf502d54c9fa04833dceb6eb7",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://www.paymentsdive.com/news/sec-fasb-advance-separate-crypto-proposals/828396/",
-    "https://thefintechtimes.com/legacy-is-no-longer-cheap-the-economics-of-payments-modernisation/",
+    "https://thefintechtimes.com/sweden-the-fintech-pioneer-rediscovering-the-value-of-cash/",
     "https://thefintechtimes.com/the-fintech-landscape-of-canada-in-2026/",
-    "https://thefintechtimes.com/turkmenistan-can-fintech-develop-behind-a-closed-digital-door/",
-    "https://www.paymentsdive.com/news/walmart-adds-digital-wallet-options/828600/",
+    "https://thefintechtimes.com/ai-in-banking-is-a-workforce-problem-not-a-technology-one/",
+    "https://www.paymentsdive.com/news/modernizing-payments-is-a-must/829074/",
+    "https://www.pymnts.com/cybersecurity/2026/the-new-cyber-math-for-cfos-one-attack-hundreds-of-disclosures/",
     "https://www.fca.org.uk/news/press-releases/fca-boosts-support-innovative-firms-scale-grow",
-    "https://www.paymentsdive.com/news/amexs-low-fraud-rate-turns-on-its-closed-system/828716/",
+    "https://www.paymentsdive.com/news/walmart-adds-digital-wallet-options/828600/",
     "https://www.fca.org.uk/news/blogs/making-compliance-simpler-opening-fca-handbook-new-api",
-    "https://www.finextra.com/pressarticle/110748/experian-launches-credit-cards-app-on-chatgpt",
-    "https://www.pymnts.com/earnings/2026/dollar-tree-attracts-higher-income-customers-as-sales-climb-7percent/"
+    "https://www.paymentsdive.com/news/amexs-low-fraud-rate-turns-on-its-closed-system/828716/",
+    "https://www.pymnts.com/news/artificial-intelligence/2026/banks-use-ai-stop-overstocking-atms/"
   ]
 }

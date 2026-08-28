@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-08-27T20:04:26.540Z",
+  "generatedAt": "2026-08-28T20:17:39.646Z",
   "bullets": [
     {
-      "text": "Crypto Travel Rule Enforced — The UK has implemented the Crypto Travel Rule, requiring Virtual Asset Service Providers (VASPs) to enhance transparency in digital asset transactions, impacting compliance efforts.",
+      "text": "Crypto Travel Rule Enforced — The UK has implemented the Crypto Travel Rule, requiring Virtual Asset Service Providers (VASPs) to collect and share customer information for transactions, enhancing financial crime prevention.",
       "url": "https://www.capco.com/intelligence/capco-intelligence/crypto-travel-rule-and-its-impact-on-digital-asset-markets"
     },
     {
-      "text": "AI Governance Evolution — Singapore's Monetary Authority of Singapore (MAS) is shifting towards evidence-based AI governance, affecting financial institutions' compliance strategies and operational frameworks.",
+      "text": "AI Governance Evolving — Singapore's Monetary Authority of Singapore (MAS) is shifting towards evidence-based AI governance, urging financial institutions to prepare for stricter compliance by 2026.",
       "url": "https://www.capco.com/intelligence/capco-intelligence/ai-governance-mas-readiness"
     },
     {
-      "text": "New Retail Disclosure Framework — The UK's Financial Conduct Authority (FCA) is introducing a Consumer-Centric Investment (CCI) regime, changing how retail investment products are disclosed to consumers.",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/cci-and-the-future-of-uk-retail-disclosure"
-    },
-    {
-      "text": "EU Supervisory Reporting Reform — The European Banking Authority (EBA) is simplifying supervisory reporting requirements, aiming to reduce costs and improve data management for banks across Europe.",
+      "text": "EU Supervisory Reporting Reform — The European Banking Authority (EBA) is simplifying supervisory reporting to reduce costs and improve efficiency, with new requirements expected by September 2027.",
       "url": "https://www.capco.com/intelligence/capco-intelligence/eu-banking-supervision-reporting-reform"
     },
     {
-      "text": "Transforming Chief Data Offices — The role of Chief Data Officers (CDOs) is evolving to focus on demonstrating commercial value and operational efficiency in data management.",
+      "text": "CDO Role Transformation — Chief Data Officers (CDOs) must now demonstrate the commercial and operational value of data, shifting focus from management to measurable business impact.",
       "url": "https://www.capco.com/intelligence/capco-intelligence/the-chief-data-office-reimagined"
+    },
+    {
+      "text": "FCA's AI Review Impact — The FCA's Mills Review indicates a significant shift towards AI in wealth management, urging firms to adapt to consumer preferences for AI-driven financial services.",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/fca-mills-review-ai-wealth-management"
     }
   ],
   "promptVersion": "insights-v2",
@@ -27,8 +27,8 @@
   "contextUrls": [
     "https://www.capco.com/intelligence/capco-intelligence/crypto-travel-rule-and-its-impact-on-digital-asset-markets",
     "https://www.capco.com/intelligence/capco-intelligence/ai-governance-mas-readiness",
-    "https://www.capco.com/intelligence/capco-intelligence/cci-and-the-future-of-uk-retail-disclosure",
     "https://www.capco.com/intelligence/capco-intelligence/eu-banking-supervision-reporting-reform",
-    "https://www.capco.com/intelligence/capco-intelligence/the-chief-data-office-reimagined"
+    "https://www.capco.com/intelligence/capco-intelligence/the-chief-data-office-reimagined",
+    "https://www.capco.com/intelligence/capco-intelligence/fca-mills-review-ai-wealth-management"
   ]
 }
