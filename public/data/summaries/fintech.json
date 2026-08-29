@@ -1,36 +1,36 @@
 {
-  "generatedAt": "2026-08-28T20:17:30.121Z",
+  "generatedAt": "2026-08-29T13:54:37.144Z",
   "bullets": [
     {
-      "text": "Sweden Embraces Cash Again — After years of promoting a cashless society, Sweden is now prioritising cash resilience amid cybersecurity and network disruption concerns, impacting consumers and fintech firms alike.",
+      "text": "Sweden Embraces Cash Again — After years of digital payment dominance, Sweden is now prioritising cash resilience amid cybersecurity and geopolitical concerns, impacting consumer trust and financial stability.",
       "url": "https://thefintechtimes.com/sweden-the-fintech-pioneer-rediscovering-the-value-of-cash/"
     },
     {
-      "text": "FCA Supports Innovative Firms — The Financial Conduct Authority (FCA) has launched a Scale-up Unit to assist five fast-growing fintech firms, enhancing their ability to navigate regulations and innovate.",
-      "url": "https://www.fca.org.uk/news/press-releases/fca-boosts-support-innovative-firms-scale-grow"
+      "text": "Suriname Prepares for Oil Boom — With a significant offshore oil discovery, Suriname's fintech sector is poised to modernise financial services, aiming for economic inclusivity as wealth increases.",
+      "url": "https://thefintechtimes.com/suriname-can-fintech-prepare-the-country-for-an-oil-boom/"
     },
     {
-      "text": "AI Adoption in Banking — HSBC's appointment of a Chief AI Officer highlights the shift in banking towards integrating artificial intelligence, focusing on workforce readiness and skills development.",
+      "text": "AI Adoption in Banking — HSBC's appointment of a Chief AI Officer highlights the shift towards integrating artificial intelligence in banking, focusing on workforce readiness over technology alone.",
       "url": "https://thefintechtimes.com/ai-in-banking-is-a-workforce-problem-not-a-technology-one/"
     },
     {
-      "text": "New API Simplifies Compliance — The FCA has introduced an Application Programming Interface (API) for its Handbook, making it easier for firms to comply with regulations and access necessary information.",
-      "url": "https://www.fca.org.uk/news/blogs/making-compliance-simpler-opening-fca-handbook-new-api"
+      "text": "FCA Supports Innovative Firms — The UK's Financial Conduct Authority has launched a Scale-up Unit to assist fast-growing fintech firms in navigating regulations and fostering sustainable growth.",
+      "url": "https://www.fca.org.uk/news/press-releases/fca-boosts-support-innovative-firms-scale-grow"
     },
     {
-      "text": "AI Optimises ATM Cash Management — Banks are using artificial intelligence to improve cash forecasting for ATMs, potentially reducing cash demand by up to 40%, benefiting both banks and consumers.",
-      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/banks-use-ai-stop-overstocking-atms/"
+      "text": "Simplifying Compliance with API — The FCA's new API for its Handbook aims to ease compliance burdens for firms, allowing better integration of regulatory standards into their systems.",
+      "url": "https://www.fca.org.uk/news/blogs/making-compliance-simpler-opening-fca-handbook-new-api"
     }
   ],
-  "inputHash": "9d6947f6c9a07fa108b900d5d8111e9111b886abf502d54c9fa04833dceb6eb7",
+  "inputHash": "bf4ed4680cfbae3b14df0a98a014eebd657c4176ad6a2e0d87aaa5bd606b9337",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://thefintechtimes.com/sweden-the-fintech-pioneer-rediscovering-the-value-of-cash/",
-    "https://thefintechtimes.com/the-fintech-landscape-of-canada-in-2026/",
+    "https://thefintechtimes.com/suriname-can-fintech-prepare-the-country-for-an-oil-boom/",
     "https://thefintechtimes.com/ai-in-banking-is-a-workforce-problem-not-a-technology-one/",
     "https://www.paymentsdive.com/news/modernizing-payments-is-a-must/829074/",
-    "https://www.pymnts.com/cybersecurity/2026/the-new-cyber-math-for-cfos-one-attack-hundreds-of-disclosures/",
+    "https://www.pymnts.com/digital-payments/2026/bis-general-manager-says-tokenized-deposits-beat-stablecoins-digital-payments/",
     "https://www.fca.org.uk/news/press-releases/fca-boosts-support-innovative-firms-scale-grow",
     "https://www.paymentsdive.com/news/walmart-adds-digital-wallet-options/828600/",
     "https://www.fca.org.uk/news/blogs/making-compliance-simpler-opening-fca-handbook-new-api",
