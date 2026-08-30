@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-08-29T13:54:12.991Z",
+  "generatedAt": "2026-08-30T13:52:56.951Z",
   "bullets": [
     {
-      "text": "Nvidia's AI Acquisitions Surge — Nvidia is reportedly acquiring Hugging Face for $13 billion, reflecting a trend where major companies are investing heavily in open-weight AI models to diversify their offerings.",
+      "text": "Nvidia's AI Acquisitions Surge — Nvidia is reportedly acquiring Hugging Face for $13 billion, reflecting a trend where companies invest heavily in open-weight AI models to diversify their offerings.",
       "url": "https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets/"
     },
     {
-      "text": "Meta Enhances Privacy Measures — A new update for Meta's Ray-Ban smart glasses prevents users from disabling the privacy LED, addressing concerns over unauthorized recording.",
+      "text": "Meta Enhances Privacy Features — Meta is updating its Ray-Ban smart glasses to prevent users from disabling the privacy LED, addressing ongoing concerns about unauthorized recording.",
       "url": "https://9to5google.com/2026/08/28/meta-ray-ban-smart-glasses-privacy-led-loophole-update/"
     },
     {
-      "text": "AI User Privacy Concerns — A DuckDuckGo survey reveals that many users share sensitive information with AI chatbots, often unaware of how their data is used, raising privacy issues.",
-      "url": "https://9to5mac.com/2026/08/25/duckduckgo-survey-highlights-how-much-personal-information-users-share-with-ai/"
-    },
-    {
-      "text": "Smartphone Prices Set to Rise — Analysts predict that smartphone prices will remain high permanently, with a significant drop in shipments leading to fewer affordable options for consumers.",
+      "text": "Smartphone Prices Set to Rise — Analysts predict that smartphone prices will remain high permanently, impacting consumers as low-end devices become scarce and expensive.",
       "url": "https://9to5google.com/2026/08/26/smartphone-price-hikes-forecast/"
     },
     {
-      "text": "Meta's Ongoing Privacy Challenges — Meta continues to address privacy issues with its smart glasses, as it faces scrutiny over how it manages user data and recording capabilities.",
+      "text": "Apple's Smart Glasses Launch — Apple plans to release AI-powered smart glasses next year, featuring voice interaction and camera capabilities, marking its entry into the smart eyewear market.",
+      "url": "https://9to5mac.com/2026/08/29/apple-first-ai-smart-glasses-feature-release-date-roundup/"
+    },
+    {
+      "text": "Meta's Ongoing Privacy Challenges — Meta continues to address privacy issues with its smart glasses, as it faces scrutiny over how it manages user data and recording features.",
       "url": "https://www.cnet.com/tech/mobile/meta-keeps-trying-to-fix-glasses-privacy-concerns-with-new-update/"
     }
   ],
@@ -27,8 +27,8 @@
   "contextUrls": [
     "https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets/",
     "https://9to5google.com/2026/08/28/meta-ray-ban-smart-glasses-privacy-led-loophole-update/",
-    "https://9to5mac.com/2026/08/25/duckduckgo-survey-highlights-how-much-personal-information-users-share-with-ai/",
     "https://9to5google.com/2026/08/26/smartphone-price-hikes-forecast/",
+    "https://9to5mac.com/2026/08/29/apple-first-ai-smart-glasses-feature-release-date-roundup/",
     "https://www.cnet.com/tech/mobile/meta-keeps-trying-to-fix-glasses-privacy-concerns-with-new-update/"
   ]
 }

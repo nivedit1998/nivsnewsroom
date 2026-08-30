@@ -1,34 +1,34 @@
 {
-  "generatedAt": "2026-08-29T13:54:37.144Z",
+  "generatedAt": "2026-08-30T13:53:48.983Z",
   "bullets": [
     {
-      "text": "Sweden Embraces Cash Again — After years of digital payment dominance, Sweden is now prioritising cash resilience amid cybersecurity and geopolitical concerns, impacting consumer trust and financial stability.",
+      "text": "Puerto Rico's Unique Fintech—Puerto Rico's fintech ecosystem is evolving with local solutions like ATH Móvil, reflecting its cultural identity while addressing economic challenges post-debt crisis.",
+      "url": "https://thefintechtimes.com/the-fintech-landscape-of-puerto-rico-in-2026/"
+    },
+    {
+      "text": "Sweden's Cash Renaissance—Despite leading in digital finance, Sweden is now prioritising cash preservation to ensure resilience against potential cybersecurity threats and network disruptions.",
       "url": "https://thefintechtimes.com/sweden-the-fintech-pioneer-rediscovering-the-value-of-cash/"
     },
     {
-      "text": "Suriname Prepares for Oil Boom — With a significant offshore oil discovery, Suriname's fintech sector is poised to modernise financial services, aiming for economic inclusivity as wealth increases.",
+      "text": "Suriname's Fintech Opportunity—As Suriname prepares for an oil boom, fintech could modernise its financial services, ensuring inclusivity and efficiency in a transitioning economy.",
       "url": "https://thefintechtimes.com/suriname-can-fintech-prepare-the-country-for-an-oil-boom/"
     },
     {
-      "text": "AI Adoption in Banking — HSBC's appointment of a Chief AI Officer highlights the shift towards integrating artificial intelligence in banking, focusing on workforce readiness over technology alone.",
-      "url": "https://thefintechtimes.com/ai-in-banking-is-a-workforce-problem-not-a-technology-one/"
-    },
-    {
-      "text": "FCA Supports Innovative Firms — The UK's Financial Conduct Authority has launched a Scale-up Unit to assist fast-growing fintech firms in navigating regulations and fostering sustainable growth.",
+      "text": "FCA Supports Growth—The UK's Financial Conduct Authority (FCA) has launched a Scale-up Unit to assist innovative firms in navigating regulation and fostering sustainable growth.",
       "url": "https://www.fca.org.uk/news/press-releases/fca-boosts-support-innovative-firms-scale-grow"
     },
     {
-      "text": "Simplifying Compliance with API — The FCA's new API for its Handbook aims to ease compliance burdens for firms, allowing better integration of regulatory standards into their systems.",
+      "text": "Simplifying Compliance—The FCA has introduced an API for its Handbook, making it easier for firms to access regulatory information, thus streamlining compliance processes.",
       "url": "https://www.fca.org.uk/news/blogs/making-compliance-simpler-opening-fca-handbook-new-api"
     }
   ],
-  "inputHash": "bf4ed4680cfbae3b14df0a98a014eebd657c4176ad6a2e0d87aaa5bd606b9337",
+  "inputHash": "9b1aa7c34a05f0cf17a6343fe26a557cabeb4b038d158b66461fa7629e33d21e",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
+    "https://thefintechtimes.com/the-fintech-landscape-of-puerto-rico-in-2026/",
     "https://thefintechtimes.com/sweden-the-fintech-pioneer-rediscovering-the-value-of-cash/",
     "https://thefintechtimes.com/suriname-can-fintech-prepare-the-country-for-an-oil-boom/",
-    "https://thefintechtimes.com/ai-in-banking-is-a-workforce-problem-not-a-technology-one/",
     "https://www.paymentsdive.com/news/modernizing-payments-is-a-must/829074/",
     "https://www.pymnts.com/digital-payments/2026/bis-general-manager-says-tokenized-deposits-beat-stablecoins-digital-payments/",
     "https://www.fca.org.uk/news/press-releases/fca-boosts-support-innovative-firms-scale-grow",
