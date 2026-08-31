@@ -1,34 +1,34 @@
 {
-  "generatedAt": "2026-08-30T13:52:56.951Z",
+  "generatedAt": "2026-08-31T16:15:15.832Z",
   "bullets": [
     {
-      "text": "Nvidia's AI Acquisitions Surge — Nvidia is reportedly acquiring Hugging Face for $13 billion, reflecting a trend where companies invest heavily in open-weight AI models to diversify their offerings.",
-      "url": "https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets/"
-    },
-    {
-      "text": "Meta Enhances Privacy Features — Meta is updating its Ray-Ban smart glasses to prevent users from disabling the privacy LED, addressing ongoing concerns about unauthorized recording.",
+      "text": "**Meta Ray-Ban update will block** - (9to5google.com) Meta Ray-Ban update will block the most obvious loophole for disabling the privacy LED",
       "url": "https://9to5google.com/2026/08/28/meta-ray-ban-smart-glasses-privacy-led-loophole-update/"
     },
     {
-      "text": "Smartphone Prices Set to Rise — Analysts predict that smartphone prices will remain high permanently, impacting consumers as low-end devices become scarce and expensive.",
+      "text": "**Debian won& 8217 t ban** - (theverge.com) Debian won&#8217;t ban AI code from its Linux distribution",
+      "url": "https://www.theverge.com/tech/986789/linux-debian-generative-ai-policy"
+    },
+    {
+      "text": "**Nvidia s 3 5B MediaTek** - (techcrunch.com) Nvidia’s $3.5B MediaTek bet reveals its plan for tackling Big Tech’s AI chip buildout",
+      "url": "https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout/"
+    },
+    {
+      "text": "**How AI could make it** - (techcrunch.com) How AI could make it harder for governments to use hacking tools",
+      "url": "https://techcrunch.com/2026/08/31/how-ai-could-make-it-harder-for-governments-to-use-hacking-tools/"
+    },
+    {
+      "text": "**cheap smartphone era over price** - (9to5google.com) The ‘cheap smartphone era is over’ and price hikes are ‘permanent,’ bleak forecast reveals",
       "url": "https://9to5google.com/2026/08/26/smartphone-price-hikes-forecast/"
-    },
-    {
-      "text": "Apple's Smart Glasses Launch — Apple plans to release AI-powered smart glasses next year, featuring voice interaction and camera capabilities, marking its entry into the smart eyewear market.",
-      "url": "https://9to5mac.com/2026/08/29/apple-first-ai-smart-glasses-feature-release-date-roundup/"
-    },
-    {
-      "text": "Meta's Ongoing Privacy Challenges — Meta continues to address privacy issues with its smart glasses, as it faces scrutiny over how it manages user data and recording features.",
-      "url": "https://www.cnet.com/tech/mobile/meta-keeps-trying-to-fix-glasses-privacy-concerns-with-new-update/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets/",
     "https://9to5google.com/2026/08/28/meta-ray-ban-smart-glasses-privacy-led-loophole-update/",
-    "https://9to5google.com/2026/08/26/smartphone-price-hikes-forecast/",
-    "https://9to5mac.com/2026/08/29/apple-first-ai-smart-glasses-feature-release-date-roundup/",
-    "https://www.cnet.com/tech/mobile/meta-keeps-trying-to-fix-glasses-privacy-concerns-with-new-update/"
+    "https://www.theverge.com/tech/986789/linux-debian-generative-ai-policy",
+    "https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout/",
+    "https://techcrunch.com/2026/08/31/how-ai-could-make-it-harder-for-governments-to-use-hacking-tools/",
+    "https://9to5google.com/2026/08/26/smartphone-price-hikes-forecast/"
   ]
 }

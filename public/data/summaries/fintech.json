@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-08-30T13:53:48.983Z",
+  "generatedAt": "2026-08-31T16:15:48.061Z",
   "bullets": [
     {
-      "text": "Puerto Rico's Unique Fintech—Puerto Rico's fintech ecosystem is evolving with local solutions like ATH Móvil, reflecting its cultural identity while addressing economic challenges post-debt crisis.",
-      "url": "https://thefintechtimes.com/the-fintech-landscape-of-puerto-rico-in-2026/"
-    },
-    {
-      "text": "Sweden's Cash Renaissance—Despite leading in digital finance, Sweden is now prioritising cash preservation to ensure resilience against potential cybersecurity threats and network disruptions.",
-      "url": "https://thefintechtimes.com/sweden-the-fintech-pioneer-rediscovering-the-value-of-cash/"
-    },
-    {
-      "text": "Suriname's Fintech Opportunity—As Suriname prepares for an oil boom, fintech could modernise its financial services, ensuring inclusivity and efficiency in a transitioning economy.",
-      "url": "https://thefintechtimes.com/suriname-can-fintech-prepare-the-country-for-an-oil-boom/"
-    },
-    {
-      "text": "FCA Supports Growth—The UK's Financial Conduct Authority (FCA) has launched a Scale-up Unit to assist innovative firms in navigating regulation and fostering sustainable growth.",
+      "text": "**FCA Supports Innovative Firms** — The Financial Conduct Authority (FCA) has launched a Scale-up Unit to assist five fast-growing fintech firms in navigating regulations and fostering sustainable growth. This initiative aims to bolster the UK's position as a leading hub for financial innovation.",
       "url": "https://www.fca.org.uk/news/press-releases/fca-boosts-support-innovative-firms-scale-grow"
     },
     {
-      "text": "Simplifying Compliance—The FCA has introduced an API for its Handbook, making it easier for firms to access regulatory information, thus streamlining compliance processes.",
+      "text": "**Simplifying Compliance with API** — The FCA introduced a new Application Programming Interface (API) for its Handbook, making it easier for firms to access regulatory rules and guidance, thus streamlining compliance processes.",
       "url": "https://www.fca.org.uk/news/blogs/making-compliance-simpler-opening-fca-handbook-new-api"
+    },
+    {
+      "text": "**Puerto Rico's Unique Fintech Ecosystem** — Puerto Rico's fintech landscape is evolving with local payment solutions like ATH Móvil, reflecting a blend of US financial systems and Caribbean culture, crucial for economic recovery post-debt crisis.",
+      "url": "https://thefintechtimes.com/the-fintech-landscape-of-puerto-rico-in-2026/"
+    },
+    {
+      "text": "**Suriname Prepares for Oil Boom** — Suriname's fintech sector is gearing up for a significant economic shift as offshore oil production is set to begin, highlighting the need for improved financial services and digital infrastructure.",
+      "url": "https://thefintechtimes.com/suriname-can-fintech-prepare-the-country-for-an-oil-boom/"
+    },
+    {
+      "text": "**LEAP 2026 Lacks Fintech News** — The LEAP 2026 conference in Saudi Arabia included a fintech track but did not feature any significant announcements, indicating a shift towards AI and digital infrastructure as primary focuses.",
+      "url": "https://thefintechtimes.com/leap-2026-opens-with-a-fintech-track-and-no-fintech-news/"
     }
   ],
-  "inputHash": "9b1aa7c34a05f0cf17a6343fe26a557cabeb4b038d158b66461fa7629e33d21e",
+  "inputHash": "a412b72152e6e322c02f9dfa805b70e790c2451290a6ab6af6d26292652c6aa6",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://thefintechtimes.com/the-fintech-landscape-of-puerto-rico-in-2026/",
-    "https://thefintechtimes.com/sweden-the-fintech-pioneer-rediscovering-the-value-of-cash/",
     "https://thefintechtimes.com/suriname-can-fintech-prepare-the-country-for-an-oil-boom/",
+    "https://thefintechtimes.com/leap-2026-opens-with-a-fintech-track-and-no-fintech-news/",
     "https://www.paymentsdive.com/news/modernizing-payments-is-a-must/829074/",
-    "https://www.pymnts.com/digital-payments/2026/bis-general-manager-says-tokenized-deposits-beat-stablecoins-digital-payments/",
+    "https://www.pymnts.com/news/artificial-intelligence/2026/ai-disruption-has-plenty-of-opinions-now-it-has-a-prediction-market/",
+    "https://www.finextra.com/newsarticle/48326/td-tests-tokenised-payments-through-project-agor",
+    "https://www.paymentsdive.com/spons/beyond-the-booking-how-navan-scaled-global-card-issuing-with-embedded-fina/828874/",
     "https://www.fca.org.uk/news/press-releases/fca-boosts-support-innovative-firms-scale-grow",
-    "https://www.paymentsdive.com/news/walmart-adds-digital-wallet-options/828600/",
     "https://www.fca.org.uk/news/blogs/making-compliance-simpler-opening-fca-handbook-new-api",
-    "https://www.paymentsdive.com/news/amexs-low-fraud-rate-turns-on-its-closed-system/828716/",
-    "https://www.pymnts.com/news/artificial-intelligence/2026/banks-use-ai-stop-overstocking-atms/"
+    "https://www.pymnts.com/news/banking/2026/community-banks-could-get-500-million-back-from-the-fdic/"
   ]
 }

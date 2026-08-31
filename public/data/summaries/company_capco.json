@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-08-30T13:53:57.680Z",
+  "generatedAt": "2026-08-31T16:15:59.969Z",
   "bullets": [
     {
-      "text": "Crypto Travel Rule Enforced — The UK has implemented the Crypto Travel Rule, requiring Virtual Asset Service Providers (VASPs) to enhance transparency and combat financial crime in digital asset transfers.",
+      "text": "Crypto Travel Rule Enforced — The UK has implemented the Crypto Travel Rule, requiring Virtual Asset Service Providers (VASPs) to enhance transparency in digital asset transactions to combat financial crime.",
       "url": "https://www.capco.com/intelligence/capco-intelligence/crypto-travel-rule-and-its-impact-on-digital-asset-markets"
     },
     {
-      "text": "AI Governance Changes Ahead — Singapore's Monetary Authority of Singapore (MAS) is shifting towards stricter AI governance, requiring financial institutions to demonstrate compliance and effective oversight by 2026.",
+      "text": "AI Governance Changes — Singapore's Monetary Authority of Singapore (MAS) is shifting towards stricter AI governance, requiring financial institutions to demonstrate compliance with new risk management guidelines.",
       "url": "https://www.capco.com/intelligence/capco-intelligence/ai-governance-mas-readiness"
     },
     {
-      "text": "Regulatory Reporting Modernization — Capital markets organizations are urged to adopt configuration-driven reporting to enhance efficiency and reduce costs amid increasing regulatory scrutiny.",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/accelerating-regulatory-reporting"
-    },
-    {
-      "text": "EU Supervisory Reporting Reform — The European Banking Authority is proposing significant changes to supervisory reporting, aiming to simplify processes while maintaining effective oversight and compliance.",
+      "text": "EU Banking Reporting Reform — The European Banking Authority (EBA) is proposing significant changes to supervisory reporting, aiming to simplify requirements while enhancing the effectiveness of oversight.",
       "url": "https://www.capco.com/intelligence/capco-intelligence/eu-banking-supervision-reporting-reform"
     },
     {
-      "text": "Evolving Role of Chief Data Officers — Chief Data Offices must now demonstrate their value through strategic data management, focusing on operational efficiency and measurable business outcomes.",
+      "text": "Modernising Regulatory Reporting — A new configuration-driven reporting model is being advocated to improve efficiency and governance in regulatory reporting for capital markets organizations.",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/accelerating-regulatory-reporting"
+    },
+    {
+      "text": "Reimagining Chief Data Office — The role of Chief Data Officers (CDOs) is evolving to focus on delivering measurable business impact through smarter data management strategies.",
       "url": "https://www.capco.com/intelligence/capco-intelligence/the-chief-data-office-reimagined"
     }
   ],
@@ -27,8 +27,8 @@
   "contextUrls": [
     "https://www.capco.com/intelligence/capco-intelligence/crypto-travel-rule-and-its-impact-on-digital-asset-markets",
     "https://www.capco.com/intelligence/capco-intelligence/ai-governance-mas-readiness",
-    "https://www.capco.com/intelligence/capco-intelligence/accelerating-regulatory-reporting",
     "https://www.capco.com/intelligence/capco-intelligence/eu-banking-supervision-reporting-reform",
+    "https://www.capco.com/intelligence/capco-intelligence/accelerating-regulatory-reporting",
     "https://www.capco.com/intelligence/capco-intelligence/the-chief-data-office-reimagined"
   ]
 }
