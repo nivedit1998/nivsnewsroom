@@ -1,40 +1,41 @@
 {
-  "generatedAt": "2026-08-31T16:15:48.061Z",
+  "generatedAt": "2026-09-01T13:35:10.896Z",
   "bullets": [
     {
-      "text": "**FCA Supports Innovative Firms** — The Financial Conduct Authority (FCA) has launched a Scale-up Unit to assist five fast-growing fintech firms in navigating regulations and fostering sustainable growth. This initiative aims to bolster the UK's position as a leading hub for financial innovation.",
-      "url": "https://www.fca.org.uk/news/press-releases/fca-boosts-support-innovative-firms-scale-grow"
+      "text": "**Rails Rules & Reality Next** - (thefintechtimes.com) Rails, Rules & Reality: The Next Phase of Fintech",
+      "url": "https://thefintechtimes.com/rails-rules-reality-the-next-phase-of-fintech/"
     },
     {
-      "text": "**Simplifying Compliance with API** — The FCA introduced a new Application Programming Interface (API) for its Handbook, making it easier for firms to access regulatory rules and guidance, thus streamlining compliance processes.",
-      "url": "https://www.fca.org.uk/news/blogs/making-compliance-simpler-opening-fca-handbook-new-api"
+      "text": "**AI Software s Real Bottleneck** - (thefintechtimes.com) AI Software’s Real Bottleneck is Payments Infrastructure",
+      "url": "https://thefintechtimes.com/ai-softwares-real-bottleneck-is-payments-infrastructure/"
     },
     {
-      "text": "**Puerto Rico's Unique Fintech Ecosystem** — Puerto Rico's fintech landscape is evolving with local payment solutions like ATH Móvil, reflecting a blend of US financial systems and Caribbean culture, crucial for economic recovery post-debt crisis.",
-      "url": "https://thefintechtimes.com/the-fintech-landscape-of-puerto-rico-in-2026/"
+      "text": "**Singapore Moves Closer Adopting Stablecoin** - (pymnts.com) Singapore Moves Closer to Adopting Stablecoin Regulatory Framework",
+      "url": "https://www.pymnts.com/cryptocurrency/2026/singapore-moves-closer-to-adopting-stablecoin-regulatory-framework/"
     },
     {
-      "text": "**Suriname Prepares for Oil Boom** — Suriname's fintech sector is gearing up for a significant economic shift as offshore oil production is set to begin, highlighting the need for improved financial services and digital infrastructure.",
-      "url": "https://thefintechtimes.com/suriname-can-fintech-prepare-the-country-for-an-oil-boom/"
+      "text": "**Elavon Fraud Controls Now Judged** - (thefintechtimes.com) Elavon: Fraud Controls are Now Judged by the Customers They Stop",
+      "url": "https://thefintechtimes.com/elavon-fraud-controls-are-now-judged-by-the-customers-they-stop/"
     },
     {
-      "text": "**LEAP 2026 Lacks Fintech News** — The LEAP 2026 conference in Saudi Arabia included a fintech track but did not feature any significant announcements, indicating a shift towards AI and digital infrastructure as primary focuses.",
-      "url": "https://thefintechtimes.com/leap-2026-opens-with-a-fintech-track-and-no-fintech-news/"
+      "text": "**Healthcare s Next Competitive Advantage** - (pymnts.com) Healthcare’s Next Competitive Advantage Isn’t Coverage. It’s Cash Flow.",
+      "url": "https://www.pymnts.com/healthcare/2026/healthcares-next-competitive-advantage-isnt-coverage-its-cash-flow/"
     }
   ],
-  "inputHash": "a412b72152e6e322c02f9dfa805b70e790c2451290a6ab6af6d26292652c6aa6",
+  "inputHash": "b61ea7d5d872b9c0d37d262a7579375200de82569fe24619c6dc34acecb4550c",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://thefintechtimes.com/the-fintech-landscape-of-puerto-rico-in-2026/",
-    "https://thefintechtimes.com/suriname-can-fintech-prepare-the-country-for-an-oil-boom/",
-    "https://thefintechtimes.com/leap-2026-opens-with-a-fintech-track-and-no-fintech-news/",
+    "https://thefintechtimes.com/rails-rules-reality-the-next-phase-of-fintech/",
+    "https://thefintechtimes.com/ai-softwares-real-bottleneck-is-payments-infrastructure/",
+    "https://www.pymnts.com/cryptocurrency/2026/singapore-moves-closer-to-adopting-stablecoin-regulatory-framework/",
+    "https://thefintechtimes.com/elavon-fraud-controls-are-now-judged-by-the-customers-they-stop/",
+    "https://www.pymnts.com/healthcare/2026/healthcares-next-competitive-advantage-isnt-coverage-its-cash-flow/",
     "https://www.paymentsdive.com/news/modernizing-payments-is-a-must/829074/",
-    "https://www.pymnts.com/news/artificial-intelligence/2026/ai-disruption-has-plenty-of-opinions-now-it-has-a-prediction-market/",
-    "https://www.finextra.com/newsarticle/48326/td-tests-tokenised-payments-through-project-agor",
     "https://www.paymentsdive.com/spons/beyond-the-booking-how-navan-scaled-global-card-issuing-with-embedded-fina/828874/",
     "https://www.fca.org.uk/news/press-releases/fca-boosts-support-innovative-firms-scale-grow",
     "https://www.fca.org.uk/news/blogs/making-compliance-simpler-opening-fca-handbook-new-api",
-    "https://www.pymnts.com/news/banking/2026/community-banks-could-get-500-million-back-from-the-fdic/"
-  ]
+    "https://www.pymnts.com/cybersecurity/fraud-prevention/2026/57-percent-of-firms-find-payment-fraud-after-settlement/"
+  ],
+  "note": "fallback (summary generation error)"
 }

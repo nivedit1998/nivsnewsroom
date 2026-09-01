@@ -1,34 +1,35 @@
 {
-  "generatedAt": "2026-08-31T16:15:15.832Z",
+  "generatedAt": "2026-09-01T13:34:52.210Z",
   "bullets": [
     {
       "text": "**Meta Ray-Ban update will block** - (9to5google.com) Meta Ray-Ban update will block the most obvious loophole for disabling the privacy LED",
       "url": "https://9to5google.com/2026/08/28/meta-ray-ban-smart-glasses-privacy-led-loophole-update/"
     },
     {
-      "text": "**Debian won& 8217 t ban** - (theverge.com) Debian won&#8217;t ban AI code from its Linux distribution",
-      "url": "https://www.theverge.com/tech/986789/linux-debian-generative-ai-policy"
-    },
-    {
-      "text": "**Nvidia s 3 5B MediaTek** - (techcrunch.com) Nvidia’s $3.5B MediaTek bet reveals its plan for tackling Big Tech’s AI chip buildout",
-      "url": "https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout/"
-    },
-    {
-      "text": "**How AI could make it** - (techcrunch.com) How AI could make it harder for governments to use hacking tools",
-      "url": "https://techcrunch.com/2026/08/31/how-ai-could-make-it-harder-for-governments-to-use-hacking-tools/"
-    },
-    {
       "text": "**cheap smartphone era over price** - (9to5google.com) The ‘cheap smartphone era is over’ and price hikes are ‘permanent,’ bleak forecast reveals",
       "url": "https://9to5google.com/2026/08/26/smartphone-price-hikes-forecast/"
+    },
+    {
+      "text": "**If space data centers feel** - (techcrunch.com) If space data centers feel far-fetched, why not interstellar travel?",
+      "url": "https://techcrunch.com/2026/09/01/if-space-data-centers-feel-far-fetched-why-not-interstellar-travel/"
+    },
+    {
+      "text": "**Apple will be launching its** - (9to5mac.com) Apple will be launching its first pair of smart glasses next year: Here’s what’s coming",
+      "url": "https://9to5mac.com/2026/08/29/apple-first-ai-smart-glasses-feature-release-date-roundup/"
+    },
+    {
+      "text": "**Google Rolls Out 3 New** - (cnet.com) Google Rolls Out 3 New Ways to Book Travel Using AI Mode in Search",
+      "url": "https://www.cnet.com/tech/services-and-software/google-rolls-out-3-new-ways-to-book-travel-using-ai-mode-in-search/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://9to5google.com/2026/08/28/meta-ray-ban-smart-glasses-privacy-led-loophole-update/",
-    "https://www.theverge.com/tech/986789/linux-debian-generative-ai-policy",
-    "https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout/",
-    "https://techcrunch.com/2026/08/31/how-ai-could-make-it-harder-for-governments-to-use-hacking-tools/",
-    "https://9to5google.com/2026/08/26/smartphone-price-hikes-forecast/"
-  ]
+    "https://9to5google.com/2026/08/26/smartphone-price-hikes-forecast/",
+    "https://techcrunch.com/2026/09/01/if-space-data-centers-feel-far-fetched-why-not-interstellar-travel/",
+    "https://9to5mac.com/2026/08/29/apple-first-ai-smart-glasses-feature-release-date-roundup/",
+    "https://www.cnet.com/tech/services-and-software/google-rolls-out-3-new-ways-to-book-travel-using-ai-mode-in-search/"
+  ],
+  "note": "fallback (summary generation error)"
 }
