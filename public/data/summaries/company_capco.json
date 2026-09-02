@@ -1,35 +1,30 @@
 {
-  "generatedAt": "2026-09-01T13:35:16.865Z",
+  "generatedAt": "2026-09-02T12:51:47.000Z",
   "bullets": [
     {
       "text": "**AI governance Preparing MAS s** - (capco.com) AI governance: Preparing for MAS's evolving expectations",
       "url": "https://www.capco.com/intelligence/capco-intelligence/ai-governance-mas-readiness"
     },
     {
+      "text": "**ECB ESRB s wake-up call** - (capco.com) The ECB and ESRB’s wake-up call: rethinking operational resilience for frontier AI",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/frontier-ai-cyber-risk-how-banks-should-rethink-dora"
+    },
+    {
       "text": "**Accelerating regulatory reporting fragmented architectures** - (capco.com) Accelerating regulatory reporting: from fragmented architectures to configuration-driven reporting",
       "url": "https://www.capco.com/intelligence/capco-intelligence/accelerating-regulatory-reporting"
     },
     {
-      "text": "**Chief Data Office Reimagined** - (capco.com) The Chief Data Office Reimagined",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/the-chief-data-office-reimagined"
-    },
-    {
       "text": "**cost pressure competitive advantage Rethinking** - (capco.com) From cost pressure to competitive advantage: Rethinking broker-dealer operations",
       "url": "https://www.capco.com/intelligence/capco-intelligence/rethinking-broker-dealer-operations"
-    },
-    {
-      "text": "**Beyond experimentation What FCA s** - (capco.com) Beyond experimentation: What the FCA’s Mills Review means for AI in wealth and asset management",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/fca-mills-review-ai-wealth-management"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://www.capco.com/intelligence/capco-intelligence/ai-governance-mas-readiness",
+    "https://www.capco.com/intelligence/capco-intelligence/frontier-ai-cyber-risk-how-banks-should-rethink-dora",
     "https://www.capco.com/intelligence/capco-intelligence/accelerating-regulatory-reporting",
-    "https://www.capco.com/intelligence/capco-intelligence/the-chief-data-office-reimagined",
-    "https://www.capco.com/intelligence/capco-intelligence/rethinking-broker-dealer-operations",
-    "https://www.capco.com/intelligence/capco-intelligence/fca-mills-review-ai-wealth-management"
+    "https://www.capco.com/intelligence/capco-intelligence/rethinking-broker-dealer-operations"
   ],
   "note": "fallback (summary generation error)"
 }

@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-09-01T13:35:10.896Z",
+  "generatedAt": "2026-09-02T12:51:41.398Z",
   "bullets": [
     {
-      "text": "**Rails Rules & Reality Next** - (thefintechtimes.com) Rails, Rules & Reality: The Next Phase of Fintech",
-      "url": "https://thefintechtimes.com/rails-rules-reality-the-next-phase-of-fintech/"
+      "text": "**BNPL Regulation Won t Change** - (thefintechtimes.com) BNPL Regulation Won’t Change the Biggest Thing BNPL Created",
+      "url": "https://thefintechtimes.com/bnpl-regulation-wont-change-the-biggest-thing-bnpl-created/"
     },
     {
-      "text": "**AI Software s Real Bottleneck** - (thefintechtimes.com) AI Software’s Real Bottleneck is Payments Infrastructure",
-      "url": "https://thefintechtimes.com/ai-softwares-real-bottleneck-is-payments-infrastructure/"
+      "text": "**Uzbekistan Post-Soviet Banking Central Asia** - (thefintechtimes.com) Uzbekistan: Post-Soviet Banking to Central Asia’s Fintech Potential",
+      "url": "https://thefintechtimes.com/uzbekistan-post-soviet-banking-to-central-asias-fintech-potential/"
     },
     {
-      "text": "**Singapore Moves Closer Adopting Stablecoin** - (pymnts.com) Singapore Moves Closer to Adopting Stablecoin Regulatory Framework",
-      "url": "https://www.pymnts.com/cryptocurrency/2026/singapore-moves-closer-to-adopting-stablecoin-regulatory-framework/"
+      "text": "**Industry Reacts BoE s Payments** - (thefintechtimes.com) Industry Reacts to the BoE’s Payments Innovation Objective",
+      "url": "https://thefintechtimes.com/industry-reacts-to-the-boes-payments-innovation-objective/"
     },
     {
-      "text": "**Elavon Fraud Controls Now Judged** - (thefintechtimes.com) Elavon: Fraud Controls are Now Judged by the Customers They Stop",
-      "url": "https://thefintechtimes.com/elavon-fraud-controls-are-now-judged-by-the-customers-they-stop/"
+      "text": "**Interoperability Now Drives Asia-Pacific s** - (pymnts.com) Interoperability Now Drives Asia-Pacific’s Real-Time Payments Agenda",
+      "url": "https://www.pymnts.com/real-time-payments/2026/interoperability-now-drives-asia-pacifics-real-time-payments-agenda/"
     },
     {
-      "text": "**Healthcare s Next Competitive Advantage** - (pymnts.com) Healthcare’s Next Competitive Advantage Isn’t Coverage. It’s Cash Flow.",
-      "url": "https://www.pymnts.com/healthcare/2026/healthcares-next-competitive-advantage-isnt-coverage-its-cash-flow/"
+      "text": "**Modernizing payments must** - (paymentsdive.com) Modernizing payments is a must",
+      "url": "https://www.paymentsdive.com/news/modernizing-payments-is-a-must/829074/"
     }
   ],
-  "inputHash": "b61ea7d5d872b9c0d37d262a7579375200de82569fe24619c6dc34acecb4550c",
+  "inputHash": "456295d9b57d59cc86748dab2dc65425dbaa3483f9c80ce793aa002fb264e34a",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://thefintechtimes.com/rails-rules-reality-the-next-phase-of-fintech/",
-    "https://thefintechtimes.com/ai-softwares-real-bottleneck-is-payments-infrastructure/",
-    "https://www.pymnts.com/cryptocurrency/2026/singapore-moves-closer-to-adopting-stablecoin-regulatory-framework/",
-    "https://thefintechtimes.com/elavon-fraud-controls-are-now-judged-by-the-customers-they-stop/",
-    "https://www.pymnts.com/healthcare/2026/healthcares-next-competitive-advantage-isnt-coverage-its-cash-flow/",
+    "https://thefintechtimes.com/bnpl-regulation-wont-change-the-biggest-thing-bnpl-created/",
+    "https://thefintechtimes.com/uzbekistan-post-soviet-banking-to-central-asias-fintech-potential/",
+    "https://thefintechtimes.com/industry-reacts-to-the-boes-payments-innovation-objective/",
+    "https://www.pymnts.com/real-time-payments/2026/interoperability-now-drives-asia-pacifics-real-time-payments-agenda/",
     "https://www.paymentsdive.com/news/modernizing-payments-is-a-must/829074/",
-    "https://www.paymentsdive.com/spons/beyond-the-booking-how-navan-scaled-global-card-issuing-with-embedded-fina/828874/",
     "https://www.fca.org.uk/news/press-releases/fca-boosts-support-innovative-firms-scale-grow",
+    "https://www.paymentsdive.com/spons/beyond-the-booking-how-navan-scaled-global-card-issuing-with-embedded-fina/828874/",
     "https://www.fca.org.uk/news/blogs/making-compliance-simpler-opening-fca-handbook-new-api",
-    "https://www.pymnts.com/cybersecurity/fraud-prevention/2026/57-percent-of-firms-find-payment-fraud-after-settlement/"
+    "https://www.pymnts.com/apple/2026/apples-new-ceo-hypes-product-launch-in-first-employee-address/",
+    "https://www.pymnts.com/commerce/ecommerce/2026/agentic-payments-turn-bot-traffic-into-a-merchant-revenue-channel/"
   ],
   "note": "fallback (summary generation error)"
 }

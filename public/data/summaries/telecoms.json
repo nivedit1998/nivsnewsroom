@@ -1,13 +1,17 @@
 {
-  "generatedAt": "2026-09-01T13:34:58.428Z",
+  "generatedAt": "2026-09-02T12:51:30.375Z",
   "bullets": [
     {
-      "text": "**Boldyn Networks 5G RedCap support** - (totaltele.com) Boldyn Networks’ 5G RedCap to support smart livestock monitoring in West Sussex",
-      "url": "https://totaltele.com/boldyn-networks-5g-redcap-to-support-smart-livestock-monitoring-in-west-sussex/"
+      "text": "**fibre built Now what** - (totaltele.com) The fibre is built. Now what?",
+      "url": "https://totaltele.com/the-fibre-is-built-now-what/"
     },
     {
-      "text": "**Huawei HP Inc sign landmark** - (totaltele.com) Huawei and HP Inc. sign landmark patent cross-licensing agreement",
-      "url": "https://totaltele.com/huawei-and-hp-inc-sign-landmark-patent-cross-licensing-agreement/"
+      "text": "**Why telecom industry acquisition problem** - (totaltele.com) Why the telecom industry acquisition problem is really about retention",
+      "url": "https://totaltele.com/why-the-telecom-industry-acquisition-problem-is-really-about-retention/"
+    },
+    {
+      "text": "**Boldyn Networks 5G RedCap support** - (totaltele.com) Boldyn Networks’ 5G RedCap to support smart livestock monitoring",
+      "url": "https://totaltele.com/boldyn-networks-5g-redcap-to-support-smart-livestock-monitoring/"
     },
     {
       "text": "**GSMA MWC26 Doha co-locate alongside** - (gsma.com) GSMA MWC26 Doha to co-locate alongside the ITU Plenipotentiary Conference in November 2026",
@@ -17,8 +21,9 @@
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://totaltele.com/boldyn-networks-5g-redcap-to-support-smart-livestock-monitoring-in-west-sussex/",
-    "https://totaltele.com/huawei-and-hp-inc-sign-landmark-patent-cross-licensing-agreement/",
+    "https://totaltele.com/the-fibre-is-built-now-what/",
+    "https://totaltele.com/why-the-telecom-industry-acquisition-problem-is-really-about-retention/",
+    "https://totaltele.com/boldyn-networks-5g-redcap-to-support-smart-livestock-monitoring/",
     "https://www.gsma.com/newsroom/press-release/gsma-mwc26-doha-to-co-locate-alongside-the-itu-plenipotentiary-conference-in-november-2026/"
   ],
   "note": "fallback (summary generation error)"
