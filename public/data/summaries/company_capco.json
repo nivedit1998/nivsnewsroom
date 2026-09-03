@@ -1,30 +1,35 @@
 {
-  "generatedAt": "2026-09-02T12:51:47.000Z",
+  "generatedAt": "2026-09-03T12:55:14.428Z",
   "bullets": [
     {
-      "text": "**AI governance Preparing MAS s** - (capco.com) AI governance: Preparing for MAS's evolving expectations",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/ai-governance-mas-readiness"
+      "text": "**APAC life insurance embracing AI** - (capco.com) APAC life insurance: embracing AI innovation, maintaining the human touch and closing the protection gap",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/apac-life-insurance"
     },
     {
-      "text": "**ECB ESRB s wake-up call** - (capco.com) The ECB and ESRB’s wake-up call: rethinking operational resilience for frontier AI",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/frontier-ai-cyber-risk-how-banks-should-rethink-dora"
+      "text": "**rise first-party fraud hidden threat** - (capco.com) The rise of first-party fraud: the hidden threat costing Canadian financial institutions millions",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/the-rise-of-first-party-fraud-the-hidden-threat"
     },
     {
-      "text": "**Accelerating regulatory reporting fragmented architectures** - (capco.com) Accelerating regulatory reporting: from fragmented architectures to configuration-driven reporting",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/accelerating-regulatory-reporting"
+      "text": "**Building data leadership APAC** - (capco.com) Building data leadership in APAC",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/building-data-leadership-in-apac"
     },
     {
-      "text": "**cost pressure competitive advantage Rethinking** - (capco.com) From cost pressure to competitive advantage: Rethinking broker-dealer operations",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/rethinking-broker-dealer-operations"
+      "text": "**great advisory reset** - (capco.com) The great advisory reset",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/the-great-advisory-reset"
+    },
+    {
+      "text": "**Addressing cost reduction challenge banking** - (capco.com) Addressing the cost reduction challenge in banking",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/addressing-the-cost-reduction-challenge-in-banking"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://www.capco.com/intelligence/capco-intelligence/ai-governance-mas-readiness",
-    "https://www.capco.com/intelligence/capco-intelligence/frontier-ai-cyber-risk-how-banks-should-rethink-dora",
-    "https://www.capco.com/intelligence/capco-intelligence/accelerating-regulatory-reporting",
-    "https://www.capco.com/intelligence/capco-intelligence/rethinking-broker-dealer-operations"
+    "https://www.capco.com/intelligence/capco-intelligence/apac-life-insurance",
+    "https://www.capco.com/intelligence/capco-intelligence/the-rise-of-first-party-fraud-the-hidden-threat",
+    "https://www.capco.com/intelligence/capco-intelligence/building-data-leadership-in-apac",
+    "https://www.capco.com/intelligence/capco-intelligence/the-great-advisory-reset",
+    "https://www.capco.com/intelligence/capco-intelligence/addressing-the-cost-reduction-challenge-in-banking"
   ],
   "note": "fallback (summary generation error)"
 }

@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-09-02T12:51:41.398Z",
+  "generatedAt": "2026-09-03T12:55:08.586Z",
   "bullets": [
     {
       "text": "**BNPL Regulation Won t Change** - (thefintechtimes.com) BNPL Regulation Won’t Change the Biggest Thing BNPL Created",
       "url": "https://thefintechtimes.com/bnpl-regulation-wont-change-the-biggest-thing-bnpl-created/"
     },
     {
-      "text": "**Uzbekistan Post-Soviet Banking Central Asia** - (thefintechtimes.com) Uzbekistan: Post-Soviet Banking to Central Asia’s Fintech Potential",
-      "url": "https://thefintechtimes.com/uzbekistan-post-soviet-banking-to-central-asias-fintech-potential/"
+      "text": "**Why Future AI Banking Depends** - (thefintechtimes.com) Why the Future of AI in Banking Depends on Trust, not Trials",
+      "url": "https://thefintechtimes.com/why-the-future-of-ai-in-banking-depends-on-trust-not-trials/"
     },
     {
-      "text": "**Industry Reacts BoE s Payments** - (thefintechtimes.com) Industry Reacts to the BoE’s Payments Innovation Objective",
-      "url": "https://thefintechtimes.com/industry-reacts-to-the-boes-payments-innovation-objective/"
+      "text": "**Trinidad Tobago Preparing Payments Revolution** - (thefintechtimes.com) Trinidad and Tobago: Preparing for Payments Revolution",
+      "url": "https://thefintechtimes.com/trinidad-and-tobago-preparing-for-payments-revolution/"
     },
     {
-      "text": "**Interoperability Now Drives Asia-Pacific s** - (pymnts.com) Interoperability Now Drives Asia-Pacific’s Real-Time Payments Agenda",
-      "url": "https://www.pymnts.com/real-time-payments/2026/interoperability-now-drives-asia-pacifics-real-time-payments-agenda/"
+      "text": "**ACI buys UK payments tech** - (paymentsdive.com) ACI buys UK payments tech firm",
+      "url": "https://www.paymentsdive.com/news/aci-buys-uk-payments-tech-firm/829436/"
     },
     {
-      "text": "**Modernizing payments must** - (paymentsdive.com) Modernizing payments is a must",
-      "url": "https://www.paymentsdive.com/news/modernizing-payments-is-a-must/829074/"
+      "text": "**Banks undertake stablecoin effort** - (paymentsdive.com) Banks undertake stablecoin effort",
+      "url": "https://www.paymentsdive.com/news/bofa-wells-fargo-citi-back-upcoming-stablecoin-goldman-pnc-capital-one/829388/"
     }
   ],
-  "inputHash": "456295d9b57d59cc86748dab2dc65425dbaa3483f9c80ce793aa002fb264e34a",
+  "inputHash": "a757bb87fc7cc474173eaf582bb4a8e719758b1af6efec2550fcbba72ee03a45",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://thefintechtimes.com/bnpl-regulation-wont-change-the-biggest-thing-bnpl-created/",
-    "https://thefintechtimes.com/uzbekistan-post-soviet-banking-to-central-asias-fintech-potential/",
-    "https://thefintechtimes.com/industry-reacts-to-the-boes-payments-innovation-objective/",
-    "https://www.pymnts.com/real-time-payments/2026/interoperability-now-drives-asia-pacifics-real-time-payments-agenda/",
+    "https://thefintechtimes.com/why-the-future-of-ai-in-banking-depends-on-trust-not-trials/",
+    "https://thefintechtimes.com/trinidad-and-tobago-preparing-for-payments-revolution/",
+    "https://www.paymentsdive.com/news/aci-buys-uk-payments-tech-firm/829436/",
+    "https://www.paymentsdive.com/news/bofa-wells-fargo-citi-back-upcoming-stablecoin-goldman-pnc-capital-one/829388/",
     "https://www.paymentsdive.com/news/modernizing-payments-is-a-must/829074/",
     "https://www.fca.org.uk/news/press-releases/fca-boosts-support-innovative-firms-scale-grow",
-    "https://www.paymentsdive.com/spons/beyond-the-booking-how-navan-scaled-global-card-issuing-with-embedded-fina/828874/",
     "https://www.fca.org.uk/news/blogs/making-compliance-simpler-opening-fca-handbook-new-api",
-    "https://www.pymnts.com/apple/2026/apples-new-ceo-hypes-product-launch-in-first-employee-address/",
-    "https://www.pymnts.com/commerce/ecommerce/2026/agentic-payments-turn-bot-traffic-into-a-merchant-revenue-channel/"
+    "https://www.pymnts.com/smbs/2026/digital-sales-give-small-businesses-a-map-for-growth/",
+    "https://www.pymnts.com/cybersecurity/2026/thomson-reuters-reveals-hack-of-court-case-management-system/"
   ],
   "note": "fallback (summary generation error)"
 }

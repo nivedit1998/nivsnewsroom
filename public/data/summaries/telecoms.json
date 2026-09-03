@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T12:51:30.375Z",
+  "generatedAt": "2026-09-03T12:54:58.540Z",
   "bullets": [
     {
       "text": "**fibre built Now what** - (totaltele.com) The fibre is built. Now what?",
@@ -12,10 +12,6 @@
     {
       "text": "**Boldyn Networks 5G RedCap support** - (totaltele.com) Boldyn Networks’ 5G RedCap to support smart livestock monitoring",
       "url": "https://totaltele.com/boldyn-networks-5g-redcap-to-support-smart-livestock-monitoring/"
-    },
-    {
-      "text": "**GSMA MWC26 Doha co-locate alongside** - (gsma.com) GSMA MWC26 Doha to co-locate alongside the ITU Plenipotentiary Conference in November 2026",
-      "url": "https://www.gsma.com/newsroom/press-release/gsma-mwc26-doha-to-co-locate-alongside-the-itu-plenipotentiary-conference-in-november-2026/"
     }
   ],
   "promptVersion": "insights-v2",
@@ -23,8 +19,7 @@
   "contextUrls": [
     "https://totaltele.com/the-fibre-is-built-now-what/",
     "https://totaltele.com/why-the-telecom-industry-acquisition-problem-is-really-about-retention/",
-    "https://totaltele.com/boldyn-networks-5g-redcap-to-support-smart-livestock-monitoring/",
-    "https://www.gsma.com/newsroom/press-release/gsma-mwc26-doha-to-co-locate-alongside-the-itu-plenipotentiary-conference-in-november-2026/"
+    "https://totaltele.com/boldyn-networks-5g-redcap-to-support-smart-livestock-monitoring/"
   ],
   "note": "fallback (summary generation error)"
 }

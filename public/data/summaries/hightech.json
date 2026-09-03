@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T12:51:21.891Z",
+  "generatedAt": "2026-09-03T12:54:48.034Z",
   "bullets": [
     {
       "text": "**Perplexity launches privacy-minded hybrid compute** - (9to5mac.com) Perplexity launches privacy-minded ‘hybrid compute’ AI feature for Mac",
@@ -10,16 +10,16 @@
       "url": "https://9to5google.com/2026/08/28/meta-ray-ban-smart-glasses-privacy-led-loophole-update/"
     },
     {
-      "text": "**AIR raises 50M help companies** - (techcrunch.com) AIR raises $50M to help companies vet the skills and add-ons AI agents use",
-      "url": "https://techcrunch.com/2026/09/01/air-raises-50m-to-help-companies-vet-the-skills-and-add-ons-ai-agents-use/"
+      "text": "**Nvidia buying Hugging Face almost** - (theverge.com) Nvidia is buying Hugging Face for almost $13 billion",
+      "url": "https://www.theverge.com/tech/985474/nvidia-buying-hugging-face-deal"
     },
     {
-      "text": "**cheap smartphone era over price** - (9to5google.com) The ‘cheap smartphone era is over’ and price hikes are ‘permanent,’ bleak forecast reveals",
-      "url": "https://9to5google.com/2026/08/26/smartphone-price-hikes-forecast/"
+      "text": "**Uber Wayve Launch London s** - (cnet.com) Uber and Wayve Launch London’s First Public Robotaxi Service",
+      "url": "https://www.cnet.com/roadshow/automobiles/uber-wayve-launch-londons-first-public-robotaxi-service/"
     },
     {
-      "text": "**Apple will be launching its** - (9to5mac.com) Apple will be launching its first pair of smart glasses next year: Here’s what’s coming",
-      "url": "https://9to5mac.com/2026/08/29/apple-first-ai-smart-glasses-feature-release-date-roundup/"
+      "text": "**India s richest man now** - (techcrunch.com) India’s richest man now wants to turn aging computers into AI-ready PCs",
+      "url": "https://techcrunch.com/2026/09/02/indias-richest-man-now-wants-to-turn-aging-computers-into-ai-ready-pcs/"
     }
   ],
   "promptVersion": "insights-v2",
@@ -27,9 +27,9 @@
   "contextUrls": [
     "https://9to5mac.com/2026/09/01/perplexity-launches-privacy-minded-hybrid-compute-ai-feature-for-mac/",
     "https://9to5google.com/2026/08/28/meta-ray-ban-smart-glasses-privacy-led-loophole-update/",
-    "https://techcrunch.com/2026/09/01/air-raises-50m-to-help-companies-vet-the-skills-and-add-ons-ai-agents-use/",
-    "https://9to5google.com/2026/08/26/smartphone-price-hikes-forecast/",
-    "https://9to5mac.com/2026/08/29/apple-first-ai-smart-glasses-feature-release-date-roundup/"
+    "https://www.theverge.com/tech/985474/nvidia-buying-hugging-face-deal",
+    "https://www.cnet.com/roadshow/automobiles/uber-wayve-launch-londons-first-public-robotaxi-service/",
+    "https://techcrunch.com/2026/09/02/indias-richest-man-now-wants-to-turn-aging-computers-into-ai-ready-pcs/"
   ],
   "note": "fallback (summary generation error)"
 }
