@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-09-03T12:55:08.586Z",
+  "generatedAt": "2026-09-04T12:48:53.975Z",
   "bullets": [
-    {
-      "text": "**BNPL Regulation Won t Change** - (thefintechtimes.com) BNPL Regulation Won’t Change the Biggest Thing BNPL Created",
-      "url": "https://thefintechtimes.com/bnpl-regulation-wont-change-the-biggest-thing-bnpl-created/"
-    },
-    {
-      "text": "**Why Future AI Banking Depends** - (thefintechtimes.com) Why the Future of AI in Banking Depends on Trust, not Trials",
-      "url": "https://thefintechtimes.com/why-the-future-of-ai-in-banking-depends-on-trust-not-trials/"
-    },
-    {
-      "text": "**Trinidad Tobago Preparing Payments Revolution** - (thefintechtimes.com) Trinidad and Tobago: Preparing for Payments Revolution",
-      "url": "https://thefintechtimes.com/trinidad-and-tobago-preparing-for-payments-revolution/"
-    },
     {
       "text": "**ACI buys UK payments tech** - (paymentsdive.com) ACI buys UK payments tech firm",
       "url": "https://www.paymentsdive.com/news/aci-buys-uk-payments-tech-firm/829436/"
     },
     {
-      "text": "**Banks undertake stablecoin effort** - (paymentsdive.com) Banks undertake stablecoin effort",
-      "url": "https://www.paymentsdive.com/news/bofa-wells-fargo-citi-back-upcoming-stablecoin-goldman-pnc-capital-one/829388/"
+      "text": "**ACI Worldwide Add Microservices Card** - (pymnts.com) ACI Worldwide to Add Microservices Card Switching Through Cranium Acquisition",
+      "url": "https://www.pymnts.com/news/payment-methods/2026/aci-worldwide-to-add-microservices-card-switching-through-cranium-acquisition/"
+    },
+    {
+      "text": "**Stablecoins Move Fast Last Mile** - (thefintechtimes.com) Stablecoins Move Fast. The Last Mile Still Breaks",
+      "url": "https://thefintechtimes.com/stablecoins-move-fast-the-last-mile-still-breaks/"
+    },
+    {
+      "text": "**Why Card-Only Checkout Loses Customers** - (thefintechtimes.com) Why a Card-Only Checkout Loses Customers in Latin America",
+      "url": "https://thefintechtimes.com/why-a-card-only-checkout-loses-customers-in-latin-america/"
+    },
+    {
+      "text": "**MTD s First Deadline Hard** - (thefintechtimes.com) MTD’s First Deadline: The Hard Part is the System, Not the Tax",
+      "url": "https://thefintechtimes.com/mtds-first-deadline-the-hard-part-is-the-system-not-the-tax/"
     }
   ],
-  "inputHash": "a757bb87fc7cc474173eaf582bb4a8e719758b1af6efec2550fcbba72ee03a45",
+  "inputHash": "271c5b0ec618f5b830ab7ff302bb9e1fe9b7f95650f6628eef6f3fb55db68744",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://thefintechtimes.com/bnpl-regulation-wont-change-the-biggest-thing-bnpl-created/",
-    "https://thefintechtimes.com/why-the-future-of-ai-in-banking-depends-on-trust-not-trials/",
-    "https://thefintechtimes.com/trinidad-and-tobago-preparing-for-payments-revolution/",
     "https://www.paymentsdive.com/news/aci-buys-uk-payments-tech-firm/829436/",
+    "https://www.pymnts.com/news/payment-methods/2026/aci-worldwide-to-add-microservices-card-switching-through-cranium-acquisition/",
+    "https://thefintechtimes.com/stablecoins-move-fast-the-last-mile-still-breaks/",
+    "https://thefintechtimes.com/why-a-card-only-checkout-loses-customers-in-latin-america/",
+    "https://thefintechtimes.com/mtds-first-deadline-the-hard-part-is-the-system-not-the-tax/",
     "https://www.paymentsdive.com/news/bofa-wells-fargo-citi-back-upcoming-stablecoin-goldman-pnc-capital-one/829388/",
-    "https://www.paymentsdive.com/news/modernizing-payments-is-a-must/829074/",
     "https://www.fca.org.uk/news/press-releases/fca-boosts-support-innovative-firms-scale-grow",
-    "https://www.fca.org.uk/news/blogs/making-compliance-simpler-opening-fca-handbook-new-api",
-    "https://www.pymnts.com/smbs/2026/digital-sales-give-small-businesses-a-map-for-growth/",
-    "https://www.pymnts.com/cybersecurity/2026/thomson-reuters-reveals-hack-of-court-case-management-system/"
+    "https://www.pymnts.com/cybersecurity/identity-theft/2026/fbi-investigates-possible-breach-of-millions-of-american-ids/",
+    "https://www.paymentsdive.com/news/stripe-taps-new-stablecoin-executive/829509/",
+    "https://www.fca.org.uk/news/blogs/making-compliance-simpler-opening-fca-handbook-new-api"
   ],
   "note": "fallback (summary generation error)"
 }

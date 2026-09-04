@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T12:54:58.540Z",
+  "generatedAt": "2026-09-04T12:48:39.969Z",
   "bullets": [
     {
       "text": "**fibre built Now what** - (totaltele.com) The fibre is built. Now what?",
@@ -10,8 +10,12 @@
       "url": "https://totaltele.com/why-the-telecom-industry-acquisition-problem-is-really-about-retention/"
     },
     {
-      "text": "**Boldyn Networks 5G RedCap support** - (totaltele.com) Boldyn Networks’ 5G RedCap to support smart livestock monitoring",
-      "url": "https://totaltele.com/boldyn-networks-5g-redcap-to-support-smart-livestock-monitoring/"
+      "text": "**Scaling satellite connectivity why interoperability** - (gsma.com) Scaling satellite connectivity: why interoperability matters for NTN’s next phase",
+      "url": "https://www.gsma.com/newsroom/article/scaling-satellite-connectivity-why-interoperability-matters-for-ntns-next-phase/"
+    },
+    {
+      "text": "**Huawei latest SingleRAN 22 1** - (totaltele.com) Huawei latest SingleRAN 22.1 launch targets the Agentverse",
+      "url": "https://totaltele.com/huawei-latest-singleran-22-1-launch-targets-the-agentverse/"
     }
   ],
   "promptVersion": "insights-v2",
@@ -19,7 +23,8 @@
   "contextUrls": [
     "https://totaltele.com/the-fibre-is-built-now-what/",
     "https://totaltele.com/why-the-telecom-industry-acquisition-problem-is-really-about-retention/",
-    "https://totaltele.com/boldyn-networks-5g-redcap-to-support-smart-livestock-monitoring/"
+    "https://www.gsma.com/newsroom/article/scaling-satellite-connectivity-why-interoperability-matters-for-ntns-next-phase/",
+    "https://totaltele.com/huawei-latest-singleran-22-1-launch-targets-the-agentverse/"
   ],
   "note": "fallback (summary generation error)"
 }

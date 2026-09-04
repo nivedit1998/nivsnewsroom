@@ -1,19 +1,15 @@
 {
-  "generatedAt": "2026-08-26T15:22:29.352Z",
+  "generatedAt": "2026-09-04T12:49:04.485Z",
   "bullets": [
     {
-      "text": "Landlord Tax Calculator Launched — A new online tool helps landlords estimate their tax liabilities, addressing common issues of overpaying or underpaying taxes due to complex regulations. This aids individual landlords in managing their finances better.",
-      "url": "https://www.sage.com/en-gb/blog/landlord-tax-calculator/"
-    },
-    {
-      "text": "AI Skills Gap Highlighted — Nearly half of accountants report a lack of skilled personnel as a major challenge in adopting artificial intelligence, impacting the efficiency of accountancy practices. This affects job security and career development within the profession.",
-      "url": "https://www.sage.com/en-gb/blog/ai-skills-gap-accountants-bookkeepers/"
+      "text": "**What employee experience why HR** - (sage.com) What is employee experience and why is HR struggling to deliver it?",
+      "url": "https://www.sage.com/en-gb/blog/what-is-employee-experience/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://www.sage.com/en-gb/blog/landlord-tax-calculator/",
-    "https://www.sage.com/en-gb/blog/ai-skills-gap-accountants-bookkeepers/"
-  ]
+    "https://www.sage.com/en-gb/blog/what-is-employee-experience/"
+  ],
+  "note": "fallback (summary generation error)"
 }

@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-09-03T12:54:48.034Z",
+  "generatedAt": "2026-09-04T12:48:30.611Z",
   "bullets": [
+    {
+      "text": "**AI outage Claude ChatGPT Grok** - (9to5mac.com) AI outage: Claude, ChatGPT, and Grok are currently down for many users [U]",
+      "url": "https://9to5mac.com/2026/09/03/chatgpt-and-codex-are-experiencing-an-outage-for-many-users/"
+    },
     {
       "text": "**Perplexity launches privacy-minded hybrid compute** - (9to5mac.com) Perplexity launches privacy-minded ‘hybrid compute’ AI feature for Mac",
       "url": "https://9to5mac.com/2026/09/01/perplexity-launches-privacy-minded-hybrid-compute-ai-feature-for-mac/"
+    },
+    {
+      "text": "**Ollie betting its focus privacy** - (techcrunch.com) Ollie is betting its focus on privacy can help it win the AI assistant race",
+      "url": "https://techcrunch.com/2026/09/03/ollie-is-betting-privacy-can-win-the-ai-assistant-race/"
     },
     {
       "text": "**Meta Ray-Ban update will block** - (9to5google.com) Meta Ray-Ban update will block the most obvious loophole for disabling the privacy LED",
       "url": "https://9to5google.com/2026/08/28/meta-ray-ban-smart-glasses-privacy-led-loophole-update/"
     },
     {
-      "text": "**Nvidia buying Hugging Face almost** - (theverge.com) Nvidia is buying Hugging Face for almost $13 billion",
-      "url": "https://www.theverge.com/tech/985474/nvidia-buying-hugging-face-deal"
-    },
-    {
-      "text": "**Uber Wayve Launch London s** - (cnet.com) Uber and Wayve Launch London’s First Public Robotaxi Service",
-      "url": "https://www.cnet.com/roadshow/automobiles/uber-wayve-launch-londons-first-public-robotaxi-service/"
-    },
-    {
-      "text": "**India s richest man now** - (techcrunch.com) India’s richest man now wants to turn aging computers into AI-ready PCs",
-      "url": "https://techcrunch.com/2026/09/02/indias-richest-man-now-wants-to-turn-aging-computers-into-ai-ready-pcs/"
+      "text": "**Meta paying peek how you** - (techcrunch.com) Meta is paying to peek at how you use their latest AI model",
+      "url": "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
+    "https://9to5mac.com/2026/09/03/chatgpt-and-codex-are-experiencing-an-outage-for-many-users/",
     "https://9to5mac.com/2026/09/01/perplexity-launches-privacy-minded-hybrid-compute-ai-feature-for-mac/",
+    "https://techcrunch.com/2026/09/03/ollie-is-betting-privacy-can-win-the-ai-assistant-race/",
     "https://9to5google.com/2026/08/28/meta-ray-ban-smart-glasses-privacy-led-loophole-update/",
-    "https://www.theverge.com/tech/985474/nvidia-buying-hugging-face-deal",
-    "https://www.cnet.com/roadshow/automobiles/uber-wayve-launch-londons-first-public-robotaxi-service/",
-    "https://techcrunch.com/2026/09/02/indias-richest-man-now-wants-to-turn-aging-computers-into-ai-ready-pcs/"
+    "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/"
   ],
   "note": "fallback (summary generation error)"
 }
