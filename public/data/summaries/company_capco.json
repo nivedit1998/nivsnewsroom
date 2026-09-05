@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T12:49:01.966Z",
+  "generatedAt": "2026-09-05T11:54:57.351Z",
   "bullets": [
     {
       "text": "**APAC life insurance embracing AI** - (capco.com) APAC life insurance: embracing AI innovation, maintaining the human touch and closing the protection gap",
@@ -18,8 +18,8 @@
       "url": "https://www.capco.com/intelligence/capco-intelligence/the-great-advisory-reset"
     },
     {
-      "text": "**Addressing cost reduction challenge banking** - (capco.com) Addressing the cost reduction challenge in banking",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/addressing-the-cost-reduction-challenge-in-banking"
+      "text": "**ECB ESRB s wake-up call** - (capco.com) The ECB and ESRB’s wake-up call: rethinking operational resilience for frontier AI",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/frontier-ai-cyber-risk-how-banks-should-rethink-dora"
     }
   ],
   "promptVersion": "insights-v2",
@@ -29,7 +29,7 @@
     "https://www.capco.com/intelligence/capco-intelligence/the-rise-of-first-party-fraud-the-hidden-threat",
     "https://www.capco.com/intelligence/capco-intelligence/building-data-leadership-in-apac",
     "https://www.capco.com/intelligence/capco-intelligence/the-great-advisory-reset",
-    "https://www.capco.com/intelligence/capco-intelligence/addressing-the-cost-reduction-challenge-in-banking"
+    "https://www.capco.com/intelligence/capco-intelligence/frontier-ai-cyber-risk-how-banks-should-rethink-dora"
   ],
   "note": "fallback (summary generation error)"
 }

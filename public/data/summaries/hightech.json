@@ -1,6 +1,10 @@
 {
-  "generatedAt": "2026-09-04T12:48:30.611Z",
+  "generatedAt": "2026-09-05T11:54:00.510Z",
   "bullets": [
+    {
+      "text": "**Automakers Want Congress Ban Chinese-Made** - (cnet.com) Automakers Want Congress to Ban Chinese-Made Cars, Citing Data Privacy",
+      "url": "https://www.cnet.com/home/electric-vehicles/automakers-want-congress-to-ban-chinese-made-cars-citing-data-privacy/"
+    },
     {
       "text": "**AI outage Claude ChatGPT Grok** - (9to5mac.com) AI outage: Claude, ChatGPT, and Grok are currently down for many users [U]",
       "url": "https://9to5mac.com/2026/09/03/chatgpt-and-codex-are-experiencing-an-outage-for-many-users/"
@@ -10,26 +14,22 @@
       "url": "https://9to5mac.com/2026/09/01/perplexity-launches-privacy-minded-hybrid-compute-ai-feature-for-mac/"
     },
     {
-      "text": "**Ollie betting its focus privacy** - (techcrunch.com) Ollie is betting its focus on privacy can help it win the AI assistant race",
-      "url": "https://techcrunch.com/2026/09/03/ollie-is-betting-privacy-can-win-the-ai-assistant-race/"
+      "text": "**OpenAI s rogue agents keep** - (techcrunch.com) OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
+      "url": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/"
     },
     {
-      "text": "**Meta Ray-Ban update will block** - (9to5google.com) Meta Ray-Ban update will block the most obvious loophole for disabling the privacy LED",
-      "url": "https://9to5google.com/2026/08/28/meta-ray-ban-smart-glasses-privacy-led-loophole-update/"
-    },
-    {
-      "text": "**Meta paying peek how you** - (techcrunch.com) Meta is paying to peek at how you use their latest AI model",
-      "url": "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/"
+      "text": "**Another swarm OpenAI agents reached** - (techcrunch.com) Another swarm of OpenAI agents reached the open internet without the frontier lab’s knowledge",
+      "url": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
+    "https://www.cnet.com/home/electric-vehicles/automakers-want-congress-to-ban-chinese-made-cars-citing-data-privacy/",
     "https://9to5mac.com/2026/09/03/chatgpt-and-codex-are-experiencing-an-outage-for-many-users/",
     "https://9to5mac.com/2026/09/01/perplexity-launches-privacy-minded-hybrid-compute-ai-feature-for-mac/",
-    "https://techcrunch.com/2026/09/03/ollie-is-betting-privacy-can-win-the-ai-assistant-race/",
-    "https://9to5google.com/2026/08/28/meta-ray-ban-smart-glasses-privacy-led-loophole-update/",
-    "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/"
+    "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
+    "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/"
   ],
   "note": "fallback (summary generation error)"
 }

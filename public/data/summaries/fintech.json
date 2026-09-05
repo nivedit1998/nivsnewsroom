@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-09-04T12:48:53.975Z",
+  "generatedAt": "2026-09-05T11:54:51.401Z",
   "bullets": [
+    {
+      "text": "**Zambia Mobile Money Opened Doors** - (thefintechtimes.com) Zambia: Mobile Money Opened Doors. Fintech Has to Go Further",
+      "url": "https://thefintechtimes.com/zambia-mobile-money-opened-doors-fintech-has-to-go-further/"
+    },
     {
       "text": "**ACI buys UK payments tech** - (paymentsdive.com) ACI buys UK payments tech firm",
       "url": "https://www.paymentsdive.com/news/aci-buys-uk-payments-tech-firm/829436/"
     },
     {
-      "text": "**ACI Worldwide Add Microservices Card** - (pymnts.com) ACI Worldwide to Add Microservices Card Switching Through Cranium Acquisition",
-      "url": "https://www.pymnts.com/news/payment-methods/2026/aci-worldwide-to-add-microservices-card-switching-through-cranium-acquisition/"
+      "text": "**Oliver Wyman s Hiten Patel** - (thefintechtimes.com) Oliver Wyman’s Hiten Patel on the $45 billion Tokenisation Shift",
+      "url": "https://thefintechtimes.com/oliver-wymans-hiten-patel-on-the-45-billion-tokenisation-shift/"
     },
     {
-      "text": "**Stablecoins Move Fast Last Mile** - (thefintechtimes.com) Stablecoins Move Fast. The Last Mile Still Breaks",
-      "url": "https://thefintechtimes.com/stablecoins-move-fast-the-last-mile-still-breaks/"
+      "text": "**Yuno Fast-Tracks Merchant Access Revolut** - (pymnts.com) Yuno Fast-Tracks Merchant Access to Revolut Payment Stack",
+      "url": "https://www.pymnts.com/partnerships/2026/yuno-fast-tracks-merchant-access-revolut-payment-stack/"
     },
     {
-      "text": "**Why Card-Only Checkout Loses Customers** - (thefintechtimes.com) Why a Card-Only Checkout Loses Customers in Latin America",
-      "url": "https://thefintechtimes.com/why-a-card-only-checkout-loses-customers-in-latin-america/"
-    },
-    {
-      "text": "**MTD s First Deadline Hard** - (thefintechtimes.com) MTD’s First Deadline: The Hard Part is the System, Not the Tax",
-      "url": "https://thefintechtimes.com/mtds-first-deadline-the-hard-part-is-the-system-not-the-tax/"
+      "text": "**Banks undertake stablecoin effort** - (paymentsdive.com) Banks undertake stablecoin effort",
+      "url": "https://www.paymentsdive.com/news/bofa-wells-fargo-citi-back-upcoming-stablecoin-goldman-pnc-capital-one/829388/"
     }
   ],
-  "inputHash": "271c5b0ec618f5b830ab7ff302bb9e1fe9b7f95650f6628eef6f3fb55db68744",
+  "inputHash": "932f0ccac952c95a417d68f2fbd54030c6612302bce70926ac2086aca9a1878c",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
+    "https://thefintechtimes.com/zambia-mobile-money-opened-doors-fintech-has-to-go-further/",
     "https://www.paymentsdive.com/news/aci-buys-uk-payments-tech-firm/829436/",
-    "https://www.pymnts.com/news/payment-methods/2026/aci-worldwide-to-add-microservices-card-switching-through-cranium-acquisition/",
-    "https://thefintechtimes.com/stablecoins-move-fast-the-last-mile-still-breaks/",
-    "https://thefintechtimes.com/why-a-card-only-checkout-loses-customers-in-latin-america/",
-    "https://thefintechtimes.com/mtds-first-deadline-the-hard-part-is-the-system-not-the-tax/",
+    "https://thefintechtimes.com/oliver-wymans-hiten-patel-on-the-45-billion-tokenisation-shift/",
+    "https://www.pymnts.com/partnerships/2026/yuno-fast-tracks-merchant-access-revolut-payment-stack/",
     "https://www.paymentsdive.com/news/bofa-wells-fargo-citi-back-upcoming-stablecoin-goldman-pnc-capital-one/829388/",
+    "https://thefintechtimes.com/the-1-5tn-wealth-shift-capgemini-on-the-personalisation-gap/",
     "https://www.fca.org.uk/news/press-releases/fca-boosts-support-innovative-firms-scale-grow",
-    "https://www.pymnts.com/cybersecurity/identity-theft/2026/fbi-investigates-possible-breach-of-millions-of-american-ids/",
     "https://www.paymentsdive.com/news/stripe-taps-new-stablecoin-executive/829509/",
-    "https://www.fca.org.uk/news/blogs/making-compliance-simpler-opening-fca-handbook-new-api"
+    "https://www.fca.org.uk/news/blogs/making-compliance-simpler-opening-fca-handbook-new-api",
+    "https://www.finextra.com/pressarticle/110816/nexi-jcb-and-unionpay-team-on-italian-public-transport-payments"
   ],
   "note": "fallback (summary generation error)"
 }
