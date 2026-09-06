@@ -1,9 +1,13 @@
 {
-  "generatedAt": "2026-09-05T11:54:51.401Z",
+  "generatedAt": "2026-09-06T12:13:33.166Z",
   "bullets": [
     {
-      "text": "**Zambia Mobile Money Opened Doors** - (thefintechtimes.com) Zambia: Mobile Money Opened Doors. Fintech Has to Go Further",
-      "url": "https://thefintechtimes.com/zambia-mobile-money-opened-doors-fintech-has-to-go-further/"
+      "text": "**Cross-Border Payments Cannot Afford Move** - (thefintechtimes.com) Cross-Border Payments Cannot Afford to Move at Yesterday’s Speed",
+      "url": "https://thefintechtimes.com/cross-border-payments-cannot-afford-to-move-at-yesterdays-speed/"
+    },
+    {
+      "text": "**Inside QNB s Transformation Najla** - (thefintechtimes.com) Inside QNB’s Transformation: Najla Al-Mutawa on People, Processes, and Technology",
+      "url": "https://thefintechtimes.com/inside-qnbs-transformation-najla-al-mutawa-on-people-processes-and-technology/"
     },
     {
       "text": "**ACI buys UK payments tech** - (paymentsdive.com) ACI buys UK payments tech firm",
@@ -16,25 +20,21 @@
     {
       "text": "**Yuno Fast-Tracks Merchant Access Revolut** - (pymnts.com) Yuno Fast-Tracks Merchant Access to Revolut Payment Stack",
       "url": "https://www.pymnts.com/partnerships/2026/yuno-fast-tracks-merchant-access-revolut-payment-stack/"
-    },
-    {
-      "text": "**Banks undertake stablecoin effort** - (paymentsdive.com) Banks undertake stablecoin effort",
-      "url": "https://www.paymentsdive.com/news/bofa-wells-fargo-citi-back-upcoming-stablecoin-goldman-pnc-capital-one/829388/"
     }
   ],
-  "inputHash": "932f0ccac952c95a417d68f2fbd54030c6612302bce70926ac2086aca9a1878c",
+  "inputHash": "aaadf9f55ff7e82ac13e64134a989e49ee50ce291aec155bd82fd3469e8b8a43",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://thefintechtimes.com/zambia-mobile-money-opened-doors-fintech-has-to-go-further/",
+    "https://thefintechtimes.com/cross-border-payments-cannot-afford-to-move-at-yesterdays-speed/",
+    "https://thefintechtimes.com/inside-qnbs-transformation-najla-al-mutawa-on-people-processes-and-technology/",
     "https://www.paymentsdive.com/news/aci-buys-uk-payments-tech-firm/829436/",
     "https://thefintechtimes.com/oliver-wymans-hiten-patel-on-the-45-billion-tokenisation-shift/",
     "https://www.pymnts.com/partnerships/2026/yuno-fast-tracks-merchant-access-revolut-payment-stack/",
     "https://www.paymentsdive.com/news/bofa-wells-fargo-citi-back-upcoming-stablecoin-goldman-pnc-capital-one/829388/",
-    "https://thefintechtimes.com/the-1-5tn-wealth-shift-capgemini-on-the-personalisation-gap/",
     "https://www.fca.org.uk/news/press-releases/fca-boosts-support-innovative-firms-scale-grow",
-    "https://www.paymentsdive.com/news/stripe-taps-new-stablecoin-executive/829509/",
     "https://www.fca.org.uk/news/blogs/making-compliance-simpler-opening-fca-handbook-new-api",
+    "https://www.paymentsdive.com/news/stripe-taps-new-stablecoin-executive/829509/",
     "https://www.finextra.com/pressarticle/110816/nexi-jcb-and-unionpay-team-on-italian-public-transport-payments"
   ],
   "note": "fallback (summary generation error)"
