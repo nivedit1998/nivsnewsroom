@@ -1,6 +1,10 @@
 {
-  "generatedAt": "2026-09-06T12:13:22.310Z",
+  "generatedAt": "2026-09-07T14:20:25.381Z",
   "bullets": [
+    {
+      "text": "**Mobile ecosystem ready maximise use** - (gsma.com) Mobile ecosystem ready to maximise use of 6 GHz as GSMA urges policymakers to unlock spectrum for mobile",
+      "url": "https://www.gsma.com/newsroom/all-documents/mobile-ecosystem-ready-to-maximise-use-of-6-ghz-as-gsma-urges-policymakers-to-unlock-spectrum-for-mobile/"
+    },
     {
       "text": "**fibre built Now what** - (totaltele.com) The fibre is built. Now what?",
       "url": "https://totaltele.com/the-fibre-is-built-now-what/"
@@ -21,6 +25,7 @@
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
+    "https://www.gsma.com/newsroom/all-documents/mobile-ecosystem-ready-to-maximise-use-of-6-ghz-as-gsma-urges-policymakers-to-unlock-spectrum-for-mobile/",
     "https://totaltele.com/the-fibre-is-built-now-what/",
     "https://totaltele.com/why-the-telecom-industry-acquisition-problem-is-really-about-retention/",
     "https://www.gsma.com/newsroom/article/scaling-satellite-connectivity-why-interoperability-matters-for-ntns-next-phase/",

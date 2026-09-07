@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-09-06T12:13:33.166Z",
+  "generatedAt": "2026-09-07T14:20:40.700Z",
   "bullets": [
     {
       "text": "**Cross-Border Payments Cannot Afford Move** - (thefintechtimes.com) Cross-Border Payments Cannot Afford to Move at Yesterday’s Speed",
       "url": "https://thefintechtimes.com/cross-border-payments-cannot-afford-to-move-at-yesterdays-speed/"
     },
     {
-      "text": "**Inside QNB s Transformation Najla** - (thefintechtimes.com) Inside QNB’s Transformation: Najla Al-Mutawa on People, Processes, and Technology",
-      "url": "https://thefintechtimes.com/inside-qnbs-transformation-najla-al-mutawa-on-people-processes-and-technology/"
-    },
-    {
       "text": "**ACI buys UK payments tech** - (paymentsdive.com) ACI buys UK payments tech firm",
       "url": "https://www.paymentsdive.com/news/aci-buys-uk-payments-tech-firm/829436/"
     },
     {
-      "text": "**Oliver Wyman s Hiten Patel** - (thefintechtimes.com) Oliver Wyman’s Hiten Patel on the $45 billion Tokenisation Shift",
-      "url": "https://thefintechtimes.com/oliver-wymans-hiten-patel-on-the-45-billion-tokenisation-shift/"
+      "text": "**Ecommpay Joins PayControl Direct Acquirer** - (thefintechtimes.com) Ecommpay Joins PayControl as Direct Acquirer on Orchestration Layer",
+      "url": "https://thefintechtimes.com/ecommpay-joins-paycontrol-as-direct-acquirer-on-orchestration-layer/"
     },
     {
-      "text": "**Yuno Fast-Tracks Merchant Access Revolut** - (pymnts.com) Yuno Fast-Tracks Merchant Access to Revolut Payment Stack",
-      "url": "https://www.pymnts.com/partnerships/2026/yuno-fast-tracks-merchant-access-revolut-payment-stack/"
+      "text": "**Uruguay Small Country Big Fintech** - (thefintechtimes.com) Uruguay: Small Country, Big Fintech Ambitions",
+      "url": "https://thefintechtimes.com/uruguay-small-country-big-fintech-ambitions/"
+    },
+    {
+      "text": "**61 Firms Put Payroll Benefits** - (pymnts.com) 61% of Firms Put Payroll Benefits Next in the Embedded Finance Queue",
+      "url": "https://www.pymnts.com/back-office/payroll/2026/61percent-firms-put-payroll-benefits-next-embedded-finance-queue/"
     }
   ],
-  "inputHash": "aaadf9f55ff7e82ac13e64134a989e49ee50ce291aec155bd82fd3469e8b8a43",
+  "inputHash": "aee0f1d8fa544e7ae011b35e3b538fdc874ab24df31b45a971d98dfa46dc4fe0",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://thefintechtimes.com/cross-border-payments-cannot-afford-to-move-at-yesterdays-speed/",
-    "https://thefintechtimes.com/inside-qnbs-transformation-najla-al-mutawa-on-people-processes-and-technology/",
     "https://www.paymentsdive.com/news/aci-buys-uk-payments-tech-firm/829436/",
-    "https://thefintechtimes.com/oliver-wymans-hiten-patel-on-the-45-billion-tokenisation-shift/",
-    "https://www.pymnts.com/partnerships/2026/yuno-fast-tracks-merchant-access-revolut-payment-stack/",
+    "https://thefintechtimes.com/ecommpay-joins-paycontrol-as-direct-acquirer-on-orchestration-layer/",
+    "https://thefintechtimes.com/uruguay-small-country-big-fintech-ambitions/",
+    "https://www.pymnts.com/back-office/payroll/2026/61percent-firms-put-payroll-benefits-next-embedded-finance-queue/",
+    "https://www.pymnts.com/smbs/2026/smallest-businesses-fall-behind-as-main-street-goes-digital/",
+    "https://www.pymnts.com/cryptocurrency/2026/stablecoin-slowdown-could-hinder-government-plans-to-sell-debt/",
     "https://www.paymentsdive.com/news/bofa-wells-fargo-citi-back-upcoming-stablecoin-goldman-pnc-capital-one/829388/",
-    "https://www.fca.org.uk/news/press-releases/fca-boosts-support-innovative-firms-scale-grow",
-    "https://www.fca.org.uk/news/blogs/making-compliance-simpler-opening-fca-handbook-new-api",
-    "https://www.paymentsdive.com/news/stripe-taps-new-stablecoin-executive/829509/",
-    "https://www.finextra.com/pressarticle/110816/nexi-jcb-and-unionpay-team-on-italian-public-transport-payments"
+    "https://www.finextra.com/newsarticle/48356/paytabs-to-acquire-amazon-payments-mena-operations",
+    "https://www.fca.org.uk/news/press-releases/fca-boosts-support-innovative-firms-scale-grow"
   ],
   "note": "fallback (summary generation error)"
 }

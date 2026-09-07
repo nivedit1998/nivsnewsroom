@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T12:13:11.243Z",
+  "generatedAt": "2026-09-07T14:20:18.524Z",
   "bullets": [
     {
       "text": "**Automakers Want Congress Ban Chinese-Made** - (cnet.com) Automakers Want Congress to Ban Chinese-Made Cars, Citing Data Privacy",
@@ -14,12 +14,12 @@
       "url": "https://9to5mac.com/2026/09/01/perplexity-launches-privacy-minded-hybrid-compute-ai-feature-for-mac/"
     },
     {
-      "text": "**OpenAI s rogue agents keep** - (techcrunch.com) OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
-      "url": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/"
+      "text": "**My Favorite Home Security Reveal** - (cnet.com) My Favorite Home Security Reveal at IFA Was AI, but Not How You Think",
+      "url": "https://www.cnet.com/home/security/my-favorite-home-security-reveal-at-ifa-was-ai-but-not-how-you-think/"
     },
     {
-      "text": "**Another swarm OpenAI agents reached** - (techcrunch.com) Another swarm of OpenAI agents reached the open internet without the frontier lab’s knowledge",
-      "url": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/"
+      "text": "**Huawei copies Samsung s privacy** - (theverge.com) Huawei copies Samsung’s privacy display in its latest trifold",
+      "url": "https://www.theverge.com/tech/990958/huawei-mate-xt-2-trifold-launch-china-privacy-display"
     }
   ],
   "promptVersion": "insights-v2",
@@ -28,8 +28,8 @@
     "https://www.cnet.com/home/electric-vehicles/automakers-want-congress-to-ban-chinese-made-cars-citing-data-privacy/",
     "https://9to5mac.com/2026/09/03/chatgpt-and-codex-are-experiencing-an-outage-for-many-users/",
     "https://9to5mac.com/2026/09/01/perplexity-launches-privacy-minded-hybrid-compute-ai-feature-for-mac/",
-    "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
-    "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/"
+    "https://www.cnet.com/home/security/my-favorite-home-security-reveal-at-ifa-was-ai-but-not-how-you-think/",
+    "https://www.theverge.com/tech/990958/huawei-mate-xt-2-trifold-launch-china-privacy-display"
   ],
   "note": "fallback (summary generation error)"
 }
