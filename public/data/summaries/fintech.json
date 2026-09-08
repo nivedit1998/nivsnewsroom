@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-09-07T14:20:40.700Z",
+  "generatedAt": "2026-09-08T12:57:55.000Z",
   "bullets": [
     {
-      "text": "**Cross-Border Payments Cannot Afford Move** - (thefintechtimes.com) Cross-Border Payments Cannot Afford to Move at Yesterday’s Speed",
-      "url": "https://thefintechtimes.com/cross-border-payments-cannot-afford-to-move-at-yesterdays-speed/"
+      "text": "**Circle Acquires Tazapay Accelerate Stablecoin** - (pymnts.com) Circle Acquires Tazapay to Accelerate Stablecoin Payment Adoption",
+      "url": "https://www.pymnts.com/cryptocurrency/2026/circle-acquires-tazapay-to-accelerate-stablecoin-payment-adoption/"
+    },
+    {
+      "text": "**Real-Time Payments Put Bank Infrastructure** - (pymnts.com) Real-Time Payments Put Bank Infrastructure on the Clock",
+      "url": "https://www.pymnts.com/real-time-payments/2026/real-time-payments-put-legacy-bank-infrastructure-under-pressure/"
+    },
+    {
+      "text": "**Ukraine Building Future Finance During** - (thefintechtimes.com) Ukraine: Building the Future of Finance During a War",
+      "url": "https://thefintechtimes.com/ukraine-building-the-future-of-finance-during-a-war/"
+    },
+    {
+      "text": "**Study Finds Bad Billing Experiences** - (pymnts.com) Study Finds Bad Billing Experiences Delay $330 Billion in Consumer Payments Each Year",
+      "url": "https://www.pymnts.com/news/b2b-payments/2026/study-finds-bad-billing-experiences-delay-330-billion-dollars-consumer-payments-each-year/"
     },
     {
       "text": "**ACI buys UK payments tech** - (paymentsdive.com) ACI buys UK payments tech firm",
       "url": "https://www.paymentsdive.com/news/aci-buys-uk-payments-tech-firm/829436/"
-    },
-    {
-      "text": "**Ecommpay Joins PayControl Direct Acquirer** - (thefintechtimes.com) Ecommpay Joins PayControl as Direct Acquirer on Orchestration Layer",
-      "url": "https://thefintechtimes.com/ecommpay-joins-paycontrol-as-direct-acquirer-on-orchestration-layer/"
-    },
-    {
-      "text": "**Uruguay Small Country Big Fintech** - (thefintechtimes.com) Uruguay: Small Country, Big Fintech Ambitions",
-      "url": "https://thefintechtimes.com/uruguay-small-country-big-fintech-ambitions/"
-    },
-    {
-      "text": "**61 Firms Put Payroll Benefits** - (pymnts.com) 61% of Firms Put Payroll Benefits Next in the Embedded Finance Queue",
-      "url": "https://www.pymnts.com/back-office/payroll/2026/61percent-firms-put-payroll-benefits-next-embedded-finance-queue/"
     }
   ],
-  "inputHash": "aee0f1d8fa544e7ae011b35e3b538fdc874ab24df31b45a971d98dfa46dc4fe0",
+  "inputHash": "540246f01ec41ee4fc651b1aa341b60a73c8d3af195a7ce156388d29f16f8e52",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://thefintechtimes.com/cross-border-payments-cannot-afford-to-move-at-yesterdays-speed/",
+    "https://www.pymnts.com/cryptocurrency/2026/circle-acquires-tazapay-to-accelerate-stablecoin-payment-adoption/",
+    "https://www.pymnts.com/real-time-payments/2026/real-time-payments-put-legacy-bank-infrastructure-under-pressure/",
+    "https://thefintechtimes.com/ukraine-building-the-future-of-finance-during-a-war/",
+    "https://www.pymnts.com/news/b2b-payments/2026/study-finds-bad-billing-experiences-delay-330-billion-dollars-consumer-payments-each-year/",
     "https://www.paymentsdive.com/news/aci-buys-uk-payments-tech-firm/829436/",
     "https://thefintechtimes.com/ecommpay-joins-paycontrol-as-direct-acquirer-on-orchestration-layer/",
-    "https://thefintechtimes.com/uruguay-small-country-big-fintech-ambitions/",
-    "https://www.pymnts.com/back-office/payroll/2026/61percent-firms-put-payroll-benefits-next-embedded-finance-queue/",
-    "https://www.pymnts.com/smbs/2026/smallest-businesses-fall-behind-as-main-street-goes-digital/",
-    "https://www.pymnts.com/cryptocurrency/2026/stablecoin-slowdown-could-hinder-government-plans-to-sell-debt/",
+    "https://thefintechtimes.com/charlotte-nimmo-on-why-prediction-markets-disagree-on-price/",
+    "https://www.fca.org.uk/news/press-releases/fca-boosts-support-innovative-firms-scale-grow",
     "https://www.paymentsdive.com/news/bofa-wells-fargo-citi-back-upcoming-stablecoin-goldman-pnc-capital-one/829388/",
-    "https://www.finextra.com/newsarticle/48356/paytabs-to-acquire-amazon-payments-mena-operations",
-    "https://www.fca.org.uk/news/press-releases/fca-boosts-support-innovative-firms-scale-grow"
+    "https://www.fca.org.uk/news/blogs/making-compliance-simpler-opening-fca-handbook-new-api"
   ],
   "note": "fallback (summary generation error)"
 }

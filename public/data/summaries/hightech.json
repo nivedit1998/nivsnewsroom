@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-09-07T14:20:18.524Z",
+  "generatedAt": "2026-09-08T12:57:34.442Z",
   "bullets": [
-    {
-      "text": "**Automakers Want Congress Ban Chinese-Made** - (cnet.com) Automakers Want Congress to Ban Chinese-Made Cars, Citing Data Privacy",
-      "url": "https://www.cnet.com/home/electric-vehicles/automakers-want-congress-to-ban-chinese-made-cars-citing-data-privacy/"
-    },
     {
       "text": "**AI outage Claude ChatGPT Grok** - (9to5mac.com) AI outage: Claude, ChatGPT, and Grok are currently down for many users [U]",
       "url": "https://9to5mac.com/2026/09/03/chatgpt-and-codex-are-experiencing-an-outage-for-many-users/"
     },
     {
-      "text": "**Perplexity launches privacy-minded hybrid compute** - (9to5mac.com) Perplexity launches privacy-minded ‘hybrid compute’ AI feature for Mac",
-      "url": "https://9to5mac.com/2026/09/01/perplexity-launches-privacy-minded-hybrid-compute-ai-feature-for-mac/"
+      "text": "**WhatsApp will soon let users** - (9to5mac.com) WhatsApp will soon let users chat with up to five third-party AI agents",
+      "url": "https://9to5mac.com/2026/09/07/whatsapp-will-soon-let-users-chat-with-up-to-five-third-party-ai-agents/"
+    },
+    {
+      "text": "**Samsung s Privacy Display TriFold** - (9to5google.com) Samsung’s Privacy Display and TriFold merge in the Huawei Mate XT2",
+      "url": "https://9to5google.com/2026/09/07/samsungs-privacy-display-and-trifold-merge-in-the-huawei-mate-xt2/"
     },
     {
       "text": "**My Favorite Home Security Reveal** - (cnet.com) My Favorite Home Security Reveal at IFA Was AI, but Not How You Think",
@@ -25,9 +25,9 @@
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://www.cnet.com/home/electric-vehicles/automakers-want-congress-to-ban-chinese-made-cars-citing-data-privacy/",
     "https://9to5mac.com/2026/09/03/chatgpt-and-codex-are-experiencing-an-outage-for-many-users/",
-    "https://9to5mac.com/2026/09/01/perplexity-launches-privacy-minded-hybrid-compute-ai-feature-for-mac/",
+    "https://9to5mac.com/2026/09/07/whatsapp-will-soon-let-users-chat-with-up-to-five-third-party-ai-agents/",
+    "https://9to5google.com/2026/09/07/samsungs-privacy-display-and-trifold-merge-in-the-huawei-mate-xt2/",
     "https://www.cnet.com/home/security/my-favorite-home-security-reveal-at-ifa-was-ai-but-not-how-you-think/",
     "https://www.theverge.com/tech/990958/huawei-mate-xt-2-trifold-launch-china-privacy-display"
   ],

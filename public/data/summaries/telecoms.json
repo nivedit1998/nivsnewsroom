@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-09-07T14:20:25.381Z",
+  "generatedAt": "2026-09-08T12:57:42.552Z",
   "bullets": [
     {
       "text": "**Mobile ecosystem ready maximise use** - (gsma.com) Mobile ecosystem ready to maximise use of 6 GHz as GSMA urges policymakers to unlock spectrum for mobile",
       "url": "https://www.gsma.com/newsroom/all-documents/mobile-ecosystem-ready-to-maximise-use-of-6-ghz-as-gsma-urges-policymakers-to-unlock-spectrum-for-mobile/"
     },
     {
-      "text": "**fibre built Now what** - (totaltele.com) The fibre is built. Now what?",
-      "url": "https://totaltele.com/the-fibre-is-built-now-what/"
+      "text": "**Scaling satellite connectivity why interoperability** - (gsma.com) Scaling satellite connectivity: why interoperability matters for NTN’s next phase",
+      "url": "https://www.gsma.com/newsroom/article/scaling-satellite-connectivity-why-interoperability-matters-for-ntns-next-phase/"
     },
     {
       "text": "**Why telecom industry acquisition problem** - (totaltele.com) Why the telecom industry acquisition problem is really about retention",
       "url": "https://totaltele.com/why-the-telecom-industry-acquisition-problem-is-really-about-retention/"
     },
     {
-      "text": "**Scaling satellite connectivity why interoperability** - (gsma.com) Scaling satellite connectivity: why interoperability matters for NTN’s next phase",
-      "url": "https://www.gsma.com/newsroom/article/scaling-satellite-connectivity-why-interoperability-matters-for-ntns-next-phase/"
-    },
-    {
       "text": "**Huawei latest SingleRAN 22 1** - (totaltele.com) Huawei latest SingleRAN 22.1 launch targets the Agentverse",
       "url": "https://totaltele.com/huawei-latest-singleran-22-1-launch-targets-the-agentverse/"
+    },
+    {
+      "text": "**fibre built Now what** - (totaltele.com) The fibre is built. Now what?",
+      "url": "https://totaltele.com/the-fibre-is-built-now-what/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://www.gsma.com/newsroom/all-documents/mobile-ecosystem-ready-to-maximise-use-of-6-ghz-as-gsma-urges-policymakers-to-unlock-spectrum-for-mobile/",
-    "https://totaltele.com/the-fibre-is-built-now-what/",
-    "https://totaltele.com/why-the-telecom-industry-acquisition-problem-is-really-about-retention/",
     "https://www.gsma.com/newsroom/article/scaling-satellite-connectivity-why-interoperability-matters-for-ntns-next-phase/",
-    "https://totaltele.com/huawei-latest-singleran-22-1-launch-targets-the-agentverse/"
+    "https://totaltele.com/why-the-telecom-industry-acquisition-problem-is-really-about-retention/",
+    "https://totaltele.com/huawei-latest-singleran-22-1-launch-targets-the-agentverse/",
+    "https://totaltele.com/the-fibre-is-built-now-what/"
   ],
   "note": "fallback (summary generation error)"
 }
