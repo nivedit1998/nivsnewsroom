@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-09-08T12:57:55.000Z",
+  "generatedAt": "2026-09-09T13:03:07.201Z",
   "bullets": [
     {
-      "text": "**Circle Acquires Tazapay Accelerate Stablecoin** - (pymnts.com) Circle Acquires Tazapay to Accelerate Stablecoin Payment Adoption",
-      "url": "https://www.pymnts.com/cryptocurrency/2026/circle-acquires-tazapay-to-accelerate-stablecoin-payment-adoption/"
+      "text": "**London Stock Exchange Partners Payward** - (thefintechtimes.com) London Stock Exchange Partners with Payward to Launch Tokenized Public Equity Architecture",
+      "url": "https://thefintechtimes.com/london-stock-exchange-partners-with-payward-to-launch-tokenized-public-equity-architecture/"
     },
     {
-      "text": "**Real-Time Payments Put Bank Infrastructure** - (pymnts.com) Real-Time Payments Put Bank Infrastructure on the Clock",
-      "url": "https://www.pymnts.com/real-time-payments/2026/real-time-payments-put-legacy-bank-infrastructure-under-pressure/"
+      "text": "**L&T Finance adopts Pine Labs** - (finextra.com) L&T Finance adopts Pine Labs Payments Protocol for agentic commerce",
+      "url": "https://www.finextra.com/pressarticle/110849/lt-finance-adopts-pine-labs-payments-protocol-for-agentic-commerce"
     },
     {
-      "text": "**Ukraine Building Future Finance During** - (thefintechtimes.com) Ukraine: Building the Future of Finance During a War",
-      "url": "https://thefintechtimes.com/ukraine-building-the-future-of-finance-during-a-war/"
+      "text": "**Visa CEO Says AI Shopping** - (pymnts.com) Visa CEO Says AI Shopping Has Arrived but Agentic Payments Haven’t",
+      "url": "https://www.pymnts.com/visa/2026/visa-ceo-says-ai-shopping-has-arrived-but-agentic-payments-havent/"
     },
     {
-      "text": "**Study Finds Bad Billing Experiences** - (pymnts.com) Study Finds Bad Billing Experiences Delay $330 Billion in Consumer Payments Each Year",
-      "url": "https://www.pymnts.com/news/b2b-payments/2026/study-finds-bad-billing-experiences-delay-330-billion-dollars-consumer-payments-each-year/"
+      "text": "**World Bank Pushes Expand Emerging** - (pymnts.com) World Bank Pushes to Expand Emerging Market Digital Payments",
+      "url": "https://www.pymnts.com/digital-payments/2026/world-bank-pushes-to-expand-emerging-market-digital-payments/"
     },
     {
-      "text": "**ACI buys UK payments tech** - (paymentsdive.com) ACI buys UK payments tech firm",
-      "url": "https://www.paymentsdive.com/news/aci-buys-uk-payments-tech-firm/829436/"
+      "text": "**62 Businesses Make ERP Integration** - (pymnts.com) 62% of Businesses Make ERP Integration the Top AP Test",
+      "url": "https://www.pymnts.com/back-office/accounts-payable/2026/62percent-of-businesses-make-erp-integration-the-top-ap-test/"
     }
   ],
-  "inputHash": "540246f01ec41ee4fc651b1aa341b60a73c8d3af195a7ce156388d29f16f8e52",
+  "inputHash": "448e457ea91992d87b2f343d32479e26194db95189889f36cc0462b5688317fd",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://www.pymnts.com/cryptocurrency/2026/circle-acquires-tazapay-to-accelerate-stablecoin-payment-adoption/",
-    "https://www.pymnts.com/real-time-payments/2026/real-time-payments-put-legacy-bank-infrastructure-under-pressure/",
-    "https://thefintechtimes.com/ukraine-building-the-future-of-finance-during-a-war/",
-    "https://www.pymnts.com/news/b2b-payments/2026/study-finds-bad-billing-experiences-delay-330-billion-dollars-consumer-payments-each-year/",
+    "https://thefintechtimes.com/london-stock-exchange-partners-with-payward-to-launch-tokenized-public-equity-architecture/",
+    "https://www.finextra.com/pressarticle/110849/lt-finance-adopts-pine-labs-payments-protocol-for-agentic-commerce",
+    "https://www.pymnts.com/visa/2026/visa-ceo-says-ai-shopping-has-arrived-but-agentic-payments-havent/",
+    "https://www.pymnts.com/digital-payments/2026/world-bank-pushes-to-expand-emerging-market-digital-payments/",
+    "https://www.pymnts.com/back-office/accounts-payable/2026/62percent-of-businesses-make-erp-integration-the-top-ap-test/",
     "https://www.paymentsdive.com/news/aci-buys-uk-payments-tech-firm/829436/",
-    "https://thefintechtimes.com/ecommpay-joins-paycontrol-as-direct-acquirer-on-orchestration-layer/",
-    "https://thefintechtimes.com/charlotte-nimmo-on-why-prediction-markets-disagree-on-price/",
-    "https://www.fca.org.uk/news/press-releases/fca-boosts-support-innovative-firms-scale-grow",
-    "https://www.paymentsdive.com/news/bofa-wells-fargo-citi-back-upcoming-stablecoin-goldman-pnc-capital-one/829388/",
-    "https://www.fca.org.uk/news/blogs/making-compliance-simpler-opening-fca-handbook-new-api"
+    "https://thefintechtimes.com/zimbabwe-fintech-develops-alongside-a-changing-currency/",
+    "https://www.paymentsdive.com/news/rtp-fed-race-on-fast-payments/829806/",
+    "https://thefintechtimes.com/ai-can-help-banking-but-customers-still-want-a-person/",
+    "https://www.fca.org.uk/news/press-releases/fca-boosts-support-innovative-firms-scale-grow"
   ],
   "note": "fallback (summary generation error)"
 }

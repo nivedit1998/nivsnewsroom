@@ -1,6 +1,18 @@
 {
-  "generatedAt": "2026-09-08T12:57:34.442Z",
+  "generatedAt": "2026-09-09T13:02:46.398Z",
   "bullets": [
+    {
+      "text": "**Mistral raises 3B sovereign AI** - (techcrunch.com) Mistral raises €3B as sovereign AI becomes big business",
+      "url": "https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/"
+    },
+    {
+      "text": "**Drama swirls around OpenAI s** - (theverge.com) Drama swirls around OpenAI’s legendary mathematical milestone",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution"
+    },
+    {
+      "text": "**Google Cloud races catch up** - (techcrunch.com) Google Cloud races to catch up in the AI deployment wars with Accenture deal",
+      "url": "https://techcrunch.com/2026/09/08/google-cloud-races-to-catch-up-in-the-ai-deployment-wars-with-accenture-deal/"
+    },
     {
       "text": "**AI outage Claude ChatGPT Grok** - (9to5mac.com) AI outage: Claude, ChatGPT, and Grok are currently down for many users [U]",
       "url": "https://9to5mac.com/2026/09/03/chatgpt-and-codex-are-experiencing-an-outage-for-many-users/"
@@ -8,28 +20,16 @@
     {
       "text": "**WhatsApp will soon let users** - (9to5mac.com) WhatsApp will soon let users chat with up to five third-party AI agents",
       "url": "https://9to5mac.com/2026/09/07/whatsapp-will-soon-let-users-chat-with-up-to-five-third-party-ai-agents/"
-    },
-    {
-      "text": "**Samsung s Privacy Display TriFold** - (9to5google.com) Samsung’s Privacy Display and TriFold merge in the Huawei Mate XT2",
-      "url": "https://9to5google.com/2026/09/07/samsungs-privacy-display-and-trifold-merge-in-the-huawei-mate-xt2/"
-    },
-    {
-      "text": "**My Favorite Home Security Reveal** - (cnet.com) My Favorite Home Security Reveal at IFA Was AI, but Not How You Think",
-      "url": "https://www.cnet.com/home/security/my-favorite-home-security-reveal-at-ifa-was-ai-but-not-how-you-think/"
-    },
-    {
-      "text": "**Huawei copies Samsung s privacy** - (theverge.com) Huawei copies Samsung’s privacy display in its latest trifold",
-      "url": "https://www.theverge.com/tech/990958/huawei-mate-xt-2-trifold-launch-china-privacy-display"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
+    "https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/",
+    "https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution",
+    "https://techcrunch.com/2026/09/08/google-cloud-races-to-catch-up-in-the-ai-deployment-wars-with-accenture-deal/",
     "https://9to5mac.com/2026/09/03/chatgpt-and-codex-are-experiencing-an-outage-for-many-users/",
-    "https://9to5mac.com/2026/09/07/whatsapp-will-soon-let-users-chat-with-up-to-five-third-party-ai-agents/",
-    "https://9to5google.com/2026/09/07/samsungs-privacy-display-and-trifold-merge-in-the-huawei-mate-xt2/",
-    "https://www.cnet.com/home/security/my-favorite-home-security-reveal-at-ifa-was-ai-but-not-how-you-think/",
-    "https://www.theverge.com/tech/990958/huawei-mate-xt-2-trifold-launch-china-privacy-display"
+    "https://9to5mac.com/2026/09/07/whatsapp-will-soon-let-users-chat-with-up-to-five-third-party-ai-agents/"
   ],
   "note": "fallback (summary generation error)"
 }

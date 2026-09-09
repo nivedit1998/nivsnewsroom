@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T12:58:00.164Z",
+  "generatedAt": "2026-09-09T13:03:13.695Z",
   "bullets": [
     {
       "text": "**APAC life insurance embracing AI** - (capco.com) APAC life insurance: embracing AI innovation, maintaining the human touch and closing the protection gap",
@@ -10,16 +10,16 @@
       "url": "https://www.capco.com/intelligence/capco-intelligence/building-data-leadership-in-apac"
     },
     {
-      "text": "**rise first-party fraud hidden threat** - (capco.com) The rise of first-party fraud: the hidden threat costing Canadian financial institutions millions",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/the-rise-of-first-party-fraud-the-hidden-threat"
+      "text": "**EU banking supervision road simplification** - (capco.com) EU banking supervision: the road to simplification",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/eu-banking-supervision-the-road-to-simplification"
     },
     {
-      "text": "**great advisory reset** - (capco.com) The great advisory reset",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/the-great-advisory-reset"
+      "text": "**EU Banking Supervision Simplification supervisory** - (capco.com) EU Banking Supervision Simplification: supervisory reporting reform",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/eu-banking-supervision-reporting-reform"
     },
     {
-      "text": "**Addressing cost reduction challenge banking** - (capco.com) Addressing the cost reduction challenge in banking",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/addressing-the-cost-reduction-challenge-in-banking"
+      "text": "**T 1 Prepare Optimize Accelerate** - (capco.com) T+1: Prepare, Optimize, Accelerate",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/accelerating-tplus1-settlement"
     }
   ],
   "promptVersion": "insights-v2",
@@ -27,9 +27,9 @@
   "contextUrls": [
     "https://www.capco.com/intelligence/capco-intelligence/apac-life-insurance",
     "https://www.capco.com/intelligence/capco-intelligence/building-data-leadership-in-apac",
-    "https://www.capco.com/intelligence/capco-intelligence/the-rise-of-first-party-fraud-the-hidden-threat",
-    "https://www.capco.com/intelligence/capco-intelligence/the-great-advisory-reset",
-    "https://www.capco.com/intelligence/capco-intelligence/addressing-the-cost-reduction-challenge-in-banking"
+    "https://www.capco.com/intelligence/capco-intelligence/eu-banking-supervision-the-road-to-simplification",
+    "https://www.capco.com/intelligence/capco-intelligence/eu-banking-supervision-reporting-reform",
+    "https://www.capco.com/intelligence/capco-intelligence/accelerating-tplus1-settlement"
   ],
   "note": "fallback (summary generation error)"
 }

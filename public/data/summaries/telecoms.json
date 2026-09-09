@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T12:57:42.552Z",
+  "generatedAt": "2026-09-09T13:02:56.219Z",
   "bullets": [
     {
       "text": "**Mobile ecosystem ready maximise use** - (gsma.com) Mobile ecosystem ready to maximise use of 6 GHz as GSMA urges policymakers to unlock spectrum for mobile",
@@ -10,16 +10,12 @@
       "url": "https://www.gsma.com/newsroom/article/scaling-satellite-connectivity-why-interoperability-matters-for-ntns-next-phase/"
     },
     {
-      "text": "**Why telecom industry acquisition problem** - (totaltele.com) Why the telecom industry acquisition problem is really about retention",
-      "url": "https://totaltele.com/why-the-telecom-industry-acquisition-problem-is-really-about-retention/"
-    },
-    {
       "text": "**Huawei latest SingleRAN 22 1** - (totaltele.com) Huawei latest SingleRAN 22.1 launch targets the Agentverse",
       "url": "https://totaltele.com/huawei-latest-singleran-22-1-launch-targets-the-agentverse/"
     },
     {
-      "text": "**fibre built Now what** - (totaltele.com) The fibre is built. Now what?",
-      "url": "https://totaltele.com/the-fibre-is-built-now-what/"
+      "text": "**Nearly Half Reported Scam Incidents** - (gsma.com) Nearly Half of Reported Scam Incidents Go Unresolved Across Southeast Asia, Undermining Digital Trust, New GSMA Findings Reveal",
+      "url": "https://www.gsma.com/newsroom/press-release/nearly-half-of-reported-scam-incidents-go-unresolved-across-southeast-asia-undermining-digital-trust-new-gsma-findings-reveal/"
     }
   ],
   "promptVersion": "insights-v2",
@@ -27,9 +23,8 @@
   "contextUrls": [
     "https://www.gsma.com/newsroom/all-documents/mobile-ecosystem-ready-to-maximise-use-of-6-ghz-as-gsma-urges-policymakers-to-unlock-spectrum-for-mobile/",
     "https://www.gsma.com/newsroom/article/scaling-satellite-connectivity-why-interoperability-matters-for-ntns-next-phase/",
-    "https://totaltele.com/why-the-telecom-industry-acquisition-problem-is-really-about-retention/",
     "https://totaltele.com/huawei-latest-singleran-22-1-launch-targets-the-agentverse/",
-    "https://totaltele.com/the-fibre-is-built-now-what/"
+    "https://www.gsma.com/newsroom/press-release/nearly-half-of-reported-scam-incidents-go-unresolved-across-southeast-asia-undermining-digital-trust-new-gsma-findings-reveal/"
   ],
   "note": "fallback (summary generation error)"
 }
