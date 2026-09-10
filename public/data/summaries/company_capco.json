@@ -1,13 +1,17 @@
 {
-  "generatedAt": "2026-09-09T13:03:13.695Z",
+  "generatedAt": "2026-09-10T13:00:06.409Z",
   "bullets": [
+    {
+      "text": "**Building data leadership APAC** - (capco.com) Building data leadership in APAC",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/building-data-leadership-in-apac"
+    },
     {
       "text": "**APAC life insurance embracing AI** - (capco.com) APAC life insurance: embracing AI innovation, maintaining the human touch and closing the protection gap",
       "url": "https://www.capco.com/intelligence/capco-intelligence/apac-life-insurance"
     },
     {
-      "text": "**Building data leadership APAC** - (capco.com) Building data leadership in APAC",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/building-data-leadership-in-apac"
+      "text": "**Beyond PRIIPs CCI future UK** - (capco.com) Beyond PRIIPs: CCI and the future of UK retail disclosure",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/cci-and-the-future-of-uk-retail-disclosure"
     },
     {
       "text": "**EU banking supervision road simplification** - (capco.com) EU banking supervision: the road to simplification",
@@ -16,20 +20,16 @@
     {
       "text": "**EU Banking Supervision Simplification supervisory** - (capco.com) EU Banking Supervision Simplification: supervisory reporting reform",
       "url": "https://www.capco.com/intelligence/capco-intelligence/eu-banking-supervision-reporting-reform"
-    },
-    {
-      "text": "**T 1 Prepare Optimize Accelerate** - (capco.com) T+1: Prepare, Optimize, Accelerate",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/accelerating-tplus1-settlement"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://www.capco.com/intelligence/capco-intelligence/apac-life-insurance",
     "https://www.capco.com/intelligence/capco-intelligence/building-data-leadership-in-apac",
+    "https://www.capco.com/intelligence/capco-intelligence/apac-life-insurance",
+    "https://www.capco.com/intelligence/capco-intelligence/cci-and-the-future-of-uk-retail-disclosure",
     "https://www.capco.com/intelligence/capco-intelligence/eu-banking-supervision-the-road-to-simplification",
-    "https://www.capco.com/intelligence/capco-intelligence/eu-banking-supervision-reporting-reform",
-    "https://www.capco.com/intelligence/capco-intelligence/accelerating-tplus1-settlement"
+    "https://www.capco.com/intelligence/capco-intelligence/eu-banking-supervision-reporting-reform"
   ],
   "note": "fallback (summary generation error)"
 }

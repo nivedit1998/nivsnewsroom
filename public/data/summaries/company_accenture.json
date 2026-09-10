@@ -1,6 +1,10 @@
 {
-  "generatedAt": "2026-09-09T13:03:09.632Z",
+  "generatedAt": "2026-09-10T13:00:02.108Z",
   "bullets": [
+    {
+      "text": "**MotoGP Accenture Join Forces Reinvent** - (newsroom.accenture.com) MotoGP and Accenture Join Forces to Reinvent the Direct-to-Fan Sports Streaming Experience",
+      "url": "https://newsroom.accenture.com/news/2026/motogp-and-accenture-join-forces-to-reinvent-the-direct-to-fan-sports-streaming-experience"
+    },
     {
       "text": "**Accenture Google Cloud Deepen Partnership** - (newsroom.accenture.com) Accenture and Google Cloud Deepen Partnership with Formation of New Accenture Gemini Enterprise Business Group",
       "url": "https://newsroom.accenture.com/news/2026/accenture-and-google-cloud-deepen-partnership-with-formation-of-new-accenture-gemini-enterprise-business-group"
@@ -13,6 +17,7 @@
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
+    "https://newsroom.accenture.com/news/2026/motogp-and-accenture-join-forces-to-reinvent-the-direct-to-fan-sports-streaming-experience",
     "https://newsroom.accenture.com/news/2026/accenture-and-google-cloud-deepen-partnership-with-formation-of-new-accenture-gemini-enterprise-business-group",
     "https://newsroom.accenture.com/news/2026/accenture-appoints-emma-chalwin-as-chief-marketing-officer"
   ],

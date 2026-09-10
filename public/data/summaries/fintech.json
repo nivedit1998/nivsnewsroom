@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-09-09T13:03:07.201Z",
+  "generatedAt": "2026-09-10T12:59:59.948Z",
   "bullets": [
     {
       "text": "**London Stock Exchange Partners Payward** - (thefintechtimes.com) London Stock Exchange Partners with Payward to Launch Tokenized Public Equity Architecture",
       "url": "https://thefintechtimes.com/london-stock-exchange-partners-with-payward-to-launch-tokenized-public-equity-architecture/"
     },
     {
-      "text": "**L&T Finance adopts Pine Labs** - (finextra.com) L&T Finance adopts Pine Labs Payments Protocol for agentic commerce",
-      "url": "https://www.finextra.com/pressarticle/110849/lt-finance-adopts-pine-labs-payments-protocol-for-agentic-commerce"
+      "text": "**Coinbase CEO Confident Stablecoin Payments** - (pymnts.com) Coinbase CEO Confident Stablecoin Payments Will Fuel Growth",
+      "url": "https://www.pymnts.com/cryptocurrency/2026/coinbase-ceo-confident-stablecoin-payments-will-fuel-growth/"
     },
     {
-      "text": "**Visa CEO Says AI Shopping** - (pymnts.com) Visa CEO Says AI Shopping Has Arrived but Agentic Payments Haven’t",
-      "url": "https://www.pymnts.com/visa/2026/visa-ceo-says-ai-shopping-has-arrived-but-agentic-payments-havent/"
+      "text": "**Yemen Can Fintech Connect Economy** - (thefintechtimes.com) Yemen: Can Fintech Connect an Economy Divided by War?",
+      "url": "https://thefintechtimes.com/yemen-can-fintech-connect-an-economy-divided-by-war/"
     },
     {
-      "text": "**World Bank Pushes Expand Emerging** - (pymnts.com) World Bank Pushes to Expand Emerging Market Digital Payments",
-      "url": "https://www.pymnts.com/digital-payments/2026/world-bank-pushes-to-expand-emerging-market-digital-payments/"
+      "text": "**43 Consumers See Digital Wallets** - (pymnts.com) 43% of Consumers See Digital Wallets in Their AI Shopping Future",
+      "url": "https://www.pymnts.com/consumer-insights/2026/43-percent-of-consumers-see-digital-wallets-in-their-ai-shopping-future/"
     },
     {
-      "text": "**62 Businesses Make ERP Integration** - (pymnts.com) 62% of Businesses Make ERP Integration the Top AP Test",
-      "url": "https://www.pymnts.com/back-office/accounts-payable/2026/62percent-of-businesses-make-erp-integration-the-top-ap-test/"
+      "text": "**Zimbabwe Fintech Develops Alongside Changing** - (thefintechtimes.com) Zimbabwe: Fintech Develops Alongside a Changing Currency",
+      "url": "https://thefintechtimes.com/zimbabwe-fintech-develops-alongside-a-changing-currency/"
     }
   ],
-  "inputHash": "448e457ea91992d87b2f343d32479e26194db95189889f36cc0462b5688317fd",
+  "inputHash": "63f740bd651ee56075f581298672576b0ae3621c5a66e301f14b62e441d8eba0",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://thefintechtimes.com/london-stock-exchange-partners-with-payward-to-launch-tokenized-public-equity-architecture/",
-    "https://www.finextra.com/pressarticle/110849/lt-finance-adopts-pine-labs-payments-protocol-for-agentic-commerce",
-    "https://www.pymnts.com/visa/2026/visa-ceo-says-ai-shopping-has-arrived-but-agentic-payments-havent/",
-    "https://www.pymnts.com/digital-payments/2026/world-bank-pushes-to-expand-emerging-market-digital-payments/",
-    "https://www.pymnts.com/back-office/accounts-payable/2026/62percent-of-businesses-make-erp-integration-the-top-ap-test/",
-    "https://www.paymentsdive.com/news/aci-buys-uk-payments-tech-firm/829436/",
+    "https://www.pymnts.com/cryptocurrency/2026/coinbase-ceo-confident-stablecoin-payments-will-fuel-growth/",
+    "https://thefintechtimes.com/yemen-can-fintech-connect-an-economy-divided-by-war/",
+    "https://www.pymnts.com/consumer-insights/2026/43-percent-of-consumers-see-digital-wallets-in-their-ai-shopping-future/",
     "https://thefintechtimes.com/zimbabwe-fintech-develops-alongside-a-changing-currency/",
+    "https://www.pymnts.com/news/acquiring/2026/grab-looks-to-pick-up-bnpl-firm-atome-financial/",
     "https://www.paymentsdive.com/news/rtp-fed-race-on-fast-payments/829806/",
-    "https://thefintechtimes.com/ai-can-help-banking-but-customers-still-want-a-person/",
-    "https://www.fca.org.uk/news/press-releases/fca-boosts-support-innovative-firms-scale-grow"
+    "https://www.fca.org.uk/news/press-releases/fca-boosts-support-innovative-firms-scale-grow",
+    "https://www.fca.org.uk/news/blogs/making-compliance-simpler-opening-fca-handbook-new-api",
+    "https://www.paymentsdive.com/news/visa-builds-business-abroad/829918/"
   ],
   "note": "fallback (summary generation error)"
 }

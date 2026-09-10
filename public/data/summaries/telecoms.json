@@ -1,9 +1,13 @@
 {
-  "generatedAt": "2026-09-09T13:02:56.219Z",
+  "generatedAt": "2026-09-10T12:59:45.059Z",
   "bullets": [
     {
       "text": "**Mobile ecosystem ready maximise use** - (gsma.com) Mobile ecosystem ready to maximise use of 6 GHz as GSMA urges policymakers to unlock spectrum for mobile",
       "url": "https://www.gsma.com/newsroom/all-documents/mobile-ecosystem-ready-to-maximise-use-of-6-ghz-as-gsma-urges-policymakers-to-unlock-spectrum-for-mobile/"
+    },
+    {
+      "text": "**GSMA calls greater renewable energy** - (gsma.com) GSMA calls for greater renewable energy access to enable mobile industry’s net zero transition in Asia Pacific",
+      "url": "https://www.gsma.com/newsroom/press-release/gsma-calls-for-greater-renewable-energy-access-to-enable-mobile-industrys-net-zero-transition-in-asia-pacific/"
     },
     {
       "text": "**Scaling satellite connectivity why interoperability** - (gsma.com) Scaling satellite connectivity: why interoperability matters for NTN’s next phase",
@@ -22,6 +26,7 @@
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://www.gsma.com/newsroom/all-documents/mobile-ecosystem-ready-to-maximise-use-of-6-ghz-as-gsma-urges-policymakers-to-unlock-spectrum-for-mobile/",
+    "https://www.gsma.com/newsroom/press-release/gsma-calls-for-greater-renewable-energy-access-to-enable-mobile-industrys-net-zero-transition-in-asia-pacific/",
     "https://www.gsma.com/newsroom/article/scaling-satellite-connectivity-why-interoperability-matters-for-ntns-next-phase/",
     "https://totaltele.com/huawei-latest-singleran-22-1-launch-targets-the-agentverse/",
     "https://www.gsma.com/newsroom/press-release/nearly-half-of-reported-scam-incidents-go-unresolved-across-southeast-asia-undermining-digital-trust-new-gsma-findings-reveal/"
