@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T12:59:45.059Z",
+  "generatedAt": "2026-09-11T12:54:37.167Z",
   "bullets": [
     {
       "text": "**Mobile ecosystem ready maximise use** - (gsma.com) Mobile ecosystem ready to maximise use of 6 GHz as GSMA urges policymakers to unlock spectrum for mobile",
@@ -10,16 +10,12 @@
       "url": "https://www.gsma.com/newsroom/press-release/gsma-calls-for-greater-renewable-energy-access-to-enable-mobile-industrys-net-zero-transition-in-asia-pacific/"
     },
     {
-      "text": "**Scaling satellite connectivity why interoperability** - (gsma.com) Scaling satellite connectivity: why interoperability matters for NTN’s next phase",
-      "url": "https://www.gsma.com/newsroom/article/scaling-satellite-connectivity-why-interoperability-matters-for-ntns-next-phase/"
-    },
-    {
-      "text": "**Huawei latest SingleRAN 22 1** - (totaltele.com) Huawei latest SingleRAN 22.1 launch targets the Agentverse",
-      "url": "https://totaltele.com/huawei-latest-singleran-22-1-launch-targets-the-agentverse/"
-    },
-    {
       "text": "**Nearly Half Reported Scam Incidents** - (gsma.com) Nearly Half of Reported Scam Incidents Go Unresolved Across Southeast Asia, Undermining Digital Trust, New GSMA Findings Reveal",
       "url": "https://www.gsma.com/newsroom/press-release/nearly-half-of-reported-scam-incidents-go-unresolved-across-southeast-asia-undermining-digital-trust-new-gsma-findings-reveal/"
+    },
+    {
+      "text": "**Huawei takes wearable health beyond** - (totaltele.com) Huawei takes wearable health beyond devices with Watch D3, Terve Research",
+      "url": "https://totaltele.com/huawei-takes-wearable-health-beyond-devices-with-watch-d3-terve-research/"
     }
   ],
   "promptVersion": "insights-v2",
@@ -27,9 +23,8 @@
   "contextUrls": [
     "https://www.gsma.com/newsroom/all-documents/mobile-ecosystem-ready-to-maximise-use-of-6-ghz-as-gsma-urges-policymakers-to-unlock-spectrum-for-mobile/",
     "https://www.gsma.com/newsroom/press-release/gsma-calls-for-greater-renewable-energy-access-to-enable-mobile-industrys-net-zero-transition-in-asia-pacific/",
-    "https://www.gsma.com/newsroom/article/scaling-satellite-connectivity-why-interoperability-matters-for-ntns-next-phase/",
-    "https://totaltele.com/huawei-latest-singleran-22-1-launch-targets-the-agentverse/",
-    "https://www.gsma.com/newsroom/press-release/nearly-half-of-reported-scam-incidents-go-unresolved-across-southeast-asia-undermining-digital-trust-new-gsma-findings-reveal/"
+    "https://www.gsma.com/newsroom/press-release/nearly-half-of-reported-scam-incidents-go-unresolved-across-southeast-asia-undermining-digital-trust-new-gsma-findings-reveal/",
+    "https://totaltele.com/huawei-takes-wearable-health-beyond-devices-with-watch-d3-terve-research/"
   ],
   "note": "fallback (summary generation error)"
 }

@@ -1,6 +1,10 @@
 {
-  "generatedAt": "2026-09-10T12:59:39.295Z",
+  "generatedAt": "2026-09-11T12:54:31.596Z",
   "bullets": [
+    {
+      "text": "**ID verification giant IDScan confirms** - (techcrunch.com) ID verification giant IDScan confirms data breach with more than 150 million driver’s licenses stolen",
+      "url": "https://techcrunch.com/2026/09/10/id-verification-giant-idscan-confirms-data-breach-with-more-than-150-million-drivers-licenses-stolen/"
+    },
     {
       "text": "**Apple confirms Siri AI launches** - (9to5mac.com) Apple confirms Siri AI launches in English this month, will add five languages in October",
       "url": "https://9to5mac.com/2026/09/09/apple-confirms-siri-ai-launches-in-english-this-month-will-add-five-languages-in-october/"
@@ -10,26 +14,22 @@
       "url": "https://9to5google.com/2026/09/09/galxy-s27-pro-might-get-privacy-display/"
     },
     {
-      "text": "**WhatsApp will soon let users** - (9to5mac.com) WhatsApp will soon let users chat with up to five third-party AI agents",
-      "url": "https://9to5mac.com/2026/09/07/whatsapp-will-soon-let-users-chat-with-up-to-five-third-party-ai-agents/"
-    },
-    {
       "text": "**Samsung s Privacy Display TriFold** - (9to5google.com) Samsung’s Privacy Display and TriFold merge in the Huawei Mate XT2",
       "url": "https://9to5google.com/2026/09/07/samsungs-privacy-display-and-trifold-merge-in-the-huawei-mate-xt2/"
     },
     {
-      "text": "**OpenAI adds prominent AI doomer** - (techcrunch.com) OpenAI adds a prominent AI doomer to its board of directors",
-      "url": "https://techcrunch.com/2026/09/09/openai-adds-a-prominent-ai-doomer-to-its-board-of-directors/"
+      "text": "**Apple details how Apple Watch** - (9to5mac.com) Apple details how Apple Watch’s new Audio Intelligence features work in privacy paper",
+      "url": "https://9to5mac.com/2026/09/09/apple-details-how-apple-watchs-new-audio-intelligence-features-work-in-privacy-paper/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
+    "https://techcrunch.com/2026/09/10/id-verification-giant-idscan-confirms-data-breach-with-more-than-150-million-drivers-licenses-stolen/",
     "https://9to5mac.com/2026/09/09/apple-confirms-siri-ai-launches-in-english-this-month-will-add-five-languages-in-october/",
     "https://9to5google.com/2026/09/09/galxy-s27-pro-might-get-privacy-display/",
-    "https://9to5mac.com/2026/09/07/whatsapp-will-soon-let-users-chat-with-up-to-five-third-party-ai-agents/",
     "https://9to5google.com/2026/09/07/samsungs-privacy-display-and-trifold-merge-in-the-huawei-mate-xt2/",
-    "https://techcrunch.com/2026/09/09/openai-adds-a-prominent-ai-doomer-to-its-board-of-directors/"
+    "https://9to5mac.com/2026/09/09/apple-details-how-apple-watchs-new-audio-intelligence-features-work-in-privacy-paper/"
   ],
   "note": "fallback (summary generation error)"
 }

@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-09-10T13:00:06.409Z",
+  "generatedAt": "2026-09-11T12:54:53.253Z",
   "bullets": [
-    {
-      "text": "**Building data leadership APAC** - (capco.com) Building data leadership in APAC",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/building-data-leadership-in-apac"
-    },
-    {
-      "text": "**APAC life insurance embracing AI** - (capco.com) APAC life insurance: embracing AI innovation, maintaining the human touch and closing the protection gap",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/apac-life-insurance"
-    },
     {
       "text": "**Beyond PRIIPs CCI future UK** - (capco.com) Beyond PRIIPs: CCI and the future of UK retail disclosure",
       "url": "https://www.capco.com/intelligence/capco-intelligence/cci-and-the-future-of-uk-retail-disclosure"
+    },
+    {
+      "text": "**great advisory reset** - (capco.com) The great advisory reset",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/the-great-advisory-reset"
+    },
+    {
+      "text": "**Modernization Reckoning How Banks Can** - (capco.com) The Modernization Reckoning: How Banks Can Future-Proof Legacy Payment Infrastructure for the AI Era",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/the-modernization-reckoning-how-banks-can-future-proof"
     },
     {
       "text": "**EU banking supervision road simplification** - (capco.com) EU banking supervision: the road to simplification",
@@ -25,9 +25,9 @@
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://www.capco.com/intelligence/capco-intelligence/building-data-leadership-in-apac",
-    "https://www.capco.com/intelligence/capco-intelligence/apac-life-insurance",
     "https://www.capco.com/intelligence/capco-intelligence/cci-and-the-future-of-uk-retail-disclosure",
+    "https://www.capco.com/intelligence/capco-intelligence/the-great-advisory-reset",
+    "https://www.capco.com/intelligence/capco-intelligence/the-modernization-reckoning-how-banks-can-future-proof",
     "https://www.capco.com/intelligence/capco-intelligence/eu-banking-supervision-the-road-to-simplification",
     "https://www.capco.com/intelligence/capco-intelligence/eu-banking-supervision-reporting-reform"
   ],

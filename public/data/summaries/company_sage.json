@@ -1,10 +1,6 @@
 {
-  "generatedAt": "2026-09-10T13:00:09.677Z",
+  "generatedAt": "2026-09-11T12:54:55.706Z",
   "bullets": [
-    {
-      "text": "**What employee experience why HR** - (sage.com) What is employee experience and why is HR struggling to deliver it?",
-      "url": "https://www.sage.com/en-gb/blog/what-is-employee-experience/"
-    },
     {
       "text": "**HMRC signed me up MTD** - (sage.com) HMRC signed me up for MTD for Income Tax. What should I do now?",
       "url": "https://www.sage.com/en-gb/blog/hmrc-signed-up-mtd-income-tax/"
@@ -17,7 +13,6 @@
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://www.sage.com/en-gb/blog/what-is-employee-experience/",
     "https://www.sage.com/en-gb/blog/hmrc-signed-up-mtd-income-tax/",
     "https://www.sage.com/en-gb/blog/hmrc-led-sign-up-mtd-income-tax-accountants/"
   ],
