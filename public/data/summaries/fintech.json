@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T12:54:47.565Z",
+  "generatedAt": "2026-09-12T12:15:49.617Z",
   "bullets": [
     {
       "text": "**Payments Fraud Identity Problem Not** - (thefintechtimes.com) Payments Fraud is an Identity Problem, Not a Transaction Problem",
@@ -10,32 +10,32 @@
       "url": "https://thefintechtimes.com/yemen-can-fintech-connect-an-economy-divided-by-war/"
     },
     {
-      "text": "**Paysera lets clients connect AI** - (finextra.com) Paysera lets clients connect AI assistants to payments",
-      "url": "https://www.finextra.com/pressarticle/110885/paysera-lets-clients-connect-ai-assistants-to-payments"
+      "text": "**Stablecoin Proliferation Treasury Policy Problem** - (thefintechtimes.com) Stablecoin Proliferation is a Treasury Policy Problem",
+      "url": "https://thefintechtimes.com/stablecoin-proliferation-is-a-treasury-policy-problem/"
     },
     {
-      "text": "**Should Financial Services Profits Pay** - (thefintechtimes.com) Should Financial Services Profits Pay a Dividend to Society?",
-      "url": "https://thefintechtimes.com/should-financial-services-profits-pay-a-dividend-to-society/"
+      "text": "**MoonPay Buys Rhythm Latest Strategic** - (pymnts.com) MoonPay Buys Rhythm in Latest Strategic Acquisition Move",
+      "url": "https://www.pymnts.com/news/acquiring/2026/moonpay-buys-rhythm-in-latest-strategic-acquisition-move/"
     },
     {
       "text": "**FCA boosts support innovative firms** - (fca.org.uk) FCA boosts support for innovative firms as they scale and grow",
       "url": "https://www.fca.org.uk/news/press-releases/fca-boosts-support-innovative-firms-scale-grow"
     }
   ],
-  "inputHash": "f12ea2ff42bd4c4500d33f67077fc04e58907f632e93bb7d136dc6e6d40f121f",
+  "inputHash": "06d46ee1220e773540f9aef3ce0d2b05a69f34c8d1db4feb1c3da811dff7c0e7",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://thefintechtimes.com/payments-fraud-is-an-identity-problem-not-a-transaction-problem/",
     "https://thefintechtimes.com/yemen-can-fintech-connect-an-economy-divided-by-war/",
-    "https://www.finextra.com/pressarticle/110885/paysera-lets-clients-connect-ai-assistants-to-payments",
-    "https://thefintechtimes.com/should-financial-services-profits-pay-a-dividend-to-society/",
+    "https://thefintechtimes.com/stablecoin-proliferation-is-a-treasury-policy-problem/",
+    "https://www.pymnts.com/news/acquiring/2026/moonpay-buys-rhythm-in-latest-strategic-acquisition-move/",
     "https://www.fca.org.uk/news/press-releases/fca-boosts-support-innovative-firms-scale-grow",
+    "https://www.paymentsdive.com/news/visa-offers-data-to-back-onchain-lending/830172/",
     "https://www.paymentsdive.com/news/rtp-fed-race-on-fast-payments/829806/",
-    "https://www.paymentsdive.com/news/zip-explores-an-ewa-play/830033/",
-    "https://www.finextra.com/newsarticle/48384/coinbase-and-moov-partner-to-boost-stablecoin-payments-for-community-banks-ahead-of-clarity-vote",
     "https://www.fca.org.uk/news/press-releases/man-pleads-guilty-fraud-forgery-offences-fake-takeover-approach",
-    "https://www.fca.org.uk/news/blogs/making-compliance-simpler-opening-fca-handbook-new-api"
+    "https://www.paymentsdive.com/news/zip-explores-an-ewa-play/830033/",
+    "https://www.finextra.com/newsarticle/48384/coinbase-and-moov-partner-to-boost-stablecoin-payments-for-community-banks-ahead-of-clarity-vote"
   ],
   "note": "fallback (summary generation error)"
 }

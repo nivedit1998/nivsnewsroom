@@ -1,10 +1,6 @@
 {
-  "generatedAt": "2026-09-11T12:54:31.596Z",
+  "generatedAt": "2026-09-12T12:15:28.066Z",
   "bullets": [
-    {
-      "text": "**ID verification giant IDScan confirms** - (techcrunch.com) ID verification giant IDScan confirms data breach with more than 150 million driver’s licenses stolen",
-      "url": "https://techcrunch.com/2026/09/10/id-verification-giant-idscan-confirms-data-breach-with-more-than-150-million-drivers-licenses-stolen/"
-    },
     {
       "text": "**Apple confirms Siri AI launches** - (9to5mac.com) Apple confirms Siri AI launches in English this month, will add five languages in October",
       "url": "https://9to5mac.com/2026/09/09/apple-confirms-siri-ai-launches-in-english-this-month-will-add-five-languages-in-october/"
@@ -12,6 +8,10 @@
     {
       "text": "**Two Galaxy S27 models will** - (9to5google.com) Two Galaxy S27 models will get Samsung’s Privacy Display, not just the Ultra",
       "url": "https://9to5google.com/2026/09/09/galxy-s27-pro-might-get-privacy-display/"
+    },
+    {
+      "text": "**Breakthrough Or Just Breakable Apple** - (cnet.com) A Breakthrough? Or Just Breakable? Apple Unveiled the iPhone Duo, and CNET Writers Have Many Thoughts",
+      "url": "https://www.cnet.com/tech/mobile/apple-iphone-duo-folding-phone-cnet-reactions/"
     },
     {
       "text": "**Samsung s Privacy Display TriFold** - (9to5google.com) Samsung’s Privacy Display and TriFold merge in the Huawei Mate XT2",
@@ -25,9 +25,9 @@
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://techcrunch.com/2026/09/10/id-verification-giant-idscan-confirms-data-breach-with-more-than-150-million-drivers-licenses-stolen/",
     "https://9to5mac.com/2026/09/09/apple-confirms-siri-ai-launches-in-english-this-month-will-add-five-languages-in-october/",
     "https://9to5google.com/2026/09/09/galxy-s27-pro-might-get-privacy-display/",
+    "https://www.cnet.com/tech/mobile/apple-iphone-duo-folding-phone-cnet-reactions/",
     "https://9to5google.com/2026/09/07/samsungs-privacy-display-and-trifold-merge-in-the-huawei-mate-xt2/",
     "https://9to5mac.com/2026/09/09/apple-details-how-apple-watchs-new-audio-intelligence-features-work-in-privacy-paper/"
   ],
