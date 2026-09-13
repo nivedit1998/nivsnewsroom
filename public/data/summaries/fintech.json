@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-09-12T12:15:49.617Z",
+  "generatedAt": "2026-09-13T13:23:11.414Z",
   "bullets": [
     {
-      "text": "**Payments Fraud Identity Problem Not** - (thefintechtimes.com) Payments Fraud is an Identity Problem, Not a Transaction Problem",
-      "url": "https://thefintechtimes.com/payments-fraud-is-an-identity-problem-not-a-transaction-problem/"
+      "text": "**Castle Trust Bank Acquired Sixth** - (thefintechtimes.com) Castle Trust Bank Acquired by Sixth Street and Bayview",
+      "url": "https://thefintechtimes.com/castle-trust-bank-acquired-by-sixth-street-and-bayview/"
     },
     {
-      "text": "**Yemen Can Fintech Connect Economy** - (thefintechtimes.com) Yemen: Can Fintech Connect an Economy Divided by War?",
-      "url": "https://thefintechtimes.com/yemen-can-fintech-connect-an-economy-divided-by-war/"
+      "text": "**United Kingdom What Happens After** - (thefintechtimes.com) United Kingdom: What Happens After Being a Fintech Capital?",
+      "url": "https://thefintechtimes.com/united-kingdom-what-happens-after-being-a-fintech-capital/"
     },
     {
-      "text": "**Stablecoin Proliferation Treasury Policy Problem** - (thefintechtimes.com) Stablecoin Proliferation is a Treasury Policy Problem",
-      "url": "https://thefintechtimes.com/stablecoin-proliferation-is-a-treasury-policy-problem/"
+      "text": "**VitalityLife Deploys Swiss Re PromiseXP** - (thefintechtimes.com) VitalityLife Deploys Swiss Re PromiseXP for Life Claims Triage",
+      "url": "https://thefintechtimes.com/vitalitylife-deploys-swiss-re-promisexp-for-life-claims-triage/"
     },
     {
       "text": "**MoonPay Buys Rhythm Latest Strategic** - (pymnts.com) MoonPay Buys Rhythm in Latest Strategic Acquisition Move",
@@ -22,20 +22,20 @@
       "url": "https://www.fca.org.uk/news/press-releases/fca-boosts-support-innovative-firms-scale-grow"
     }
   ],
-  "inputHash": "06d46ee1220e773540f9aef3ce0d2b05a69f34c8d1db4feb1c3da811dff7c0e7",
+  "inputHash": "a4ebcaf98a5234c7f093bf6a3d1121206afb0ad0e87d44712f1b2d81f1c929c1",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://thefintechtimes.com/payments-fraud-is-an-identity-problem-not-a-transaction-problem/",
-    "https://thefintechtimes.com/yemen-can-fintech-connect-an-economy-divided-by-war/",
-    "https://thefintechtimes.com/stablecoin-proliferation-is-a-treasury-policy-problem/",
+    "https://thefintechtimes.com/castle-trust-bank-acquired-by-sixth-street-and-bayview/",
+    "https://thefintechtimes.com/united-kingdom-what-happens-after-being-a-fintech-capital/",
+    "https://thefintechtimes.com/vitalitylife-deploys-swiss-re-promisexp-for-life-claims-triage/",
     "https://www.pymnts.com/news/acquiring/2026/moonpay-buys-rhythm-in-latest-strategic-acquisition-move/",
     "https://www.fca.org.uk/news/press-releases/fca-boosts-support-innovative-firms-scale-grow",
     "https://www.paymentsdive.com/news/visa-offers-data-to-back-onchain-lending/830172/",
-    "https://www.paymentsdive.com/news/rtp-fed-race-on-fast-payments/829806/",
     "https://www.fca.org.uk/news/press-releases/man-pleads-guilty-fraud-forgery-offences-fake-takeover-approach",
-    "https://www.paymentsdive.com/news/zip-explores-an-ewa-play/830033/",
-    "https://www.finextra.com/newsarticle/48384/coinbase-and-moov-partner-to-boost-stablecoin-payments-for-community-banks-ahead-of-clarity-vote"
+    "https://www.paymentsdive.com/news/rtp-fed-race-on-fast-payments/829806/",
+    "https://www.fca.org.uk/news/blogs/making-compliance-simpler-opening-fca-handbook-new-api",
+    "https://www.paymentsdive.com/news/zip-explores-an-ewa-play/830033/"
   ],
   "note": "fallback (summary generation error)"
 }

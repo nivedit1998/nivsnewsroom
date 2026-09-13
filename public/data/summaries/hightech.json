@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T12:15:28.066Z",
+  "generatedAt": "2026-09-13T13:22:52.213Z",
   "bullets": [
     {
       "text": "**Apple confirms Siri AI launches** - (9to5mac.com) Apple confirms Siri AI launches in English this month, will add five languages in October",
@@ -14,12 +14,12 @@
       "url": "https://www.cnet.com/tech/mobile/apple-iphone-duo-folding-phone-cnet-reactions/"
     },
     {
-      "text": "**Samsung s Privacy Display TriFold** - (9to5google.com) Samsung’s Privacy Display and TriFold merge in the Huawei Mate XT2",
-      "url": "https://9to5google.com/2026/09/07/samsungs-privacy-display-and-trifold-merge-in-the-huawei-mate-xt2/"
+      "text": "**Revolut confirms customer data breach** - (techcrunch.com) Revolut confirms customer data breach through fake government requests",
+      "url": "https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/"
     },
     {
-      "text": "**Apple details how Apple Watch** - (9to5mac.com) Apple details how Apple Watch’s new Audio Intelligence features work in privacy paper",
-      "url": "https://9to5mac.com/2026/09/09/apple-details-how-apple-watchs-new-audio-intelligence-features-work-in-privacy-paper/"
+      "text": "**OpenAI s rogue AI tried** - (theverge.com) OpenAI’s rogue AI tried to hack another company in May",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack"
     }
   ],
   "promptVersion": "insights-v2",
@@ -28,8 +28,8 @@
     "https://9to5mac.com/2026/09/09/apple-confirms-siri-ai-launches-in-english-this-month-will-add-five-languages-in-october/",
     "https://9to5google.com/2026/09/09/galxy-s27-pro-might-get-privacy-display/",
     "https://www.cnet.com/tech/mobile/apple-iphone-duo-folding-phone-cnet-reactions/",
-    "https://9to5google.com/2026/09/07/samsungs-privacy-display-and-trifold-merge-in-the-huawei-mate-xt2/",
-    "https://9to5mac.com/2026/09/09/apple-details-how-apple-watchs-new-audio-intelligence-features-work-in-privacy-paper/"
+    "https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/",
+    "https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack"
   ],
   "note": "fallback (summary generation error)"
 }
