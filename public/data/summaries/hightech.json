@@ -1,6 +1,10 @@
 {
-  "generatedAt": "2026-09-13T13:22:52.213Z",
+  "generatedAt": "2026-09-14T15:07:08.166Z",
   "bullets": [
+    {
+      "text": "**Vinyl Bar Shibuya startup offering** - (techcrunch.com) A Vinyl Bar in Shibuya is a startup offering fun music apps without any AI prompting",
+      "url": "https://techcrunch.com/2026/09/14/a-vinyl-bar-in-shibuya-is-a-startup-offering-fun-music-apps-without-any-ai-prompting/"
+    },
     {
       "text": "**Apple confirms Siri AI launches** - (9to5mac.com) Apple confirms Siri AI launches in English this month, will add five languages in October",
       "url": "https://9to5mac.com/2026/09/09/apple-confirms-siri-ai-launches-in-english-this-month-will-add-five-languages-in-october/"
@@ -10,26 +14,22 @@
       "url": "https://9to5google.com/2026/09/09/galxy-s27-pro-might-get-privacy-display/"
     },
     {
+      "text": "**Hear how AI can engineer** - (techcrunch.com) Hear how AI can engineer nature’s comeback at TechCrunch Disrupt 2026",
+      "url": "https://techcrunch.com/2026/09/14/hear-how-ai-can-engineer-natures-comeback-at-techcrunch-disrupt-2026/"
+    },
+    {
       "text": "**Breakthrough Or Just Breakable Apple** - (cnet.com) A Breakthrough? Or Just Breakable? Apple Unveiled the iPhone Duo, and CNET Writers Have Many Thoughts",
       "url": "https://www.cnet.com/tech/mobile/apple-iphone-duo-folding-phone-cnet-reactions/"
-    },
-    {
-      "text": "**Revolut confirms customer data breach** - (techcrunch.com) Revolut confirms customer data breach through fake government requests",
-      "url": "https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/"
-    },
-    {
-      "text": "**OpenAI s rogue AI tried** - (theverge.com) OpenAI’s rogue AI tried to hack another company in May",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
+    "https://techcrunch.com/2026/09/14/a-vinyl-bar-in-shibuya-is-a-startup-offering-fun-music-apps-without-any-ai-prompting/",
     "https://9to5mac.com/2026/09/09/apple-confirms-siri-ai-launches-in-english-this-month-will-add-five-languages-in-october/",
     "https://9to5google.com/2026/09/09/galxy-s27-pro-might-get-privacy-display/",
-    "https://www.cnet.com/tech/mobile/apple-iphone-duo-folding-phone-cnet-reactions/",
-    "https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/",
-    "https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack"
+    "https://techcrunch.com/2026/09/14/hear-how-ai-can-engineer-natures-comeback-at-techcrunch-disrupt-2026/",
+    "https://www.cnet.com/tech/mobile/apple-iphone-duo-folding-phone-cnet-reactions/"
   ],
   "note": "fallback (summary generation error)"
 }

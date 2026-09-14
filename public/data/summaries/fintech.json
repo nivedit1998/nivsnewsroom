@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-09-13T13:23:11.414Z",
+  "generatedAt": "2026-09-14T15:07:36.348Z",
   "bullets": [
+    {
+      "text": "**UK Payments Leaders Favour Evolution** - (thefintechtimes.com) UK Payments Leaders Favour Evolution Over a Clean-Sheet Rebuild",
+      "url": "https://thefintechtimes.com/uk-payments-leaders-favour-evolution-over-a-clean-sheet-rebuild/"
+    },
     {
       "text": "**Castle Trust Bank Acquired Sixth** - (thefintechtimes.com) Castle Trust Bank Acquired by Sixth Street and Bayview",
       "url": "https://thefintechtimes.com/castle-trust-bank-acquired-by-sixth-street-and-bayview/"
+    },
+    {
+      "text": "**cost friction What 1 500** - (paymentsdive.com) The cost of friction: What 1,500 merchants told us about payments in 2026",
+      "url": "https://www.paymentsdive.com/spons/the-cost-of-friction-what-1500-merchants-told-us-about-payments-in-2026/829587/"
     },
     {
       "text": "**United Kingdom What Happens After** - (thefintechtimes.com) United Kingdom: What Happens After Being a Fintech Capital?",
       "url": "https://thefintechtimes.com/united-kingdom-what-happens-after-being-a-fintech-capital/"
     },
     {
-      "text": "**VitalityLife Deploys Swiss Re PromiseXP** - (thefintechtimes.com) VitalityLife Deploys Swiss Re PromiseXP for Life Claims Triage",
-      "url": "https://thefintechtimes.com/vitalitylife-deploys-swiss-re-promisexp-for-life-claims-triage/"
-    },
-    {
-      "text": "**MoonPay Buys Rhythm Latest Strategic** - (pymnts.com) MoonPay Buys Rhythm in Latest Strategic Acquisition Move",
-      "url": "https://www.pymnts.com/news/acquiring/2026/moonpay-buys-rhythm-in-latest-strategic-acquisition-move/"
-    },
-    {
-      "text": "**FCA boosts support innovative firms** - (fca.org.uk) FCA boosts support for innovative firms as they scale and grow",
-      "url": "https://www.fca.org.uk/news/press-releases/fca-boosts-support-innovative-firms-scale-grow"
+      "text": "**Late B2B Payments Tax 4** - (pymnts.com) Late B2B Payments Tax 4.1% of Corporate Revenue",
+      "url": "https://www.pymnts.com/back-office/cfo/2026/late-b2b-payments-tax-4-1-percent-of-corporate-revenue/"
     }
   ],
-  "inputHash": "a4ebcaf98a5234c7f093bf6a3d1121206afb0ad0e87d44712f1b2d81f1c929c1",
+  "inputHash": "eab6453c0c8798a43041805f7b915b5783db23dd1159655cce3089686b23f637",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
+    "https://thefintechtimes.com/uk-payments-leaders-favour-evolution-over-a-clean-sheet-rebuild/",
     "https://thefintechtimes.com/castle-trust-bank-acquired-by-sixth-street-and-bayview/",
+    "https://www.paymentsdive.com/spons/the-cost-of-friction-what-1500-merchants-told-us-about-payments-in-2026/829587/",
     "https://thefintechtimes.com/united-kingdom-what-happens-after-being-a-fintech-capital/",
-    "https://thefintechtimes.com/vitalitylife-deploys-swiss-re-promisexp-for-life-claims-triage/",
-    "https://www.pymnts.com/news/acquiring/2026/moonpay-buys-rhythm-in-latest-strategic-acquisition-move/",
+    "https://www.pymnts.com/back-office/cfo/2026/late-b2b-payments-tax-4-1-percent-of-corporate-revenue/",
     "https://www.fca.org.uk/news/press-releases/fca-boosts-support-innovative-firms-scale-grow",
-    "https://www.paymentsdive.com/news/visa-offers-data-to-back-onchain-lending/830172/",
+    "https://www.finextra.com/pressarticle/110896/worldline-enables-agentic-commerce-payments-via-universal-commerce-protocol",
     "https://www.fca.org.uk/news/press-releases/man-pleads-guilty-fraud-forgery-offences-fake-takeover-approach",
-    "https://www.paymentsdive.com/news/rtp-fed-race-on-fast-payments/829806/",
-    "https://www.fca.org.uk/news/blogs/making-compliance-simpler-opening-fca-handbook-new-api",
-    "https://www.paymentsdive.com/news/zip-explores-an-ewa-play/830033/"
+    "https://www.paymentsdive.com/news/visa-offers-data-to-back-onchain-lending/830172/",
+    "https://www.fca.org.uk/news/blogs/making-compliance-simpler-opening-fca-handbook-new-api"
   ],
   "note": "fallback (summary generation error)"
 }

@@ -1,20 +1,35 @@
 {
-  "generatedAt": "2026-09-13T13:23:21.797Z",
+  "generatedAt": "2026-09-14T15:07:47.150Z",
   "bullets": [
+    {
+      "text": "**Good bookkeeping How keep financial** - (sage.com) Good bookkeeping: How to keep financial records",
+      "url": "https://www.sage.com/en-gb/blog/good-bookkeeping-how-to-keep-financial-records/"
+    },
+    {
+      "text": "**ultimate guide small business accounting** - (sage.com) The ultimate guide to small business accounting and bookkeeping",
+      "url": "https://www.sage.com/en-gb/blog/the-ultimate-guide-to-basic-business-accounting/"
+    },
+    {
+      "text": "**Small business administration Your easy** - (sage.com) Small business administration: Your easy guide to managing your admin",
+      "url": "https://www.sage.com/en-gb/blog/small-business-administration-easy-guide/"
+    },
+    {
+      "text": "**How manage your accounts bookkeeping** - (sage.com) How to manage your accounts and bookkeeping as a sole trader",
+      "url": "https://www.sage.com/en-gb/blog/manage-your-accounts-sole-trader/"
+    },
     {
       "text": "**HMRC signed me up MTD** - (sage.com) HMRC signed me up for MTD for Income Tax. What should I do now?",
       "url": "https://www.sage.com/en-gb/blog/hmrc-signed-up-mtd-income-tax/"
-    },
-    {
-      "text": "**HMRC-led sign-up MTD Income Tax** - (sage.com) HMRC-led sign-up for MTD for Income Tax: What accountants need to know",
-      "url": "https://www.sage.com/en-gb/blog/hmrc-led-sign-up-mtd-income-tax-accountants/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://www.sage.com/en-gb/blog/hmrc-signed-up-mtd-income-tax/",
-    "https://www.sage.com/en-gb/blog/hmrc-led-sign-up-mtd-income-tax-accountants/"
+    "https://www.sage.com/en-gb/blog/good-bookkeeping-how-to-keep-financial-records/",
+    "https://www.sage.com/en-gb/blog/the-ultimate-guide-to-basic-business-accounting/",
+    "https://www.sage.com/en-gb/blog/small-business-administration-easy-guide/",
+    "https://www.sage.com/en-gb/blog/manage-your-accounts-sole-trader/",
+    "https://www.sage.com/en-gb/blog/hmrc-signed-up-mtd-income-tax/"
   ],
   "note": "fallback (summary generation error)"
 }
