@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T15:07:43.967Z",
+  "generatedAt": "2026-09-15T13:43:51.566Z",
   "bullets": [
     {
       "text": "**Beyond PRIIPs CCI future UK** - (capco.com) Beyond PRIIPs: CCI and the future of UK retail disclosure",
@@ -18,8 +18,8 @@
       "url": "https://www.capco.com/intelligence/capco-intelligence/the-modernization-reckoning-how-banks-can-future-proof"
     },
     {
-      "text": "**EU banking supervision road simplification** - (capco.com) EU banking supervision: the road to simplification",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/eu-banking-supervision-the-road-to-simplification"
+      "text": "**Europe s T 1 market** - (capco.com) Europe's T+1 market must prove readiness",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/europes-market-must-prove-readiness"
     }
   ],
   "promptVersion": "insights-v2",
@@ -29,7 +29,7 @@
     "https://www.capco.com/intelligence/capco-intelligence/accelerating-tplus1-settlement",
     "https://www.capco.com/intelligence/capco-intelligence/the-great-advisory-reset",
     "https://www.capco.com/intelligence/capco-intelligence/the-modernization-reckoning-how-banks-can-future-proof",
-    "https://www.capco.com/intelligence/capco-intelligence/eu-banking-supervision-the-road-to-simplification"
+    "https://www.capco.com/intelligence/capco-intelligence/europes-market-must-prove-readiness"
   ],
   "note": "fallback (summary generation error)"
 }

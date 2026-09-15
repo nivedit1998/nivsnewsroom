@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-09-14T15:07:36.348Z",
+  "generatedAt": "2026-09-15T13:43:45.336Z",
   "bullets": [
     {
-      "text": "**UK Payments Leaders Favour Evolution** - (thefintechtimes.com) UK Payments Leaders Favour Evolution Over a Clean-Sheet Rebuild",
-      "url": "https://thefintechtimes.com/uk-payments-leaders-favour-evolution-over-a-clean-sheet-rebuild/"
-    },
-    {
-      "text": "**Castle Trust Bank Acquired Sixth** - (thefintechtimes.com) Castle Trust Bank Acquired by Sixth Street and Bayview",
-      "url": "https://thefintechtimes.com/castle-trust-bank-acquired-by-sixth-street-and-bayview/"
+      "text": "**Grab Enters BNPL Space 1** - (pymnts.com) Grab Enters BNPL Space With $1.4 Billion Atome Acquisition",
+      "url": "https://www.pymnts.com/bnpl/2026/grab-enters-bnpl-space-with-1-4-billion-atome-acquisition/"
     },
     {
       "text": "**cost friction What 1 500** - (paymentsdive.com) The cost of friction: What 1,500 merchants told us about payments in 2026",
       "url": "https://www.paymentsdive.com/spons/the-cost-of-friction-what-1500-merchants-told-us-about-payments-in-2026/829587/"
     },
     {
-      "text": "**United Kingdom What Happens After** - (thefintechtimes.com) United Kingdom: What Happens After Being a Fintech Capital?",
-      "url": "https://thefintechtimes.com/united-kingdom-what-happens-after-being-a-fintech-capital/"
+      "text": "**My Syria Super App Launches** - (thefintechtimes.com) My Syria Super App Launches With Cross-Border Digital Payments",
+      "url": "https://thefintechtimes.com/my-syria-super-app-launches-with-cross-border-digital-payments/"
     },
     {
-      "text": "**Late B2B Payments Tax 4** - (pymnts.com) Late B2B Payments Tax 4.1% of Corporate Revenue",
-      "url": "https://www.pymnts.com/back-office/cfo/2026/late-b2b-payments-tax-4-1-percent-of-corporate-revenue/"
+      "text": "**UK Payments Delivery Company embarks** - (finextra.com) UK Payments Delivery Company embarks on equity raise for new retail infrastructure",
+      "url": "https://www.finextra.com/newsarticle/48407/uk-payments-delivery-company-embarks-on-equity-raise-for-new-retail-infrastructure"
+    },
+    {
+      "text": "**Vanuatu Where Fintech Has Cross** - (thefintechtimes.com) Vanuatu: Where Fintech Has to Cross an Ocean",
+      "url": "https://thefintechtimes.com/vanuatu-where-fintech-has-to-cross-an-ocean/"
     }
   ],
-  "inputHash": "eab6453c0c8798a43041805f7b915b5783db23dd1159655cce3089686b23f637",
+  "inputHash": "858203dc7791acfb61f51bd465fd8d0d6b8500b142418bddfaa2bc04fe91892a",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://thefintechtimes.com/uk-payments-leaders-favour-evolution-over-a-clean-sheet-rebuild/",
-    "https://thefintechtimes.com/castle-trust-bank-acquired-by-sixth-street-and-bayview/",
+    "https://www.pymnts.com/bnpl/2026/grab-enters-bnpl-space-with-1-4-billion-atome-acquisition/",
     "https://www.paymentsdive.com/spons/the-cost-of-friction-what-1500-merchants-told-us-about-payments-in-2026/829587/",
-    "https://thefintechtimes.com/united-kingdom-what-happens-after-being-a-fintech-capital/",
-    "https://www.pymnts.com/back-office/cfo/2026/late-b2b-payments-tax-4-1-percent-of-corporate-revenue/",
+    "https://thefintechtimes.com/my-syria-super-app-launches-with-cross-border-digital-payments/",
+    "https://www.finextra.com/newsarticle/48407/uk-payments-delivery-company-embarks-on-equity-raise-for-new-retail-infrastructure",
+    "https://thefintechtimes.com/vanuatu-where-fintech-has-to-cross-an-ocean/",
+    "https://thefintechtimes.com/tabby-secures-233-million-at-6-5-billion-valuation-to-accelerate-regional-financial-services-expansion/",
+    "https://www.finextra.com/pressarticle/110911/bnp-paribas-expands-wero-uptake-with-merchants-and-retail-customers",
     "https://www.fca.org.uk/news/press-releases/fca-boosts-support-innovative-firms-scale-grow",
-    "https://www.finextra.com/pressarticle/110896/worldline-enables-agentic-commerce-payments-via-universal-commerce-protocol",
     "https://www.fca.org.uk/news/press-releases/man-pleads-guilty-fraud-forgery-offences-fake-takeover-approach",
-    "https://www.paymentsdive.com/news/visa-offers-data-to-back-onchain-lending/830172/",
-    "https://www.fca.org.uk/news/blogs/making-compliance-simpler-opening-fca-handbook-new-api"
+    "https://www.pymnts.com/mastercard/2026/mastercard-dreamonomics-report-finds-smaller-businesses-prioritizing-stability/"
   ],
   "note": "fallback (summary generation error)"
 }
