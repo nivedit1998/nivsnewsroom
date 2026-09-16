@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-09-15T13:43:45.336Z",
+  "generatedAt": "2026-09-16T13:36:47.856Z",
   "bullets": [
     {
-      "text": "**Grab Enters BNPL Space 1** - (pymnts.com) Grab Enters BNPL Space With $1.4 Billion Atome Acquisition",
-      "url": "https://www.pymnts.com/bnpl/2026/grab-enters-bnpl-space-with-1-4-billion-atome-acquisition/"
+      "text": "**Mintoak Acquires ICC Loyalty Build** - (thefintechtimes.com) Mintoak Acquires ICC Loyalty to Build Payments and Engagement OS",
+      "url": "https://thefintechtimes.com/mintoak-acquires-icc-loyalty-to-build-payments-and-engagement-os/"
+    },
+    {
+      "text": "**Fraud fund stablecoins Open Finance** - (thefintechtimes.com) Fraud fund, stablecoins, Open Finance: industry tests Innovate Finance’s asks",
+      "url": "https://thefintechtimes.com/fraud-fund-stablecoins-open-finance-industry-tests-innovate-finances-asks/"
     },
     {
       "text": "**cost friction What 1 500** - (paymentsdive.com) The cost of friction: What 1,500 merchants told us about payments in 2026",
       "url": "https://www.paymentsdive.com/spons/the-cost-of-friction-what-1500-merchants-told-us-about-payments-in-2026/829587/"
     },
     {
-      "text": "**My Syria Super App Launches** - (thefintechtimes.com) My Syria Super App Launches With Cross-Border Digital Payments",
-      "url": "https://thefintechtimes.com/my-syria-super-app-launches-with-cross-border-digital-payments/"
+      "text": "**next stablecoin explosion will come** - (thefintechtimes.com) The next stablecoin explosion will come from enterprises not fintechs",
+      "url": "https://thefintechtimes.com/the-next-stablecoin-explosion-will-come-from-enterprises-not-fintechs/"
     },
     {
-      "text": "**UK Payments Delivery Company embarks** - (finextra.com) UK Payments Delivery Company embarks on equity raise for new retail infrastructure",
-      "url": "https://www.finextra.com/newsarticle/48407/uk-payments-delivery-company-embarks-on-equity-raise-for-new-retail-infrastructure"
-    },
-    {
-      "text": "**Vanuatu Where Fintech Has Cross** - (thefintechtimes.com) Vanuatu: Where Fintech Has to Cross an Ocean",
-      "url": "https://thefintechtimes.com/vanuatu-where-fintech-has-to-cross-an-ocean/"
+      "text": "**47 Shoppers Who Abandoned Their** - (pymnts.com) 47% of Shoppers Who Abandoned Their Carts Wanted a Digital Wallet Option",
+      "url": "https://www.pymnts.com/digital-payments/2026/47-percent-of-shoppers-who-abandoned-their-carts-wanted-a-digital-wallet-option/"
     }
   ],
-  "inputHash": "858203dc7791acfb61f51bd465fd8d0d6b8500b142418bddfaa2bc04fe91892a",
+  "inputHash": "83dc3d591390938f3b3494e5ebf7b3bb8f47a89be7fa2c72eb6445e80236c3cc",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://www.pymnts.com/bnpl/2026/grab-enters-bnpl-space-with-1-4-billion-atome-acquisition/",
+    "https://thefintechtimes.com/mintoak-acquires-icc-loyalty-to-build-payments-and-engagement-os/",
+    "https://thefintechtimes.com/fraud-fund-stablecoins-open-finance-industry-tests-innovate-finances-asks/",
     "https://www.paymentsdive.com/spons/the-cost-of-friction-what-1500-merchants-told-us-about-payments-in-2026/829587/",
-    "https://thefintechtimes.com/my-syria-super-app-launches-with-cross-border-digital-payments/",
-    "https://www.finextra.com/newsarticle/48407/uk-payments-delivery-company-embarks-on-equity-raise-for-new-retail-infrastructure",
-    "https://thefintechtimes.com/vanuatu-where-fintech-has-to-cross-an-ocean/",
-    "https://thefintechtimes.com/tabby-secures-233-million-at-6-5-billion-valuation-to-accelerate-regional-financial-services-expansion/",
-    "https://www.finextra.com/pressarticle/110911/bnp-paribas-expands-wero-uptake-with-merchants-and-retail-customers",
+    "https://thefintechtimes.com/the-next-stablecoin-explosion-will-come-from-enterprises-not-fintechs/",
+    "https://www.pymnts.com/digital-payments/2026/47-percent-of-shoppers-who-abandoned-their-carts-wanted-a-digital-wallet-option/",
+    "https://www.pymnts.com/cybersecurity/2026/revolut-faces-extortion-threats-following-email-scam/",
     "https://www.fca.org.uk/news/press-releases/fca-boosts-support-innovative-firms-scale-grow",
     "https://www.fca.org.uk/news/press-releases/man-pleads-guilty-fraud-forgery-offences-fake-takeover-approach",
-    "https://www.pymnts.com/mastercard/2026/mastercard-dreamonomics-report-finds-smaller-businesses-prioritizing-stability/"
+    "https://www.fca.org.uk/news/blogs/making-compliance-simpler-opening-fca-handbook-new-api",
+    "https://www.paymentsdive.com/news/visa-offers-data-to-back-onchain-lending/830172/"
   ],
   "note": "fallback (summary generation error)"
 }

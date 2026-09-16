@@ -1,10 +1,6 @@
 {
-  "generatedAt": "2026-09-15T13:43:48.033Z",
+  "generatedAt": "2026-09-16T13:36:49.957Z",
   "bullets": [
-    {
-      "text": "**MotoGP Accenture Join Forces Reinvent** - (newsroom.accenture.com) MotoGP and Accenture Join Forces to Reinvent the Direct-to-Fan Sports Streaming Experience",
-      "url": "https://newsroom.accenture.com/news/2026/motogp-and-accenture-join-forces-to-reinvent-the-direct-to-fan-sports-streaming-experience"
-    },
     {
       "text": "**Accenture Announce Fourth-Quarter Full- Year** - (newsroom.accenture.com) Accenture to Announce Fourth-Quarter and Full- Year Fiscal 2026 Results",
       "url": "https://newsroom.accenture.com/news/2026/accenture-to-announce-fourth-quarter-and-full-year-fiscal-2026-results"
@@ -13,7 +9,6 @@
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://newsroom.accenture.com/news/2026/motogp-and-accenture-join-forces-to-reinvent-the-direct-to-fan-sports-streaming-experience",
     "https://newsroom.accenture.com/news/2026/accenture-to-announce-fourth-quarter-and-full-year-fiscal-2026-results"
   ],
   "note": "fallback (summary generation error)"

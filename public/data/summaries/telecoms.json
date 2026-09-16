@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T13:43:34.670Z",
+  "generatedAt": "2026-09-16T13:36:39.615Z",
   "bullets": [
     {
       "text": "**GSMA warns emerging global AI** - (gsma.com) GSMA warns of emerging global AI divide as three billion people remain offline and smartphone component costs soar",
@@ -14,12 +14,8 @@
       "url": "https://totaltele.com/samsung-and-verizon-test-isac-capabilities-in-dallas/"
     },
     {
-      "text": "**Nearly Half Reported Scam Incidents** - (gsma.com) Nearly Half of Reported Scam Incidents Go Unresolved Across Southeast Asia, Undermining Digital Trust, New GSMA Findings Reveal",
-      "url": "https://www.gsma.com/newsroom/press-release/nearly-half-of-reported-scam-incidents-go-unresolved-across-southeast-asia-undermining-digital-trust-new-gsma-findings-reveal/"
-    },
-    {
-      "text": "**Huawei takes wearable health beyond** - (totaltele.com) Huawei takes wearable health beyond devices with Watch D3, Terve Research",
-      "url": "https://totaltele.com/huawei-takes-wearable-health-beyond-devices-with-watch-d3-terve-research/"
+      "text": "**World Communication Awards 2026 shortlist** - (totaltele.com) World Communication Awards 2026 shortlist announced!",
+      "url": "https://totaltele.com/world-communication-awards-shortlist-announced-2/"
     }
   ],
   "promptVersion": "insights-v2",
@@ -28,8 +24,7 @@
     "https://www.gsma.com/newsroom/press-release/gsma-warns-of-emerging-global-ai-divide-as-three-billion-people-remain-offline-and-smartphone-component-costs-soar/",
     "https://www.gsma.com/newsroom/press-release/gsma-calls-for-greater-renewable-energy-access-to-enable-mobile-industrys-net-zero-transition-in-asia-pacific/",
     "https://totaltele.com/samsung-and-verizon-test-isac-capabilities-in-dallas/",
-    "https://www.gsma.com/newsroom/press-release/nearly-half-of-reported-scam-incidents-go-unresolved-across-southeast-asia-undermining-digital-trust-new-gsma-findings-reveal/",
-    "https://totaltele.com/huawei-takes-wearable-health-beyond-devices-with-watch-d3-terve-research/"
+    "https://totaltele.com/world-communication-awards-shortlist-announced-2/"
   ],
   "note": "fallback (summary generation error)"
 }

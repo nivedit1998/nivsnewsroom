@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-09-15T13:43:26.450Z",
+  "generatedAt": "2026-09-16T13:36:33.006Z",
   "bullets": [
     {
       "text": "**New Apple Watch features may** - (9to5mac.com) New Apple Watch features may require new legal precedent for privacy",
       "url": "https://9to5mac.com/2026/09/15/new-apple-watch-features-may-require-new-legal-precedent-for-privacy/"
     },
     {
-      "text": "**New Italian unicorn Exein rides** - (techcrunch.com) New Italian unicorn Exein rides the physical AI wave",
-      "url": "https://techcrunch.com/2026/09/15/new-italian-unicorn-exein-rides-the-physical-ai-wave/"
+      "text": "**Health benefits platform Thatch reaches** - (techcrunch.com) Health benefits platform Thatch reaches $1B valuation as healthcare costs surge",
+      "url": "https://techcrunch.com/2026/09/15/health-benefits-platform-thatch-reaches-1b-valuation-as-healthcare-costs-surge/"
     },
     {
-      "text": "**Big Tech s AI slowdown** - (theverge.com) Is Big Tech’s AI slowdown a safety pact or a cartel?",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel"
+      "text": "**Meta expands subscription push new** - (techcrunch.com) Meta expands subscription push with new AI-focused plans",
+      "url": "https://techcrunch.com/2026/09/15/meta-expands-subscription-push-with-new-ai-focused-plans/"
     },
     {
-      "text": "**Here requirements get Siri AI** - (9to5mac.com) Here are the requirements to get Siri AI in iOS 27",
-      "url": "https://9to5mac.com/2026/09/14/here-are-the-requirements-to-get-siri-ai-in-ios-27/"
+      "text": "**brief history AI executives calling** - (theverge.com) A brief history of AI executives calling for regulation",
+      "url": "https://www.theverge.com/policy/995534/a-brief-history-of-ai-executives-calling-for-regulation"
     },
     {
-      "text": "**Early Anthropic hire former METR** - (techcrunch.com) Early Anthropic hire, former METR COO have found a way to rein in rogue AI agents",
-      "url": "https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents/"
+      "text": "**AI data centers incredibly unpopular** - (theverge.com) AI and data centers are incredibly unpopular in every poll",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://9to5mac.com/2026/09/15/new-apple-watch-features-may-require-new-legal-precedent-for-privacy/",
-    "https://techcrunch.com/2026/09/15/new-italian-unicorn-exein-rides-the-physical-ai-wave/",
-    "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel",
-    "https://9to5mac.com/2026/09/14/here-are-the-requirements-to-get-siri-ai-in-ios-27/",
-    "https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents/"
+    "https://techcrunch.com/2026/09/15/health-benefits-platform-thatch-reaches-1b-valuation-as-healthcare-costs-surge/",
+    "https://techcrunch.com/2026/09/15/meta-expands-subscription-push-with-new-ai-focused-plans/",
+    "https://www.theverge.com/policy/995534/a-brief-history-of-ai-executives-calling-for-regulation",
+    "https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september"
   ],
   "note": "fallback (summary generation error)"
 }

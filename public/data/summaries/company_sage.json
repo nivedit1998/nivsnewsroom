@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T13:43:54.341Z",
+  "generatedAt": "2026-09-16T13:36:56.390Z",
   "bullets": [
     {
       "text": "**Good bookkeeping How keep financial** - (sage.com) Good bookkeeping: How to keep financial records",
@@ -16,10 +16,6 @@
     {
       "text": "**How manage your accounts bookkeeping** - (sage.com) How to manage your accounts and bookkeeping as a sole trader",
       "url": "https://www.sage.com/en-gb/blog/manage-your-accounts-sole-trader/"
-    },
-    {
-      "text": "**HMRC signed me up MTD** - (sage.com) HMRC signed me up for MTD for Income Tax. What should I do now?",
-      "url": "https://www.sage.com/en-gb/blog/hmrc-signed-up-mtd-income-tax/"
     }
   ],
   "promptVersion": "insights-v2",
@@ -28,8 +24,7 @@
     "https://www.sage.com/en-gb/blog/good-bookkeeping-how-to-keep-financial-records/",
     "https://www.sage.com/en-gb/blog/the-ultimate-guide-to-basic-business-accounting/",
     "https://www.sage.com/en-gb/blog/small-business-administration-easy-guide/",
-    "https://www.sage.com/en-gb/blog/manage-your-accounts-sole-trader/",
-    "https://www.sage.com/en-gb/blog/hmrc-signed-up-mtd-income-tax/"
+    "https://www.sage.com/en-gb/blog/manage-your-accounts-sole-trader/"
   ],
   "note": "fallback (summary generation error)"
 }
