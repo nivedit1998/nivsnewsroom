@@ -1,9 +1,17 @@
 {
-  "generatedAt": "2026-09-16T13:36:56.390Z",
+  "generatedAt": "2026-09-17T13:39:32.711Z",
   "bullets": [
+    {
+      "text": "**Employment status Meaning importance** - (sage.com) Employment status: Meaning and importance",
+      "url": "https://www.sage.com/en-gb/blog/employment-status/"
+    },
     {
       "text": "**Good bookkeeping How keep financial** - (sage.com) Good bookkeeping: How to keep financial records",
       "url": "https://www.sage.com/en-gb/blog/good-bookkeeping-how-to-keep-financial-records/"
+    },
+    {
+      "text": "**Invoice tips round-up Essential advice** - (sage.com) Invoice tips round-up: Essential advice to help you get paid on time",
+      "url": "https://www.sage.com/en-gb/blog/invoice-tips-round-up-paid-on-time/"
     },
     {
       "text": "**ultimate guide small business accounting** - (sage.com) The ultimate guide to small business accounting and bookkeeping",
@@ -12,19 +20,16 @@
     {
       "text": "**Small business administration Your easy** - (sage.com) Small business administration: Your easy guide to managing your admin",
       "url": "https://www.sage.com/en-gb/blog/small-business-administration-easy-guide/"
-    },
-    {
-      "text": "**How manage your accounts bookkeeping** - (sage.com) How to manage your accounts and bookkeeping as a sole trader",
-      "url": "https://www.sage.com/en-gb/blog/manage-your-accounts-sole-trader/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
+    "https://www.sage.com/en-gb/blog/employment-status/",
     "https://www.sage.com/en-gb/blog/good-bookkeeping-how-to-keep-financial-records/",
+    "https://www.sage.com/en-gb/blog/invoice-tips-round-up-paid-on-time/",
     "https://www.sage.com/en-gb/blog/the-ultimate-guide-to-basic-business-accounting/",
-    "https://www.sage.com/en-gb/blog/small-business-administration-easy-guide/",
-    "https://www.sage.com/en-gb/blog/manage-your-accounts-sole-trader/"
+    "https://www.sage.com/en-gb/blog/small-business-administration-easy-guide/"
   ],
   "note": "fallback (summary generation error)"
 }

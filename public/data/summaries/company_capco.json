@@ -1,17 +1,9 @@
 {
-  "generatedAt": "2026-09-16T13:36:53.634Z",
+  "generatedAt": "2026-09-17T13:39:29.152Z",
   "bullets": [
     {
-      "text": "**T 1 Prepare Optimize Accelerate** - (capco.com) T+1: Prepare, Optimize, Accelerate",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/accelerating-tplus1-settlement"
-    },
-    {
-      "text": "**great advisory reset** - (capco.com) The great advisory reset",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/the-great-advisory-reset"
-    },
-    {
-      "text": "**Modernization Reckoning How Banks Can** - (capco.com) The Modernization Reckoning: How Banks Can Future-Proof Legacy Payment Infrastructure for the AI Era",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/the-modernization-reckoning-how-banks-can-future-proof"
+      "text": "**Connected Insurer Fragmentation cost nobody** - (capco.com) The Connected Insurer: Fragmentation, the cost nobody owns",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/the-connected-insurer"
     },
     {
       "text": "**Europe s T 1 market** - (capco.com) Europe's T+1 market must prove readiness",
@@ -21,9 +13,7 @@
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://www.capco.com/intelligence/capco-intelligence/accelerating-tplus1-settlement",
-    "https://www.capco.com/intelligence/capco-intelligence/the-great-advisory-reset",
-    "https://www.capco.com/intelligence/capco-intelligence/the-modernization-reckoning-how-banks-can-future-proof",
+    "https://www.capco.com/intelligence/capco-intelligence/the-connected-insurer",
     "https://www.capco.com/intelligence/capco-intelligence/europes-market-must-prove-readiness"
   ],
   "note": "fallback (summary generation error)"

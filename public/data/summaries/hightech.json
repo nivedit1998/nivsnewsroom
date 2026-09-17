@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-09-16T13:36:33.006Z",
+  "generatedAt": "2026-09-17T13:39:02.803Z",
   "bullets": [
     {
       "text": "**New Apple Watch features may** - (9to5mac.com) New Apple Watch features may require new legal precedent for privacy",
       "url": "https://9to5mac.com/2026/09/15/new-apple-watch-features-may-require-new-legal-precedent-for-privacy/"
     },
     {
-      "text": "**Health benefits platform Thatch reaches** - (techcrunch.com) Health benefits platform Thatch reaches $1B valuation as healthcare costs surge",
-      "url": "https://techcrunch.com/2026/09/15/health-benefits-platform-thatch-reaches-1b-valuation-as-healthcare-costs-surge/"
+      "text": "**AI labs want in-house auditors** - (techcrunch.com) AI labs want in-house auditors — but maybe they should shut the front door first",
+      "url": "https://techcrunch.com/2026/09/16/ai-labs-want-in-house-auditors-but-maybe-they-should-shut-the-front-door-first/"
     },
     {
-      "text": "**Meta expands subscription push new** - (techcrunch.com) Meta expands subscription push with new AI-focused plans",
-      "url": "https://techcrunch.com/2026/09/15/meta-expands-subscription-push-with-new-ai-focused-plans/"
+      "text": "**Comp AI sets eyes continuously** - (techcrunch.com) Comp AI sets eyes on a continuously agentic future for security and compliance",
+      "url": "https://techcrunch.com/2026/09/17/comp-ai-sets-eyes-on-a-continiously-agentic-future-for-security-and-complaince/"
     },
     {
-      "text": "**brief history AI executives calling** - (theverge.com) A brief history of AI executives calling for regulation",
-      "url": "https://www.theverge.com/policy/995534/a-brief-history-of-ai-executives-calling-for-regulation"
+      "text": "**Here requirements get Siri AI** - (9to5mac.com) Here are the requirements to get Siri AI in iOS 27",
+      "url": "https://9to5mac.com/2026/09/14/here-are-the-requirements-to-get-siri-ai-in-ios-27/"
     },
     {
-      "text": "**AI data centers incredibly unpopular** - (theverge.com) AI and data centers are incredibly unpopular in every poll",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september"
+      "text": "**AI data center e-waste problem** - (theverge.com) The AI data center e-waste problem is huge — and getting bigger",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/996470/ai-data-center-e-waste-ban"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://9to5mac.com/2026/09/15/new-apple-watch-features-may-require-new-legal-precedent-for-privacy/",
-    "https://techcrunch.com/2026/09/15/health-benefits-platform-thatch-reaches-1b-valuation-as-healthcare-costs-surge/",
-    "https://techcrunch.com/2026/09/15/meta-expands-subscription-push-with-new-ai-focused-plans/",
-    "https://www.theverge.com/policy/995534/a-brief-history-of-ai-executives-calling-for-regulation",
-    "https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september"
+    "https://techcrunch.com/2026/09/16/ai-labs-want-in-house-auditors-but-maybe-they-should-shut-the-front-door-first/",
+    "https://techcrunch.com/2026/09/17/comp-ai-sets-eyes-on-a-continiously-agentic-future-for-security-and-complaince/",
+    "https://9to5mac.com/2026/09/14/here-are-the-requirements-to-get-siri-ai-in-ios-27/",
+    "https://www.theverge.com/ai-artificial-intelligence/996470/ai-data-center-e-waste-ban"
   ],
   "note": "fallback (summary generation error)"
 }
