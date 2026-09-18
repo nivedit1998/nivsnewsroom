@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-09-17T13:39:02.803Z",
+  "generatedAt": "2026-09-18T13:02:47.320Z",
   "bullets": [
     {
       "text": "**New Apple Watch features may** - (9to5mac.com) New Apple Watch features may require new legal precedent for privacy",
       "url": "https://9to5mac.com/2026/09/15/new-apple-watch-features-may-require-new-legal-precedent-for-privacy/"
     },
     {
-      "text": "**AI labs want in-house auditors** - (techcrunch.com) AI labs want in-house auditors — but maybe they should shut the front door first",
-      "url": "https://techcrunch.com/2026/09/16/ai-labs-want-in-house-auditors-but-maybe-they-should-shut-the-front-door-first/"
+      "text": "**AI Superintelligence Slowdown** - (theverge.com) The AI Superintelligence Slowdown",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/996923/ai-safety-slow-openai-anthropic"
     },
     {
-      "text": "**Comp AI sets eyes continuously** - (techcrunch.com) Comp AI sets eyes on a continuously agentic future for security and compliance",
-      "url": "https://techcrunch.com/2026/09/17/comp-ai-sets-eyes-on-a-continiously-agentic-future-for-security-and-complaince/"
+      "text": "**Crusoe raises 3 9B build** - (techcrunch.com) Crusoe raises $3.9B to build massive data centers and small modular ‘AI factories’",
+      "url": "https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/"
     },
     {
-      "text": "**Here requirements get Siri AI** - (9to5mac.com) Here are the requirements to get Siri AI in iOS 27",
-      "url": "https://9to5mac.com/2026/09/14/here-are-the-requirements-to-get-siri-ai-in-ios-27/"
+      "text": "**AI safety debate about safety** - (techcrunch.com) Is the AI safety debate about safety or control?",
+      "url": "https://techcrunch.com/2026/09/17/is-the-ai-safety-debate-about-safety-or-control/"
     },
     {
-      "text": "**AI data center e-waste problem** - (theverge.com) The AI data center e-waste problem is huge — and getting bigger",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/996470/ai-data-center-e-waste-ban"
+      "text": "**Meta AI launches Muse personal** - (9to5mac.com) Meta AI launches Muse personal agent, including apps for iPhone and Mac",
+      "url": "https://9to5mac.com/2026/09/17/meta-ai-launches-muse-personal-agent-including-a-new-mobile-app-for-iphone/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://9to5mac.com/2026/09/15/new-apple-watch-features-may-require-new-legal-precedent-for-privacy/",
-    "https://techcrunch.com/2026/09/16/ai-labs-want-in-house-auditors-but-maybe-they-should-shut-the-front-door-first/",
-    "https://techcrunch.com/2026/09/17/comp-ai-sets-eyes-on-a-continiously-agentic-future-for-security-and-complaince/",
-    "https://9to5mac.com/2026/09/14/here-are-the-requirements-to-get-siri-ai-in-ios-27/",
-    "https://www.theverge.com/ai-artificial-intelligence/996470/ai-data-center-e-waste-ban"
+    "https://www.theverge.com/ai-artificial-intelligence/996923/ai-safety-slow-openai-anthropic",
+    "https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/",
+    "https://techcrunch.com/2026/09/17/is-the-ai-safety-debate-about-safety-or-control/",
+    "https://9to5mac.com/2026/09/17/meta-ai-launches-muse-personal-agent-including-a-new-mobile-app-for-iphone/"
   ],
   "note": "fallback (summary generation error)"
 }

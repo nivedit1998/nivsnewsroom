@@ -1,6 +1,10 @@
 {
-  "generatedAt": "2026-09-17T13:39:13.343Z",
+  "generatedAt": "2026-09-18T13:02:54.264Z",
   "bullets": [
+    {
+      "text": "**Pilots Practice Closing Advanced Connectivity** - (gsma.com) From Pilots to Practice: Closing the Advanced Connectivity Gap in Healthcare",
+      "url": "https://www.gsma.com/newsroom/article/from-pilots-to-practice-closing-the-advanced-connectivity-gap-in-healthcare/"
+    },
     {
       "text": "**GSMA warns emerging global AI** - (gsma.com) GSMA warns of emerging global AI divide as three billion people remain offline and smartphone component costs soar",
       "url": "https://www.gsma.com/newsroom/press-release/gsma-warns-of-emerging-global-ai-divide-as-three-billion-people-remain-offline-and-smartphone-component-costs-soar/"
@@ -14,22 +18,18 @@
       "url": "https://totaltele.com/exa-infrastructure-to-build-new-transatlantic-cable-exa-meridian/"
     },
     {
-      "text": "**Samsung Verizon test ISAC capabilities** - (totaltele.com) Samsung and Verizon test ISAC capabilities in Dallas",
-      "url": "https://totaltele.com/samsung-and-verizon-test-isac-capabilities-in-dallas/"
-    },
-    {
-      "text": "**World Communication Awards 2026 shortlist** - (totaltele.com) World Communication Awards 2026 shortlist announced!",
-      "url": "https://totaltele.com/world-communication-awards-shortlist-announced-2/"
+      "text": "**Openreach Ask Me Anything about** - (totaltele.com) Openreach: Ask Me Anything about my Crystal Ball",
+      "url": "https://totaltele.com/openreach-ask-me-anything-about-my-crystal-ball/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
+    "https://www.gsma.com/newsroom/article/from-pilots-to-practice-closing-the-advanced-connectivity-gap-in-healthcare/",
     "https://www.gsma.com/newsroom/press-release/gsma-warns-of-emerging-global-ai-divide-as-three-billion-people-remain-offline-and-smartphone-component-costs-soar/",
     "https://www.gsma.com/newsroom/press-release/digital-reforms-could-connect-over-1-million-more-people-to-mobile-internet-in-rwanda-gsma-finds/",
     "https://totaltele.com/exa-infrastructure-to-build-new-transatlantic-cable-exa-meridian/",
-    "https://totaltele.com/samsung-and-verizon-test-isac-capabilities-in-dallas/",
-    "https://totaltele.com/world-communication-awards-shortlist-announced-2/"
+    "https://totaltele.com/openreach-ask-me-anything-about-my-crystal-ball/"
   ],
   "note": "fallback (summary generation error)"
 }

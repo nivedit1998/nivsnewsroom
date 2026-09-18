@@ -1,10 +1,6 @@
 {
-  "generatedAt": "2026-09-17T13:39:23.786Z",
+  "generatedAt": "2026-09-18T13:03:03.390Z",
   "bullets": [
-    {
-      "text": "**Fraud fund stablecoins Open Finance** - (thefintechtimes.com) Fraud fund, stablecoins, Open Finance: industry tests Innovate Finance’s asks",
-      "url": "https://thefintechtimes.com/fraud-fund-stablecoins-open-finance-industry-tests-innovate-finances-asks/"
-    },
     {
       "text": "**Brickk TransUnion Link Rent Payments** - (thefintechtimes.com) Brickk and TransUnion Link Rent Payments to UK Credit Profiles",
       "url": "https://thefintechtimes.com/brickk-and-transunion-link-rent-payments-to-uk-credit-profiles/"
@@ -14,28 +10,32 @@
       "url": "https://www.fca.org.uk/news/speeches/financial-crime-protecting-hive"
     },
     {
-      "text": "**cost friction What 1 500** - (paymentsdive.com) The cost of friction: What 1,500 merchants told us about payments in 2026",
-      "url": "https://www.paymentsdive.com/spons/the-cost-of-friction-what-1500-merchants-told-us-about-payments-in-2026/829587/"
+      "text": "**GoCardless Brings Recurring Pay Bank** - (thefintechtimes.com) GoCardless Brings Recurring Pay by Bank to Heat Network Firm",
+      "url": "https://thefintechtimes.com/gocardless-brings-recurring-pay-by-bank-to-heat-network-firm/"
+    },
+    {
+      "text": "**Viva com Achieves Direct Integration** - (thefintechtimes.com) Viva.com Achieves Direct Integration with Portugal’s Multibanco Payment Network",
+      "url": "https://thefintechtimes.com/viva-com-achieves-direct-integration-with-portugals-multibanco-payment-network/"
     },
     {
       "text": "**FCA sets out steps support** - (fca.org.uk) FCA sets out steps to support small businesses' access to finance",
       "url": "https://www.fca.org.uk/news/press-releases/fca-sets-out-steps-support-small-businesses-access-finance"
     }
   ],
-  "inputHash": "ec29c8c07dd174a7fa62db1595a40223da221d254a42cd46bc110b58fe93d1a5",
+  "inputHash": "893ceb36dcfa98dbeaaedf85e40ac28190e5990922d888dd6ab71d55ee7409bb",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://thefintechtimes.com/fraud-fund-stablecoins-open-finance-industry-tests-innovate-finances-asks/",
     "https://thefintechtimes.com/brickk-and-transunion-link-rent-payments-to-uk-credit-profiles/",
     "https://www.fca.org.uk/news/speeches/financial-crime-protecting-hive",
-    "https://www.paymentsdive.com/spons/the-cost-of-friction-what-1500-merchants-told-us-about-payments-in-2026/829587/",
+    "https://thefintechtimes.com/gocardless-brings-recurring-pay-by-bank-to-heat-network-firm/",
+    "https://thefintechtimes.com/viva-com-achieves-direct-integration-with-portugals-multibanco-payment-network/",
     "https://www.fca.org.uk/news/press-releases/fca-sets-out-steps-support-small-businesses-access-finance",
-    "https://thefintechtimes.com/gold-reserves-diversified-by-address-concentrated-by-risk/",
-    "https://www.pymnts.com/cybersecurity/2026/revolut-hackers-issue-3-million-ransom-for-customer-data/",
+    "https://www.paymentsdive.com/news/scammers-fake-student-identities-to-siphon-aid-payments/830610/",
     "https://www.fca.org.uk/news/press-releases/fca-and-partners-continues-crackdown-illegal-crypto-trading",
-    "https://www.finextra.com/newsarticle/48422/grab-agrees-149bn-deal-to-buy-majority-stake-in-apac-bnpl-platform-atome",
-    "https://www.paymentsdive.com/news/fintech-groups-knock-new-york-bnpl-buy-now-pay-later-rules/830515/"
+    "https://www.paymentsdive.com/news/moneygram-taps-stablecoin-ally/830673/",
+    "https://www.paymentsdive.com/news/clarity-act-fails-senate-trump-crypto-conflict-of-interest-sec-cftc/830651/",
+    "https://www.pymnts.com/news/artificial-intelligence/2026/ai-agents-become-the-next-payments-customer/"
   ],
   "note": "fallback (summary generation error)"
 }

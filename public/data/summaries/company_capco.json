@@ -1,20 +1,35 @@
 {
-  "generatedAt": "2026-09-17T13:39:29.152Z",
+  "generatedAt": "2026-09-18T13:03:07.625Z",
   "bullets": [
+    {
+      "text": "**rising cost payment regulation Europe** - (capco.com) The rising cost of payment regulation in Europe",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/the-rising-cost-of-payment-regulation-in-europe"
+    },
     {
       "text": "**Connected Insurer Fragmentation cost nobody** - (capco.com) The Connected Insurer: Fragmentation, the cost nobody owns",
       "url": "https://www.capco.com/intelligence/capco-intelligence/the-connected-insurer"
     },
     {
-      "text": "**Europe s T 1 market** - (capco.com) Europe's T+1 market must prove readiness",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/europes-market-must-prove-readiness"
+      "text": "**ESG reporting risk engine** - (capco.com) From ESG reporting to risk engine",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/from-esg-reporting-to-risk-engine"
+    },
+    {
+      "text": "**SFDR 2 0 Wie sich** - (capco.com) SFDR 2.0 – Wie sich die Architektur nachhaltiger Finanzprodukte verändert",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/sfdr-architektur-nachhaltiger-finanzprodukte"
+    },
+    {
+      "text": "**SFDR 2 0 disclosure product** - (capco.com) SFDR 2.0 – From disclosure to product architecture in sustainable finance",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/sfdr-from-disclosure-to-product-architecture"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
+    "https://www.capco.com/intelligence/capco-intelligence/the-rising-cost-of-payment-regulation-in-europe",
     "https://www.capco.com/intelligence/capco-intelligence/the-connected-insurer",
-    "https://www.capco.com/intelligence/capco-intelligence/europes-market-must-prove-readiness"
+    "https://www.capco.com/intelligence/capco-intelligence/from-esg-reporting-to-risk-engine",
+    "https://www.capco.com/intelligence/capco-intelligence/sfdr-architektur-nachhaltiger-finanzprodukte",
+    "https://www.capco.com/intelligence/capco-intelligence/sfdr-from-disclosure-to-product-architecture"
   ],
   "note": "fallback (summary generation error)"
 }
