@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-09-16T13:36:49.957Z",
+  "generatedAt": "2026-09-19T12:36:30.935Z",
   "bullets": [
     {
-      "text": "**Accenture Announce Fourth-Quarter Full- Year** - (newsroom.accenture.com) Accenture to Announce Fourth-Quarter and Full- Year Fiscal 2026 Results",
-      "url": "https://newsroom.accenture.com/news/2026/accenture-to-announce-fourth-quarter-and-full-year-fiscal-2026-results"
+      "text": "**Accenture Anthropic Partner Build Team** - (newsroom.accenture.com) Accenture and Anthropic Partner to Build Team of Embedded Evaluators at Anthropic",
+      "url": "https://newsroom.accenture.com/news/2026/accenture-and-anthropic-partner-to-build-team-of-embedded-evaluators-at-anthropic"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://newsroom.accenture.com/news/2026/accenture-to-announce-fourth-quarter-and-full-year-fiscal-2026-results"
+    "https://newsroom.accenture.com/news/2026/accenture-and-anthropic-partner-to-build-team-of-embedded-evaluators-at-anthropic"
   ],
   "note": "fallback (summary generation error)"
 }

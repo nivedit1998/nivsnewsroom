@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-18T13:03:03.390Z",
+  "generatedAt": "2026-09-19T12:36:28.144Z",
   "bullets": [
-    {
-      "text": "**Brickk TransUnion Link Rent Payments** - (thefintechtimes.com) Brickk and TransUnion Link Rent Payments to UK Credit Profiles",
-      "url": "https://thefintechtimes.com/brickk-and-transunion-link-rent-payments-to-uk-credit-profiles/"
-    },
     {
       "text": "**Financial crime protecting hive** - (fca.org.uk) Financial crime: protecting the hive",
       "url": "https://www.fca.org.uk/news/speeches/financial-crime-protecting-hive"
+    },
+    {
+      "text": "**FCA sets out steps support** - (fca.org.uk) FCA sets out steps to support small businesses' access to finance",
+      "url": "https://www.fca.org.uk/news/press-releases/fca-sets-out-steps-support-small-businesses-access-finance"
     },
     {
       "text": "**GoCardless Brings Recurring Pay Bank** - (thefintechtimes.com) GoCardless Brings Recurring Pay by Bank to Heat Network Firm",
@@ -18,24 +18,24 @@
       "url": "https://thefintechtimes.com/viva-com-achieves-direct-integration-with-portugals-multibanco-payment-network/"
     },
     {
-      "text": "**FCA sets out steps support** - (fca.org.uk) FCA sets out steps to support small businesses' access to finance",
-      "url": "https://www.fca.org.uk/news/press-releases/fca-sets-out-steps-support-small-businesses-access-finance"
+      "text": "**Profile Rebecca Kacaba CEO Co-Founder** - (thefintechtimes.com) In Profile: Rebecca Kacaba, CEO and Co-Founder of DealMaker",
+      "url": "https://thefintechtimes.com/in-profile-rebecca-kacaba-ceo-and-co-founder-of-dealmaker/"
     }
   ],
-  "inputHash": "893ceb36dcfa98dbeaaedf85e40ac28190e5990922d888dd6ab71d55ee7409bb",
+  "inputHash": "69cc446da1729809d00667f3e046d5b70e99859fd88af5af6e6bc35e058afe94",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://thefintechtimes.com/brickk-and-transunion-link-rent-payments-to-uk-credit-profiles/",
     "https://www.fca.org.uk/news/speeches/financial-crime-protecting-hive",
+    "https://www.fca.org.uk/news/press-releases/fca-sets-out-steps-support-small-businesses-access-finance",
     "https://thefintechtimes.com/gocardless-brings-recurring-pay-by-bank-to-heat-network-firm/",
     "https://thefintechtimes.com/viva-com-achieves-direct-integration-with-portugals-multibanco-payment-network/",
-    "https://www.fca.org.uk/news/press-releases/fca-sets-out-steps-support-small-businesses-access-finance",
+    "https://thefintechtimes.com/in-profile-rebecca-kacaba-ceo-and-co-founder-of-dealmaker/",
     "https://www.paymentsdive.com/news/scammers-fake-student-identities-to-siphon-aid-payments/830610/",
+    "https://www.pymnts.com/news/banking/2026/avant-seeks-national-bank-charter-serve-customers-directly/",
     "https://www.fca.org.uk/news/press-releases/fca-and-partners-continues-crackdown-illegal-crypto-trading",
     "https://www.paymentsdive.com/news/moneygram-taps-stablecoin-ally/830673/",
-    "https://www.paymentsdive.com/news/clarity-act-fails-senate-trump-crypto-conflict-of-interest-sec-cftc/830651/",
-    "https://www.pymnts.com/news/artificial-intelligence/2026/ai-agents-become-the-next-payments-customer/"
+    "https://www.paymentsdive.com/news/clarity-act-fails-senate-trump-crypto-conflict-of-interest-sec-cftc/830651/"
   ],
   "note": "fallback (summary generation error)"
 }
