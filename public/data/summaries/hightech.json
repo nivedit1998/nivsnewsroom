@@ -1,10 +1,6 @@
 {
-  "generatedAt": "2026-09-19T12:36:06.818Z",
+  "generatedAt": "2026-09-20T13:07:45.436Z",
   "bullets": [
-    {
-      "text": "**Gavin Newsom pushing AI kill** - (theverge.com) Gavin Newsom is pushing for an AI kill switch",
-      "url": "https://www.theverge.com/policy/997516/california-governor-newsom-ai-kill-switch"
-    },
     {
       "text": "**Anthropic s first embedded evaluator** - (techcrunch.com) Anthropic’s first embedded evaluator is … Accenture?",
       "url": "https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture/"
@@ -14,22 +10,26 @@
       "url": "https://techcrunch.com/2026/09/18/disneys-first-cto-led-an-ai-startup-it-once-accused-of-copying-its-characters/"
     },
     {
+      "text": "**Humans not rogue AI still** - (theverge.com) Humans, not rogue AI, are still the biggest cybersecurity risk to energy systems",
+      "url": "https://www.theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure"
+    },
+    {
       "text": "**Meta AI launches Muse personal** - (9to5mac.com) Meta AI launches Muse personal agent, including apps for iPhone and Mac",
       "url": "https://9to5mac.com/2026/09/17/meta-ai-launches-muse-personal-agent-including-a-new-mobile-app-for-iphone/"
     },
     {
-      "text": "**Disney s first CTO Character** - (theverge.com) Disney’s first CTO is Character.AI’s former CEO",
-      "url": "https://www.theverge.com/entertainment/997555/karandeep-anand-disney-character-ai"
+      "text": "**Meta s new Muse AI** - (9to5mac.com) Meta’s new Muse AI agent app overtakes ChatGPT as top iPhone app",
+      "url": "https://9to5mac.com/2026/09/18/metas-new-muse-ai-agent-app-overtakes-chatgpt-as-top-iphone-app/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://www.theverge.com/policy/997516/california-governor-newsom-ai-kill-switch",
     "https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture/",
     "https://techcrunch.com/2026/09/18/disneys-first-cto-led-an-ai-startup-it-once-accused-of-copying-its-characters/",
+    "https://www.theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure",
     "https://9to5mac.com/2026/09/17/meta-ai-launches-muse-personal-agent-including-a-new-mobile-app-for-iphone/",
-    "https://www.theverge.com/entertainment/997555/karandeep-anand-disney-character-ai"
+    "https://9to5mac.com/2026/09/18/metas-new-muse-ai-agent-app-overtakes-chatgpt-as-top-iphone-app/"
   ],
   "note": "fallback (summary generation error)"
 }
