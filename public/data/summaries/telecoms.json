@@ -1,9 +1,13 @@
 {
-  "generatedAt": "2026-09-20T13:07:51.256Z",
+  "generatedAt": "2026-09-21T15:13:05.714Z",
   "bullets": [
     {
       "text": "**Pilots Practice Closing Advanced Connectivity** - (gsma.com) From Pilots to Practice: Closing the Advanced Connectivity Gap in Healthcare",
       "url": "https://www.gsma.com/newsroom/article/from-pilots-to-practice-closing-the-advanced-connectivity-gap-in-healthcare/"
+    },
+    {
+      "text": "**GSMA PDAA Unveil Roadmap Close** - (gsma.com) GSMA and PDAA Unveil Roadmap to Close Africa’s Mobile Internet Usage Gap and Connect One Billion People by 2030",
+      "url": "https://www.gsma.com/newsroom/press-release/gsma-and-pdaa-unveil-roadmap-to-close-africas-mobile-internet-usage-gap-and-connect-one-billion-people-by-2030/"
     },
     {
       "text": "**GSMA warns emerging global AI** - (gsma.com) GSMA warns of emerging global AI divide as three billion people remain offline and smartphone component costs soar",
@@ -12,24 +16,15 @@
     {
       "text": "**Digital Reforms Could Connect Over** - (gsma.com) Digital Reforms Could Connect Over 1 Million More People to Mobile Internet in Rwanda, GSMA Finds",
       "url": "https://www.gsma.com/newsroom/press-release/digital-reforms-could-connect-over-1-million-more-people-to-mobile-internet-in-rwanda-gsma-finds/"
-    },
-    {
-      "text": "**EXA Infrastructure build new transatlantic** - (totaltele.com) EXA Infrastructure to build new transatlantic cable EXA Meridian",
-      "url": "https://totaltele.com/exa-infrastructure-to-build-new-transatlantic-cable-exa-meridian/"
-    },
-    {
-      "text": "**Openreach Ask Me Anything about** - (totaltele.com) Openreach: Ask Me Anything about my Crystal Ball",
-      "url": "https://totaltele.com/openreach-ask-me-anything-about-my-crystal-ball/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://www.gsma.com/newsroom/article/from-pilots-to-practice-closing-the-advanced-connectivity-gap-in-healthcare/",
+    "https://www.gsma.com/newsroom/press-release/gsma-and-pdaa-unveil-roadmap-to-close-africas-mobile-internet-usage-gap-and-connect-one-billion-people-by-2030/",
     "https://www.gsma.com/newsroom/press-release/gsma-warns-of-emerging-global-ai-divide-as-three-billion-people-remain-offline-and-smartphone-component-costs-soar/",
-    "https://www.gsma.com/newsroom/press-release/digital-reforms-could-connect-over-1-million-more-people-to-mobile-internet-in-rwanda-gsma-finds/",
-    "https://totaltele.com/exa-infrastructure-to-build-new-transatlantic-cable-exa-meridian/",
-    "https://totaltele.com/openreach-ask-me-anything-about-my-crystal-ball/"
+    "https://www.gsma.com/newsroom/press-release/digital-reforms-could-connect-over-1-million-more-people-to-mobile-internet-in-rwanda-gsma-finds/"
   ],
   "note": "fallback (summary generation error)"
 }

@@ -1,35 +1,30 @@
 {
-  "generatedAt": "2026-09-20T13:08:08.960Z",
+  "generatedAt": "2026-09-21T15:13:43.583Z",
   "bullets": [
     {
       "text": "**Employment status Meaning importance** - (sage.com) Employment status: Meaning and importance",
       "url": "https://www.sage.com/en-gb/blog/employment-status/"
     },
     {
-      "text": "**Good bookkeeping How keep financial** - (sage.com) Good bookkeeping: How to keep financial records",
-      "url": "https://www.sage.com/en-gb/blog/good-bookkeeping-how-to-keep-financial-records/"
-    },
-    {
       "text": "**Invoice tips round-up Essential advice** - (sage.com) Invoice tips round-up: Essential advice to help you get paid on time",
       "url": "https://www.sage.com/en-gb/blog/invoice-tips-round-up-paid-on-time/"
     },
     {
-      "text": "**ultimate guide small business accounting** - (sage.com) The ultimate guide to small business accounting and bookkeeping",
-      "url": "https://www.sage.com/en-gb/blog/the-ultimate-guide-to-basic-business-accounting/"
+      "text": "**Everything we know about starting** - (sage.com) Everything we know about… starting a freelance business",
+      "url": "https://www.sage.com/en-gb/blog/sound-advice-starting-a-freelance-business-kate-bassett/"
     },
     {
-      "text": "**Small business administration Your easy** - (sage.com) Small business administration: Your easy guide to managing your admin",
-      "url": "https://www.sage.com/en-gb/blog/small-business-administration-easy-guide/"
+      "text": "**How set up side hustle** - (sage.com) How to set up a side hustle… and take it full time",
+      "url": "https://www.sage.com/en-gb/blog/set-up-side-hustle-full-time/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://www.sage.com/en-gb/blog/employment-status/",
-    "https://www.sage.com/en-gb/blog/good-bookkeeping-how-to-keep-financial-records/",
     "https://www.sage.com/en-gb/blog/invoice-tips-round-up-paid-on-time/",
-    "https://www.sage.com/en-gb/blog/the-ultimate-guide-to-basic-business-accounting/",
-    "https://www.sage.com/en-gb/blog/small-business-administration-easy-guide/"
+    "https://www.sage.com/en-gb/blog/sound-advice-starting-a-freelance-business-kate-bassett/",
+    "https://www.sage.com/en-gb/blog/set-up-side-hustle-full-time/"
   ],
   "note": "fallback (summary generation error)"
 }

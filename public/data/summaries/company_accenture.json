@@ -1,15 +1,20 @@
 {
-  "generatedAt": "2026-09-20T13:08:01.872Z",
+  "generatedAt": "2026-09-21T15:13:18.245Z",
   "bullets": [
     {
       "text": "**Accenture Anthropic Partner Build Team** - (newsroom.accenture.com) Accenture and Anthropic Partner to Build Team of Embedded Evaluators at Anthropic",
       "url": "https://newsroom.accenture.com/news/2026/accenture-and-anthropic-partner-to-build-team-of-embedded-evaluators-at-anthropic"
+    },
+    {
+      "text": "**Accenture Strengthen Critical Infrastructure Defense** - (newsroom.accenture.com) Accenture to Strengthen Critical Infrastructure Defense with End-to-End Cybersecurity Platform in Age of AI-Driven Cyber Threats and Geopolitical Risk",
+      "url": "https://newsroom.accenture.com/news/2026/accenture-to-strengthen-critical-infrastructure-defense-with-end-to-end-cybersecurity-platform-in-age-of-ai-driven-cyber-threats-and-geopolitical-risk"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://newsroom.accenture.com/news/2026/accenture-and-anthropic-partner-to-build-team-of-embedded-evaluators-at-anthropic"
+    "https://newsroom.accenture.com/news/2026/accenture-and-anthropic-partner-to-build-team-of-embedded-evaluators-at-anthropic",
+    "https://newsroom.accenture.com/news/2026/accenture-to-strengthen-critical-infrastructure-defense-with-end-to-end-cybersecurity-platform-in-age-of-ai-driven-cyber-threats-and-geopolitical-risk"
   ],
   "note": "fallback (summary generation error)"
 }

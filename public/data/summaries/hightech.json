@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-09-20T13:07:45.436Z",
+  "generatedAt": "2026-09-21T15:12:56.850Z",
   "bullets": [
     {
-      "text": "**Anthropic s first embedded evaluator** - (techcrunch.com) Anthropic’s first embedded evaluator is … Accenture?",
-      "url": "https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture/"
+      "text": "**Apple s clever software solution** - (theverge.com) Apple’s clever software solution lets iPhone batteries skirt shipping limits",
+      "url": "https://www.theverge.com/tech/998144/apple-iphone-18-pro-max-battery-firmware-limit"
     },
     {
-      "text": "**Disney s first CTO led** - (techcrunch.com) Disney’s first CTO led an AI startup it once accused of copying its characters",
-      "url": "https://techcrunch.com/2026/09/18/disneys-first-cto-led-an-ai-startup-it-once-accused-of-copying-its-characters/"
-    },
-    {
-      "text": "**Humans not rogue AI still** - (theverge.com) Humans, not rogue AI, are still the biggest cybersecurity risk to energy systems",
-      "url": "https://www.theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure"
+      "text": "**Five ways new Siri AI** - (9to5mac.com) Five ways that the new Siri AI is frustrating iPhone and Apple Watch users",
+      "url": "https://9to5mac.com/2026/09/20/five-ways-that-the-new-siri-ai-is-frustrating-iphone-and-apple-watch-users/"
     },
     {
       "text": "**Meta AI launches Muse personal** - (9to5mac.com) Meta AI launches Muse personal agent, including apps for iPhone and Mac",
       "url": "https://9to5mac.com/2026/09/17/meta-ai-launches-muse-personal-agent-including-a-new-mobile-app-for-iphone/"
     },
     {
-      "text": "**Meta s new Muse AI** - (9to5mac.com) Meta’s new Muse AI agent app overtakes ChatGPT as top iPhone app",
-      "url": "https://9to5mac.com/2026/09/18/metas-new-muse-ai-agent-app-overtakes-chatgpt-as-top-iphone-app/"
+      "text": "**These first five Googlebook laptops** - (theverge.com) These are the first five Googlebook laptops",
+      "url": "https://www.theverge.com/gadgets/997659/googlebooks-breakdown-acer-asus-hp-lenovo-dell"
+    },
+    {
+      "text": "**Google s Gemini latest AI** - (techcrunch.com) Google’s Gemini is the latest AI model to hack other companies",
+      "url": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture/",
-    "https://techcrunch.com/2026/09/18/disneys-first-cto-led-an-ai-startup-it-once-accused-of-copying-its-characters/",
-    "https://www.theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure",
+    "https://www.theverge.com/tech/998144/apple-iphone-18-pro-max-battery-firmware-limit",
+    "https://9to5mac.com/2026/09/20/five-ways-that-the-new-siri-ai-is-frustrating-iphone-and-apple-watch-users/",
     "https://9to5mac.com/2026/09/17/meta-ai-launches-muse-personal-agent-including-a-new-mobile-app-for-iphone/",
-    "https://9to5mac.com/2026/09/18/metas-new-muse-ai-agent-app-overtakes-chatgpt-as-top-iphone-app/"
+    "https://www.theverge.com/gadgets/997659/googlebooks-breakdown-acer-asus-hp-lenovo-dell",
+    "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/"
   ],
   "note": "fallback (summary generation error)"
 }
