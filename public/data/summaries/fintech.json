@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-09-21T15:13:15.479Z",
+  "generatedAt": "2026-09-22T13:31:35.915Z",
   "bullets": [
+    {
+      "text": "**MENA Fintech Association Releases Bi-Annual** - (thefintechtimes.com) MENA Fintech Association Releases Bi-Annual Regulatory Update on ADGM’s Evolving Digital Asset Framework",
+      "url": "https://thefintechtimes.com/mena-fintech-association-releases-bi-annual-regulatory-update-on-adgms-evolving-digital-asset-framework/"
+    },
+    {
+      "text": "**Paymob Secures 35 Million Pre-Series** - (thefintechtimes.com) Paymob Secures $35 Million Pre-Series C Co-Led by Mubadala and EBRD to Accelerate MENA Expansion",
+      "url": "https://thefintechtimes.com/paymob-secures-35-million-pre-series-c-co-led-by-mubadala-and-ebrd-to-accelerate-mena-expansion/"
+    },
     {
       "text": "**Financial crime protecting hive** - (fca.org.uk) Financial crime: protecting the hive",
       "url": "https://www.fca.org.uk/news/speeches/financial-crime-protecting-hive"
     },
     {
-      "text": "**ECB Expands Digital Euro Efforts** - (pymnts.com) ECB Expands Digital Euro Efforts With Pontes Tokenization Tool",
-      "url": "https://www.pymnts.com/cbdc/2026/ecb-expands-digital-euro-efforts-with-pontes-tokenization-tool/"
+      "text": "**GoCardless processes first agentic account-to-account** - (finextra.com) GoCardless processes first agentic account-to-account transaction in the UK",
+      "url": "https://www.finextra.com/pressarticle/110969/gocardless-processes-first-agentic-account-to-account-transaction-in-the-uk"
     },
     {
       "text": "**FCA sets out steps support** - (fca.org.uk) FCA sets out steps to support small businesses' access to finance",
       "url": "https://www.fca.org.uk/news/press-releases/fca-sets-out-steps-support-small-businesses-access-finance"
-    },
-    {
-      "text": "**Wallester Why B2B Fintech s** - (thefintechtimes.com) Wallester on Why B2B Fintech’s 3 per cent Problem is Trust",
-      "url": "https://thefintechtimes.com/wallester-on-why-b2b-fintechs-3-per-cent-problem-is-trust/"
-    },
-    {
-      "text": "**BlackRock Adds Tokenised Share Classes** - (thefintechtimes.com) BlackRock Adds Tokenised Share Classes to European UCITS MMFs",
-      "url": "https://thefintechtimes.com/blackrock-adds-okenised-share-classes-to-european-ucits-mmfs/"
     }
   ],
-  "inputHash": "591086ae3aef972ea7417bd456e77ca7fca70bf01c6120ddbbcb544803a5784a",
+  "inputHash": "d20cfabedf69f08109fbc5143d30892a9664985142b6c9c168d1f6c22276689d",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
+    "https://thefintechtimes.com/mena-fintech-association-releases-bi-annual-regulatory-update-on-adgms-evolving-digital-asset-framework/",
+    "https://thefintechtimes.com/paymob-secures-35-million-pre-series-c-co-led-by-mubadala-and-ebrd-to-accelerate-mena-expansion/",
     "https://www.fca.org.uk/news/speeches/financial-crime-protecting-hive",
-    "https://www.pymnts.com/cbdc/2026/ecb-expands-digital-euro-efforts-with-pontes-tokenization-tool/",
+    "https://www.finextra.com/pressarticle/110969/gocardless-processes-first-agentic-account-to-account-transaction-in-the-uk",
     "https://www.fca.org.uk/news/press-releases/fca-sets-out-steps-support-small-businesses-access-finance",
-    "https://thefintechtimes.com/wallester-on-why-b2b-fintechs-3-per-cent-problem-is-trust/",
-    "https://thefintechtimes.com/blackrock-adds-okenised-share-classes-to-european-ucits-mmfs/",
+    "https://thefintechtimes.com/why-fintech-is-key-to-unlocking-the-next-wave-of-uk-economic-growth/",
+    "https://www.pymnts.com/news/banking/2026/russian-fintech-allegedly-laundered-6-9-billion-via-global-banks/",
     "https://www.fca.org.uk/news/press-releases/fca-and-partners-continues-crackdown-illegal-crypto-trading",
     "https://www.paymentsdive.com/news/scammers-fake-student-identities-to-siphon-aid-payments/830610/",
-    "https://www.paymentsdive.com/spons/tokenization-transforming-the-future-of-digital-payments/830491/",
-    "https://thefintechtimes.com/iaa-credit-union-picks-mahalo-banking-for-nationwide-digital-overhaul/",
-    "https://www.paymentsdive.com/news/moneygram-taps-stablecoin-ally/830673/"
+    "https://www.paymentsdive.com/spons/tokenization-transforming-the-future-of-digital-payments/830491/"
   ],
   "note": "fallback (summary generation error)"
 }

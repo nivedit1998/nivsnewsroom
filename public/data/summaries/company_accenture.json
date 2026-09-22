@@ -1,20 +1,30 @@
 {
-  "generatedAt": "2026-09-21T15:13:18.245Z",
+  "generatedAt": "2026-09-22T13:31:38.377Z",
   "bullets": [
     {
       "text": "**Accenture Anthropic Partner Build Team** - (newsroom.accenture.com) Accenture and Anthropic Partner to Build Team of Embedded Evaluators at Anthropic",
       "url": "https://newsroom.accenture.com/news/2026/accenture-and-anthropic-partner-to-build-team-of-embedded-evaluators-at-anthropic"
     },
     {
+      "text": "**Accenture Edge Collaborates AWS Help** - (newsroom.accenture.com) Accenture Edge Collaborates with AWS to Help Mid-Market Organizations Harness AI and Accelerate Business Impact",
+      "url": "https://newsroom.accenture.com/news/2026/accenture-edge-collaborates-with-aws-to-help-mid-market-organizations-harness-ai-and-accelerate-business-impact"
+    },
+    {
       "text": "**Accenture Strengthen Critical Infrastructure Defense** - (newsroom.accenture.com) Accenture to Strengthen Critical Infrastructure Defense with End-to-End Cybersecurity Platform in Age of AI-Driven Cyber Threats and Geopolitical Risk",
       "url": "https://newsroom.accenture.com/news/2026/accenture-to-strengthen-critical-infrastructure-defense-with-end-to-end-cybersecurity-platform-in-age-of-ai-driven-cyber-threats-and-geopolitical-risk"
+    },
+    {
+      "text": "**Accenture Google Cloud Transform Software** - (newsroom.accenture.com) Accenture and Google Cloud Transform Software Development with Volvo Cars",
+      "url": "https://newsroom.accenture.com/news/2026/accenture-and-google-cloud-transform-software-development-with-volvo-cars"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://newsroom.accenture.com/news/2026/accenture-and-anthropic-partner-to-build-team-of-embedded-evaluators-at-anthropic",
-    "https://newsroom.accenture.com/news/2026/accenture-to-strengthen-critical-infrastructure-defense-with-end-to-end-cybersecurity-platform-in-age-of-ai-driven-cyber-threats-and-geopolitical-risk"
+    "https://newsroom.accenture.com/news/2026/accenture-edge-collaborates-with-aws-to-help-mid-market-organizations-harness-ai-and-accelerate-business-impact",
+    "https://newsroom.accenture.com/news/2026/accenture-to-strengthen-critical-infrastructure-defense-with-end-to-end-cybersecurity-platform-in-age-of-ai-driven-cyber-threats-and-geopolitical-risk",
+    "https://newsroom.accenture.com/news/2026/accenture-and-google-cloud-transform-software-development-with-volvo-cars"
   ],
   "note": "fallback (summary generation error)"
 }

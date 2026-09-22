@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-09-21T15:12:56.850Z",
+  "generatedAt": "2026-09-22T13:31:20.575Z",
   "bullets": [
     {
-      "text": "**Apple s clever software solution** - (theverge.com) Apple’s clever software solution lets iPhone batteries skirt shipping limits",
-      "url": "https://www.theverge.com/tech/998144/apple-iphone-18-pro-max-battery-firmware-limit"
+      "text": "**Morphotonics raises 40M expand its** - (techcrunch.com) Morphotonics raises €40M to expand its display tech into data centers",
+      "url": "https://techcrunch.com/2026/09/21/morphotonics-raises-e40m-as-it-tk-tk-tk-t/"
+    },
+    {
+      "text": "**Report AI glasses shipments surged** - (9to5mac.com) Report: AI glasses shipments surged 263% in H1 2026 as Apple prepares to enter the market",
+      "url": "https://9to5mac.com/2026/09/21/report-ai-glasses-shipments-surged-263-in-h1-2026-as-apple-prepares-to-enter-the-market/"
+    },
+    {
+      "text": "**Can you forget how you** - (theverge.com) Can you forget how you feel about Meta?",
+      "url": "https://www.theverge.com/cs/features/991659/meta-mark-zuckerberg-future-glasses-ai-instagram"
+    },
+    {
+      "text": "**Xiaomi 18 Pro has Privacy** - (9to5google.com) Xiaomi 18 Pro has a Privacy Display that does more than Galaxy S26 Ultra, launches this week [Video]",
+      "url": "https://9to5google.com/2026/09/21/xiaomi-18-pro-has-a-privacy-display-that-does-more-than-galaxy-s26-ultra-launches-this-week-video/"
     },
     {
       "text": "**Five ways new Siri AI** - (9to5mac.com) Five ways that the new Siri AI is frustrating iPhone and Apple Watch users",
       "url": "https://9to5mac.com/2026/09/20/five-ways-that-the-new-siri-ai-is-frustrating-iphone-and-apple-watch-users/"
-    },
-    {
-      "text": "**Meta AI launches Muse personal** - (9to5mac.com) Meta AI launches Muse personal agent, including apps for iPhone and Mac",
-      "url": "https://9to5mac.com/2026/09/17/meta-ai-launches-muse-personal-agent-including-a-new-mobile-app-for-iphone/"
-    },
-    {
-      "text": "**These first five Googlebook laptops** - (theverge.com) These are the first five Googlebook laptops",
-      "url": "https://www.theverge.com/gadgets/997659/googlebooks-breakdown-acer-asus-hp-lenovo-dell"
-    },
-    {
-      "text": "**Google s Gemini latest AI** - (techcrunch.com) Google’s Gemini is the latest AI model to hack other companies",
-      "url": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://www.theverge.com/tech/998144/apple-iphone-18-pro-max-battery-firmware-limit",
-    "https://9to5mac.com/2026/09/20/five-ways-that-the-new-siri-ai-is-frustrating-iphone-and-apple-watch-users/",
-    "https://9to5mac.com/2026/09/17/meta-ai-launches-muse-personal-agent-including-a-new-mobile-app-for-iphone/",
-    "https://www.theverge.com/gadgets/997659/googlebooks-breakdown-acer-asus-hp-lenovo-dell",
-    "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/"
+    "https://techcrunch.com/2026/09/21/morphotonics-raises-e40m-as-it-tk-tk-tk-t/",
+    "https://9to5mac.com/2026/09/21/report-ai-glasses-shipments-surged-263-in-h1-2026-as-apple-prepares-to-enter-the-market/",
+    "https://www.theverge.com/cs/features/991659/meta-mark-zuckerberg-future-glasses-ai-instagram",
+    "https://9to5google.com/2026/09/21/xiaomi-18-pro-has-a-privacy-display-that-does-more-than-galaxy-s26-ultra-launches-this-week-video/",
+    "https://9to5mac.com/2026/09/20/five-ways-that-the-new-siri-ai-is-frustrating-iphone-and-apple-watch-users/"
   ],
   "note": "fallback (summary generation error)"
 }
