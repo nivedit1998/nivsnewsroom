@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T13:31:42.217Z",
+  "generatedAt": "2026-09-23T13:45:35.663Z",
   "bullets": [
     {
       "text": "**rising cost payment regulation Europe** - (capco.com) The rising cost of payment regulation in Europe",
@@ -14,12 +14,12 @@
       "url": "https://www.capco.com/intelligence/capco-intelligence/the-connected-insurer"
     },
     {
-      "text": "**ESG reporting risk engine** - (capco.com) From ESG reporting to risk engine",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/from-esg-reporting-to-risk-engine"
+      "text": "**Asia s Wealth Boom Breaking** - (capco.com) Asia's Wealth Boom is Breaking the RM Model",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/asia-wealth-boom-is-breaking-the-rm-model"
     },
     {
-      "text": "**SFDR 2 0 Wie sich** - (capco.com) SFDR 2.0 – Wie sich die Architektur nachhaltiger Finanzprodukte verändert",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/sfdr-architektur-nachhaltiger-finanzprodukte"
+      "text": "**ESG reporting risk engine** - (capco.com) From ESG reporting to risk engine",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/from-esg-reporting-to-risk-engine"
     }
   ],
   "promptVersion": "insights-v2",
@@ -28,8 +28,8 @@
     "https://www.capco.com/intelligence/capco-intelligence/the-rising-cost-of-payment-regulation-in-europe",
     "https://www.capco.com/intelligence/capco-intelligence/the-economics-of-ai-at-scale",
     "https://www.capco.com/intelligence/capco-intelligence/the-connected-insurer",
-    "https://www.capco.com/intelligence/capco-intelligence/from-esg-reporting-to-risk-engine",
-    "https://www.capco.com/intelligence/capco-intelligence/sfdr-architektur-nachhaltiger-finanzprodukte"
+    "https://www.capco.com/intelligence/capco-intelligence/asia-wealth-boom-is-breaking-the-rm-model",
+    "https://www.capco.com/intelligence/capco-intelligence/from-esg-reporting-to-risk-engine"
   ],
   "note": "fallback (summary generation error)"
 }

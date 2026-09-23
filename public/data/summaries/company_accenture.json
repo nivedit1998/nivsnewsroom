@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T13:31:38.377Z",
+  "generatedAt": "2026-09-23T13:45:30.879Z",
   "bullets": [
     {
       "text": "**Accenture Anthropic Partner Build Team** - (newsroom.accenture.com) Accenture and Anthropic Partner to Build Team of Embedded Evaluators at Anthropic",
@@ -16,6 +16,10 @@
     {
       "text": "**Accenture Google Cloud Transform Software** - (newsroom.accenture.com) Accenture and Google Cloud Transform Software Development with Volvo Cars",
       "url": "https://newsroom.accenture.com/news/2026/accenture-and-google-cloud-transform-software-development-with-volvo-cars"
+    },
+    {
+      "text": "**Accenture Launches Accenture Construct Reinvent** - (newsroom.accenture.com) Accenture Launches Accenture Construct to Reinvent Fragmented Capital Project Delivery Amid Global Investment Supercycle",
+      "url": "https://newsroom.accenture.com/news/2026/accenture-launches-accenture-construct-to-reinvent-fragmented-capital-project-delivery-amid-global-investment-supercycle"
     }
   ],
   "promptVersion": "insights-v2",
@@ -24,7 +28,8 @@
     "https://newsroom.accenture.com/news/2026/accenture-and-anthropic-partner-to-build-team-of-embedded-evaluators-at-anthropic",
     "https://newsroom.accenture.com/news/2026/accenture-edge-collaborates-with-aws-to-help-mid-market-organizations-harness-ai-and-accelerate-business-impact",
     "https://newsroom.accenture.com/news/2026/accenture-to-strengthen-critical-infrastructure-defense-with-end-to-end-cybersecurity-platform-in-age-of-ai-driven-cyber-threats-and-geopolitical-risk",
-    "https://newsroom.accenture.com/news/2026/accenture-and-google-cloud-transform-software-development-with-volvo-cars"
+    "https://newsroom.accenture.com/news/2026/accenture-and-google-cloud-transform-software-development-with-volvo-cars",
+    "https://newsroom.accenture.com/news/2026/accenture-launches-accenture-construct-to-reinvent-fragmented-capital-project-delivery-amid-global-investment-supercycle"
   ],
   "note": "fallback (summary generation error)"
 }

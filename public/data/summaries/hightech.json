@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-09-22T13:31:20.575Z",
+  "generatedAt": "2026-09-23T13:45:00.352Z",
   "bullets": [
     {
-      "text": "**Morphotonics raises 40M expand its** - (techcrunch.com) Morphotonics raises €40M to expand its display tech into data centers",
-      "url": "https://techcrunch.com/2026/09/21/morphotonics-raises-e40m-as-it-tk-tk-tk-t/"
+      "text": "**Peloton Launches First Foldable Treadmill** - (cnet.com) Peloton Launches First Foldable Treadmill, Adds More AI Features",
+      "url": "https://www.cnet.com/health/fitness/peloton-launches-foldable-cheaper-treadmill/"
+    },
+    {
+      "text": "**Xiaomi s new 18 Pro** - (theverge.com) Xiaomi’s new 18 Pro phones improve on Samsung’s privacy display",
+      "url": "https://www.theverge.com/tech/999253/xiaomi-18-pro-max-privacy-display-launch-china"
     },
     {
       "text": "**Report AI glasses shipments surged** - (9to5mac.com) Report: AI glasses shipments surged 263% in H1 2026 as Apple prepares to enter the market",
       "url": "https://9to5mac.com/2026/09/21/report-ai-glasses-shipments-surged-263-in-h1-2026-as-apple-prepares-to-enter-the-market/"
     },
     {
-      "text": "**Can you forget how you** - (theverge.com) Can you forget how you feel about Meta?",
-      "url": "https://www.theverge.com/cs/features/991659/meta-mark-zuckerberg-future-glasses-ai-instagram"
-    },
-    {
       "text": "**Xiaomi 18 Pro has Privacy** - (9to5google.com) Xiaomi 18 Pro has a Privacy Display that does more than Galaxy S26 Ultra, launches this week [Video]",
       "url": "https://9to5google.com/2026/09/21/xiaomi-18-pro-has-a-privacy-display-that-does-more-than-galaxy-s26-ultra-launches-this-week-video/"
     },
     {
-      "text": "**Five ways new Siri AI** - (9to5mac.com) Five ways that the new Siri AI is frustrating iPhone and Apple Watch users",
-      "url": "https://9to5mac.com/2026/09/20/five-ways-that-the-new-siri-ai-is-frustrating-iphone-and-apple-watch-users/"
+      "text": "**Qualcomm launches two new smartphone** - (techcrunch.com) Qualcomm launches two new smartphone chips with emphasis on AI",
+      "url": "https://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://techcrunch.com/2026/09/21/morphotonics-raises-e40m-as-it-tk-tk-tk-t/",
+    "https://www.cnet.com/health/fitness/peloton-launches-foldable-cheaper-treadmill/",
+    "https://www.theverge.com/tech/999253/xiaomi-18-pro-max-privacy-display-launch-china",
     "https://9to5mac.com/2026/09/21/report-ai-glasses-shipments-surged-263-in-h1-2026-as-apple-prepares-to-enter-the-market/",
-    "https://www.theverge.com/cs/features/991659/meta-mark-zuckerberg-future-glasses-ai-instagram",
     "https://9to5google.com/2026/09/21/xiaomi-18-pro-has-a-privacy-display-that-does-more-than-galaxy-s26-ultra-launches-this-week-video/",
-    "https://9to5mac.com/2026/09/20/five-ways-that-the-new-siri-ai-is-frustrating-iphone-and-apple-watch-users/"
+    "https://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai/"
   ],
   "note": "fallback (summary generation error)"
 }

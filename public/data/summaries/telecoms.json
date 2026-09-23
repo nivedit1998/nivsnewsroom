@@ -1,9 +1,13 @@
 {
-  "generatedAt": "2026-09-22T13:31:26.633Z",
+  "generatedAt": "2026-09-23T13:45:07.282Z",
   "bullets": [
     {
       "text": "**Pilots Practice Closing Advanced Connectivity** - (gsma.com) From Pilots to Practice: Closing the Advanced Connectivity Gap in Healthcare",
       "url": "https://www.gsma.com/newsroom/article/from-pilots-to-practice-closing-the-advanced-connectivity-gap-in-healthcare/"
+    },
+    {
+      "text": "**Vodafone Ericsson trial AI-powered real-time** - (totaltele.com) Vodafone and Ericsson trial AI-powered real-time translation and noise-free calls",
+      "url": "https://totaltele.com/vodafone-and-ericsson-trial-ai-powered-real-time-translation-and-noise-free-calls/"
     },
     {
       "text": "**GSMA PDAA Unveil Roadmap Close** - (gsma.com) GSMA and PDAA Unveil Roadmap to Close Africa’s Mobile Internet Usage Gap and Connect One Billion People by 2030",
@@ -16,20 +20,16 @@
     {
       "text": "**Digital Reforms Could Connect Over** - (gsma.com) Digital Reforms Could Connect Over 1 Million More People to Mobile Internet in Rwanda, GSMA Finds",
       "url": "https://www.gsma.com/newsroom/press-release/digital-reforms-could-connect-over-1-million-more-people-to-mobile-internet-in-rwanda-gsma-finds/"
-    },
-    {
-      "text": "**EXA Infrastructure build new transatlantic** - (totaltele.com) EXA Infrastructure to build new transatlantic cable EXA Meridian",
-      "url": "https://totaltele.com/exa-infrastructure-to-build-new-transatlantic-cable-exa-meridian/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://www.gsma.com/newsroom/article/from-pilots-to-practice-closing-the-advanced-connectivity-gap-in-healthcare/",
+    "https://totaltele.com/vodafone-and-ericsson-trial-ai-powered-real-time-translation-and-noise-free-calls/",
     "https://www.gsma.com/newsroom/press-release/gsma-and-pdaa-unveil-roadmap-to-close-africas-mobile-internet-usage-gap-and-connect-one-billion-people-by-2030/",
     "https://totaltele.com/huawei-unveils-new-unifiedbus-computing-architecture/",
-    "https://www.gsma.com/newsroom/press-release/digital-reforms-could-connect-over-1-million-more-people-to-mobile-internet-in-rwanda-gsma-finds/",
-    "https://totaltele.com/exa-infrastructure-to-build-new-transatlantic-cable-exa-meridian/"
+    "https://www.gsma.com/newsroom/press-release/digital-reforms-could-connect-over-1-million-more-people-to-mobile-internet-in-rwanda-gsma-finds/"
   ],
   "note": "fallback (summary generation error)"
 }
