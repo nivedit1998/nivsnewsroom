@@ -1,9 +1,13 @@
 {
-  "generatedAt": "2026-09-23T13:45:07.282Z",
+  "generatedAt": "2026-09-24T13:40:29.074Z",
   "bullets": [
     {
       "text": "**Pilots Practice Closing Advanced Connectivity** - (gsma.com) From Pilots to Practice: Closing the Advanced Connectivity Gap in Healthcare",
       "url": "https://www.gsma.com/newsroom/article/from-pilots-to-practice-closing-the-advanced-connectivity-gap-in-healthcare/"
+    },
+    {
+      "text": "**Scaling industrial 5G technical capability** - (totaltele.com) Scaling industrial 5G from technical capability to measurable business value",
+      "url": "https://totaltele.com/scaling-industrial-5g-from-technical-capability-to-measurable-business-value/"
     },
     {
       "text": "**Vodafone Ericsson trial AI-powered real-time** - (totaltele.com) Vodafone and Ericsson trial AI-powered real-time translation and noise-free calls",
@@ -16,20 +20,16 @@
     {
       "text": "**Huawei unveils new UnifiedBus computing** - (totaltele.com) Huawei unveils new UnifiedBus computing architecture for SuperPoDs and clusters",
       "url": "https://totaltele.com/huawei-unveils-new-unifiedbus-computing-architecture/"
-    },
-    {
-      "text": "**Digital Reforms Could Connect Over** - (gsma.com) Digital Reforms Could Connect Over 1 Million More People to Mobile Internet in Rwanda, GSMA Finds",
-      "url": "https://www.gsma.com/newsroom/press-release/digital-reforms-could-connect-over-1-million-more-people-to-mobile-internet-in-rwanda-gsma-finds/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://www.gsma.com/newsroom/article/from-pilots-to-practice-closing-the-advanced-connectivity-gap-in-healthcare/",
+    "https://totaltele.com/scaling-industrial-5g-from-technical-capability-to-measurable-business-value/",
     "https://totaltele.com/vodafone-and-ericsson-trial-ai-powered-real-time-translation-and-noise-free-calls/",
     "https://www.gsma.com/newsroom/press-release/gsma-and-pdaa-unveil-roadmap-to-close-africas-mobile-internet-usage-gap-and-connect-one-billion-people-by-2030/",
-    "https://totaltele.com/huawei-unveils-new-unifiedbus-computing-architecture/",
-    "https://www.gsma.com/newsroom/press-release/digital-reforms-could-connect-over-1-million-more-people-to-mobile-internet-in-rwanda-gsma-finds/"
+    "https://totaltele.com/huawei-unveils-new-unifiedbus-computing-architecture/"
   ],
   "note": "fallback (summary generation error)"
 }

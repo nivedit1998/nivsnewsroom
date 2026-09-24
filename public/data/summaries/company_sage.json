@@ -1,35 +1,15 @@
 {
-  "generatedAt": "2026-09-23T13:45:39.364Z",
+  "generatedAt": "2026-09-24T13:40:52.949Z",
   "bullets": [
-    {
-      "text": "**Employment status Meaning importance** - (sage.com) Employment status: Meaning and importance",
-      "url": "https://www.sage.com/en-gb/blog/employment-status/"
-    },
-    {
-      "text": "**Invoice tips round-up Essential advice** - (sage.com) Invoice tips round-up: Essential advice to help you get paid on time",
-      "url": "https://www.sage.com/en-gb/blog/invoice-tips-round-up-paid-on-time/"
-    },
     {
       "text": "**How trust numbers helping AFC** - (sage.com) How trust in the numbers is helping AFC Wimbledon develop the next generation of female coaches",
       "url": "https://www.sage.com/en-gb/blog/afc-wimbledon-lead-on-pathway-efl/"
-    },
-    {
-      "text": "**Everything we know about starting** - (sage.com) Everything we know about… starting a freelance business",
-      "url": "https://www.sage.com/en-gb/blog/sound-advice-starting-a-freelance-business-kate-bassett/"
-    },
-    {
-      "text": "**How set up side hustle** - (sage.com) How to set up a side hustle… and take it full time",
-      "url": "https://www.sage.com/en-gb/blog/set-up-side-hustle-full-time/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://www.sage.com/en-gb/blog/employment-status/",
-    "https://www.sage.com/en-gb/blog/invoice-tips-round-up-paid-on-time/",
-    "https://www.sage.com/en-gb/blog/afc-wimbledon-lead-on-pathway-efl/",
-    "https://www.sage.com/en-gb/blog/sound-advice-starting-a-freelance-business-kate-bassett/",
-    "https://www.sage.com/en-gb/blog/set-up-side-hustle-full-time/"
+    "https://www.sage.com/en-gb/blog/afc-wimbledon-lead-on-pathway-efl/"
   ],
   "note": "fallback (summary generation error)"
 }

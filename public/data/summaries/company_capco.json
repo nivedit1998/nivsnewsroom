@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-23T13:45:35.663Z",
+  "generatedAt": "2026-09-24T13:40:50.819Z",
   "bullets": [
-    {
-      "text": "**rising cost payment regulation Europe** - (capco.com) The rising cost of payment regulation in Europe",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/the-rising-cost-of-payment-regulation-in-europe"
-    },
     {
       "text": "**Tokenomics economics AI scale** - (capco.com) Tokenomics: The economics of AI at scale",
       "url": "https://www.capco.com/intelligence/capco-intelligence/the-economics-of-ai-at-scale"
+    },
+    {
+      "text": "**Building data leadership APAC** - (capco.com) Building data leadership in APAC",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/building-data-leadership-in-apac"
     },
     {
       "text": "**Connected Insurer Fragmentation cost nobody** - (capco.com) The Connected Insurer: Fragmentation, the cost nobody owns",
@@ -25,8 +25,8 @@
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://www.capco.com/intelligence/capco-intelligence/the-rising-cost-of-payment-regulation-in-europe",
     "https://www.capco.com/intelligence/capco-intelligence/the-economics-of-ai-at-scale",
+    "https://www.capco.com/intelligence/capco-intelligence/building-data-leadership-in-apac",
     "https://www.capco.com/intelligence/capco-intelligence/the-connected-insurer",
     "https://www.capco.com/intelligence/capco-intelligence/asia-wealth-boom-is-breaking-the-rm-model",
     "https://www.capco.com/intelligence/capco-intelligence/from-esg-reporting-to-risk-engine"

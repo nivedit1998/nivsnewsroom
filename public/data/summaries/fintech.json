@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-09-23T13:45:27.743Z",
+  "generatedAt": "2026-09-24T13:40:44.603Z",
   "bullets": [
     {
-      "text": "**European Corporate Treasury Pivots Mobile** - (thefintechtimes.com) European Corporate Treasury Pivots to Mobile as Bank of America’s CashPro Surpasses €100B in Approved Payments",
-      "url": "https://thefintechtimes.com/european-corporate-treasury-pivots-to-mobile-as-bank-of-americas-cashpro-surpasses-e100b-in-approved-payments/"
-    },
-    {
-      "text": "**Thredd Taps Velocity Speed Stablecoin-Powered** - (pymnts.com) Thredd Taps Velocity to Speed Stablecoin-Powered Money Movement",
-      "url": "https://www.pymnts.com/partnerships/2026/thredd-taps-velocity-to-speed-stablecoin-powered-money-movement/"
+      "text": "**Kredete acquires Gravv build stablecoin** - (finextra.com) Kredete acquires Gravv to build stablecoin infrastructure",
+      "url": "https://www.finextra.com/pressarticle/111018/kredete-acquires-gravv-to-build-stablecoin-infrastructure"
     },
     {
       "text": "**Financial crime protecting hive** - (fca.org.uk) Financial crime: protecting the hive",
       "url": "https://www.fca.org.uk/news/speeches/financial-crime-protecting-hive"
     },
     {
-      "text": "**MENA Fintech Association Releases Bi-Annual** - (thefintechtimes.com) MENA Fintech Association Releases Bi-Annual Regulatory Update on ADGM’s Evolving Digital Asset Framework",
-      "url": "https://thefintechtimes.com/mena-fintech-association-releases-bi-annual-regulatory-update-on-adgms-evolving-digital-asset-framework/"
-    },
-    {
       "text": "**FCA sets out steps support** - (fca.org.uk) FCA sets out steps to support small businesses' access to finance",
       "url": "https://www.fca.org.uk/news/press-releases/fca-sets-out-steps-support-small-businesses-access-finance"
+    },
+    {
+      "text": "**Nephos Group Provide Proof Reserves** - (thefintechtimes.com) Nephos Group to Provide Proof of Reserves for Agant’s GBPA Stablecoin",
+      "url": "https://thefintechtimes.com/nephos-group-to-provide-proof-of-reserves-for-agants-gbpa-stablecoin/"
+    },
+    {
+      "text": "**Small Businesses Create Big Openings** - (pymnts.com) Small Businesses Create Big Openings for Cross-Border Payments",
+      "url": "https://www.pymnts.com/smbs/2026/small-businesses-create-big-openings-for-cross-border-payments/"
     }
   ],
-  "inputHash": "300bb7b1ea4625f05f9a1cfc91ac6405a57aa5aec146035fcdfdaab9025aad94",
+  "inputHash": "3137707618edeaca2bd91c73fe9fcc13fefe39f7c3ee7156310d8bc6056849b1",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://thefintechtimes.com/european-corporate-treasury-pivots-to-mobile-as-bank-of-americas-cashpro-surpasses-e100b-in-approved-payments/",
-    "https://www.pymnts.com/partnerships/2026/thredd-taps-velocity-to-speed-stablecoin-powered-money-movement/",
+    "https://www.finextra.com/pressarticle/111018/kredete-acquires-gravv-to-build-stablecoin-infrastructure",
     "https://www.fca.org.uk/news/speeches/financial-crime-protecting-hive",
-    "https://thefintechtimes.com/mena-fintech-association-releases-bi-annual-regulatory-update-on-adgms-evolving-digital-asset-framework/",
     "https://www.fca.org.uk/news/press-releases/fca-sets-out-steps-support-small-businesses-access-finance",
-    "https://thefintechtimes.com/sponsor-banks-baas-and-plugging-digital-assets-into-the-banking-system/",
-    "https://www.finextra.com/pressarticle/110995/solidgate-and-airwallex-to-give-merchants-local-acquiring-as-they-expand-into-new-markets-globally",
+    "https://thefintechtimes.com/nephos-group-to-provide-proof-of-reserves-for-agants-gbpa-stablecoin/",
+    "https://www.pymnts.com/smbs/2026/small-businesses-create-big-openings-for-cross-border-payments/",
+    "https://thefintechtimes.com/belize-bank-picks-backbase-for-six-year-digital-banking-overhaul/",
+    "https://thefintechtimes.com/dubai-south-business-hub-free-zone-partners-with-sony-mea/",
+    "https://www.pymnts.com/consumer-insights/2026/5-ways-millennials-cash-flow-habits-are-shaping-payments/",
     "https://www.fca.org.uk/news/press-releases/fca-and-partners-continues-crackdown-illegal-crypto-trading",
-    "https://www.paymentsdive.com/spons/tokenization-transforming-the-future-of-digital-payments/830491/",
-    "https://www.pymnts.com/checkout-conversion/2026/gen-z-hands-merchants-a-checkout-ultimatum/"
+    "https://www.finextra.com/pressarticle/111020/solaris-goes-live-on-aci-worldwide-platform-for-sepa-instant-payments"
   ],
   "note": "fallback (summary generation error)"
 }
