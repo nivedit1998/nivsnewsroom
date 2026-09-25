@@ -1,10 +1,6 @@
 {
-  "generatedAt": "2026-09-24T13:40:44.603Z",
+  "generatedAt": "2026-09-25T13:59:46.282Z",
   "bullets": [
-    {
-      "text": "**Kredete acquires Gravv build stablecoin** - (finextra.com) Kredete acquires Gravv to build stablecoin infrastructure",
-      "url": "https://www.finextra.com/pressarticle/111018/kredete-acquires-gravv-to-build-stablecoin-infrastructure"
-    },
     {
       "text": "**Financial crime protecting hive** - (fca.org.uk) Financial crime: protecting the hive",
       "url": "https://www.fca.org.uk/news/speeches/financial-crime-protecting-hive"
@@ -14,28 +10,32 @@
       "url": "https://www.fca.org.uk/news/press-releases/fca-sets-out-steps-support-small-businesses-access-finance"
     },
     {
-      "text": "**Nephos Group Provide Proof Reserves** - (thefintechtimes.com) Nephos Group to Provide Proof of Reserves for Agant’s GBPA Stablecoin",
-      "url": "https://thefintechtimes.com/nephos-group-to-provide-proof-of-reserves-for-agants-gbpa-stablecoin/"
+      "text": "**AFC Urges FDIC Adopt Risk-Based** - (thefintechtimes.com) AFC Urges FDIC to Adopt Risk-Based AML Rules for Stablecoin Issuers",
+      "url": "https://thefintechtimes.com/afc-urges-fdic-to-adopt-risk-based-aml-rules-for-stablecoin-issuers/"
     },
     {
-      "text": "**Small Businesses Create Big Openings** - (pymnts.com) Small Businesses Create Big Openings for Cross-Border Payments",
-      "url": "https://www.pymnts.com/smbs/2026/small-businesses-create-big-openings-for-cross-border-payments/"
+      "text": "**Monavate LMAX Group Link up** - (thefintechtimes.com) Monavate and LMAX Group Link up on Cross-Border Settlement Rails",
+      "url": "https://thefintechtimes.com/monavate-and-lmax-group-link-up-on-cross-border-settlement-rails/"
+    },
+    {
+      "text": "**Lightspark Brings Stablecoin Settlement Visa** - (thefintechtimes.com) Lightspark Brings Stablecoin Settlement to Visa Cards via Lithic",
+      "url": "https://thefintechtimes.com/lightspark-brings-stablecoin-settlement-to-visa-cards-via-lithic/"
     }
   ],
-  "inputHash": "3137707618edeaca2bd91c73fe9fcc13fefe39f7c3ee7156310d8bc6056849b1",
+  "inputHash": "ffd50ef7c4a5f872e1a2d4120a94c0c653997aaab7eb14ca9358e87afbb9c2bb",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://www.finextra.com/pressarticle/111018/kredete-acquires-gravv-to-build-stablecoin-infrastructure",
     "https://www.fca.org.uk/news/speeches/financial-crime-protecting-hive",
     "https://www.fca.org.uk/news/press-releases/fca-sets-out-steps-support-small-businesses-access-finance",
-    "https://thefintechtimes.com/nephos-group-to-provide-proof-of-reserves-for-agants-gbpa-stablecoin/",
-    "https://www.pymnts.com/smbs/2026/small-businesses-create-big-openings-for-cross-border-payments/",
-    "https://thefintechtimes.com/belize-bank-picks-backbase-for-six-year-digital-banking-overhaul/",
-    "https://thefintechtimes.com/dubai-south-business-hub-free-zone-partners-with-sony-mea/",
-    "https://www.pymnts.com/consumer-insights/2026/5-ways-millennials-cash-flow-habits-are-shaping-payments/",
+    "https://thefintechtimes.com/afc-urges-fdic-to-adopt-risk-based-aml-rules-for-stablecoin-issuers/",
+    "https://thefintechtimes.com/monavate-and-lmax-group-link-up-on-cross-border-settlement-rails/",
+    "https://thefintechtimes.com/lightspark-brings-stablecoin-settlement-to-visa-cards-via-lithic/",
     "https://www.fca.org.uk/news/press-releases/fca-and-partners-continues-crackdown-illegal-crypto-trading",
-    "https://www.finextra.com/pressarticle/111020/solaris-goes-live-on-aci-worldwide-platform-for-sepa-instant-payments"
+    "https://www.paymentsdive.com/news/ach-use-rises-for-b2b-payments/831270/",
+    "https://www.finextra.com/newsarticle/48472/fednow-to-enable-cross-border-payments",
+    "https://www.finextra.com/pressarticle/111023/cleverbridge-completes-frances-first-passkey-authenticated-agentic-purchase-on-a-revolut-card",
+    "https://www.finextra.com/videoarticle/3600/rethinking-orchestration-for-the-next-generation-of-ai-driven-payments"
   ],
   "note": "fallback (summary generation error)"
 }

@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-24T13:40:50.819Z",
+  "generatedAt": "2026-09-25T13:59:51.268Z",
   "bullets": [
-    {
-      "text": "**Tokenomics economics AI scale** - (capco.com) Tokenomics: The economics of AI at scale",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/the-economics-of-ai-at-scale"
-    },
     {
       "text": "**Building data leadership APAC** - (capco.com) Building data leadership in APAC",
       "url": "https://www.capco.com/intelligence/capco-intelligence/building-data-leadership-in-apac"
+    },
+    {
+      "text": "**Tokenomics economics AI scale** - (capco.com) Tokenomics: The economics of AI at scale",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/the-economics-of-ai-at-scale"
     },
     {
       "text": "**Connected Insurer Fragmentation cost nobody** - (capco.com) The Connected Insurer: Fragmentation, the cost nobody owns",
@@ -18,18 +18,18 @@
       "url": "https://www.capco.com/intelligence/capco-intelligence/asia-wealth-boom-is-breaking-the-rm-model"
     },
     {
-      "text": "**ESG reporting risk engine** - (capco.com) From ESG reporting to risk engine",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/from-esg-reporting-to-risk-engine"
+      "text": "**US power markets four key** - (capco.com) US power markets: four key developments in market design",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/us-power-markets-four-key-developments"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://www.capco.com/intelligence/capco-intelligence/the-economics-of-ai-at-scale",
     "https://www.capco.com/intelligence/capco-intelligence/building-data-leadership-in-apac",
+    "https://www.capco.com/intelligence/capco-intelligence/the-economics-of-ai-at-scale",
     "https://www.capco.com/intelligence/capco-intelligence/the-connected-insurer",
     "https://www.capco.com/intelligence/capco-intelligence/asia-wealth-boom-is-breaking-the-rm-model",
-    "https://www.capco.com/intelligence/capco-intelligence/from-esg-reporting-to-risk-engine"
+    "https://www.capco.com/intelligence/capco-intelligence/us-power-markets-four-key-developments"
   ],
   "note": "fallback (summary generation error)"
 }

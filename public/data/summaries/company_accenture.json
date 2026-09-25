@@ -1,17 +1,9 @@
 {
-  "generatedAt": "2026-09-24T13:40:47.676Z",
+  "generatedAt": "2026-09-25T13:59:48.274Z",
   "bullets": [
-    {
-      "text": "**Accenture Anthropic Partner Build Team** - (newsroom.accenture.com) Accenture and Anthropic Partner to Build Team of Embedded Evaluators at Anthropic",
-      "url": "https://newsroom.accenture.com/news/2026/accenture-and-anthropic-partner-to-build-team-of-embedded-evaluators-at-anthropic"
-    },
     {
       "text": "**Accenture Edge Collaborates AWS Help** - (newsroom.accenture.com) Accenture Edge Collaborates with AWS to Help Mid-Market Organizations Harness AI and Accelerate Business Impact",
       "url": "https://newsroom.accenture.com/news/2026/accenture-edge-collaborates-with-aws-to-help-mid-market-organizations-harness-ai-and-accelerate-business-impact"
-    },
-    {
-      "text": "**Accenture Strengthen Critical Infrastructure Defense** - (newsroom.accenture.com) Accenture to Strengthen Critical Infrastructure Defense with End-to-End Cybersecurity Platform in Age of AI-Driven Cyber Threats and Geopolitical Risk",
-      "url": "https://newsroom.accenture.com/news/2026/accenture-to-strengthen-critical-infrastructure-defense-with-end-to-end-cybersecurity-platform-in-age-of-ai-driven-cyber-threats-and-geopolitical-risk"
     },
     {
       "text": "**Accenture Google Cloud Transform Software** - (newsroom.accenture.com) Accenture and Google Cloud Transform Software Development with Volvo Cars",
@@ -20,16 +12,19 @@
     {
       "text": "**Accenture Launches Accenture Construct Reinvent** - (newsroom.accenture.com) Accenture Launches Accenture Construct to Reinvent Fragmented Capital Project Delivery Amid Global Investment Supercycle",
       "url": "https://newsroom.accenture.com/news/2026/accenture-launches-accenture-construct-to-reinvent-fragmented-capital-project-delivery-amid-global-investment-supercycle"
+    },
+    {
+      "text": "**Accenture Within Help Clients Accelerate** - (newsroom.accenture.com) Accenture and Within Help Clients Accelerate AI Across the Enterprise Through Strategic Investment and New Partnership",
+      "url": "https://newsroom.accenture.com/news/2026/accenture-and-within-help-clients-accelerate-ai-across-the-enterprise-through-strategic-investment-and-new-partnership"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://newsroom.accenture.com/news/2026/accenture-and-anthropic-partner-to-build-team-of-embedded-evaluators-at-anthropic",
     "https://newsroom.accenture.com/news/2026/accenture-edge-collaborates-with-aws-to-help-mid-market-organizations-harness-ai-and-accelerate-business-impact",
-    "https://newsroom.accenture.com/news/2026/accenture-to-strengthen-critical-infrastructure-defense-with-end-to-end-cybersecurity-platform-in-age-of-ai-driven-cyber-threats-and-geopolitical-risk",
     "https://newsroom.accenture.com/news/2026/accenture-and-google-cloud-transform-software-development-with-volvo-cars",
-    "https://newsroom.accenture.com/news/2026/accenture-launches-accenture-construct-to-reinvent-fragmented-capital-project-delivery-amid-global-investment-supercycle"
+    "https://newsroom.accenture.com/news/2026/accenture-launches-accenture-construct-to-reinvent-fragmented-capital-project-delivery-amid-global-investment-supercycle",
+    "https://newsroom.accenture.com/news/2026/accenture-and-within-help-clients-accelerate-ai-across-the-enterprise-through-strategic-investment-and-new-partnership"
   ],
   "note": "fallback (summary generation error)"
 }

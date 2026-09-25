@@ -1,10 +1,6 @@
 {
-  "generatedAt": "2026-09-24T13:40:29.074Z",
+  "generatedAt": "2026-09-25T13:59:37.051Z",
   "bullets": [
-    {
-      "text": "**Pilots Practice Closing Advanced Connectivity** - (gsma.com) From Pilots to Practice: Closing the Advanced Connectivity Gap in Healthcare",
-      "url": "https://www.gsma.com/newsroom/article/from-pilots-to-practice-closing-the-advanced-connectivity-gap-in-healthcare/"
-    },
     {
       "text": "**Scaling industrial 5G technical capability** - (totaltele.com) Scaling industrial 5G from technical capability to measurable business value",
       "url": "https://totaltele.com/scaling-industrial-5g-from-technical-capability-to-measurable-business-value/"
@@ -14,22 +10,26 @@
       "url": "https://totaltele.com/vodafone-and-ericsson-trial-ai-powered-real-time-translation-and-noise-free-calls/"
     },
     {
-      "text": "**GSMA PDAA Unveil Roadmap Close** - (gsma.com) GSMA and PDAA Unveil Roadmap to Close Africa’s Mobile Internet Usage Gap and Connect One Billion People by 2030",
-      "url": "https://www.gsma.com/newsroom/press-release/gsma-and-pdaa-unveil-roadmap-to-close-africas-mobile-internet-usage-gap-and-connect-one-billion-people-by-2030/"
+      "text": "**Southern Water using Lightsonic s** - (totaltele.com) Southern Water using Lightsonic’s fibre-sensing tech to detect leaks",
+      "url": "https://totaltele.com/southern-water-using-lightsonics-fibre-sensing-tech-to-detect-leaks/"
     },
     {
-      "text": "**Huawei unveils new UnifiedBus computing** - (totaltele.com) Huawei unveils new UnifiedBus computing architecture for SuperPoDs and clusters",
-      "url": "https://totaltele.com/huawei-unveils-new-unifiedbus-computing-architecture/"
+      "text": "**Airspan deal absorbs 135 former** - (totaltele.com) Airspan deal absorbs 135 former Cambium employees",
+      "url": "https://totaltele.com/airspan-deal-absorbs-135-former-cambium-employees/"
+    },
+    {
+      "text": "**GSMA PDAA Unveil Roadmap Close** - (gsma.com) GSMA and PDAA Unveil Roadmap to Close Africa’s Mobile Internet Usage Gap and Connect One Billion People by 2030",
+      "url": "https://www.gsma.com/newsroom/press-release/gsma-and-pdaa-unveil-roadmap-to-close-africas-mobile-internet-usage-gap-and-connect-one-billion-people-by-2030/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://www.gsma.com/newsroom/article/from-pilots-to-practice-closing-the-advanced-connectivity-gap-in-healthcare/",
     "https://totaltele.com/scaling-industrial-5g-from-technical-capability-to-measurable-business-value/",
     "https://totaltele.com/vodafone-and-ericsson-trial-ai-powered-real-time-translation-and-noise-free-calls/",
-    "https://www.gsma.com/newsroom/press-release/gsma-and-pdaa-unveil-roadmap-to-close-africas-mobile-internet-usage-gap-and-connect-one-billion-people-by-2030/",
-    "https://totaltele.com/huawei-unveils-new-unifiedbus-computing-architecture/"
+    "https://totaltele.com/southern-water-using-lightsonics-fibre-sensing-tech-to-detect-leaks/",
+    "https://totaltele.com/airspan-deal-absorbs-135-former-cambium-employees/",
+    "https://www.gsma.com/newsroom/press-release/gsma-and-pdaa-unveil-roadmap-to-close-africas-mobile-internet-usage-gap-and-connect-one-billion-people-by-2030/"
   ],
   "note": "fallback (summary generation error)"
 }
