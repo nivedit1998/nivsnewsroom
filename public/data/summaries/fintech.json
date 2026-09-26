@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T13:59:46.282Z",
+  "generatedAt": "2026-09-26T13:16:00.636Z",
   "bullets": [
     {
       "text": "**Financial crime protecting hive** - (fca.org.uk) Financial crime: protecting the hive",
@@ -10,32 +10,32 @@
       "url": "https://www.fca.org.uk/news/press-releases/fca-sets-out-steps-support-small-businesses-access-finance"
     },
     {
-      "text": "**AFC Urges FDIC Adopt Risk-Based** - (thefintechtimes.com) AFC Urges FDIC to Adopt Risk-Based AML Rules for Stablecoin Issuers",
-      "url": "https://thefintechtimes.com/afc-urges-fdic-to-adopt-risk-based-aml-rules-for-stablecoin-issuers/"
-    },
-    {
       "text": "**Monavate LMAX Group Link up** - (thefintechtimes.com) Monavate and LMAX Group Link up on Cross-Border Settlement Rails",
       "url": "https://thefintechtimes.com/monavate-and-lmax-group-link-up-on-cross-border-settlement-rails/"
     },
     {
-      "text": "**Lightspark Brings Stablecoin Settlement Visa** - (thefintechtimes.com) Lightspark Brings Stablecoin Settlement to Visa Cards via Lithic",
-      "url": "https://thefintechtimes.com/lightspark-brings-stablecoin-settlement-to-visa-cards-via-lithic/"
+      "text": "**FCA partners continues crackdown illegal** - (fca.org.uk) FCA and partners continues crackdown on illegal crypto trading",
+      "url": "https://www.fca.org.uk/news/press-releases/fca-and-partners-continues-crackdown-illegal-crypto-trading"
+    },
+    {
+      "text": "**Inventi Becomes First Swift Business** - (thefintechtimes.com) Inventi Becomes First Swift Business Connect Provider in the Baltics",
+      "url": "https://thefintechtimes.com/inventi-becomes-first-swift-business-connect-provider-in-the-baltics/"
     }
   ],
-  "inputHash": "ffd50ef7c4a5f872e1a2d4120a94c0c653997aaab7eb14ca9358e87afbb9c2bb",
+  "inputHash": "19198ee7aec21a1b07a830e08a503277664841b0f258fae8924df9aec2596ac5",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://www.fca.org.uk/news/speeches/financial-crime-protecting-hive",
     "https://www.fca.org.uk/news/press-releases/fca-sets-out-steps-support-small-businesses-access-finance",
-    "https://thefintechtimes.com/afc-urges-fdic-to-adopt-risk-based-aml-rules-for-stablecoin-issuers/",
     "https://thefintechtimes.com/monavate-and-lmax-group-link-up-on-cross-border-settlement-rails/",
-    "https://thefintechtimes.com/lightspark-brings-stablecoin-settlement-to-visa-cards-via-lithic/",
     "https://www.fca.org.uk/news/press-releases/fca-and-partners-continues-crackdown-illegal-crypto-trading",
+    "https://thefintechtimes.com/inventi-becomes-first-swift-business-connect-provider-in-the-baltics/",
+    "https://thefintechtimes.com/nigerias-firs-targets-crypto-with-transaction-taxes-and-vasp-levies/",
     "https://www.paymentsdive.com/news/ach-use-rises-for-b2b-payments/831270/",
     "https://www.finextra.com/newsarticle/48472/fednow-to-enable-cross-border-payments",
     "https://www.finextra.com/pressarticle/111023/cleverbridge-completes-frances-first-passkey-authenticated-agentic-purchase-on-a-revolut-card",
-    "https://www.finextra.com/videoarticle/3600/rethinking-orchestration-for-the-next-generation-of-ai-driven-payments"
+    "https://www.paymentsdive.com/news/fido-wrestles-with-agentic-trust/831380/"
   ],
   "note": "fallback (summary generation error)"
 }
