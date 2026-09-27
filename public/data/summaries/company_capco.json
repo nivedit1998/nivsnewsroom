@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T13:16:06.775Z",
+  "generatedAt": "2026-09-27T14:09:34.092Z",
   "bullets": [
     {
       "text": "**Building data leadership APAC** - (capco.com) Building data leadership in APAC",
@@ -14,12 +14,12 @@
       "url": "https://www.capco.com/intelligence/capco-intelligence/the-connected-insurer"
     },
     {
-      "text": "**Asia s Wealth Boom Breaking** - (capco.com) Asia's Wealth Boom is Breaking the RM Model",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/asia-wealth-boom-is-breaking-the-rm-model"
-    },
-    {
       "text": "**US power markets four key** - (capco.com) US power markets: four key developments in market design",
       "url": "https://www.capco.com/intelligence/capco-intelligence/us-power-markets-four-key-developments"
+    },
+    {
+      "text": "**Asia s Wealth Boom Breaking** - (capco.com) Asia's Wealth Boom is Breaking the RM Model",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/asia-wealth-boom-is-breaking-the-rm-model"
     }
   ],
   "promptVersion": "insights-v2",
@@ -28,8 +28,8 @@
     "https://www.capco.com/intelligence/capco-intelligence/building-data-leadership-in-apac",
     "https://www.capco.com/intelligence/capco-intelligence/the-economics-of-ai-at-scale",
     "https://www.capco.com/intelligence/capco-intelligence/the-connected-insurer",
-    "https://www.capco.com/intelligence/capco-intelligence/asia-wealth-boom-is-breaking-the-rm-model",
-    "https://www.capco.com/intelligence/capco-intelligence/us-power-markets-four-key-developments"
+    "https://www.capco.com/intelligence/capco-intelligence/us-power-markets-four-key-developments",
+    "https://www.capco.com/intelligence/capco-intelligence/asia-wealth-boom-is-breaking-the-rm-model"
   ],
   "note": "fallback (summary generation error)"
 }

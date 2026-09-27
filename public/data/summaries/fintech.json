@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-09-26T13:16:00.636Z",
+  "generatedAt": "2026-09-27T14:09:26.736Z",
   "bullets": [
+    {
+      "text": "**Trust Payments Felloh Link Travel** - (thefintechtimes.com) Trust Payments and Felloh Link Travel Payments to Back-Office Data",
+      "url": "https://thefintechtimes.com/trust-payments-and-felloh-link-travel-payments-to-back-office-data/"
+    },
     {
       "text": "**Financial crime protecting hive** - (fca.org.uk) Financial crime: protecting the hive",
       "url": "https://www.fca.org.uk/news/speeches/financial-crime-protecting-hive"
     },
     {
+      "text": "**Sedric Joins American Fintech Council** - (thefintechtimes.com) Sedric Joins American Fintech Council to Push AI Compliance Controls",
+      "url": "https://thefintechtimes.com/sedric-joins-american-fintech-council-to-push-ai-compliance-controls/"
+    },
+    {
+      "text": "**Teya Joins FCA Scale-up Unit** - (thefintechtimes.com) Teya Joins FCA Scale-up Unit’s Solo-Regulated Track",
+      "url": "https://thefintechtimes.com/teya-joins-fca-scale-up-units-solo-regulated-track/"
+    },
+    {
       "text": "**FCA sets out steps support** - (fca.org.uk) FCA sets out steps to support small businesses' access to finance",
       "url": "https://www.fca.org.uk/news/press-releases/fca-sets-out-steps-support-small-businesses-access-finance"
-    },
-    {
-      "text": "**Monavate LMAX Group Link up** - (thefintechtimes.com) Monavate and LMAX Group Link up on Cross-Border Settlement Rails",
-      "url": "https://thefintechtimes.com/monavate-and-lmax-group-link-up-on-cross-border-settlement-rails/"
-    },
-    {
-      "text": "**FCA partners continues crackdown illegal** - (fca.org.uk) FCA and partners continues crackdown on illegal crypto trading",
-      "url": "https://www.fca.org.uk/news/press-releases/fca-and-partners-continues-crackdown-illegal-crypto-trading"
-    },
-    {
-      "text": "**Inventi Becomes First Swift Business** - (thefintechtimes.com) Inventi Becomes First Swift Business Connect Provider in the Baltics",
-      "url": "https://thefintechtimes.com/inventi-becomes-first-swift-business-connect-provider-in-the-baltics/"
     }
   ],
-  "inputHash": "19198ee7aec21a1b07a830e08a503277664841b0f258fae8924df9aec2596ac5",
+  "inputHash": "88a34ae87dfec8c0d9fb57e3fc6989690b5eb3a4f529087c1916561b2fbaa2a8",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
+    "https://thefintechtimes.com/trust-payments-and-felloh-link-travel-payments-to-back-office-data/",
     "https://www.fca.org.uk/news/speeches/financial-crime-protecting-hive",
+    "https://thefintechtimes.com/sedric-joins-american-fintech-council-to-push-ai-compliance-controls/",
+    "https://thefintechtimes.com/teya-joins-fca-scale-up-units-solo-regulated-track/",
     "https://www.fca.org.uk/news/press-releases/fca-sets-out-steps-support-small-businesses-access-finance",
-    "https://thefintechtimes.com/monavate-and-lmax-group-link-up-on-cross-border-settlement-rails/",
     "https://www.fca.org.uk/news/press-releases/fca-and-partners-continues-crackdown-illegal-crypto-trading",
-    "https://thefintechtimes.com/inventi-becomes-first-swift-business-connect-provider-in-the-baltics/",
-    "https://thefintechtimes.com/nigerias-firs-targets-crypto-with-transaction-taxes-and-vasp-levies/",
     "https://www.paymentsdive.com/news/ach-use-rises-for-b2b-payments/831270/",
     "https://www.finextra.com/newsarticle/48472/fednow-to-enable-cross-border-payments",
     "https://www.finextra.com/pressarticle/111023/cleverbridge-completes-frances-first-passkey-authenticated-agentic-purchase-on-a-revolut-card",
