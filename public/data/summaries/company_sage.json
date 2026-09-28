@@ -1,6 +1,10 @@
 {
-  "generatedAt": "2026-09-27T14:09:37.573Z",
+  "generatedAt": "2026-09-28T16:51:56.963Z",
   "bullets": [
+    {
+      "text": "**Why managers under pressure what** - (sage.com) Why are managers under pressure and what can HR do about it?",
+      "url": "https://www.sage.com/en-gb/blog/manager-burnout-hr-support/"
+    },
     {
       "text": "**How trust numbers helping AFC** - (sage.com) How trust in the numbers is helping AFC Wimbledon develop the next generation of female coaches",
       "url": "https://www.sage.com/en-gb/blog/afc-wimbledon-lead-on-pathway-efl/"
@@ -9,6 +13,7 @@
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
+    "https://www.sage.com/en-gb/blog/manager-burnout-hr-support/",
     "https://www.sage.com/en-gb/blog/afc-wimbledon-lead-on-pathway-efl/"
   ],
   "note": "fallback (summary generation error)"

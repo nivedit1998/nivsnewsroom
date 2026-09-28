@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-09-27T14:09:29.001Z",
+  "generatedAt": "2026-09-28T16:51:50.587Z",
   "bullets": [
     {
-      "text": "**Accenture Edge Collaborates AWS Help** - (newsroom.accenture.com) Accenture Edge Collaborates with AWS to Help Mid-Market Organizations Harness AI and Accelerate Business Impact",
-      "url": "https://newsroom.accenture.com/news/2026/accenture-edge-collaborates-with-aws-to-help-mid-market-organizations-harness-ai-and-accelerate-business-impact"
-    },
-    {
-      "text": "**Accenture Google Cloud Transform Software** - (newsroom.accenture.com) Accenture and Google Cloud Transform Software Development with Volvo Cars",
-      "url": "https://newsroom.accenture.com/news/2026/accenture-and-google-cloud-transform-software-development-with-volvo-cars"
+      "text": "**Accenture osapiens Make DS Smith** - (newsroom.accenture.com) Accenture and osapiens Make DS Smith’s Global Supply Chain More Transparent and Ready for Evolving EU Regulation",
+      "url": "https://newsroom.accenture.com/news/2026/accenture-and-osapiens-make-ds-smith-s-global-supply-chain-more-transparent-and-ready-for-evolving-eu-regulation"
     },
     {
       "text": "**Accenture Launches Accenture Construct Reinvent** - (newsroom.accenture.com) Accenture Launches Accenture Construct to Reinvent Fragmented Capital Project Delivery Amid Global Investment Supercycle",
       "url": "https://newsroom.accenture.com/news/2026/accenture-launches-accenture-construct-to-reinvent-fragmented-capital-project-delivery-amid-global-investment-supercycle"
+    },
+    {
+      "text": "**Accenture Edge Helps Combe Unify** - (newsroom.accenture.com) Accenture Edge Helps Combe Unify its Global Operations, Setting the Stage for AI-Powered Growth with Oracle Fusion Applications",
+      "url": "https://newsroom.accenture.com/news/2026/accenture-edge-helps-combe-unify-its-global-operations-setting-the-stage-for-ai-powered-growth-with-oracle-fusion-applications"
     },
     {
       "text": "**Accenture Within Help Clients Accelerate** - (newsroom.accenture.com) Accenture and Within Help Clients Accelerate AI Across the Enterprise Through Strategic Investment and New Partnership",
@@ -21,9 +21,9 @@
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://newsroom.accenture.com/news/2026/accenture-edge-collaborates-with-aws-to-help-mid-market-organizations-harness-ai-and-accelerate-business-impact",
-    "https://newsroom.accenture.com/news/2026/accenture-and-google-cloud-transform-software-development-with-volvo-cars",
+    "https://newsroom.accenture.com/news/2026/accenture-and-osapiens-make-ds-smith-s-global-supply-chain-more-transparent-and-ready-for-evolving-eu-regulation",
     "https://newsroom.accenture.com/news/2026/accenture-launches-accenture-construct-to-reinvent-fragmented-capital-project-delivery-amid-global-investment-supercycle",
+    "https://newsroom.accenture.com/news/2026/accenture-edge-helps-combe-unify-its-global-operations-setting-the-stage-for-ai-powered-growth-with-oracle-fusion-applications",
     "https://newsroom.accenture.com/news/2026/accenture-and-within-help-clients-accelerate-ai-across-the-enterprise-through-strategic-investment-and-new-partnership"
   ],
   "note": "fallback (summary generation error)"
