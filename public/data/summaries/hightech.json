@@ -1,9 +1,17 @@
 {
-  "generatedAt": "2026-09-28T16:51:24.315Z",
+  "generatedAt": "2026-09-29T14:55:15.134Z",
   "bullets": [
     {
-      "text": "**FBI reportedly declares cyber security** - (techcrunch.com) FBI reportedly declares ‘cyber security incident’ after hackers steal agents’ personal data",
-      "url": "https://techcrunch.com/2026/09/28/fbi-reportedly-declares-cyber-security-incident-after-hackers-steal-agents-personal-data/"
+      "text": "**OpenAI apologizes Australia after its** - (techcrunch.com) OpenAI apologizes to Australia after its AI agents breached government sites",
+      "url": "https://techcrunch.com/2026/09/29/openai-apologizes-to-australia-after-its-ai-agents-breached-government-sites/"
+    },
+    {
+      "text": "**Reco raises 55M AI agent** - (techcrunch.com) Reco raises $55M as AI agent security startups crowd the market",
+      "url": "https://techcrunch.com/2026/09/29/reco-raises-55m-as-ai-agent-security-startups-crowd-the-market/"
+    },
+    {
+      "text": "**Your car s data privacy** - (theverge.com) Your car’s data privacy problems are worse than you think",
+      "url": "https://www.theverge.com/transportation/1001463/car-data-privacy-northeastern-study-honda-gm-ford"
     },
     {
       "text": "**Meta announces camera-free glasses dedicated** - (9to5mac.com) Meta announces camera-free glasses, dedicated Muse AI gadget, more",
@@ -12,24 +20,16 @@
     {
       "text": "**Oh no here come AI** - (9to5google.com) Oh no, here come the AI Tamagotchis",
       "url": "https://9to5google.com/2026/09/24/oh-no-here-come-the-ai-tamagotchis/"
-    },
-    {
-      "text": "**Viral AI agent Instinct raises** - (techcrunch.com) Viral AI agent Instinct raises $1B Series C at a $10B valuation",
-      "url": "https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/"
-    },
-    {
-      "text": "**Xiaomi 18 Pro series goes** - (9to5google.com) Xiaomi 18 Pro series goes official with ‘privacy screen,’ 8,500 mAh battery, and Snapdragon 8 Elite Extreme Gen 6",
-      "url": "https://9to5google.com/2026/09/23/xiaomi-18-pro-official-specs-features/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://techcrunch.com/2026/09/28/fbi-reportedly-declares-cyber-security-incident-after-hackers-steal-agents-personal-data/",
+    "https://techcrunch.com/2026/09/29/openai-apologizes-to-australia-after-its-ai-agents-breached-government-sites/",
+    "https://techcrunch.com/2026/09/29/reco-raises-55m-as-ai-agent-security-startups-crowd-the-market/",
+    "https://www.theverge.com/transportation/1001463/car-data-privacy-northeastern-study-honda-gm-ford",
     "https://9to5mac.com/2026/09/23/meta-announces-camera-free-glasses-dedicated-muse-ai-gadget-more/",
-    "https://9to5google.com/2026/09/24/oh-no-here-come-the-ai-tamagotchis/",
-    "https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/",
-    "https://9to5google.com/2026/09/23/xiaomi-18-pro-official-specs-features/"
+    "https://9to5google.com/2026/09/24/oh-no-here-come-the-ai-tamagotchis/"
   ],
   "note": "fallback (summary generation error)"
 }

@@ -1,20 +1,35 @@
 {
-  "generatedAt": "2026-09-28T16:51:56.963Z",
+  "generatedAt": "2026-09-29T14:55:46.208Z",
   "bullets": [
     {
-      "text": "**Why managers under pressure what** - (sage.com) Why are managers under pressure and what can HR do about it?",
-      "url": "https://www.sage.com/en-gb/blog/manager-burnout-hr-support/"
+      "text": "**businesses behind AFC Wimbledon How** - (sage.com) The businesses behind AFC Wimbledon: How one badge unites a community",
+      "url": "https://www.sage.com/en-gb/blog/afc-wimbledown-dlag-efl/"
     },
     {
-      "text": "**How trust numbers helping AFC** - (sage.com) How trust in the numbers is helping AFC Wimbledon develop the next generation of female coaches",
-      "url": "https://www.sage.com/en-gb/blog/afc-wimbledon-lead-on-pathway-efl/"
+      "text": "**scorekeeper strategist How CFO role** - (sage.com) From scorekeeper to strategist: How the CFO role is evolving",
+      "url": "https://www.sage.com/en-gb/blog/from-scorekeeper-to-strategist-how-the-cfo-role-is-evolving/"
+    },
+    {
+      "text": "**How build CFO dashboard actually** - (sage.com) How to build a CFO dashboard that actually drives decisions",
+      "url": "https://www.sage.com/en-gb/blog/how-to-build-a-cfo-dashboard-that-actually-drives-decisions/"
+    },
+    {
+      "text": "**your finance system holding back** - (sage.com) Is your finance system holding back business growth?",
+      "url": "https://www.sage.com/en-gb/blog/is-your-finance-system-holding-back-business-growth/"
+    },
+    {
+      "text": "**Group consolidation Why it takes** - (sage.com) Group consolidation: Why it takes so long and how to fix it",
+      "url": "https://www.sage.com/en-gb/blog/group-consolidation-why-it-takes-so-long-and-how-to-fix-it/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://www.sage.com/en-gb/blog/manager-burnout-hr-support/",
-    "https://www.sage.com/en-gb/blog/afc-wimbledon-lead-on-pathway-efl/"
+    "https://www.sage.com/en-gb/blog/afc-wimbledown-dlag-efl/",
+    "https://www.sage.com/en-gb/blog/from-scorekeeper-to-strategist-how-the-cfo-role-is-evolving/",
+    "https://www.sage.com/en-gb/blog/how-to-build-a-cfo-dashboard-that-actually-drives-decisions/",
+    "https://www.sage.com/en-gb/blog/is-your-finance-system-holding-back-business-growth/",
+    "https://www.sage.com/en-gb/blog/group-consolidation-why-it-takes-so-long-and-how-to-fix-it/"
   ],
   "note": "fallback (summary generation error)"
 }
