@@ -1,35 +1,30 @@
 {
-  "generatedAt": "2026-09-29T14:55:43.142Z",
+  "generatedAt": "2026-09-30T15:02:39.913Z",
   "bullets": [
-    {
-      "text": "**Building data leadership APAC** - (capco.com) Building data leadership in APAC",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/building-data-leadership-in-apac"
-    },
-    {
-      "text": "**Tokenomics economics AI scale** - (capco.com) Tokenomics: The economics of AI at scale",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/the-economics-of-ai-at-scale"
-    },
     {
       "text": "**Asia s Wealth Boom Breaking** - (capco.com) Asia's Wealth Boom is Breaking the RM Model",
       "url": "https://www.capco.com/intelligence/capco-intelligence/asia-wealth-boom-is-breaking-the-rm-model"
+    },
+    {
+      "text": "**US power markets four key** - (capco.com) US power markets: four key developments in market design",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/us-power-markets-four-key-developments"
     },
     {
       "text": "**Connected Insurer Fragmentation cost nobody** - (capco.com) The Connected Insurer: Fragmentation, the cost nobody owns",
       "url": "https://www.capco.com/intelligence/capco-intelligence/the-connected-insurer"
     },
     {
-      "text": "**US power markets four key** - (capco.com) US power markets: four key developments in market design",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/us-power-markets-four-key-developments"
+      "text": "**Direttiva FASTER cosa devono fare** - (capco.com) Direttiva FASTER: cosa devono fare ora gli intermediari finanziari",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/direttiva-faster-cosa-devono-fare-ora-gli-intermediari-finanziari"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://www.capco.com/intelligence/capco-intelligence/building-data-leadership-in-apac",
-    "https://www.capco.com/intelligence/capco-intelligence/the-economics-of-ai-at-scale",
     "https://www.capco.com/intelligence/capco-intelligence/asia-wealth-boom-is-breaking-the-rm-model",
+    "https://www.capco.com/intelligence/capco-intelligence/us-power-markets-four-key-developments",
     "https://www.capco.com/intelligence/capco-intelligence/the-connected-insurer",
-    "https://www.capco.com/intelligence/capco-intelligence/us-power-markets-four-key-developments"
+    "https://www.capco.com/intelligence/capco-intelligence/direttiva-faster-cosa-devono-fare-ora-gli-intermediari-finanziari"
   ],
   "note": "fallback (summary generation error)"
 }

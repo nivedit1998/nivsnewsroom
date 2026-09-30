@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-29T14:55:37.207Z",
+  "generatedAt": "2026-09-30T15:02:31.916Z",
   "bullets": [
     {
-      "text": "**Mews Secures EMI Licence Embed** - (thefintechtimes.com) Mews Secures EMI Licence to Embed Payments Into Hotel OS",
-      "url": "https://thefintechtimes.com/mews-secures-emi-licence-to-embed-payments-into-hotel-os/"
+      "text": "**How Uzbekistan Built Open Banking** - (thefintechtimes.com) How Uzbekistan Built Open Banking Before The West",
+      "url": "https://thefintechtimes.com/how-uzbekistan-built-open-banking-before-the-west/"
     },
     {
       "text": "**Financial crime protecting hive** - (fca.org.uk) Financial crime: protecting the hive",
@@ -14,28 +14,28 @@
       "url": "https://www.fca.org.uk/news/press-releases/fca-sets-out-steps-support-small-businesses-access-finance"
     },
     {
-      "text": "**Bradesco completes pilot transaction using** - (finextra.com) Bradesco completes pilot transaction using BofA cross-border payments tech",
-      "url": "https://www.finextra.com/pressarticle/111032/bradesco-completes-pilot-transaction-using-bofa-cross-border-payments-tech"
+      "text": "**DECTA Selects OpenPayd International Treasury** - (thefintechtimes.com) DECTA Selects OpenPayd for International Treasury Settlement",
+      "url": "https://thefintechtimes.com/decta-selects-openpayd-for-international-treasury-settlement/"
     },
     {
-      "text": "**Finzly Joins American Fintech Council** - (thefintechtimes.com) Finzly Joins American Fintech Council to Push Composable Banking",
-      "url": "https://thefintechtimes.com/finzly-joins-american-fintech-council-to-push-composable-banking/"
+      "text": "**E-Invoicing Middle East More Than** - (thefintechtimes.com) E-Invoicing in the Middle East: More Than a Compliance Exercise",
+      "url": "https://thefintechtimes.com/e-invoicing-in-the-middle-east-more-than-a-compliance-exercise/"
     }
   ],
-  "inputHash": "c3774905c70016bf262412540bbf6cb73cbdaae9ae60140b3a4405cfd99f8c12",
+  "inputHash": "d4fd7883de5c7bb20e94947a68f207ea0cb6ff8f3ff5b135f96d5ca6182b9ca0",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://thefintechtimes.com/mews-secures-emi-licence-to-embed-payments-into-hotel-os/",
+    "https://thefintechtimes.com/how-uzbekistan-built-open-banking-before-the-west/",
     "https://www.fca.org.uk/news/speeches/financial-crime-protecting-hive",
     "https://www.fca.org.uk/news/press-releases/fca-sets-out-steps-support-small-businesses-access-finance",
-    "https://www.finextra.com/pressarticle/111032/bradesco-completes-pilot-transaction-using-bofa-cross-border-payments-tech",
-    "https://thefintechtimes.com/finzly-joins-american-fintech-council-to-push-composable-banking/",
-    "https://thefintechtimes.com/tbc-bank-uzbekistan-expands-flagship-debit-card-issues-new-tbc-salom-backed-by-uzcard/",
-    "https://www.paymentsdive.com/spons/how-embedded-finance-is-redefining-the-role-of-saas-platforms/831080/",
+    "https://thefintechtimes.com/decta-selects-openpayd-for-international-treasury-settlement/",
+    "https://thefintechtimes.com/e-invoicing-in-the-middle-east-more-than-a-compliance-exercise/",
     "https://www.fca.org.uk/news/press-releases/fca-and-partners-continues-crackdown-illegal-crypto-trading",
-    "https://www.finextra.com/pressarticle/111070/nayax-and-santanders-getnet-collaborate-on-unattended-payments",
-    "https://www.paymentsdive.com/news/fed-proposes-stablecoin-rules/831405/"
+    "https://www.paymentsdive.com/spons/how-embedded-finance-is-redefining-the-role-of-saas-platforms/831080/",
+    "https://www.paymentsdive.com/news/fed-proposes-stablecoin-rules/831405/",
+    "https://www.finextra.com/pressarticle/111083/kora-debuts-one-rail-to-support-pan-african-stablecoin-transactions",
+    "https://www.paymentsdive.com/news/stripe-alums-spark-new-payments-plays/831410/"
   ],
   "note": "fallback (summary generation error)"
 }

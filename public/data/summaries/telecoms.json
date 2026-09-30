@@ -1,17 +1,9 @@
 {
-  "generatedAt": "2026-09-29T14:55:26.547Z",
+  "generatedAt": "2026-09-30T15:02:18.640Z",
   "bullets": [
     {
       "text": "**Ofcom blocks Openreach wholesale rebate** - (totaltele.com) Ofcom blocks Openreach wholesale rebate deal",
       "url": "https://totaltele.com/ofcom-blocks-openreach-wholesale-rebate-deal/"
-    },
-    {
-      "text": "**Scaling industrial 5G technical capability** - (totaltele.com) Scaling industrial 5G from technical capability to measurable business value",
-      "url": "https://totaltele.com/scaling-industrial-5g-from-technical-capability-to-measurable-business-value/"
-    },
-    {
-      "text": "**Vodafone Ericsson trial AI-powered real-time** - (totaltele.com) Vodafone and Ericsson trial AI-powered real-time translation and noise-free calls",
-      "url": "https://totaltele.com/vodafone-and-ericsson-trial-ai-powered-real-time-translation-and-noise-free-calls/"
     },
     {
       "text": "**Southern Water using Lightsonic s** - (totaltele.com) Southern Water using Lightsonic’s fibre-sensing tech to detect leaks",
@@ -20,16 +12,19 @@
     {
       "text": "**Airspan deal absorbs 135 former** - (totaltele.com) Airspan deal absorbs 135 former Cambium employees",
       "url": "https://totaltele.com/airspan-deal-absorbs-135-former-cambium-employees/"
+    },
+    {
+      "text": "**FLAG invests Indian Asian Trans-Pacific** - (totaltele.com) FLAG invests in Indian, Asian, and Trans-Pacific subsea cable routes",
+      "url": "https://totaltele.com/flag-invests-in-indian-asian-and-trans-pacific-subsea-cable-routes/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://totaltele.com/ofcom-blocks-openreach-wholesale-rebate-deal/",
-    "https://totaltele.com/scaling-industrial-5g-from-technical-capability-to-measurable-business-value/",
-    "https://totaltele.com/vodafone-and-ericsson-trial-ai-powered-real-time-translation-and-noise-free-calls/",
     "https://totaltele.com/southern-water-using-lightsonics-fibre-sensing-tech-to-detect-leaks/",
-    "https://totaltele.com/airspan-deal-absorbs-135-former-cambium-employees/"
+    "https://totaltele.com/airspan-deal-absorbs-135-former-cambium-employees/",
+    "https://totaltele.com/flag-invests-in-indian-asian-and-trans-pacific-subsea-cable-routes/"
   ],
   "note": "fallback (summary generation error)"
 }

@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-09-29T14:55:15.134Z",
+  "generatedAt": "2026-09-30T15:02:11.510Z",
   "bullets": [
-    {
-      "text": "**OpenAI apologizes Australia after its** - (techcrunch.com) OpenAI apologizes to Australia after its AI agents breached government sites",
-      "url": "https://techcrunch.com/2026/09/29/openai-apologizes-to-australia-after-its-ai-agents-breached-government-sites/"
-    },
-    {
-      "text": "**Reco raises 55M AI agent** - (techcrunch.com) Reco raises $55M as AI agent security startups crowd the market",
-      "url": "https://techcrunch.com/2026/09/29/reco-raises-55m-as-ai-agent-security-startups-crowd-the-market/"
-    },
-    {
-      "text": "**Your car s data privacy** - (theverge.com) Your car’s data privacy problems are worse than you think",
-      "url": "https://www.theverge.com/transportation/1001463/car-data-privacy-northeastern-study-honda-gm-ford"
-    },
-    {
-      "text": "**Meta announces camera-free glasses dedicated** - (9to5mac.com) Meta announces camera-free glasses, dedicated Muse AI gadget, more",
-      "url": "https://9to5mac.com/2026/09/23/meta-announces-camera-free-glasses-dedicated-muse-ai-gadget-more/"
-    },
     {
       "text": "**Oh no here come AI** - (9to5google.com) Oh no, here come the AI Tamagotchis",
       "url": "https://9to5google.com/2026/09/24/oh-no-here-come-the-ai-tamagotchis/"
+    },
+    {
+      "text": "**You can text DoorDash& 8217** - (theverge.com) You can text DoorDash&#8217;s AI bot to &#8216;order my usual&#8217; and it will figure the rest out",
+      "url": "https://www.theverge.com/tech/1002545/doordash-text-orders-drones-retail-returns-availability"
+    },
+    {
+      "text": "**Google reportedly tests paying publishers** - (theverge.com) Google reportedly tests paying publishers for AI search results",
+      "url": "https://www.theverge.com/tech/1002665/google-paying-publishers-ai-search-features"
+    },
+    {
+      "text": "**Florida Asks Judge Stop OpenAI** - (cnet.com) Florida Asks Judge to Stop OpenAI From Training New Models After Latest Incidents",
+      "url": "https://www.cnet.com/tech/services-and-software/florida-judge-stop-openai-training-new-models-incidents/"
+    },
+    {
+      "text": "**Meta s Muse Misbehaving Mysterious** - (cnet.com) Meta’s Muse Is Misbehaving in Mysterious Ways With Your Privacy",
+      "url": "https://www.cnet.com/tech/services-and-software/metas-muse-agentic-ai-privacy-violations-security-data/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://techcrunch.com/2026/09/29/openai-apologizes-to-australia-after-its-ai-agents-breached-government-sites/",
-    "https://techcrunch.com/2026/09/29/reco-raises-55m-as-ai-agent-security-startups-crowd-the-market/",
-    "https://www.theverge.com/transportation/1001463/car-data-privacy-northeastern-study-honda-gm-ford",
-    "https://9to5mac.com/2026/09/23/meta-announces-camera-free-glasses-dedicated-muse-ai-gadget-more/",
-    "https://9to5google.com/2026/09/24/oh-no-here-come-the-ai-tamagotchis/"
+    "https://9to5google.com/2026/09/24/oh-no-here-come-the-ai-tamagotchis/",
+    "https://www.theverge.com/tech/1002545/doordash-text-orders-drones-retail-returns-availability",
+    "https://www.theverge.com/tech/1002665/google-paying-publishers-ai-search-features",
+    "https://www.cnet.com/tech/services-and-software/florida-judge-stop-openai-training-new-models-incidents/",
+    "https://www.cnet.com/tech/services-and-software/metas-muse-agentic-ai-privacy-violations-security-data/"
   ],
   "note": "fallback (summary generation error)"
 }

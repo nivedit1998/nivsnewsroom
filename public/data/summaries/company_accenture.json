@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T14:55:39.609Z",
+  "generatedAt": "2026-09-30T15:02:35.683Z",
   "bullets": [
     {
       "text": "**Accenture osapiens Make DS Smith** - (newsroom.accenture.com) Accenture and osapiens Make DS Smith’s Global Supply Chain More Transparent and Ready for Evolving EU Regulation",
@@ -10,16 +10,8 @@
       "url": "https://newsroom.accenture.com/news/2026/accenture-helps-sodiaal-complete-international-integration-of-yoplait-liberte-canada-to-accelerate-its-global-dairy-expansion"
     },
     {
-      "text": "**Accenture Launches Accenture Construct Reinvent** - (newsroom.accenture.com) Accenture Launches Accenture Construct to Reinvent Fragmented Capital Project Delivery Amid Global Investment Supercycle",
-      "url": "https://newsroom.accenture.com/news/2026/accenture-launches-accenture-construct-to-reinvent-fragmented-capital-project-delivery-amid-global-investment-supercycle"
-    },
-    {
       "text": "**Accenture Edge Helps Combe Unify** - (newsroom.accenture.com) Accenture Edge Helps Combe Unify its Global Operations, Setting the Stage for AI-Powered Growth with Oracle Fusion Applications",
       "url": "https://newsroom.accenture.com/news/2026/accenture-edge-helps-combe-unify-its-global-operations-setting-the-stage-for-ai-powered-growth-with-oracle-fusion-applications"
-    },
-    {
-      "text": "**Accenture Within Help Clients Accelerate** - (newsroom.accenture.com) Accenture and Within Help Clients Accelerate AI Across the Enterprise Through Strategic Investment and New Partnership",
-      "url": "https://newsroom.accenture.com/news/2026/accenture-and-within-help-clients-accelerate-ai-across-the-enterprise-through-strategic-investment-and-new-partnership"
     }
   ],
   "promptVersion": "insights-v2",
@@ -27,9 +19,7 @@
   "contextUrls": [
     "https://newsroom.accenture.com/news/2026/accenture-and-osapiens-make-ds-smith-s-global-supply-chain-more-transparent-and-ready-for-evolving-eu-regulation",
     "https://newsroom.accenture.com/news/2026/accenture-helps-sodiaal-complete-international-integration-of-yoplait-liberte-canada-to-accelerate-its-global-dairy-expansion",
-    "https://newsroom.accenture.com/news/2026/accenture-launches-accenture-construct-to-reinvent-fragmented-capital-project-delivery-amid-global-investment-supercycle",
-    "https://newsroom.accenture.com/news/2026/accenture-edge-helps-combe-unify-its-global-operations-setting-the-stage-for-ai-powered-growth-with-oracle-fusion-applications",
-    "https://newsroom.accenture.com/news/2026/accenture-and-within-help-clients-accelerate-ai-across-the-enterprise-through-strategic-investment-and-new-partnership"
+    "https://newsroom.accenture.com/news/2026/accenture-edge-helps-combe-unify-its-global-operations-setting-the-stage-for-ai-powered-growth-with-oracle-fusion-applications"
   ],
   "note": "fallback (summary generation error)"
 }
