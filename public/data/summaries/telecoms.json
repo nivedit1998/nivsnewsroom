@@ -1,17 +1,9 @@
 {
-  "generatedAt": "2026-09-30T15:02:18.640Z",
+  "generatedAt": "2026-10-01T15:32:47.312Z",
   "bullets": [
     {
       "text": "**Ofcom blocks Openreach wholesale rebate** - (totaltele.com) Ofcom blocks Openreach wholesale rebate deal",
       "url": "https://totaltele.com/ofcom-blocks-openreach-wholesale-rebate-deal/"
-    },
-    {
-      "text": "**Southern Water using Lightsonic s** - (totaltele.com) Southern Water using Lightsonic’s fibre-sensing tech to detect leaks",
-      "url": "https://totaltele.com/southern-water-using-lightsonics-fibre-sensing-tech-to-detect-leaks/"
-    },
-    {
-      "text": "**Airspan deal absorbs 135 former** - (totaltele.com) Airspan deal absorbs 135 former Cambium employees",
-      "url": "https://totaltele.com/airspan-deal-absorbs-135-former-cambium-employees/"
     },
     {
       "text": "**FLAG invests Indian Asian Trans-Pacific** - (totaltele.com) FLAG invests in Indian, Asian, and Trans-Pacific subsea cable routes",
@@ -22,8 +14,6 @@
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://totaltele.com/ofcom-blocks-openreach-wholesale-rebate-deal/",
-    "https://totaltele.com/southern-water-using-lightsonics-fibre-sensing-tech-to-detect-leaks/",
-    "https://totaltele.com/airspan-deal-absorbs-135-former-cambium-employees/",
     "https://totaltele.com/flag-invests-in-indian-asian-and-trans-pacific-subsea-cable-routes/"
   ],
   "note": "fallback (summary generation error)"

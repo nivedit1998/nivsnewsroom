@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-09-30T15:02:31.916Z",
+  "generatedAt": "2026-10-01T15:32:59.700Z",
   "bullets": [
-    {
-      "text": "**How Uzbekistan Built Open Banking** - (thefintechtimes.com) How Uzbekistan Built Open Banking Before The West",
-      "url": "https://thefintechtimes.com/how-uzbekistan-built-open-banking-before-the-west/"
-    },
     {
       "text": "**Financial crime protecting hive** - (fca.org.uk) Financial crime: protecting the hive",
       "url": "https://www.fca.org.uk/news/speeches/financial-crime-protecting-hive"
+    },
+    {
+      "text": "**AFC Raises CHF 350m Digital** - (thefintechtimes.com) AFC Raises CHF 350m Digital Bond in Swiss Franc Market First",
+      "url": "https://thefintechtimes.com/afc-raises-chf-350m-digital-bond-in-swiss-franc-market-first/"
+    },
+    {
+      "text": "**StraitsX bring first SGD-denominated stablecoin** - (finextra.com) StraitsX to bring first SGD-denominated stablecoin to Monad",
+      "url": "https://www.finextra.com/pressarticle/111097/straitsx-to-bring-first-sgd-denominated-stablecoin-to-monad"
     },
     {
       "text": "**FCA sets out steps support** - (fca.org.uk) FCA sets out steps to support small businesses' access to finance",
       "url": "https://www.fca.org.uk/news/press-releases/fca-sets-out-steps-support-small-businesses-access-finance"
     },
     {
-      "text": "**DECTA Selects OpenPayd International Treasury** - (thefintechtimes.com) DECTA Selects OpenPayd for International Treasury Settlement",
-      "url": "https://thefintechtimes.com/decta-selects-openpayd-for-international-treasury-settlement/"
-    },
-    {
-      "text": "**E-Invoicing Middle East More Than** - (thefintechtimes.com) E-Invoicing in the Middle East: More Than a Compliance Exercise",
-      "url": "https://thefintechtimes.com/e-invoicing-in-the-middle-east-more-than-a-compliance-exercise/"
+      "text": "**Gaurav Tiwari Keeping Trading Platforms** - (thefintechtimes.com) Gaurav Tiwari on Keeping Trading Platforms Consistent at Scale",
+      "url": "https://thefintechtimes.com/gaurav-tiwari-on-keeping-trading-platforms-consistent-at-scale-2/"
     }
   ],
-  "inputHash": "d4fd7883de5c7bb20e94947a68f207ea0cb6ff8f3ff5b135f96d5ca6182b9ca0",
+  "inputHash": "0784cabbe16eaec668902574b5fb5689534f8b86c9bad5c7c8e812a1283a0e3d",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://thefintechtimes.com/how-uzbekistan-built-open-banking-before-the-west/",
     "https://www.fca.org.uk/news/speeches/financial-crime-protecting-hive",
+    "https://thefintechtimes.com/afc-raises-chf-350m-digital-bond-in-swiss-franc-market-first/",
+    "https://www.finextra.com/pressarticle/111097/straitsx-to-bring-first-sgd-denominated-stablecoin-to-monad",
     "https://www.fca.org.uk/news/press-releases/fca-sets-out-steps-support-small-businesses-access-finance",
-    "https://thefintechtimes.com/decta-selects-openpayd-for-international-treasury-settlement/",
-    "https://thefintechtimes.com/e-invoicing-in-the-middle-east-more-than-a-compliance-exercise/",
+    "https://thefintechtimes.com/gaurav-tiwari-on-keeping-trading-platforms-consistent-at-scale-2/",
     "https://www.fca.org.uk/news/press-releases/fca-and-partners-continues-crackdown-illegal-crypto-trading",
-    "https://www.paymentsdive.com/spons/how-embedded-finance-is-redefining-the-role-of-saas-platforms/831080/",
+    "https://thefintechtimes.com/strideup-cuts-hmo-and-mufb-rates-with-enhanced-broker-proc-fee/",
+    "https://www.finextra.com/pressarticle/111094/the-payments-association-acquires-european-sister-organisation",
     "https://www.paymentsdive.com/news/fed-proposes-stablecoin-rules/831405/",
-    "https://www.finextra.com/pressarticle/111083/kora-debuts-one-rail-to-support-pan-african-stablecoin-transactions",
     "https://www.paymentsdive.com/news/stripe-alums-spark-new-payments-plays/831410/"
   ],
   "note": "fallback (summary generation error)"

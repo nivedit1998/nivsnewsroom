@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T15:02:39.913Z",
+  "generatedAt": "2026-10-01T15:33:07.057Z",
   "bullets": [
     {
       "text": "**Asia s Wealth Boom Breaking** - (capco.com) Asia's Wealth Boom is Breaking the RM Model",
@@ -8,23 +8,13 @@
     {
       "text": "**US power markets four key** - (capco.com) US power markets: four key developments in market design",
       "url": "https://www.capco.com/intelligence/capco-intelligence/us-power-markets-four-key-developments"
-    },
-    {
-      "text": "**Connected Insurer Fragmentation cost nobody** - (capco.com) The Connected Insurer: Fragmentation, the cost nobody owns",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/the-connected-insurer"
-    },
-    {
-      "text": "**Direttiva FASTER cosa devono fare** - (capco.com) Direttiva FASTER: cosa devono fare ora gli intermediari finanziari",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/direttiva-faster-cosa-devono-fare-ora-gli-intermediari-finanziari"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://www.capco.com/intelligence/capco-intelligence/asia-wealth-boom-is-breaking-the-rm-model",
-    "https://www.capco.com/intelligence/capco-intelligence/us-power-markets-four-key-developments",
-    "https://www.capco.com/intelligence/capco-intelligence/the-connected-insurer",
-    "https://www.capco.com/intelligence/capco-intelligence/direttiva-faster-cosa-devono-fare-ora-gli-intermediari-finanziari"
+    "https://www.capco.com/intelligence/capco-intelligence/us-power-markets-four-key-developments"
   ],
   "note": "fallback (summary generation error)"
 }

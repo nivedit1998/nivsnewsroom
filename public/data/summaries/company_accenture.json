@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T15:02:35.683Z",
+  "generatedAt": "2026-10-01T15:33:03.314Z",
   "bullets": [
     {
       "text": "**Accenture osapiens Make DS Smith** - (newsroom.accenture.com) Accenture and osapiens Make DS Smith’s Global Supply Chain More Transparent and Ready for Evolving EU Regulation",
@@ -12,6 +12,10 @@
     {
       "text": "**Accenture Edge Helps Combe Unify** - (newsroom.accenture.com) Accenture Edge Helps Combe Unify its Global Operations, Setting the Stage for AI-Powered Growth with Oracle Fusion Applications",
       "url": "https://newsroom.accenture.com/news/2026/accenture-edge-helps-combe-unify-its-global-operations-setting-the-stage-for-ai-powered-growth-with-oracle-fusion-applications"
+    },
+    {
+      "text": "**Accenture Reports Fourth-Quarter Full-Year Fiscal** - (newsroom.accenture.com) Accenture Reports Fourth-Quarter and Full-Year Fiscal 2026 Results",
+      "url": "https://newsroom.accenture.com/news/2026/accenture-reports-fourth-quarter-and-full-year-fiscal-2026-results"
     }
   ],
   "promptVersion": "insights-v2",
@@ -19,7 +23,8 @@
   "contextUrls": [
     "https://newsroom.accenture.com/news/2026/accenture-and-osapiens-make-ds-smith-s-global-supply-chain-more-transparent-and-ready-for-evolving-eu-regulation",
     "https://newsroom.accenture.com/news/2026/accenture-helps-sodiaal-complete-international-integration-of-yoplait-liberte-canada-to-accelerate-its-global-dairy-expansion",
-    "https://newsroom.accenture.com/news/2026/accenture-edge-helps-combe-unify-its-global-operations-setting-the-stage-for-ai-powered-growth-with-oracle-fusion-applications"
+    "https://newsroom.accenture.com/news/2026/accenture-edge-helps-combe-unify-its-global-operations-setting-the-stage-for-ai-powered-growth-with-oracle-fusion-applications",
+    "https://newsroom.accenture.com/news/2026/accenture-reports-fourth-quarter-and-full-year-fiscal-2026-results"
   ],
   "note": "fallback (summary generation error)"
 }
