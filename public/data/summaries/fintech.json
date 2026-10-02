@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-10-01T15:32:59.700Z",
+  "generatedAt": "2026-10-02T14:50:50.949Z",
   "bullets": [
+    {
+      "text": "**How stablecoins speed int l** - (paymentsdive.com) How stablecoins speed int’l payments",
+      "url": "https://www.paymentsdive.com/news/how-stablecoins-speed-intl-payments-crypto-cross-border-emerging-markets/831935/"
+    },
     {
       "text": "**Financial crime protecting hive** - (fca.org.uk) Financial crime: protecting the hive",
       "url": "https://www.fca.org.uk/news/speeches/financial-crime-protecting-hive"
     },
     {
-      "text": "**AFC Raises CHF 350m Digital** - (thefintechtimes.com) AFC Raises CHF 350m Digital Bond in Swiss Franc Market First",
-      "url": "https://thefintechtimes.com/afc-raises-chf-350m-digital-bond-in-swiss-franc-market-first/"
-    },
-    {
-      "text": "**StraitsX bring first SGD-denominated stablecoin** - (finextra.com) StraitsX to bring first SGD-denominated stablecoin to Monad",
-      "url": "https://www.finextra.com/pressarticle/111097/straitsx-to-bring-first-sgd-denominated-stablecoin-to-monad"
+      "text": "**Castles Technology UK Merchants Now** - (thefintechtimes.com) Castles Technology: UK Merchants Now Expect More Than Payment Acceptance",
+      "url": "https://thefintechtimes.com/castles-technology-uk-merchants-now-expect-more-than-payment-acceptance/"
     },
     {
       "text": "**FCA sets out steps support** - (fca.org.uk) FCA sets out steps to support small businesses' access to finance",
       "url": "https://www.fca.org.uk/news/press-releases/fca-sets-out-steps-support-small-businesses-access-finance"
     },
     {
-      "text": "**Gaurav Tiwari Keeping Trading Platforms** - (thefintechtimes.com) Gaurav Tiwari on Keeping Trading Platforms Consistent at Scale",
-      "url": "https://thefintechtimes.com/gaurav-tiwari-on-keeping-trading-platforms-consistent-at-scale-2/"
+      "text": "**BMO Mastercard enable corporate card** - (finextra.com) BMO and Mastercard enable corporate card clients to manage virtual card payments",
+      "url": "https://www.finextra.com/pressarticle/111110/bmo-and-mastercard-enable-corporate-card-clients-to-manage-virtual-card-payments"
     }
   ],
-  "inputHash": "0784cabbe16eaec668902574b5fb5689534f8b86c9bad5c7c8e812a1283a0e3d",
+  "inputHash": "4d02fd73e92e4c0871ee6addf429f0bf38ba01d5c0b28171538cf638e9ee38f4",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
+    "https://www.paymentsdive.com/news/how-stablecoins-speed-intl-payments-crypto-cross-border-emerging-markets/831935/",
     "https://www.fca.org.uk/news/speeches/financial-crime-protecting-hive",
-    "https://thefintechtimes.com/afc-raises-chf-350m-digital-bond-in-swiss-franc-market-first/",
-    "https://www.finextra.com/pressarticle/111097/straitsx-to-bring-first-sgd-denominated-stablecoin-to-monad",
+    "https://thefintechtimes.com/castles-technology-uk-merchants-now-expect-more-than-payment-acceptance/",
     "https://www.fca.org.uk/news/press-releases/fca-sets-out-steps-support-small-businesses-access-finance",
-    "https://thefintechtimes.com/gaurav-tiwari-on-keeping-trading-platforms-consistent-at-scale-2/",
+    "https://www.finextra.com/pressarticle/111110/bmo-and-mastercard-enable-corporate-card-clients-to-manage-virtual-card-payments",
+    "https://thefintechtimes.com/final-rentals-rolls-out-deposit-free-car-hire-across-65-countries/",
+    "https://thefintechtimes.com/zing365-links-uk-sme-underinsurance-to-broker-knowledge-gap/",
+    "https://www.paymentsdive.com/news/fiserv-north-dakota-stablecoin-system-digital-asset/831901/",
     "https://www.fca.org.uk/news/press-releases/fca-and-partners-continues-crackdown-illegal-crypto-trading",
-    "https://thefintechtimes.com/strideup-cuts-hmo-and-mufb-rates-with-enhanced-broker-proc-fee/",
-    "https://www.finextra.com/pressarticle/111094/the-payments-association-acquires-european-sister-organisation",
-    "https://www.paymentsdive.com/news/fed-proposes-stablecoin-rules/831405/",
-    "https://www.paymentsdive.com/news/stripe-alums-spark-new-payments-plays/831410/"
+    "https://www.finextra.com/pressarticle/111115/bmo-taps-mastercard-for-embedded-commercial-virtual-card-payments"
   ],
   "note": "fallback (summary generation error)"
 }

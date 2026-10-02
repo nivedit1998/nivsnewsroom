@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T15:32:47.312Z",
+  "generatedAt": "2026-10-02T14:50:38.990Z",
   "bullets": [
     {
       "text": "**Ofcom blocks Openreach wholesale rebate** - (totaltele.com) Ofcom blocks Openreach wholesale rebate deal",
@@ -8,13 +8,18 @@
     {
       "text": "**FLAG invests Indian Asian Trans-Pacific** - (totaltele.com) FLAG invests in Indian, Asian, and Trans-Pacific subsea cable routes",
       "url": "https://totaltele.com/flag-invests-in-indian-asian-and-trans-pacific-subsea-cable-routes/"
+    },
+    {
+      "text": "**UNDP GSMA partner scale African-led** - (gsma.com) UNDP and GSMA partner to scale African-led AI innovation",
+      "url": "https://www.gsma.com/newsroom/press-release/undp-and-gsma-partner-to-scale-african-led-ai-innovation/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://totaltele.com/ofcom-blocks-openreach-wholesale-rebate-deal/",
-    "https://totaltele.com/flag-invests-in-indian-asian-and-trans-pacific-subsea-cable-routes/"
+    "https://totaltele.com/flag-invests-in-indian-asian-and-trans-pacific-subsea-cable-routes/",
+    "https://www.gsma.com/newsroom/press-release/undp-and-gsma-partner-to-scale-african-led-ai-innovation/"
   ],
   "note": "fallback (summary generation error)"
 }
