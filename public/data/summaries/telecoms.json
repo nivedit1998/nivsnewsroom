@@ -1,9 +1,17 @@
 {
-  "generatedAt": "2026-10-02T14:50:38.990Z",
+  "generatedAt": "2026-10-03T13:34:10.778Z",
   "bullets": [
+    {
+      "text": "**SoftBank completes 3 1bn purchase** - (totaltele.com) SoftBank completes $3.1bn purchase of DigitalBridge",
+      "url": "https://totaltele.com/softbank-completes-3-1bn-purchase-of-digitalbridge/"
+    },
     {
       "text": "**Ofcom blocks Openreach wholesale rebate** - (totaltele.com) Ofcom blocks Openreach wholesale rebate deal",
       "url": "https://totaltele.com/ofcom-blocks-openreach-wholesale-rebate-deal/"
+    },
+    {
+      "text": "**ICEYE taps Nokia deveop satellite** - (totaltele.com) ICEYE taps Nokia to deveop satellite comms systems",
+      "url": "https://totaltele.com/iceye-taps-nokia-to-aid-shift-into-comms-satellites/"
     },
     {
       "text": "**FLAG invests Indian Asian Trans-Pacific** - (totaltele.com) FLAG invests in Indian, Asian, and Trans-Pacific subsea cable routes",
@@ -17,7 +25,9 @@
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
+    "https://totaltele.com/softbank-completes-3-1bn-purchase-of-digitalbridge/",
     "https://totaltele.com/ofcom-blocks-openreach-wholesale-rebate-deal/",
+    "https://totaltele.com/iceye-taps-nokia-to-aid-shift-into-comms-satellites/",
     "https://totaltele.com/flag-invests-in-indian-asian-and-trans-pacific-subsea-cable-routes/",
     "https://www.gsma.com/newsroom/press-release/undp-and-gsma-partner-to-scale-african-led-ai-innovation/"
   ],

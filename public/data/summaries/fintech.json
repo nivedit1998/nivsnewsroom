@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-10-02T14:50:50.949Z",
+  "generatedAt": "2026-10-03T13:34:24.943Z",
   "bullets": [
+    {
+      "text": "**Thunes Adds EURC Stablecoin Prefunding** - (thefintechtimes.com) Thunes Adds EURC Stablecoin Prefunding to its Global Payments Network",
+      "url": "https://thefintechtimes.com/thunes-adds-eurc-stablecoin-prefunding-to-its-global-payments-network/"
+    },
     {
       "text": "**How stablecoins speed int l** - (paymentsdive.com) How stablecoins speed int’l payments",
       "url": "https://www.paymentsdive.com/news/how-stablecoins-speed-intl-payments-crypto-cross-border-emerging-markets/831935/"
+    },
+    {
+      "text": "**Cashflows Takes Strategic Stake Merchant** - (thefintechtimes.com) Cashflows Takes Strategic Stake in Merchant Services Firm Tap & Go",
+      "url": "https://thefintechtimes.com/cashflows-takes-strategic-stake-in-merchant-services-firm-tap-go/"
     },
     {
       "text": "**Financial crime protecting hive** - (fca.org.uk) Financial crime: protecting the hive",
       "url": "https://www.fca.org.uk/news/speeches/financial-crime-protecting-hive"
     },
     {
-      "text": "**Castles Technology UK Merchants Now** - (thefintechtimes.com) Castles Technology: UK Merchants Now Expect More Than Payment Acceptance",
-      "url": "https://thefintechtimes.com/castles-technology-uk-merchants-now-expect-more-than-payment-acceptance/"
-    },
-    {
       "text": "**FCA sets out steps support** - (fca.org.uk) FCA sets out steps to support small businesses' access to finance",
       "url": "https://www.fca.org.uk/news/press-releases/fca-sets-out-steps-support-small-businesses-access-finance"
-    },
-    {
-      "text": "**BMO Mastercard enable corporate card** - (finextra.com) BMO and Mastercard enable corporate card clients to manage virtual card payments",
-      "url": "https://www.finextra.com/pressarticle/111110/bmo-and-mastercard-enable-corporate-card-clients-to-manage-virtual-card-payments"
     }
   ],
-  "inputHash": "4d02fd73e92e4c0871ee6addf429f0bf38ba01d5c0b28171538cf638e9ee38f4",
+  "inputHash": "9dcd6b3218b282fd61796b93ee026103825c83cce50426e0663d17e03269e4d4",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
+    "https://thefintechtimes.com/thunes-adds-eurc-stablecoin-prefunding-to-its-global-payments-network/",
     "https://www.paymentsdive.com/news/how-stablecoins-speed-intl-payments-crypto-cross-border-emerging-markets/831935/",
+    "https://thefintechtimes.com/cashflows-takes-strategic-stake-in-merchant-services-firm-tap-go/",
     "https://www.fca.org.uk/news/speeches/financial-crime-protecting-hive",
-    "https://thefintechtimes.com/castles-technology-uk-merchants-now-expect-more-than-payment-acceptance/",
     "https://www.fca.org.uk/news/press-releases/fca-sets-out-steps-support-small-businesses-access-finance",
-    "https://www.finextra.com/pressarticle/111110/bmo-and-mastercard-enable-corporate-card-clients-to-manage-virtual-card-payments",
-    "https://thefintechtimes.com/final-rentals-rolls-out-deposit-free-car-hire-across-65-countries/",
-    "https://thefintechtimes.com/zing365-links-uk-sme-underinsurance-to-broker-knowledge-gap/",
-    "https://www.paymentsdive.com/news/fiserv-north-dakota-stablecoin-system-digital-asset/831901/",
+    "https://thefintechtimes.com/creditspring-gains-fca-credit-broking-permission-to-widen-access/",
+    "https://www.finextra.com/pressarticle/111116/nayax-completes-acquisition-of-smart-parking-company-ips-group",
     "https://www.fca.org.uk/news/press-releases/fca-and-partners-continues-crackdown-illegal-crypto-trading",
+    "https://www.paymentsdive.com/news/fiserv-north-dakota-stablecoin-system-digital-asset/831901/",
     "https://www.finextra.com/pressarticle/111115/bmo-taps-mastercard-for-embedded-commercial-virtual-card-payments"
   ],
   "note": "fallback (summary generation error)"
