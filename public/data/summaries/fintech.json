@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-10-03T13:34:24.943Z",
+  "generatedAt": "2026-10-04T14:12:38.921Z",
   "bullets": [
-    {
-      "text": "**Thunes Adds EURC Stablecoin Prefunding** - (thefintechtimes.com) Thunes Adds EURC Stablecoin Prefunding to its Global Payments Network",
-      "url": "https://thefintechtimes.com/thunes-adds-eurc-stablecoin-prefunding-to-its-global-payments-network/"
-    },
     {
       "text": "**How stablecoins speed int l** - (paymentsdive.com) How stablecoins speed int’l payments",
       "url": "https://www.paymentsdive.com/news/how-stablecoins-speed-intl-payments-crypto-cross-border-emerging-markets/831935/"
     },
     {
-      "text": "**Cashflows Takes Strategic Stake Merchant** - (thefintechtimes.com) Cashflows Takes Strategic Stake in Merchant Services Firm Tap & Go",
-      "url": "https://thefintechtimes.com/cashflows-takes-strategic-stake-in-merchant-services-firm-tap-go/"
+      "text": "**Entravel Group Raises 7 5m** - (thefintechtimes.com) Entravel Group Raises $7.5m to Bring White-Label Travel Rails to Fintech",
+      "url": "https://thefintechtimes.com/entravel-group-raises-7-5m-to-bring-white-label-travel-rails-to-fintech/"
+    },
+    {
+      "text": "**Tribe Payments Joins EWPN Back** - (thefintechtimes.com) Tribe Payments Joins EWPN to Back Women’s Progression in Paytech",
+      "url": "https://thefintechtimes.com/tribe-payments-joins-ewpn-to-back-womens-progression-in-paytech/"
     },
     {
       "text": "**Financial crime protecting hive** - (fca.org.uk) Financial crime: protecting the hive",
@@ -22,19 +22,19 @@
       "url": "https://www.fca.org.uk/news/press-releases/fca-sets-out-steps-support-small-businesses-access-finance"
     }
   ],
-  "inputHash": "9dcd6b3218b282fd61796b93ee026103825c83cce50426e0663d17e03269e4d4",
+  "inputHash": "3d4da94551f9e8adc37fa6a42e82414f809d93fbb82b482f409bfef5f26db388",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://thefintechtimes.com/thunes-adds-eurc-stablecoin-prefunding-to-its-global-payments-network/",
     "https://www.paymentsdive.com/news/how-stablecoins-speed-intl-payments-crypto-cross-border-emerging-markets/831935/",
-    "https://thefintechtimes.com/cashflows-takes-strategic-stake-in-merchant-services-firm-tap-go/",
+    "https://thefintechtimes.com/entravel-group-raises-7-5m-to-bring-white-label-travel-rails-to-fintech/",
+    "https://thefintechtimes.com/tribe-payments-joins-ewpn-to-back-womens-progression-in-paytech/",
     "https://www.fca.org.uk/news/speeches/financial-crime-protecting-hive",
     "https://www.fca.org.uk/news/press-releases/fca-sets-out-steps-support-small-businesses-access-finance",
-    "https://thefintechtimes.com/creditspring-gains-fca-credit-broking-permission-to-widen-access/",
-    "https://www.finextra.com/pressarticle/111116/nayax-completes-acquisition-of-smart-parking-company-ips-group",
     "https://www.fca.org.uk/news/press-releases/fca-and-partners-continues-crackdown-illegal-crypto-trading",
+    "https://www.finextra.com/pressarticle/111116/nayax-completes-acquisition-of-smart-parking-company-ips-group",
     "https://www.paymentsdive.com/news/fiserv-north-dakota-stablecoin-system-digital-asset/831901/",
+    "https://thefintechtimes.com/zilch-adds-membership-tiers-pay-monthly-and-salary-advance/",
     "https://www.finextra.com/pressarticle/111115/bmo-taps-mastercard-for-embedded-commercial-virtual-card-payments"
   ],
   "note": "fallback (summary generation error)"

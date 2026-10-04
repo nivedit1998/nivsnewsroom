@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-10-03T13:34:30.257Z",
+  "generatedAt": "2026-10-04T14:12:44.853Z",
   "bullets": [
-    {
-      "text": "**Asia s Wealth Boom Breaking** - (capco.com) Asia's Wealth Boom is Breaking the RM Model",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/asia-wealth-boom-is-breaking-the-rm-model"
-    },
     {
       "text": "**US power markets four key** - (capco.com) US power markets: four key developments in market design",
       "url": "https://www.capco.com/intelligence/capco-intelligence/us-power-markets-four-key-developments"
+    },
+    {
+      "text": "**Asia s Wealth Boom Breaking** - (capco.com) Asia's Wealth Boom is Breaking the RM Model",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/asia-wealth-boom-is-breaking-the-rm-model"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://www.capco.com/intelligence/capco-intelligence/asia-wealth-boom-is-breaking-the-rm-model",
-    "https://www.capco.com/intelligence/capco-intelligence/us-power-markets-four-key-developments"
+    "https://www.capco.com/intelligence/capco-intelligence/us-power-markets-four-key-developments",
+    "https://www.capco.com/intelligence/capco-intelligence/asia-wealth-boom-is-breaking-the-rm-model"
   ],
   "note": "fallback (summary generation error)"
 }

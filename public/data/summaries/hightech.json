@@ -1,6 +1,10 @@
 {
-  "generatedAt": "2026-10-03T13:34:05.561Z",
+  "generatedAt": "2026-10-04T14:12:21.492Z",
   "bullets": [
+    {
+      "text": "**Gemini app limiting what models** - (9to5google.com) Gemini app limiting what models free & AI Plus users can access, AI Pro adding Deep Think",
+      "url": "https://9to5google.com/2026/10/03/gemini-model-limits-oct-26/"
+    },
     {
       "text": "**Maximizing Privacy New Apple Home** - (cnet.com) Maximizing Privacy? New Apple Home Security Cameras Reportedly Won’t Record Video",
       "url": "https://www.cnet.com/home/security/privacy-new-apple-home-security-cameras-wont-record-video/"
@@ -16,20 +20,16 @@
     {
       "text": "**Apple says it s tightening** - (9to5mac.com) Apple says it’s tightening macOS privacy controls amid the rise of AI agents",
       "url": "https://9to5mac.com/2026/10/02/apple-says-its-tightening-macos-privacy-controls-amid-the-rise-of-ai-agents/"
-    },
-    {
-      "text": "**Apple will limit Mac disk** - (theverge.com) Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
-      "url": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
+    "https://9to5google.com/2026/10/03/gemini-model-limits-oct-26/",
     "https://www.cnet.com/home/security/privacy-new-apple-home-security-cameras-wont-record-video/",
     "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-blackstones-jas-khaira-on-building-the-next-generation-of-ai-giants/",
     "https://www.cnet.com/news/social-media/reddit-rss-oldreddit-api-changes/",
-    "https://9to5mac.com/2026/10/02/apple-says-its-tightening-macos-privacy-controls-amid-the-rise-of-ai-agents/",
-    "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents"
+    "https://9to5mac.com/2026/10/02/apple-says-its-tightening-macos-privacy-controls-amid-the-rise-of-ai-agents/"
   ],
   "note": "fallback (summary generation error)"
 }
