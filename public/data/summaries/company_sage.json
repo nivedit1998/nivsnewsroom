@@ -1,10 +1,6 @@
 {
-  "generatedAt": "2026-10-04T14:12:48.598Z",
+  "generatedAt": "2026-10-05T17:16:22.008Z",
   "bullets": [
-    {
-      "text": "**businesses behind AFC Wimbledon How** - (sage.com) The businesses behind AFC Wimbledon: How one badge unites a community",
-      "url": "https://www.sage.com/en-gb/blog/afc-wimbledown-dlag-efl/"
-    },
     {
       "text": "**scorekeeper strategist How CFO role** - (sage.com) From scorekeeper to strategist: How the CFO role is evolving",
       "url": "https://www.sage.com/en-gb/blog/from-scorekeeper-to-strategist-how-the-cfo-role-is-evolving/"
@@ -20,16 +16,20 @@
     {
       "text": "**Group consolidation Why it takes** - (sage.com) Group consolidation: Why it takes so long and how to fix it",
       "url": "https://www.sage.com/en-gb/blog/group-consolidation-why-it-takes-so-long-and-how-to-fix-it/"
+    },
+    {
+      "text": "**businesses behind AFC Wimbledon How** - (sage.com) The businesses behind AFC Wimbledon: How one badge unites a community",
+      "url": "https://www.sage.com/en-gb/blog/afc-wimbledown-dlag-efl/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://www.sage.com/en-gb/blog/afc-wimbledown-dlag-efl/",
     "https://www.sage.com/en-gb/blog/from-scorekeeper-to-strategist-how-the-cfo-role-is-evolving/",
     "https://www.sage.com/en-gb/blog/how-to-build-a-cfo-dashboard-that-actually-drives-decisions/",
     "https://www.sage.com/en-gb/blog/is-your-finance-system-holding-back-business-growth/",
-    "https://www.sage.com/en-gb/blog/group-consolidation-why-it-takes-so-long-and-how-to-fix-it/"
+    "https://www.sage.com/en-gb/blog/group-consolidation-why-it-takes-so-long-and-how-to-fix-it/",
+    "https://www.sage.com/en-gb/blog/afc-wimbledown-dlag-efl/"
   ],
   "note": "fallback (summary generation error)"
 }

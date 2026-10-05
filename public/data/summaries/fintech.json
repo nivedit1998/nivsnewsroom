@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-10-04T14:12:38.921Z",
+  "generatedAt": "2026-10-05T17:16:12.782Z",
   "bullets": [
+    {
+      "text": "**Why 68 Per Cent UAE** - (thefintechtimes.com) Why 68 Per Cent of UAE Bank- Fintech Pilots Die: VerityX Names the Innovation Trust Gap",
+      "url": "https://thefintechtimes.com/why-68-per-cent-of-uae-bank-fintech-pilots-die-verityx-names-the-innovation-trust-gap/"
+    },
     {
       "text": "**How stablecoins speed int l** - (paymentsdive.com) How stablecoins speed int’l payments",
       "url": "https://www.paymentsdive.com/news/how-stablecoins-speed-intl-payments-crypto-cross-border-emerging-markets/831935/"
-    },
-    {
-      "text": "**Entravel Group Raises 7 5m** - (thefintechtimes.com) Entravel Group Raises $7.5m to Bring White-Label Travel Rails to Fintech",
-      "url": "https://thefintechtimes.com/entravel-group-raises-7-5m-to-bring-white-label-travel-rails-to-fintech/"
-    },
-    {
-      "text": "**Tribe Payments Joins EWPN Back** - (thefintechtimes.com) Tribe Payments Joins EWPN to Back Women’s Progression in Paytech",
-      "url": "https://thefintechtimes.com/tribe-payments-joins-ewpn-to-back-womens-progression-in-paytech/"
     },
     {
       "text": "**Financial crime protecting hive** - (fca.org.uk) Financial crime: protecting the hive",
       "url": "https://www.fca.org.uk/news/speeches/financial-crime-protecting-hive"
     },
     {
+      "text": "**Tribe Payments Joins EWPN Back** - (thefintechtimes.com) Tribe Payments Joins EWPN to Back Women’s Progression in Paytech",
+      "url": "https://thefintechtimes.com/tribe-payments-joins-ewpn-to-back-womens-progression-in-paytech/"
+    },
+    {
       "text": "**FCA sets out steps support** - (fca.org.uk) FCA sets out steps to support small businesses' access to finance",
       "url": "https://www.fca.org.uk/news/press-releases/fca-sets-out-steps-support-small-businesses-access-finance"
     }
   ],
-  "inputHash": "3d4da94551f9e8adc37fa6a42e82414f809d93fbb82b482f409bfef5f26db388",
+  "inputHash": "e074e3faee5084d19903aa1dd8e86789720889b8a412b46beac07f4b1e74b04d",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
+    "https://thefintechtimes.com/why-68-per-cent-of-uae-bank-fintech-pilots-die-verityx-names-the-innovation-trust-gap/",
     "https://www.paymentsdive.com/news/how-stablecoins-speed-intl-payments-crypto-cross-border-emerging-markets/831935/",
-    "https://thefintechtimes.com/entravel-group-raises-7-5m-to-bring-white-label-travel-rails-to-fintech/",
-    "https://thefintechtimes.com/tribe-payments-joins-ewpn-to-back-womens-progression-in-paytech/",
     "https://www.fca.org.uk/news/speeches/financial-crime-protecting-hive",
+    "https://thefintechtimes.com/tribe-payments-joins-ewpn-to-back-womens-progression-in-paytech/",
     "https://www.fca.org.uk/news/press-releases/fca-sets-out-steps-support-small-businesses-access-finance",
-    "https://www.fca.org.uk/news/press-releases/fca-and-partners-continues-crackdown-illegal-crypto-trading",
-    "https://www.finextra.com/pressarticle/111116/nayax-completes-acquisition-of-smart-parking-company-ips-group",
+    "https://thefintechtimes.com/ether-fi-targets-500m-lending-capacity-with-aave-and-optimism-tie-up/",
+    "https://www.finextra.com/pressarticle/111134/dext-payments-launches-in-canada",
     "https://www.paymentsdive.com/news/fiserv-north-dakota-stablecoin-system-digital-asset/831901/",
-    "https://thefintechtimes.com/zilch-adds-membership-tiers-pay-monthly-and-salary-advance/",
-    "https://www.finextra.com/pressarticle/111115/bmo-taps-mastercard-for-embedded-commercial-virtual-card-payments"
+    "https://www.fca.org.uk/news/press-releases/firms-crack-down-money-mules-need-do-more",
+    "https://www.paymentsdive.com/news/paypal-hints-at-bnpl-holiday-use/832010/"
   ],
   "note": "fallback (summary generation error)"
 }

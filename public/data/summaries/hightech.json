@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T14:12:21.492Z",
+  "generatedAt": "2026-10-05T17:15:52.824Z",
   "bullets": [
     {
       "text": "**Gemini app limiting what models** - (9to5google.com) Gemini app limiting what models free & AI Plus users can access, AI Pro adding Deep Think",
@@ -10,16 +10,16 @@
       "url": "https://www.cnet.com/home/security/privacy-new-apple-home-security-cameras-wont-record-video/"
     },
     {
-      "text": "**TechCrunch Disrupt 2026 Blackstone s** - (techcrunch.com) TechCrunch Disrupt 2026: Blackstone’s Jas Khaira on building the next generation of AI giants",
-      "url": "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-blackstones-jas-khaira-on-building-the-next-generation-of-ai-giants/"
-    },
-    {
       "text": "**Reddit Choking Off RSS Open** - (cnet.com) Reddit Is Choking Off RSS and Open Web Access to Keep AI Bots Out",
       "url": "https://www.cnet.com/news/social-media/reddit-rss-oldreddit-api-changes/"
     },
     {
       "text": "**Apple says it s tightening** - (9to5mac.com) Apple says it’s tightening macOS privacy controls amid the rise of AI agents",
       "url": "https://9to5mac.com/2026/10/02/apple-says-its-tightening-macos-privacy-controls-amid-the-rise-of-ai-agents/"
+    },
+    {
+      "text": "**Lola Vision Systems trying make** - (techcrunch.com) Lola Vision Systems is trying to make it easier to run AI models on chips",
+      "url": "https://techcrunch.com/2026/10/05/lola-vision-systems-is-trying-to-make-it-easier-to-run-ai-models-on-chips/"
     }
   ],
   "promptVersion": "insights-v2",
@@ -27,9 +27,9 @@
   "contextUrls": [
     "https://9to5google.com/2026/10/03/gemini-model-limits-oct-26/",
     "https://www.cnet.com/home/security/privacy-new-apple-home-security-cameras-wont-record-video/",
-    "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-blackstones-jas-khaira-on-building-the-next-generation-of-ai-giants/",
     "https://www.cnet.com/news/social-media/reddit-rss-oldreddit-api-changes/",
-    "https://9to5mac.com/2026/10/02/apple-says-its-tightening-macos-privacy-controls-amid-the-rise-of-ai-agents/"
+    "https://9to5mac.com/2026/10/02/apple-says-its-tightening-macos-privacy-controls-amid-the-rise-of-ai-agents/",
+    "https://techcrunch.com/2026/10/05/lola-vision-systems-is-trying-to-make-it-easier-to-run-ai-models-on-chips/"
   ],
   "note": "fallback (summary generation error)"
 }

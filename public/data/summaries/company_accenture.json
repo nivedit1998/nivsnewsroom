@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-04T14:12:41.853Z",
+  "generatedAt": "2026-10-05T17:16:15.471Z",
   "bullets": [
     {
-      "text": "**Accenture Helps Sodiaal Complete International** - (newsroom.accenture.com) Accenture Helps Sodiaal Complete International Integration of Yoplait Liberté Canada to Accelerate Its Global Dairy Expansion",
-      "url": "https://newsroom.accenture.com/news/2026/accenture-helps-sodiaal-complete-international-integration-of-yoplait-liberte-canada-to-accelerate-its-global-dairy-expansion"
+      "text": "**Accenture Completes Acquisition Mj lner** - (newsroom.accenture.com) Accenture Completes Acquisition of Mjølner Informatics, Bringing Deep Software Engineering Expertise for Energy, Utilities and Manufacturing Clients in Denmark",
+      "url": "https://newsroom.accenture.com/news/2026/accenture-completes-acquisition-of-mj-lner-informatics-bringing-deep-software-engineering-expertise-for-energy-utilities-and-manufacturing-clients-in-denmark"
     },
     {
       "text": "**Accenture Reports Fourth-Quarter Full-Year Fiscal** - (newsroom.accenture.com) Accenture Reports Fourth-Quarter and Full-Year Fiscal 2026 Results",
@@ -13,7 +13,7 @@
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://newsroom.accenture.com/news/2026/accenture-helps-sodiaal-complete-international-integration-of-yoplait-liberte-canada-to-accelerate-its-global-dairy-expansion",
+    "https://newsroom.accenture.com/news/2026/accenture-completes-acquisition-of-mj-lner-informatics-bringing-deep-software-engineering-expertise-for-energy-utilities-and-manufacturing-clients-in-denmark",
     "https://newsroom.accenture.com/news/2026/accenture-reports-fourth-quarter-and-full-year-fiscal-2026-results"
   ],
   "note": "fallback (summary generation error)"
