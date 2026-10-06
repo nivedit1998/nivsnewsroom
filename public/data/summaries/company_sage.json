@@ -1,35 +1,20 @@
 {
-  "generatedAt": "2026-10-05T17:16:22.008Z",
+  "generatedAt": "2026-10-06T15:21:08.962Z",
   "bullets": [
     {
-      "text": "**scorekeeper strategist How CFO role** - (sage.com) From scorekeeper to strategist: How the CFO role is evolving",
-      "url": "https://www.sage.com/en-gb/blog/from-scorekeeper-to-strategist-how-the-cfo-role-is-evolving/"
+      "text": "**MTD s 2nd quarterly update** - (sage.com) MTD’s 2nd quarterly update: What to do now",
+      "url": "https://www.sage.com/en-gb/blog/mtd-quarterly-update/"
     },
     {
-      "text": "**How build CFO dashboard actually** - (sage.com) How to build a CFO dashboard that actually drives decisions",
-      "url": "https://www.sage.com/en-gb/blog/how-to-build-a-cfo-dashboard-that-actually-drives-decisions/"
-    },
-    {
-      "text": "**your finance system holding back** - (sage.com) Is your finance system holding back business growth?",
-      "url": "https://www.sage.com/en-gb/blog/is-your-finance-system-holding-back-business-growth/"
-    },
-    {
-      "text": "**Group consolidation Why it takes** - (sage.com) Group consolidation: Why it takes so long and how to fix it",
-      "url": "https://www.sage.com/en-gb/blog/group-consolidation-why-it-takes-so-long-and-how-to-fix-it/"
-    },
-    {
-      "text": "**businesses behind AFC Wimbledon How** - (sage.com) The businesses behind AFC Wimbledon: How one badge unites a community",
-      "url": "https://www.sage.com/en-gb/blog/afc-wimbledown-dlag-efl/"
+      "text": "**How BLC Forklifts takes heavy** - (sage.com) How BLC Forklifts takes the heavy lifting out of finance",
+      "url": "https://www.sage.com/en-gb/blog/how-blc-forklifts-takes-the-heavy-lifting-out-of-finance/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://www.sage.com/en-gb/blog/from-scorekeeper-to-strategist-how-the-cfo-role-is-evolving/",
-    "https://www.sage.com/en-gb/blog/how-to-build-a-cfo-dashboard-that-actually-drives-decisions/",
-    "https://www.sage.com/en-gb/blog/is-your-finance-system-holding-back-business-growth/",
-    "https://www.sage.com/en-gb/blog/group-consolidation-why-it-takes-so-long-and-how-to-fix-it/",
-    "https://www.sage.com/en-gb/blog/afc-wimbledown-dlag-efl/"
+    "https://www.sage.com/en-gb/blog/mtd-quarterly-update/",
+    "https://www.sage.com/en-gb/blog/how-blc-forklifts-takes-the-heavy-lifting-out-of-finance/"
   ],
   "note": "fallback (summary generation error)"
 }

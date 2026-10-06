@@ -1,6 +1,10 @@
 {
-  "generatedAt": "2026-10-05T17:16:18.402Z",
+  "generatedAt": "2026-10-06T15:21:06.175Z",
   "bullets": [
+    {
+      "text": "**6 future power commercialization AI** - (capco.com) 6. The future of power commercialization: AI agents, market flexibility, and autonomous optimization",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/the-future-of-power-commercialization"
+    },
     {
       "text": "**US power markets four key** - (capco.com) US power markets: four key developments in market design",
       "url": "https://www.capco.com/intelligence/capco-intelligence/us-power-markets-four-key-developments"
@@ -13,6 +17,7 @@
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
+    "https://www.capco.com/intelligence/capco-intelligence/the-future-of-power-commercialization",
     "https://www.capco.com/intelligence/capco-intelligence/us-power-markets-four-key-developments",
     "https://www.capco.com/intelligence/capco-intelligence/asia-wealth-boom-is-breaking-the-rm-model"
   ],

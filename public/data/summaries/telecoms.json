@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T17:16:02.787Z",
+  "generatedAt": "2026-10-06T15:20:43.465Z",
   "bullets": [
     {
       "text": "**Sateliot launches five new satellites** - (totaltele.com) Sateliot launches five new satellites for 5G NTN IoT",
@@ -18,8 +18,8 @@
       "url": "https://www.gsma.com/newsroom/press-release/gsma-elects-new-board-members-3/"
     },
     {
-      "text": "**FLAG invests Indian Asian Trans-Pacific** - (totaltele.com) FLAG invests in Indian, Asian, and Trans-Pacific subsea cable routes",
-      "url": "https://totaltele.com/flag-invests-in-indian-asian-and-trans-pacific-subsea-cable-routes/"
+      "text": "**UNDP GSMA partner scale African-led** - (gsma.com) UNDP and GSMA partner to scale African-led AI innovation",
+      "url": "https://www.gsma.com/newsroom/press-release/undp-and-gsma-partner-to-scale-african-led-ai-innovation/"
     }
   ],
   "promptVersion": "insights-v2",
@@ -29,7 +29,7 @@
     "https://totaltele.com/softbank-completes-3-1bn-purchase-of-digitalbridge/",
     "https://totaltele.com/iceye-taps-nokia-to-aid-shift-into-comms-satellites/",
     "https://www.gsma.com/newsroom/press-release/gsma-elects-new-board-members-3/",
-    "https://totaltele.com/flag-invests-in-indian-asian-and-trans-pacific-subsea-cable-routes/"
+    "https://www.gsma.com/newsroom/press-release/undp-and-gsma-partner-to-scale-african-led-ai-innovation/"
   ],
   "note": "fallback (summary generation error)"
 }

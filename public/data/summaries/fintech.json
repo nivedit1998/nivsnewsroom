@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-10-05T17:16:12.782Z",
+  "generatedAt": "2026-10-06T15:20:59.553Z",
   "bullets": [
     {
-      "text": "**Why 68 Per Cent UAE** - (thefintechtimes.com) Why 68 Per Cent of UAE Bank- Fintech Pilots Die: VerityX Names the Innovation Trust Gap",
-      "url": "https://thefintechtimes.com/why-68-per-cent-of-uae-bank-fintech-pilots-die-verityx-names-the-innovation-trust-gap/"
-    },
-    {
-      "text": "**How stablecoins speed int l** - (paymentsdive.com) How stablecoins speed int’l payments",
-      "url": "https://www.paymentsdive.com/news/how-stablecoins-speed-intl-payments-crypto-cross-border-emerging-markets/831935/"
+      "text": "**Affirm Survey 79 UK SMEs** - (thefintechtimes.com) Affirm Survey: 79% of UK SMEs Face Checkout Pressure as BNPL Rules Land",
+      "url": "https://thefintechtimes.com/affirm-survey-79-of-uk-smes-face-checkout-pressure-as-bnpl-rules-land/"
     },
     {
       "text": "**Financial crime protecting hive** - (fca.org.uk) Financial crime: protecting the hive",
       "url": "https://www.fca.org.uk/news/speeches/financial-crime-protecting-hive"
     },
     {
-      "text": "**Tribe Payments Joins EWPN Back** - (thefintechtimes.com) Tribe Payments Joins EWPN to Back Women’s Progression in Paytech",
-      "url": "https://thefintechtimes.com/tribe-payments-joins-ewpn-to-back-womens-progression-in-paytech/"
+      "text": "**How stablecoins speed int l** - (paymentsdive.com) How stablecoins speed int’l payments",
+      "url": "https://www.paymentsdive.com/news/how-stablecoins-speed-intl-payments-crypto-cross-border-emerging-markets/831935/"
     },
     {
-      "text": "**FCA sets out steps support** - (fca.org.uk) FCA sets out steps to support small businesses' access to finance",
-      "url": "https://www.fca.org.uk/news/press-releases/fca-sets-out-steps-support-small-businesses-access-finance"
+      "text": "**UK Financial Institutions Identify Tokenization** - (thefintechtimes.com) UK Financial Institutions Identify Tokenization as Primary Catalyst for Market Infrastructure Modernization",
+      "url": "https://thefintechtimes.com/uk-financial-institutions-identify-tokenization-as-primary-catalyst-for-market-infrastructure-modernization/"
+    },
+    {
+      "text": "**Kord Unveils UK s First** - (thefintechtimes.com) Kord Unveils UK’s First Dedicated Legal Sort Code to Eliminate Friday Afternoon Fraud",
+      "url": "https://thefintechtimes.com/kord-unveils-uks-first-dedicated-legal-sort-code-to-eliminate-friday-afternoon-fraud/"
     }
   ],
-  "inputHash": "e074e3faee5084d19903aa1dd8e86789720889b8a412b46beac07f4b1e74b04d",
+  "inputHash": "0b1d664674f434f08df9b0af006e151f346384ab4e463661a29d2421251ad0d8",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://thefintechtimes.com/why-68-per-cent-of-uae-bank-fintech-pilots-die-verityx-names-the-innovation-trust-gap/",
-    "https://www.paymentsdive.com/news/how-stablecoins-speed-intl-payments-crypto-cross-border-emerging-markets/831935/",
+    "https://thefintechtimes.com/affirm-survey-79-of-uk-smes-face-checkout-pressure-as-bnpl-rules-land/",
     "https://www.fca.org.uk/news/speeches/financial-crime-protecting-hive",
-    "https://thefintechtimes.com/tribe-payments-joins-ewpn-to-back-womens-progression-in-paytech/",
-    "https://www.fca.org.uk/news/press-releases/fca-sets-out-steps-support-small-businesses-access-finance",
-    "https://thefintechtimes.com/ether-fi-targets-500m-lending-capacity-with-aave-and-optimism-tie-up/",
-    "https://www.finextra.com/pressarticle/111134/dext-payments-launches-in-canada",
-    "https://www.paymentsdive.com/news/fiserv-north-dakota-stablecoin-system-digital-asset/831901/",
+    "https://www.paymentsdive.com/news/how-stablecoins-speed-intl-payments-crypto-cross-border-emerging-markets/831935/",
+    "https://thefintechtimes.com/uk-financial-institutions-identify-tokenization-as-primary-catalyst-for-market-infrastructure-modernization/",
+    "https://thefintechtimes.com/kord-unveils-uks-first-dedicated-legal-sort-code-to-eliminate-friday-afternoon-fraud/",
     "https://www.fca.org.uk/news/press-releases/firms-crack-down-money-mules-need-do-more",
-    "https://www.paymentsdive.com/news/paypal-hints-at-bnpl-holiday-use/832010/"
+    "https://www.paymentsdive.com/news/fiserv-north-dakota-stablecoin-system-digital-asset/831901/",
+    "https://www.finextra.com/pressarticle/111152/getnet-simplifies-european-expansion-for-merchants",
+    "https://www.paymentsdive.com/news/paypal-hints-at-bnpl-holiday-use/832010/",
+    "https://www.fca.org.uk/news/press-releases/fca-secures-money-back-victims-crypto-fraud"
   ],
   "note": "fallback (summary generation error)"
 }

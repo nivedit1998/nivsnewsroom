@@ -1,6 +1,10 @@
 {
-  "generatedAt": "2026-10-05T17:15:52.824Z",
+  "generatedAt": "2026-10-06T15:20:32.947Z",
   "bullets": [
+    {
+      "text": "**9to5Mac Daily October 5 2026** - (9to5mac.com) 9to5Mac Daily: October 5, 2026 – macOS privacy changes, more",
+      "url": "https://9to5mac.com/2026/10/05/daily-october-5-2026/"
+    },
     {
       "text": "**Gemini app limiting what models** - (9to5google.com) Gemini app limiting what models free & AI Plus users can access, AI Pro adding Deep Think",
       "url": "https://9to5google.com/2026/10/03/gemini-model-limits-oct-26/"
@@ -10,26 +14,22 @@
       "url": "https://www.cnet.com/home/security/privacy-new-apple-home-security-cameras-wont-record-video/"
     },
     {
-      "text": "**Reddit Choking Off RSS Open** - (cnet.com) Reddit Is Choking Off RSS and Open Web Access to Keep AI Bots Out",
-      "url": "https://www.cnet.com/news/social-media/reddit-rss-oldreddit-api-changes/"
+      "text": "**Instinct brings its AI agent** - (techcrunch.com) Instinct brings its AI agent to group chats, even for friends without an account",
+      "url": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/"
     },
     {
-      "text": "**Apple says it s tightening** - (9to5mac.com) Apple says it’s tightening macOS privacy controls amid the rise of AI agents",
-      "url": "https://9to5mac.com/2026/10/02/apple-says-its-tightening-macos-privacy-controls-amid-the-rise-of-ai-agents/"
-    },
-    {
-      "text": "**Lola Vision Systems trying make** - (techcrunch.com) Lola Vision Systems is trying to make it easier to run AI models on chips",
-      "url": "https://techcrunch.com/2026/10/05/lola-vision-systems-is-trying-to-make-it-easier-to-run-ai-models-on-chips/"
+      "text": "**TikTok rolls out AI shopping** - (techcrunch.com) TikTok rolls out an AI shopping assistant and one-click checkout",
+      "url": "https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
+    "https://9to5mac.com/2026/10/05/daily-october-5-2026/",
     "https://9to5google.com/2026/10/03/gemini-model-limits-oct-26/",
     "https://www.cnet.com/home/security/privacy-new-apple-home-security-cameras-wont-record-video/",
-    "https://www.cnet.com/news/social-media/reddit-rss-oldreddit-api-changes/",
-    "https://9to5mac.com/2026/10/02/apple-says-its-tightening-macos-privacy-controls-amid-the-rise-of-ai-agents/",
-    "https://techcrunch.com/2026/10/05/lola-vision-systems-is-trying-to-make-it-easier-to-run-ai-models-on-chips/"
+    "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
+    "https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/"
   ],
   "note": "fallback (summary generation error)"
 }
