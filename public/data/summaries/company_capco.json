@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-10-06T15:21:06.175Z",
+  "generatedAt": "2026-10-07T15:40:17.113Z",
   "bullets": [
+    {
+      "text": "**How Capco supporting NatWest Boxed** - (capco.com) How Capco is supporting NatWest Boxed to reinvent embedded finance",
+      "url": "https://www.capco.com/about-us/newsroom-and-media/how-capco-supports-natwest-boxed-in-embedded-finance"
+    },
+    {
+      "text": "**Newsroom media** - (capco.com) Newsroom and media",
+      "url": "https://www.capco.com/about-us/newsroom-and-media"
+    },
     {
       "text": "**6 future power commercialization AI** - (capco.com) 6. The future of power commercialization: AI agents, market flexibility, and autonomous optimization",
       "url": "https://www.capco.com/intelligence/capco-intelligence/the-future-of-power-commercialization"
-    },
-    {
-      "text": "**US power markets four key** - (capco.com) US power markets: four key developments in market design",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/us-power-markets-four-key-developments"
-    },
-    {
-      "text": "**Asia s Wealth Boom Breaking** - (capco.com) Asia's Wealth Boom is Breaking the RM Model",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/asia-wealth-boom-is-breaking-the-rm-model"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://www.capco.com/intelligence/capco-intelligence/the-future-of-power-commercialization",
-    "https://www.capco.com/intelligence/capco-intelligence/us-power-markets-four-key-developments",
-    "https://www.capco.com/intelligence/capco-intelligence/asia-wealth-boom-is-breaking-the-rm-model"
+    "https://www.capco.com/about-us/newsroom-and-media/how-capco-supports-natwest-boxed-in-embedded-finance",
+    "https://www.capco.com/about-us/newsroom-and-media",
+    "https://www.capco.com/intelligence/capco-intelligence/the-future-of-power-commercialization"
   ],
   "note": "fallback (summary generation error)"
 }

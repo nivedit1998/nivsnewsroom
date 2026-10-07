@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-10-06T15:20:32.947Z",
+  "generatedAt": "2026-10-07T15:39:47.072Z",
   "bullets": [
+    {
+      "text": "**Ring announces its first smart** - (9to5mac.com) Ring announces its first smart lock, solving a major pain point for smart home users",
+      "url": "https://9to5mac.com/2026/10/07/ring-announces-first-ever-smart-lock-solving-core-problem/"
+    },
+    {
+      "text": "**Hark releases AI personal assistant** - (techcrunch.com) Hark releases an AI personal assistant with a focus on privacy",
+      "url": "https://techcrunch.com/2026/10/06/hark-releases-an-ai-personal-assistant-with-a-focus-on-privacy/"
+    },
     {
       "text": "**9to5Mac Daily October 5 2026** - (9to5mac.com) 9to5Mac Daily: October 5, 2026 – macOS privacy changes, more",
       "url": "https://9to5mac.com/2026/10/05/daily-october-5-2026/"
@@ -10,26 +18,18 @@
       "url": "https://9to5google.com/2026/10/03/gemini-model-limits-oct-26/"
     },
     {
-      "text": "**Maximizing Privacy New Apple Home** - (cnet.com) Maximizing Privacy? New Apple Home Security Cameras Reportedly Won’t Record Video",
-      "url": "https://www.cnet.com/home/security/privacy-new-apple-home-security-cameras-wont-record-video/"
-    },
-    {
-      "text": "**Instinct brings its AI agent** - (techcrunch.com) Instinct brings its AI agent to group chats, even for friends without an account",
-      "url": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/"
-    },
-    {
-      "text": "**TikTok rolls out AI shopping** - (techcrunch.com) TikTok rolls out an AI shopping assistant and one-click checkout",
-      "url": "https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/"
+      "text": "**New leaks provide our first** - (theverge.com) New leaks provide our first look at Apple and LG’s smart home devices",
+      "url": "https://www.theverge.com/tech/1006727/apple-lg-leak-smart-home-deadbolt-lock-thermostat-temperature-sensor"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
+    "https://9to5mac.com/2026/10/07/ring-announces-first-ever-smart-lock-solving-core-problem/",
+    "https://techcrunch.com/2026/10/06/hark-releases-an-ai-personal-assistant-with-a-focus-on-privacy/",
     "https://9to5mac.com/2026/10/05/daily-october-5-2026/",
     "https://9to5google.com/2026/10/03/gemini-model-limits-oct-26/",
-    "https://www.cnet.com/home/security/privacy-new-apple-home-security-cameras-wont-record-video/",
-    "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
-    "https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/"
+    "https://www.theverge.com/tech/1006727/apple-lg-leak-smart-home-deadbolt-lock-thermostat-temperature-sensor"
   ],
   "note": "fallback (summary generation error)"
 }

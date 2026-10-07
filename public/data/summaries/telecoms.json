@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-10-06T15:20:43.465Z",
+  "generatedAt": "2026-10-07T15:39:56.319Z",
   "bullets": [
     {
       "text": "**Sateliot launches five new satellites** - (totaltele.com) Sateliot launches five new satellites for 5G NTN IoT",
       "url": "https://totaltele.com/sateliot-launches-five-new-satellites-for-5g-ntn-iot/"
     },
     {
+      "text": "**GSMA Reports India s Next** - (gsma.com) GSMA Reports: India’s Next Digital Chapter Must Turn Scale into Economic Growth and Trust",
+      "url": "https://www.gsma.com/newsroom/press-release/gsma-reports-indias-next-digital-chapter-must-turn-scale-into-economic-growth-and-trust/"
+    },
+    {
       "text": "**SoftBank completes 3 1bn purchase** - (totaltele.com) SoftBank completes $3.1bn purchase of DigitalBridge",
       "url": "https://totaltele.com/softbank-completes-3-1bn-purchase-of-digitalbridge/"
     },
     {
+      "text": "**Innerduct choice crucial decision scaled** - (totaltele.com) Innerduct choice: A crucial decision for scaled network deployments",
+      "url": "https://totaltele.com/innerduct-choice-a-crucial-decision-for-scaled-network-deployments/"
+    },
+    {
       "text": "**ICEYE taps Nokia deveop satellite** - (totaltele.com) ICEYE taps Nokia to deveop satellite comms systems",
       "url": "https://totaltele.com/iceye-taps-nokia-to-aid-shift-into-comms-satellites/"
-    },
-    {
-      "text": "**GSMA Elects new board members** - (gsma.com) GSMA Elects new board members",
-      "url": "https://www.gsma.com/newsroom/press-release/gsma-elects-new-board-members-3/"
-    },
-    {
-      "text": "**UNDP GSMA partner scale African-led** - (gsma.com) UNDP and GSMA partner to scale African-led AI innovation",
-      "url": "https://www.gsma.com/newsroom/press-release/undp-and-gsma-partner-to-scale-african-led-ai-innovation/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://totaltele.com/sateliot-launches-five-new-satellites-for-5g-ntn-iot/",
+    "https://www.gsma.com/newsroom/press-release/gsma-reports-indias-next-digital-chapter-must-turn-scale-into-economic-growth-and-trust/",
     "https://totaltele.com/softbank-completes-3-1bn-purchase-of-digitalbridge/",
-    "https://totaltele.com/iceye-taps-nokia-to-aid-shift-into-comms-satellites/",
-    "https://www.gsma.com/newsroom/press-release/gsma-elects-new-board-members-3/",
-    "https://www.gsma.com/newsroom/press-release/undp-and-gsma-partner-to-scale-african-led-ai-innovation/"
+    "https://totaltele.com/innerduct-choice-a-crucial-decision-for-scaled-network-deployments/",
+    "https://totaltele.com/iceye-taps-nokia-to-aid-shift-into-comms-satellites/"
   ],
   "note": "fallback (summary generation error)"
 }

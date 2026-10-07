@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-06T15:20:59.553Z",
+  "generatedAt": "2026-10-07T15:40:10.918Z",
   "bullets": [
     {
-      "text": "**Affirm Survey 79 UK SMEs** - (thefintechtimes.com) Affirm Survey: 79% of UK SMEs Face Checkout Pressure as BNPL Rules Land",
-      "url": "https://thefintechtimes.com/affirm-survey-79-of-uk-smes-face-checkout-pressure-as-bnpl-rules-land/"
+      "text": "**SIBOS Miami 2026 Mick Fennell** - (thefintechtimes.com) SIBOS Miami 2026: Mick Fennell – Business Line Director Payments – Temenos",
+      "url": "https://thefintechtimes.com/sibos-miami-2026-mick-fennell-business-line-director-payments-temenos/"
     },
     {
       "text": "**Financial crime protecting hive** - (fca.org.uk) Financial crime: protecting the hive",
@@ -14,28 +14,28 @@
       "url": "https://www.paymentsdive.com/news/how-stablecoins-speed-intl-payments-crypto-cross-border-emerging-markets/831935/"
     },
     {
-      "text": "**UK Financial Institutions Identify Tokenization** - (thefintechtimes.com) UK Financial Institutions Identify Tokenization as Primary Catalyst for Market Infrastructure Modernization",
-      "url": "https://thefintechtimes.com/uk-financial-institutions-identify-tokenization-as-primary-catalyst-for-market-infrastructure-modernization/"
+      "text": "**Valu Alshaya Group team flexible** - (finextra.com) Valu and Alshaya Group team on flexible payments for retail brands in Egypt",
+      "url": "https://www.finextra.com/pressarticle/111178/valu-and-alshaya-group-team-on-flexible-payments-for-retail-brands-in-egypt"
     },
     {
-      "text": "**Kord Unveils UK s First** - (thefintechtimes.com) Kord Unveils UK’s First Dedicated Legal Sort Code to Eliminate Friday Afternoon Fraud",
-      "url": "https://thefintechtimes.com/kord-unveils-uks-first-dedicated-legal-sort-code-to-eliminate-friday-afternoon-fraud/"
+      "text": "**Sibos 2026 week Miami made** - (thefintechtimes.com) Sibos 2026: the week Miami made trust the price of speed",
+      "url": "https://thefintechtimes.com/sibos-2026-the-week-miami-made-trust-the-price-of-speed/"
     }
   ],
-  "inputHash": "0b1d664674f434f08df9b0af006e151f346384ab4e463661a29d2421251ad0d8",
+  "inputHash": "4bc8ca3a24885bf2ac1ffdbd548d0fa15a8bb77b28e81ffd5d88d2d366d39422",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://thefintechtimes.com/affirm-survey-79-of-uk-smes-face-checkout-pressure-as-bnpl-rules-land/",
+    "https://thefintechtimes.com/sibos-miami-2026-mick-fennell-business-line-director-payments-temenos/",
     "https://www.fca.org.uk/news/speeches/financial-crime-protecting-hive",
     "https://www.paymentsdive.com/news/how-stablecoins-speed-intl-payments-crypto-cross-border-emerging-markets/831935/",
-    "https://thefintechtimes.com/uk-financial-institutions-identify-tokenization-as-primary-catalyst-for-market-infrastructure-modernization/",
-    "https://thefintechtimes.com/kord-unveils-uks-first-dedicated-legal-sort-code-to-eliminate-friday-afternoon-fraud/",
-    "https://www.fca.org.uk/news/press-releases/firms-crack-down-money-mules-need-do-more",
-    "https://www.paymentsdive.com/news/fiserv-north-dakota-stablecoin-system-digital-asset/831901/",
-    "https://www.finextra.com/pressarticle/111152/getnet-simplifies-european-expansion-for-merchants",
-    "https://www.paymentsdive.com/news/paypal-hints-at-bnpl-holiday-use/832010/",
-    "https://www.fca.org.uk/news/press-releases/fca-secures-money-back-victims-crypto-fraud"
+    "https://www.finextra.com/pressarticle/111178/valu-and-alshaya-group-team-on-flexible-payments-for-retail-brands-in-egypt",
+    "https://thefintechtimes.com/sibos-2026-the-week-miami-made-trust-the-price-of-speed/",
+    "https://thefintechtimes.com/cbis-fratini-passi-on-stopping-fraud-before-the-money-moves/",
+    "https://www.finextra.com/pressarticle/111181/paydo-selects-convera-to-expand-swift-receivables-and-onward-cross-border-payments",
+    "https://www.paymentsdive.com/news/fintechs-press-for-fed-access/832233/",
+    "https://www.finextra.com/newsarticle/48548/noah-raises-38m-for-stablecoin-payments-platform",
+    "https://www.fca.org.uk/news/press-releases/firms-crack-down-money-mules-need-do-more"
   ],
   "note": "fallback (summary generation error)"
 }
