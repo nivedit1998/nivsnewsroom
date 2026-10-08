@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-10-07T15:40:10.918Z",
+  "generatedAt": "2026-10-08T15:45:40.010Z",
   "bullets": [
     {
       "text": "**SIBOS Miami 2026 Mick Fennell** - (thefintechtimes.com) SIBOS Miami 2026: Mick Fennell – Business Line Director Payments – Temenos",
       "url": "https://thefintechtimes.com/sibos-miami-2026-mick-fennell-business-line-director-payments-temenos/"
     },
     {
-      "text": "**Financial crime protecting hive** - (fca.org.uk) Financial crime: protecting the hive",
-      "url": "https://www.fca.org.uk/news/speeches/financial-crime-protecting-hive"
+      "text": "**Why Payments Must Build Fraud** - (thefintechtimes.com) Why Payments Must Build for Fraud Rather than Wish it Away",
+      "url": "https://thefintechtimes.com/why-payments-must-build-for-fraud-rather-than-wish-it-away/"
     },
     {
-      "text": "**How stablecoins speed int l** - (paymentsdive.com) How stablecoins speed int’l payments",
-      "url": "https://www.paymentsdive.com/news/how-stablecoins-speed-intl-payments-crypto-cross-border-emerging-markets/831935/"
+      "text": "**SAP expands into payments** - (paymentsdive.com) SAP expands into payments",
+      "url": "https://www.paymentsdive.com/news/sap-expands-payments-finance-automation-push-deepens/832358/"
     },
     {
-      "text": "**Valu Alshaya Group team flexible** - (finextra.com) Valu and Alshaya Group team on flexible payments for retail brands in Egypt",
-      "url": "https://www.finextra.com/pressarticle/111178/valu-and-alshaya-group-team-on-flexible-payments-for-retail-brands-in-egypt"
+      "text": "**Unlimit Gr4vy Partners collaborate payments** - (finextra.com) Unlimit and Gr4vy Partners collaborate on payments",
+      "url": "https://www.finextra.com/pressarticle/111194/unlimit-and-gr4vy-partners-collaborate-on-payments"
     },
     {
-      "text": "**Sibos 2026 week Miami made** - (thefintechtimes.com) Sibos 2026: the week Miami made trust the price of speed",
-      "url": "https://thefintechtimes.com/sibos-2026-the-week-miami-made-trust-the-price-of-speed/"
+      "text": "**Emirates NBD Signs MoU American** - (thefintechtimes.com) Emirates NBD Signs MoU with American Hospital Dubai on Employee Benefits",
+      "url": "https://thefintechtimes.com/emirates-nbd-signs-mou-with-american-hospital-dubai-on-employee-benefits/"
     }
   ],
-  "inputHash": "4bc8ca3a24885bf2ac1ffdbd548d0fa15a8bb77b28e81ffd5d88d2d366d39422",
+  "inputHash": "483bffea3ff6606a37c4b98c26c5a5bf011f788cddbbe02de5abe4f2a480bbad",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://thefintechtimes.com/sibos-miami-2026-mick-fennell-business-line-director-payments-temenos/",
-    "https://www.fca.org.uk/news/speeches/financial-crime-protecting-hive",
-    "https://www.paymentsdive.com/news/how-stablecoins-speed-intl-payments-crypto-cross-border-emerging-markets/831935/",
-    "https://www.finextra.com/pressarticle/111178/valu-and-alshaya-group-team-on-flexible-payments-for-retail-brands-in-egypt",
-    "https://thefintechtimes.com/sibos-2026-the-week-miami-made-trust-the-price-of-speed/",
-    "https://thefintechtimes.com/cbis-fratini-passi-on-stopping-fraud-before-the-money-moves/",
-    "https://www.finextra.com/pressarticle/111181/paydo-selects-convera-to-expand-swift-receivables-and-onward-cross-border-payments",
+    "https://thefintechtimes.com/why-payments-must-build-for-fraud-rather-than-wish-it-away/",
+    "https://www.paymentsdive.com/news/sap-expands-payments-finance-automation-push-deepens/832358/",
+    "https://www.finextra.com/pressarticle/111194/unlimit-and-gr4vy-partners-collaborate-on-payments",
+    "https://thefintechtimes.com/emirates-nbd-signs-mou-with-american-hospital-dubai-on-employee-benefits/",
     "https://www.paymentsdive.com/news/fintechs-press-for-fed-access/832233/",
-    "https://www.finextra.com/newsarticle/48548/noah-raises-38m-for-stablecoin-payments-platform",
-    "https://www.fca.org.uk/news/press-releases/firms-crack-down-money-mules-need-do-more"
+    "https://www.fca.org.uk/news/press-releases/firms-crack-down-money-mules-need-do-more",
+    "https://www.fca.org.uk/news/press-releases/fca-secures-money-back-victims-crypto-fraud",
+    "https://www.paymentsdive.com/news/payments-conferences-for-2027/832239/",
+    "https://www.finextra.com/newsarticle/48560/mastercard-to-enable-offline-payments-across-europe"
   ],
   "note": "fallback (summary generation error)"
 }

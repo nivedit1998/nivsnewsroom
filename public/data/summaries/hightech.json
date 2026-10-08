@@ -1,13 +1,17 @@
 {
-  "generatedAt": "2026-10-07T15:39:47.072Z",
+  "generatedAt": "2026-10-08T15:45:19.278Z",
   "bullets": [
     {
       "text": "**Ring announces its first smart** - (9to5mac.com) Ring announces its first smart lock, solving a major pain point for smart home users",
       "url": "https://9to5mac.com/2026/10/07/ring-announces-first-ever-smart-lock-solving-core-problem/"
     },
     {
-      "text": "**Hark releases AI personal assistant** - (techcrunch.com) Hark releases an AI personal assistant with a focus on privacy",
-      "url": "https://techcrunch.com/2026/10/06/hark-releases-an-ai-personal-assistant-with-a-focus-on-privacy/"
+      "text": "**Nous Research confirms it hit** - (techcrunch.com) Nous Research confirms it hit $1.5B valuation, launches AI agents for business users",
+      "url": "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/"
+    },
+    {
+      "text": "**Microsoft releases new Nvidia-chip AI** - (techcrunch.com) Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11",
+      "url": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/"
     },
     {
       "text": "**9to5Mac Daily October 5 2026** - (9to5mac.com) 9to5Mac Daily: October 5, 2026 – macOS privacy changes, more",
@@ -16,20 +20,16 @@
     {
       "text": "**Gemini app limiting what models** - (9to5google.com) Gemini app limiting what models free & AI Plus users can access, AI Pro adding Deep Think",
       "url": "https://9to5google.com/2026/10/03/gemini-model-limits-oct-26/"
-    },
-    {
-      "text": "**New leaks provide our first** - (theverge.com) New leaks provide our first look at Apple and LG’s smart home devices",
-      "url": "https://www.theverge.com/tech/1006727/apple-lg-leak-smart-home-deadbolt-lock-thermostat-temperature-sensor"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://9to5mac.com/2026/10/07/ring-announces-first-ever-smart-lock-solving-core-problem/",
-    "https://techcrunch.com/2026/10/06/hark-releases-an-ai-personal-assistant-with-a-focus-on-privacy/",
+    "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/",
+    "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
     "https://9to5mac.com/2026/10/05/daily-october-5-2026/",
-    "https://9to5google.com/2026/10/03/gemini-model-limits-oct-26/",
-    "https://www.theverge.com/tech/1006727/apple-lg-leak-smart-home-deadbolt-lock-thermostat-temperature-sensor"
+    "https://9to5google.com/2026/10/03/gemini-model-limits-oct-26/"
   ],
   "note": "fallback (summary generation error)"
 }
