@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-08T15:45:40.010Z",
+  "generatedAt": "2026-10-09T15:24:37.139Z",
   "bullets": [
     {
-      "text": "**SIBOS Miami 2026 Mick Fennell** - (thefintechtimes.com) SIBOS Miami 2026: Mick Fennell – Business Line Director Payments – Temenos",
-      "url": "https://thefintechtimes.com/sibos-miami-2026-mick-fennell-business-line-director-payments-temenos/"
+      "text": "**Cross-Border Payments Now Compete Success** - (thefintechtimes.com) Cross-Border Payments Now Compete on Success, Not Price",
+      "url": "https://thefintechtimes.com/cross-border-payments-now-compete-on-success-not-price/"
     },
     {
       "text": "**Why Payments Must Build Fraud** - (thefintechtimes.com) Why Payments Must Build for Fraud Rather than Wish it Away",
@@ -14,28 +14,28 @@
       "url": "https://www.paymentsdive.com/news/sap-expands-payments-finance-automation-push-deepens/832358/"
     },
     {
-      "text": "**Unlimit Gr4vy Partners collaborate payments** - (finextra.com) Unlimit and Gr4vy Partners collaborate on payments",
-      "url": "https://www.finextra.com/pressarticle/111194/unlimit-and-gr4vy-partners-collaborate-on-payments"
+      "text": "**How agentic payments present risk** - (paymentsdive.com) How agentic payments present risk",
+      "url": "https://www.paymentsdive.com/news/how-agentic-payments-artificial-intelligence-risk/832601/"
     },
     {
       "text": "**Emirates NBD Signs MoU American** - (thefintechtimes.com) Emirates NBD Signs MoU with American Hospital Dubai on Employee Benefits",
       "url": "https://thefintechtimes.com/emirates-nbd-signs-mou-with-american-hospital-dubai-on-employee-benefits/"
     }
   ],
-  "inputHash": "483bffea3ff6606a37c4b98c26c5a5bf011f788cddbbe02de5abe4f2a480bbad",
+  "inputHash": "0f83cabd6593e173b9921026bf0b0c48327cfcd6b86a00f5dde12b562f425fa1",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://thefintechtimes.com/sibos-miami-2026-mick-fennell-business-line-director-payments-temenos/",
+    "https://thefintechtimes.com/cross-border-payments-now-compete-on-success-not-price/",
     "https://thefintechtimes.com/why-payments-must-build-for-fraud-rather-than-wish-it-away/",
     "https://www.paymentsdive.com/news/sap-expands-payments-finance-automation-push-deepens/832358/",
-    "https://www.finextra.com/pressarticle/111194/unlimit-and-gr4vy-partners-collaborate-on-payments",
+    "https://www.paymentsdive.com/news/how-agentic-payments-artificial-intelligence-risk/832601/",
     "https://thefintechtimes.com/emirates-nbd-signs-mou-with-american-hospital-dubai-on-employee-benefits/",
-    "https://www.paymentsdive.com/news/fintechs-press-for-fed-access/832233/",
     "https://www.fca.org.uk/news/press-releases/firms-crack-down-money-mules-need-do-more",
+    "https://www.finextra.com/newsarticle/48561/anyflo-emerges-from-stealth-to-simplify-stablecoin-payments-for-enterprises",
+    "https://www.paymentsdive.com/news/amex-dinged-by-fed-occ-must-pay-350m-for-aml-failures/832575/",
     "https://www.fca.org.uk/news/press-releases/fca-secures-money-back-victims-crypto-fraud",
-    "https://www.paymentsdive.com/news/payments-conferences-for-2027/832239/",
-    "https://www.finextra.com/newsarticle/48560/mastercard-to-enable-offline-payments-across-europe"
+    "https://www.finextra.com/blogposting/33110/when-going-global-means-operating-local-the-payment-infrastructure-behind-cross-border-growth"
   ],
   "note": "fallback (summary generation error)"
 }

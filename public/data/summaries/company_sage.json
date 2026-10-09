@@ -1,20 +1,15 @@
 {
-  "generatedAt": "2026-10-08T15:45:50.238Z",
+  "generatedAt": "2026-10-09T15:24:43.387Z",
   "bullets": [
     {
       "text": "**MTD s 2nd quarterly update** - (sage.com) MTD’s 2nd quarterly update: What to do now",
       "url": "https://www.sage.com/en-gb/blog/mtd-quarterly-update/"
-    },
-    {
-      "text": "**How BLC Forklifts takes heavy** - (sage.com) How BLC Forklifts takes the heavy lifting out of finance",
-      "url": "https://www.sage.com/en-gb/blog/how-blc-forklifts-takes-the-heavy-lifting-out-of-finance/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://www.sage.com/en-gb/blog/mtd-quarterly-update/",
-    "https://www.sage.com/en-gb/blog/how-blc-forklifts-takes-the-heavy-lifting-out-of-finance/"
+    "https://www.sage.com/en-gb/blog/mtd-quarterly-update/"
   ],
   "note": "fallback (summary generation error)"
 }

@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-10-08T15:45:19.278Z",
+  "generatedAt": "2026-10-09T15:24:16.410Z",
   "bullets": [
     {
       "text": "**Ring announces its first smart** - (9to5mac.com) Ring announces its first smart lock, solving a major pain point for smart home users",
       "url": "https://9to5mac.com/2026/10/07/ring-announces-first-ever-smart-lock-solving-core-problem/"
     },
     {
-      "text": "**Nous Research confirms it hit** - (techcrunch.com) Nous Research confirms it hit $1.5B valuation, launches AI agents for business users",
-      "url": "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/"
+      "text": "**Trump s attempt rename AI** - (theverge.com) Trump’s attempt to rename AI is looking awfully artificial",
+      "url": "https://www.theverge.com/policy/1008677/trump-super-intelligence-ai-rebranding"
     },
     {
-      "text": "**Microsoft releases new Nvidia-chip AI** - (techcrunch.com) Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11",
-      "url": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/"
+      "text": "**Google brings agentic AI Gemini** - (techcrunch.com) Google brings agentic AI to Gemini, starting with businesses",
+      "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/"
     },
     {
       "text": "**9to5Mac Daily October 5 2026** - (9to5mac.com) 9to5Mac Daily: October 5, 2026 – macOS privacy changes, more",
@@ -26,8 +26,8 @@
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://9to5mac.com/2026/10/07/ring-announces-first-ever-smart-lock-solving-core-problem/",
-    "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/",
-    "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
+    "https://www.theverge.com/policy/1008677/trump-super-intelligence-ai-rebranding",
+    "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
     "https://9to5mac.com/2026/10/05/daily-october-5-2026/",
     "https://9to5google.com/2026/10/03/gemini-model-limits-oct-26/"
   ],

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T15:45:27.031Z",
+  "generatedAt": "2026-10-09T15:24:22.829Z",
   "bullets": [
     {
       "text": "**Sateliot launches five new satellites** - (totaltele.com) Sateliot launches five new satellites for 5G NTN IoT",
@@ -16,10 +16,6 @@
     {
       "text": "**GSMA Elects new board members** - (gsma.com) GSMA Elects new board members",
       "url": "https://www.gsma.com/newsroom/press-release/gsma-elects-new-board-members-3/"
-    },
-    {
-      "text": "**UNDP GSMA partner scale African-led** - (gsma.com) UNDP and GSMA partner to scale African-led AI innovation",
-      "url": "https://www.gsma.com/newsroom/press-release/undp-and-gsma-partner-to-scale-african-led-ai-innovation/"
     }
   ],
   "promptVersion": "insights-v2",
@@ -28,8 +24,7 @@
     "https://totaltele.com/sateliot-launches-five-new-satellites-for-5g-ntn-iot/",
     "https://www.gsma.com/newsroom/press-release/gsma-reports-indias-next-digital-chapter-must-turn-scale-into-economic-growth-and-trust/",
     "https://totaltele.com/innerduct-choice-a-crucial-decision-for-scaled-network-deployments/",
-    "https://www.gsma.com/newsroom/press-release/gsma-elects-new-board-members-3/",
-    "https://www.gsma.com/newsroom/press-release/undp-and-gsma-partner-to-scale-african-led-ai-innovation/"
+    "https://www.gsma.com/newsroom/press-release/gsma-elects-new-board-members-3/"
   ],
   "note": "fallback (summary generation error)"
 }

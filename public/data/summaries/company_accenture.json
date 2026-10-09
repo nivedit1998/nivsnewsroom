@@ -1,10 +1,6 @@
 {
-  "generatedAt": "2026-10-08T15:45:42.876Z",
+  "generatedAt": "2026-10-09T15:24:39.412Z",
   "bullets": [
-    {
-      "text": "**Accenture Completes Acquisition Mj lner** - (newsroom.accenture.com) Accenture Completes Acquisition of Mjølner Informatics, Bringing Deep Software Engineering Expertise for Energy, Utilities and Manufacturing Clients in Denmark",
-      "url": "https://newsroom.accenture.com/news/2026/accenture-completes-acquisition-of-mj-lner-informatics-bringing-deep-software-engineering-expertise-for-energy-utilities-and-manufacturing-clients-in-denmark"
-    },
     {
       "text": "**Accenture Acquire Alfahealth Expanding Digital** - (newsroom.accenture.com) Accenture to Acquire Alfahealth, Expanding Digital Health Capabilities to Accelerate Healthcare Transformation in Italy",
       "url": "https://newsroom.accenture.com/news/2026/accenture-to-acquire-alfahealth-expanding-digital-health-capabilities-to-accelerate-healthcare-transformation-in-italy"
@@ -17,7 +13,6 @@
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://newsroom.accenture.com/news/2026/accenture-completes-acquisition-of-mj-lner-informatics-bringing-deep-software-engineering-expertise-for-energy-utilities-and-manufacturing-clients-in-denmark",
     "https://newsroom.accenture.com/news/2026/accenture-to-acquire-alfahealth-expanding-digital-health-capabilities-to-accelerate-healthcare-transformation-in-italy",
     "https://newsroom.accenture.com/news/2026/accenture-and-dell-technologies-expand-collaboration-to-help-enterprises-scale-private-ai-and-modernize-infrastructure"
   ],
