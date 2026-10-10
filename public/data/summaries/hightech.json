@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-10-09T15:24:16.410Z",
+  "generatedAt": "2026-10-10T14:33:39.534Z",
   "bullets": [
     {
       "text": "**Ring announces its first smart** - (9to5mac.com) Ring announces its first smart lock, solving a major pain point for smart home users",
       "url": "https://9to5mac.com/2026/10/07/ring-announces-first-ever-smart-lock-solving-core-problem/"
     },
     {
-      "text": "**Trump s attempt rename AI** - (theverge.com) Trump’s attempt to rename AI is looking awfully artificial",
-      "url": "https://www.theverge.com/policy/1008677/trump-super-intelligence-ai-rebranding"
+      "text": "**AI s Problem Solving Profound** - (cnet.com) AI’s Problem Solving Is a ‘Profound Disruption’ for the Math Community",
+      "url": "https://www.cnet.com/tech/services-and-software/ai-causing-profound-disruption-math-research/"
     },
     {
-      "text": "**Google brings agentic AI Gemini** - (techcrunch.com) Google brings agentic AI to Gemini, starting with businesses",
-      "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/"
+      "text": "**Don t Be Cruel Claude** - (cnet.com) Don’t Be Cruel to Claude: Anthropic’s New Abuse Policy Tests AI Personhood",
+      "url": "https://www.cnet.com/tech/services-and-software/anthropic-cruel-claude-ai-model-abuse/"
     },
     {
-      "text": "**9to5Mac Daily October 5 2026** - (9to5mac.com) 9to5Mac Daily: October 5, 2026 – macOS privacy changes, more",
-      "url": "https://9to5mac.com/2026/10/05/daily-october-5-2026/"
+      "text": "**AI agent makers promising privacy** - (theverge.com) AI agent makers are promising privacy — will they deliver?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots"
     },
     {
-      "text": "**Gemini app limiting what models** - (9to5google.com) Gemini app limiting what models free & AI Plus users can access, AI Pro adding Deep Think",
-      "url": "https://9to5google.com/2026/10/03/gemini-model-limits-oct-26/"
+      "text": "**Free Gemini users now Auto** - (9to5google.com) Free Gemini users now on ‘Auto’ models as app adds thinking levels",
+      "url": "https://9to5google.com/2026/10/09/gemini-auto-free-users/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://9to5mac.com/2026/10/07/ring-announces-first-ever-smart-lock-solving-core-problem/",
-    "https://www.theverge.com/policy/1008677/trump-super-intelligence-ai-rebranding",
-    "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
-    "https://9to5mac.com/2026/10/05/daily-october-5-2026/",
-    "https://9to5google.com/2026/10/03/gemini-model-limits-oct-26/"
+    "https://www.cnet.com/tech/services-and-software/ai-causing-profound-disruption-math-research/",
+    "https://www.cnet.com/tech/services-and-software/anthropic-cruel-claude-ai-model-abuse/",
+    "https://www.theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots",
+    "https://9to5google.com/2026/10/09/gemini-auto-free-users/"
   ],
   "note": "fallback (summary generation error)"
 }

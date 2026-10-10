@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-09T15:24:37.139Z",
+  "generatedAt": "2026-10-10T14:33:58.341Z",
   "bullets": [
+    {
+      "text": "**Apple Pay Enters India Asia** - (thefintechtimes.com) Apple Pay Enters India as Asia Fintech Records a Bumper Week",
+      "url": "https://thefintechtimes.com/apple-pay-enters-india-as-asia-fintech-records-a-bumper-week/"
+    },
     {
       "text": "**Cross-Border Payments Now Compete Success** - (thefintechtimes.com) Cross-Border Payments Now Compete on Success, Not Price",
       "url": "https://thefintechtimes.com/cross-border-payments-now-compete-on-success-not-price/"
-    },
-    {
-      "text": "**Why Payments Must Build Fraud** - (thefintechtimes.com) Why Payments Must Build for Fraud Rather than Wish it Away",
-      "url": "https://thefintechtimes.com/why-payments-must-build-for-fraud-rather-than-wish-it-away/"
     },
     {
       "text": "**SAP expands into payments** - (paymentsdive.com) SAP expands into payments",
@@ -18,23 +18,23 @@
       "url": "https://www.paymentsdive.com/news/how-agentic-payments-artificial-intelligence-risk/832601/"
     },
     {
-      "text": "**Emirates NBD Signs MoU American** - (thefintechtimes.com) Emirates NBD Signs MoU with American Hospital Dubai on Employee Benefits",
-      "url": "https://thefintechtimes.com/emirates-nbd-signs-mou-with-american-hospital-dubai-on-employee-benefits/"
+      "text": "**BKN301 s CTO Why Cards** - (thefintechtimes.com) BKN301’s CTO on Why Cards May Carry Stablecoins Mainstream",
+      "url": "https://thefintechtimes.com/bkn301s-cto-on-why-cards-may-carry-stablecoins-mainstream/"
     }
   ],
-  "inputHash": "0f83cabd6593e173b9921026bf0b0c48327cfcd6b86a00f5dde12b562f425fa1",
+  "inputHash": "255cb22c3808cd19dffacb5e68ecda01cc9e92c405565c5641fb7214f460621a",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
+    "https://thefintechtimes.com/apple-pay-enters-india-as-asia-fintech-records-a-bumper-week/",
     "https://thefintechtimes.com/cross-border-payments-now-compete-on-success-not-price/",
-    "https://thefintechtimes.com/why-payments-must-build-for-fraud-rather-than-wish-it-away/",
     "https://www.paymentsdive.com/news/sap-expands-payments-finance-automation-push-deepens/832358/",
     "https://www.paymentsdive.com/news/how-agentic-payments-artificial-intelligence-risk/832601/",
-    "https://thefintechtimes.com/emirates-nbd-signs-mou-with-american-hospital-dubai-on-employee-benefits/",
+    "https://thefintechtimes.com/bkn301s-cto-on-why-cards-may-carry-stablecoins-mainstream/",
     "https://www.fca.org.uk/news/press-releases/firms-crack-down-money-mules-need-do-more",
     "https://www.finextra.com/newsarticle/48561/anyflo-emerges-from-stealth-to-simplify-stablecoin-payments-for-enterprises",
-    "https://www.paymentsdive.com/news/amex-dinged-by-fed-occ-must-pay-350m-for-aml-failures/832575/",
     "https://www.fca.org.uk/news/press-releases/fca-secures-money-back-victims-crypto-fraud",
+    "https://www.paymentsdive.com/news/amex-dinged-by-fed-occ-must-pay-350m-for-aml-failures/832575/",
     "https://www.finextra.com/blogposting/33110/when-going-global-means-operating-local-the-payment-infrastructure-behind-cross-border-growth"
   ],
   "note": "fallback (summary generation error)"
