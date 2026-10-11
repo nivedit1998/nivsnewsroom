@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T14:33:58.341Z",
+  "generatedAt": "2026-10-11T14:59:36.558Z",
   "bullets": [
     {
       "text": "**Apple Pay Enters India Asia** - (thefintechtimes.com) Apple Pay Enters India as Asia Fintech Records a Bumper Week",
@@ -14,23 +14,23 @@
       "url": "https://www.paymentsdive.com/news/sap-expands-payments-finance-automation-push-deepens/832358/"
     },
     {
-      "text": "**How agentic payments present risk** - (paymentsdive.com) How agentic payments present risk",
-      "url": "https://www.paymentsdive.com/news/how-agentic-payments-artificial-intelligence-risk/832601/"
+      "text": "**Huru Ties up Paymentology Bitpanda** - (thefintechtimes.com) Huru Ties up with Paymentology and Bitpanda to Broaden UAE Ecosystem",
+      "url": "https://thefintechtimes.com/huru-ties-up-with-paymentology-and-bitpanda-to-broaden-uae-ecosystem/"
     },
     {
-      "text": "**BKN301 s CTO Why Cards** - (thefintechtimes.com) BKN301’s CTO on Why Cards May Carry Stablecoins Mainstream",
-      "url": "https://thefintechtimes.com/bkn301s-cto-on-why-cards-may-carry-stablecoins-mainstream/"
+      "text": "**How agentic payments present risk** - (paymentsdive.com) How agentic payments present risk",
+      "url": "https://www.paymentsdive.com/news/how-agentic-payments-artificial-intelligence-risk/832601/"
     }
   ],
-  "inputHash": "255cb22c3808cd19dffacb5e68ecda01cc9e92c405565c5641fb7214f460621a",
+  "inputHash": "cfac32060ec1c97e79ef1c11c2056d57e4f9abe01db569fba7574e3040668449",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://thefintechtimes.com/apple-pay-enters-india-as-asia-fintech-records-a-bumper-week/",
     "https://thefintechtimes.com/cross-border-payments-now-compete-on-success-not-price/",
     "https://www.paymentsdive.com/news/sap-expands-payments-finance-automation-push-deepens/832358/",
+    "https://thefintechtimes.com/huru-ties-up-with-paymentology-and-bitpanda-to-broaden-uae-ecosystem/",
     "https://www.paymentsdive.com/news/how-agentic-payments-artificial-intelligence-risk/832601/",
-    "https://thefintechtimes.com/bkn301s-cto-on-why-cards-may-carry-stablecoins-mainstream/",
     "https://www.fca.org.uk/news/press-releases/firms-crack-down-money-mules-need-do-more",
     "https://www.finextra.com/newsarticle/48561/anyflo-emerges-from-stealth-to-simplify-stablecoin-payments-for-enterprises",
     "https://www.fca.org.uk/news/press-releases/fca-secures-money-back-victims-crypto-fraud",
