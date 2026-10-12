@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-10-11T14:59:36.558Z",
+  "generatedAt": "2026-10-12T18:05:13.153Z",
   "bullets": [
     {
-      "text": "**Apple Pay Enters India Asia** - (thefintechtimes.com) Apple Pay Enters India as Asia Fintech Records a Bumper Week",
-      "url": "https://thefintechtimes.com/apple-pay-enters-india-as-asia-fintech-records-a-bumper-week/"
+      "text": "**OCR Studio FinOn partner payments** - (finextra.com) OCR Studio and FinOn partner for payments onboarding",
+      "url": "https://www.finextra.com/pressarticle/111218/ocr-studio-and-finon-partner-for-payments-onboarding"
     },
     {
-      "text": "**Cross-Border Payments Now Compete Success** - (thefintechtimes.com) Cross-Border Payments Now Compete on Success, Not Price",
-      "url": "https://thefintechtimes.com/cross-border-payments-now-compete-on-success-not-price/"
+      "text": "**Why Stablecoin Yield Next Regulatory** - (thefintechtimes.com) Why Stablecoin Yield Is the Next Regulatory Flashpoint",
+      "url": "https://thefintechtimes.com/why-stablecoin-yield-is-the-next-regulatory-flashpoint/"
     },
     {
-      "text": "**SAP expands into payments** - (paymentsdive.com) SAP expands into payments",
-      "url": "https://www.paymentsdive.com/news/sap-expands-payments-finance-automation-push-deepens/832358/"
+      "text": "**Detect It Then Stop It** - (thefintechtimes.com) Detect It, Then Stop It: Inside the First VerityX Labs Challenge for UAE Banks",
+      "url": "https://thefintechtimes.com/detect-it-then-stop-it-inside-the-first-verityx-labs-challenge-for-uae-banks/"
     },
     {
-      "text": "**Huru Ties up Paymentology Bitpanda** - (thefintechtimes.com) Huru Ties up with Paymentology and Bitpanda to Broaden UAE Ecosystem",
-      "url": "https://thefintechtimes.com/huru-ties-up-with-paymentology-and-bitpanda-to-broaden-uae-ecosystem/"
+      "text": "**Emirates NBD Launches AI Travel** - (thefintechtimes.com) Emirates NBD Launches AI Travel Assistant with Visa and Tripadvisor",
+      "url": "https://thefintechtimes.com/emirates-nbd-launches-ai-travel-assistant-with-visa-and-tripadvisor/"
     },
     {
       "text": "**How agentic payments present risk** - (paymentsdive.com) How agentic payments present risk",
       "url": "https://www.paymentsdive.com/news/how-agentic-payments-artificial-intelligence-risk/832601/"
     }
   ],
-  "inputHash": "cfac32060ec1c97e79ef1c11c2056d57e4f9abe01db569fba7574e3040668449",
+  "inputHash": "faec162aa1a88016850c2c26d2c11528977186c13992eb0a602250890aae70df",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://thefintechtimes.com/apple-pay-enters-india-as-asia-fintech-records-a-bumper-week/",
-    "https://thefintechtimes.com/cross-border-payments-now-compete-on-success-not-price/",
-    "https://www.paymentsdive.com/news/sap-expands-payments-finance-automation-push-deepens/832358/",
-    "https://thefintechtimes.com/huru-ties-up-with-paymentology-and-bitpanda-to-broaden-uae-ecosystem/",
+    "https://www.finextra.com/pressarticle/111218/ocr-studio-and-finon-partner-for-payments-onboarding",
+    "https://thefintechtimes.com/why-stablecoin-yield-is-the-next-regulatory-flashpoint/",
+    "https://thefintechtimes.com/detect-it-then-stop-it-inside-the-first-verityx-labs-challenge-for-uae-banks/",
+    "https://thefintechtimes.com/emirates-nbd-launches-ai-travel-assistant-with-visa-and-tripadvisor/",
     "https://www.paymentsdive.com/news/how-agentic-payments-artificial-intelligence-risk/832601/",
     "https://www.fca.org.uk/news/press-releases/firms-crack-down-money-mules-need-do-more",
-    "https://www.finextra.com/newsarticle/48561/anyflo-emerges-from-stealth-to-simplify-stablecoin-payments-for-enterprises",
-    "https://www.fca.org.uk/news/press-releases/fca-secures-money-back-victims-crypto-fraud",
-    "https://www.paymentsdive.com/news/amex-dinged-by-fed-occ-must-pay-350m-for-aml-failures/832575/",
-    "https://www.finextra.com/blogposting/33110/when-going-global-means-operating-local-the-payment-infrastructure-behind-cross-border-growth"
+    "https://www.finextra.com/pressarticle/111221/nz-fintech-qippay-secures-nz25m-funding-boost",
+    "https://www.finextra.com/pressarticle/111220/bank-nxt-and-network-international-extend-payments-partnership",
+    "https://www.paymentsdive.com/news/fed-names-new-payments-chief/832744/",
+    "https://www.fca.org.uk/news/press-releases/fca-secures-money-back-victims-crypto-fraud"
   ],
   "note": "fallback (summary generation error)"
 }

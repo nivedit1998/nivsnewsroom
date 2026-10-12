@@ -1,10 +1,6 @@
 {
-  "generatedAt": "2026-10-11T14:59:26.748Z",
+  "generatedAt": "2026-10-12T18:04:58.251Z",
   "bullets": [
-    {
-      "text": "**Sateliot launches five new satellites** - (totaltele.com) Sateliot launches five new satellites for 5G NTN IoT",
-      "url": "https://totaltele.com/sateliot-launches-five-new-satellites-for-5g-ntn-iot/"
-    },
     {
       "text": "**GSMA Reports India s Next** - (gsma.com) GSMA Reports: India’s Next Digital Chapter Must Turn Scale into Economic Growth and Trust",
       "url": "https://www.gsma.com/newsroom/press-release/gsma-reports-indias-next-digital-chapter-must-turn-scale-into-economic-growth-and-trust/"
@@ -12,19 +8,13 @@
     {
       "text": "**Innerduct choice crucial decision scaled** - (totaltele.com) Innerduct choice: A crucial decision for scaled network deployments",
       "url": "https://totaltele.com/innerduct-choice-a-crucial-decision-for-scaled-network-deployments/"
-    },
-    {
-      "text": "**GSMA Elects new board members** - (gsma.com) GSMA Elects new board members",
-      "url": "https://www.gsma.com/newsroom/press-release/gsma-elects-new-board-members-3/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://totaltele.com/sateliot-launches-five-new-satellites-for-5g-ntn-iot/",
     "https://www.gsma.com/newsroom/press-release/gsma-reports-indias-next-digital-chapter-must-turn-scale-into-economic-growth-and-trust/",
-    "https://totaltele.com/innerduct-choice-a-crucial-decision-for-scaled-network-deployments/",
-    "https://www.gsma.com/newsroom/press-release/gsma-elects-new-board-members-3/"
+    "https://totaltele.com/innerduct-choice-a-crucial-decision-for-scaled-network-deployments/"
   ],
   "note": "fallback (summary generation error)"
 }
