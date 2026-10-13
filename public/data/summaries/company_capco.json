@@ -1,25 +1,20 @@
 {
-  "generatedAt": "2026-10-12T18:05:20.012Z",
+  "generatedAt": "2026-10-13T16:11:10.288Z",
   "bullets": [
-    {
-      "text": "**How Capco supporting NatWest Boxed** - (capco.com) How Capco is supporting NatWest Boxed to reinvent embedded finance",
-      "url": "https://www.capco.com/about-us/newsroom-and-media/how-capco-supports-natwest-boxed-in-embedded-finance"
-    },
     {
       "text": "**Liquidity motion** - (capco.com) Liquidity in motion",
       "url": "https://www.capco.com/intelligence/capco-intelligence/liquidity-in-motion"
     },
     {
-      "text": "**Newsroom media** - (capco.com) Newsroom and media",
-      "url": "https://www.capco.com/about-us/newsroom-and-media"
+      "text": "**hidden cost Enterprise AI** - (capco.com) The hidden cost of Enterprise AI",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/the-hidden-cost-of-enterprise-ai"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://www.capco.com/about-us/newsroom-and-media/how-capco-supports-natwest-boxed-in-embedded-finance",
     "https://www.capco.com/intelligence/capco-intelligence/liquidity-in-motion",
-    "https://www.capco.com/about-us/newsroom-and-media"
+    "https://www.capco.com/intelligence/capco-intelligence/the-hidden-cost-of-enterprise-ai"
   ],
   "note": "fallback (summary generation error)"
 }

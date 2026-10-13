@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-10-12T18:05:13.153Z",
+  "generatedAt": "2026-10-13T16:11:03.907Z",
   "bullets": [
     {
-      "text": "**OCR Studio FinOn partner payments** - (finextra.com) OCR Studio and FinOn partner for payments onboarding",
-      "url": "https://www.finextra.com/pressarticle/111218/ocr-studio-and-finon-partner-for-payments-onboarding"
+      "text": "**Fair4All Finance Report Flags Uneven** - (thefintechtimes.com) Fair4All Finance Report Flags Uneven Access for 16.8m Disabled Consumers",
+      "url": "https://thefintechtimes.com/fair4all-finance-report-flags-uneven-access-for-16-8m-disabled-consumers/"
     },
     {
       "text": "**Why Stablecoin Yield Next Regulatory** - (thefintechtimes.com) Why Stablecoin Yield Is the Next Regulatory Flashpoint",
       "url": "https://thefintechtimes.com/why-stablecoin-yield-is-the-next-regulatory-flashpoint/"
     },
     {
-      "text": "**Detect It Then Stop It** - (thefintechtimes.com) Detect It, Then Stop It: Inside the First VerityX Labs Challenge for UAE Banks",
-      "url": "https://thefintechtimes.com/detect-it-then-stop-it-inside-the-first-verityx-labs-challenge-for-uae-banks/"
-    },
-    {
-      "text": "**Emirates NBD Launches AI Travel** - (thefintechtimes.com) Emirates NBD Launches AI Travel Assistant with Visa and Tripadvisor",
-      "url": "https://thefintechtimes.com/emirates-nbd-launches-ai-travel-assistant-with-visa-and-tripadvisor/"
+      "text": "**Furaha Reaches 100 000 Ugandan** - (thefintechtimes.com) Furaha Reaches 100,000 Ugandan Children with School-Fee Credit",
+      "url": "https://thefintechtimes.com/furaha-reaches-100000-ugandan-children-with-school-fee-credit/"
     },
     {
       "text": "**How agentic payments present risk** - (paymentsdive.com) How agentic payments present risk",
       "url": "https://www.paymentsdive.com/news/how-agentic-payments-artificial-intelligence-risk/832601/"
+    },
+    {
+      "text": "**Firms crack down money mules** - (fca.org.uk) Firms crack down on money mules but need to do more",
+      "url": "https://www.fca.org.uk/news/press-releases/firms-crack-down-money-mules-need-do-more"
     }
   ],
-  "inputHash": "faec162aa1a88016850c2c26d2c11528977186c13992eb0a602250890aae70df",
+  "inputHash": "51e2466eb67e38c81812406324d12e28d9a367111b6a57a5de8d9f99ab8de9fa",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://www.finextra.com/pressarticle/111218/ocr-studio-and-finon-partner-for-payments-onboarding",
+    "https://thefintechtimes.com/fair4all-finance-report-flags-uneven-access-for-16-8m-disabled-consumers/",
     "https://thefintechtimes.com/why-stablecoin-yield-is-the-next-regulatory-flashpoint/",
-    "https://thefintechtimes.com/detect-it-then-stop-it-inside-the-first-verityx-labs-challenge-for-uae-banks/",
-    "https://thefintechtimes.com/emirates-nbd-launches-ai-travel-assistant-with-visa-and-tripadvisor/",
+    "https://thefintechtimes.com/furaha-reaches-100000-ugandan-children-with-school-fee-credit/",
     "https://www.paymentsdive.com/news/how-agentic-payments-artificial-intelligence-risk/832601/",
     "https://www.fca.org.uk/news/press-releases/firms-crack-down-money-mules-need-do-more",
-    "https://www.finextra.com/pressarticle/111221/nz-fintech-qippay-secures-nz25m-funding-boost",
-    "https://www.finextra.com/pressarticle/111220/bank-nxt-and-network-international-extend-payments-partnership",
     "https://www.paymentsdive.com/news/fed-names-new-payments-chief/832744/",
-    "https://www.fca.org.uk/news/press-releases/fca-secures-money-back-victims-crypto-fraud"
+    "https://www.fca.org.uk/news/press-releases/three-arrests-major-fca-operation-against-criminal-insider-dealing-ring",
+    "https://www.fca.org.uk/news/press-releases/fca-secures-money-back-victims-crypto-fraud",
+    "https://www.finextra.com/newsarticle/48572/latvia-enters-eu-fintech-race",
+    "https://www.paymentsdive.com/news/amex-dinged-by-fed-occ-must-pay-350m-for-aml-failures/832575/"
   ],
   "note": "fallback (summary generation error)"
 }
