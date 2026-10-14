@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-10-12T18:04:58.251Z",
+  "generatedAt": "2026-10-14T13:53:35.638Z",
   "bullets": [
     {
-      "text": "**GSMA Reports India s Next** - (gsma.com) GSMA Reports: India’s Next Digital Chapter Must Turn Scale into Economic Growth and Trust",
-      "url": "https://www.gsma.com/newsroom/press-release/gsma-reports-indias-next-digital-chapter-must-turn-scale-into-economic-growth-and-trust/"
+      "text": "**Beyond coverage What digital inclusion** - (totaltele.com) Beyond coverage: What digital inclusion really requires",
+      "url": "https://totaltele.com/beyond-coverage-what-digital-inclusion-really-requires/"
     },
     {
-      "text": "**Innerduct choice crucial decision scaled** - (totaltele.com) Innerduct choice: A crucial decision for scaled network deployments",
-      "url": "https://totaltele.com/innerduct-choice-a-crucial-decision-for-scaled-network-deployments/"
+      "text": "**BT International adds security service** - (totaltele.com) BT International adds security service edge to its Global Fabric",
+      "url": "https://totaltele.com/bt-international-adds-security-service-edge-to-its-global-fabric/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://www.gsma.com/newsroom/press-release/gsma-reports-indias-next-digital-chapter-must-turn-scale-into-economic-growth-and-trust/",
-    "https://totaltele.com/innerduct-choice-a-crucial-decision-for-scaled-network-deployments/"
+    "https://totaltele.com/beyond-coverage-what-digital-inclusion-really-requires/",
+    "https://totaltele.com/bt-international-adds-security-service-edge-to-its-global-fabric/"
   ],
   "note": "fallback (summary generation error)"
 }

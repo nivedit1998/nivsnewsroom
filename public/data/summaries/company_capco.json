@@ -1,20 +1,35 @@
 {
-  "generatedAt": "2026-10-13T16:11:10.288Z",
+  "generatedAt": "2026-10-14T13:53:55.606Z",
   "bullets": [
+    {
+      "text": "**Digital Euro 2025 Progress Market** - (capco.com) The Digital Euro in 2025: Progress, Market Impact and Readiness",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/the-digital-euro-in-2025"
+    },
+    {
+      "text": "**AI governance Preparing MAS s** - (capco.com) AI governance: Preparing for MAS's evolving expectations",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/ai-governance-mas-readiness"
+    },
     {
       "text": "**Liquidity motion** - (capco.com) Liquidity in motion",
       "url": "https://www.capco.com/intelligence/capco-intelligence/liquidity-in-motion"
     },
     {
-      "text": "**hidden cost Enterprise AI** - (capco.com) The hidden cost of Enterprise AI",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/the-hidden-cost-of-enterprise-ai"
+      "text": "**UK Energy** - (capco.com) UK Energy",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/uk-energy"
+    },
+    {
+      "text": "**UK & Europe Energy** - (capco.com) UK & Europe Energy",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/uk-and-europe-energy"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
+    "https://www.capco.com/intelligence/capco-intelligence/the-digital-euro-in-2025",
+    "https://www.capco.com/intelligence/capco-intelligence/ai-governance-mas-readiness",
     "https://www.capco.com/intelligence/capco-intelligence/liquidity-in-motion",
-    "https://www.capco.com/intelligence/capco-intelligence/the-hidden-cost-of-enterprise-ai"
+    "https://www.capco.com/intelligence/capco-intelligence/uk-energy",
+    "https://www.capco.com/intelligence/capco-intelligence/uk-and-europe-energy"
   ],
   "note": "fallback (summary generation error)"
 }

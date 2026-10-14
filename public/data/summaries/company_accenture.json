@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T16:11:07.306Z",
+  "generatedAt": "2026-10-14T13:53:51.064Z",
   "bullets": [
     {
       "text": "**Accenture Acquires Sagacity Solutions Scale** - (newsroom.accenture.co.uk) Accenture Acquires Sagacity Solutions to Scale AI-Driven Customer Intelligence Across Accenture Song’s UK & Ireland Operations",
@@ -10,16 +10,16 @@
       "url": "https://newsroom.accenture.com/news/2020/change-powers-accentures-biggest-brand-move-in-a-decade"
     },
     {
+      "text": "**Accenture Launches Forward Deployed Engineering** - (newsroom.accenture.com) Accenture Launches Forward Deployed Engineering Program with Workday to Reinvent Work for the Agentic AI Era",
+      "url": "https://newsroom.accenture.com/news/2026/accenture-launches-forward-deployed-engineering-program-with-workday-to-reinvent-work-for-the-agentic-ai-era"
+    },
+    {
       "text": "**Accenture Acquires Sagacity Solutions Scale** - (newsroom.accenture.com) Accenture Acquires Sagacity Solutions to Scale AI-Driven Customer Intelligence Across Accenture Song’s UK & Ireland Operations",
       "url": "https://newsroom.accenture.com/news/2026/accenture-acquires-sagacity-solutions-to-scale-ai-driven-customer-intelligence-across-accenture-song-s-uk-ireland-operations"
     },
     {
       "text": "**Accenture Acquire Alfahealth Expanding Digital** - (newsroom.accenture.com) Accenture to Acquire Alfahealth, Expanding Digital Health Capabilities to Accelerate Healthcare Transformation in Italy",
       "url": "https://newsroom.accenture.com/news/2026/accenture-to-acquire-alfahealth-expanding-digital-health-capabilities-to-accelerate-healthcare-transformation-in-italy"
-    },
-    {
-      "text": "**Accenture Dell Technologies Expand Collaboration** - (newsroom.accenture.com) Accenture and Dell Technologies Expand Collaboration to Help Enterprises Scale Private AI and Modernize Infrastructure",
-      "url": "https://newsroom.accenture.com/news/2026/accenture-and-dell-technologies-expand-collaboration-to-help-enterprises-scale-private-ai-and-modernize-infrastructure"
     }
   ],
   "promptVersion": "insights-v2",
@@ -27,9 +27,9 @@
   "contextUrls": [
     "https://newsroom.accenture.co.uk/english-uk/news/2026/accenture-acquires-sagacity-solutions-to-scale-ai-driven-customer-intelligence-across-accenture-song-s-uk-ireland-operations",
     "https://newsroom.accenture.com/news/2020/change-powers-accentures-biggest-brand-move-in-a-decade",
+    "https://newsroom.accenture.com/news/2026/accenture-launches-forward-deployed-engineering-program-with-workday-to-reinvent-work-for-the-agentic-ai-era",
     "https://newsroom.accenture.com/news/2026/accenture-acquires-sagacity-solutions-to-scale-ai-driven-customer-intelligence-across-accenture-song-s-uk-ireland-operations",
-    "https://newsroom.accenture.com/news/2026/accenture-to-acquire-alfahealth-expanding-digital-health-capabilities-to-accelerate-healthcare-transformation-in-italy",
-    "https://newsroom.accenture.com/news/2026/accenture-and-dell-technologies-expand-collaboration-to-help-enterprises-scale-private-ai-and-modernize-infrastructure"
+    "https://newsroom.accenture.com/news/2026/accenture-to-acquire-alfahealth-expanding-digital-health-capabilities-to-accelerate-healthcare-transformation-in-italy"
   ],
   "note": "fallback (summary generation error)"
 }
