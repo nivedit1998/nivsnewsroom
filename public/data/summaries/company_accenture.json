@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T13:53:51.064Z",
+  "generatedAt": "2026-10-15T13:34:29.344Z",
   "bullets": [
     {
       "text": "**Accenture Acquires Sagacity Solutions Scale** - (newsroom.accenture.co.uk) Accenture Acquires Sagacity Solutions to Scale AI-Driven Customer Intelligence Across Accenture Song’s UK & Ireland Operations",
@@ -14,12 +14,12 @@
       "url": "https://newsroom.accenture.com/news/2026/accenture-launches-forward-deployed-engineering-program-with-workday-to-reinvent-work-for-the-agentic-ai-era"
     },
     {
-      "text": "**Accenture Acquires Sagacity Solutions Scale** - (newsroom.accenture.com) Accenture Acquires Sagacity Solutions to Scale AI-Driven Customer Intelligence Across Accenture Song’s UK & Ireland Operations",
-      "url": "https://newsroom.accenture.com/news/2026/accenture-acquires-sagacity-solutions-to-scale-ai-driven-customer-intelligence-across-accenture-song-s-uk-ireland-operations"
+      "text": "**UMass Memorial Health Announces Unified** - (newsroom.accenture.com) UMass Memorial Health Announces Unified Data Platform Multi-Year Initiative, Investments in AI-Powered Innovation in Partnership with Accenture and Microsoft",
+      "url": "https://newsroom.accenture.com/news/2026/umass-memorial-health-announces-unified-data-platform-multi-year-initiative-investments-in-ai-powered-innovation-in-partnership-with-accenture-and-microsoft"
     },
     {
-      "text": "**Accenture Acquire Alfahealth Expanding Digital** - (newsroom.accenture.com) Accenture to Acquire Alfahealth, Expanding Digital Health Capabilities to Accelerate Healthcare Transformation in Italy",
-      "url": "https://newsroom.accenture.com/news/2026/accenture-to-acquire-alfahealth-expanding-digital-health-capabilities-to-accelerate-healthcare-transformation-in-italy"
+      "text": "**Accenture Acquires Sagacity Solutions Scale** - (newsroom.accenture.com) Accenture Acquires Sagacity Solutions to Scale AI-Driven Customer Intelligence Across Accenture Song’s UK & Ireland Operations",
+      "url": "https://newsroom.accenture.com/news/2026/accenture-acquires-sagacity-solutions-to-scale-ai-driven-customer-intelligence-across-accenture-song-s-uk-ireland-operations"
     }
   ],
   "promptVersion": "insights-v2",
@@ -28,8 +28,8 @@
     "https://newsroom.accenture.co.uk/english-uk/news/2026/accenture-acquires-sagacity-solutions-to-scale-ai-driven-customer-intelligence-across-accenture-song-s-uk-ireland-operations",
     "https://newsroom.accenture.com/news/2020/change-powers-accentures-biggest-brand-move-in-a-decade",
     "https://newsroom.accenture.com/news/2026/accenture-launches-forward-deployed-engineering-program-with-workday-to-reinvent-work-for-the-agentic-ai-era",
-    "https://newsroom.accenture.com/news/2026/accenture-acquires-sagacity-solutions-to-scale-ai-driven-customer-intelligence-across-accenture-song-s-uk-ireland-operations",
-    "https://newsroom.accenture.com/news/2026/accenture-to-acquire-alfahealth-expanding-digital-health-capabilities-to-accelerate-healthcare-transformation-in-italy"
+    "https://newsroom.accenture.com/news/2026/umass-memorial-health-announces-unified-data-platform-multi-year-initiative-investments-in-ai-powered-innovation-in-partnership-with-accenture-and-microsoft",
+    "https://newsroom.accenture.com/news/2026/accenture-acquires-sagacity-solutions-to-scale-ai-driven-customer-intelligence-across-accenture-song-s-uk-ireland-operations"
   ],
   "note": "fallback (summary generation error)"
 }

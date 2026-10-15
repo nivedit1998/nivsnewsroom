@@ -1,6 +1,10 @@
 {
-  "generatedAt": "2026-10-14T13:53:21.209Z",
+  "generatedAt": "2026-10-15T13:34:11.721Z",
   "bullets": [
+    {
+      "text": "**Amazon s Bee launches two** - (techcrunch.com) Amazon’s Bee launches two new personal AI devices, starting at $75",
+      "url": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/"
+    },
     {
       "text": "**YouTube s contextual AI search** - (9to5google.com) YouTube’s contextual AI search rolls out to all users on Android and iOS in US",
       "url": "https://9to5google.com/2026/10/13/ask-youtube-rolls-out-on-mobile/"
@@ -10,26 +14,22 @@
       "url": "https://9to5mac.com/2026/10/13/apple-unveils-apple-home-collection-smart-home-accessories-developed-with-lg-and-schneider/"
     },
     {
-      "text": "**Apple Just Declared War Smart** - (cnet.com) Apple Just Declared War on Smart Home Security",
-      "url": "https://www.cnet.com/home/smart-home/apple-just-declared-war-on-smart-home-security/"
+      "text": "**Gemini AI Plus subscribers will** - (9to5google.com) Gemini AI Plus subscribers will lose access to Pro models next month",
+      "url": "https://9to5google.com/2026/10/14/gemini-ai-plus-loses-pro-november/"
     },
     {
       "text": "**Security Bite nifty privacy app** - (9to5mac.com) Security Bite: This nifty privacy app blurs your Mac screen the second you look away",
       "url": "https://9to5mac.com/2026/10/12/security-bite-this-nifty-privacy-app-blurs-your-mac-screen-the-second-you-look-away/"
-    },
-    {
-      "text": "**Pluto Security raises 42M AI** - (techcrunch.com) Pluto Security raises $42M as AI gives enterprise security teams a new headache",
-      "url": "https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
+    "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
     "https://9to5google.com/2026/10/13/ask-youtube-rolls-out-on-mobile/",
     "https://9to5mac.com/2026/10/13/apple-unveils-apple-home-collection-smart-home-accessories-developed-with-lg-and-schneider/",
-    "https://www.cnet.com/home/smart-home/apple-just-declared-war-on-smart-home-security/",
-    "https://9to5mac.com/2026/10/12/security-bite-this-nifty-privacy-app-blurs-your-mac-screen-the-second-you-look-away/",
-    "https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache/"
+    "https://9to5google.com/2026/10/14/gemini-ai-plus-loses-pro-november/",
+    "https://9to5mac.com/2026/10/12/security-bite-this-nifty-privacy-app-blurs-your-mac-screen-the-second-you-look-away/"
   ],
   "note": "fallback (summary generation error)"
 }

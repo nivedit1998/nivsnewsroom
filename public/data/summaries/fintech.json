@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-10-14T13:53:47.394Z",
+  "generatedAt": "2026-10-15T13:34:26.307Z",
   "bullets": [
     {
-      "text": "**NatWest Boxed s Andy Ellis** - (thefintechtimes.com) NatWest Boxed’s Andy Ellis on BNPL Rules and Retail Finance",
-      "url": "https://thefintechtimes.com/natwest-boxeds-andy-ellis-on-bnpl-rules-and-retail-finance/"
+      "text": "**Ether fi Moves Payments Stack** - (thefintechtimes.com) Ether.fi Moves Payments Stack onto MoonPay Infrastructure",
+      "url": "https://thefintechtimes.com/ether-fi-moves-payments-stack-onto-moonpay-infrastructure/"
     },
     {
-      "text": "**Wise Adds eSIM Plans Cross-continent** - (thefintechtimes.com) Wise Adds eSIM Plans and Cross-continent QR Payments to Travel Hub",
-      "url": "https://thefintechtimes.com/wise-adds-esim-plans-and-cross-continent-qr-payments-to-travel-hub/"
+      "text": "**Late Payments Trap 26bn Unpaid** - (thefintechtimes.com) Late Payments Trap £26bn in Unpaid Invoices, Hitting 1.5m UK Firms",
+      "url": "https://thefintechtimes.com/late-payments-trap-26bn-in-unpaid-invoices-hitting-1-5m-uk-firms/"
     },
     {
-      "text": "**Money20 20 USA Unveils 2026** - (thefintechtimes.com) Money20/20 USA Unveils 2026 Agenda Focused on AI Transformation, Borderless Infrastructure, and Regulatory Guardrails",
-      "url": "https://thefintechtimes.com/money20-20-usa-unveils-2026-agenda-focused-on-ai-transformation-borderless-infrastructure-and-regulatory-guardrails/"
+      "text": "**Etraveli Group Rebrands Precision Standalone** - (thefintechtimes.com) Etraveli Group Rebrands Precision as Standalone Travel Fintech Arm",
+      "url": "https://thefintechtimes.com/etraveli-group-rebrands-precision-as-standalone-travel-fintech-arm/"
     },
     {
-      "text": "**Barclaycard Payments deploys Visa Unified** - (finextra.com) Barclaycard Payments deploys Visa Unified Checkout",
-      "url": "https://www.finextra.com/pressarticle/111255/barclaycard-payments-deploys-visa-unified-checkout"
+      "text": "**PPRO Damisa tam stablecoin-powered treasury** - (finextra.com) PPRO and Damisa tam on stablecoin-powered treasury and cross-border settlement",
+      "url": "https://www.finextra.com/pressarticle/111280/ppro-and-damisa-tam-on-stablecoin-powered-treasury-and-cross-border-settlement"
     },
     {
-      "text": "**How agentic payments present risk** - (paymentsdive.com) How agentic payments present risk",
-      "url": "https://www.paymentsdive.com/news/how-agentic-payments-artificial-intelligence-risk/832601/"
+      "text": "**Meezan Bank migrates payments business** - (finextra.com) Meezan Bank migrates payments business to BPC SmartVista",
+      "url": "https://www.finextra.com/pressarticle/111272/meezan-bank-migrates-payments-business-to-bpc-smartvista"
     }
   ],
-  "inputHash": "388c8c5bfe3bd89589f2289f3220937aebc7083049379351ee0bd30640f127ab",
+  "inputHash": "462d8f09eae7d33f870195801dd8d7b524ef9949199260a0dfd08df52d2336b4",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://thefintechtimes.com/natwest-boxeds-andy-ellis-on-bnpl-rules-and-retail-finance/",
-    "https://thefintechtimes.com/wise-adds-esim-plans-and-cross-continent-qr-payments-to-travel-hub/",
-    "https://thefintechtimes.com/money20-20-usa-unveils-2026-agenda-focused-on-ai-transformation-borderless-infrastructure-and-regulatory-guardrails/",
-    "https://www.finextra.com/pressarticle/111255/barclaycard-payments-deploys-visa-unified-checkout",
+    "https://thefintechtimes.com/ether-fi-moves-payments-stack-onto-moonpay-infrastructure/",
+    "https://thefintechtimes.com/late-payments-trap-26bn-in-unpaid-invoices-hitting-1-5m-uk-firms/",
+    "https://thefintechtimes.com/etraveli-group-rebrands-precision-as-standalone-travel-fintech-arm/",
+    "https://www.finextra.com/pressarticle/111280/ppro-and-damisa-tam-on-stablecoin-powered-treasury-and-cross-border-settlement",
+    "https://www.finextra.com/pressarticle/111272/meezan-bank-migrates-payments-business-to-bpc-smartvista",
     "https://www.paymentsdive.com/news/how-agentic-payments-artificial-intelligence-risk/832601/",
     "https://www.fca.org.uk/news/press-releases/firms-crack-down-money-mules-need-do-more",
     "https://www.paymentsdive.com/news/stablecoin-startups-advance-payments/832871/",
-    "https://www.finextra.com/pressarticle/111254/ecommpay-adds-klarna-payments-option",
-    "https://www.fca.org.uk/news/press-releases/three-arrests-major-fca-operation-against-criminal-insider-dealing-ring",
-    "https://www.paymentsdive.com/news/fed-names-new-payments-chief/832744/"
+    "https://www.finextra.com/pressarticle/111278/straitsx-partners-visa-to-expand-stablecoin-backed-card-issuring-to-mre-markets",
+    "https://www.fca.org.uk/news/press-releases/three-arrests-major-fca-operation-against-criminal-insider-dealing-ring"
   ],
   "note": "fallback (summary generation error)"
 }

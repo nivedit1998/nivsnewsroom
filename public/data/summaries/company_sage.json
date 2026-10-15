@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T13:54:01.960Z",
+  "generatedAt": "2026-10-15T13:34:37.117Z",
   "bullets": [
     {
       "text": "**Cash flow forecast template UK** - (sage.com) Cash flow forecast template for UK businesses: Free download now",
@@ -8,13 +8,23 @@
     {
       "text": "**Embedded accounting opportunity accountants** - (sage.com) Embedded accounting: The opportunity for accountants",
       "url": "https://www.sage.com/en-gb/blog/embedded-services-accoutants/"
+    },
+    {
+      "text": "**MTD Income Tax What accountants** - (sage.com) MTD for Income Tax: What accountants and clients need to do",
+      "url": "https://www.sage.com/en-gb/blog/mtd-for-income-tax-accountants-need-to-know/"
+    },
+    {
+      "text": "**Making Tax Digital delayed** - (sage.com) Is Making Tax Digital delayed?",
+      "url": "https://www.sage.com/en-gb/blog/mtd-for-income-tax-postponed/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://www.sage.com/en-gb/blog/cash-flow-forecast-template/",
-    "https://www.sage.com/en-gb/blog/embedded-services-accoutants/"
+    "https://www.sage.com/en-gb/blog/embedded-services-accoutants/",
+    "https://www.sage.com/en-gb/blog/mtd-for-income-tax-accountants-need-to-know/",
+    "https://www.sage.com/en-gb/blog/mtd-for-income-tax-postponed/"
   ],
   "note": "fallback (summary generation error)"
 }

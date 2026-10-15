@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-10-14T13:53:55.606Z",
+  "generatedAt": "2026-10-15T13:34:34.261Z",
   "bullets": [
     {
-      "text": "**Digital Euro 2025 Progress Market** - (capco.com) The Digital Euro in 2025: Progress, Market Impact and Readiness",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/the-digital-euro-in-2025"
+      "text": "**Capco Molecule announce strategic partnership** - (capco.com) Capco and Molecule announce strategic partnership",
+      "url": "https://www.capco.com/about-us/newsroom-and-media/capco-and-molecule-announce-strategic-partnership"
     },
     {
-      "text": "**AI governance Preparing MAS s** - (capco.com) AI governance: Preparing for MAS's evolving expectations",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/ai-governance-mas-readiness"
+      "text": "**Part 2 - Capco s** - (capco.com) Part 2 - Capco's blueprint for AI Orchestrated Experiences",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/capcos-blueprint-for-ai-orchestrated-experiences"
     },
     {
       "text": "**Liquidity motion** - (capco.com) Liquidity in motion",
       "url": "https://www.capco.com/intelligence/capco-intelligence/liquidity-in-motion"
     },
     {
-      "text": "**UK Energy** - (capco.com) UK Energy",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/uk-energy"
+      "text": "**Part 1 - Why most** - (capco.com) Part 1 - Why most financial institutions are getting 'AI for customer experience' wrong",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/why-most-financial-institutions-are-getting-ai-for-customer-experience-wrong"
     },
     {
-      "text": "**UK & Europe Energy** - (capco.com) UK & Europe Energy",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/uk-and-europe-energy"
+      "text": "**Digital Euro 2025 Progress Market** - (capco.com) The Digital Euro in 2025: Progress, Market Impact and Readiness",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/the-digital-euro-in-2025"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://www.capco.com/intelligence/capco-intelligence/the-digital-euro-in-2025",
-    "https://www.capco.com/intelligence/capco-intelligence/ai-governance-mas-readiness",
+    "https://www.capco.com/about-us/newsroom-and-media/capco-and-molecule-announce-strategic-partnership",
+    "https://www.capco.com/intelligence/capco-intelligence/capcos-blueprint-for-ai-orchestrated-experiences",
     "https://www.capco.com/intelligence/capco-intelligence/liquidity-in-motion",
-    "https://www.capco.com/intelligence/capco-intelligence/uk-energy",
-    "https://www.capco.com/intelligence/capco-intelligence/uk-and-europe-energy"
+    "https://www.capco.com/intelligence/capco-intelligence/why-most-financial-institutions-are-getting-ai-for-customer-experience-wrong",
+    "https://www.capco.com/intelligence/capco-intelligence/the-digital-euro-in-2025"
   ],
   "note": "fallback (summary generation error)"
 }
