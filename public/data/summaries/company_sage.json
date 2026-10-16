@@ -1,30 +1,35 @@
 {
-  "generatedAt": "2026-10-15T13:34:37.117Z",
+  "generatedAt": "2026-10-16T13:23:27.021Z",
   "bullets": [
+    {
+      "text": "**Everyday agentic AI How Sage** - (sage.com) Everyday agentic AI: How Sage is reshaping the future of accounting with MTD",
+      "url": "https://www.sage.com/en-gb/blog/agentic-ai-in-practice-how-sage-is-reshaping-the-future-of-accounting-with-mtd/"
+    },
+    {
+      "text": "**Plastic Packaging Tax What businesses** - (sage.com) Plastic Packaging Tax: What businesses need to know, including 2027 updates",
+      "url": "https://www.sage.com/en-gb/blog/plastic-packaging-tax-need-to-know/"
+    },
     {
       "text": "**Cash flow forecast template UK** - (sage.com) Cash flow forecast template for UK businesses: Free download now",
       "url": "https://www.sage.com/en-gb/blog/cash-flow-forecast-template/"
     },
     {
-      "text": "**Embedded accounting opportunity accountants** - (sage.com) Embedded accounting: The opportunity for accountants",
-      "url": "https://www.sage.com/en-gb/blog/embedded-services-accoutants/"
+      "text": "**Making Tax Digital VAT deadlines** - (sage.com) Making Tax Digital for VAT deadlines",
+      "url": "https://www.sage.com/en-gb/blog/making-tax-digital-deadlines/"
     },
     {
-      "text": "**MTD Income Tax What accountants** - (sage.com) MTD for Income Tax: What accountants and clients need to do",
-      "url": "https://www.sage.com/en-gb/blog/mtd-for-income-tax-accountants-need-to-know/"
-    },
-    {
-      "text": "**Making Tax Digital delayed** - (sage.com) Is Making Tax Digital delayed?",
-      "url": "https://www.sage.com/en-gb/blog/mtd-for-income-tax-postponed/"
+      "text": "**Making Tax Digital VAT groups** - (sage.com) Making Tax Digital for VAT groups: Returns and digital links",
+      "url": "https://www.sage.com/en-gb/blog/making-tax-digital-vat-groups/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
+    "https://www.sage.com/en-gb/blog/agentic-ai-in-practice-how-sage-is-reshaping-the-future-of-accounting-with-mtd/",
+    "https://www.sage.com/en-gb/blog/plastic-packaging-tax-need-to-know/",
     "https://www.sage.com/en-gb/blog/cash-flow-forecast-template/",
-    "https://www.sage.com/en-gb/blog/embedded-services-accoutants/",
-    "https://www.sage.com/en-gb/blog/mtd-for-income-tax-accountants-need-to-know/",
-    "https://www.sage.com/en-gb/blog/mtd-for-income-tax-postponed/"
+    "https://www.sage.com/en-gb/blog/making-tax-digital-deadlines/",
+    "https://www.sage.com/en-gb/blog/making-tax-digital-vat-groups/"
   ],
   "note": "fallback (summary generation error)"
 }

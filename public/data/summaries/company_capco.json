@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T13:34:34.261Z",
+  "generatedAt": "2026-10-16T13:23:21.816Z",
   "bullets": [
     {
       "text": "**Capco Molecule announce strategic partnership** - (capco.com) Capco and Molecule announce strategic partnership",
@@ -18,8 +18,8 @@
       "url": "https://www.capco.com/intelligence/capco-intelligence/why-most-financial-institutions-are-getting-ai-for-customer-experience-wrong"
     },
     {
-      "text": "**Digital Euro 2025 Progress Market** - (capco.com) The Digital Euro in 2025: Progress, Market Impact and Readiness",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/the-digital-euro-in-2025"
+      "text": "**Part 3 - Anatomy AI** - (capco.com) Part 3 - Anatomy of an AI chat that earns trust",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/anatomy-of-an-ai-chat-that-earns-trust"
     }
   ],
   "promptVersion": "insights-v2",
@@ -29,7 +29,7 @@
     "https://www.capco.com/intelligence/capco-intelligence/capcos-blueprint-for-ai-orchestrated-experiences",
     "https://www.capco.com/intelligence/capco-intelligence/liquidity-in-motion",
     "https://www.capco.com/intelligence/capco-intelligence/why-most-financial-institutions-are-getting-ai-for-customer-experience-wrong",
-    "https://www.capco.com/intelligence/capco-intelligence/the-digital-euro-in-2025"
+    "https://www.capco.com/intelligence/capco-intelligence/anatomy-of-an-ai-chat-that-earns-trust"
   ],
   "note": "fallback (summary generation error)"
 }

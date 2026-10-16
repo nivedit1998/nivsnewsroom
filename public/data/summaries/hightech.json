@@ -1,9 +1,13 @@
 {
-  "generatedAt": "2026-10-15T13:34:11.721Z",
+  "generatedAt": "2026-10-16T13:22:52.083Z",
   "bullets": [
     {
       "text": "**Amazon s Bee launches two** - (techcrunch.com) Amazon’s Bee launches two new personal AI devices, starting at $75",
       "url": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/"
+    },
+    {
+      "text": "**Ramp reaches 60B valuation it** - (techcrunch.com) Ramp reaches $60B valuation as it pushes deeper into AI",
+      "url": "https://techcrunch.com/2026/10/15/ramp-reaches-60b-valuation-as-it-pushes-deeper-into-ai/"
     },
     {
       "text": "**YouTube s contextual AI search** - (9to5google.com) YouTube’s contextual AI search rolls out to all users on Android and iOS in US",
@@ -16,20 +20,16 @@
     {
       "text": "**Gemini AI Plus subscribers will** - (9to5google.com) Gemini AI Plus subscribers will lose access to Pro models next month",
       "url": "https://9to5google.com/2026/10/14/gemini-ai-plus-loses-pro-november/"
-    },
-    {
-      "text": "**Security Bite nifty privacy app** - (9to5mac.com) Security Bite: This nifty privacy app blurs your Mac screen the second you look away",
-      "url": "https://9to5mac.com/2026/10/12/security-bite-this-nifty-privacy-app-blurs-your-mac-screen-the-second-you-look-away/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
+    "https://techcrunch.com/2026/10/15/ramp-reaches-60b-valuation-as-it-pushes-deeper-into-ai/",
     "https://9to5google.com/2026/10/13/ask-youtube-rolls-out-on-mobile/",
     "https://9to5mac.com/2026/10/13/apple-unveils-apple-home-collection-smart-home-accessories-developed-with-lg-and-schneider/",
-    "https://9to5google.com/2026/10/14/gemini-ai-plus-loses-pro-november/",
-    "https://9to5mac.com/2026/10/12/security-bite-this-nifty-privacy-app-blurs-your-mac-screen-the-second-you-look-away/"
+    "https://9to5google.com/2026/10/14/gemini-ai-plus-loses-pro-november/"
   ],
   "note": "fallback (summary generation error)"
 }

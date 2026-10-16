@@ -1,10 +1,6 @@
 {
-  "generatedAt": "2026-10-15T13:34:29.344Z",
+  "generatedAt": "2026-10-16T13:23:16.128Z",
   "bullets": [
-    {
-      "text": "**Accenture Acquires Sagacity Solutions Scale** - (newsroom.accenture.co.uk) Accenture Acquires Sagacity Solutions to Scale AI-Driven Customer Intelligence Across Accenture Song’s UK & Ireland Operations",
-      "url": "https://newsroom.accenture.co.uk/english-uk/news/2026/accenture-acquires-sagacity-solutions-to-scale-ai-driven-customer-intelligence-across-accenture-song-s-uk-ireland-operations"
-    },
     {
       "text": "**Reinvented Accenture** - (newsroom.accenture.com) Reinvented with Accenture",
       "url": "https://newsroom.accenture.com/news/2020/change-powers-accentures-biggest-brand-move-in-a-decade"
@@ -16,20 +12,14 @@
     {
       "text": "**UMass Memorial Health Announces Unified** - (newsroom.accenture.com) UMass Memorial Health Announces Unified Data Platform Multi-Year Initiative, Investments in AI-Powered Innovation in Partnership with Accenture and Microsoft",
       "url": "https://newsroom.accenture.com/news/2026/umass-memorial-health-announces-unified-data-platform-multi-year-initiative-investments-in-ai-powered-innovation-in-partnership-with-accenture-and-microsoft"
-    },
-    {
-      "text": "**Accenture Acquires Sagacity Solutions Scale** - (newsroom.accenture.com) Accenture Acquires Sagacity Solutions to Scale AI-Driven Customer Intelligence Across Accenture Song’s UK & Ireland Operations",
-      "url": "https://newsroom.accenture.com/news/2026/accenture-acquires-sagacity-solutions-to-scale-ai-driven-customer-intelligence-across-accenture-song-s-uk-ireland-operations"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://newsroom.accenture.co.uk/english-uk/news/2026/accenture-acquires-sagacity-solutions-to-scale-ai-driven-customer-intelligence-across-accenture-song-s-uk-ireland-operations",
     "https://newsroom.accenture.com/news/2020/change-powers-accentures-biggest-brand-move-in-a-decade",
     "https://newsroom.accenture.com/news/2026/accenture-launches-forward-deployed-engineering-program-with-workday-to-reinvent-work-for-the-agentic-ai-era",
-    "https://newsroom.accenture.com/news/2026/umass-memorial-health-announces-unified-data-platform-multi-year-initiative-investments-in-ai-powered-innovation-in-partnership-with-accenture-and-microsoft",
-    "https://newsroom.accenture.com/news/2026/accenture-acquires-sagacity-solutions-to-scale-ai-driven-customer-intelligence-across-accenture-song-s-uk-ireland-operations"
+    "https://newsroom.accenture.com/news/2026/umass-memorial-health-announces-unified-data-platform-multi-year-initiative-investments-in-ai-powered-innovation-in-partnership-with-accenture-and-microsoft"
   ],
   "note": "fallback (summary generation error)"
 }
