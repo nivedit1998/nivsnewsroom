@@ -1,6 +1,10 @@
 {
-  "generatedAt": "2026-10-16T13:23:27.021Z",
+  "generatedAt": "2026-10-17T12:17:54.516Z",
   "bullets": [
+    {
+      "text": "**Building trust resilience through secure** - (sage.com) Building trust and resilience through secure software practices",
+      "url": "https://www.sage.com/en-gb/blog/software-security-code-of-practice/"
+    },
     {
       "text": "**Everyday agentic AI How Sage** - (sage.com) Everyday agentic AI: How Sage is reshaping the future of accounting with MTD",
       "url": "https://www.sage.com/en-gb/blog/agentic-ai-in-practice-how-sage-is-reshaping-the-future-of-accounting-with-mtd/"
@@ -16,20 +20,16 @@
     {
       "text": "**Making Tax Digital VAT deadlines** - (sage.com) Making Tax Digital for VAT deadlines",
       "url": "https://www.sage.com/en-gb/blog/making-tax-digital-deadlines/"
-    },
-    {
-      "text": "**Making Tax Digital VAT groups** - (sage.com) Making Tax Digital for VAT groups: Returns and digital links",
-      "url": "https://www.sage.com/en-gb/blog/making-tax-digital-vat-groups/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
+    "https://www.sage.com/en-gb/blog/software-security-code-of-practice/",
     "https://www.sage.com/en-gb/blog/agentic-ai-in-practice-how-sage-is-reshaping-the-future-of-accounting-with-mtd/",
     "https://www.sage.com/en-gb/blog/plastic-packaging-tax-need-to-know/",
     "https://www.sage.com/en-gb/blog/cash-flow-forecast-template/",
-    "https://www.sage.com/en-gb/blog/making-tax-digital-deadlines/",
-    "https://www.sage.com/en-gb/blog/making-tax-digital-vat-groups/"
+    "https://www.sage.com/en-gb/blog/making-tax-digital-deadlines/"
   ],
   "note": "fallback (summary generation error)"
 }

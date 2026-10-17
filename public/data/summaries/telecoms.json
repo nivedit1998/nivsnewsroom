@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T13:23:02.940Z",
+  "generatedAt": "2026-10-17T12:17:31.766Z",
   "bullets": [
     {
       "text": "**Beyond coverage What digital inclusion** - (totaltele.com) Beyond coverage: What digital inclusion really requires",
@@ -8,13 +8,28 @@
     {
       "text": "**BT International adds security service** - (totaltele.com) BT International adds security service edge to its Global Fabric",
       "url": "https://totaltele.com/bt-international-adds-security-service-edge-to-its-global-fabric/"
+    },
+    {
+      "text": "**6G architecture looking like 5G** - (rcrwireless.com) 6G architecture is looking like 5G made smarter, not a clean slate",
+      "url": "https://rcrwireless.com/20261016/6g/6g-architecture-5g-made-smarter-ai"
+    },
+    {
+      "text": "**6G standards face fragmentation risk** - (rcrwireless.com) 6G standards face fragmentation risk amid spectrum and AI disputes, Téral says",
+      "url": "https://rcrwireless.com/20261016/6g/6g-standards-teral"
+    },
+    {
+      "text": "**Plume 2 0 Wi-Fi optimizer** - (rcrwireless.com) Plume 2.0 – from Wi-Fi optimizer to agentic operating layer for ISPs (Analyst Angle)",
+      "url": "https://rcrwireless.com/20261016/analyst-angle/plume-2-0-from-wi-fi-optimizer-to-agentic-operating-layer-for-isps-analyst-angle"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://totaltele.com/beyond-coverage-what-digital-inclusion-really-requires/",
-    "https://totaltele.com/bt-international-adds-security-service-edge-to-its-global-fabric/"
+    "https://totaltele.com/bt-international-adds-security-service-edge-to-its-global-fabric/",
+    "https://rcrwireless.com/20261016/6g/6g-architecture-5g-made-smarter-ai",
+    "https://rcrwireless.com/20261016/6g/6g-standards-teral",
+    "https://rcrwireless.com/20261016/analyst-angle/plume-2-0-from-wi-fi-optimizer-to-agentic-operating-layer-for-isps-analyst-angle"
   ],
   "note": "fallback (summary generation error)"
 }
