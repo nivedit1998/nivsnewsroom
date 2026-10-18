@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T12:17:49.937Z",
+  "generatedAt": "2026-10-18T12:41:40.252Z",
   "bullets": [
     {
       "text": "**Capco Molecule announce strategic partnership** - (capco.com) Capco and Molecule announce strategic partnership",
@@ -14,12 +14,12 @@
       "url": "https://www.capco.com/intelligence/capco-intelligence/liquidity-in-motion"
     },
     {
-      "text": "**Part 1 - Why most** - (capco.com) Part 1 - Why most financial institutions are getting 'AI for customer experience' wrong",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/why-most-financial-institutions-are-getting-ai-for-customer-experience-wrong"
+      "text": "**Asset tokenization 24x5 markets T** - (capco.com) Asset tokenization, 24x5 markets and the T+0 end-state",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/asset-tokenization-and-the-t0-end-state"
     },
     {
-      "text": "**Part 3 - Anatomy AI** - (capco.com) Part 3 - Anatomy of an AI chat that earns trust",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/anatomy-of-an-ai-chat-that-earns-trust"
+      "text": "**Part 1 - Why most** - (capco.com) Part 1 - Why most financial institutions are getting 'AI for customer experience' wrong",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/why-most-financial-institutions-are-getting-ai-for-customer-experience-wrong"
     }
   ],
   "promptVersion": "insights-v2",
@@ -28,8 +28,8 @@
     "https://www.capco.com/about-us/newsroom-and-media/capco-and-molecule-announce-strategic-partnership",
     "https://www.capco.com/intelligence/capco-intelligence/capcos-blueprint-for-ai-orchestrated-experiences",
     "https://www.capco.com/intelligence/capco-intelligence/liquidity-in-motion",
-    "https://www.capco.com/intelligence/capco-intelligence/why-most-financial-institutions-are-getting-ai-for-customer-experience-wrong",
-    "https://www.capco.com/intelligence/capco-intelligence/anatomy-of-an-ai-chat-that-earns-trust"
+    "https://www.capco.com/intelligence/capco-intelligence/asset-tokenization-and-the-t0-end-state",
+    "https://www.capco.com/intelligence/capco-intelligence/why-most-financial-institutions-are-getting-ai-for-customer-experience-wrong"
   ],
   "note": "fallback (summary generation error)"
 }

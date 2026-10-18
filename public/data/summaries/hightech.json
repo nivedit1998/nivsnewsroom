@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T12:17:23.489Z",
+  "generatedAt": "2026-10-18T12:41:13.618Z",
   "bullets": [
     {
       "text": "**Elorian s first AI model** - (techcrunch.com) Elorian’s first AI model wants to reason with images, not just about them",
@@ -10,16 +10,16 @@
       "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/"
     },
     {
+      "text": "**Voicemod s New Phone Gadget** - (cnet.com) Voicemod’s New Phone Gadget Changes Your ‘Sonic Identity’ for Mobile Games and Streaming",
+      "url": "https://www.cnet.com/tech/mobile/voicemod-phone-gadget-changes-sonic-identity-streaming-mobile-games/"
+    },
+    {
       "text": "**Pixelated 121 Googlebook first real** - (9to5google.com) Pixelated 121: Is Googlebook the first real post-smartphone PC?",
       "url": "https://9to5google.com/2026/10/16/pixelated-121-is-googlebook-the-first-real-post-smartphone-pc/"
     },
     {
       "text": "**Google restricts every free AI** - (9to5google.com) Google restricts every free AI Pro trial from Pixel & more compared to paid subscribers",
       "url": "https://9to5google.com/2026/10/16/google-restricts-every-free-ai-pro-trial-from-pixel-more-compared-to-paid-subscribers/"
-    },
-    {
-      "text": "**Security Bite Americans contradicting themselves** - (9to5mac.com) Security Bite: Americans are contradicting themselves around privacy",
-      "url": "https://9to5mac.com/2026/10/16/security-bite-americans-are-contradicting-themselves-around-privacy/"
     }
   ],
   "promptVersion": "insights-v2",
@@ -27,9 +27,9 @@
   "contextUrls": [
     "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
     "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
+    "https://www.cnet.com/tech/mobile/voicemod-phone-gadget-changes-sonic-identity-streaming-mobile-games/",
     "https://9to5google.com/2026/10/16/pixelated-121-is-googlebook-the-first-real-post-smartphone-pc/",
-    "https://9to5google.com/2026/10/16/google-restricts-every-free-ai-pro-trial-from-pixel-more-compared-to-paid-subscribers/",
-    "https://9to5mac.com/2026/10/16/security-bite-americans-are-contradicting-themselves-around-privacy/"
+    "https://9to5google.com/2026/10/16/google-restricts-every-free-ai-pro-trial-from-pixel-more-compared-to-paid-subscribers/"
   ],
   "note": "fallback (summary generation error)"
 }

@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-10-17T12:17:42.162Z",
+  "generatedAt": "2026-10-18T12:41:32.480Z",
   "bullets": [
     {
       "text": "**Shares Acquires Treezor Soci t** - (thefintechtimes.com) Shares Acquires Treezor from Société Générale in BaaS Expansion",
       "url": "https://thefintechtimes.com/shares-acquires-treezor-from-societe-generale-in-baas-expansion/"
     },
     {
-      "text": "**SCRYPT Takes Licensed Stablecoin Settlement** - (thefintechtimes.com) SCRYPT Takes Licensed Stablecoin Settlement Into East Africa",
-      "url": "https://thefintechtimes.com/scrypt-takes-licensed-stablecoin-settlement-into-east-africa/"
+      "text": "**UK Businesses File 700m CAT** - (thefintechtimes.com) UK Businesses File £700m CAT Claim over Visa and Mastercard EEA Fees",
+      "url": "https://thefintechtimes.com/uk-businesses-file-700m-cat-claim-over-visa-and-mastercard-eea-fees/"
+    },
+    {
+      "text": "**Ripple Prime Expands Into Prime** - (thefintechtimes.com) Ripple Prime Expands Into Prime Brokerage for Brevan Howard Funds",
+      "url": "https://thefintechtimes.com/ripple-prime-expands-into-prime-brokerage-for-brevan-howard-funds/"
     },
     {
       "text": "**Stripe Plasma team multi-currency stablecoin** - (finextra.com) Stripe and Plasma team on multi-currency stablecoin cards",
       "url": "https://www.finextra.com/pressarticle/111319/stripe-and-plasma-team-on-multi-currency-stablecoin-cards"
     },
     {
-      "text": "**Porsche Targets 15 Operating Margin** - (thefintechtimes.com) Porsche Targets 15% Operating Margin with 2035 Strategy Reset",
-      "url": "https://thefintechtimes.com/porsche-targets-15-operating-margin-with-2035-strategy-reset/"
-    },
-    {
-      "text": "**Stablecoin startups advance payments** - (paymentsdive.com) Stablecoin startups advance payments",
-      "url": "https://www.paymentsdive.com/news/stablecoin-startups-advance-payments/832871/"
+      "text": "**Three arrests major FCA operation** - (fca.org.uk) Three arrests in major FCA operation against criminal insider dealing ring",
+      "url": "https://www.fca.org.uk/news/press-releases/three-arrests-major-fca-operation-against-criminal-insider-dealing-ring"
     }
   ],
-  "inputHash": "60109db2c78856cee3925cf43cb38b34c8e200083d2c1b81a377bd8c793a8afc",
+  "inputHash": "a769335fd0f321b7ea4673f4859cafc17823f1912b13d442f31ca48bb4b01b92",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://thefintechtimes.com/shares-acquires-treezor-from-societe-generale-in-baas-expansion/",
-    "https://thefintechtimes.com/scrypt-takes-licensed-stablecoin-settlement-into-east-africa/",
+    "https://thefintechtimes.com/uk-businesses-file-700m-cat-claim-over-visa-and-mastercard-eea-fees/",
+    "https://thefintechtimes.com/ripple-prime-expands-into-prime-brokerage-for-brevan-howard-funds/",
     "https://www.finextra.com/pressarticle/111319/stripe-and-plasma-team-on-multi-currency-stablecoin-cards",
-    "https://thefintechtimes.com/porsche-targets-15-operating-margin-with-2035-strategy-reset/",
-    "https://www.paymentsdive.com/news/stablecoin-startups-advance-payments/832871/",
     "https://www.fca.org.uk/news/press-releases/three-arrests-major-fca-operation-against-criminal-insider-dealing-ring",
-    "https://www.finextra.com/pressarticle/111312/research-reveals-gaps-in-smes-stablecoin-adoption",
+    "https://www.paymentsdive.com/news/stablecoin-startups-advance-payments/832871/",
     "https://www.fca.org.uk/news/press-releases/fca-secures-money-back-victims-crypto-fraud",
+    "https://www.finextra.com/pressarticle/111312/research-reveals-gaps-in-smes-stablecoin-adoption",
     "https://www.finextra.com/newsarticle/48597/finextra--aci-worldwide-launch-global-survey-report-payments-2030-the-payoff-year",
     "https://www.fca.org.uk/news/news-stories/firms-confidence-satisfaction-and-trust-fca-rise"
   ],
