@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T12:41:21.671Z",
+  "generatedAt": "2026-10-19T15:45:53.326Z",
   "bullets": [
     {
       "text": "**Beyond coverage What digital inclusion** - (totaltele.com) Beyond coverage: What digital inclusion really requires",
@@ -14,12 +14,12 @@
       "url": "https://rcrwireless.com/20261016/6g/6g-architecture-5g-made-smarter-ai"
     },
     {
-      "text": "**6G standards face fragmentation risk** - (rcrwireless.com) 6G standards face fragmentation risk amid spectrum and AI disputes, Téral says",
-      "url": "https://rcrwireless.com/20261016/6g/6g-standards-teral"
+      "text": "**MaiaEdge PBC 100 series extends** - (totaltele.com) MaiaEdge PBC 100 series extends private Ethernet to customer premises",
+      "url": "https://totaltele.com/maiaedge-pbc-100-series-extends-private-ethernet-to-customer-premises/"
     },
     {
-      "text": "**Plume 2 0 Wi-Fi optimizer** - (rcrwireless.com) Plume 2.0 – from Wi-Fi optimizer to agentic operating layer for ISPs (Analyst Angle)",
-      "url": "https://rcrwireless.com/20261016/analyst-angle/plume-2-0-from-wi-fi-optimizer-to-agentic-operating-layer-for-isps-analyst-angle"
+      "text": "**6G standards face fragmentation risk** - (rcrwireless.com) 6G standards face fragmentation risk amid spectrum and AI disputes, Téral says",
+      "url": "https://rcrwireless.com/20261016/6g/6g-standards-teral"
     }
   ],
   "promptVersion": "insights-v2",
@@ -28,8 +28,8 @@
     "https://totaltele.com/beyond-coverage-what-digital-inclusion-really-requires/",
     "https://totaltele.com/bt-international-adds-security-service-edge-to-its-global-fabric/",
     "https://rcrwireless.com/20261016/6g/6g-architecture-5g-made-smarter-ai",
-    "https://rcrwireless.com/20261016/6g/6g-standards-teral",
-    "https://rcrwireless.com/20261016/analyst-angle/plume-2-0-from-wi-fi-optimizer-to-agentic-operating-layer-for-isps-analyst-angle"
+    "https://totaltele.com/maiaedge-pbc-100-series-extends-private-ethernet-to-customer-premises/",
+    "https://rcrwireless.com/20261016/6g/6g-standards-teral"
   ],
   "note": "fallback (summary generation error)"
 }

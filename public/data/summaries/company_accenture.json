@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T12:41:34.840Z",
+  "generatedAt": "2026-10-19T15:46:10.025Z",
   "bullets": [
     {
       "text": "**Reinvented Accenture** - (newsroom.accenture.com) Reinvented with Accenture",
@@ -8,6 +8,10 @@
     {
       "text": "**Accenture Launches Forward Deployed Engineering** - (newsroom.accenture.com) Accenture Launches Forward Deployed Engineering Program with Workday to Reinvent Work for the Agentic AI Era",
       "url": "https://newsroom.accenture.com/news/2026/accenture-launches-forward-deployed-engineering-program-with-workday-to-reinvent-work-for-the-agentic-ai-era"
+    },
+    {
+      "text": "**Accenture Federal Services Google Public** - (newsroom.accenture.com) Accenture Federal Services and Google Public Sector Establish Gemini Launchpads to Power Purpose-Built Agents Across Federal Missions",
+      "url": "https://newsroom.accenture.com/news/2026/accenture-federal-services-and-google-public-sector-establish-gemini-launchpads-to-power-purpose-built-agents-across-federal-missions"
     },
     {
       "text": "**UMass Memorial Health Announces Unified** - (newsroom.accenture.com) UMass Memorial Health Announces Unified Data Platform Multi-Year Initiative, Investments in AI-Powered Innovation in Partnership with Accenture and Microsoft",
@@ -19,6 +23,7 @@
   "contextUrls": [
     "https://newsroom.accenture.com/news/2020/change-powers-accentures-biggest-brand-move-in-a-decade",
     "https://newsroom.accenture.com/news/2026/accenture-launches-forward-deployed-engineering-program-with-workday-to-reinvent-work-for-the-agentic-ai-era",
+    "https://newsroom.accenture.com/news/2026/accenture-federal-services-and-google-public-sector-establish-gemini-launchpads-to-power-purpose-built-agents-across-federal-missions",
     "https://newsroom.accenture.com/news/2026/umass-memorial-health-announces-unified-data-platform-multi-year-initiative-investments-in-ai-powered-innovation-in-partnership-with-accenture-and-microsoft"
   ],
   "note": "fallback (summary generation error)"
