@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-10-19T15:46:06.463Z",
+  "generatedAt": "2026-10-20T13:43:15.064Z",
   "bullets": [
     {
-      "text": "**First Digital List Nasdaq via** - (thefintechtimes.com) First Digital to List on Nasdaq via SPAC Deal at $250m Valuation",
-      "url": "https://thefintechtimes.com/first-digital-to-list-on-nasdaq-via-spac-deal-at-250m-valuation/"
+      "text": "**FinTech Wales Meets Economy Minister** - (thefintechtimes.com) FinTech Wales Meets Economy Minister on Capital, Talent and Growth",
+      "url": "https://thefintechtimes.com/fintech-wales-meets-economy-minister-on-capital-talent-and-growth/"
     },
     {
-      "text": "**Ripple Prime Expands Into Prime** - (thefintechtimes.com) Ripple Prime Expands Into Prime Brokerage for Brevan Howard Funds",
-      "url": "https://thefintechtimes.com/ripple-prime-expands-into-prime-brokerage-for-brevan-howard-funds/"
+      "text": "**FXB Summit 2026 why cross-border** - (thefintechtimes.com) FXB Summit 2026: why cross-border payments need partners",
+      "url": "https://thefintechtimes.com/fxb-summit-2026-why-cross-border-payments-need-partners/"
     },
     {
-      "text": "**nCino Parlay Link Up Automate** - (thefintechtimes.com) nCino and Parlay Link Up to Automate SBA Lending Intake with AI",
-      "url": "https://thefintechtimes.com/ncino-and-parlay-link-up-to-automate-sba-lending-intake-with-ai/"
+      "text": "**Visa pilots AI agent payments** - (finextra.com) Visa pilots AI agent payments between buyer and supplier platforms",
+      "url": "https://www.finextra.com/newsarticle/48610/visa-pilots-ai-agent-payments-between-buyer-and-supplier-platforms"
+    },
+    {
+      "text": "**Interledger Foundation Maps Instant Payment** - (thefintechtimes.com) Interledger Foundation Maps Instant Payment Path for US CDFIs",
+      "url": "https://thefintechtimes.com/interledger-foundation-maps-instant-payment-path-for-us-cdfis/"
     },
     {
       "text": "**AI s real opportunity payments** - (paymentsdive.com) AI’s real opportunity in payments is giving experts back their time",
       "url": "https://www.paymentsdive.com/spons/ais-real-opportunity-in-payments-is-giving-experts-back-their-time/833034/"
-    },
-    {
-      "text": "**Building future finance age AI** - (fca.org.uk) Building the future of finance in the age of AI",
-      "url": "https://www.fca.org.uk/news/speeches/building-future-finance-age-ai"
     }
   ],
-  "inputHash": "c049151a1ec5360745cafc949a8b8fd2821391edd17c6bbbaf57492ff0812f9d",
+  "inputHash": "4b53ebe7278592a542621606e821e559d522d8b5b7d92752362730c6dca68137",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://thefintechtimes.com/first-digital-to-list-on-nasdaq-via-spac-deal-at-250m-valuation/",
-    "https://thefintechtimes.com/ripple-prime-expands-into-prime-brokerage-for-brevan-howard-funds/",
-    "https://thefintechtimes.com/ncino-and-parlay-link-up-to-automate-sba-lending-intake-with-ai/",
+    "https://thefintechtimes.com/fintech-wales-meets-economy-minister-on-capital-talent-and-growth/",
+    "https://thefintechtimes.com/fxb-summit-2026-why-cross-border-payments-need-partners/",
+    "https://www.finextra.com/newsarticle/48610/visa-pilots-ai-agent-payments-between-buyer-and-supplier-platforms",
+    "https://thefintechtimes.com/interledger-foundation-maps-instant-payment-path-for-us-cdfis/",
     "https://www.paymentsdive.com/spons/ais-real-opportunity-in-payments-is-giving-experts-back-their-time/833034/",
     "https://www.fca.org.uk/news/speeches/building-future-finance-age-ai",
-    "https://www.finextra.com/pressarticle/111340/kort-payments-to-buy-aptpay",
-    "https://www.finextra.com/videoarticle/3619/how-the-philippines-approached-tackling-fraud-and-accelerating-real-time-payments",
     "https://www.fca.org.uk/news/press-releases/three-arrests-major-fca-operation-against-criminal-insider-dealing-ring",
     "https://www.fca.org.uk/news/press-releases/fca-secures-money-back-victims-crypto-fraud",
-    "https://www.paymentsdive.com/news/utah-forms-digital-id-consortium/833351/"
+    "https://www.finextra.com/pressarticle/111366/finsei-selects-thredd-to-power-new-debit-offering",
+    "https://www.finextra.com/newsarticle/48615/google-cloud-outage-disrupts-multiple-bank-sites"
   ],
   "note": "fallback (summary generation error)"
 }

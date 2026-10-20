@@ -1,9 +1,13 @@
 {
-  "generatedAt": "2026-10-19T15:45:53.326Z",
+  "generatedAt": "2026-10-20T13:43:04.444Z",
   "bullets": [
     {
       "text": "**Beyond coverage What digital inclusion** - (totaltele.com) Beyond coverage: What digital inclusion really requires",
       "url": "https://totaltele.com/beyond-coverage-what-digital-inclusion-really-requires/"
+    },
+    {
+      "text": "**Regulators look WRC-27 settle direct-to-device** - (rcrwireless.com) Regulators look to WRC-27 to settle direct-to-device spectrum rules",
+      "url": "https://rcrwireless.com/20261019/networks/wrc-27-direct-to-device-spectrum"
     },
     {
       "text": "**BT International adds security service** - (totaltele.com) BT International adds security service edge to its Global Fabric",
@@ -16,20 +20,16 @@
     {
       "text": "**MaiaEdge PBC 100 series extends** - (totaltele.com) MaiaEdge PBC 100 series extends private Ethernet to customer premises",
       "url": "https://totaltele.com/maiaedge-pbc-100-series-extends-private-ethernet-to-customer-premises/"
-    },
-    {
-      "text": "**6G standards face fragmentation risk** - (rcrwireless.com) 6G standards face fragmentation risk amid spectrum and AI disputes, Téral says",
-      "url": "https://rcrwireless.com/20261016/6g/6g-standards-teral"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://totaltele.com/beyond-coverage-what-digital-inclusion-really-requires/",
+    "https://rcrwireless.com/20261019/networks/wrc-27-direct-to-device-spectrum",
     "https://totaltele.com/bt-international-adds-security-service-edge-to-its-global-fabric/",
     "https://rcrwireless.com/20261016/6g/6g-architecture-5g-made-smarter-ai",
-    "https://totaltele.com/maiaedge-pbc-100-series-extends-private-ethernet-to-customer-premises/",
-    "https://rcrwireless.com/20261016/6g/6g-standards-teral"
+    "https://totaltele.com/maiaedge-pbc-100-series-extends-private-ethernet-to-customer-premises/"
   ],
   "note": "fallback (summary generation error)"
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T15:46:15.544Z",
+  "generatedAt": "2026-10-20T13:43:22.137Z",
   "bullets": [
     {
       "text": "**Capco Molecule announce strategic partnership** - (capco.com) Capco and Molecule announce strategic partnership",
@@ -10,12 +10,12 @@
       "url": "https://www.capco.com/intelligence/capco-intelligence/capcos-blueprint-for-ai-orchestrated-experiences"
     },
     {
-      "text": "**Liquidity motion** - (capco.com) Liquidity in motion",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/liquidity-in-motion"
-    },
-    {
       "text": "**Asset tokenization 24x5 markets T** - (capco.com) Asset tokenization, 24x5 markets and the T+0 end-state",
       "url": "https://www.capco.com/intelligence/capco-intelligence/asset-tokenization-and-the-t0-end-state"
+    },
+    {
+      "text": "**Liquidity motion** - (capco.com) Liquidity in motion",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/liquidity-in-motion"
     },
     {
       "text": "**Part 1 - Why most** - (capco.com) Part 1 - Why most financial institutions are getting 'AI for customer experience' wrong",
@@ -27,8 +27,8 @@
   "contextUrls": [
     "https://www.capco.com/about-us/newsroom-and-media/capco-and-molecule-announce-strategic-partnership",
     "https://www.capco.com/intelligence/capco-intelligence/capcos-blueprint-for-ai-orchestrated-experiences",
-    "https://www.capco.com/intelligence/capco-intelligence/liquidity-in-motion",
     "https://www.capco.com/intelligence/capco-intelligence/asset-tokenization-and-the-t0-end-state",
+    "https://www.capco.com/intelligence/capco-intelligence/liquidity-in-motion",
     "https://www.capco.com/intelligence/capco-intelligence/why-most-financial-institutions-are-getting-ai-for-customer-experience-wrong"
   ],
   "note": "fallback (summary generation error)"
