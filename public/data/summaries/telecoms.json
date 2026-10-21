@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-10-20T13:43:04.444Z",
+  "generatedAt": "2026-10-21T13:59:41.532Z",
   "bullets": [
-    {
-      "text": "**Beyond coverage What digital inclusion** - (totaltele.com) Beyond coverage: What digital inclusion really requires",
-      "url": "https://totaltele.com/beyond-coverage-what-digital-inclusion-really-requires/"
-    },
     {
       "text": "**Regulators look WRC-27 settle direct-to-device** - (rcrwireless.com) Regulators look to WRC-27 to settle direct-to-device spectrum rules",
       "url": "https://rcrwireless.com/20261019/networks/wrc-27-direct-to-device-spectrum"
     },
     {
-      "text": "**BT International adds security service** - (totaltele.com) BT International adds security service edge to its Global Fabric",
-      "url": "https://totaltele.com/bt-international-adds-security-service-edge-to-its-global-fabric/"
+      "text": "**Ericsson sees six-fold jump uplink** - (rcrwireless.com) Ericsson sees six-fold jump in uplink demand, says not to make 5G mistakes with 6G",
+      "url": "https://rcrwireless.com/20261020/6g/ericsson-sees-six-fold-jump-in-uplink-demand-says-not-to-make-5g-mistakes-with-6g"
     },
     {
-      "text": "**6G architecture looking like 5G** - (rcrwireless.com) 6G architecture is looking like 5G made smarter, not a clean slate",
-      "url": "https://rcrwireless.com/20261016/6g/6g-architecture-5g-made-smarter-ai"
+      "text": "**NTN s unsolved problem proving** - (rcrwireless.com) NTN’s unsolved problem: proving seamless connectivity on the device",
+      "url": "https://rcrwireless.com/20261020/networks/ntn-seamless-connectivity-testing"
+    },
+    {
+      "text": "**6G progress minus business case** - (rcrwireless.com) 6G progress, minus the business case – plus AI-RAN, D2D, Industry 4.0 (Telco Diary)",
+      "url": "https://rcrwireless.com/20261020/opinion/6g-progress-minus-the-business-case-ai-ran-d2d-industry-4-0-telco-diary"
     },
     {
       "text": "**MaiaEdge PBC 100 series extends** - (totaltele.com) MaiaEdge PBC 100 series extends private Ethernet to customer premises",
@@ -25,10 +25,10 @@
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://totaltele.com/beyond-coverage-what-digital-inclusion-really-requires/",
     "https://rcrwireless.com/20261019/networks/wrc-27-direct-to-device-spectrum",
-    "https://totaltele.com/bt-international-adds-security-service-edge-to-its-global-fabric/",
-    "https://rcrwireless.com/20261016/6g/6g-architecture-5g-made-smarter-ai",
+    "https://rcrwireless.com/20261020/6g/ericsson-sees-six-fold-jump-in-uplink-demand-says-not-to-make-5g-mistakes-with-6g",
+    "https://rcrwireless.com/20261020/networks/ntn-seamless-connectivity-testing",
+    "https://rcrwireless.com/20261020/opinion/6g-progress-minus-the-business-case-ai-ran-d2d-industry-4-0-telco-diary",
     "https://totaltele.com/maiaedge-pbc-100-series-extends-private-ethernet-to-customer-premises/"
   ],
   "note": "fallback (summary generation error)"

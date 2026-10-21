@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-10-20T13:42:52.116Z",
+  "generatedAt": "2026-10-21T13:59:32.902Z",
   "bullets": [
-    {
-      "text": "**Tenstorrent hits 6 2B valuation** - (techcrunch.com) Tenstorrent hits $6.2B valuation to scale open-weight AI chips",
-      "url": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/"
-    },
-    {
-      "text": "**Tolan snags 30M its AI** - (techcrunch.com) Tolan snags $30M for its AI companion that helps users navigate life",
-      "url": "https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life/"
-    },
-    {
-      "text": "**Voicemod s New Phone Gadget** - (cnet.com) Voicemod’s New Phone Gadget Changes Your ‘Sonic Identity’ for Mobile Games and Streaming",
-      "url": "https://www.cnet.com/tech/mobile/voicemod-phone-gadget-changes-sonic-identity-streaming-mobile-games/"
-    },
     {
       "text": "**Pixelated 121 Googlebook first real** - (9to5google.com) Pixelated 121: Is Googlebook the first real post-smartphone PC?",
       "url": "https://9to5google.com/2026/10/16/pixelated-121-is-googlebook-the-first-real-post-smartphone-pc/"
     },
     {
+      "text": "**SpaceX s AI business beating** - (techcrunch.com) SpaceX’s AI business is beating expectations",
+      "url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/"
+    },
+    {
       "text": "**Google restricts every free AI** - (9to5google.com) Google restricts every free AI Pro trial from Pixel & more compared to paid subscribers",
       "url": "https://9to5google.com/2026/10/16/google-restricts-every-free-ai-pro-trial-from-pixel-more-compared-to-paid-subscribers/"
+    },
+    {
+      "text": "**Security Bite Americans contradicting themselves** - (9to5mac.com) Security Bite: Americans are contradicting themselves around privacy",
+      "url": "https://9to5mac.com/2026/10/16/security-bite-americans-are-contradicting-themselves-around-privacy/"
+    },
+    {
+      "text": "**Google has joined Amazon attacking** - (techcrunch.com) Google has joined Amazon in attacking Nvidia’s stronghold with AI app developers",
+      "url": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/",
-    "https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life/",
-    "https://www.cnet.com/tech/mobile/voicemod-phone-gadget-changes-sonic-identity-streaming-mobile-games/",
     "https://9to5google.com/2026/10/16/pixelated-121-is-googlebook-the-first-real-post-smartphone-pc/",
-    "https://9to5google.com/2026/10/16/google-restricts-every-free-ai-pro-trial-from-pixel-more-compared-to-paid-subscribers/"
+    "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
+    "https://9to5google.com/2026/10/16/google-restricts-every-free-ai-pro-trial-from-pixel-more-compared-to-paid-subscribers/",
+    "https://9to5mac.com/2026/10/16/security-bite-americans-are-contradicting-themselves-around-privacy/",
+    "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/"
   ],
   "note": "fallback (summary generation error)"
 }

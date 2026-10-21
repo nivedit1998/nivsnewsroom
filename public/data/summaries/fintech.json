@@ -1,6 +1,10 @@
 {
-  "generatedAt": "2026-10-20T13:43:15.064Z",
+  "generatedAt": "2026-10-21T13:59:52.574Z",
   "bullets": [
+    {
+      "text": "**QED s Victoria Zuo Flags** - (thefintechtimes.com) QED’s Victoria Zuo Flags Trust Gap in Agentic Payments",
+      "url": "https://thefintechtimes.com/qeds-victoria-zuo-flags-trust-gap-in-agentic-payments/"
+    },
     {
       "text": "**FinTech Wales Meets Economy Minister** - (thefintechtimes.com) FinTech Wales Meets Economy Minister on Capital, Talent and Growth",
       "url": "https://thefintechtimes.com/fintech-wales-meets-economy-minister-on-capital-talent-and-growth/"
@@ -10,32 +14,28 @@
       "url": "https://thefintechtimes.com/fxb-summit-2026-why-cross-border-payments-need-partners/"
     },
     {
-      "text": "**Visa pilots AI agent payments** - (finextra.com) Visa pilots AI agent payments between buyer and supplier platforms",
-      "url": "https://www.finextra.com/newsarticle/48610/visa-pilots-ai-agent-payments-between-buyer-and-supplier-platforms"
+      "text": "**Ramp seeks bank charter** - (paymentsdive.com) Ramp seeks bank charter",
+      "url": "https://www.paymentsdive.com/news/ramp-applies-national-trust-bank-charter-occ-fintech-icba/833467/"
     },
     {
-      "text": "**Interledger Foundation Maps Instant Payment** - (thefintechtimes.com) Interledger Foundation Maps Instant Payment Path for US CDFIs",
-      "url": "https://thefintechtimes.com/interledger-foundation-maps-instant-payment-path-for-us-cdfis/"
-    },
-    {
-      "text": "**AI s real opportunity payments** - (paymentsdive.com) AI’s real opportunity in payments is giving experts back their time",
-      "url": "https://www.paymentsdive.com/spons/ais-real-opportunity-in-payments-is-giving-experts-back-their-time/833034/"
+      "text": "**TreviPay expands Pay Invoice availability** - (finextra.com) TreviPay expands Pay By Invoice availability for Walmart Business customers",
+      "url": "https://www.finextra.com/pressarticle/111390/trevipay-expands-pay-by-invoice-availability-for-walmart-business-customers"
     }
   ],
-  "inputHash": "4b53ebe7278592a542621606e821e559d522d8b5b7d92752362730c6dca68137",
+  "inputHash": "17a5981f8dbcebfd899c6f59ea2f1f2ee3c148295170225a00d42847b36187df",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
+    "https://thefintechtimes.com/qeds-victoria-zuo-flags-trust-gap-in-agentic-payments/",
     "https://thefintechtimes.com/fintech-wales-meets-economy-minister-on-capital-talent-and-growth/",
     "https://thefintechtimes.com/fxb-summit-2026-why-cross-border-payments-need-partners/",
-    "https://www.finextra.com/newsarticle/48610/visa-pilots-ai-agent-payments-between-buyer-and-supplier-platforms",
-    "https://thefintechtimes.com/interledger-foundation-maps-instant-payment-path-for-us-cdfis/",
-    "https://www.paymentsdive.com/spons/ais-real-opportunity-in-payments-is-giving-experts-back-their-time/833034/",
+    "https://www.paymentsdive.com/news/ramp-applies-national-trust-bank-charter-occ-fintech-icba/833467/",
+    "https://www.finextra.com/pressarticle/111390/trevipay-expands-pay-by-invoice-availability-for-walmart-business-customers",
+    "https://www.paymentsdive.com/news/butter-subscription-payments-sold-acquisition/833415/",
     "https://www.fca.org.uk/news/speeches/building-future-finance-age-ai",
+    "https://www.paymentsdive.com/spons/ais-real-opportunity-in-payments-is-giving-experts-back-their-time/833034/",
     "https://www.fca.org.uk/news/press-releases/three-arrests-major-fca-operation-against-criminal-insider-dealing-ring",
-    "https://www.fca.org.uk/news/press-releases/fca-secures-money-back-victims-crypto-fraud",
-    "https://www.finextra.com/pressarticle/111366/finsei-selects-thredd-to-power-new-debit-offering",
-    "https://www.finextra.com/newsarticle/48615/google-cloud-outage-disrupts-multiple-bank-sites"
+    "https://www.fca.org.uk/news/speeches/reshaping-regulation-deliberately"
   ],
   "note": "fallback (summary generation error)"
 }
