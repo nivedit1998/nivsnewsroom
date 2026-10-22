@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-10-21T13:59:52.574Z",
+  "generatedAt": "2026-10-22T13:57:36.238Z",
   "bullets": [
     {
-      "text": "**QED s Victoria Zuo Flags** - (thefintechtimes.com) QED’s Victoria Zuo Flags Trust Gap in Agentic Payments",
-      "url": "https://thefintechtimes.com/qeds-victoria-zuo-flags-trust-gap-in-agentic-payments/"
+      "text": "**Profile Anna Wallace CEO CFIT** - (thefintechtimes.com) In Profile: Anna Wallace, CEO at CFIT",
+      "url": "https://thefintechtimes.com/in-profile-anna-wallace-ceo-at-cfit/"
     },
     {
-      "text": "**FinTech Wales Meets Economy Minister** - (thefintechtimes.com) FinTech Wales Meets Economy Minister on Capital, Talent and Growth",
-      "url": "https://thefintechtimes.com/fintech-wales-meets-economy-minister-on-capital-talent-and-growth/"
+      "text": "**Can Nubank Really Crack US** - (thefintechtimes.com) Can Nubank Really Crack the US Market?",
+      "url": "https://thefintechtimes.com/can-nubank-really-crack-the-us-market/"
     },
     {
-      "text": "**FXB Summit 2026 why cross-border** - (thefintechtimes.com) FXB Summit 2026: why cross-border payments need partners",
-      "url": "https://thefintechtimes.com/fxb-summit-2026-why-cross-border-payments-need-partners/"
+      "text": "**ADIB Launches AED 1 75bn** - (thefintechtimes.com) ADIB Launches AED 1.75bn Rights Issue to Fund Vision 2035 Growth",
+      "url": "https://thefintechtimes.com/adib-launches-aed-1-75bn-rights-issue-to-fund-vision-2035-growth/"
+    },
+    {
+      "text": "**Ebanx launches recurring payments through** - (finextra.com) Ebanx launches recurring payments through OPay in Nigeria",
+      "url": "https://www.finextra.com/pressarticle/111408/ebanx-launches-recurring-payments-through-opay-in-nigeria"
     },
     {
       "text": "**Ramp seeks bank charter** - (paymentsdive.com) Ramp seeks bank charter",
       "url": "https://www.paymentsdive.com/news/ramp-applies-national-trust-bank-charter-occ-fintech-icba/833467/"
-    },
-    {
-      "text": "**TreviPay expands Pay Invoice availability** - (finextra.com) TreviPay expands Pay By Invoice availability for Walmart Business customers",
-      "url": "https://www.finextra.com/pressarticle/111390/trevipay-expands-pay-by-invoice-availability-for-walmart-business-customers"
     }
   ],
-  "inputHash": "17a5981f8dbcebfd899c6f59ea2f1f2ee3c148295170225a00d42847b36187df",
+  "inputHash": "0833f199396ec53c34337641aaaafbf5d736c6a50e61cfc915034e3a26567822",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://thefintechtimes.com/qeds-victoria-zuo-flags-trust-gap-in-agentic-payments/",
-    "https://thefintechtimes.com/fintech-wales-meets-economy-minister-on-capital-talent-and-growth/",
-    "https://thefintechtimes.com/fxb-summit-2026-why-cross-border-payments-need-partners/",
+    "https://thefintechtimes.com/in-profile-anna-wallace-ceo-at-cfit/",
+    "https://thefintechtimes.com/can-nubank-really-crack-the-us-market/",
+    "https://thefintechtimes.com/adib-launches-aed-1-75bn-rights-issue-to-fund-vision-2035-growth/",
+    "https://www.finextra.com/pressarticle/111408/ebanx-launches-recurring-payments-through-opay-in-nigeria",
     "https://www.paymentsdive.com/news/ramp-applies-national-trust-bank-charter-occ-fintech-icba/833467/",
-    "https://www.finextra.com/pressarticle/111390/trevipay-expands-pay-by-invoice-availability-for-walmart-business-customers",
-    "https://www.paymentsdive.com/news/butter-subscription-payments-sold-acquisition/833415/",
     "https://www.fca.org.uk/news/speeches/building-future-finance-age-ai",
+    "https://www.paymentsdive.com/news/butter-subscription-payments-sold-acquisition/833415/",
     "https://www.paymentsdive.com/spons/ais-real-opportunity-in-payments-is-giving-experts-back-their-time/833034/",
-    "https://www.fca.org.uk/news/press-releases/three-arrests-major-fca-operation-against-criminal-insider-dealing-ring",
-    "https://www.fca.org.uk/news/speeches/reshaping-regulation-deliberately"
+    "https://www.finextra.com/pressarticle/111412/aurionpro-transit-and-mastercard-team-on-public-transport-contactless-payments-in-north-america",
+    "https://www.fca.org.uk/news/press-releases/three-arrests-major-fca-operation-against-criminal-insider-dealing-ring"
   ],
   "note": "fallback (summary generation error)"
 }

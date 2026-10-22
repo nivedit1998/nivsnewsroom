@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-10-21T13:59:32.902Z",
+  "generatedAt": "2026-10-22T13:57:13.027Z",
   "bullets": [
+    {
+      "text": "**Privacy Company Just Saved Clearest** - (cnet.com) A Privacy Company Just Saved the Clearest Flock Surveillance Map I’ve Seen",
+      "url": "https://www.cnet.com/news/privacy/proton-hosts-flock-surveillance-map/"
+    },
     {
       "text": "**Pixelated 121 Googlebook first real** - (9to5google.com) Pixelated 121: Is Googlebook the first real post-smartphone PC?",
       "url": "https://9to5google.com/2026/10/16/pixelated-121-is-googlebook-the-first-real-post-smartphone-pc/"
     },
     {
-      "text": "**SpaceX s AI business beating** - (techcrunch.com) SpaceX’s AI business is beating expectations",
-      "url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/"
+      "text": "**Recursive launches Flint laptop coding** - (techcrunch.com) Recursive launches Flint, a laptop coding model it says was largely built by AI",
+      "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/"
     },
     {
-      "text": "**Google restricts every free AI** - (9to5google.com) Google restricts every free AI Pro trial from Pixel & more compared to paid subscribers",
-      "url": "https://9to5google.com/2026/10/16/google-restricts-every-free-ai-pro-trial-from-pixel-more-compared-to-paid-subscribers/"
+      "text": "**While Amazon blocks AI agents** - (techcrunch.com) While Amazon blocks AI agents, Walmart rolls out the welcome mat",
+      "url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/"
     },
     {
-      "text": "**Security Bite Americans contradicting themselves** - (9to5mac.com) Security Bite: Americans are contradicting themselves around privacy",
-      "url": "https://9to5mac.com/2026/10/16/security-bite-americans-are-contradicting-themselves-around-privacy/"
-    },
-    {
-      "text": "**Google has joined Amazon attacking** - (techcrunch.com) Google has joined Amazon in attacking Nvidia’s stronghold with AI app developers",
-      "url": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/"
+      "text": "**INMO GO3 smart glasses pack** - (9to5google.com) INMO GO3 smart glasses pack a display and Gemini integration with clever camera privacy",
+      "url": "https://9to5google.com/2026/10/21/inmo-go3-smart-glasses-pack-a-display-and-gemini-integration-with-clever-camera-privacy/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
+    "https://www.cnet.com/news/privacy/proton-hosts-flock-surveillance-map/",
     "https://9to5google.com/2026/10/16/pixelated-121-is-googlebook-the-first-real-post-smartphone-pc/",
-    "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
-    "https://9to5google.com/2026/10/16/google-restricts-every-free-ai-pro-trial-from-pixel-more-compared-to-paid-subscribers/",
-    "https://9to5mac.com/2026/10/16/security-bite-americans-are-contradicting-themselves-around-privacy/",
-    "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/"
+    "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
+    "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
+    "https://9to5google.com/2026/10/21/inmo-go3-smart-glasses-pack-a-display-and-gemini-integration-with-clever-camera-privacy/"
   ],
   "note": "fallback (summary generation error)"
 }

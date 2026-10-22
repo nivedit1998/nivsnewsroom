@@ -1,13 +1,17 @@
 {
-  "generatedAt": "2026-10-21T13:59:41.532Z",
+  "generatedAt": "2026-10-22T13:57:25.840Z",
   "bullets": [
-    {
-      "text": "**Regulators look WRC-27 settle direct-to-device** - (rcrwireless.com) Regulators look to WRC-27 to settle direct-to-device spectrum rules",
-      "url": "https://rcrwireless.com/20261019/networks/wrc-27-direct-to-device-spectrum"
-    },
     {
       "text": "**Ericsson sees six-fold jump uplink** - (rcrwireless.com) Ericsson sees six-fold jump in uplink demand, says not to make 5G mistakes with 6G",
       "url": "https://rcrwireless.com/20261020/6g/ericsson-sees-six-fold-jump-in-uplink-demand-says-not-to-make-5g-mistakes-with-6g"
+    },
+    {
+      "text": "**It s 2040 How new** - (rcrwireless.com) It’s 2040. How are new devices helping decade-old 6G networks keep up with AI demand?",
+      "url": "https://rcrwireless.com/20261022/ai/6g-ai-demand-qualcomm"
+    },
+    {
+      "text": "**6G ubiquity means service demand** - (rcrwireless.com) 6G ubiquity means service on demand, not broadband everywhere",
+      "url": "https://rcrwireless.com/20261021/6g/6g-ubiquity-service-on-demand"
     },
     {
       "text": "**NTN s unsolved problem proving** - (rcrwireless.com) NTN’s unsolved problem: proving seamless connectivity on the device",
@@ -16,20 +20,16 @@
     {
       "text": "**6G progress minus business case** - (rcrwireless.com) 6G progress, minus the business case – plus AI-RAN, D2D, Industry 4.0 (Telco Diary)",
       "url": "https://rcrwireless.com/20261020/opinion/6g-progress-minus-the-business-case-ai-ran-d2d-industry-4-0-telco-diary"
-    },
-    {
-      "text": "**MaiaEdge PBC 100 series extends** - (totaltele.com) MaiaEdge PBC 100 series extends private Ethernet to customer premises",
-      "url": "https://totaltele.com/maiaedge-pbc-100-series-extends-private-ethernet-to-customer-premises/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://rcrwireless.com/20261019/networks/wrc-27-direct-to-device-spectrum",
     "https://rcrwireless.com/20261020/6g/ericsson-sees-six-fold-jump-in-uplink-demand-says-not-to-make-5g-mistakes-with-6g",
+    "https://rcrwireless.com/20261022/ai/6g-ai-demand-qualcomm",
+    "https://rcrwireless.com/20261021/6g/6g-ubiquity-service-on-demand",
     "https://rcrwireless.com/20261020/networks/ntn-seamless-connectivity-testing",
-    "https://rcrwireless.com/20261020/opinion/6g-progress-minus-the-business-case-ai-ran-d2d-industry-4-0-telco-diary",
-    "https://totaltele.com/maiaedge-pbc-100-series-extends-private-ethernet-to-customer-premises/"
+    "https://rcrwireless.com/20261020/opinion/6g-progress-minus-the-business-case-ai-ran-d2d-industry-4-0-telco-diary"
   ],
   "note": "fallback (summary generation error)"
 }
