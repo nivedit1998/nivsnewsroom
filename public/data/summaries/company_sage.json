@@ -1,17 +1,9 @@
 {
-  "generatedAt": "2026-10-22T13:57:46.796Z",
+  "generatedAt": "2026-10-23T13:39:49.331Z",
   "bullets": [
     {
       "text": "**Building trust resilience through secure** - (sage.com) Building trust and resilience through secure software practices",
       "url": "https://www.sage.com/en-gb/blog/software-security-code-of-practice/"
-    },
-    {
-      "text": "**Plastic Packaging Tax What businesses** - (sage.com) Plastic Packaging Tax: What businesses need to know, including 2027 updates",
-      "url": "https://www.sage.com/en-gb/blog/plastic-packaging-tax-need-to-know/"
-    },
-    {
-      "text": "**How get ready Making Tax** - (sage.com) How to get ready for Making Tax Digital for VAT",
-      "url": "https://www.sage.com/en-gb/blog/voluntary-vat-register-making-tax-digital/"
     },
     {
       "text": "**Beyond brief Where do accountants** - (sage.com) Beyond the brief: Where do accountants’ hidden hours go?",
@@ -22,8 +14,6 @@
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://www.sage.com/en-gb/blog/software-security-code-of-practice/",
-    "https://www.sage.com/en-gb/blog/plastic-packaging-tax-need-to-know/",
-    "https://www.sage.com/en-gb/blog/voluntary-vat-register-making-tax-digital/",
     "https://www.sage.com/en-gb/blog/hidden-hours-research-accountants/"
   ],
   "note": "fallback (summary generation error)"

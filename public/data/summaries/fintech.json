@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-10-22T13:57:36.238Z",
+  "generatedAt": "2026-10-23T13:39:40.404Z",
   "bullets": [
     {
       "text": "**Profile Anna Wallace CEO CFIT** - (thefintechtimes.com) In Profile: Anna Wallace, CEO at CFIT",
       "url": "https://thefintechtimes.com/in-profile-anna-wallace-ceo-at-cfit/"
     },
     {
-      "text": "**Can Nubank Really Crack US** - (thefintechtimes.com) Can Nubank Really Crack the US Market?",
-      "url": "https://thefintechtimes.com/can-nubank-really-crack-the-us-market/"
+      "text": "**HSBC launches first stablecoin** - (finextra.com) HSBC launches first stablecoin",
+      "url": "https://www.finextra.com/newsarticle/48638/hsbc-launches-first-stablecoin"
     },
     {
-      "text": "**ADIB Launches AED 1 75bn** - (thefintechtimes.com) ADIB Launches AED 1.75bn Rights Issue to Fund Vision 2035 Growth",
-      "url": "https://thefintechtimes.com/adib-launches-aed-1-75bn-rights-issue-to-fund-vision-2035-growth/"
-    },
-    {
-      "text": "**Ebanx launches recurring payments through** - (finextra.com) Ebanx launches recurring payments through OPay in Nigeria",
-      "url": "https://www.finextra.com/pressarticle/111408/ebanx-launches-recurring-payments-through-opay-in-nigeria"
+      "text": "**MiCA 100 days Euro Stablecoins** - (thefintechtimes.com) MiCA at 100 days: Euro Stablecoins Rise as OTC Flows Diverge",
+      "url": "https://thefintechtimes.com/mica-at-100-days-euro-stablecoins-rise-as-otc-flows-diverge/"
     },
     {
       "text": "**Ramp seeks bank charter** - (paymentsdive.com) Ramp seeks bank charter",
       "url": "https://www.paymentsdive.com/news/ramp-applies-national-trust-bank-charter-occ-fintech-icba/833467/"
+    },
+    {
+      "text": "**Bybit Adds Stock Trading Tokenised** - (thefintechtimes.com) Bybit Adds Stock Trading and Tokenised Equities in TradFi push",
+      "url": "https://thefintechtimes.com/bybit-adds-stock-trading-and-tokenised-equities-in-tradfi-push/"
     }
   ],
-  "inputHash": "0833f199396ec53c34337641aaaafbf5d736c6a50e61cfc915034e3a26567822",
+  "inputHash": "04c5374a9859b77d76600aff9d8333525c2d8e54f7508117a0dba57598657da2",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://thefintechtimes.com/in-profile-anna-wallace-ceo-at-cfit/",
-    "https://thefintechtimes.com/can-nubank-really-crack-the-us-market/",
-    "https://thefintechtimes.com/adib-launches-aed-1-75bn-rights-issue-to-fund-vision-2035-growth/",
-    "https://www.finextra.com/pressarticle/111408/ebanx-launches-recurring-payments-through-opay-in-nigeria",
+    "https://www.finextra.com/newsarticle/48638/hsbc-launches-first-stablecoin",
+    "https://thefintechtimes.com/mica-at-100-days-euro-stablecoins-rise-as-otc-flows-diverge/",
     "https://www.paymentsdive.com/news/ramp-applies-national-trust-bank-charter-occ-fintech-icba/833467/",
+    "https://thefintechtimes.com/bybit-adds-stock-trading-and-tokenised-equities-in-tradfi-push/",
+    "https://www.finextra.com/newsarticle/48639/us-fintech-coast-secures-35m-for-physical-economy-payments-platform",
     "https://www.fca.org.uk/news/speeches/building-future-finance-age-ai",
+    "https://www.paymentsdive.com/news/cross-river-acquisition-accrue-fintech-branded-wallet-loyalty/833670/",
     "https://www.paymentsdive.com/news/butter-subscription-payments-sold-acquisition/833415/",
-    "https://www.paymentsdive.com/spons/ais-real-opportunity-in-payments-is-giving-experts-back-their-time/833034/",
-    "https://www.finextra.com/pressarticle/111412/aurionpro-transit-and-mastercard-team-on-public-transport-contactless-payments-in-north-america",
     "https://www.fca.org.uk/news/press-releases/three-arrests-major-fca-operation-against-criminal-insider-dealing-ring"
   ],
   "note": "fallback (summary generation error)"

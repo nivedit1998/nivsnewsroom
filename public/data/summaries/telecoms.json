@@ -1,9 +1,17 @@
 {
-  "generatedAt": "2026-10-22T13:57:25.840Z",
+  "generatedAt": "2026-10-23T13:39:29.351Z",
   "bullets": [
     {
-      "text": "**Ericsson sees six-fold jump uplink** - (rcrwireless.com) Ericsson sees six-fold jump in uplink demand, says not to make 5G mistakes with 6G",
-      "url": "https://rcrwireless.com/20261020/6g/ericsson-sees-six-fold-jump-in-uplink-demand-says-not-to-make-5g-mistakes-with-6g"
+      "text": "**Nokia says AI-RAN nears commercial** - (rcrwireless.com) Nokia says AI-RAN nears commercial deployment as radio networks grow 10%",
+      "url": "https://rcrwireless.com/20261022/networks/nokia-ai-ran-networks"
+    },
+    {
+      "text": "**6G spectrum sharing gains importance** - (rcrwireless.com) 6G spectrum sharing gains importance as testing complexity rises",
+      "url": "https://rcrwireless.com/20261023/6g/6g-spectrum-sharing-testing"
+    },
+    {
+      "text": "**New fiber buys AI grid** - (rcrwireless.com) New fiber buys, AI grid systems, Starlink broadsides – as AT&T dusts off a decent quarter",
+      "url": "https://rcrwireless.com/20261022/carriers/new-fiber-buys-ai-grid-systems-starlink-broadsides-as-att-dusts-off-a-decent-quarter"
     },
     {
       "text": "**It s 2040 How new** - (rcrwireless.com) It’s 2040. How are new devices helping decade-old 6G networks keep up with AI demand?",
@@ -12,24 +20,16 @@
     {
       "text": "**6G ubiquity means service demand** - (rcrwireless.com) 6G ubiquity means service on demand, not broadband everywhere",
       "url": "https://rcrwireless.com/20261021/6g/6g-ubiquity-service-on-demand"
-    },
-    {
-      "text": "**NTN s unsolved problem proving** - (rcrwireless.com) NTN’s unsolved problem: proving seamless connectivity on the device",
-      "url": "https://rcrwireless.com/20261020/networks/ntn-seamless-connectivity-testing"
-    },
-    {
-      "text": "**6G progress minus business case** - (rcrwireless.com) 6G progress, minus the business case – plus AI-RAN, D2D, Industry 4.0 (Telco Diary)",
-      "url": "https://rcrwireless.com/20261020/opinion/6g-progress-minus-the-business-case-ai-ran-d2d-industry-4-0-telco-diary"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://rcrwireless.com/20261020/6g/ericsson-sees-six-fold-jump-in-uplink-demand-says-not-to-make-5g-mistakes-with-6g",
+    "https://rcrwireless.com/20261022/networks/nokia-ai-ran-networks",
+    "https://rcrwireless.com/20261023/6g/6g-spectrum-sharing-testing",
+    "https://rcrwireless.com/20261022/carriers/new-fiber-buys-ai-grid-systems-starlink-broadsides-as-att-dusts-off-a-decent-quarter",
     "https://rcrwireless.com/20261022/ai/6g-ai-demand-qualcomm",
-    "https://rcrwireless.com/20261021/6g/6g-ubiquity-service-on-demand",
-    "https://rcrwireless.com/20261020/networks/ntn-seamless-connectivity-testing",
-    "https://rcrwireless.com/20261020/opinion/6g-progress-minus-the-business-case-ai-ran-d2d-industry-4-0-telco-diary"
+    "https://rcrwireless.com/20261021/6g/6g-ubiquity-service-on-demand"
   ],
   "note": "fallback (summary generation error)"
 }

@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-10-22T13:57:13.027Z",
+  "generatedAt": "2026-10-23T13:39:16.402Z",
   "bullets": [
     {
       "text": "**Privacy Company Just Saved Clearest** - (cnet.com) A Privacy Company Just Saved the Clearest Flock Surveillance Map I’ve Seen",
       "url": "https://www.cnet.com/news/privacy/proton-hosts-flock-surveillance-map/"
     },
     {
-      "text": "**Pixelated 121 Googlebook first real** - (9to5google.com) Pixelated 121: Is Googlebook the first real post-smartphone PC?",
-      "url": "https://9to5google.com/2026/10/16/pixelated-121-is-googlebook-the-first-real-post-smartphone-pc/"
+      "text": "**Canva s first AI image** - (theverge.com) Canva’s first AI image model plans designs before generating them",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model"
     },
     {
-      "text": "**Recursive launches Flint laptop coding** - (techcrunch.com) Recursive launches Flint, a laptop coding model it says was largely built by AI",
-      "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/"
+      "text": "**1Password launches way AI agents** - (techcrunch.com) 1Password launches a way for AI agents to log in on your behalf without seeing your password",
+      "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/"
     },
     {
-      "text": "**While Amazon blocks AI agents** - (techcrunch.com) While Amazon blocks AI agents, Walmart rolls out the welcome mat",
-      "url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/"
+      "text": "**Anthropic Introduces Claude Duet New** - (cnet.com) Anthropic Introduces Claude Duet: A New Agentic AI App for Professionals",
+      "url": "https://www.cnet.com/tech/services-and-software/anthropic-claude-duet-ai-agent-app-professional/"
     },
     {
-      "text": "**INMO GO3 smart glasses pack** - (9to5google.com) INMO GO3 smart glasses pack a display and Gemini integration with clever camera privacy",
-      "url": "https://9to5google.com/2026/10/21/inmo-go3-smart-glasses-pack-a-display-and-gemini-integration-with-clever-camera-privacy/"
+      "text": "**Rivian buys world model startup** - (techcrunch.com) Rivian buys world model startup to accelerate self-driving ambitions",
+      "url": "https://techcrunch.com/2026/10/22/rivian-buys-world-model-startup-to-accelerate-self-driving-ambitions/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://www.cnet.com/news/privacy/proton-hosts-flock-surveillance-map/",
-    "https://9to5google.com/2026/10/16/pixelated-121-is-googlebook-the-first-real-post-smartphone-pc/",
-    "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
-    "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
-    "https://9to5google.com/2026/10/21/inmo-go3-smart-glasses-pack-a-display-and-gemini-integration-with-clever-camera-privacy/"
+    "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
+    "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
+    "https://www.cnet.com/tech/services-and-software/anthropic-claude-duet-ai-agent-app-professional/",
+    "https://techcrunch.com/2026/10/22/rivian-buys-world-model-startup-to-accelerate-self-driving-ambitions/"
   ],
   "note": "fallback (summary generation error)"
 }
