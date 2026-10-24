@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-10-23T13:39:40.404Z",
+  "generatedAt": "2026-10-24T12:49:35.309Z",
   "bullets": [
     {
-      "text": "**Profile Anna Wallace CEO CFIT** - (thefintechtimes.com) In Profile: Anna Wallace, CEO at CFIT",
-      "url": "https://thefintechtimes.com/in-profile-anna-wallace-ceo-at-cfit/"
-    },
-    {
-      "text": "**HSBC launches first stablecoin** - (finextra.com) HSBC launches first stablecoin",
-      "url": "https://www.finextra.com/newsarticle/48638/hsbc-launches-first-stablecoin"
+      "text": "**Bank NXT Migrates ATM Debit** - (thefintechtimes.com) Bank NXT Migrates ATM and Debit Card Portfolio to Network International",
+      "url": "https://thefintechtimes.com/bank-nxt-migrates-atm-and-debit-card-portfolio-to-network-international/"
     },
     {
       "text": "**MiCA 100 days Euro Stablecoins** - (thefintechtimes.com) MiCA at 100 days: Euro Stablecoins Rise as OTC Flows Diverge",
       "url": "https://thefintechtimes.com/mica-at-100-days-euro-stablecoins-rise-as-otc-flows-diverge/"
     },
     {
-      "text": "**Ramp seeks bank charter** - (paymentsdive.com) Ramp seeks bank charter",
-      "url": "https://www.paymentsdive.com/news/ramp-applies-national-trust-bank-charter-occ-fintech-icba/833467/"
+      "text": "**Gibraltar Signs MOU ADI Foundation** - (thefintechtimes.com) Gibraltar Signs MOU with ADI Foundation on Stablecoin Consortium",
+      "url": "https://thefintechtimes.com/gibraltar-signs-mou-with-adi-foundation-on-stablecoin-consortium/"
     },
     {
-      "text": "**Bybit Adds Stock Trading Tokenised** - (thefintechtimes.com) Bybit Adds Stock Trading and Tokenised Equities in TradFi push",
-      "url": "https://thefintechtimes.com/bybit-adds-stock-trading-and-tokenised-equities-in-tradfi-push/"
+      "text": "**US fintech Coast secures 35m** - (finextra.com) US fintech Coast secures $35m for physical economy payments platform",
+      "url": "https://www.finextra.com/newsarticle/48639/us-fintech-coast-secures-35m-for-physical-economy-payments-platform"
+    },
+    {
+      "text": "**US Faster Payments Council release** - (finextra.com) US Faster Payments Council release guide on navigating non-value messaging for instant payments",
+      "url": "https://www.finextra.com/pressarticle/111430/us-faster-payments-council-release-guide-on-navigating-non-value-messaging-for-instant-payments"
     }
   ],
-  "inputHash": "04c5374a9859b77d76600aff9d8333525c2d8e54f7508117a0dba57598657da2",
+  "inputHash": "a08c012e67a9e8dc5c85c3a1e1897dfae7dd088da4407ee8e58352928e8e6802",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://thefintechtimes.com/in-profile-anna-wallace-ceo-at-cfit/",
-    "https://www.finextra.com/newsarticle/48638/hsbc-launches-first-stablecoin",
+    "https://thefintechtimes.com/bank-nxt-migrates-atm-and-debit-card-portfolio-to-network-international/",
     "https://thefintechtimes.com/mica-at-100-days-euro-stablecoins-rise-as-otc-flows-diverge/",
-    "https://www.paymentsdive.com/news/ramp-applies-national-trust-bank-charter-occ-fintech-icba/833467/",
-    "https://thefintechtimes.com/bybit-adds-stock-trading-and-tokenised-equities-in-tradfi-push/",
+    "https://thefintechtimes.com/gibraltar-signs-mou-with-adi-foundation-on-stablecoin-consortium/",
     "https://www.finextra.com/newsarticle/48639/us-fintech-coast-secures-35m-for-physical-economy-payments-platform",
+    "https://www.finextra.com/pressarticle/111430/us-faster-payments-council-release-guide-on-navigating-non-value-messaging-for-instant-payments",
     "https://www.fca.org.uk/news/speeches/building-future-finance-age-ai",
     "https://www.paymentsdive.com/news/cross-river-acquisition-accrue-fintech-branded-wallet-loyalty/833670/",
+    "https://www.finextra.com/pressarticle/111432/argentine-payment-infrastructure-company-rebill-raises-54m",
     "https://www.paymentsdive.com/news/butter-subscription-payments-sold-acquisition/833415/",
     "https://www.fca.org.uk/news/press-releases/three-arrests-major-fca-operation-against-criminal-insider-dealing-ring"
   ],

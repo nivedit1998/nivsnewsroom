@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-10-23T13:39:46.677Z",
+  "generatedAt": "2026-10-24T12:49:41.322Z",
   "bullets": [
     {
       "text": "**Capco Molecule announce strategic partnership** - (capco.com) Capco and Molecule announce strategic partnership",
       "url": "https://www.capco.com/about-us/newsroom-and-media/capco-and-molecule-announce-strategic-partnership"
     },
     {
+      "text": "**UK Energy** - (capco.com) UK Energy",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/uk-energy"
+    },
+    {
       "text": "**Part 2 - Capco s** - (capco.com) Part 2 - Capco's blueprint for AI Orchestrated Experiences",
       "url": "https://www.capco.com/intelligence/capco-intelligence/capcos-blueprint-for-ai-orchestrated-experiences"
     },
     {
+      "text": "**France & Belgium Energy** - (capco.com) France & Belgium Energy",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/france-and-belgium-energy"
+    },
+    {
       "text": "**AI governance Preparing MAS evolving** - (capco.com) AI governance: Preparing for MAS' evolving expectations",
       "url": "https://www.capco.com/intelligence/capco-intelligence/ai-governance-mas-readiness"
-    },
-    {
-      "text": "**Part 1 - Why most** - (capco.com) Part 1 - Why most financial institutions are getting 'AI for customer experience' wrong",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/why-most-financial-institutions-are-getting-ai-for-customer-experience-wrong"
-    },
-    {
-      "text": "**Asset tokenization 24x5 markets T** - (capco.com) Asset tokenization, 24x5 markets and the T+0 end-state",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/asset-tokenization-and-the-t0-end-state"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://www.capco.com/about-us/newsroom-and-media/capco-and-molecule-announce-strategic-partnership",
+    "https://www.capco.com/intelligence/capco-intelligence/uk-energy",
     "https://www.capco.com/intelligence/capco-intelligence/capcos-blueprint-for-ai-orchestrated-experiences",
-    "https://www.capco.com/intelligence/capco-intelligence/ai-governance-mas-readiness",
-    "https://www.capco.com/intelligence/capco-intelligence/why-most-financial-institutions-are-getting-ai-for-customer-experience-wrong",
-    "https://www.capco.com/intelligence/capco-intelligence/asset-tokenization-and-the-t0-end-state"
+    "https://www.capco.com/intelligence/capco-intelligence/france-and-belgium-energy",
+    "https://www.capco.com/intelligence/capco-intelligence/ai-governance-mas-readiness"
   ],
   "note": "fallback (summary generation error)"
 }
