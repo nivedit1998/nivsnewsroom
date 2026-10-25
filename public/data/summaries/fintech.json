@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-10-24T12:49:35.309Z",
+  "generatedAt": "2026-10-25T13:16:23.294Z",
   "bullets": [
+    {
+      "text": "**Plus500 Acquires Hedge Gain SEC-Regulated** - (thefintechtimes.com) Plus500 Acquires Hedge to Gain SEC-Regulated US Securities Access",
+      "url": "https://thefintechtimes.com/plus500-acquires-hedge-to-gain-sec-regulated-us-securities-access/"
+    },
+    {
+      "text": "**TEG s SmartPay Passes 478m** - (thefintechtimes.com) TEG’s SmartPay Passes £478m as Same-Day Pay Hits UK Hauliers",
+      "url": "https://thefintechtimes.com/tegs-smartpay-passes-478m-as-same-day-pay-hits-uk-hauliers/"
+    },
     {
       "text": "**Bank NXT Migrates ATM Debit** - (thefintechtimes.com) Bank NXT Migrates ATM and Debit Card Portfolio to Network International",
       "url": "https://thefintechtimes.com/bank-nxt-migrates-atm-and-debit-card-portfolio-to-network-international/"
-    },
-    {
-      "text": "**MiCA 100 days Euro Stablecoins** - (thefintechtimes.com) MiCA at 100 days: Euro Stablecoins Rise as OTC Flows Diverge",
-      "url": "https://thefintechtimes.com/mica-at-100-days-euro-stablecoins-rise-as-otc-flows-diverge/"
-    },
-    {
-      "text": "**Gibraltar Signs MOU ADI Foundation** - (thefintechtimes.com) Gibraltar Signs MOU with ADI Foundation on Stablecoin Consortium",
-      "url": "https://thefintechtimes.com/gibraltar-signs-mou-with-adi-foundation-on-stablecoin-consortium/"
     },
     {
       "text": "**US fintech Coast secures 35m** - (finextra.com) US fintech Coast secures $35m for physical economy payments platform",
       "url": "https://www.finextra.com/newsarticle/48639/us-fintech-coast-secures-35m-for-physical-economy-payments-platform"
     },
     {
-      "text": "**US Faster Payments Council release** - (finextra.com) US Faster Payments Council release guide on navigating non-value messaging for instant payments",
-      "url": "https://www.finextra.com/pressarticle/111430/us-faster-payments-council-release-guide-on-navigating-non-value-messaging-for-instant-payments"
+      "text": "**Building future finance age AI** - (fca.org.uk) Building the future of finance in the age of AI",
+      "url": "https://www.fca.org.uk/news/speeches/building-future-finance-age-ai"
     }
   ],
-  "inputHash": "a08c012e67a9e8dc5c85c3a1e1897dfae7dd088da4407ee8e58352928e8e6802",
+  "inputHash": "25d491695c944bfb1dac79825de35f4857e5c087f8b35cce748eb486db41a6c7",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
+    "https://thefintechtimes.com/plus500-acquires-hedge-to-gain-sec-regulated-us-securities-access/",
+    "https://thefintechtimes.com/tegs-smartpay-passes-478m-as-same-day-pay-hits-uk-hauliers/",
     "https://thefintechtimes.com/bank-nxt-migrates-atm-and-debit-card-portfolio-to-network-international/",
-    "https://thefintechtimes.com/mica-at-100-days-euro-stablecoins-rise-as-otc-flows-diverge/",
-    "https://thefintechtimes.com/gibraltar-signs-mou-with-adi-foundation-on-stablecoin-consortium/",
     "https://www.finextra.com/newsarticle/48639/us-fintech-coast-secures-35m-for-physical-economy-payments-platform",
-    "https://www.finextra.com/pressarticle/111430/us-faster-payments-council-release-guide-on-navigating-non-value-messaging-for-instant-payments",
     "https://www.fca.org.uk/news/speeches/building-future-finance-age-ai",
+    "https://www.finextra.com/pressarticle/111430/us-faster-payments-council-release-guide-on-navigating-non-value-messaging-for-instant-payments",
     "https://www.paymentsdive.com/news/cross-river-acquisition-accrue-fintech-branded-wallet-loyalty/833670/",
     "https://www.finextra.com/pressarticle/111432/argentine-payment-infrastructure-company-rebill-raises-54m",
-    "https://www.paymentsdive.com/news/butter-subscription-payments-sold-acquisition/833415/",
-    "https://www.fca.org.uk/news/press-releases/three-arrests-major-fca-operation-against-criminal-insider-dealing-ring"
+    "https://www.fca.org.uk/news/press-releases/three-arrests-major-fca-operation-against-criminal-insider-dealing-ring",
+    "https://www.fca.org.uk/news/speeches/reshaping-regulation-deliberately"
   ],
   "note": "fallback (summary generation error)"
 }
