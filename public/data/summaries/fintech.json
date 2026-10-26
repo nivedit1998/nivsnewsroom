@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-10-25T13:16:23.294Z",
+  "generatedAt": "2026-10-26T15:20:07.061Z",
   "bullets": [
     {
       "text": "**Plus500 Acquires Hedge Gain SEC-Regulated** - (thefintechtimes.com) Plus500 Acquires Hedge to Gain SEC-Regulated US Securities Access",
       "url": "https://thefintechtimes.com/plus500-acquires-hedge-to-gain-sec-regulated-us-securities-access/"
     },
     {
+      "text": "**Pliant Wins FCA EMI Licence** - (thefintechtimes.com) Pliant Wins FCA EMI Licence to Serve UK B2B Payments Market Directly",
+      "url": "https://thefintechtimes.com/pliant-wins-fca-emi-licence-to-serve-uk-b2b-payments-market-directly/"
+    },
+    {
       "text": "**TEG s SmartPay Passes 478m** - (thefintechtimes.com) TEG’s SmartPay Passes £478m as Same-Day Pay Hits UK Hauliers",
       "url": "https://thefintechtimes.com/tegs-smartpay-passes-478m-as-same-day-pay-hits-uk-hauliers/"
     },
     {
-      "text": "**Bank NXT Migrates ATM Debit** - (thefintechtimes.com) Bank NXT Migrates ATM and Debit Card Portfolio to Network International",
-      "url": "https://thefintechtimes.com/bank-nxt-migrates-atm-and-debit-card-portfolio-to-network-international/"
-    },
-    {
-      "text": "**US fintech Coast secures 35m** - (finextra.com) US fintech Coast secures $35m for physical economy payments platform",
-      "url": "https://www.finextra.com/newsarticle/48639/us-fintech-coast-secures-35m-for-physical-economy-payments-platform"
+      "text": "**Paymentology expands partnership South African** - (finextra.com) Paymentology expands partnership with South African fintech Mukuru, moves into everyday banking",
+      "url": "https://www.finextra.com/pressarticle/111434/paymentology-expands-partnership-with-south-african-fintech-mukuru-moves-into-everyday-banking"
     },
     {
       "text": "**Building future finance age AI** - (fca.org.uk) Building the future of finance in the age of AI",
       "url": "https://www.fca.org.uk/news/speeches/building-future-finance-age-ai"
     }
   ],
-  "inputHash": "25d491695c944bfb1dac79825de35f4857e5c087f8b35cce748eb486db41a6c7",
+  "inputHash": "1e8b466399e21fd1c2f50d535c01c33476e2fa64afeb52acf2dbe07cc4926ae6",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://thefintechtimes.com/plus500-acquires-hedge-to-gain-sec-regulated-us-securities-access/",
+    "https://thefintechtimes.com/pliant-wins-fca-emi-licence-to-serve-uk-b2b-payments-market-directly/",
     "https://thefintechtimes.com/tegs-smartpay-passes-478m-as-same-day-pay-hits-uk-hauliers/",
-    "https://thefintechtimes.com/bank-nxt-migrates-atm-and-debit-card-portfolio-to-network-international/",
-    "https://www.finextra.com/newsarticle/48639/us-fintech-coast-secures-35m-for-physical-economy-payments-platform",
+    "https://www.finextra.com/pressarticle/111434/paymentology-expands-partnership-with-south-african-fintech-mukuru-moves-into-everyday-banking",
     "https://www.fca.org.uk/news/speeches/building-future-finance-age-ai",
-    "https://www.finextra.com/pressarticle/111430/us-faster-payments-council-release-guide-on-navigating-non-value-messaging-for-instant-payments",
-    "https://www.paymentsdive.com/news/cross-river-acquisition-accrue-fintech-branded-wallet-loyalty/833670/",
-    "https://www.finextra.com/pressarticle/111432/argentine-payment-infrastructure-company-rebill-raises-54m",
+    "https://www.finextra.com/pressarticle/111438/tech-mahindra-and-mastercard-team-on-embedded-b2b-payments",
     "https://www.fca.org.uk/news/press-releases/three-arrests-major-fca-operation-against-criminal-insider-dealing-ring",
-    "https://www.fca.org.uk/news/speeches/reshaping-regulation-deliberately"
+    "https://www.fca.org.uk/news/speeches/reshaping-regulation-deliberately",
+    "https://www.paymentsdive.com/news/cross-river-acquisition-accrue-fintech-branded-wallet-loyalty/833670/",
+    "https://www.paymentsdive.com/spons/the-b2b-payment-stack-wasnt-built-for-how-businesses-pay-now/833874/"
   ],
   "note": "fallback (summary generation error)"
 }

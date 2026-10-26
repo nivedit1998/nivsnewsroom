@@ -1,9 +1,17 @@
 {
-  "generatedAt": "2026-10-25T13:16:12.465Z",
+  "generatedAt": "2026-10-26T15:19:55.544Z",
   "bullets": [
+    {
+      "text": "**Elisa says mobile recovery continues** - (rcrwireless.com) Elisa says mobile recovery continues at moderate pace as 5G and AI-RAN advance",
+      "url": "https://rcrwireless.com/20261026/5g/elisa-mobile-5g"
+    },
     {
       "text": "**Nokia says AI-RAN nears commercial** - (rcrwireless.com) Nokia says AI-RAN nears commercial deployment as radio networks grow 10%",
       "url": "https://rcrwireless.com/20261022/networks/nokia-ai-ran-networks"
+    },
+    {
+      "text": "**How AI agents reshaping internet** - (rcrwireless.com) How AI agents are reshaping the internet – and network economics (Analyst Angle)",
+      "url": "https://rcrwireless.com/20261026/analyst-angle/how-ai-agents-are-reshaping-the-internet-and-network-economics-analyst-angle"
     },
     {
       "text": "**6G spectrum sharing gains importance** - (rcrwireless.com) 6G spectrum sharing gains importance as testing complexity rises",
@@ -12,24 +20,16 @@
     {
       "text": "**New fiber buys AI grid** - (rcrwireless.com) New fiber buys, AI grid systems, Starlink broadsides – as AT&T dusts off a decent quarter",
       "url": "https://rcrwireless.com/20261022/carriers/new-fiber-buys-ai-grid-systems-starlink-broadsides-as-att-dusts-off-a-decent-quarter"
-    },
-    {
-      "text": "**It s 2040 How new** - (rcrwireless.com) It’s 2040. How are new devices helping decade-old 6G networks keep up with AI demand?",
-      "url": "https://rcrwireless.com/20261022/ai/6g-ai-demand-qualcomm"
-    },
-    {
-      "text": "**6G ubiquity means service demand** - (rcrwireless.com) 6G ubiquity means service on demand, not broadband everywhere",
-      "url": "https://rcrwireless.com/20261021/6g/6g-ubiquity-service-on-demand"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
+    "https://rcrwireless.com/20261026/5g/elisa-mobile-5g",
     "https://rcrwireless.com/20261022/networks/nokia-ai-ran-networks",
+    "https://rcrwireless.com/20261026/analyst-angle/how-ai-agents-are-reshaping-the-internet-and-network-economics-analyst-angle",
     "https://rcrwireless.com/20261023/6g/6g-spectrum-sharing-testing",
-    "https://rcrwireless.com/20261022/carriers/new-fiber-buys-ai-grid-systems-starlink-broadsides-as-att-dusts-off-a-decent-quarter",
-    "https://rcrwireless.com/20261022/ai/6g-ai-demand-qualcomm",
-    "https://rcrwireless.com/20261021/6g/6g-ubiquity-service-on-demand"
+    "https://rcrwireless.com/20261022/carriers/new-fiber-buys-ai-grid-systems-starlink-broadsides-as-att-dusts-off-a-decent-quarter"
   ],
   "note": "fallback (summary generation error)"
 }
