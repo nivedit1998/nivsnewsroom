@@ -1,25 +1,15 @@
 {
-  "generatedAt": "2026-10-26T15:20:10.536Z",
+  "generatedAt": "2026-10-27T14:45:37.730Z",
   "bullets": [
-    {
-      "text": "**Accenture Dragos SANS Institute Launch** - (newsroom.accenture.com) Accenture, Dragos and SANS Institute Launch Foundation to Strengthen Cyber Defenses for Under-Resourced U.S. Utilities",
-      "url": "https://newsroom.accenture.com/news/2026/accenture-dragos-and-sans-institute-launch-foundation-to-strengthen-cyber-defenses-for-u-s-utilities"
-    },
     {
       "text": "**T V S D Accenture** - (newsroom.accenture.com) TÜV SÜD and Accenture Accelerate Certification of Physical AI in Automated Factories and Warehouses with NVIDIA Technologies to Drive Manufacturing Productivity",
       "url": "https://newsroom.accenture.com/news/2026/tuv-sud-and-accenture-accelerate-certification-of-physical-ai-in-automated-factories-and-warehouses-with-nvidia-technologies-to-drive-manufacturing-productivity"
-    },
-    {
-      "text": "**Accenture Acquires Digital-Native Construction Consulting** - (newsroom.accenture.com) Accenture Acquires Digital-Native Construction Consulting Firm Avicado",
-      "url": "https://newsroom.accenture.com/news/2026/accenture-acquires-digital-native-construction-consulting-firm-avicado"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://newsroom.accenture.com/news/2026/accenture-dragos-and-sans-institute-launch-foundation-to-strengthen-cyber-defenses-for-u-s-utilities",
-    "https://newsroom.accenture.com/news/2026/tuv-sud-and-accenture-accelerate-certification-of-physical-ai-in-automated-factories-and-warehouses-with-nvidia-technologies-to-drive-manufacturing-productivity",
-    "https://newsroom.accenture.com/news/2026/accenture-acquires-digital-native-construction-consulting-firm-avicado"
+    "https://newsroom.accenture.com/news/2026/tuv-sud-and-accenture-accelerate-certification-of-physical-ai-in-automated-factories-and-warehouses-with-nvidia-technologies-to-drive-manufacturing-productivity"
   ],
   "note": "fallback (summary generation error)"
 }

@@ -1,17 +1,9 @@
 {
-  "generatedAt": "2026-10-26T15:20:14.959Z",
+  "generatedAt": "2026-10-27T14:45:41.517Z",
   "bullets": [
-    {
-      "text": "**Capco Molecule announce strategic partnership** - (capco.com) Capco and Molecule announce strategic partnership",
-      "url": "https://www.capco.com/about-us/newsroom-and-media/capco-and-molecule-announce-strategic-partnership"
-    },
     {
       "text": "**UK Energy** - (capco.com) UK Energy",
       "url": "https://www.capco.com/intelligence/capco-intelligence/uk-energy"
-    },
-    {
-      "text": "**Part 2 - Capco s** - (capco.com) Part 2 - Capco's blueprint for AI Orchestrated Experiences",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/capcos-blueprint-for-ai-orchestrated-experiences"
     },
     {
       "text": "**Asset tokenization 24x5 markets T** - (capco.com) Asset tokenization, 24x5 markets and the T+0 end-state",
@@ -20,16 +12,24 @@
     {
       "text": "**France & Belgium Energy** - (capco.com) France & Belgium Energy",
       "url": "https://www.capco.com/intelligence/capco-intelligence/france-and-belgium-energy"
+    },
+    {
+      "text": "**AI governance Preparing MAS evolving** - (capco.com) AI governance: Preparing for MAS' evolving expectations",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/ai-governance-mas-readiness"
+    },
+    {
+      "text": "**Europe s hydrogen infrastructure building** - (capco.com) Europe’s hydrogen infrastructure: building ahead of demand",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/europes-hydrogen-infrastructure-when-to-invest-and-why"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://www.capco.com/about-us/newsroom-and-media/capco-and-molecule-announce-strategic-partnership",
     "https://www.capco.com/intelligence/capco-intelligence/uk-energy",
-    "https://www.capco.com/intelligence/capco-intelligence/capcos-blueprint-for-ai-orchestrated-experiences",
     "https://www.capco.com/intelligence/capco-intelligence/asset-tokenization-and-the-t0-end-state",
-    "https://www.capco.com/intelligence/capco-intelligence/france-and-belgium-energy"
+    "https://www.capco.com/intelligence/capco-intelligence/france-and-belgium-energy",
+    "https://www.capco.com/intelligence/capco-intelligence/ai-governance-mas-readiness",
+    "https://www.capco.com/intelligence/capco-intelligence/europes-hydrogen-infrastructure-when-to-invest-and-why"
   ],
   "note": "fallback (summary generation error)"
 }

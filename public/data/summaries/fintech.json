@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-10-26T15:20:07.061Z",
+  "generatedAt": "2026-10-27T14:45:34.812Z",
   "bullets": [
     {
-      "text": "**Plus500 Acquires Hedge Gain SEC-Regulated** - (thefintechtimes.com) Plus500 Acquires Hedge to Gain SEC-Regulated US Securities Access",
-      "url": "https://thefintechtimes.com/plus500-acquires-hedge-to-gain-sec-regulated-us-securities-access/"
+      "text": "**ADIB adds 200 000 customers** - (thefintechtimes.com) ADIB adds 200,000 customers and a first-of-its-kind open finance licence as nine-month profit climbs to AED 6.4 billion",
+      "url": "https://thefintechtimes.com/adib-secures-uaes-first-open-finance-licence-as-nine-month-profit-hits-aed-6-4b/"
     },
     {
-      "text": "**Pliant Wins FCA EMI Licence** - (thefintechtimes.com) Pliant Wins FCA EMI Licence to Serve UK B2B Payments Market Directly",
-      "url": "https://thefintechtimes.com/pliant-wins-fca-emi-licence-to-serve-uk-b2b-payments-market-directly/"
+      "text": "**How Singapore Became Remains Fintech** - (thefintechtimes.com) How Singapore Became and Remains a Fintech Powerhouse",
+      "url": "https://thefintechtimes.com/how-singapore-became-and-remains-a-fintech-powerhouse/"
     },
     {
-      "text": "**TEG s SmartPay Passes 478m** - (thefintechtimes.com) TEG’s SmartPay Passes £478m as Same-Day Pay Hits UK Hauliers",
-      "url": "https://thefintechtimes.com/tegs-smartpay-passes-478m-as-same-day-pay-hits-uk-hauliers/"
+      "text": "**StraitsX Visa Extend Stablecoin Card** - (thefintechtimes.com) StraitsX and Visa to Extend Stablecoin Card Issuing to 100+ Markets",
+      "url": "https://thefintechtimes.com/straitsx-and-visa-to-extend-stablecoin-card-issuing-to-100-markets/"
     },
     {
-      "text": "**Paymentology expands partnership South African** - (finextra.com) Paymentology expands partnership with South African fintech Mukuru, moves into everyday banking",
-      "url": "https://www.finextra.com/pressarticle/111434/paymentology-expands-partnership-with-south-african-fintech-mukuru-moves-into-everyday-banking"
+      "text": "**Euronet Fireblocks pursue stablecoin cards** - (paymentsdive.com) Euronet, Fireblocks pursue stablecoin cards",
+      "url": "https://www.paymentsdive.com/news/euronet-fireblocks-pursue-stablecoin-cards/872760/"
     },
     {
-      "text": "**Building future finance age AI** - (fca.org.uk) Building the future of finance in the age of AI",
-      "url": "https://www.fca.org.uk/news/speeches/building-future-finance-age-ai"
+      "text": "**TNS rolls out smart routing** - (finextra.com) TNS rolls out smart routing to help businesses increase payment acceptance",
+      "url": "https://www.finextra.com/pressarticle/111458/tns-rolls-out-smart-routing-to-help-businesses-increase-payment-acceptance"
     }
   ],
-  "inputHash": "1e8b466399e21fd1c2f50d535c01c33476e2fa64afeb52acf2dbe07cc4926ae6",
+  "inputHash": "0487f74061b6e8c8b640cd11521218bfb3ea3e03cf3d849d3a9755f7e5674077",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://thefintechtimes.com/plus500-acquires-hedge-to-gain-sec-regulated-us-securities-access/",
-    "https://thefintechtimes.com/pliant-wins-fca-emi-licence-to-serve-uk-b2b-payments-market-directly/",
-    "https://thefintechtimes.com/tegs-smartpay-passes-478m-as-same-day-pay-hits-uk-hauliers/",
-    "https://www.finextra.com/pressarticle/111434/paymentology-expands-partnership-with-south-african-fintech-mukuru-moves-into-everyday-banking",
+    "https://thefintechtimes.com/adib-secures-uaes-first-open-finance-licence-as-nine-month-profit-hits-aed-6-4b/",
+    "https://thefintechtimes.com/how-singapore-became-and-remains-a-fintech-powerhouse/",
+    "https://thefintechtimes.com/straitsx-and-visa-to-extend-stablecoin-card-issuing-to-100-markets/",
+    "https://www.paymentsdive.com/news/euronet-fireblocks-pursue-stablecoin-cards/872760/",
+    "https://www.finextra.com/pressarticle/111458/tns-rolls-out-smart-routing-to-help-businesses-increase-payment-acceptance",
+    "https://www.finextra.com/pressarticle/111453/noda-launches-bin-to-bank-to-help-online-merchants-reduce-card-payment-costs",
+    "https://www.finextra.com/pressarticle/111465/veengu-and-finon-join-forces-on-merchant-acquiring-infrastructure-for-banks-and-psps",
     "https://www.fca.org.uk/news/speeches/building-future-finance-age-ai",
-    "https://www.finextra.com/pressarticle/111438/tech-mahindra-and-mastercard-team-on-embedded-b2b-payments",
     "https://www.fca.org.uk/news/press-releases/three-arrests-major-fca-operation-against-criminal-insider-dealing-ring",
-    "https://www.fca.org.uk/news/speeches/reshaping-regulation-deliberately",
-    "https://www.paymentsdive.com/news/cross-river-acquisition-accrue-fintech-branded-wallet-loyalty/833670/",
-    "https://www.paymentsdive.com/spons/the-b2b-payment-stack-wasnt-built-for-how-businesses-pay-now/833874/"
+    "https://www.fca.org.uk/news/speeches/reshaping-regulation-deliberately"
   ],
   "note": "fallback (summary generation error)"
 }
