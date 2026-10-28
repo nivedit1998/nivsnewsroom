@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T14:45:34.812Z",
+  "generatedAt": "2026-10-28T15:15:31.313Z",
   "bullets": [
     {
       "text": "**ADIB adds 200 000 customers** - (thefintechtimes.com) ADIB adds 200,000 customers and a first-of-its-kind open finance licence as nine-month profit climbs to AED 6.4 billion",
@@ -10,30 +10,30 @@
       "url": "https://thefintechtimes.com/how-singapore-became-and-remains-a-fintech-powerhouse/"
     },
     {
-      "text": "**StraitsX Visa Extend Stablecoin Card** - (thefintechtimes.com) StraitsX and Visa to Extend Stablecoin Card Issuing to 100+ Markets",
-      "url": "https://thefintechtimes.com/straitsx-and-visa-to-extend-stablecoin-card-issuing-to-100-markets/"
+      "text": "**DOSH Adds Google Pay Extend** - (thefintechtimes.com) DOSH Adds Google Pay to Extend Digital Wallets to Underbanked Users",
+      "url": "https://thefintechtimes.com/dosh-adds-google-pay-to-extend-digital-wallets-to-underbanked-users/"
+    },
+    {
+      "text": "**PayNet enables Malaysian banking app** - (finextra.com) PayNet enables Malaysian banking app users to make overseas QR payments via Alipay+",
+      "url": "https://www.finextra.com/pressarticle/111478/paynet-enables-malaysian-banking-app-users-to-make-overseas-qr-payments-via-alipay"
     },
     {
       "text": "**Euronet Fireblocks pursue stablecoin cards** - (paymentsdive.com) Euronet, Fireblocks pursue stablecoin cards",
       "url": "https://www.paymentsdive.com/news/euronet-fireblocks-pursue-stablecoin-cards/872760/"
-    },
-    {
-      "text": "**TNS rolls out smart routing** - (finextra.com) TNS rolls out smart routing to help businesses increase payment acceptance",
-      "url": "https://www.finextra.com/pressarticle/111458/tns-rolls-out-smart-routing-to-help-businesses-increase-payment-acceptance"
     }
   ],
-  "inputHash": "0487f74061b6e8c8b640cd11521218bfb3ea3e03cf3d849d3a9755f7e5674077",
+  "inputHash": "5705e7b4b1ecb4c8ad96c5848505d803e0d384122087fc08eac6d0c4daf14980",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://thefintechtimes.com/adib-secures-uaes-first-open-finance-licence-as-nine-month-profit-hits-aed-6-4b/",
     "https://thefintechtimes.com/how-singapore-became-and-remains-a-fintech-powerhouse/",
-    "https://thefintechtimes.com/straitsx-and-visa-to-extend-stablecoin-card-issuing-to-100-markets/",
+    "https://thefintechtimes.com/dosh-adds-google-pay-to-extend-digital-wallets-to-underbanked-users/",
+    "https://www.finextra.com/pressarticle/111478/paynet-enables-malaysian-banking-app-users-to-make-overseas-qr-payments-via-alipay",
     "https://www.paymentsdive.com/news/euronet-fireblocks-pursue-stablecoin-cards/872760/",
-    "https://www.finextra.com/pressarticle/111458/tns-rolls-out-smart-routing-to-help-businesses-increase-payment-acceptance",
-    "https://www.finextra.com/pressarticle/111453/noda-launches-bin-to-bank-to-help-online-merchants-reduce-card-payment-costs",
-    "https://www.finextra.com/pressarticle/111465/veengu-and-finon-join-forces-on-merchant-acquiring-infrastructure-for-banks-and-psps",
+    "https://www.finextra.com/newsarticle/48659/zencom-and-mastercard-expand-pay-by-bank-for-merchants-and-consumers-across-europe",
     "https://www.fca.org.uk/news/speeches/building-future-finance-age-ai",
+    "https://www.finextra.com/videoarticle/3631/how-will-tokenisation-transform-cross-border-payments-and-settlement",
     "https://www.fca.org.uk/news/press-releases/three-arrests-major-fca-operation-against-criminal-insider-dealing-ring",
     "https://www.fca.org.uk/news/speeches/reshaping-regulation-deliberately"
   ],

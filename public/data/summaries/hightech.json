@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-10-27T14:45:12.002Z",
+  "generatedAt": "2026-10-28T15:15:11.000Z",
   "bullets": [
     {
-      "text": "**Opera introduces new web standard** - (techcrunch.com) Opera introduces a new web standard to let users deploy AI locally in their browser",
-      "url": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/"
+      "text": "**Voice AI vogue Nvidia releases** - (techcrunch.com) Voice AI in vogue: Nvidia releases new open transcription model",
+      "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/"
     },
     {
-      "text": "**Apple rolls out iOS 27** - (techcrunch.com) Apple rolls out iOS 27.2 with new Siri AI languages and security fixes",
-      "url": "https://techcrunch.com/2026/10/27/apple-rolls-out-ios-27-2-with-new-siri-ai-languages-and-security-fixes/"
+      "text": "**Free Fire returns India Garena** - (techcrunch.com) Free Fire returns to India as Garena launches localized version four years after ban",
+      "url": "https://techcrunch.com/2026/10/28/free-fire-returns-to-india-as-garena-launches-localized-version-four-years-after-ban/"
     },
     {
-      "text": "**Canva Chases AI Domination New** - (cnet.com) Canva Chases AI Domination With a New AI Image Model for Designers",
-      "url": "https://www.cnet.com/tech/services-and-software/canva-craft-proprietary-ai-image-model/"
+      "text": "**AT& 038 T Paying Out** - (cnet.com) AT&#038;T Is Paying Out Its $177 Million Data Breach Settlement. You Might Get a Check Soon",
+      "url": "https://www.cnet.com/tech/mobile/att-177-million-data-breach-settlement-payouts-checks/"
     },
     {
-      "text": "**Microsoft s Massive Employee Buyout** - (cnet.com) Microsoft’s Massive Employee Buyout Shows How AI Is Reshaping the Economy",
-      "url": "https://www.cnet.com/tech/services-and-software/microsofts-employee-buyout-ai-reshaping-economy/"
+      "text": "**Anthropic printing money but AI** - (9to5google.com) Anthropic is printing money, but AI isn’t paying off outside tech",
+      "url": "https://9to5google.com/2026/10/27/anthropic-is-printing-money-but-ai-isnt-paying-off-outside-tech/"
     },
     {
-      "text": "**Apple refreshes iMac M6 chips** - (theverge.com) Apple refreshes the iMac with M6 chips",
-      "url": "https://www.theverge.com/tech/1018467/apple-imac-m6-chip-announced-price-release"
+      "text": "**Vivo s X500 series launches** - (9to5google.com) Vivo’s X500 series launches globally with MediaTek chips and insane cameras",
+      "url": "https://9to5google.com/2026/10/27/vivos-x500-series-launches-globally/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/",
-    "https://techcrunch.com/2026/10/27/apple-rolls-out-ios-27-2-with-new-siri-ai-languages-and-security-fixes/",
-    "https://www.cnet.com/tech/services-and-software/canva-craft-proprietary-ai-image-model/",
-    "https://www.cnet.com/tech/services-and-software/microsofts-employee-buyout-ai-reshaping-economy/",
-    "https://www.theverge.com/tech/1018467/apple-imac-m6-chip-announced-price-release"
+    "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/",
+    "https://techcrunch.com/2026/10/28/free-fire-returns-to-india-as-garena-launches-localized-version-four-years-after-ban/",
+    "https://www.cnet.com/tech/mobile/att-177-million-data-breach-settlement-payouts-checks/",
+    "https://9to5google.com/2026/10/27/anthropic-is-printing-money-but-ai-isnt-paying-off-outside-tech/",
+    "https://9to5google.com/2026/10/27/vivos-x500-series-launches-globally/"
   ],
   "note": "fallback (summary generation error)"
 }

@@ -1,20 +1,15 @@
 {
-  "generatedAt": "2026-10-23T13:39:49.331Z",
+  "generatedAt": "2026-10-28T15:15:42.466Z",
   "bullets": [
     {
-      "text": "**Building trust resilience through secure** - (sage.com) Building trust and resilience through secure software practices",
-      "url": "https://www.sage.com/en-gb/blog/software-security-code-of-practice/"
-    },
-    {
-      "text": "**Beyond brief Where do accountants** - (sage.com) Beyond the brief: Where do accountants’ hidden hours go?",
-      "url": "https://www.sage.com/en-gb/blog/hidden-hours-research-accountants/"
+      "text": "**What remote hybrid working How** - (sage.com) What is remote and hybrid working?: How can you make it fair and effective?",
+      "url": "https://www.sage.com/en-gb/blog/what-is-hybrid-and-remote-working/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://www.sage.com/en-gb/blog/software-security-code-of-practice/",
-    "https://www.sage.com/en-gb/blog/hidden-hours-research-accountants/"
+    "https://www.sage.com/en-gb/blog/what-is-hybrid-and-remote-working/"
   ],
   "note": "fallback (summary generation error)"
 }

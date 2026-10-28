@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-10-27T14:45:23.639Z",
+  "generatedAt": "2026-10-28T15:15:20.684Z",
   "bullets": [
+    {
+      "text": "**Monetizing 6G sensing first gigabits** - (rcrwireless.com) Monetizing 6G: sensing first, gigabits second",
+      "url": "https://rcrwireless.com/20261027/6g/monetizing-6g-sensing-business-case"
+    },
     {
       "text": "**AI needs more than incremental** - (rcrwireless.com) AI needs more than incremental 6G fixes, says Verizon – as uplink ratio shifts 1:1, LA28 looms",
       "url": "https://rcrwireless.com/20261027/carriers/ai-needs-more-than-incremental-6g-fixes-says-verizon-as-uplink-ratio-shifts-11-la28-looms"
     },
     {
-      "text": "**Elisa says mobile recovery continues** - (rcrwireless.com) Elisa says mobile recovery continues at moderate pace as 5G and AI-RAN advance",
-      "url": "https://rcrwireless.com/20261026/5g/elisa-mobile-5g"
+      "text": "**VodafoneThree help National Parks UK** - (totaltele.com) VodafoneThree to help National Parks UK prevent wildfires",
+      "url": "https://totaltele.com/vodafonethree-to-help-national-parks-uk-prevent-wildfires/"
     },
     {
-      "text": "**How AI agents reshaping internet** - (rcrwireless.com) How AI agents are reshaping the internet – and network economics (Analyst Angle)",
-      "url": "https://rcrwireless.com/20261026/analyst-angle/how-ai-agents-are-reshaping-the-internet-and-network-economics-analyst-angle"
-    },
-    {
-      "text": "**6G spectrum sharing gains importance** - (rcrwireless.com) 6G spectrum sharing gains importance as testing complexity rises",
-      "url": "https://rcrwireless.com/20261023/6g/6g-spectrum-sharing-testing"
+      "text": "**Crown Castle sees long-term tower** - (rcrwireless.com) Crown Castle sees long-term tower demand supported by mobile data and spectrum investment",
+      "url": "https://rcrwireless.com/20261027/network-infrastructure/towers/crown-castle-mobile-spectrum"
     },
     {
       "text": "**6G ISAC pushes channel modeling** - (rcrwireless.com) 6G ISAC pushes channel modeling past statistical averages",
@@ -25,10 +25,10 @@
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
+    "https://rcrwireless.com/20261027/6g/monetizing-6g-sensing-business-case",
     "https://rcrwireless.com/20261027/carriers/ai-needs-more-than-incremental-6g-fixes-says-verizon-as-uplink-ratio-shifts-11-la28-looms",
-    "https://rcrwireless.com/20261026/5g/elisa-mobile-5g",
-    "https://rcrwireless.com/20261026/analyst-angle/how-ai-agents-are-reshaping-the-internet-and-network-economics-analyst-angle",
-    "https://rcrwireless.com/20261023/6g/6g-spectrum-sharing-testing",
+    "https://totaltele.com/vodafonethree-to-help-national-parks-uk-prevent-wildfires/",
+    "https://rcrwireless.com/20261027/network-infrastructure/towers/crown-castle-mobile-spectrum",
     "https://rcrwireless.com/20261026/6g/6g-isac-channel-modeling-validation"
   ],
   "note": "fallback (summary generation error)"

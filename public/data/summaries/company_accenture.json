@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-10-27T14:45:37.730Z",
+  "generatedAt": "2026-10-28T15:15:35.387Z",
   "bullets": [
     {
-      "text": "**T V S D Accenture** - (newsroom.accenture.com) TÜV SÜD and Accenture Accelerate Certification of Physical AI in Automated Factories and Warehouses with NVIDIA Technologies to Drive Manufacturing Productivity",
-      "url": "https://newsroom.accenture.com/news/2026/tuv-sud-and-accenture-accelerate-certification-of-physical-ai-in-automated-factories-and-warehouses-with-nvidia-technologies-to-drive-manufacturing-productivity"
+      "text": "**Accenture Extends ISO 42001 Certification** - (newsroom.accenture.co.uk) Accenture Extends ISO 42001 Certification to UK",
+      "url": "https://newsroom.accenture.co.uk/english-uk/news/2026/accenture-extends-iso-42001-certification-to-uk"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://newsroom.accenture.com/news/2026/tuv-sud-and-accenture-accelerate-certification-of-physical-ai-in-automated-factories-and-warehouses-with-nvidia-technologies-to-drive-manufacturing-productivity"
+    "https://newsroom.accenture.co.uk/english-uk/news/2026/accenture-extends-iso-42001-certification-to-uk"
   ],
   "note": "fallback (summary generation error)"
 }
