@@ -1,6 +1,10 @@
 {
-  "generatedAt": "2026-10-28T15:15:42.466Z",
+  "generatedAt": "2026-10-29T15:21:06.396Z",
   "bullets": [
+    {
+      "text": "**Autumn Budget 2026 What it** - (sage.com) Autumn Budget 2026: What it means for your business",
+      "url": "https://www.sage.com/en-gb/blog/uk-autumn-budget-2027/"
+    },
     {
       "text": "**What remote hybrid working How** - (sage.com) What is remote and hybrid working?: How can you make it fair and effective?",
       "url": "https://www.sage.com/en-gb/blog/what-is-hybrid-and-remote-working/"
@@ -9,6 +13,7 @@
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
+    "https://www.sage.com/en-gb/blog/uk-autumn-budget-2027/",
     "https://www.sage.com/en-gb/blog/what-is-hybrid-and-remote-working/"
   ],
   "note": "fallback (summary generation error)"

@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-10-28T15:15:20.684Z",
+  "generatedAt": "2026-10-29T15:20:31.599Z",
   "bullets": [
+    {
+      "text": "**Telia expands 5G SA push** - (rcrwireless.com) Telia expands 5G SA push as Norway RAN deal reshapes network",
+      "url": "https://rcrwireless.com/20261029/5g/telia-5g-sa-norway-ran"
+    },
     {
       "text": "**Monetizing 6G sensing first gigabits** - (rcrwireless.com) Monetizing 6G: sensing first, gigabits second",
       "url": "https://rcrwireless.com/20261027/6g/monetizing-6g-sensing-business-case"
     },
     {
-      "text": "**AI needs more than incremental** - (rcrwireless.com) AI needs more than incremental 6G fixes, says Verizon – as uplink ratio shifts 1:1, LA28 looms",
-      "url": "https://rcrwireless.com/20261027/carriers/ai-needs-more-than-incremental-6g-fixes-says-verizon-as-uplink-ratio-shifts-11-la28-looms"
+      "text": "**Building 6G standard Narrowing path** - (rcrwireless.com) Building the 6G standard: Narrowing the path to Release 21",
+      "url": "https://rcrwireless.com/20261029/6g/building-the-6g-standard"
     },
     {
-      "text": "**VodafoneThree help National Parks UK** - (totaltele.com) VodafoneThree to help National Parks UK prevent wildfires",
-      "url": "https://totaltele.com/vodafonethree-to-help-national-parks-uk-prevent-wildfires/"
+      "text": "**Satellite land-grab tower premiums 6G** - (rcrwireless.com) Satellite land-grab, tower premiums, 6G money problems (Telco Diary)",
+      "url": "https://rcrwireless.com/20261028/opinion/satellite-land-grab-tower-premiums-6g-money-problems-telco-diary"
     },
     {
-      "text": "**Crown Castle sees long-term tower** - (rcrwireless.com) Crown Castle sees long-term tower demand supported by mobile data and spectrum investment",
-      "url": "https://rcrwireless.com/20261027/network-infrastructure/towers/crown-castle-mobile-spectrum"
-    },
-    {
-      "text": "**6G ISAC pushes channel modeling** - (rcrwireless.com) 6G ISAC pushes channel modeling past statistical averages",
-      "url": "https://rcrwireless.com/20261026/6g/6g-isac-channel-modeling-validation"
+      "text": "**Beyond Cable Ookla analyst talks** - (totaltele.com) Beyond the Cable: Ookla analyst talks M&As and the tapestry of telecom",
+      "url": "https://totaltele.com/beyond-the-cable-ookla-analyst-talks-mas-and-the-tapestry-of-telecom/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
+    "https://rcrwireless.com/20261029/5g/telia-5g-sa-norway-ran",
     "https://rcrwireless.com/20261027/6g/monetizing-6g-sensing-business-case",
-    "https://rcrwireless.com/20261027/carriers/ai-needs-more-than-incremental-6g-fixes-says-verizon-as-uplink-ratio-shifts-11-la28-looms",
-    "https://totaltele.com/vodafonethree-to-help-national-parks-uk-prevent-wildfires/",
-    "https://rcrwireless.com/20261027/network-infrastructure/towers/crown-castle-mobile-spectrum",
-    "https://rcrwireless.com/20261026/6g/6g-isac-channel-modeling-validation"
+    "https://rcrwireless.com/20261029/6g/building-the-6g-standard",
+    "https://rcrwireless.com/20261028/opinion/satellite-land-grab-tower-premiums-6g-money-problems-telco-diary",
+    "https://totaltele.com/beyond-the-cable-ookla-analyst-talks-mas-and-the-tapestry-of-telecom/"
   ],
   "note": "fallback (summary generation error)"
 }

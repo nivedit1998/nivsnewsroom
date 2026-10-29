@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-10-28T15:15:39.250Z",
+  "generatedAt": "2026-10-29T15:21:03.475Z",
   "bullets": [
+    {
+      "text": "**AESO REM shift nodal market** - (capco.com) AESO REM: the shift to a nodal market",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/aeso-rem-the-shift-to-a-nodal-market"
+    },
     {
       "text": "**UK Energy** - (capco.com) UK Energy",
       "url": "https://www.capco.com/intelligence/capco-intelligence/uk-energy"
     },
     {
-      "text": "**Asset tokenization 24x5 markets T** - (capco.com) Asset tokenization, 24x5 markets and the T+0 end-state",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/asset-tokenization-and-the-t0-end-state"
+      "text": "**T 1 operational readiness sustainable** - (capco.com) T+1: from operational readiness to sustainable settlement performance",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/t-1-from-operational-readiness-to-sustainable-settlement-performance"
     },
     {
       "text": "**France & Belgium Energy** - (capco.com) France & Belgium Energy",
       "url": "https://www.capco.com/intelligence/capco-intelligence/france-and-belgium-energy"
     },
     {
-      "text": "**AI governance Preparing MAS evolving** - (capco.com) AI governance: Preparing for MAS' evolving expectations",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/ai-governance-mas-readiness"
-    },
-    {
-      "text": "**Europe s hydrogen infrastructure building** - (capco.com) Europe’s hydrogen infrastructure: building ahead of demand",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/europes-hydrogen-infrastructure-when-to-invest-and-why"
+      "text": "**Fund lifecycle management integrated FLCM** - (capco.com) Fund lifecycle management: integrated FLCM Control Tower for asset managers",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/fund-lifecycle-management-flcm-control"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
+    "https://www.capco.com/intelligence/capco-intelligence/aeso-rem-the-shift-to-a-nodal-market",
     "https://www.capco.com/intelligence/capco-intelligence/uk-energy",
-    "https://www.capco.com/intelligence/capco-intelligence/asset-tokenization-and-the-t0-end-state",
+    "https://www.capco.com/intelligence/capco-intelligence/t-1-from-operational-readiness-to-sustainable-settlement-performance",
     "https://www.capco.com/intelligence/capco-intelligence/france-and-belgium-energy",
-    "https://www.capco.com/intelligence/capco-intelligence/ai-governance-mas-readiness",
-    "https://www.capco.com/intelligence/capco-intelligence/europes-hydrogen-infrastructure-when-to-invest-and-why"
+    "https://www.capco.com/intelligence/capco-intelligence/fund-lifecycle-management-flcm-control"
   ],
   "note": "fallback (summary generation error)"
 }
