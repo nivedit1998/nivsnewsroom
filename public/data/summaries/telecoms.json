@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-29T15:20:31.599Z",
+  "generatedAt": "2026-10-30T15:08:48.784Z",
   "bullets": [
     {
       "text": "**Telia expands 5G SA push** - (rcrwireless.com) Telia expands 5G SA push as Norway RAN deal reshapes network",
       "url": "https://rcrwireless.com/20261029/5g/telia-5g-sa-norway-ran"
     },
     {
-      "text": "**Monetizing 6G sensing first gigabits** - (rcrwireless.com) Monetizing 6G: sensing first, gigabits second",
-      "url": "https://rcrwireless.com/20261027/6g/monetizing-6g-sensing-business-case"
+      "text": "**KDDI Telehouse spends 220 million** - (totaltele.com) KDDI and Telehouse spends £220 million to expand London Docklands campus",
+      "url": "https://totaltele.com/kddi-and-telehouse-spends-220-million-to-expand-london-docklands-campus/"
     },
     {
       "text": "**Building 6G standard Narrowing path** - (rcrwireless.com) Building the 6G standard: Narrowing the path to Release 21",
@@ -18,18 +18,18 @@
       "url": "https://rcrwireless.com/20261028/opinion/satellite-land-grab-tower-premiums-6g-money-problems-telco-diary"
     },
     {
-      "text": "**Beyond Cable Ookla analyst talks** - (totaltele.com) Beyond the Cable: Ookla analyst talks M&As and the tapestry of telecom",
-      "url": "https://totaltele.com/beyond-the-cable-ookla-analyst-talks-mas-and-the-tapestry-of-telecom/"
+      "text": "**Direct-to-device leaves lab Orange Skylo** - (rcrwireless.com) Direct-to-device leaves the lab as Orange, Skylo and Kyivstar sell continuity",
+      "url": "https://rcrwireless.com/20261029/networks/direct-to-device-orange-kyivstar"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://rcrwireless.com/20261029/5g/telia-5g-sa-norway-ran",
-    "https://rcrwireless.com/20261027/6g/monetizing-6g-sensing-business-case",
+    "https://totaltele.com/kddi-and-telehouse-spends-220-million-to-expand-london-docklands-campus/",
     "https://rcrwireless.com/20261029/6g/building-the-6g-standard",
     "https://rcrwireless.com/20261028/opinion/satellite-land-grab-tower-premiums-6g-money-problems-telco-diary",
-    "https://totaltele.com/beyond-the-cable-ookla-analyst-talks-mas-and-the-tapestry-of-telecom/"
+    "https://rcrwireless.com/20261029/networks/direct-to-device-orange-kyivstar"
   ],
   "note": "fallback (summary generation error)"
 }

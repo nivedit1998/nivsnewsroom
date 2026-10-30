@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T15:21:06.396Z",
+  "generatedAt": "2026-10-30T15:09:09.413Z",
   "bullets": [
     {
       "text": "**Autumn Budget 2026 What it** - (sage.com) Autumn Budget 2026: What it means for your business",
@@ -8,13 +8,23 @@
     {
       "text": "**What remote hybrid working How** - (sage.com) What is remote and hybrid working?: How can you make it fair and effective?",
       "url": "https://www.sage.com/en-gb/blog/what-is-hybrid-and-remote-working/"
+    },
+    {
+      "text": "**What changes when small business** - (sage.com) What changes when small business owners get the numbers sooner?",
+      "url": "https://www.sage.com/en-gb/blog/dental-business-financial-admin-case-study/"
+    },
+    {
+      "text": "**How stop freelance admin taking** - (sage.com) How to stop freelance admin taking over your Sunday",
+      "url": "https://www.sage.com/en-gb/blog/admin-sunday-creative-freelancers/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://www.sage.com/en-gb/blog/uk-autumn-budget-2027/",
-    "https://www.sage.com/en-gb/blog/what-is-hybrid-and-remote-working/"
+    "https://www.sage.com/en-gb/blog/what-is-hybrid-and-remote-working/",
+    "https://www.sage.com/en-gb/blog/dental-business-financial-admin-case-study/",
+    "https://www.sage.com/en-gb/blog/admin-sunday-creative-freelancers/"
   ],
   "note": "fallback (summary generation error)"
 }

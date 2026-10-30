@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-10-29T15:20:55.653Z",
+  "generatedAt": "2026-10-30T15:08:58.863Z",
   "bullets": [
     {
-      "text": "**DOSH Adds Google Pay Extend** - (thefintechtimes.com) DOSH Adds Google Pay to Extend Digital Wallets to Underbanked Users",
-      "url": "https://thefintechtimes.com/dosh-adds-google-pay-to-extend-digital-wallets-to-underbanked-users/"
-    },
-    {
-      "text": "**Unipaas expands Ireland JP Morgan** - (finextra.com) Unipaas expands to Ireland with JP Morgan Payments",
-      "url": "https://www.finextra.com/pressarticle/111513/unipaas-expands-to-ireland-with-jp-morgan-payments"
-    },
-    {
-      "text": "**Autumn Budget 2026 How FinTech** - (thefintechtimes.com) The Autumn Budget 2026 – How FinTech holds the answers to Burnham’s biggest problems",
-      "url": "https://thefintechtimes.com/the-autumn-budget-2026-how-fintech-holds-the-answers-to-burnhams-biggest-problems/"
+      "text": "**Beyond What It Prevents What** - (finextra.com) Beyond What It Prevents, What Does Security in Payments Enable?",
+      "url": "https://www.finextra.com/videoarticle/3635/beyond-what-it-prevents-what-does-security-in-payments-enable"
     },
     {
       "text": "**Circle Proof Demo Verified-ID Stablecoin** - (thefintechtimes.com) Circle and Proof Demo Verified-ID Stablecoin Payments for AI Agents",
       "url": "https://thefintechtimes.com/circle-and-proof-demo-verified-id-stablecoin-payments-for-ai-agents/"
     },
     {
-      "text": "**Liquidity Services deploys Flywire tech** - (finextra.com) Liquidity Services deploys Flywire tech for domestic and cross-border B2B payments",
-      "url": "https://www.finextra.com/pressarticle/111512/liquidity-services-deploys-flywire-tech-for-domestic-and-cross-border-b2b-payments"
+      "text": "**Henry Dannell Opens DIFC Office** - (thefintechtimes.com) Henry Dannell Opens DIFC Office to Serve Cross-Border HNW Clients",
+      "url": "https://thefintechtimes.com/henry-dannell-opens-difc-office-to-serve-cross-border-hnw-clients/"
+    },
+    {
+      "text": "**UK-Nigeria Remittance Rivals Battle Rates** - (thefintechtimes.com) UK-Nigeria Remittance Rivals Battle on Rates and Banking Features",
+      "url": "https://thefintechtimes.com/uk-nigeria-remittance-rivals-battle-on-rates-and-banking-features/"
+    },
+    {
+      "text": "**ACI Worldwide Circle collaborate LatAm** - (finextra.com) ACI Worldwide and Circle collaborate on LatAm payments",
+      "url": "https://www.finextra.com/pressarticle/111519/aci-worldwide-and-circle-collaborate-on-latam-payments"
     }
   ],
-  "inputHash": "fe282da2c26270eaa8f3622a61bf965fe6045a94393688960a9b9432ea17ca64",
+  "inputHash": "3f9f0d14420c094feee09068371f91e028d9d81574f0f5be1e9c41c41f006f02",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://thefintechtimes.com/dosh-adds-google-pay-to-extend-digital-wallets-to-underbanked-users/",
-    "https://www.finextra.com/pressarticle/111513/unipaas-expands-to-ireland-with-jp-morgan-payments",
-    "https://thefintechtimes.com/the-autumn-budget-2026-how-fintech-holds-the-answers-to-burnhams-biggest-problems/",
+    "https://www.finextra.com/videoarticle/3635/beyond-what-it-prevents-what-does-security-in-payments-enable",
     "https://thefintechtimes.com/circle-and-proof-demo-verified-id-stablecoin-payments-for-ai-agents/",
-    "https://www.finextra.com/pressarticle/111512/liquidity-services-deploys-flywire-tech-for-domestic-and-cross-border-b2b-payments",
-    "https://www.paymentsdive.com/news/euronet-fireblocks-pursue-stablecoin-cards/872760/",
+    "https://thefintechtimes.com/henry-dannell-opens-difc-office-to-serve-cross-border-hnw-clients/",
+    "https://thefintechtimes.com/uk-nigeria-remittance-rivals-battle-on-rates-and-banking-features/",
+    "https://www.finextra.com/pressarticle/111519/aci-worldwide-and-circle-collaborate-on-latam-payments",
     "https://www.paymentsdive.com/news/settling-cross-border-payments-remains-tough/872997/",
     "https://www.fca.org.uk/news/speeches/building-future-finance-age-ai",
-    "https://www.finextra.com/newsarticle/48668/cibc-rolls-out-thought-machine-core-platform",
-    "https://www.fca.org.uk/news/press-releases/three-arrests-major-fca-operation-against-criminal-insider-dealing-ring"
+    "https://www.fca.org.uk/news/press-releases/three-arrests-major-fca-operation-against-criminal-insider-dealing-ring",
+    "https://www.fca.org.uk/news/speeches/reshaping-regulation-deliberately",
+    "https://www.finextra.com/newsarticle/48679/kipp-acquired-by-ltvco-led-investor-group-for-us-push"
   ],
   "note": "fallback (summary generation error)"
 }

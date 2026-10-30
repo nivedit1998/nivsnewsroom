@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-10-29T15:21:03.475Z",
+  "generatedAt": "2026-10-30T15:09:06.063Z",
   "bullets": [
     {
       "text": "**AESO REM shift nodal market** - (capco.com) AESO REM: the shift to a nodal market",
       "url": "https://www.capco.com/intelligence/capco-intelligence/aeso-rem-the-shift-to-a-nodal-market"
     },
     {
-      "text": "**UK Energy** - (capco.com) UK Energy",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/uk-energy"
+      "text": "**Asset tokenization 24x5 markets T** - (capco.com) Asset tokenization, 24x5 markets and the T+0 end-state",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/asset-tokenization-and-the-t0-end-state"
     },
     {
       "text": "**T 1 operational readiness sustainable** - (capco.com) T+1: from operational readiness to sustainable settlement performance",
       "url": "https://www.capco.com/intelligence/capco-intelligence/t-1-from-operational-readiness-to-sustainable-settlement-performance"
     },
     {
-      "text": "**France & Belgium Energy** - (capco.com) France & Belgium Energy",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/france-and-belgium-energy"
+      "text": "**new regulatory imperative EU UK** - (capco.com) The new regulatory imperative for EU and UK insurers",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/the-new-regulatory-imperative-for-eu-and-uk-insurers"
     },
     {
       "text": "**Fund lifecycle management integrated FLCM** - (capco.com) Fund lifecycle management: integrated FLCM Control Tower for asset managers",
@@ -26,9 +26,9 @@
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://www.capco.com/intelligence/capco-intelligence/aeso-rem-the-shift-to-a-nodal-market",
-    "https://www.capco.com/intelligence/capco-intelligence/uk-energy",
+    "https://www.capco.com/intelligence/capco-intelligence/asset-tokenization-and-the-t0-end-state",
     "https://www.capco.com/intelligence/capco-intelligence/t-1-from-operational-readiness-to-sustainable-settlement-performance",
-    "https://www.capco.com/intelligence/capco-intelligence/france-and-belgium-energy",
+    "https://www.capco.com/intelligence/capco-intelligence/the-new-regulatory-imperative-for-eu-and-uk-insurers",
     "https://www.capco.com/intelligence/capco-intelligence/fund-lifecycle-management-flcm-control"
   ],
   "note": "fallback (summary generation error)"
