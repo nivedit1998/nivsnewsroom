@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-10-30T15:08:39.902Z",
+  "generatedAt": "2026-10-31T14:38:04.251Z",
   "bullets": [
     {
-      "text": "**DoorDash said it s only** - (techcrunch.com) DoorDash said it’s only received ‘several hundred’ orders from AI agents",
-      "url": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/"
+      "text": "**Ollie privacy-focused AI assistant shutting** - (techcrunch.com) Ollie, a privacy-focused AI assistant, is shutting down",
+      "url": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/"
+    },
+    {
+      "text": "**AI law firm Crosby bids** - (techcrunch.com) AI law firm Crosby bids on disintegrating, famed firm Weil Gotshal",
+      "url": "https://techcrunch.com/2026/10/30/ai-law-firm-crosby-bids-on-disintegrating-famed-firm-weil-gotshal/"
+    },
+    {
+      "text": "**Wild World Third-Party AI Apps** - (cnet.com) The Wild World of Third-Party AI Apps for Ring Security, and Whether You Need Them",
+      "url": "https://www.cnet.com/home/security/ring-ai-app-store-third-parties-analysis-do-you-need-them/"
     },
     {
       "text": "**Apple acquires Ascend io agentic** - (9to5mac.com) Apple acquires Ascend․io, an agentic AI engineering startup",
       "url": "https://9to5mac.com/2026/10/30/apple-acquires-ascend%e2%80%a4io-an-agentic-ai-engineering-startup/"
     },
     {
-      "text": "**AWS will be 1T business** - (techcrunch.com) AWS will be a $1T business, Jassy says — but first, it will spend big",
-      "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/"
-    },
-    {
-      "text": "**electric screwdriver uses camera AI** - (theverge.com) This electric screwdriver uses a camera and AI to figure out what bit you need",
-      "url": "https://www.theverge.com/tech/1023057/arrowmax-arrowspace-s1-electric-screwdriver-ai-camera-kickstarter"
-    },
-    {
-      "text": "**Pope Leo calls disarmament AI** - (theverge.com) Pope Leo calls for the disarmament of AI: ‘Machines are tools, not persons’",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai"
+      "text": "**Rivian s autonomy gamble faces** - (theverge.com) Rivian’s autonomy gamble faces its first real test",
+      "url": "https://www.theverge.com/transportation/1023143/rivian-autonomy-point-to-point-robotaxi-q3-2026"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
+    "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/",
+    "https://techcrunch.com/2026/10/30/ai-law-firm-crosby-bids-on-disintegrating-famed-firm-weil-gotshal/",
+    "https://www.cnet.com/home/security/ring-ai-app-store-third-parties-analysis-do-you-need-them/",
     "https://9to5mac.com/2026/10/30/apple-acquires-ascend%e2%80%a4io-an-agentic-ai-engineering-startup/",
-    "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
-    "https://www.theverge.com/tech/1023057/arrowmax-arrowspace-s1-electric-screwdriver-ai-camera-kickstarter",
-    "https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai"
+    "https://www.theverge.com/transportation/1023143/rivian-autonomy-point-to-point-robotaxi-q3-2026"
   ],
   "note": "fallback (summary generation error)"
 }

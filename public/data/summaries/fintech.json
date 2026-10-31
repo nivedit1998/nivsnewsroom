@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-30T15:08:58.863Z",
+  "generatedAt": "2026-10-31T14:38:18.500Z",
   "bullets": [
     {
-      "text": "**Beyond What It Prevents What** - (finextra.com) Beyond What It Prevents, What Does Security in Payments Enable?",
-      "url": "https://www.finextra.com/videoarticle/3635/beyond-what-it-prevents-what-does-security-in-payments-enable"
+      "text": "**Nium Relay hit 500m Cross-Border** - (thefintechtimes.com) Nium and Relay hit $500m Cross-Border Milestone in Year One",
+      "url": "https://thefintechtimes.com/nium-and-relay-hit-500m-cross-border-milestone-in-year-one/"
     },
     {
-      "text": "**Circle Proof Demo Verified-ID Stablecoin** - (thefintechtimes.com) Circle and Proof Demo Verified-ID Stablecoin Payments for AI Agents",
-      "url": "https://thefintechtimes.com/circle-and-proof-demo-verified-id-stablecoin-payments-for-ai-agents/"
+      "text": "**PE firm CD&R targets buyout** - (finextra.com) PE firm CD&R targets buyout of $40bn Global Payments - FT",
+      "url": "https://www.finextra.com/newsarticle/48681/pe-firm-cdr-targets-buyout-of-40bn-global-payments---ft"
     },
     {
       "text": "**Henry Dannell Opens DIFC Office** - (thefintechtimes.com) Henry Dannell Opens DIFC Office to Serve Cross-Border HNW Clients",
@@ -18,24 +18,24 @@
       "url": "https://thefintechtimes.com/uk-nigeria-remittance-rivals-battle-on-rates-and-banking-features/"
     },
     {
-      "text": "**ACI Worldwide Circle collaborate LatAm** - (finextra.com) ACI Worldwide and Circle collaborate on LatAm payments",
-      "url": "https://www.finextra.com/pressarticle/111519/aci-worldwide-and-circle-collaborate-on-latam-payments"
+      "text": "**Settling cross-border payments remains tough** - (paymentsdive.com) Settling cross-border payments remains tough",
+      "url": "https://www.paymentsdive.com/news/settling-cross-border-payments-remains-tough/872997/"
     }
   ],
-  "inputHash": "3f9f0d14420c094feee09068371f91e028d9d81574f0f5be1e9c41c41f006f02",
+  "inputHash": "c0405d27d160644aecec92d43d0cf14a02a00057f2e226d26e5661cc6800aaf1",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://www.finextra.com/videoarticle/3635/beyond-what-it-prevents-what-does-security-in-payments-enable",
-    "https://thefintechtimes.com/circle-and-proof-demo-verified-id-stablecoin-payments-for-ai-agents/",
+    "https://thefintechtimes.com/nium-and-relay-hit-500m-cross-border-milestone-in-year-one/",
+    "https://www.finextra.com/newsarticle/48681/pe-firm-cdr-targets-buyout-of-40bn-global-payments---ft",
     "https://thefintechtimes.com/henry-dannell-opens-difc-office-to-serve-cross-border-hnw-clients/",
     "https://thefintechtimes.com/uk-nigeria-remittance-rivals-battle-on-rates-and-banking-features/",
-    "https://www.finextra.com/pressarticle/111519/aci-worldwide-and-circle-collaborate-on-latam-payments",
     "https://www.paymentsdive.com/news/settling-cross-border-payments-remains-tough/872997/",
     "https://www.fca.org.uk/news/speeches/building-future-finance-age-ai",
+    "https://www.finextra.com/pressarticle/111520/visa-signs-digital-payments-deal-with-senegal",
     "https://www.fca.org.uk/news/press-releases/three-arrests-major-fca-operation-against-criminal-insider-dealing-ring",
     "https://www.fca.org.uk/news/speeches/reshaping-regulation-deliberately",
-    "https://www.finextra.com/newsarticle/48679/kipp-acquired-by-ltvco-led-investor-group-for-us-push"
+    "https://www.finextra.com/blogposting/33354/why-payment-infrastructure-needs-to-evolve-beyond-transaction-processing"
   ],
   "note": "fallback (summary generation error)"
 }
