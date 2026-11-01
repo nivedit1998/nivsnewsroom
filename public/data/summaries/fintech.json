@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T14:38:18.500Z",
+  "generatedAt": "2026-11-01T15:21:13.032Z",
   "bullets": [
     {
       "text": "**Nium Relay hit 500m Cross-Border** - (thefintechtimes.com) Nium and Relay hit $500m Cross-Border Milestone in Year One",
@@ -10,31 +10,31 @@
       "url": "https://www.finextra.com/newsarticle/48681/pe-firm-cdr-targets-buyout-of-40bn-global-payments---ft"
     },
     {
+      "text": "**Finovox Adds ROI Tool Put** - (thefintechtimes.com) Finovox Adds ROI Tool to Put a Number on Fraud Prevention",
+      "url": "https://thefintechtimes.com/finovox-adds-roi-tool-to-put-a-number-on-fraud-prevention/"
+    },
+    {
       "text": "**Henry Dannell Opens DIFC Office** - (thefintechtimes.com) Henry Dannell Opens DIFC Office to Serve Cross-Border HNW Clients",
       "url": "https://thefintechtimes.com/henry-dannell-opens-difc-office-to-serve-cross-border-hnw-clients/"
     },
     {
-      "text": "**UK-Nigeria Remittance Rivals Battle Rates** - (thefintechtimes.com) UK-Nigeria Remittance Rivals Battle on Rates and Banking Features",
-      "url": "https://thefintechtimes.com/uk-nigeria-remittance-rivals-battle-on-rates-and-banking-features/"
-    },
-    {
-      "text": "**Settling cross-border payments remains tough** - (paymentsdive.com) Settling cross-border payments remains tough",
-      "url": "https://www.paymentsdive.com/news/settling-cross-border-payments-remains-tough/872997/"
+      "text": "**Building future finance age AI** - (fca.org.uk) Building the future of finance in the age of AI",
+      "url": "https://www.fca.org.uk/news/speeches/building-future-finance-age-ai"
     }
   ],
-  "inputHash": "c0405d27d160644aecec92d43d0cf14a02a00057f2e226d26e5661cc6800aaf1",
+  "inputHash": "ac52c0ee04a8f32dc1b33830bb1af65b9560272b4541b45531f657545734b8bf",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://thefintechtimes.com/nium-and-relay-hit-500m-cross-border-milestone-in-year-one/",
     "https://www.finextra.com/newsarticle/48681/pe-firm-cdr-targets-buyout-of-40bn-global-payments---ft",
+    "https://thefintechtimes.com/finovox-adds-roi-tool-to-put-a-number-on-fraud-prevention/",
     "https://thefintechtimes.com/henry-dannell-opens-difc-office-to-serve-cross-border-hnw-clients/",
-    "https://thefintechtimes.com/uk-nigeria-remittance-rivals-battle-on-rates-and-banking-features/",
-    "https://www.paymentsdive.com/news/settling-cross-border-payments-remains-tough/872997/",
     "https://www.fca.org.uk/news/speeches/building-future-finance-age-ai",
-    "https://www.finextra.com/pressarticle/111520/visa-signs-digital-payments-deal-with-senegal",
+    "https://www.paymentsdive.com/news/settling-cross-border-payments-remains-tough/872997/",
     "https://www.fca.org.uk/news/press-releases/three-arrests-major-fca-operation-against-criminal-insider-dealing-ring",
     "https://www.fca.org.uk/news/speeches/reshaping-regulation-deliberately",
+    "https://www.finextra.com/pressarticle/111520/visa-signs-digital-payments-deal-with-senegal",
     "https://www.finextra.com/blogposting/33354/why-payment-infrastructure-needs-to-evolve-beyond-transaction-processing"
   ],
   "note": "fallback (summary generation error)"

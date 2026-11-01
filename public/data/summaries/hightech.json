@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T14:38:04.251Z",
+  "generatedAt": "2026-11-01T15:20:56.636Z",
   "bullets": [
     {
       "text": "**Ollie privacy-focused AI assistant shutting** - (techcrunch.com) Ollie, a privacy-focused AI assistant, is shutting down",
@@ -18,8 +18,8 @@
       "url": "https://9to5mac.com/2026/10/30/apple-acquires-ascend%e2%80%a4io-an-agentic-ai-engineering-startup/"
     },
     {
-      "text": "**Rivian s autonomy gamble faces** - (theverge.com) Rivian’s autonomy gamble faces its first real test",
-      "url": "https://www.theverge.com/transportation/1023143/rivian-autonomy-point-to-point-robotaxi-q3-2026"
+      "text": "**What Open-Weight AI Models** - (cnet.com) What Are Open-Weight AI Models?",
+      "url": "https://www.cnet.com/tech/services-and-software/what-are-open-weight-ai-models/"
     }
   ],
   "promptVersion": "insights-v2",
@@ -29,7 +29,7 @@
     "https://techcrunch.com/2026/10/30/ai-law-firm-crosby-bids-on-disintegrating-famed-firm-weil-gotshal/",
     "https://www.cnet.com/home/security/ring-ai-app-store-third-parties-analysis-do-you-need-them/",
     "https://9to5mac.com/2026/10/30/apple-acquires-ascend%e2%80%a4io-an-agentic-ai-engineering-startup/",
-    "https://www.theverge.com/transportation/1023143/rivian-autonomy-point-to-point-robotaxi-q3-2026"
+    "https://www.cnet.com/tech/services-and-software/what-are-open-weight-ai-models/"
   ],
   "note": "fallback (summary generation error)"
 }

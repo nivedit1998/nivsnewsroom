@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-31T14:38:24.798Z",
+  "generatedAt": "2026-11-01T15:21:19.829Z",
   "bullets": [
-    {
-      "text": "**AESO REM shift nodal market** - (capco.com) AESO REM: the shift to a nodal market",
-      "url": "https://www.capco.com/intelligence/capco-intelligence/aeso-rem-the-shift-to-a-nodal-market"
-    },
     {
       "text": "**Asset tokenization 24x5 markets T** - (capco.com) Asset tokenization, 24x5 markets and the T+0 end-state",
       "url": "https://www.capco.com/intelligence/capco-intelligence/asset-tokenization-and-the-t0-end-state"
+    },
+    {
+      "text": "**AESO REM shift nodal market** - (capco.com) AESO REM: the shift to a nodal market",
+      "url": "https://www.capco.com/intelligence/capco-intelligence/aeso-rem-the-shift-to-a-nodal-market"
     },
     {
       "text": "**T 1 operational readiness sustainable** - (capco.com) T+1: from operational readiness to sustainable settlement performance",
@@ -25,8 +25,8 @@
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://www.capco.com/intelligence/capco-intelligence/aeso-rem-the-shift-to-a-nodal-market",
     "https://www.capco.com/intelligence/capco-intelligence/asset-tokenization-and-the-t0-end-state",
+    "https://www.capco.com/intelligence/capco-intelligence/aeso-rem-the-shift-to-a-nodal-market",
     "https://www.capco.com/intelligence/capco-intelligence/t-1-from-operational-readiness-to-sustainable-settlement-performance",
     "https://www.capco.com/intelligence/capco-intelligence/the-new-regulatory-imperative-for-eu-and-uk-insurers",
     "https://www.capco.com/intelligence/capco-intelligence/fund-lifecycle-management-flcm-control"
