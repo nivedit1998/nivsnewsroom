@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T15:21:22.746Z",
+  "generatedAt": "2026-11-02T18:38:12.654Z",
   "bullets": [
     {
       "text": "**Autumn Budget 2026 What it** - (sage.com) Autumn Budget 2026: What it means for your business",
@@ -10,12 +10,16 @@
       "url": "https://www.sage.com/en-gb/blog/what-is-hybrid-and-remote-working/"
     },
     {
-      "text": "**What changes when small business** - (sage.com) What changes when small business owners get the numbers sooner?",
-      "url": "https://www.sage.com/en-gb/blog/dental-business-financial-admin-case-study/"
+      "text": "**Your client still hasn t** - (sage.com) Your client still hasn’t paid your freelance invoice. Now what?",
+      "url": "https://www.sage.com/en-gb/blog/friend-invoice-payment-creative-freelancers/"
     },
     {
-      "text": "**How stop freelance admin taking** - (sage.com) How to stop freelance admin taking over your Sunday",
-      "url": "https://www.sage.com/en-gb/blog/admin-sunday-creative-freelancers/"
+      "text": "**How manage feast-or-famine income freelancer** - (sage.com) How to manage feast-or-famine income as a freelancer",
+      "url": "https://www.sage.com/en-gb/blog/how-to-manage-feast-or-famine-income-as-a-freelancer/"
+    },
+    {
+      "text": "**Freelancer tax terms explained plain** - (sage.com) Freelancer tax terms explained in plain English",
+      "url": "https://www.sage.com/en-gb/blog/freelancer-tax-terms-explained-in-plain-english/"
     }
   ],
   "promptVersion": "insights-v2",
@@ -23,8 +27,9 @@
   "contextUrls": [
     "https://www.sage.com/en-gb/blog/uk-autumn-budget-2027/",
     "https://www.sage.com/en-gb/blog/what-is-hybrid-and-remote-working/",
-    "https://www.sage.com/en-gb/blog/dental-business-financial-admin-case-study/",
-    "https://www.sage.com/en-gb/blog/admin-sunday-creative-freelancers/"
+    "https://www.sage.com/en-gb/blog/friend-invoice-payment-creative-freelancers/",
+    "https://www.sage.com/en-gb/blog/how-to-manage-feast-or-famine-income-as-a-freelancer/",
+    "https://www.sage.com/en-gb/blog/freelancer-tax-terms-explained-in-plain-english/"
   ],
   "note": "fallback (summary generation error)"
 }

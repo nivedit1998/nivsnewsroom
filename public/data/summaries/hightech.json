@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-11-01T15:20:56.636Z",
+  "generatedAt": "2026-11-02T18:37:41.645Z",
   "bullets": [
     {
-      "text": "**Ollie privacy-focused AI assistant shutting** - (techcrunch.com) Ollie, a privacy-focused AI assistant, is shutting down",
-      "url": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/"
+      "text": "**Ford launches privacy promise explains** - (techcrunch.com) Ford launches a ‘privacy promise’ and explains how and why it uses customer data",
+      "url": "https://techcrunch.com/2026/11/02/ford-launches-a-privacy-promise-and-explains-how-and-why-it-uses-a-customers-data/"
     },
     {
-      "text": "**AI law firm Crosby bids** - (techcrunch.com) AI law firm Crosby bids on disintegrating, famed firm Weil Gotshal",
-      "url": "https://techcrunch.com/2026/10/30/ai-law-firm-crosby-bids-on-disintegrating-famed-firm-weil-gotshal/"
+      "text": "**Omen AI adds liquid know-how** - (techcrunch.com) Omen AI adds liquid know-how in $16 million Aquatic Labs acquisition",
+      "url": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/"
+    },
+    {
+      "text": "**Privacy Display Galaxy S27 Pro** - (9to5google.com) Privacy Display on Galaxy S27 Pro and S27 Ultra looks more promising in latest leak",
+      "url": "https://9to5google.com/2026/11/02/galaxy-s27-privacy-display-improved-brightness/"
     },
     {
       "text": "**Wild World Third-Party AI Apps** - (cnet.com) The Wild World of Third-Party AI Apps for Ring Security, and Whether You Need Them",
       "url": "https://www.cnet.com/home/security/ring-ai-app-store-third-parties-analysis-do-you-need-them/"
     },
     {
-      "text": "**Apple acquires Ascend io agentic** - (9to5mac.com) Apple acquires Ascend․io, an agentic AI engineering startup",
-      "url": "https://9to5mac.com/2026/10/30/apple-acquires-ascend%e2%80%a4io-an-agentic-ai-engineering-startup/"
-    },
-    {
-      "text": "**What Open-Weight AI Models** - (cnet.com) What Are Open-Weight AI Models?",
-      "url": "https://www.cnet.com/tech/services-and-software/what-are-open-weight-ai-models/"
+      "text": "**Apple& 8217 s Ultra smart** - (theverge.com) Apple&#8217;s ‘Ultra’ smart home robot might have to wait until 2028",
+      "url": "https://www.theverge.com/tech/1024496/apple-homeview-ultra-robot-rumor-delay"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/",
-    "https://techcrunch.com/2026/10/30/ai-law-firm-crosby-bids-on-disintegrating-famed-firm-weil-gotshal/",
+    "https://techcrunch.com/2026/11/02/ford-launches-a-privacy-promise-and-explains-how-and-why-it-uses-a-customers-data/",
+    "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/",
+    "https://9to5google.com/2026/11/02/galaxy-s27-privacy-display-improved-brightness/",
     "https://www.cnet.com/home/security/ring-ai-app-store-third-parties-analysis-do-you-need-them/",
-    "https://9to5mac.com/2026/10/30/apple-acquires-ascend%e2%80%a4io-an-agentic-ai-engineering-startup/",
-    "https://www.cnet.com/tech/services-and-software/what-are-open-weight-ai-models/"
+    "https://www.theverge.com/tech/1024496/apple-homeview-ultra-robot-rumor-delay"
   ],
   "note": "fallback (summary generation error)"
 }
