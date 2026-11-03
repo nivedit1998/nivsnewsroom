@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-11-02T18:37:41.645Z",
+  "generatedAt": "2026-11-03T16:22:52.870Z",
   "bullets": [
     {
-      "text": "**Ford launches privacy promise explains** - (techcrunch.com) Ford launches a ‘privacy promise’ and explains how and why it uses customer data",
-      "url": "https://techcrunch.com/2026/11/02/ford-launches-a-privacy-promise-and-explains-how-and-why-it-uses-a-customers-data/"
-    },
-    {
-      "text": "**Omen AI adds liquid know-how** - (techcrunch.com) Omen AI adds liquid know-how in $16 million Aquatic Labs acquisition",
-      "url": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/"
+      "text": "**Apple restricts dating apps AI** - (techcrunch.com) Apple restricts dating apps and AI companions to users 18 and up",
+      "url": "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/"
     },
     {
       "text": "**Privacy Display Galaxy S27 Pro** - (9to5google.com) Privacy Display on Galaxy S27 Pro and S27 Ultra looks more promising in latest leak",
       "url": "https://9to5google.com/2026/11/02/galaxy-s27-privacy-display-improved-brightness/"
     },
     {
-      "text": "**Wild World Third-Party AI Apps** - (cnet.com) The Wild World of Third-Party AI Apps for Ring Security, and Whether You Need Them",
-      "url": "https://www.cnet.com/home/security/ring-ai-app-store-third-parties-analysis-do-you-need-them/"
+      "text": "**Apple all AI its own** - (theverge.com) Apple is all in on AI — its own and everyone else&#8217;s",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1025245/apple-earnings-q4-ai"
     },
     {
-      "text": "**Apple& 8217 s Ultra smart** - (theverge.com) Apple&#8217;s ‘Ultra’ smart home robot might have to wait until 2028",
-      "url": "https://www.theverge.com/tech/1024496/apple-homeview-ultra-robot-rumor-delay"
+      "text": "**Google Home Speaker gets first** - (9to5google.com) Google Home Speaker gets first discount since June launch",
+      "url": "https://9to5google.com/2026/11/02/google-home-speaker-discount/"
+    },
+    {
+      "text": "**Apple Watch s AI features** - (techcrunch.com) Apple Watch’s AI features for rewinding and recapping conversations begin beta testing",
+      "url": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://techcrunch.com/2026/11/02/ford-launches-a-privacy-promise-and-explains-how-and-why-it-uses-a-customers-data/",
-    "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/",
+    "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/",
     "https://9to5google.com/2026/11/02/galaxy-s27-privacy-display-improved-brightness/",
-    "https://www.cnet.com/home/security/ring-ai-app-store-third-parties-analysis-do-you-need-them/",
-    "https://www.theverge.com/tech/1024496/apple-homeview-ultra-robot-rumor-delay"
+    "https://www.theverge.com/ai-artificial-intelligence/1025245/apple-earnings-q4-ai",
+    "https://9to5google.com/2026/11/02/google-home-speaker-discount/",
+    "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/"
   ],
   "note": "fallback (summary generation error)"
 }

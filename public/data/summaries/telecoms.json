@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-11-02T18:37:51.188Z",
+  "generatedAt": "2026-11-03T16:23:00.513Z",
   "bullets": [
-    {
-      "text": "**Telia expands 5G SA push** - (rcrwireless.com) Telia expands 5G SA push as Norway RAN deal reshapes network",
-      "url": "https://rcrwireless.com/20261029/5g/telia-5g-sa-norway-ran"
-    },
     {
       "text": "**KDDI Telehouse spends 220 million** - (totaltele.com) KDDI and Telehouse spends £220 million to expand London Docklands campus",
       "url": "https://totaltele.com/kddi-and-telehouse-spends-220-million-to-expand-london-docklands-campus/"
     },
     {
-      "text": "**Building 6G standard Narrowing path** - (rcrwireless.com) Building the 6G standard: Narrowing the path to Release 21",
-      "url": "https://rcrwireless.com/20261029/6g/building-the-6g-standard"
-    },
-    {
-      "text": "**Satellite land-grab tower premiums 6G** - (rcrwireless.com) Satellite land-grab, tower premiums, 6G money problems (Telco Diary)",
-      "url": "https://rcrwireless.com/20261028/opinion/satellite-land-grab-tower-premiums-6g-money-problems-telco-diary"
+      "text": "**SBA sees spectrum AI 6G** - (rcrwireless.com) SBA sees spectrum, AI, and 6G extending wireless investment cycle",
+      "url": "https://rcrwireless.com/20261103/network-infrastructure/towers/sba-spectrum-ai-wireless"
     },
     {
       "text": "**Direct-to-device leaves lab Orange Skylo** - (rcrwireless.com) Direct-to-device leaves the lab as Orange, Skylo and Kyivstar sell continuity",
       "url": "https://rcrwireless.com/20261029/networks/direct-to-device-orange-kyivstar"
+    },
+    {
+      "text": "**Beyond Cable Ookla analyst talks** - (totaltele.com) Beyond the Cable: Ookla analyst talks M&As and the tapestry of telecom",
+      "url": "https://totaltele.com/beyond-the-cable-ookla-analyst-talks-mas-and-the-tapestry-of-telecom/"
+    },
+    {
+      "text": "**Upper 6 GHz mobile side** - (rcrwireless.com) Upper 6 GHz – the mobile side of the story (Analyst Angle)",
+      "url": "https://rcrwireless.com/20261103/analyst-angle/upper-6-ghz-the-mobile-side-of-the-story-analyst-angle"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://rcrwireless.com/20261029/5g/telia-5g-sa-norway-ran",
     "https://totaltele.com/kddi-and-telehouse-spends-220-million-to-expand-london-docklands-campus/",
-    "https://rcrwireless.com/20261029/6g/building-the-6g-standard",
-    "https://rcrwireless.com/20261028/opinion/satellite-land-grab-tower-premiums-6g-money-problems-telco-diary",
-    "https://rcrwireless.com/20261029/networks/direct-to-device-orange-kyivstar"
+    "https://rcrwireless.com/20261103/network-infrastructure/towers/sba-spectrum-ai-wireless",
+    "https://rcrwireless.com/20261029/networks/direct-to-device-orange-kyivstar",
+    "https://totaltele.com/beyond-the-cable-ookla-analyst-talks-mas-and-the-tapestry-of-telecom/",
+    "https://rcrwireless.com/20261103/analyst-angle/upper-6-ghz-the-mobile-side-of-the-story-analyst-angle"
   ],
   "note": "fallback (summary generation error)"
 }

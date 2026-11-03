@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-11-02T18:38:00.013Z",
+  "generatedAt": "2026-11-03T16:23:17.848Z",
   "bullets": [
     {
-      "text": "**Nubank s US Push Agentic** - (thefintechtimes.com) Nubank’s US Push and the Agentic Payments Liability Gap",
-      "url": "https://thefintechtimes.com/nubanks-us-push-and-the-agentic-payments-liability-gap/"
+      "text": "**IXOPAY Launches IXO One Modular** - (thefintechtimes.com) IXOPAY Launches IXO One, a Modular Payments Platform Built for Agentic Commerce",
+      "url": "https://thefintechtimes.com/ixopay-launches-ixo-one-a-modular-payments-platform-built-for-agentic-commerce/"
     },
     {
-      "text": "**Finovox Adds ROI Tool Put** - (thefintechtimes.com) Finovox Adds ROI Tool to Put a Number on Fraud Prevention",
-      "url": "https://thefintechtimes.com/finovox-adds-roi-tool-to-put-a-number-on-fraud-prevention/"
+      "text": "**Future Global Payments Operating System** - (thefintechtimes.com) The Future of Global Payments Is an Operating System",
+      "url": "https://thefintechtimes.com/the-future-of-global-payments-is-an-operating-system/"
     },
     {
-      "text": "**UK fintech Navro receives Texas** - (finextra.com) UK fintech Navro receives Texas money transmission licence",
-      "url": "https://www.finextra.com/pressarticle/111527/uk-fintech-navro-receives-texas-money-transmission-licence"
+      "text": "**Trust Payments Weavr team virtual** - (finextra.com) Trust Payments and Weavr team on virtual cars for travel companies",
+      "url": "https://www.finextra.com/pressarticle/111547/trust-payments-and-weavr-team-on-virtual-cars-for-travel-companies"
     },
     {
-      "text": "**World Launches ID Verification Suite** - (thefintechtimes.com) World Launches ID Verification Suite for Banking and Finance",
-      "url": "https://thefintechtimes.com/world-launches-id-verification-suite-for-banking-and-finance/"
+      "text": "**OnePay introduces stablecoin deposits powered** - (finextra.com) OnePay introduces stablecoin deposits powered by Stripe",
+      "url": "https://www.finextra.com/pressarticle/111557/onepay-introduces-stablecoin-deposits-powered-by-stripe"
     },
     {
-      "text": "**BNPL bolsters holiday budgets survey** - (paymentsdive.com) BNPL bolsters holiday budgets: survey",
-      "url": "https://www.paymentsdive.com/news/bnpl-bolsters-holiday-budgets-survey/873390/"
+      "text": "**Safirum launches Swiss franc stablecoin** - (finextra.com) Safirum launches Swiss franc stablecoin",
+      "url": "https://www.finextra.com/pressarticle/111550/safirum-launches-swiss-franc-stablecoin"
     }
   ],
-  "inputHash": "938284cd537d1a4b9a4f523499d35ba6396e6a617f386c106582f23ad7505323",
+  "inputHash": "4c7cf4fc78fbbe85595034a66f7ad2c7aba1137299e67dbb5e6d71b7ae34741c",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://thefintechtimes.com/nubanks-us-push-and-the-agentic-payments-liability-gap/",
-    "https://thefintechtimes.com/finovox-adds-roi-tool-to-put-a-number-on-fraud-prevention/",
-    "https://www.finextra.com/pressarticle/111527/uk-fintech-navro-receives-texas-money-transmission-licence",
-    "https://thefintechtimes.com/world-launches-id-verification-suite-for-banking-and-finance/",
-    "https://www.paymentsdive.com/news/bnpl-bolsters-holiday-budgets-survey/873390/",
+    "https://thefintechtimes.com/ixopay-launches-ixo-one-a-modular-payments-platform-built-for-agentic-commerce/",
+    "https://thefintechtimes.com/the-future-of-global-payments-is-an-operating-system/",
+    "https://www.finextra.com/pressarticle/111547/trust-payments-and-weavr-team-on-virtual-cars-for-travel-companies",
+    "https://www.finextra.com/pressarticle/111557/onepay-introduces-stablecoin-deposits-powered-by-stripe",
+    "https://www.finextra.com/pressarticle/111550/safirum-launches-swiss-franc-stablecoin",
+    "https://thefintechtimes.com/dubai-fintech-summit-day-one-corridors-stablecoins-and-a-tenfold-bet-on-talent/",
     "https://www.fca.org.uk/news/speeches/building-future-finance-age-ai",
+    "https://www.paymentsdive.com/news/bnpl-bolsters-holiday-budgets-survey/873390/",
     "https://www.paymentsdive.com/news/settling-cross-border-payments-remains-tough/872997/",
-    "https://www.fca.org.uk/news/speeches/reshaping-regulation-deliberately",
-    "https://www.finextra.com/pressarticle/111523/dcs-decard-becomes-a-mastercard-issuer-in-hong-kong",
-    "https://www.paymentsdive.com/spons/fraud-capital-and-owning-the-infrastructure/873353/"
+    "https://www.fca.org.uk/news/speeches/reshaping-regulation-deliberately"
   ],
   "note": "fallback (summary generation error)"
 }
