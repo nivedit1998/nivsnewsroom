@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-11-03T16:23:17.848Z",
+  "generatedAt": "2026-11-04T16:27:36.893Z",
   "bullets": [
+    {
+      "text": "**Dubai Fintech Summit day two** - (thefintechtimes.com) Dubai Fintech Summit day two: 2,000 firms, a Japanese bridge and AI moves into production",
+      "url": "https://thefintechtimes.com/dubai-fintech-summit-day-two-2000-firms-a-japanese-bridge-and-ai-moves-into-production/"
+    },
+    {
+      "text": "**Endgame Cross-Border Payments Operating System** - (thefintechtimes.com) The Endgame of Cross-Border Payments Is an Operating System",
+      "url": "https://thefintechtimes.com/the-endgame-of-cross-border-payments-is-an-operating-system/"
+    },
     {
       "text": "**IXOPAY Launches IXO One Modular** - (thefintechtimes.com) IXOPAY Launches IXO One, a Modular Payments Platform Built for Agentic Commerce",
       "url": "https://thefintechtimes.com/ixopay-launches-ixo-one-a-modular-payments-platform-built-for-agentic-commerce/"
     },
     {
-      "text": "**Future Global Payments Operating System** - (thefintechtimes.com) The Future of Global Payments Is an Operating System",
-      "url": "https://thefintechtimes.com/the-future-of-global-payments-is-an-operating-system/"
+      "text": "**Calida Financial builds embedded finance** - (finextra.com) Calida Financial builds embedded finance platform",
+      "url": "https://www.finextra.com/pressarticle/111574/calida-financial-builds-embedded-finance-platform"
     },
     {
-      "text": "**Trust Payments Weavr team virtual** - (finextra.com) Trust Payments and Weavr team on virtual cars for travel companies",
-      "url": "https://www.finextra.com/pressarticle/111547/trust-payments-and-weavr-team-on-virtual-cars-for-travel-companies"
-    },
-    {
-      "text": "**OnePay introduces stablecoin deposits powered** - (finextra.com) OnePay introduces stablecoin deposits powered by Stripe",
-      "url": "https://www.finextra.com/pressarticle/111557/onepay-introduces-stablecoin-deposits-powered-by-stripe"
-    },
-    {
-      "text": "**Safirum launches Swiss franc stablecoin** - (finextra.com) Safirum launches Swiss franc stablecoin",
-      "url": "https://www.finextra.com/pressarticle/111550/safirum-launches-swiss-franc-stablecoin"
+      "text": "**ING Bank Romania deploys Cambrist** - (finextra.com) ING Bank Romania deploys Cambrist payments acquiring data analytics platform",
+      "url": "https://www.finextra.com/pressarticle/111575/ing-bank-romania-deploys-cambrist-payments-acquiring-data-analytics-platform"
     }
   ],
-  "inputHash": "4c7cf4fc78fbbe85595034a66f7ad2c7aba1137299e67dbb5e6d71b7ae34741c",
+  "inputHash": "538053185f3a6ca4fc5f8bb790b360f9207548e40212d78e41fd2bcb88ad975a",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
+    "https://thefintechtimes.com/dubai-fintech-summit-day-two-2000-firms-a-japanese-bridge-and-ai-moves-into-production/",
+    "https://thefintechtimes.com/the-endgame-of-cross-border-payments-is-an-operating-system/",
     "https://thefintechtimes.com/ixopay-launches-ixo-one-a-modular-payments-platform-built-for-agentic-commerce/",
-    "https://thefintechtimes.com/the-future-of-global-payments-is-an-operating-system/",
-    "https://www.finextra.com/pressarticle/111547/trust-payments-and-weavr-team-on-virtual-cars-for-travel-companies",
-    "https://www.finextra.com/pressarticle/111557/onepay-introduces-stablecoin-deposits-powered-by-stripe",
-    "https://www.finextra.com/pressarticle/111550/safirum-launches-swiss-franc-stablecoin",
-    "https://thefintechtimes.com/dubai-fintech-summit-day-one-corridors-stablecoins-and-a-tenfold-bet-on-talent/",
+    "https://www.finextra.com/pressarticle/111574/calida-financial-builds-embedded-finance-platform",
+    "https://www.finextra.com/pressarticle/111575/ing-bank-romania-deploys-cambrist-payments-acquiring-data-analytics-platform",
+    "https://www.fca.org.uk/news/blogs/act-now-be-resilient-quantum-future",
     "https://www.fca.org.uk/news/speeches/building-future-finance-age-ai",
     "https://www.paymentsdive.com/news/bnpl-bolsters-holiday-budgets-survey/873390/",
-    "https://www.paymentsdive.com/news/settling-cross-border-payments-remains-tough/872997/",
-    "https://www.fca.org.uk/news/speeches/reshaping-regulation-deliberately"
+    "https://www.fca.org.uk/news/speeches/reshaping-regulation-deliberately",
+    "https://www.finextra.com/pressarticle/111576/capra-bank-taps-zact-to-launch-spendlink-platform-for-commercial-banking-customers"
   ],
   "note": "fallback (summary generation error)"
 }

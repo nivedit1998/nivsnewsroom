@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-11-03T16:23:00.513Z",
+  "generatedAt": "2026-11-04T16:27:27.252Z",
   "bullets": [
+    {
+      "text": "**capacity gap Why Latin America** - (totaltele.com) The capacity gap: Why Latin America needs a new generation of subsea cables",
+      "url": "https://totaltele.com/the-capacity-gap-why-latin-america-needs-a-new-generation-of-subsea-cables/"
+    },
     {
       "text": "**KDDI Telehouse spends 220 million** - (totaltele.com) KDDI and Telehouse spends £220 million to expand London Docklands campus",
       "url": "https://totaltele.com/kddi-and-telehouse-spends-220-million-to-expand-london-docklands-campus/"
+    },
+    {
+      "text": "**SpaceX taps Qualcomm Starlink Mobile** - (rcrwireless.com) SpaceX taps Qualcomm for Starlink Mobile 5G network buildout",
+      "url": "https://rcrwireless.com/20261104/network-infrastructure/spacex-taps-qualcomm-for-starlink-mobile-5g-network-buildout"
     },
     {
       "text": "**SBA sees spectrum AI 6G** - (rcrwireless.com) SBA sees spectrum, AI, and 6G extending wireless investment cycle",
       "url": "https://rcrwireless.com/20261103/network-infrastructure/towers/sba-spectrum-ai-wireless"
     },
     {
-      "text": "**Direct-to-device leaves lab Orange Skylo** - (rcrwireless.com) Direct-to-device leaves the lab as Orange, Skylo and Kyivstar sell continuity",
-      "url": "https://rcrwireless.com/20261029/networks/direct-to-device-orange-kyivstar"
-    },
-    {
-      "text": "**Beyond Cable Ookla analyst talks** - (totaltele.com) Beyond the Cable: Ookla analyst talks M&As and the tapestry of telecom",
-      "url": "https://totaltele.com/beyond-the-cable-ookla-analyst-talks-mas-and-the-tapestry-of-telecom/"
-    },
-    {
-      "text": "**Upper 6 GHz mobile side** - (rcrwireless.com) Upper 6 GHz – the mobile side of the story (Analyst Angle)",
-      "url": "https://rcrwireless.com/20261103/analyst-angle/upper-6-ghz-the-mobile-side-of-the-story-analyst-angle"
+      "text": "**wireless edge has fragmentation problem** - (rcrwireless.com) The wireless edge has a fragmentation problem (Reader Forum)",
+      "url": "https://rcrwireless.com/20261104/opinion/the-wireless-edge-has-a-fragmentation-problem-reader-forum"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
+    "https://totaltele.com/the-capacity-gap-why-latin-america-needs-a-new-generation-of-subsea-cables/",
     "https://totaltele.com/kddi-and-telehouse-spends-220-million-to-expand-london-docklands-campus/",
+    "https://rcrwireless.com/20261104/network-infrastructure/spacex-taps-qualcomm-for-starlink-mobile-5g-network-buildout",
     "https://rcrwireless.com/20261103/network-infrastructure/towers/sba-spectrum-ai-wireless",
-    "https://rcrwireless.com/20261029/networks/direct-to-device-orange-kyivstar",
-    "https://totaltele.com/beyond-the-cable-ookla-analyst-talks-mas-and-the-tapestry-of-telecom/",
-    "https://rcrwireless.com/20261103/analyst-angle/upper-6-ghz-the-mobile-side-of-the-story-analyst-angle"
+    "https://rcrwireless.com/20261104/opinion/the-wireless-edge-has-a-fragmentation-problem-reader-forum"
   ],
   "note": "fallback (summary generation error)"
 }

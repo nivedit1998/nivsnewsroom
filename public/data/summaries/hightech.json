@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-11-03T16:22:52.870Z",
+  "generatedAt": "2026-11-04T16:27:20.311Z",
   "bullets": [
     {
-      "text": "**Apple restricts dating apps AI** - (techcrunch.com) Apple restricts dating apps and AI companions to users 18 and up",
-      "url": "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/"
+      "text": "**CrowdStrike shell out nearly 500M** - (techcrunch.com) CrowdStrike to shell out nearly $500M for 2 AI security startups as the market for securing agents takes off",
+      "url": "https://techcrunch.com/2026/11/03/crowdstrike-to-shell-out-nearly-500m-for-2-ai-security-startups-as-the-market-for-securing-agents-takes-off/"
     },
     {
-      "text": "**Privacy Display Galaxy S27 Pro** - (9to5google.com) Privacy Display on Galaxy S27 Pro and S27 Ultra looks more promising in latest leak",
-      "url": "https://9to5google.com/2026/11/02/galaxy-s27-privacy-display-improved-brightness/"
+      "text": "**How get access Sonos AI** - (9to5mac.com) How to get access to Sonos AI features, as company aims to avoid another app disaster",
+      "url": "https://9to5mac.com/2026/11/04/how-to-get-access-to-sonos-ai-features-as-company-aims-to-avoid-another-app-disaster/"
     },
     {
-      "text": "**Apple all AI its own** - (theverge.com) Apple is all in on AI — its own and everyone else&#8217;s",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1025245/apple-earnings-q4-ai"
+      "text": "**Data centers lost midterms** - (theverge.com) Data centers lost the midterms",
+      "url": "https://www.theverge.com/policy/1026365/data-centers-midterms-results"
     },
     {
-      "text": "**Google Home Speaker gets first** - (9to5google.com) Google Home Speaker gets first discount since June launch",
-      "url": "https://9to5google.com/2026/11/02/google-home-speaker-discount/"
+      "text": "**Developers can now create advanced** - (9to5mac.com) Developers can now create advanced ‘app skills’ for Siri AI",
+      "url": "https://9to5mac.com/2026/11/03/developers-can-now-create-advanced-app-skills-for-siri-ai/"
     },
     {
-      "text": "**Apple Watch s AI features** - (techcrunch.com) Apple Watch’s AI features for rewinding and recapping conversations begin beta testing",
-      "url": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/"
+      "text": "**Ted Schlein s Ballistic Ventures** - (techcrunch.com) Ted Schlein’s Ballistic Ventures seeks $490M for new funds amid AI-driven cybersecurity boom",
+      "url": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/",
-    "https://9to5google.com/2026/11/02/galaxy-s27-privacy-display-improved-brightness/",
-    "https://www.theverge.com/ai-artificial-intelligence/1025245/apple-earnings-q4-ai",
-    "https://9to5google.com/2026/11/02/google-home-speaker-discount/",
-    "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/"
+    "https://techcrunch.com/2026/11/03/crowdstrike-to-shell-out-nearly-500m-for-2-ai-security-startups-as-the-market-for-securing-agents-takes-off/",
+    "https://9to5mac.com/2026/11/04/how-to-get-access-to-sonos-ai-features-as-company-aims-to-avoid-another-app-disaster/",
+    "https://www.theverge.com/policy/1026365/data-centers-midterms-results",
+    "https://9to5mac.com/2026/11/03/developers-can-now-create-advanced-app-skills-for-siri-ai/",
+    "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/"
   ],
   "note": "fallback (summary generation error)"
 }
