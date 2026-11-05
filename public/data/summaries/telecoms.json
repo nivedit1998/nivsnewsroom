@@ -1,13 +1,9 @@
 {
-  "generatedAt": "2026-11-04T16:27:27.252Z",
+  "generatedAt": "2026-11-05T16:36:04.362Z",
   "bullets": [
     {
       "text": "**capacity gap Why Latin America** - (totaltele.com) The capacity gap: Why Latin America needs a new generation of subsea cables",
       "url": "https://totaltele.com/the-capacity-gap-why-latin-america-needs-a-new-generation-of-subsea-cables/"
-    },
-    {
-      "text": "**KDDI Telehouse spends 220 million** - (totaltele.com) KDDI and Telehouse spends £220 million to expand London Docklands campus",
-      "url": "https://totaltele.com/kddi-and-telehouse-spends-220-million-to-expand-london-docklands-campus/"
     },
     {
       "text": "**SpaceX taps Qualcomm Starlink Mobile** - (rcrwireless.com) SpaceX taps Qualcomm for Starlink Mobile 5G network buildout",
@@ -20,16 +16,20 @@
     {
       "text": "**wireless edge has fragmentation problem** - (rcrwireless.com) The wireless edge has a fragmentation problem (Reader Forum)",
       "url": "https://rcrwireless.com/20261104/opinion/the-wireless-edge-has-a-fragmentation-problem-reader-forum"
+    },
+    {
+      "text": "**VodafoneThree helps police crack down** - (totaltele.com) VodafoneThree helps police crack down on SIM farms",
+      "url": "https://totaltele.com/vodafonethree-helps-police-crack-down-on-sim-farms/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://totaltele.com/the-capacity-gap-why-latin-america-needs-a-new-generation-of-subsea-cables/",
-    "https://totaltele.com/kddi-and-telehouse-spends-220-million-to-expand-london-docklands-campus/",
     "https://rcrwireless.com/20261104/network-infrastructure/spacex-taps-qualcomm-for-starlink-mobile-5g-network-buildout",
     "https://rcrwireless.com/20261103/network-infrastructure/towers/sba-spectrum-ai-wireless",
-    "https://rcrwireless.com/20261104/opinion/the-wireless-edge-has-a-fragmentation-problem-reader-forum"
+    "https://rcrwireless.com/20261104/opinion/the-wireless-edge-has-a-fragmentation-problem-reader-forum",
+    "https://totaltele.com/vodafonethree-helps-police-crack-down-on-sim-farms/"
   ],
   "note": "fallback (summary generation error)"
 }

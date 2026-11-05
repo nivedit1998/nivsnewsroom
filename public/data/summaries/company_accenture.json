@@ -1,15 +1,20 @@
 {
-  "generatedAt": "2026-11-04T16:27:39.607Z",
+  "generatedAt": "2026-11-05T16:36:15.587Z",
   "bullets": [
     {
       "text": "**Kbrw Accenture Support Orange France** - (newsroom.accenture.com) Kbrw and Accenture Support Orange France in Modernizing Order Fulfillment and Enhancing the Customer Experience",
       "url": "https://newsroom.accenture.com/news/2026/kbrw-and-accenture-support-orange-france-in-modernizing-order-fulfillment-and-enhancing-the-customer-experience"
+    },
+    {
+      "text": "**Mondel z International Accenture Transform** - (newsroom.accenture.com) Mondelēz International and Accenture Transform Order-to-Cash With AI",
+      "url": "https://newsroom.accenture.com/news/2026/mondelez-international-and-accenture-transform-order-to-cash-with-ai"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://newsroom.accenture.com/news/2026/kbrw-and-accenture-support-orange-france-in-modernizing-order-fulfillment-and-enhancing-the-customer-experience"
+    "https://newsroom.accenture.com/news/2026/kbrw-and-accenture-support-orange-france-in-modernizing-order-fulfillment-and-enhancing-the-customer-experience",
+    "https://newsroom.accenture.com/news/2026/mondelez-international-and-accenture-transform-order-to-cash-with-ai"
   ],
   "note": "fallback (summary generation error)"
 }

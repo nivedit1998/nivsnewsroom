@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-11-04T16:27:36.893Z",
+  "generatedAt": "2026-11-05T16:36:12.931Z",
   "bullets": [
+    {
+      "text": "**Zilch Commits 77m Victoria HQ** - (thefintechtimes.com) Zilch Commits £77m to Victoria HQ as European Expansion Accelerates",
+      "url": "https://thefintechtimes.com/zilch-commits-77m-to-victoria-hq-as-european-expansion-accelerates/"
+    },
     {
       "text": "**Dubai Fintech Summit day two** - (thefintechtimes.com) Dubai Fintech Summit day two: 2,000 firms, a Japanese bridge and AI moves into production",
       "url": "https://thefintechtimes.com/dubai-fintech-summit-day-two-2000-firms-a-japanese-bridge-and-ai-moves-into-production/"
+    },
+    {
+      "text": "**Stablecoin firm Yellow Card target** - (finextra.com) Stablecoin firm Yellow Card target Brazil through GoMoney acquisition",
+      "url": "https://www.finextra.com/newsarticle/48710/stablecoin-firm-yellow-card-target-brazil-through-gomoney-acquisition"
     },
     {
       "text": "**Endgame Cross-Border Payments Operating System** - (thefintechtimes.com) The Endgame of Cross-Border Payments Is an Operating System",
       "url": "https://thefintechtimes.com/the-endgame-of-cross-border-payments-is-an-operating-system/"
     },
     {
-      "text": "**IXOPAY Launches IXO One Modular** - (thefintechtimes.com) IXOPAY Launches IXO One, a Modular Payments Platform Built for Agentic Commerce",
-      "url": "https://thefintechtimes.com/ixopay-launches-ixo-one-a-modular-payments-platform-built-for-agentic-commerce/"
-    },
-    {
-      "text": "**Calida Financial builds embedded finance** - (finextra.com) Calida Financial builds embedded finance platform",
-      "url": "https://www.finextra.com/pressarticle/111574/calida-financial-builds-embedded-finance-platform"
-    },
-    {
-      "text": "**ING Bank Romania deploys Cambrist** - (finextra.com) ING Bank Romania deploys Cambrist payments acquiring data analytics platform",
-      "url": "https://www.finextra.com/pressarticle/111575/ing-bank-romania-deploys-cambrist-payments-acquiring-data-analytics-platform"
+      "text": "**FCA explore quantum computing tackle** - (fca.org.uk) FCA to explore quantum computing to tackle financial crime",
+      "url": "https://www.fca.org.uk/news/press-releases/fca-explore-quantum-computing-tackle-financial-crime"
     }
   ],
-  "inputHash": "538053185f3a6ca4fc5f8bb790b360f9207548e40212d78e41fd2bcb88ad975a",
+  "inputHash": "9f9ef7dcf0b1c8af7cc408d3bc7e8dcea9167983bba2f5449f5709cf2c6c08b9",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
+    "https://thefintechtimes.com/zilch-commits-77m-to-victoria-hq-as-european-expansion-accelerates/",
     "https://thefintechtimes.com/dubai-fintech-summit-day-two-2000-firms-a-japanese-bridge-and-ai-moves-into-production/",
+    "https://www.finextra.com/newsarticle/48710/stablecoin-firm-yellow-card-target-brazil-through-gomoney-acquisition",
     "https://thefintechtimes.com/the-endgame-of-cross-border-payments-is-an-operating-system/",
-    "https://thefintechtimes.com/ixopay-launches-ixo-one-a-modular-payments-platform-built-for-agentic-commerce/",
-    "https://www.finextra.com/pressarticle/111574/calida-financial-builds-embedded-finance-platform",
-    "https://www.finextra.com/pressarticle/111575/ing-bank-romania-deploys-cambrist-payments-acquiring-data-analytics-platform",
+    "https://www.fca.org.uk/news/press-releases/fca-explore-quantum-computing-tackle-financial-crime",
+    "https://www.finextra.com/pressarticle/111588/tbc-georgia-rolls-out-palm-payments",
     "https://www.fca.org.uk/news/blogs/act-now-be-resilient-quantum-future",
-    "https://www.fca.org.uk/news/speeches/building-future-finance-age-ai",
+    "https://www.finextra.com/pressarticle/111587/aqua-global-and-stonex-partner-on-cross-border-payments",
     "https://www.paymentsdive.com/news/bnpl-bolsters-holiday-budgets-survey/873390/",
-    "https://www.fca.org.uk/news/speeches/reshaping-regulation-deliberately",
-    "https://www.finextra.com/pressarticle/111576/capra-bank-taps-zact-to-launch-spendlink-platform-for-commercial-banking-customers"
+    "https://www.paymentsdive.com/news/fis-toast-cfos-exit/873750/"
   ],
   "note": "fallback (summary generation error)"
 }
