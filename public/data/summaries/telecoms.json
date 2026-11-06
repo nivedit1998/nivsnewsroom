@@ -1,6 +1,10 @@
 {
-  "generatedAt": "2026-11-05T16:36:04.362Z",
+  "generatedAt": "2026-11-06T16:03:28.834Z",
   "bullets": [
+    {
+      "text": "**UAE s U6GHz milestone accelerates** - (totaltele.com) UAE’s U6GHz milestone accelerates 5G-Advanced and AI-driven connectivity",
+      "url": "https://totaltele.com/uaes-u6ghz-milestone-accelerates-5g-advanced-and-ai-driven-connectivity/"
+    },
     {
       "text": "**capacity gap Why Latin America** - (totaltele.com) The capacity gap: Why Latin America needs a new generation of subsea cables",
       "url": "https://totaltele.com/the-capacity-gap-why-latin-america-needs-a-new-generation-of-subsea-cables/"
@@ -10,26 +14,22 @@
       "url": "https://rcrwireless.com/20261104/network-infrastructure/spacex-taps-qualcomm-for-starlink-mobile-5g-network-buildout"
     },
     {
-      "text": "**SBA sees spectrum AI 6G** - (rcrwireless.com) SBA sees spectrum, AI, and 6G extending wireless investment cycle",
-      "url": "https://rcrwireless.com/20261103/network-infrastructure/towers/sba-spectrum-ai-wireless"
+      "text": "**Seamless not identical what NTN-native** - (rcrwireless.com) Seamless, not identical: what NTN-native 6G will feel like",
+      "url": "https://rcrwireless.com/20261105/networks/ntn-native-6g-seamless-not-identical"
     },
     {
       "text": "**wireless edge has fragmentation problem** - (rcrwireless.com) The wireless edge has a fragmentation problem (Reader Forum)",
       "url": "https://rcrwireless.com/20261104/opinion/the-wireless-edge-has-a-fragmentation-problem-reader-forum"
-    },
-    {
-      "text": "**VodafoneThree helps police crack down** - (totaltele.com) VodafoneThree helps police crack down on SIM farms",
-      "url": "https://totaltele.com/vodafonethree-helps-police-crack-down-on-sim-farms/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
+    "https://totaltele.com/uaes-u6ghz-milestone-accelerates-5g-advanced-and-ai-driven-connectivity/",
     "https://totaltele.com/the-capacity-gap-why-latin-america-needs-a-new-generation-of-subsea-cables/",
     "https://rcrwireless.com/20261104/network-infrastructure/spacex-taps-qualcomm-for-starlink-mobile-5g-network-buildout",
-    "https://rcrwireless.com/20261103/network-infrastructure/towers/sba-spectrum-ai-wireless",
-    "https://rcrwireless.com/20261104/opinion/the-wireless-edge-has-a-fragmentation-problem-reader-forum",
-    "https://totaltele.com/vodafonethree-helps-police-crack-down-on-sim-farms/"
+    "https://rcrwireless.com/20261105/networks/ntn-native-6g-seamless-not-identical",
+    "https://rcrwireless.com/20261104/opinion/the-wireless-edge-has-a-fragmentation-problem-reader-forum"
   ],
   "note": "fallback (summary generation error)"
 }

@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-05T16:35:57.922Z",
+  "generatedAt": "2026-11-06T16:03:22.630Z",
   "bullets": [
     {
-      "text": "**Dropbox acquires Tigris Data 350M** - (techcrunch.com) Dropbox acquires Tigris Data for $350M to bolster its AI infrastructure",
-      "url": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/"
+      "text": "**Palo Alto Networks talks buy** - (techcrunch.com) Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
+      "url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/"
     },
     {
-      "text": "**ElevenLabs now lets users publish** - (techcrunch.com) ElevenLabs now lets users publish AI-generated music directly on SoundCloud",
-      "url": "https://techcrunch.com/2026/11/05/elevenlabs-now-lets-users-publish-ai-generated-music-directly-on-soundcloud/"
+      "text": "**Serve Robotics launches new business** - (techcrunch.com) Serve Robotics launches new business to become the AWS for robots",
+      "url": "https://techcrunch.com/2026/11/05/serve-robotics-launches-new-business-to-become-the-aws-for-robots/"
     },
     {
       "text": "**How get access Sonos AI** - (9to5mac.com) How to get access to Sonos AI features, as company aims to avoid another app disaster",
@@ -25,8 +25,8 @@
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/",
-    "https://techcrunch.com/2026/11/05/elevenlabs-now-lets-users-publish-ai-generated-music-directly-on-soundcloud/",
+    "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
+    "https://techcrunch.com/2026/11/05/serve-robotics-launches-new-business-to-become-the-aws-for-robots/",
     "https://9to5mac.com/2026/11/04/how-to-get-access-to-sonos-ai-features-as-company-aims-to-avoid-another-app-disaster/",
     "https://9to5mac.com/2026/11/03/developers-can-now-create-advanced-app-skills-for-siri-ai/",
     "https://9to5google.com/2026/11/02/galaxy-s27-privacy-display-improved-brightness/"

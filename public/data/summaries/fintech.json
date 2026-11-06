@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-11-05T16:36:12.931Z",
+  "generatedAt": "2026-11-06T16:03:39.270Z",
   "bullets": [
     {
       "text": "**Zilch Commits 77m Victoria HQ** - (thefintechtimes.com) Zilch Commits £77m to Victoria HQ as European Expansion Accelerates",
       "url": "https://thefintechtimes.com/zilch-commits-77m-to-victoria-hq-as-european-expansion-accelerates/"
     },
     {
-      "text": "**Dubai Fintech Summit day two** - (thefintechtimes.com) Dubai Fintech Summit day two: 2,000 firms, a Japanese bridge and AI moves into production",
-      "url": "https://thefintechtimes.com/dubai-fintech-summit-day-two-2000-firms-a-japanese-bridge-and-ai-moves-into-production/"
-    },
-    {
-      "text": "**Stablecoin firm Yellow Card target** - (finextra.com) Stablecoin firm Yellow Card target Brazil through GoMoney acquisition",
-      "url": "https://www.finextra.com/newsarticle/48710/stablecoin-firm-yellow-card-target-brazil-through-gomoney-acquisition"
-    },
-    {
-      "text": "**Endgame Cross-Border Payments Operating System** - (thefintechtimes.com) The Endgame of Cross-Border Payments Is an Operating System",
-      "url": "https://thefintechtimes.com/the-endgame-of-cross-border-payments-is-an-operating-system/"
-    },
-    {
       "text": "**FCA explore quantum computing tackle** - (fca.org.uk) FCA to explore quantum computing to tackle financial crime",
       "url": "https://www.fca.org.uk/news/press-releases/fca-explore-quantum-computing-tackle-financial-crime"
+    },
+    {
+      "text": "**RemitBee TerraPay Link Canadian SMEs** - (thefintechtimes.com) RemitBee and TerraPay Link Canadian SMEs to Digital Wallets",
+      "url": "https://thefintechtimes.com/remitbee-and-terrapay-link-canadian-smes-to-digital-wallets/"
+    },
+    {
+      "text": "**Dubai Future Finance Week day** - (thefintechtimes.com) Dubai Future Finance Week day three: 600 wealth firms, a Mizuho bridge and Islamic finance’s connection problem",
+      "url": "https://thefintechtimes.com/dubai-future-finance-week-day-three-600-wealth-firms-a-mizuho-bridge-and-islamic-finances-connection-problem/"
+    },
+    {
+      "text": "**B2B payments firm Pliant raises** - (finextra.com) B2B payments firm Pliant raises $80",
+      "url": "https://www.finextra.com/pressarticle/111604/b2b-payments-firm-pliant-raises-80"
     }
   ],
-  "inputHash": "9f9ef7dcf0b1c8af7cc408d3bc7e8dcea9167983bba2f5449f5709cf2c6c08b9",
+  "inputHash": "07355e8aa2893037b5fdfc7ce42b6e9707084792e5c17556d19cafe80968af68",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://thefintechtimes.com/zilch-commits-77m-to-victoria-hq-as-european-expansion-accelerates/",
-    "https://thefintechtimes.com/dubai-fintech-summit-day-two-2000-firms-a-japanese-bridge-and-ai-moves-into-production/",
-    "https://www.finextra.com/newsarticle/48710/stablecoin-firm-yellow-card-target-brazil-through-gomoney-acquisition",
-    "https://thefintechtimes.com/the-endgame-of-cross-border-payments-is-an-operating-system/",
     "https://www.fca.org.uk/news/press-releases/fca-explore-quantum-computing-tackle-financial-crime",
-    "https://www.finextra.com/pressarticle/111588/tbc-georgia-rolls-out-palm-payments",
+    "https://thefintechtimes.com/remitbee-and-terrapay-link-canadian-smes-to-digital-wallets/",
+    "https://thefintechtimes.com/dubai-future-finance-week-day-three-600-wealth-firms-a-mizuho-bridge-and-islamic-finances-connection-problem/",
+    "https://www.finextra.com/pressarticle/111604/b2b-payments-firm-pliant-raises-80",
+    "https://www.finextra.com/pressarticle/111605/visa-establishes-global-capacity-hubs-in-singapore",
     "https://www.fca.org.uk/news/blogs/act-now-be-resilient-quantum-future",
-    "https://www.finextra.com/pressarticle/111587/aqua-global-and-stonex-partner-on-cross-border-payments",
-    "https://www.paymentsdive.com/news/bnpl-bolsters-holiday-budgets-survey/873390/",
-    "https://www.paymentsdive.com/news/fis-toast-cfos-exit/873750/"
+    "https://www.paymentsdive.com/news/ncr-atleos-first-citizens-target-stores-atm-digital-banking/873953/",
+    "https://www.paymentsdive.com/news/fis-toast-cfos-exit/873750/",
+    "https://www.paymentsdive.com/news/payment-processor-settle-ftc-alleged-deceptive-fees/873669/"
   ],
   "note": "fallback (summary generation error)"
 }
