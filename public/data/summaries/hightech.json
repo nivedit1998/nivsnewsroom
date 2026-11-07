@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-11-06T16:03:22.630Z",
+  "generatedAt": "2026-11-07T14:58:41.296Z",
   "bullets": [
     {
       "text": "**Palo Alto Networks talks buy** - (techcrunch.com) Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
       "url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/"
     },
     {
-      "text": "**Serve Robotics launches new business** - (techcrunch.com) Serve Robotics launches new business to become the AWS for robots",
-      "url": "https://techcrunch.com/2026/11/05/serve-robotics-launches-new-business-to-become-the-aws-for-robots/"
+      "text": "**Ray-Ban Meta Audio review Great** - (9to5google.com) Ray-Ban Meta Audio review: Great specs, shame about the price",
+      "url": "https://9to5google.com/2026/11/06/ray-ban-meta-audio-review/"
     },
     {
       "text": "**How get access Sonos AI** - (9to5mac.com) How to get access to Sonos AI features, as company aims to avoid another app disaster",
       "url": "https://9to5mac.com/2026/11/04/how-to-get-access-to-sonos-ai-features-as-company-aims-to-avoid-another-app-disaster/"
     },
     {
-      "text": "**Developers can now create advanced** - (9to5mac.com) Developers can now create advanced ‘app skills’ for Siri AI",
-      "url": "https://9to5mac.com/2026/11/03/developers-can-now-create-advanced-app-skills-for-siri-ai/"
+      "text": "**All latest updates AI data** - (theverge.com) All the latest updates on AI data centers",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy"
     },
     {
-      "text": "**Privacy Display Galaxy S27 Pro** - (9to5google.com) Privacy Display on Galaxy S27 Pro and S27 Ultra looks more promising in latest leak",
-      "url": "https://9to5google.com/2026/11/02/galaxy-s27-privacy-display-improved-brightness/"
+      "text": "**Will Democrats Rein Big Tech** - (cnet.com) Will Democrats Rein in Big Tech? It Starts With Privacy and Data Centers",
+      "url": "https://www.cnet.com/tech/services-and-software/midterm-election-2026-democrats-rein-in-big-tech-reaction/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
-    "https://techcrunch.com/2026/11/05/serve-robotics-launches-new-business-to-become-the-aws-for-robots/",
+    "https://9to5google.com/2026/11/06/ray-ban-meta-audio-review/",
     "https://9to5mac.com/2026/11/04/how-to-get-access-to-sonos-ai-features-as-company-aims-to-avoid-another-app-disaster/",
-    "https://9to5mac.com/2026/11/03/developers-can-now-create-advanced-app-skills-for-siri-ai/",
-    "https://9to5google.com/2026/11/02/galaxy-s27-privacy-display-improved-brightness/"
+    "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
+    "https://www.cnet.com/tech/services-and-software/midterm-election-2026-democrats-rein-in-big-tech-reaction/"
   ],
   "note": "fallback (summary generation error)"
 }
