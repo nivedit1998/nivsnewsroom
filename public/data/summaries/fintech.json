@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-07T14:59:03.781Z",
+  "generatedAt": "2026-11-08T15:26:57.665Z",
   "bullets": [
     {
-      "text": "**Zilch Commits 77m Victoria HQ** - (thefintechtimes.com) Zilch Commits £77m to Victoria HQ as European Expansion Accelerates",
-      "url": "https://thefintechtimes.com/zilch-commits-77m-to-victoria-hq-as-european-expansion-accelerates/"
+      "text": "**Piston Brings Cardless Fleet Fuel** - (thefintechtimes.com) Piston Brings Cardless Fleet Fuel Payments to 341 Jacksons Stores",
+      "url": "https://thefintechtimes.com/piston-brings-cardless-fleet-fuel-payments-to-341-jacksons-stores/"
     },
     {
       "text": "**PayPal Urges Retailers Show BNPL** - (thefintechtimes.com) PayPal Urges Retailers to Show BNPL Earlier as Black Friday Nears",
@@ -14,22 +14,22 @@
       "url": "https://www.fca.org.uk/news/press-releases/fca-explore-quantum-computing-tackle-financial-crime"
     },
     {
-      "text": "**RemitBee TerraPay Link Canadian SMEs** - (thefintechtimes.com) RemitBee and TerraPay Link Canadian SMEs to Digital Wallets",
-      "url": "https://thefintechtimes.com/remitbee-and-terrapay-link-canadian-smes-to-digital-wallets/"
+      "text": "**Visa Mesh Partner Bring Crypto** - (thefintechtimes.com) Visa and Mesh Partner to Bring Crypto Balances to 175m Merchants",
+      "url": "https://thefintechtimes.com/visa-and-mesh-partner-to-bring-crypto-balances-to-175m-merchants/"
     },
     {
       "text": "**B2B payments firm Pliant raises** - (finextra.com) B2B payments firm Pliant raises $80",
       "url": "https://www.finextra.com/pressarticle/111604/b2b-payments-firm-pliant-raises-80"
     }
   ],
-  "inputHash": "1b028999f87852b4e67619820388e0ac54193b7a5043ca8460c11d23caea115e",
+  "inputHash": "2e13b05ee7c3c13207c3819e642dcc322a21fcaf5311805d3781b2ffb9b897ad",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://thefintechtimes.com/zilch-commits-77m-to-victoria-hq-as-european-expansion-accelerates/",
+    "https://thefintechtimes.com/piston-brings-cardless-fleet-fuel-payments-to-341-jacksons-stores/",
     "https://thefintechtimes.com/paypal-urges-retailers-to-show-bnpl-earlier-as-black-friday-nears/",
     "https://www.fca.org.uk/news/press-releases/fca-explore-quantum-computing-tackle-financial-crime",
-    "https://thefintechtimes.com/remitbee-and-terrapay-link-canadian-smes-to-digital-wallets/",
+    "https://thefintechtimes.com/visa-and-mesh-partner-to-bring-crypto-balances-to-175m-merchants/",
     "https://www.finextra.com/pressarticle/111604/b2b-payments-firm-pliant-raises-80",
     "https://www.finextra.com/pressarticle/111608/payfacto-intergrates-interac-konek-digital-wallet-across-merchant-network",
     "https://www.finextra.com/pressarticle/111605/visa-establishes-global-capacity-hubs-in-singapore",
