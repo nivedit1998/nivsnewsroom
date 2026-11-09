@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-11-08T15:26:57.665Z",
+  "generatedAt": "2026-11-09T18:58:29.745Z",
   "bullets": [
+    {
+      "text": "**Canada Launches Real-Time Rail 24** - (pymnts.com) Canada Launches Real-Time Rail for 24/7 Payments",
+      "url": "https://www.pymnts.com/real-time-payments/2026/canada-launches-real-time-rail-for-24-7-payments/"
+    },
+    {
+      "text": "**Global Payments faces industry pricing** - (paymentsdive.com) Global Payments faces industry pricing pressure",
+      "url": "https://www.paymentsdive.com/news/global-payments-faces-industry-pricing-pressure/874128/"
+    },
+    {
+      "text": "**Experian Aims Help BNPL Users** - (pymnts.com) Experian Aims to Help BNPL Users Boost Their Financial Health",
+      "url": "https://www.pymnts.com/bnpl/2026/experian-aims-help-bnpl-users-boost-their-financial-health/"
+    },
+    {
+      "text": "**TotallyMoney Hits Six Million Users** - (thefintechtimes.com) TotallyMoney Hits Six Million Users as Credit-Score Habits Drive Gains",
+      "url": "https://thefintechtimes.com/totallymoney-hits-six-million-users-as-credit-score-habits-drive-gains/"
+    },
     {
       "text": "**Piston Brings Cardless Fleet Fuel** - (thefintechtimes.com) Piston Brings Cardless Fleet Fuel Payments to 341 Jacksons Stores",
       "url": "https://thefintechtimes.com/piston-brings-cardless-fleet-fuel-payments-to-341-jacksons-stores/"
-    },
-    {
-      "text": "**PayPal Urges Retailers Show BNPL** - (thefintechtimes.com) PayPal Urges Retailers to Show BNPL Earlier as Black Friday Nears",
-      "url": "https://thefintechtimes.com/paypal-urges-retailers-to-show-bnpl-earlier-as-black-friday-nears/"
-    },
-    {
-      "text": "**FCA explore quantum computing tackle** - (fca.org.uk) FCA to explore quantum computing to tackle financial crime",
-      "url": "https://www.fca.org.uk/news/press-releases/fca-explore-quantum-computing-tackle-financial-crime"
-    },
-    {
-      "text": "**Visa Mesh Partner Bring Crypto** - (thefintechtimes.com) Visa and Mesh Partner to Bring Crypto Balances to 175m Merchants",
-      "url": "https://thefintechtimes.com/visa-and-mesh-partner-to-bring-crypto-balances-to-175m-merchants/"
-    },
-    {
-      "text": "**B2B payments firm Pliant raises** - (finextra.com) B2B payments firm Pliant raises $80",
-      "url": "https://www.finextra.com/pressarticle/111604/b2b-payments-firm-pliant-raises-80"
     }
   ],
-  "inputHash": "2e13b05ee7c3c13207c3819e642dcc322a21fcaf5311805d3781b2ffb9b897ad",
+  "inputHash": "870c030a03ece4959e6326c18005d8217c894a4314d40bf93bfa3dac59f0aff6",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
+    "https://www.pymnts.com/real-time-payments/2026/canada-launches-real-time-rail-for-24-7-payments/",
+    "https://www.paymentsdive.com/news/global-payments-faces-industry-pricing-pressure/874128/",
+    "https://www.pymnts.com/bnpl/2026/experian-aims-help-bnpl-users-boost-their-financial-health/",
+    "https://thefintechtimes.com/totallymoney-hits-six-million-users-as-credit-score-habits-drive-gains/",
     "https://thefintechtimes.com/piston-brings-cardless-fleet-fuel-payments-to-341-jacksons-stores/",
-    "https://thefintechtimes.com/paypal-urges-retailers-to-show-bnpl-earlier-as-black-friday-nears/",
     "https://www.fca.org.uk/news/press-releases/fca-explore-quantum-computing-tackle-financial-crime",
-    "https://thefintechtimes.com/visa-and-mesh-partner-to-bring-crypto-balances-to-175m-merchants/",
-    "https://www.finextra.com/pressarticle/111604/b2b-payments-firm-pliant-raises-80",
-    "https://www.finextra.com/pressarticle/111608/payfacto-intergrates-interac-konek-digital-wallet-across-merchant-network",
-    "https://www.finextra.com/pressarticle/111605/visa-establishes-global-capacity-hubs-in-singapore",
-    "https://www.fca.org.uk/news/blogs/act-now-be-resilient-quantum-future",
-    "https://www.paymentsdive.com/news/ncr-atleos-first-citizens-target-stores-atm-digital-banking/873953/",
-    "https://www.paymentsdive.com/news/fis-toast-cfos-exit/873750/"
+    "https://thefintechtimes.com/paypal-urges-retailers-to-show-bnpl-earlier-as-black-friday-nears/",
+    "https://www.finextra.com/newsarticle/48725/canadas-real-time-payments-system-launches",
+    "https://www.finextra.com/pressarticle/111615/wirex-and-aurora-target-fragmentation-in-stablecoin-payments",
+    "https://www.pymnts.com/news/banking/2026/pnc-opens-usdc-stablecoin-payments-to-corporate-clients/"
   ],
   "note": "fallback (summary generation error)"
 }

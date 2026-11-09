@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:26:48.544Z",
+  "generatedAt": "2026-11-09T18:58:19.123Z",
   "bullets": [
     {
       "text": "**UAE s U6GHz milestone accelerates** - (totaltele.com) UAE’s U6GHz milestone accelerates 5G-Advanced and AI-driven connectivity",
@@ -14,12 +14,12 @@
       "url": "https://rcrwireless.com/20261104/network-infrastructure/spacex-taps-qualcomm-for-starlink-mobile-5g-network-buildout"
     },
     {
-      "text": "**Seamless not identical what NTN-native** - (rcrwireless.com) Seamless, not identical: what NTN-native 6G will feel like",
-      "url": "https://rcrwireless.com/20261105/networks/ntn-native-6g-seamless-not-identical"
+      "text": "**SK Telecom targets December launch** - (rcrwireless.com) SK Telecom targets December launch for 5G SA as mobile business recovers",
+      "url": "https://rcrwireless.com/20261109/5g/sk-telecom-5g-sa"
     },
     {
-      "text": "**wireless edge has fragmentation problem** - (rcrwireless.com) The wireless edge has a fragmentation problem (Reader Forum)",
-      "url": "https://rcrwireless.com/20261104/opinion/the-wireless-edge-has-a-fragmentation-problem-reader-forum"
+      "text": "**Seamless not identical what NTN-native** - (rcrwireless.com) Seamless, not identical: what NTN-native 6G will feel like",
+      "url": "https://rcrwireless.com/20261105/networks/ntn-native-6g-seamless-not-identical"
     }
   ],
   "promptVersion": "insights-v2",
@@ -28,8 +28,8 @@
     "https://totaltele.com/uaes-u6ghz-milestone-accelerates-5g-advanced-and-ai-driven-connectivity/",
     "https://totaltele.com/the-capacity-gap-why-latin-america-needs-a-new-generation-of-subsea-cables/",
     "https://rcrwireless.com/20261104/network-infrastructure/spacex-taps-qualcomm-for-starlink-mobile-5g-network-buildout",
-    "https://rcrwireless.com/20261105/networks/ntn-native-6g-seamless-not-identical",
-    "https://rcrwireless.com/20261104/opinion/the-wireless-edge-has-a-fragmentation-problem-reader-forum"
+    "https://rcrwireless.com/20261109/5g/sk-telecom-5g-sa",
+    "https://rcrwireless.com/20261105/networks/ntn-native-6g-seamless-not-identical"
   ],
   "note": "fallback (summary generation error)"
 }
