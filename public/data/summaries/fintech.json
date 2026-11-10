@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-11-09T18:58:29.745Z",
+  "generatedAt": "2026-11-10T16:30:21.320Z",
   "bullets": [
-    {
-      "text": "**Canada Launches Real-Time Rail 24** - (pymnts.com) Canada Launches Real-Time Rail for 24/7 Payments",
-      "url": "https://www.pymnts.com/real-time-payments/2026/canada-launches-real-time-rail-for-24-7-payments/"
-    },
     {
       "text": "**Global Payments faces industry pricing** - (paymentsdive.com) Global Payments faces industry pricing pressure",
       "url": "https://www.paymentsdive.com/news/global-payments-faces-industry-pricing-pressure/874128/"
     },
     {
-      "text": "**Experian Aims Help BNPL Users** - (pymnts.com) Experian Aims to Help BNPL Users Boost Their Financial Health",
-      "url": "https://www.pymnts.com/bnpl/2026/experian-aims-help-bnpl-users-boost-their-financial-health/"
+      "text": "**FCA explore quantum computing tackle** - (fca.org.uk) FCA to explore quantum computing to tackle financial crime",
+      "url": "https://www.fca.org.uk/news/press-releases/fca-explore-quantum-computing-tackle-financial-crime"
     },
     {
       "text": "**TotallyMoney Hits Six Million Users** - (thefintechtimes.com) TotallyMoney Hits Six Million Users as Credit-Score Habits Drive Gains",
       "url": "https://thefintechtimes.com/totallymoney-hits-six-million-users-as-credit-score-habits-drive-gains/"
     },
     {
-      "text": "**Piston Brings Cardless Fleet Fuel** - (thefintechtimes.com) Piston Brings Cardless Fleet Fuel Payments to 341 Jacksons Stores",
-      "url": "https://thefintechtimes.com/piston-brings-cardless-fleet-fuel-payments-to-341-jacksons-stores/"
+      "text": "**Global Payments expands Adaptive Authentication** - (finextra.com) Global Payments expands Adaptive Authentication platform with Visa",
+      "url": "https://www.finextra.com/pressarticle/111636/global-payments-expands-adaptive-authentication-platform-with-visa"
+    },
+    {
+      "text": "**Standard Chartered Acquires Zodia Custody** - (thefintechtimes.com) Standard Chartered Acquires Zodia Custody in Digital Assets Push",
+      "url": "https://thefintechtimes.com/standard-chartered-acquires-zodia-custody-in-digital-assets-push/"
     }
   ],
-  "inputHash": "870c030a03ece4959e6326c18005d8217c894a4314d40bf93bfa3dac59f0aff6",
+  "inputHash": "603bfccd53dad3d627bebded897c4b541d968d155373d87586cfb09238779cde",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://www.pymnts.com/real-time-payments/2026/canada-launches-real-time-rail-for-24-7-payments/",
     "https://www.paymentsdive.com/news/global-payments-faces-industry-pricing-pressure/874128/",
-    "https://www.pymnts.com/bnpl/2026/experian-aims-help-bnpl-users-boost-their-financial-health/",
-    "https://thefintechtimes.com/totallymoney-hits-six-million-users-as-credit-score-habits-drive-gains/",
-    "https://thefintechtimes.com/piston-brings-cardless-fleet-fuel-payments-to-341-jacksons-stores/",
     "https://www.fca.org.uk/news/press-releases/fca-explore-quantum-computing-tackle-financial-crime",
-    "https://thefintechtimes.com/paypal-urges-retailers-to-show-bnpl-earlier-as-black-friday-nears/",
-    "https://www.finextra.com/newsarticle/48725/canadas-real-time-payments-system-launches",
-    "https://www.finextra.com/pressarticle/111615/wirex-and-aurora-target-fragmentation-in-stablecoin-payments",
-    "https://www.pymnts.com/news/banking/2026/pnc-opens-usdc-stablecoin-payments-to-corporate-clients/"
+    "https://thefintechtimes.com/totallymoney-hits-six-million-users-as-credit-score-habits-drive-gains/",
+    "https://www.finextra.com/pressarticle/111636/global-payments-expands-adaptive-authentication-platform-with-visa",
+    "https://thefintechtimes.com/standard-chartered-acquires-zodia-custody-in-digital-assets-push/",
+    "https://www.finextra.com/pressarticle/111633/ecommpay-partners-with-getnet-for-spanish-acquiring-rails",
+    "https://thefintechtimes.com/california-dfpi-opposes-sec-crypto-rule-over-state-oversight-risk/",
+    "https://www.finextra.com/pressarticle/111632/bottomline-brings-usdc-stablecoin-payments-into-platform",
+    "https://www.fca.org.uk/news/blogs/act-now-be-resilient-quantum-future",
+    "https://www.paymentsdive.com/news/bnpl-for-rent-seeks-a-market/874061/"
   ],
   "note": "fallback (summary generation error)"
 }

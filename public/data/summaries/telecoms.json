@@ -1,17 +1,13 @@
 {
-  "generatedAt": "2026-11-09T18:58:19.123Z",
+  "generatedAt": "2026-11-10T16:30:07.101Z",
   "bullets": [
     {
       "text": "**UAE s U6GHz milestone accelerates** - (totaltele.com) UAE’s U6GHz milestone accelerates 5G-Advanced and AI-driven connectivity",
       "url": "https://totaltele.com/uaes-u6ghz-milestone-accelerates-5g-advanced-and-ai-driven-connectivity/"
     },
     {
-      "text": "**capacity gap Why Latin America** - (totaltele.com) The capacity gap: Why Latin America needs a new generation of subsea cables",
-      "url": "https://totaltele.com/the-capacity-gap-why-latin-america-needs-a-new-generation-of-subsea-cables/"
-    },
-    {
-      "text": "**SpaceX taps Qualcomm Starlink Mobile** - (rcrwireless.com) SpaceX taps Qualcomm for Starlink Mobile 5G network buildout",
-      "url": "https://rcrwireless.com/20261104/network-infrastructure/spacex-taps-qualcomm-for-starlink-mobile-5g-network-buildout"
+      "text": "**Verizon completes Thames Freeport private** - (rcrwireless.com) Verizon completes Thames Freeport private 5G deployment – as ECE moves back in focus",
+      "url": "https://rcrwireless.com/20261110/private-5g/verizon-completes-thames-freeport-private-5g-deployment-as-ece-moves-back-in-focus"
     },
     {
       "text": "**SK Telecom targets December launch** - (rcrwireless.com) SK Telecom targets December launch for 5G SA as mobile business recovers",
@@ -20,16 +16,20 @@
     {
       "text": "**Seamless not identical what NTN-native** - (rcrwireless.com) Seamless, not identical: what NTN-native 6G will feel like",
       "url": "https://rcrwireless.com/20261105/networks/ntn-native-6g-seamless-not-identical"
+    },
+    {
+      "text": "**Bell monetizes TowerCo stake it** - (rcrwireless.com) Bell monetizes TowerCo stake as it prioritizes higher-value wireless customers",
+      "url": "https://rcrwireless.com/20261110/carriers/bell-towerco-wireless"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://totaltele.com/uaes-u6ghz-milestone-accelerates-5g-advanced-and-ai-driven-connectivity/",
-    "https://totaltele.com/the-capacity-gap-why-latin-america-needs-a-new-generation-of-subsea-cables/",
-    "https://rcrwireless.com/20261104/network-infrastructure/spacex-taps-qualcomm-for-starlink-mobile-5g-network-buildout",
+    "https://rcrwireless.com/20261110/private-5g/verizon-completes-thames-freeport-private-5g-deployment-as-ece-moves-back-in-focus",
     "https://rcrwireless.com/20261109/5g/sk-telecom-5g-sa",
-    "https://rcrwireless.com/20261105/networks/ntn-native-6g-seamless-not-identical"
+    "https://rcrwireless.com/20261105/networks/ntn-native-6g-seamless-not-identical",
+    "https://rcrwireless.com/20261110/carriers/bell-towerco-wireless"
   ],
   "note": "fallback (summary generation error)"
 }
