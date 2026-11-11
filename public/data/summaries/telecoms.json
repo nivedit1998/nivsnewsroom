@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-10T16:30:07.101Z",
+  "generatedAt": "2026-11-11T16:25:07.803Z",
   "bullets": [
-    {
-      "text": "**UAE s U6GHz milestone accelerates** - (totaltele.com) UAE’s U6GHz milestone accelerates 5G-Advanced and AI-driven connectivity",
-      "url": "https://totaltele.com/uaes-u6ghz-milestone-accelerates-5g-advanced-and-ai-driven-connectivity/"
-    },
     {
       "text": "**Verizon completes Thames Freeport private** - (rcrwireless.com) Verizon completes Thames Freeport private 5G deployment – as ECE moves back in focus",
       "url": "https://rcrwireless.com/20261110/private-5g/verizon-completes-thames-freeport-private-5g-deployment-as-ece-moves-back-in-focus"
+    },
+    {
+      "text": "**landlords behind Europe s MDU** - (rcrwireless.com) The landlords behind Europe’s MDU connectivity opportunity (Analyst Angle)",
+      "url": "https://rcrwireless.com/20261111/analyst-angle/the-landlords-behind-europes-mdu-connectivity-opportunity-analyst-angle"
     },
     {
       "text": "**SK Telecom targets December launch** - (rcrwireless.com) SK Telecom targets December launch for 5G SA as mobile business recovers",
@@ -25,8 +25,8 @@
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://totaltele.com/uaes-u6ghz-milestone-accelerates-5g-advanced-and-ai-driven-connectivity/",
     "https://rcrwireless.com/20261110/private-5g/verizon-completes-thames-freeport-private-5g-deployment-as-ece-moves-back-in-focus",
+    "https://rcrwireless.com/20261111/analyst-angle/the-landlords-behind-europes-mdu-connectivity-opportunity-analyst-angle",
     "https://rcrwireless.com/20261109/5g/sk-telecom-5g-sa",
     "https://rcrwireless.com/20261105/networks/ntn-native-6g-seamless-not-identical",
     "https://rcrwireless.com/20261110/carriers/bell-towerco-wireless"

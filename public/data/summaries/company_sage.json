@@ -1,35 +1,20 @@
 {
-  "generatedAt": "2026-11-10T16:30:30.181Z",
+  "generatedAt": "2026-11-11T16:26:06.556Z",
   "bullets": [
     {
       "text": "**Black Friday 2026 11 expert** - (sage.com) Black Friday 2026: 11 expert tips to sell more",
       "url": "https://www.sage.com/en-gb/blog/black-friday-uk-2025-2026-11-expert-tips-to-sell-more/"
     },
     {
-      "text": "**How much can I afford** - (sage.com) How much can I afford to discount on Black Friday 2026? (Worked examples included)",
-      "url": "https://www.sage.com/en-gb/blog/black-friday-discounting-worked-examples/"
-    },
-    {
       "text": "**Black Friday 2026 actually worth** - (sage.com) Is Black Friday 2026 actually worth it for my small retail business?",
       "url": "https://www.sage.com/en-gb/blog/black-friday-2026/"
-    },
-    {
-      "text": "**Allowable expenses creative freelancers What** - (sage.com) Allowable expenses for creative freelancers: What can you claim?",
-      "url": "https://www.sage.com/en-gb/blog/allowable-expenses-for-creative-freelancers-what-can-you-claim/"
-    },
-    {
-      "text": "**How much should freelancer put** - (sage.com) How much should a freelancer put aside for tax?",
-      "url": "https://www.sage.com/en-gb/blog/freelancer-tax-amount/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://www.sage.com/en-gb/blog/black-friday-uk-2025-2026-11-expert-tips-to-sell-more/",
-    "https://www.sage.com/en-gb/blog/black-friday-discounting-worked-examples/",
-    "https://www.sage.com/en-gb/blog/black-friday-2026/",
-    "https://www.sage.com/en-gb/blog/allowable-expenses-for-creative-freelancers-what-can-you-claim/",
-    "https://www.sage.com/en-gb/blog/freelancer-tax-amount/"
+    "https://www.sage.com/en-gb/blog/black-friday-2026/"
   ],
   "note": "fallback (summary generation error)"
 }

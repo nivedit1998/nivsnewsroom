@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T16:30:21.320Z",
+  "generatedAt": "2026-11-11T16:25:23.257Z",
   "bullets": [
     {
       "text": "**Global Payments faces industry pricing** - (paymentsdive.com) Global Payments faces industry pricing pressure",
@@ -10,32 +10,32 @@
       "url": "https://www.fca.org.uk/news/press-releases/fca-explore-quantum-computing-tackle-financial-crime"
     },
     {
-      "text": "**TotallyMoney Hits Six Million Users** - (thefintechtimes.com) TotallyMoney Hits Six Million Users as Credit-Score Habits Drive Gains",
-      "url": "https://thefintechtimes.com/totallymoney-hits-six-million-users-as-credit-score-habits-drive-gains/"
+      "text": "**Vertice Launches Procure-to-Pay Close Post-Contract** - (thefintechtimes.com) Vertice Launches Procure-to-Pay to Close Post-Contract Value Leak",
+      "url": "https://thefintechtimes.com/vertice-launches-procure-to-pay-to-close-post-contract-value-leak/"
     },
     {
-      "text": "**Global Payments expands Adaptive Authentication** - (finextra.com) Global Payments expands Adaptive Authentication platform with Visa",
-      "url": "https://www.finextra.com/pressarticle/111636/global-payments-expands-adaptive-authentication-platform-with-visa"
+      "text": "**Mojo Mortgages Income Caps will** - (thefintechtimes.com) Mojo Mortgages: Income Caps will Block 13% from ‘Your First Home’",
+      "url": "https://thefintechtimes.com/mojo-mortgages-income-caps-will-block-13-from-your-first-home/"
     },
     {
       "text": "**Standard Chartered Acquires Zodia Custody** - (thefintechtimes.com) Standard Chartered Acquires Zodia Custody in Digital Assets Push",
       "url": "https://thefintechtimes.com/standard-chartered-acquires-zodia-custody-in-digital-assets-push/"
     }
   ],
-  "inputHash": "603bfccd53dad3d627bebded897c4b541d968d155373d87586cfb09238779cde",
+  "inputHash": "8c7c611356d78aa2a48df61895edab4c0780a4d725b18c1821037736e53f9d41",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://www.paymentsdive.com/news/global-payments-faces-industry-pricing-pressure/874128/",
     "https://www.fca.org.uk/news/press-releases/fca-explore-quantum-computing-tackle-financial-crime",
-    "https://thefintechtimes.com/totallymoney-hits-six-million-users-as-credit-score-habits-drive-gains/",
-    "https://www.finextra.com/pressarticle/111636/global-payments-expands-adaptive-authentication-platform-with-visa",
+    "https://thefintechtimes.com/vertice-launches-procure-to-pay-to-close-post-contract-value-leak/",
+    "https://thefintechtimes.com/mojo-mortgages-income-caps-will-block-13-from-your-first-home/",
     "https://thefintechtimes.com/standard-chartered-acquires-zodia-custody-in-digital-assets-push/",
-    "https://www.finextra.com/pressarticle/111633/ecommpay-partners-with-getnet-for-spanish-acquiring-rails",
-    "https://thefintechtimes.com/california-dfpi-opposes-sec-crypto-rule-over-state-oversight-risk/",
-    "https://www.finextra.com/pressarticle/111632/bottomline-brings-usdc-stablecoin-payments-into-platform",
-    "https://www.fca.org.uk/news/blogs/act-now-be-resilient-quantum-future",
-    "https://www.paymentsdive.com/news/bnpl-for-rent-seeks-a-market/874061/"
+    "https://www.finextra.com/pressarticle/111648/duffel-and-katanox-bring-hotel-bookings-payments-and-financing-into-single-flow-for-travel-sellers",
+    "https://www.pymnts.com/news/acquiring/2026/western-union-scraps-intermex-deal-after-regulatory-fight/",
+    "https://www.finextra.com/pressarticle/111645/swipesum-launches-payments-command-centre",
+    "https://www.finextra.com/newsarticle/48743/western-union-ditches-intermax-acquisition",
+    "https://www.fca.org.uk/news/blogs/act-now-be-resilient-quantum-future"
   ],
   "note": "fallback (summary generation error)"
 }
