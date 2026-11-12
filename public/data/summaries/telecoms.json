@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-11-11T16:25:07.803Z",
+  "generatedAt": "2026-11-12T16:56:24.590Z",
   "bullets": [
+    {
+      "text": "**UAE s U6GHz milestone accelerates** - (totaltele.com) UAE’s U6GHz milestone accelerates 5G-Advanced and AI-driven connectivity",
+      "url": "https://totaltele.com/uaes-u6ghz-milestone-accelerates-5g-advanced-and-ai-driven-connectivity/"
+    },
+    {
+      "text": "**VodafoneThree mulls UK Norway subsea** - (totaltele.com) VodafoneThree mulls UK–Norway subsea cable",
+      "url": "https://totaltele.com/vodafonethree-mulls-uk-norway-subsea-cable/"
+    },
     {
       "text": "**Verizon completes Thames Freeport private** - (rcrwireless.com) Verizon completes Thames Freeport private 5G deployment – as ECE moves back in focus",
       "url": "https://rcrwireless.com/20261110/private-5g/verizon-completes-thames-freeport-private-5g-deployment-as-ece-moves-back-in-focus"
     },
     {
+      "text": "**Arelion expands its AI superhighway** - (totaltele.com) Arelion expands its ‘AI superhighway’ in the USA",
+      "url": "https://totaltele.com/arelion-expands-its-ai-superhighway-in-the-usa/"
+    },
+    {
       "text": "**landlords behind Europe s MDU** - (rcrwireless.com) The landlords behind Europe’s MDU connectivity opportunity (Analyst Angle)",
       "url": "https://rcrwireless.com/20261111/analyst-angle/the-landlords-behind-europes-mdu-connectivity-opportunity-analyst-angle"
-    },
-    {
-      "text": "**SK Telecom targets December launch** - (rcrwireless.com) SK Telecom targets December launch for 5G SA as mobile business recovers",
-      "url": "https://rcrwireless.com/20261109/5g/sk-telecom-5g-sa"
-    },
-    {
-      "text": "**Seamless not identical what NTN-native** - (rcrwireless.com) Seamless, not identical: what NTN-native 6G will feel like",
-      "url": "https://rcrwireless.com/20261105/networks/ntn-native-6g-seamless-not-identical"
-    },
-    {
-      "text": "**Bell monetizes TowerCo stake it** - (rcrwireless.com) Bell monetizes TowerCo stake as it prioritizes higher-value wireless customers",
-      "url": "https://rcrwireless.com/20261110/carriers/bell-towerco-wireless"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
+    "https://totaltele.com/uaes-u6ghz-milestone-accelerates-5g-advanced-and-ai-driven-connectivity/",
+    "https://totaltele.com/vodafonethree-mulls-uk-norway-subsea-cable/",
     "https://rcrwireless.com/20261110/private-5g/verizon-completes-thames-freeport-private-5g-deployment-as-ece-moves-back-in-focus",
-    "https://rcrwireless.com/20261111/analyst-angle/the-landlords-behind-europes-mdu-connectivity-opportunity-analyst-angle",
-    "https://rcrwireless.com/20261109/5g/sk-telecom-5g-sa",
-    "https://rcrwireless.com/20261105/networks/ntn-native-6g-seamless-not-identical",
-    "https://rcrwireless.com/20261110/carriers/bell-towerco-wireless"
+    "https://totaltele.com/arelion-expands-its-ai-superhighway-in-the-usa/",
+    "https://rcrwireless.com/20261111/analyst-angle/the-landlords-behind-europes-mdu-connectivity-opportunity-analyst-angle"
   ],
   "note": "fallback (summary generation error)"
 }

@@ -1,6 +1,10 @@
 {
-  "generatedAt": "2026-11-11T16:25:23.257Z",
+  "generatedAt": "2026-11-12T16:56:32.963Z",
   "bullets": [
+    {
+      "text": "**Lumepay Raises 6M Pre-Seed Scale** - (thefintechtimes.com) Lumepay Raises $6M Pre-Seed to Scale African Cross-Border Payments",
+      "url": "https://thefintechtimes.com/lumepay-raises-6m-pre-seed-to-scale-african-cross-border-payments/"
+    },
     {
       "text": "**Global Payments faces industry pricing** - (paymentsdive.com) Global Payments faces industry pricing pressure",
       "url": "https://www.paymentsdive.com/news/global-payments-faces-industry-pricing-pressure/874128/"
@@ -14,27 +18,23 @@
       "url": "https://thefintechtimes.com/vertice-launches-procure-to-pay-to-close-post-contract-value-leak/"
     },
     {
-      "text": "**Mojo Mortgages Income Caps will** - (thefintechtimes.com) Mojo Mortgages: Income Caps will Block 13% from ‘Your First Home’",
-      "url": "https://thefintechtimes.com/mojo-mortgages-income-caps-will-block-13-from-your-first-home/"
-    },
-    {
-      "text": "**Standard Chartered Acquires Zodia Custody** - (thefintechtimes.com) Standard Chartered Acquires Zodia Custody in Digital Assets Push",
-      "url": "https://thefintechtimes.com/standard-chartered-acquires-zodia-custody-in-digital-assets-push/"
+      "text": "**Mercuryo Launches Swaps 1 400** - (thefintechtimes.com) Mercuryo Launches Swaps with 1,400 Routes Across 24 Digital Tokens",
+      "url": "https://thefintechtimes.com/mercuryo-launches-swaps-with-1400-routes-across-24-digital-tokens/"
     }
   ],
-  "inputHash": "8c7c611356d78aa2a48df61895edab4c0780a4d725b18c1821037736e53f9d41",
+  "inputHash": "b54a3716cfdb3b32b921794af3d9b165a8cf2c3b0fd685fc6363d55730daf369",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
+    "https://thefintechtimes.com/lumepay-raises-6m-pre-seed-to-scale-african-cross-border-payments/",
     "https://www.paymentsdive.com/news/global-payments-faces-industry-pricing-pressure/874128/",
     "https://www.fca.org.uk/news/press-releases/fca-explore-quantum-computing-tackle-financial-crime",
     "https://thefintechtimes.com/vertice-launches-procure-to-pay-to-close-post-contract-value-leak/",
-    "https://thefintechtimes.com/mojo-mortgages-income-caps-will-block-13-from-your-first-home/",
-    "https://thefintechtimes.com/standard-chartered-acquires-zodia-custody-in-digital-assets-push/",
-    "https://www.finextra.com/pressarticle/111648/duffel-and-katanox-bring-hotel-bookings-payments-and-financing-into-single-flow-for-travel-sellers",
-    "https://www.pymnts.com/news/acquiring/2026/western-union-scraps-intermex-deal-after-regulatory-fight/",
-    "https://www.finextra.com/pressarticle/111645/swipesum-launches-payments-command-centre",
-    "https://www.finextra.com/newsarticle/48743/western-union-ditches-intermax-acquisition",
+    "https://thefintechtimes.com/mercuryo-launches-swaps-with-1400-routes-across-24-digital-tokens/",
+    "https://www.finextra.com/newsarticle/48746/baas-bank-griffin-raises-20m-to-add-cards-and-stablecoin-capabilities",
+    "https://www.finextra.com/pressarticle/111658/uber-adds-revolut-pay-option",
+    "https://www.finextra.com/pressarticle/111655/payment-options-picks-tribe-to-power-acquiring-across-apac-and-cema",
+    "https://www.paymentsdive.com/news/western-union-intermex-acquisition-fight-California-regulator/874396/",
     "https://www.fca.org.uk/news/blogs/act-now-be-resilient-quantum-future"
   ],
   "note": "fallback (summary generation error)"
