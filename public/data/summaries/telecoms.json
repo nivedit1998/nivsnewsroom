@@ -1,17 +1,13 @@
 {
-  "generatedAt": "2026-11-12T16:56:24.590Z",
+  "generatedAt": "2026-11-13T16:36:54.439Z",
   "bullets": [
-    {
-      "text": "**UAE s U6GHz milestone accelerates** - (totaltele.com) UAE’s U6GHz milestone accelerates 5G-Advanced and AI-driven connectivity",
-      "url": "https://totaltele.com/uaes-u6ghz-milestone-accelerates-5g-advanced-and-ai-driven-connectivity/"
-    },
     {
       "text": "**VodafoneThree mulls UK Norway subsea** - (totaltele.com) VodafoneThree mulls UK–Norway subsea cable",
       "url": "https://totaltele.com/vodafonethree-mulls-uk-norway-subsea-cable/"
     },
     {
-      "text": "**Verizon completes Thames Freeport private** - (rcrwireless.com) Verizon completes Thames Freeport private 5G deployment – as ECE moves back in focus",
-      "url": "https://rcrwireless.com/20261110/private-5g/verizon-completes-thames-freeport-private-5g-deployment-as-ece-moves-back-in-focus"
+      "text": "**UE Logo 2 0 targets** - (rcrwireless.com) UE Logo 2.0 targets smarter connectivity",
+      "url": "https://rcrwireless.com/20261113/sponsored/ue-logo-connectivity"
     },
     {
       "text": "**Arelion expands its AI superhighway** - (totaltele.com) Arelion expands its ‘AI superhighway’ in the USA",
@@ -20,16 +16,20 @@
     {
       "text": "**landlords behind Europe s MDU** - (rcrwireless.com) The landlords behind Europe’s MDU connectivity opportunity (Analyst Angle)",
       "url": "https://rcrwireless.com/20261111/analyst-angle/the-landlords-behind-europes-mdu-connectivity-opportunity-analyst-angle"
+    },
+    {
+      "text": "**Smarter NOC management age AI** - (totaltele.com) Smarter NOC management in the age of AI",
+      "url": "https://totaltele.com/smarter-noc-management-in-the-age-of-ai/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://totaltele.com/uaes-u6ghz-milestone-accelerates-5g-advanced-and-ai-driven-connectivity/",
     "https://totaltele.com/vodafonethree-mulls-uk-norway-subsea-cable/",
-    "https://rcrwireless.com/20261110/private-5g/verizon-completes-thames-freeport-private-5g-deployment-as-ece-moves-back-in-focus",
+    "https://rcrwireless.com/20261113/sponsored/ue-logo-connectivity",
     "https://totaltele.com/arelion-expands-its-ai-superhighway-in-the-usa/",
-    "https://rcrwireless.com/20261111/analyst-angle/the-landlords-behind-europes-mdu-connectivity-opportunity-analyst-angle"
+    "https://rcrwireless.com/20261111/analyst-angle/the-landlords-behind-europes-mdu-connectivity-opportunity-analyst-angle",
+    "https://totaltele.com/smarter-noc-management-in-the-age-of-ai/"
   ],
   "note": "fallback (summary generation error)"
 }
