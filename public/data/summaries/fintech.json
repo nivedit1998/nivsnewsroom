@@ -1,10 +1,6 @@
 {
-  "generatedAt": "2026-11-13T16:37:03.176Z",
+  "generatedAt": "2026-11-14T15:14:31.905Z",
   "bullets": [
-    {
-      "text": "**Lumepay Raises 6M Pre-Seed Scale** - (thefintechtimes.com) Lumepay Raises $6M Pre-Seed to Scale African Cross-Border Payments",
-      "url": "https://thefintechtimes.com/lumepay-raises-6m-pre-seed-to-scale-african-cross-border-payments/"
-    },
     {
       "text": "**Global Payments faces industry pricing** - (paymentsdive.com) Global Payments faces industry pricing pressure",
       "url": "https://www.paymentsdive.com/news/global-payments-faces-industry-pricing-pressure/874128/"
@@ -14,28 +10,31 @@
       "url": "https://www.fca.org.uk/news/press-releases/fca-explore-quantum-computing-tackle-financial-crime"
     },
     {
-      "text": "**Mercuryo Launches Swaps 1 400** - (thefintechtimes.com) Mercuryo Launches Swaps with 1,400 Routes Across 24 Digital Tokens",
-      "url": "https://thefintechtimes.com/mercuryo-launches-swaps-with-1400-routes-across-24-digital-tokens/"
+      "text": "**Western Union Intermex clash** - (paymentsdive.com) Western Union, Intermex clash",
+      "url": "https://www.paymentsdive.com/news/western-union-intermex-acquisition-fight-California-regulator/874396/"
     },
     {
-      "text": "**Glovo PragmaGO Bring Embedded Lending** - (thefintechtimes.com) Glovo and PragmaGO Bring Embedded Lending to Polish Merchants",
-      "url": "https://thefintechtimes.com/glovo-and-pragmago-bring-embedded-lending-to-polish-merchants/"
+      "text": "**Act now be resilient quantum** - (fca.org.uk) Act now to be resilient in the quantum future",
+      "url": "https://www.fca.org.uk/news/blogs/act-now-be-resilient-quantum-future"
+    },
+    {
+      "text": "**Designing Payments Failure Why Resilience** - (finextra.com) Designing Payments for Failure: Why Resilience Beats Perfection",
+      "url": "https://www.finextra.com/blogposting/33461/designing-payments-for-failure-why-resilience-beats-perfection"
     }
   ],
-  "inputHash": "f38d7dd491fee27bf91970a0497738027d46629246e8c1489d55adcd8c038da4",
+  "inputHash": "2d77a5db3d93df1a69ac7dd2f5e81baf1060a6c9010d138b0ade98fe5b536b28",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://thefintechtimes.com/lumepay-raises-6m-pre-seed-to-scale-african-cross-border-payments/",
     "https://www.paymentsdive.com/news/global-payments-faces-industry-pricing-pressure/874128/",
     "https://www.fca.org.uk/news/press-releases/fca-explore-quantum-computing-tackle-financial-crime",
-    "https://thefintechtimes.com/mercuryo-launches-swaps-with-1400-routes-across-24-digital-tokens/",
-    "https://thefintechtimes.com/glovo-and-pragmago-bring-embedded-lending-to-polish-merchants/",
-    "https://www.pymnts.com/opinion/2026/velera-says-credit-unions-can-learn-digital-money-together/",
     "https://www.paymentsdive.com/news/western-union-intermex-acquisition-fight-California-regulator/874396/",
     "https://www.fca.org.uk/news/blogs/act-now-be-resilient-quantum-future",
-    "https://www.pymnts.com/healthcare/2026/ai-agent-emily-books-bills-and-refills-for-musc-health/",
-    "https://www.finextra.com/blogposting/33461/designing-payments-for-failure-why-resilience-beats-perfection"
+    "https://www.finextra.com/blogposting/33461/designing-payments-for-failure-why-resilience-beats-perfection",
+    "https://www.paymentsdive.com/news/stripe-awaits-payoff-on-tempo-chain/874618/",
+    "https://www.finextra.com/newsarticle/48759/openai-launches-chatgpt-wallet",
+    "https://www.finextra.com/pressarticle/111668/hyundai-card-launches-new-ai-powered-credit-card-model",
+    "https://www.fca.org.uk/news/statements/fca-acts-protect-consumers-demands-disguised-remuneration-scheme-loan-repayments"
   ],
   "note": "fallback (summary generation error)"
 }

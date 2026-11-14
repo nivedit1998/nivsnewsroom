@@ -1,20 +1,15 @@
 {
-  "generatedAt": "2026-11-11T16:26:06.556Z",
+  "generatedAt": "2026-11-14T15:14:39.136Z",
   "bullets": [
     {
-      "text": "**Black Friday 2026 11 expert** - (sage.com) Black Friday 2026: 11 expert tips to sell more",
-      "url": "https://www.sage.com/en-gb/blog/black-friday-uk-2025-2026-11-expert-tips-to-sell-more/"
-    },
-    {
-      "text": "**Black Friday 2026 actually worth** - (sage.com) Is Black Friday 2026 actually worth it for my small retail business?",
-      "url": "https://www.sage.com/en-gb/blog/black-friday-2026/"
+      "text": "**How help your team adopt** - (sage.com) How to help your team adopt new technology: Lessons from Trinity Dental",
+      "url": "https://www.sage.com/en-gb/blog/trinity-dental-adopt-new-technology/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://www.sage.com/en-gb/blog/black-friday-uk-2025-2026-11-expert-tips-to-sell-more/",
-    "https://www.sage.com/en-gb/blog/black-friday-2026/"
+    "https://www.sage.com/en-gb/blog/trinity-dental-adopt-new-technology/"
   ],
   "note": "fallback (summary generation error)"
 }
