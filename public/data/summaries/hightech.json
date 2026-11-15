@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T15:14:14.402Z",
+  "generatedAt": "2026-11-15T15:44:59.646Z",
   "bullets": [
     {
       "text": "**UGREEN HomeAgent local-first way make** - (9to5google.com) The UGREEN HomeAgent is a ‘local-first’ way to make your smart home even smarter",
@@ -10,16 +10,16 @@
       "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/"
     },
     {
+      "text": "**All Apple Watch Series 12** - (9to5mac.com) All Apple Watch Series 12 models just dropped to the lowest price ever",
+      "url": "https://9to5mac.com/2026/11/15/apple-watch-series-12-black-friday-deals-lowest-price/"
+    },
+    {
       "text": "**Here s how Google s** - (9to5google.com) Here’s how Google’s Android XR glasses are handling the camera & privacy",
       "url": "https://9to5google.com/2026/11/12/google-android-xr-glasses-camera-privacy/"
     },
     {
       "text": "**Export-banned Nvidia chips behind China** - (techcrunch.com) Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
       "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/"
-    },
-    {
-      "text": "**OpenAI launches ChatGPT Wallet enabling** - (9to5mac.com) OpenAI launches ChatGPT Wallet, enabling ‘dot’ agents to make purchases",
-      "url": "https://9to5mac.com/2026/11/13/openai-launches-chatgpt-wallet-enabling-dot-agents-to-make-purchases/"
     }
   ],
   "promptVersion": "insights-v2",
@@ -27,9 +27,9 @@
   "contextUrls": [
     "https://9to5google.com/2026/11/13/the-ugreen-homeagent-is-a-local-first-way-to-make-your-smart-home-even-smarter/",
     "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+    "https://9to5mac.com/2026/11/15/apple-watch-series-12-black-friday-deals-lowest-price/",
     "https://9to5google.com/2026/11/12/google-android-xr-glasses-camera-privacy/",
-    "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
-    "https://9to5mac.com/2026/11/13/openai-launches-chatgpt-wallet-enabling-dot-agents-to-make-purchases/"
+    "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/"
   ],
   "note": "fallback (summary generation error)"
 }

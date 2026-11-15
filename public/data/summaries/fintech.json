@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-11-14T15:14:31.905Z",
+  "generatedAt": "2026-11-15T15:45:14.310Z",
   "bullets": [
     {
-      "text": "**Global Payments faces industry pricing** - (paymentsdive.com) Global Payments faces industry pricing pressure",
-      "url": "https://www.paymentsdive.com/news/global-payments-faces-industry-pricing-pressure/874128/"
+      "text": "**Mashreq Launches NEO BIZ Digital** - (thefintechtimes.com) Mashreq Launches NEO BIZ Digital Banking Platform for Pakistan SMEs",
+      "url": "https://thefintechtimes.com/mashreq-launches-neo-biz-digital-banking-platform-for-pakistan-smes/"
+    },
+    {
+      "text": "**Mastercard Extends First-Party Trust Fraud** - (thefintechtimes.com) Mastercard Extends First-Party Trust Fraud Programme to Europe",
+      "url": "https://thefintechtimes.com/mastercard-extends-first-party-trust-fraud-programme-to-europe/"
     },
     {
       "text": "**FCA explore quantum computing tackle** - (fca.org.uk) FCA to explore quantum computing to tackle financial crime",
       "url": "https://www.fca.org.uk/news/press-releases/fca-explore-quantum-computing-tackle-financial-crime"
     },
     {
-      "text": "**Western Union Intermex clash** - (paymentsdive.com) Western Union, Intermex clash",
-      "url": "https://www.paymentsdive.com/news/western-union-intermex-acquisition-fight-California-regulator/874396/"
+      "text": "**Global Payments faces industry pricing** - (paymentsdive.com) Global Payments faces industry pricing pressure",
+      "url": "https://www.paymentsdive.com/news/global-payments-faces-industry-pricing-pressure/874128/"
     },
     {
-      "text": "**Act now be resilient quantum** - (fca.org.uk) Act now to be resilient in the quantum future",
-      "url": "https://www.fca.org.uk/news/blogs/act-now-be-resilient-quantum-future"
-    },
-    {
-      "text": "**Designing Payments Failure Why Resilience** - (finextra.com) Designing Payments for Failure: Why Resilience Beats Perfection",
-      "url": "https://www.finextra.com/blogposting/33461/designing-payments-for-failure-why-resilience-beats-perfection"
+      "text": "**FSE Group Launches 70m Future** - (thefintechtimes.com) FSE Group Launches £70m Future London Growth Fund for SMEs",
+      "url": "https://thefintechtimes.com/fse-group-launches-70m-future-london-growth-fund-for-smes/"
     }
   ],
-  "inputHash": "2d77a5db3d93df1a69ac7dd2f5e81baf1060a6c9010d138b0ade98fe5b536b28",
+  "inputHash": "0c41c701d9e76a0be6b38ccdd2ad5c23ac7444fd595794ef82ad857a3fb94b95",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://www.paymentsdive.com/news/global-payments-faces-industry-pricing-pressure/874128/",
+    "https://thefintechtimes.com/mashreq-launches-neo-biz-digital-banking-platform-for-pakistan-smes/",
+    "https://thefintechtimes.com/mastercard-extends-first-party-trust-fraud-programme-to-europe/",
     "https://www.fca.org.uk/news/press-releases/fca-explore-quantum-computing-tackle-financial-crime",
+    "https://www.paymentsdive.com/news/global-payments-faces-industry-pricing-pressure/874128/",
+    "https://thefintechtimes.com/fse-group-launches-70m-future-london-growth-fund-for-smes/",
     "https://www.paymentsdive.com/news/western-union-intermex-acquisition-fight-California-regulator/874396/",
     "https://www.fca.org.uk/news/blogs/act-now-be-resilient-quantum-future",
-    "https://www.finextra.com/blogposting/33461/designing-payments-for-failure-why-resilience-beats-perfection",
     "https://www.paymentsdive.com/news/stripe-awaits-payoff-on-tempo-chain/874618/",
-    "https://www.finextra.com/newsarticle/48759/openai-launches-chatgpt-wallet",
-    "https://www.finextra.com/pressarticle/111668/hyundai-card-launches-new-ai-powered-credit-card-model",
     "https://www.fca.org.uk/news/statements/fca-acts-protect-consumers-demands-disguised-remuneration-scheme-loan-repayments"
   ],
   "note": "fallback (summary generation error)"
