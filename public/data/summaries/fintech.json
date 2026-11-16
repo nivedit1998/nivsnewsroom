@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T15:45:14.310Z",
+  "generatedAt": "2026-11-16T18:44:19.827Z",
   "bullets": [
     {
       "text": "**Mashreq Launches NEO BIZ Digital** - (thefintechtimes.com) Mashreq Launches NEO BIZ Digital Banking Platform for Pakistan SMEs",
@@ -14,26 +14,26 @@
       "url": "https://www.fca.org.uk/news/press-releases/fca-explore-quantum-computing-tackle-financial-crime"
     },
     {
-      "text": "**Global Payments faces industry pricing** - (paymentsdive.com) Global Payments faces industry pricing pressure",
-      "url": "https://www.paymentsdive.com/news/global-payments-faces-industry-pricing-pressure/874128/"
+      "text": "**Embedded finance 2026 What merchants** - (paymentsdive.com) Embedded finance in 2026: What merchants want (it’s not what you think)",
+      "url": "https://www.paymentsdive.com/spons/embedded-finance-in-2026-what-merchants-want-its-not-what-you-think/874225/"
     },
     {
       "text": "**FSE Group Launches 70m Future** - (thefintechtimes.com) FSE Group Launches £70m Future London Growth Fund for SMEs",
       "url": "https://thefintechtimes.com/fse-group-launches-70m-future-london-growth-fund-for-smes/"
     }
   ],
-  "inputHash": "0c41c701d9e76a0be6b38ccdd2ad5c23ac7444fd595794ef82ad857a3fb94b95",
+  "inputHash": "08764ef0bf2827f2cdb932e814647f12392a09f18210cb9775a43f53884f6e02",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://thefintechtimes.com/mashreq-launches-neo-biz-digital-banking-platform-for-pakistan-smes/",
     "https://thefintechtimes.com/mastercard-extends-first-party-trust-fraud-programme-to-europe/",
     "https://www.fca.org.uk/news/press-releases/fca-explore-quantum-computing-tackle-financial-crime",
-    "https://www.paymentsdive.com/news/global-payments-faces-industry-pricing-pressure/874128/",
+    "https://www.paymentsdive.com/spons/embedded-finance-in-2026-what-merchants-want-its-not-what-you-think/874225/",
     "https://thefintechtimes.com/fse-group-launches-70m-future-london-growth-fund-for-smes/",
-    "https://www.paymentsdive.com/news/western-union-intermex-acquisition-fight-California-regulator/874396/",
+    "https://www.paymentsdive.com/spons/checkouts-are-built-for-speed-fraudsters-are-thankful/874221/",
+    "https://www.paymentsdive.com/spons/why-faster-cash-flow-sells-embedded-payments-to-us-smbs/874184/",
     "https://www.fca.org.uk/news/blogs/act-now-be-resilient-quantum-future",
-    "https://www.paymentsdive.com/news/stripe-awaits-payoff-on-tempo-chain/874618/",
     "https://www.fca.org.uk/news/statements/fca-acts-protect-consumers-demands-disguised-remuneration-scheme-loan-repayments"
   ],
   "note": "fallback (summary generation error)"

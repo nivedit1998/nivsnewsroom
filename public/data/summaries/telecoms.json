@@ -1,9 +1,13 @@
 {
-  "generatedAt": "2026-11-15T15:45:04.192Z",
+  "generatedAt": "2026-11-16T18:44:06.980Z",
   "bullets": [
     {
       "text": "**VodafoneThree mulls UK Norway subsea** - (totaltele.com) VodafoneThree mulls UK–Norway subsea cable",
       "url": "https://totaltele.com/vodafonethree-mulls-uk-norway-subsea-cable/"
+    },
+    {
+      "text": "**Nokia Telia Nscale lead AI** - (totaltele.com) Nokia, Telia and Nscale to lead AI Gigafactory Northern consortium",
+      "url": "https://totaltele.com/nokia-telia-and-nscale-to-lead-ai-gigafactory-northern-consortium/"
     },
     {
       "text": "**UE Logo 2 0 targets** - (rcrwireless.com) UE Logo 2.0 targets smarter connectivity",
@@ -14,22 +18,18 @@
       "url": "https://totaltele.com/arelion-expands-its-ai-superhighway-in-the-usa/"
     },
     {
-      "text": "**landlords behind Europe s MDU** - (rcrwireless.com) The landlords behind Europe’s MDU connectivity opportunity (Analyst Angle)",
-      "url": "https://rcrwireless.com/20261111/analyst-angle/the-landlords-behind-europes-mdu-connectivity-opportunity-analyst-angle"
-    },
-    {
-      "text": "**Smarter NOC management age AI** - (totaltele.com) Smarter NOC management in the age of AI",
-      "url": "https://totaltele.com/smarter-noc-management-in-the-age-of-ai/"
+      "text": "**ISAC 5G frontline 6G frontier** - (rcrwireless.com) ISAC on the 5G frontline, 6G frontier – telcos target defense networks",
+      "url": "https://rcrwireless.com/20261116/network-infrastructure/isac-on-the-5g-frontline-6g-frontier-telcos-target-defense-networks"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://totaltele.com/vodafonethree-mulls-uk-norway-subsea-cable/",
+    "https://totaltele.com/nokia-telia-and-nscale-to-lead-ai-gigafactory-northern-consortium/",
     "https://rcrwireless.com/20261113/sponsored/ue-logo-connectivity",
     "https://totaltele.com/arelion-expands-its-ai-superhighway-in-the-usa/",
-    "https://rcrwireless.com/20261111/analyst-angle/the-landlords-behind-europes-mdu-connectivity-opportunity-analyst-angle",
-    "https://totaltele.com/smarter-noc-management-in-the-age-of-ai/"
+    "https://rcrwireless.com/20261116/network-infrastructure/isac-on-the-5g-frontline-6g-frontier-telcos-target-defense-networks"
   ],
   "note": "fallback (summary generation error)"
 }

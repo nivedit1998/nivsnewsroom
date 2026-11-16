@@ -1,6 +1,10 @@
 {
-  "generatedAt": "2026-11-15T15:45:20.293Z",
+  "generatedAt": "2026-11-16T18:44:27.086Z",
   "bullets": [
+    {
+      "text": "**Building confidence grow 3 opportunities** - (sage.com) Building the confidence to grow: 3 opportunities for Sage partners",
+      "url": "https://www.sage.com/en-gb/blog/sage-future-for-partners-emea-2026/"
+    },
     {
       "text": "**How help your team adopt** - (sage.com) How to help your team adopt new technology: Lessons from Trinity Dental",
       "url": "https://www.sage.com/en-gb/blog/trinity-dental-adopt-new-technology/"
@@ -9,6 +13,7 @@
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
+    "https://www.sage.com/en-gb/blog/sage-future-for-partners-emea-2026/",
     "https://www.sage.com/en-gb/blog/trinity-dental-adopt-new-technology/"
   ],
   "note": "fallback (summary generation error)"

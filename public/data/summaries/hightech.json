@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-11-15T15:44:59.646Z",
+  "generatedAt": "2026-11-16T18:43:57.064Z",
   "bullets": [
+    {
+      "text": "**macOS 27 3 includes new** - (9to5mac.com) macOS 27.3 includes new privacy controls for Full Disk Access and more",
+      "url": "https://9to5mac.com/2026/11/16/macos-27-3-includes-new-privacy-controls-for-full-disk-access-and-more/"
+    },
+    {
+      "text": "**Apple s Siri AI smart** - (9to5mac.com) Apple’s Siri AI smart glasses are reportedly launching next year, here’s what to expect",
+      "url": "https://9to5mac.com/2026/11/15/apples-siri-ai-smart-glasses-are-reportedly-launching-next-year-heres-what-to-expect/"
+    },
     {
       "text": "**UGREEN HomeAgent local-first way make** - (9to5google.com) The UGREEN HomeAgent is a ‘local-first’ way to make your smart home even smarter",
       "url": "https://9to5google.com/2026/11/13/the-ugreen-homeagent-is-a-local-first-way-to-make-your-smart-home-even-smarter/"
     },
     {
-      "text": "**ChatGPT s new Wallet lets** - (techcrunch.com) ChatGPT’s new Wallet lets AI agents shop and check out for you",
-      "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/"
+      "text": "**Apple Launches New App Study** - (cnet.com) Apple Launches New App to Study How People Use AI for Health",
+      "url": "https://www.cnet.com/health/apple-launches-ai-health-app-study/"
     },
     {
-      "text": "**All Apple Watch Series 12** - (9to5mac.com) All Apple Watch Series 12 models just dropped to the lowest price ever",
-      "url": "https://9to5mac.com/2026/11/15/apple-watch-series-12-black-friday-deals-lowest-price/"
-    },
-    {
-      "text": "**Here s how Google s** - (9to5google.com) Here’s how Google’s Android XR glasses are handling the camera & privacy",
-      "url": "https://9to5google.com/2026/11/12/google-android-xr-glasses-camera-privacy/"
-    },
-    {
-      "text": "**Export-banned Nvidia chips behind China** - (techcrunch.com) Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
-      "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/"
+      "text": "**OpenAI will embed safety researchers** - (techcrunch.com) OpenAI will embed safety researchers to investigate AI subversion",
+      "url": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
+    "https://9to5mac.com/2026/11/16/macos-27-3-includes-new-privacy-controls-for-full-disk-access-and-more/",
+    "https://9to5mac.com/2026/11/15/apples-siri-ai-smart-glasses-are-reportedly-launching-next-year-heres-what-to-expect/",
     "https://9to5google.com/2026/11/13/the-ugreen-homeagent-is-a-local-first-way-to-make-your-smart-home-even-smarter/",
-    "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
-    "https://9to5mac.com/2026/11/15/apple-watch-series-12-black-friday-deals-lowest-price/",
-    "https://9to5google.com/2026/11/12/google-android-xr-glasses-camera-privacy/",
-    "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/"
+    "https://www.cnet.com/health/apple-launches-ai-health-app-study/",
+    "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/"
   ],
   "note": "fallback (summary generation error)"
 }
