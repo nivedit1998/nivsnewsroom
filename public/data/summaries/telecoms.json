@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-11-16T18:44:06.980Z",
+  "generatedAt": "2026-11-17T17:43:25.376Z",
   "bullets": [
     {
-      "text": "**VodafoneThree mulls UK Norway subsea** - (totaltele.com) VodafoneThree mulls UK–Norway subsea cable",
-      "url": "https://totaltele.com/vodafonethree-mulls-uk-norway-subsea-cable/"
+      "text": "**Private 5G planning must go** - (rcrwireless.com) Private 5G planning must go beyond coverage, iBwave says",
+      "url": "https://rcrwireless.com/20261117/private-5g/private-5g-ibwave"
     },
     {
       "text": "**Nokia Telia Nscale lead AI** - (totaltele.com) Nokia, Telia and Nscale to lead AI Gigafactory Northern consortium",
       "url": "https://totaltele.com/nokia-telia-and-nscale-to-lead-ai-gigafactory-northern-consortium/"
     },
     {
-      "text": "**UE Logo 2 0 targets** - (rcrwireless.com) UE Logo 2.0 targets smarter connectivity",
-      "url": "https://rcrwireless.com/20261113/sponsored/ue-logo-connectivity"
-    },
-    {
       "text": "**Arelion expands its AI superhighway** - (totaltele.com) Arelion expands its ‘AI superhighway’ in the USA",
       "url": "https://totaltele.com/arelion-expands-its-ai-superhighway-in-the-usa/"
+    },
+    {
+      "text": "**Who s left MDU Wi-Fi** - (rcrwireless.com) Who’s left? The MDU Wi-Fi vendor landscape after Cambium (Analyst Angle)",
+      "url": "https://rcrwireless.com/20261117/analyst-angle/whos-left-the-mdu-wi-fi-vendor-landscape-after-cambium-analyst-angle"
     },
     {
       "text": "**ISAC 5G frontline 6G frontier** - (rcrwireless.com) ISAC on the 5G frontline, 6G frontier – telcos target defense networks",
@@ -25,10 +25,10 @@
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://totaltele.com/vodafonethree-mulls-uk-norway-subsea-cable/",
+    "https://rcrwireless.com/20261117/private-5g/private-5g-ibwave",
     "https://totaltele.com/nokia-telia-and-nscale-to-lead-ai-gigafactory-northern-consortium/",
-    "https://rcrwireless.com/20261113/sponsored/ue-logo-connectivity",
     "https://totaltele.com/arelion-expands-its-ai-superhighway-in-the-usa/",
+    "https://rcrwireless.com/20261117/analyst-angle/whos-left-the-mdu-wi-fi-vendor-landscape-after-cambium-analyst-angle",
     "https://rcrwireless.com/20261116/network-infrastructure/isac-on-the-5g-frontline-6g-frontier-telcos-target-defense-networks"
   ],
   "note": "fallback (summary generation error)"

@@ -1,6 +1,10 @@
 {
-  "generatedAt": "2026-11-16T18:44:22.355Z",
+  "generatedAt": "2026-11-17T17:43:39.595Z",
   "bullets": [
+    {
+      "text": "**Accenture Strengthen Capabilities Software Automation** - (newsroom.accenture.com) Accenture to Strengthen Capabilities for Software and Automation Solutions from Siemens Digital Industries with Acquisition of Industries eXcellence Group",
+      "url": "https://newsroom.accenture.com/news/2026/accenture-to-strengthen-capabilities-for-software-and-automation-solutions-from-siemens-digital-industries-with-acquisition-of-industries-excellence-group"
+    },
     {
       "text": "**Mondel z International Accenture Transform** - (newsroom.accenture.com) Mondelēz International and Accenture Transform Order-to-Cash With AI",
       "url": "https://newsroom.accenture.com/news/2026/mondelez-international-and-accenture-transform-order-to-cash-with-ai"
@@ -9,6 +13,7 @@
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
+    "https://newsroom.accenture.com/news/2026/accenture-to-strengthen-capabilities-for-software-and-automation-solutions-from-siemens-digital-industries-with-acquisition-of-industries-excellence-group",
     "https://newsroom.accenture.com/news/2026/mondelez-international-and-accenture-transform-order-to-cash-with-ai"
   ],
   "note": "fallback (summary generation error)"
