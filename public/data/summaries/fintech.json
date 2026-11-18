@@ -1,40 +1,41 @@
 {
-  "generatedAt": "2026-11-17T17:43:36.641Z",
+  "generatedAt": "2026-11-18T17:24:42.446Z",
   "bullets": [
     {
-      "text": "**Mashreq Launches NEO BIZ Digital** - (thefintechtimes.com) Mashreq Launches NEO BIZ Digital Banking Platform for Pakistan SMEs",
-      "url": "https://thefintechtimes.com/mashreq-launches-neo-biz-digital-banking-platform-for-pakistan-smes/"
+      "text": "**Fintech Times Singapore Fintech Festival** - (thefintechtimes.com) The Fintech Times: Singapore Fintech Festival 2026 Special Edition",
+      "url": "https://thefintechtimes.com/the-fintech-times-sff-2026-special-edition/"
+    },
+    {
+      "text": "**Ziina Launches Split Bill Simplify** - (thefintechtimes.com) Ziina Launches Split Bill to Simplify Shared Group Payments",
+      "url": "https://thefintechtimes.com/ziina-launches-split-bill-to-simplify-shared-group-payments/"
     },
     {
       "text": "**FCA explore quantum computing tackle** - (fca.org.uk) FCA to explore quantum computing to tackle financial crime",
       "url": "https://www.fca.org.uk/news/press-releases/fca-explore-quantum-computing-tackle-financial-crime"
     },
     {
-      "text": "**Mastercard Extends First-Party Trust Fraud** - (thefintechtimes.com) Mastercard Extends First-Party Trust Fraud Programme to Europe",
-      "url": "https://thefintechtimes.com/mastercard-extends-first-party-trust-fraud-programme-to-europe/"
+      "text": "**wallet full-stack fintech Murtaza Ali** - (thefintechtimes.com) From wallet to full-stack fintech: Murtaza Ali on JazzCash’s path to 2030",
+      "url": "https://thefintechtimes.com/from-wallet-to-full-stack-fintech-murtaza-ali-jazzcash/"
     },
     {
       "text": "**What we re learning firms** - (fca.org.uk) What we’re learning from firms engaging with our innovation services",
       "url": "https://www.fca.org.uk/news/blogs/what-were-learning-firms-engaging-our-innovation-services"
-    },
-    {
-      "text": "**Embedded finance 2026 What merchants** - (paymentsdive.com) Embedded finance in 2026: What merchants want (it’s not what you think)",
-      "url": "https://www.paymentsdive.com/spons/embedded-finance-in-2026-what-merchants-want-its-not-what-you-think/874225/"
     }
   ],
-  "inputHash": "27d4a129f30319d14fc8e86811a5cdd418bb36528ffd6d1f3418bacea01c63c0",
+  "inputHash": "5919233977e05fdb1718e50534cd4366fa9114d50578628eb3e126615a56c57f",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://thefintechtimes.com/mashreq-launches-neo-biz-digital-banking-platform-for-pakistan-smes/",
+    "https://thefintechtimes.com/the-fintech-times-sff-2026-special-edition/",
+    "https://thefintechtimes.com/ziina-launches-split-bill-to-simplify-shared-group-payments/",
     "https://www.fca.org.uk/news/press-releases/fca-explore-quantum-computing-tackle-financial-crime",
-    "https://thefintechtimes.com/mastercard-extends-first-party-trust-fraud-programme-to-europe/",
+    "https://thefintechtimes.com/from-wallet-to-full-stack-fintech-murtaza-ali-jazzcash/",
     "https://www.fca.org.uk/news/blogs/what-were-learning-firms-engaging-our-innovation-services",
-    "https://www.paymentsdive.com/spons/embedded-finance-in-2026-what-merchants-want-its-not-what-you-think/874225/",
-    "https://thefintechtimes.com/fse-group-launches-70m-future-london-growth-fund-for-smes/",
+    "https://www.finextra.com/pressarticle/111717/miden-and-visa-partner-on-commercial-card-issuing-for-african-businesses",
     "https://www.paymentsdive.com/spons/checkouts-are-built-for-speed-fraudsters-are-thankful/874221/",
+    "https://www.paymentsdive.com/news/klarna-launches-ai-concierge/875033/",
     "https://www.paymentsdive.com/spons/why-faster-cash-flow-sells-embedded-payments-to-us-smbs/874184/",
-    "https://www.fca.org.uk/news/blogs/act-now-be-resilient-quantum-future"
+    "https://www.finextra.com/newsarticle/48780/world-bank-partners-citi-and-circle-to-test-stablecoins-for-development-payments"
   ],
   "note": "fallback (summary generation error)"
 }

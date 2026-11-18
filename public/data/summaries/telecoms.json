@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T17:43:25.376Z",
+  "generatedAt": "2026-11-18T17:24:31.703Z",
   "bullets": [
     {
       "text": "**Private 5G planning must go** - (rcrwireless.com) Private 5G planning must go beyond coverage, iBwave says",
@@ -10,16 +10,16 @@
       "url": "https://totaltele.com/nokia-telia-and-nscale-to-lead-ai-gigafactory-northern-consortium/"
     },
     {
-      "text": "**Arelion expands its AI superhighway** - (totaltele.com) Arelion expands its ‘AI superhighway’ in the USA",
-      "url": "https://totaltele.com/arelion-expands-its-ai-superhighway-in-the-usa/"
+      "text": "**AI exposes Industry 4 0** - (rcrwireless.com) AI exposes Industry 4.0 connectivity gap – private 5G is already part of the answer",
+      "url": "https://rcrwireless.com/20261118/private-5g/ai-exposes-industry-4-0-connectivity-gap-private-5g-is-already-part-of-the-answer"
+    },
+    {
+      "text": "**Private 5G optical highways satellite** - (rcrwireless.com) Private 5G, optical highways, satellite IoT – and a big Canadian takeover (Telco Diary)",
+      "url": "https://rcrwireless.com/20261118/network-infrastructure/private-5g-optical-highways-satellite-iot-and-a-big-canadian-takeover-telco-diary"
     },
     {
       "text": "**Who s left MDU Wi-Fi** - (rcrwireless.com) Who’s left? The MDU Wi-Fi vendor landscape after Cambium (Analyst Angle)",
       "url": "https://rcrwireless.com/20261117/analyst-angle/whos-left-the-mdu-wi-fi-vendor-landscape-after-cambium-analyst-angle"
-    },
-    {
-      "text": "**ISAC 5G frontline 6G frontier** - (rcrwireless.com) ISAC on the 5G frontline, 6G frontier – telcos target defense networks",
-      "url": "https://rcrwireless.com/20261116/network-infrastructure/isac-on-the-5g-frontline-6g-frontier-telcos-target-defense-networks"
     }
   ],
   "promptVersion": "insights-v2",
@@ -27,9 +27,9 @@
   "contextUrls": [
     "https://rcrwireless.com/20261117/private-5g/private-5g-ibwave",
     "https://totaltele.com/nokia-telia-and-nscale-to-lead-ai-gigafactory-northern-consortium/",
-    "https://totaltele.com/arelion-expands-its-ai-superhighway-in-the-usa/",
-    "https://rcrwireless.com/20261117/analyst-angle/whos-left-the-mdu-wi-fi-vendor-landscape-after-cambium-analyst-angle",
-    "https://rcrwireless.com/20261116/network-infrastructure/isac-on-the-5g-frontline-6g-frontier-telcos-target-defense-networks"
+    "https://rcrwireless.com/20261118/private-5g/ai-exposes-industry-4-0-connectivity-gap-private-5g-is-already-part-of-the-answer",
+    "https://rcrwireless.com/20261118/network-infrastructure/private-5g-optical-highways-satellite-iot-and-a-big-canadian-takeover-telco-diary",
+    "https://rcrwireless.com/20261117/analyst-angle/whos-left-the-mdu-wi-fi-vendor-landscape-after-cambium-analyst-angle"
   ],
   "note": "fallback (summary generation error)"
 }

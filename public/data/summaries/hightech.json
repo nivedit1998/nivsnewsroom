@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-11-17T17:43:17.734Z",
+  "generatedAt": "2026-11-18T17:24:22.233Z",
   "bullets": [
     {
-      "text": "**Cybersecurity AI startup Corma reaches** - (techcrunch.com) Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
-      "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/"
+      "text": "**Could Meta fix its glasses** - (9to5google.com) Could Meta fix its glasses privacy issues with an LED redesign?",
+      "url": "https://9to5google.com/2026/11/18/could-meta-fix-its-glasses-privacy-issues-with-an-led-redesign/"
+    },
+    {
+      "text": "**Hackers Using AI Speed Through** - (cnet.com) Hackers Are Using AI to Speed Through Cyberattacks, FBI Warns",
+      "url": "https://www.cnet.com/tech/services-and-software/hackers-artex-ai-cyberattacks-fbi-warning/"
     },
     {
       "text": "**macOS 27 3 includes new** - (9to5mac.com) macOS 27.3 includes new privacy controls for Full Disk Access and more",
       "url": "https://9to5mac.com/2026/11/16/macos-27-3-includes-new-privacy-controls-for-full-disk-access-and-more/"
     },
     {
-      "text": "**Proton s Lumo privacy-focused alternative** - (techcrunch.com) Proton’s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop",
-      "url": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/"
+      "text": "**Nvidia says its open source** - (techcrunch.com) Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/"
     },
     {
-      "text": "**Apple s Siri AI smart** - (9to5mac.com) Apple’s Siri AI smart glasses are reportedly launching next year, here’s what to expect",
-      "url": "https://9to5mac.com/2026/11/15/apples-siri-ai-smart-glasses-are-reportedly-launching-next-year-heres-what-to-expect/"
-    },
-    {
-      "text": "**UGREEN HomeAgent local-first way make** - (9to5google.com) The UGREEN HomeAgent is a ‘local-first’ way to make your smart home even smarter",
-      "url": "https://9to5google.com/2026/11/13/the-ugreen-homeagent-is-a-local-first-way-to-make-your-smart-home-even-smarter/"
+      "text": "**OpenAI CEO Sam Altman says** - (techcrunch.com) OpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’",
+      "url": "https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
+    "https://9to5google.com/2026/11/18/could-meta-fix-its-glasses-privacy-issues-with-an-led-redesign/",
+    "https://www.cnet.com/tech/services-and-software/hackers-artex-ai-cyberattacks-fbi-warning/",
     "https://9to5mac.com/2026/11/16/macos-27-3-includes-new-privacy-controls-for-full-disk-access-and-more/",
-    "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/",
-    "https://9to5mac.com/2026/11/15/apples-siri-ai-smart-glasses-are-reportedly-launching-next-year-heres-what-to-expect/",
-    "https://9to5google.com/2026/11/13/the-ugreen-homeagent-is-a-local-first-way-to-make-your-smart-home-even-smarter/"
+    "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/",
+    "https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen/"
   ],
   "note": "fallback (summary generation error)"
 }
