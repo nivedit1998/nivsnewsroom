@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T17:24:22.233Z",
+  "generatedAt": "2026-11-19T17:29:13.024Z",
   "bullets": [
     {
       "text": "**Could Meta fix its glasses** - (9to5google.com) Could Meta fix its glasses privacy issues with an LED redesign?",
@@ -10,16 +10,16 @@
       "url": "https://www.cnet.com/tech/services-and-software/hackers-artex-ai-cyberattacks-fbi-warning/"
     },
     {
+      "text": "**Major privacy breaches reported Muse** - (9to5mac.com) Major privacy breaches reported in Muse AI, including bank balances",
+      "url": "https://9to5mac.com/2026/11/19/major-privacy-breaches-reported-in-muse-ai-including-bank-balances/"
+    },
+    {
       "text": "**macOS 27 3 includes new** - (9to5mac.com) macOS 27.3 includes new privacy controls for Full Disk Access and more",
       "url": "https://9to5mac.com/2026/11/16/macos-27-3-includes-new-privacy-controls-for-full-disk-access-and-more/"
     },
     {
-      "text": "**Nvidia says its open source** - (techcrunch.com) Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit",
-      "url": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/"
-    },
-    {
-      "text": "**OpenAI CEO Sam Altman says** - (techcrunch.com) OpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’",
-      "url": "https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen/"
+      "text": "**UGREEN HomeAgent local-first way make** - (9to5google.com) The UGREEN HomeAgent is a ‘local-first’ way to make your smart home even smarter",
+      "url": "https://9to5google.com/2026/11/13/the-ugreen-homeagent-is-a-local-first-way-to-make-your-smart-home-even-smarter/"
     }
   ],
   "promptVersion": "insights-v2",
@@ -27,9 +27,9 @@
   "contextUrls": [
     "https://9to5google.com/2026/11/18/could-meta-fix-its-glasses-privacy-issues-with-an-led-redesign/",
     "https://www.cnet.com/tech/services-and-software/hackers-artex-ai-cyberattacks-fbi-warning/",
+    "https://9to5mac.com/2026/11/19/major-privacy-breaches-reported-in-muse-ai-including-bank-balances/",
     "https://9to5mac.com/2026/11/16/macos-27-3-includes-new-privacy-controls-for-full-disk-access-and-more/",
-    "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/",
-    "https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen/"
+    "https://9to5google.com/2026/11/13/the-ugreen-homeagent-is-a-local-first-way-to-make-your-smart-home-even-smarter/"
   ],
   "note": "fallback (summary generation error)"
 }

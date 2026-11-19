@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T17:24:42.446Z",
+  "generatedAt": "2026-11-19T17:29:40.240Z",
   "bullets": [
     {
       "text": "**Fintech Times Singapore Fintech Festival** - (thefintechtimes.com) The Fintech Times: Singapore Fintech Festival 2026 Special Edition",
@@ -14,28 +14,28 @@
       "url": "https://www.fca.org.uk/news/press-releases/fca-explore-quantum-computing-tackle-financial-crime"
     },
     {
-      "text": "**wallet full-stack fintech Murtaza Ali** - (thefintechtimes.com) From wallet to full-stack fintech: Murtaza Ali on JazzCash’s path to 2030",
-      "url": "https://thefintechtimes.com/from-wallet-to-full-stack-fintech-murtaza-ali-jazzcash/"
+      "text": "**Singapore FinTech Festival Gets Grips** - (thefintechtimes.com) Singapore FinTech Festival Gets to Grips with AI, Digital Money and Financial Inclusion",
+      "url": "https://thefintechtimes.com/singapore-fintech-festival-gets-to-grips-with-ai-digital-money-and-financial-inclusion/"
     },
     {
-      "text": "**What we re learning firms** - (fca.org.uk) What we’re learning from firms engaging with our innovation services",
-      "url": "https://www.fca.org.uk/news/blogs/what-were-learning-firms-engaging-our-innovation-services"
+      "text": "**FCA launches world-first platform giving** - (fca.org.uk) FCA launches world-first platform giving firms new insight into AI innovation",
+      "url": "https://www.fca.org.uk/news/press-releases/fca-launches-world-first-platform-giving-firms-new-insight-ai-innovation"
     }
   ],
-  "inputHash": "5919233977e05fdb1718e50534cd4366fa9114d50578628eb3e126615a56c57f",
+  "inputHash": "95a61de40f0317ca7b673a6b15fa983fa60e6de29aae223e718a4fa4c7fbf058",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://thefintechtimes.com/the-fintech-times-sff-2026-special-edition/",
     "https://thefintechtimes.com/ziina-launches-split-bill-to-simplify-shared-group-payments/",
     "https://www.fca.org.uk/news/press-releases/fca-explore-quantum-computing-tackle-financial-crime",
-    "https://thefintechtimes.com/from-wallet-to-full-stack-fintech-murtaza-ali-jazzcash/",
+    "https://thefintechtimes.com/singapore-fintech-festival-gets-to-grips-with-ai-digital-money-and-financial-inclusion/",
+    "https://www.fca.org.uk/news/press-releases/fca-launches-world-first-platform-giving-firms-new-insight-ai-innovation",
     "https://www.fca.org.uk/news/blogs/what-were-learning-firms-engaging-our-innovation-services",
-    "https://www.finextra.com/pressarticle/111717/miden-and-visa-partner-on-commercial-card-issuing-for-african-businesses",
-    "https://www.paymentsdive.com/spons/checkouts-are-built-for-speed-fraudsters-are-thankful/874221/",
-    "https://www.paymentsdive.com/news/klarna-launches-ai-concierge/875033/",
-    "https://www.paymentsdive.com/spons/why-faster-cash-flow-sells-embedded-payments-to-us-smbs/874184/",
-    "https://www.finextra.com/newsarticle/48780/world-bank-partners-citi-and-circle-to-test-stablecoins-for-development-payments"
+    "https://www.pymnts.com/cryptocurrency/2026/senators-urge-treasury-protect-state-stablecoin-charters-under-genius-act/",
+    "https://www.finextra.com/pressarticle/111740/spanish-fintech-devengo-raises-5m",
+    "https://www.pymnts.com/cryptocurrency/2026/stablecoin-issuers-face-january-approval-deadline-under-genius-act/",
+    "https://www.pymnts.com/digital-payments/2026/alipay-links-its-global-wallet-gateway-to-brazils-pix/"
   ],
   "note": "fallback (summary generation error)"
 }

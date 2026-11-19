@@ -1,9 +1,17 @@
 {
-  "generatedAt": "2026-11-18T17:24:31.703Z",
+  "generatedAt": "2026-11-19T17:29:22.119Z",
   "bullets": [
     {
-      "text": "**Private 5G planning must go** - (rcrwireless.com) Private 5G planning must go beyond coverage, iBwave says",
-      "url": "https://rcrwireless.com/20261117/private-5g/private-5g-ibwave"
+      "text": "**Ericsson 5G must shift focus** - (totaltele.com) Ericsson: 5G must shift focus from consumers to citizens, says UK chief",
+      "url": "https://totaltele.com/ericsson-5g-must-shift-focus-from-consumers-to-citizens-says-uk-chief/"
+    },
+    {
+      "text": "**Private 5G ports spectrum access** - (rcrwireless.com) Private 5G in ports – spectrum access and coordination put to the test",
+      "url": "https://rcrwireless.com/20261119/private-5g/private-5g-ports-spectrum"
+    },
+    {
+      "text": "**Private 5G not IT ticket** - (rcrwireless.com) Private 5G is “not an IT ticket” any more – physical AI in motion, with XCOM RAN",
+      "url": "https://rcrwireless.com/20261119/private-5g/private-5g-is-not-an-it-ticket-any-more-physical-ai-in-motion-with-xcom-ran"
     },
     {
       "text": "**Nokia Telia Nscale lead AI** - (totaltele.com) Nokia, Telia and Nscale to lead AI Gigafactory Northern consortium",
@@ -12,24 +20,16 @@
     {
       "text": "**AI exposes Industry 4 0** - (rcrwireless.com) AI exposes Industry 4.0 connectivity gap – private 5G is already part of the answer",
       "url": "https://rcrwireless.com/20261118/private-5g/ai-exposes-industry-4-0-connectivity-gap-private-5g-is-already-part-of-the-answer"
-    },
-    {
-      "text": "**Private 5G optical highways satellite** - (rcrwireless.com) Private 5G, optical highways, satellite IoT – and a big Canadian takeover (Telco Diary)",
-      "url": "https://rcrwireless.com/20261118/network-infrastructure/private-5g-optical-highways-satellite-iot-and-a-big-canadian-takeover-telco-diary"
-    },
-    {
-      "text": "**Who s left MDU Wi-Fi** - (rcrwireless.com) Who’s left? The MDU Wi-Fi vendor landscape after Cambium (Analyst Angle)",
-      "url": "https://rcrwireless.com/20261117/analyst-angle/whos-left-the-mdu-wi-fi-vendor-landscape-after-cambium-analyst-angle"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://rcrwireless.com/20261117/private-5g/private-5g-ibwave",
+    "https://totaltele.com/ericsson-5g-must-shift-focus-from-consumers-to-citizens-says-uk-chief/",
+    "https://rcrwireless.com/20261119/private-5g/private-5g-ports-spectrum",
+    "https://rcrwireless.com/20261119/private-5g/private-5g-is-not-an-it-ticket-any-more-physical-ai-in-motion-with-xcom-ran",
     "https://totaltele.com/nokia-telia-and-nscale-to-lead-ai-gigafactory-northern-consortium/",
-    "https://rcrwireless.com/20261118/private-5g/ai-exposes-industry-4-0-connectivity-gap-private-5g-is-already-part-of-the-answer",
-    "https://rcrwireless.com/20261118/network-infrastructure/private-5g-optical-highways-satellite-iot-and-a-big-canadian-takeover-telco-diary",
-    "https://rcrwireless.com/20261117/analyst-angle/whos-left-the-mdu-wi-fi-vendor-landscape-after-cambium-analyst-angle"
+    "https://rcrwireless.com/20261118/private-5g/ai-exposes-industry-4-0-connectivity-gap-private-5g-is-already-part-of-the-answer"
   ],
   "note": "fallback (summary generation error)"
 }
