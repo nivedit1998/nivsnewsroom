@@ -1,10 +1,6 @@
 {
-  "generatedAt": "2026-11-19T17:29:42.955Z",
+  "generatedAt": "2026-11-20T17:04:22.618Z",
   "bullets": [
-    {
-      "text": "**Accenture Strengthen Capabilities Software Automation** - (newsroom.accenture.com) Accenture to Strengthen Capabilities for Software and Automation Solutions from Siemens Digital Industries with Acquisition of Industries eXcellence Group",
-      "url": "https://newsroom.accenture.com/news/2026/accenture-to-strengthen-capabilities-for-software-and-automation-solutions-from-siemens-digital-industries-with-acquisition-of-industries-excellence-group"
-    },
     {
       "text": "**Accenture Life Trends 2027 Finds** - (newsroom.accenture.com) Accenture Life Trends 2027 Finds People Want Progress in an AI Era, but on Their Own Terms",
       "url": "https://newsroom.accenture.com/news/2026/accenture-life-trends-2027-finds-people-want-progress-in-an-ai-era-but-on-their-own-terms"
@@ -13,7 +9,6 @@
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://newsroom.accenture.com/news/2026/accenture-to-strengthen-capabilities-for-software-and-automation-solutions-from-siemens-digital-industries-with-acquisition-of-industries-excellence-group",
     "https://newsroom.accenture.com/news/2026/accenture-life-trends-2027-finds-people-want-progress-in-an-ai-era-but-on-their-own-terms"
   ],
   "note": "fallback (summary generation error)"

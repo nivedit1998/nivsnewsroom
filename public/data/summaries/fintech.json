@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-19T17:29:40.240Z",
+  "generatedAt": "2026-11-20T17:04:20.275Z",
   "bullets": [
     {
-      "text": "**Fintech Times Singapore Fintech Festival** - (thefintechtimes.com) The Fintech Times: Singapore Fintech Festival 2026 Special Edition",
-      "url": "https://thefintechtimes.com/the-fintech-times-sff-2026-special-edition/"
+      "text": "**Banks Crypto PayPal Make Their** - (thefintechtimes.com) Banks, Crypto and PayPal Make Their Case at Singapore FinTech Festival",
+      "url": "https://thefintechtimes.com/banks-crypto-and-paypal-make-their-case-at-singapore-fintech-festival/"
     },
     {
       "text": "**Ziina Launches Split Bill Simplify** - (thefintechtimes.com) Ziina Launches Split Bill to Simplify Shared Group Payments",
@@ -14,28 +14,28 @@
       "url": "https://www.fca.org.uk/news/press-releases/fca-explore-quantum-computing-tackle-financial-crime"
     },
     {
-      "text": "**Singapore FinTech Festival Gets Grips** - (thefintechtimes.com) Singapore FinTech Festival Gets to Grips with AI, Digital Money and Financial Inclusion",
-      "url": "https://thefintechtimes.com/singapore-fintech-festival-gets-to-grips-with-ai-digital-money-and-financial-inclusion/"
-    },
-    {
       "text": "**FCA launches world-first platform giving** - (fca.org.uk) FCA launches world-first platform giving firms new insight into AI innovation",
       "url": "https://www.fca.org.uk/news/press-releases/fca-launches-world-first-platform-giving-firms-new-insight-ai-innovation"
+    },
+    {
+      "text": "**Singapore FinTech Festival Gets Grips** - (thefintechtimes.com) Singapore FinTech Festival Gets to Grips with AI, Digital Money and Financial Inclusion",
+      "url": "https://thefintechtimes.com/singapore-fintech-festival-gets-to-grips-with-ai-digital-money-and-financial-inclusion/"
     }
   ],
-  "inputHash": "95a61de40f0317ca7b673a6b15fa983fa60e6de29aae223e718a4fa4c7fbf058",
+  "inputHash": "2d164ec8df8849ab1d564c166a2a3f536431d53d25f0f45f6e995b7f706a4798",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://thefintechtimes.com/the-fintech-times-sff-2026-special-edition/",
+    "https://thefintechtimes.com/banks-crypto-and-paypal-make-their-case-at-singapore-fintech-festival/",
     "https://thefintechtimes.com/ziina-launches-split-bill-to-simplify-shared-group-payments/",
     "https://www.fca.org.uk/news/press-releases/fca-explore-quantum-computing-tackle-financial-crime",
-    "https://thefintechtimes.com/singapore-fintech-festival-gets-to-grips-with-ai-digital-money-and-financial-inclusion/",
     "https://www.fca.org.uk/news/press-releases/fca-launches-world-first-platform-giving-firms-new-insight-ai-innovation",
+    "https://thefintechtimes.com/singapore-fintech-festival-gets-to-grips-with-ai-digital-money-and-financial-inclusion/",
     "https://www.fca.org.uk/news/blogs/what-were-learning-firms-engaging-our-innovation-services",
-    "https://www.pymnts.com/cryptocurrency/2026/senators-urge-treasury-protect-state-stablecoin-charters-under-genius-act/",
-    "https://www.finextra.com/pressarticle/111740/spanish-fintech-devengo-raises-5m",
-    "https://www.pymnts.com/cryptocurrency/2026/stablecoin-issuers-face-january-approval-deadline-under-genius-act/",
-    "https://www.pymnts.com/digital-payments/2026/alipay-links-its-global-wallet-gateway-to-brazils-pix/"
+    "https://www.finextra.com/pressarticle/111754/canadian-fintech-float-commits-5m-to-quebec",
+    "https://www.paymentsdive.com/spons/checkouts-are-built-for-speed-fraudsters-are-thankful/874221/",
+    "https://www.finextra.com/pressarticle/111752/bill-agrees-to-be-acquired-by-tpg-in-6bn-deal",
+    "https://www.paymentsdive.com/news/klarna-launches-ai-concierge/875033/"
   ],
   "note": "fallback (summary generation error)"
 }

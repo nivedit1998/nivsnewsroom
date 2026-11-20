@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-11-19T17:29:13.024Z",
+  "generatedAt": "2026-11-20T17:04:00.430Z",
   "bullets": [
     {
       "text": "**Could Meta fix its glasses** - (9to5google.com) Could Meta fix its glasses privacy issues with an LED redesign?",
       "url": "https://9to5google.com/2026/11/18/could-meta-fix-its-glasses-privacy-issues-with-an-led-redesign/"
     },
     {
-      "text": "**Hackers Using AI Speed Through** - (cnet.com) Hackers Are Using AI to Speed Through Cyberattacks, FBI Warns",
-      "url": "https://www.cnet.com/tech/services-and-software/hackers-artex-ai-cyberattacks-fbi-warning/"
-    },
-    {
-      "text": "**Major privacy breaches reported Muse** - (9to5mac.com) Major privacy breaches reported in Muse AI, including bank balances",
+      "text": "**Major privacy breaches reported Muse** - (9to5mac.com) Major privacy breaches reported in Muse AI – company responds [U]",
       "url": "https://9to5mac.com/2026/11/19/major-privacy-breaches-reported-in-muse-ai-including-bank-balances/"
     },
     {
-      "text": "**macOS 27 3 includes new** - (9to5mac.com) macOS 27.3 includes new privacy controls for Full Disk Access and more",
-      "url": "https://9to5mac.com/2026/11/16/macos-27-3-includes-new-privacy-controls-for-full-disk-access-and-more/"
+      "text": "**These tech outages giving Y2K** - (techcrunch.com) These tech outages are giving Y2K, AI agent style",
+      "url": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/"
     },
     {
-      "text": "**UGREEN HomeAgent local-first way make** - (9to5google.com) The UGREEN HomeAgent is a ‘local-first’ way to make your smart home even smarter",
-      "url": "https://9to5google.com/2026/11/13/the-ugreen-homeagent-is-a-local-first-way-to-make-your-smart-home-even-smarter/"
+      "text": "**Meta s AI agent Muse** - (techcrunch.com) Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says",
+      "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/"
+    },
+    {
+      "text": "**Xiaomi 18 Pro debuts globally** - (9to5google.com) The Xiaomi 18 Pro debuts globally with sub-mm bezels, privacy display, rear display, and 200MP Leica cameras",
+      "url": "https://9to5google.com/2026/11/17/the-xiaomi-18-pro-debuts-globally-with-sub-mm-bezels-privacy-display-4000-nit-back-display-and-dual-200mp-leica-cameras/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://9to5google.com/2026/11/18/could-meta-fix-its-glasses-privacy-issues-with-an-led-redesign/",
-    "https://www.cnet.com/tech/services-and-software/hackers-artex-ai-cyberattacks-fbi-warning/",
     "https://9to5mac.com/2026/11/19/major-privacy-breaches-reported-in-muse-ai-including-bank-balances/",
-    "https://9to5mac.com/2026/11/16/macos-27-3-includes-new-privacy-controls-for-full-disk-access-and-more/",
-    "https://9to5google.com/2026/11/13/the-ugreen-homeagent-is-a-local-first-way-to-make-your-smart-home-even-smarter/"
+    "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/",
+    "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+    "https://9to5google.com/2026/11/17/the-xiaomi-18-pro-debuts-globally-with-sub-mm-bezels-privacy-display-4000-nit-back-display-and-dual-200mp-leica-cameras/"
   ],
   "note": "fallback (summary generation error)"
 }
