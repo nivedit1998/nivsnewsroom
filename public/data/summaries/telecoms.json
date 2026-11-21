@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T17:04:08.927Z",
+  "generatedAt": "2026-11-21T16:17:04.295Z",
   "bullets": [
     {
       "text": "**Ericsson 5G must shift focus** - (totaltele.com) Ericsson: 5G must shift focus from consumers to citizens, says UK chief",
@@ -14,12 +14,12 @@
       "url": "https://rcrwireless.com/20261119/private-5g/private-5g-is-not-an-it-ticket-any-more-physical-ai-in-motion-with-xcom-ran"
     },
     {
-      "text": "**Nokia Telia Nscale lead AI** - (totaltele.com) Nokia, Telia and Nscale to lead AI Gigafactory Northern consortium",
-      "url": "https://totaltele.com/nokia-telia-and-nscale-to-lead-ai-gigafactory-northern-consortium/"
+      "text": "**Africa s Digital Progress Accelerates** - (gsma.com) Africa’s Digital Progress Accelerates, but 64% Usage Gap Shows Next Challenge for Policymakers",
+      "url": "https://www.gsma.com/newsroom/press-release/africas-digital-progress-accelerates-but-64-usage-gap-shows-next-challenge-for-policymakers/"
     },
     {
-      "text": "**AI exposes Industry 4 0** - (rcrwireless.com) AI exposes Industry 4.0 connectivity gap – private 5G is already part of the answer",
-      "url": "https://rcrwireless.com/20261118/private-5g/ai-exposes-industry-4-0-connectivity-gap-private-5g-is-already-part-of-the-answer"
+      "text": "**Nokia Telia Nscale lead AI** - (totaltele.com) Nokia, Telia and Nscale to lead AI Gigafactory Northern consortium",
+      "url": "https://totaltele.com/nokia-telia-and-nscale-to-lead-ai-gigafactory-northern-consortium/"
     }
   ],
   "promptVersion": "insights-v2",
@@ -28,8 +28,8 @@
     "https://totaltele.com/ericsson-5g-must-shift-focus-from-consumers-to-citizens-says-uk-chief/",
     "https://rcrwireless.com/20261119/private-5g/private-5g-ports-spectrum",
     "https://rcrwireless.com/20261119/private-5g/private-5g-is-not-an-it-ticket-any-more-physical-ai-in-motion-with-xcom-ran",
-    "https://totaltele.com/nokia-telia-and-nscale-to-lead-ai-gigafactory-northern-consortium/",
-    "https://rcrwireless.com/20261118/private-5g/ai-exposes-industry-4-0-connectivity-gap-private-5g-is-already-part-of-the-answer"
+    "https://www.gsma.com/newsroom/press-release/africas-digital-progress-accelerates-but-64-usage-gap-shows-next-challenge-for-policymakers/",
+    "https://totaltele.com/nokia-telia-and-nscale-to-lead-ai-gigafactory-northern-consortium/"
   ],
   "note": "fallback (summary generation error)"
 }
