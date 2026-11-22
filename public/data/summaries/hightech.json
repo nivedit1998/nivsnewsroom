@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T16:16:57.780Z",
+  "generatedAt": "2026-11-22T16:29:52.780Z",
   "bullets": [
     {
       "text": "**Could Meta fix its glasses** - (9to5google.com) Could Meta fix its glasses privacy issues with an LED redesign?",
@@ -14,12 +14,12 @@
       "url": "https://www.cnet.com/tech/claude-ai-privacy-settings-guide/"
     },
     {
-      "text": "**Chips can survive space environment** - (techcrunch.com) Chips can survive the space environment — can their financing?",
-      "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/"
+      "text": "**How Google Workspace Gemini powers** - (9to5mac.com) How Google Workspace with Gemini powers small businesses – get 20% off your first 6 months",
+      "url": "https://9to5mac.com/2026/11/21/how-google-workspace-with-gemini-powers-small-businesses-get-20-off-your-first-6-months/"
     },
     {
-      "text": "**Amazon s first digital photo** - (theverge.com) Amazon’s first digital photo frame is up to 50 percent off for Black Friday",
-      "url": "https://www.theverge.com/gadgets/1038762/amazon-alexa-photo-frame-black-friday-2026-deal-sale"
+      "text": "**Chips can survive space environment** - (techcrunch.com) Chips can survive the space environment — can their financing?",
+      "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/"
     }
   ],
   "promptVersion": "insights-v2",
@@ -28,8 +28,8 @@
     "https://9to5google.com/2026/11/18/could-meta-fix-its-glasses-privacy-issues-with-an-led-redesign/",
     "https://9to5mac.com/2026/11/19/major-privacy-breaches-reported-in-muse-ai-including-bank-balances/",
     "https://www.cnet.com/tech/claude-ai-privacy-settings-guide/",
-    "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
-    "https://www.theverge.com/gadgets/1038762/amazon-alexa-photo-frame-black-friday-2026-deal-sale"
+    "https://9to5mac.com/2026/11/21/how-google-workspace-with-gemini-powers-small-businesses-get-20-off-your-first-6-months/",
+    "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/"
   ],
   "note": "fallback (summary generation error)"
 }

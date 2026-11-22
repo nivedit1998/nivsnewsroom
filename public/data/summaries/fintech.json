@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T16:17:14.892Z",
+  "generatedAt": "2026-11-22T16:30:15.533Z",
   "bullets": [
     {
       "text": "**Banks Crypto PayPal Make Their** - (thefintechtimes.com) Banks, Crypto and PayPal Make Their Case at Singapore FinTech Festival",
@@ -10,27 +10,27 @@
       "url": "https://thefintechtimes.com/lemfi-adds-credit-savings-and-esims-in-biggest-product-push/"
     },
     {
+      "text": "**Why banks most gain tokenisation** - (thefintechtimes.com) Why the banks with most to gain from tokenisation move last",
+      "url": "https://thefintechtimes.com/why-the-banks-with-most-to-gain-from-tokenisation-move-last/"
+    },
+    {
       "text": "**FCA explore quantum computing tackle** - (fca.org.uk) FCA to explore quantum computing to tackle financial crime",
       "url": "https://www.fca.org.uk/news/press-releases/fca-explore-quantum-computing-tackle-financial-crime"
     },
     {
       "text": "**FCA launches world-first platform giving** - (fca.org.uk) FCA launches world-first platform giving firms new insight into AI innovation",
       "url": "https://www.fca.org.uk/news/press-releases/fca-launches-world-first-platform-giving-firms-new-insight-ai-innovation"
-    },
-    {
-      "text": "**After Money20 20 Middle East** - (thefintechtimes.com) After Money20/20 Middle East, The Question Is What Follows Access",
-      "url": "https://thefintechtimes.com/after-money20-20-middle-east-the-question-is-what-follows-access/"
     }
   ],
-  "inputHash": "c9b49f758d6d528c7ff5e8f20213b64c3b9c7a2026e8ee0f10e19dfa33513188",
+  "inputHash": "c11c45540e24be4f9eda51e2ee063fb0a521dee73d7cc7c8bc90a7c2e865134b",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://thefintechtimes.com/banks-crypto-and-paypal-make-their-case-at-singapore-fintech-festival/",
     "https://thefintechtimes.com/lemfi-adds-credit-savings-and-esims-in-biggest-product-push/",
+    "https://thefintechtimes.com/why-the-banks-with-most-to-gain-from-tokenisation-move-last/",
     "https://www.fca.org.uk/news/press-releases/fca-explore-quantum-computing-tackle-financial-crime",
     "https://www.fca.org.uk/news/press-releases/fca-launches-world-first-platform-giving-firms-new-insight-ai-innovation",
-    "https://thefintechtimes.com/after-money20-20-middle-east-the-question-is-what-follows-access/",
     "https://www.fca.org.uk/news/blogs/what-were-learning-firms-engaging-our-innovation-services",
     "https://www.finextra.com/pressarticle/111754/canadian-fintech-float-commits-5m-to-quebec",
     "https://www.paymentsdive.com/spons/checkouts-are-built-for-speed-fraudsters-are-thankful/874221/",
