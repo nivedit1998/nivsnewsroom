@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-11-22T16:30:02.998Z",
+  "generatedAt": "2026-11-23T20:25:05.483Z",
   "bullets": [
     {
       "text": "**Ericsson 5G must shift focus** - (totaltele.com) Ericsson: 5G must shift focus from consumers to citizens, says UK chief",
       "url": "https://totaltele.com/ericsson-5g-must-shift-focus-from-consumers-to-citizens-says-uk-chief/"
     },
     {
-      "text": "**Private 5G ports spectrum access** - (rcrwireless.com) Private 5G in ports – spectrum access and coordination put to the test",
-      "url": "https://rcrwireless.com/20261119/private-5g/private-5g-ports-spectrum"
-    },
-    {
-      "text": "**Private 5G not IT ticket** - (rcrwireless.com) Private 5G is “not an IT ticket” any more – physical AI in motion, with XCOM RAN",
-      "url": "https://rcrwireless.com/20261119/private-5g/private-5g-is-not-an-it-ticket-any-more-physical-ai-in-motion-with-xcom-ran"
+      "text": "**Helium moves up market selling** - (rcrwireless.com) Helium moves up market – selling trust in connectivity to carriers (Analyst Angle)",
+      "url": "https://rcrwireless.com/20261123/analyst-angle/helium-moves-up-market-selling-trust-in-connectivity-to-carriers-analyst-angle"
     },
     {
       "text": "**Private 5G scaling but Wi-Fi** - (rcrwireless.com) Private 5G is scaling, but Wi-Fi isn’t going anywhere",
       "url": "https://rcrwireless.com/20261120/5g/private-5g-scale-alongside-wifi"
     },
     {
-      "text": "**Nokia Telia Nscale lead AI** - (totaltele.com) Nokia, Telia and Nscale to lead AI Gigafactory Northern consortium",
-      "url": "https://totaltele.com/nokia-telia-and-nscale-to-lead-ai-gigafactory-northern-consortium/"
+      "text": "**Best RAN growth five years** - (rcrwireless.com) Best RAN growth in five years, but 5G outlook remains flat (Telco Diary)",
+      "url": "https://rcrwireless.com/20261123/opinion/best-ran-growth-in-five-years-but-5g-outlook-remains-flat-telco-diary"
+    },
+    {
+      "text": "**Keysight wireless orders grow 6G** - (rcrwireless.com) Keysight wireless orders grow on 6G, satellite and AI infra demand",
+      "url": "https://rcrwireless.com/20261123/6g/keysight-wireless-6g"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://totaltele.com/ericsson-5g-must-shift-focus-from-consumers-to-citizens-says-uk-chief/",
-    "https://rcrwireless.com/20261119/private-5g/private-5g-ports-spectrum",
-    "https://rcrwireless.com/20261119/private-5g/private-5g-is-not-an-it-ticket-any-more-physical-ai-in-motion-with-xcom-ran",
+    "https://rcrwireless.com/20261123/analyst-angle/helium-moves-up-market-selling-trust-in-connectivity-to-carriers-analyst-angle",
     "https://rcrwireless.com/20261120/5g/private-5g-scale-alongside-wifi",
-    "https://totaltele.com/nokia-telia-and-nscale-to-lead-ai-gigafactory-northern-consortium/"
+    "https://rcrwireless.com/20261123/opinion/best-ran-growth-in-five-years-but-5g-outlook-remains-flat-telco-diary",
+    "https://rcrwireless.com/20261123/6g/keysight-wireless-6g"
   ],
   "note": "fallback (summary generation error)"
 }

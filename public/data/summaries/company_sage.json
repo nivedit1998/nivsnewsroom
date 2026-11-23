@@ -1,15 +1,25 @@
 {
-  "generatedAt": "2026-11-22T16:30:22.160Z",
+  "generatedAt": "2026-11-23T20:25:22.466Z",
   "bullets": [
     {
-      "text": "**Building confidence grow 3 opportunities** - (sage.com) Building the confidence to grow: 3 opportunities for Sage partners",
-      "url": "https://www.sage.com/en-gb/blog/sage-future-for-partners-emea-2026/"
+      "text": "**What Cloud ERP Implementation Actually** - (sage.com) What a Cloud ERP Implementation Actually Looks Like for Mid-Market Businesses",
+      "url": "https://www.sage.com/en-gb/blog/what-a-cloud-erp-implementation-actually-looks-like-for-mid-market-businesses/"
+    },
+    {
+      "text": "**AI Finance What UK Finance** - (sage.com) AI in Finance: What UK Finance Leaders Need to Know",
+      "url": "https://www.sage.com/en-gb/blog/ai-in-finance-what-uk-finance-leaders-need-to-know/"
+    },
+    {
+      "text": "**How Build Finance Function Scales** - (sage.com) How to Build a Finance Function That Scales",
+      "url": "https://www.sage.com/en-gb/blog/how-to-build-a-finance-function-that-scales/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://www.sage.com/en-gb/blog/sage-future-for-partners-emea-2026/"
+    "https://www.sage.com/en-gb/blog/what-a-cloud-erp-implementation-actually-looks-like-for-mid-market-businesses/",
+    "https://www.sage.com/en-gb/blog/ai-in-finance-what-uk-finance-leaders-need-to-know/",
+    "https://www.sage.com/en-gb/blog/how-to-build-a-finance-function-that-scales/"
   ],
   "note": "fallback (summary generation error)"
 }

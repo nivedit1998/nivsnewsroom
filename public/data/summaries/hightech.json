@@ -1,6 +1,10 @@
 {
-  "generatedAt": "2026-11-22T16:29:52.780Z",
+  "generatedAt": "2026-11-23T20:24:59.897Z",
   "bullets": [
+    {
+      "text": "**Dutch privacy authority urges consumers** - (techcrunch.com) Dutch privacy authority urges consumers not to buy ‘pervert glasses’",
+      "url": "https://techcrunch.com/2026/11/23/dutch-privacy-authority-urges-consumers-not-to-buy-pervert-glasses/"
+    },
     {
       "text": "**Could Meta fix its glasses** - (9to5google.com) Could Meta fix its glasses privacy issues with an LED redesign?",
       "url": "https://9to5google.com/2026/11/18/could-meta-fix-its-glasses-privacy-issues-with-an-led-redesign/"
@@ -10,26 +14,22 @@
       "url": "https://9to5mac.com/2026/11/19/major-privacy-breaches-reported-in-muse-ai-including-bank-balances/"
     },
     {
-      "text": "**AI Privacy Check Claude Settings** - (cnet.com) AI Privacy Check: Claude Settings You Should Consider Changing",
-      "url": "https://www.cnet.com/tech/claude-ai-privacy-settings-guide/"
+      "text": "**Chromecast Google TV gets first** - (9to5google.com) Chromecast with Google TV gets first update of 2026 [U: Wide rollout]",
+      "url": "https://9to5google.com/2026/11/23/chromecast-google-tv-2026-update/"
     },
     {
-      "text": "**How Google Workspace Gemini powers** - (9to5mac.com) How Google Workspace with Gemini powers small businesses – get 20% off your first 6 months",
-      "url": "https://9to5mac.com/2026/11/21/how-google-workspace-with-gemini-powers-small-businesses-get-20-off-your-first-6-months/"
-    },
-    {
-      "text": "**Chips can survive space environment** - (techcrunch.com) Chips can survive the space environment — can their financing?",
-      "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/"
+      "text": "**Nothing s upcoming Ear Note** - (theverge.com) Nothing’s upcoming Ear Note is a pair of earbuds with AI transcription",
+      "url": "https://www.theverge.com/gadgets/1040357/nothing-ear-note-earbuds-ai-recording"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
+    "https://techcrunch.com/2026/11/23/dutch-privacy-authority-urges-consumers-not-to-buy-pervert-glasses/",
     "https://9to5google.com/2026/11/18/could-meta-fix-its-glasses-privacy-issues-with-an-led-redesign/",
     "https://9to5mac.com/2026/11/19/major-privacy-breaches-reported-in-muse-ai-including-bank-balances/",
-    "https://www.cnet.com/tech/claude-ai-privacy-settings-guide/",
-    "https://9to5mac.com/2026/11/21/how-google-workspace-with-gemini-powers-small-businesses-get-20-off-your-first-6-months/",
-    "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/"
+    "https://9to5google.com/2026/11/23/chromecast-google-tv-2026-update/",
+    "https://www.theverge.com/gadgets/1040357/nothing-ear-note-earbuds-ai-recording"
   ],
   "note": "fallback (summary generation error)"
 }

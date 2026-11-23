@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-11-22T16:30:15.533Z",
+  "generatedAt": "2026-11-23T20:25:16.012Z",
   "bullets": [
     {
       "text": "**Banks Crypto PayPal Make Their** - (thefintechtimes.com) Banks, Crypto and PayPal Make Their Case at Singapore FinTech Festival",
       "url": "https://thefintechtimes.com/banks-crypto-and-paypal-make-their-case-at-singapore-fintech-festival/"
     },
     {
-      "text": "**LemFi Adds Credit Savings eSIMs** - (thefintechtimes.com) LemFi Adds Credit, Savings and eSIMs in Biggest Product Push",
-      "url": "https://thefintechtimes.com/lemfi-adds-credit-savings-and-esims-in-biggest-product-push/"
+      "text": "**price connection one question SFF** - (thefintechtimes.com) The price of connection: the one question SFF’s payments panel would not answer",
+      "url": "https://thefintechtimes.com/the-price-of-connection-the-one-question-sffs-payments-panel-would-not-answer/"
     },
     {
-      "text": "**Why banks most gain tokenisation** - (thefintechtimes.com) Why the banks with most to gain from tokenisation move last",
-      "url": "https://thefintechtimes.com/why-the-banks-with-most-to-gain-from-tokenisation-move-last/"
+      "text": "**LemFi Adds Credit Savings eSIMs** - (thefintechtimes.com) LemFi Adds Credit, Savings and eSIMs in Biggest Product Push",
+      "url": "https://thefintechtimes.com/lemfi-adds-credit-savings-and-esims-in-biggest-product-push/"
     },
     {
       "text": "**FCA explore quantum computing tackle** - (fca.org.uk) FCA to explore quantum computing to tackle financial crime",
       "url": "https://www.fca.org.uk/news/press-releases/fca-explore-quantum-computing-tackle-financial-crime"
     },
     {
-      "text": "**FCA launches world-first platform giving** - (fca.org.uk) FCA launches world-first platform giving firms new insight into AI innovation",
-      "url": "https://www.fca.org.uk/news/press-releases/fca-launches-world-first-platform-giving-firms-new-insight-ai-innovation"
+      "text": "**Trust Payments partners OKTO Payments** - (finextra.com) Trust Payments partners OKTO Payments in LatAm",
+      "url": "https://www.finextra.com/pressarticle/111757/trust-payments-partners-okto-payments-in-latam"
     }
   ],
-  "inputHash": "c11c45540e24be4f9eda51e2ee063fb0a521dee73d7cc7c8bc90a7c2e865134b",
+  "inputHash": "055975595ef904a420a20e05c8baebc4a58c2afd7635bfcaadbd639d2ad89989",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://thefintechtimes.com/banks-crypto-and-paypal-make-their-case-at-singapore-fintech-festival/",
+    "https://thefintechtimes.com/the-price-of-connection-the-one-question-sffs-payments-panel-would-not-answer/",
     "https://thefintechtimes.com/lemfi-adds-credit-savings-and-esims-in-biggest-product-push/",
-    "https://thefintechtimes.com/why-the-banks-with-most-to-gain-from-tokenisation-move-last/",
     "https://www.fca.org.uk/news/press-releases/fca-explore-quantum-computing-tackle-financial-crime",
+    "https://www.finextra.com/pressarticle/111757/trust-payments-partners-okto-payments-in-latam",
     "https://www.fca.org.uk/news/press-releases/fca-launches-world-first-platform-giving-firms-new-insight-ai-innovation",
+    "https://www.finextra.com/pressarticle/111758/straitsx-and-ocbc-pilot-cross-border-stablecoin-payments-into-business-bank-accounts",
+    "https://www.finextra.com/newsarticle/48797/stablecoin-fx-platform-codex-raises-30m",
     "https://www.fca.org.uk/news/blogs/what-were-learning-firms-engaging-our-innovation-services",
-    "https://www.finextra.com/pressarticle/111754/canadian-fintech-float-commits-5m-to-quebec",
-    "https://www.paymentsdive.com/spons/checkouts-are-built-for-speed-fraudsters-are-thankful/874221/",
-    "https://www.finextra.com/pressarticle/111752/bill-agrees-to-be-acquired-by-tpg-in-6bn-deal",
-    "https://www.paymentsdive.com/news/klarna-launches-ai-concierge/875033/"
+    "https://www.paymentsdive.com/news/bill-sells-for-6b-to-tpg-corpay/875331/"
   ],
   "note": "fallback (summary generation error)"
 }
