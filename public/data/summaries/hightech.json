@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-11-23T20:24:59.897Z",
+  "generatedAt": "2026-11-24T19:35:48.916Z",
   "bullets": [
     {
-      "text": "**Dutch privacy authority urges consumers** - (techcrunch.com) Dutch privacy authority urges consumers not to buy ‘pervert glasses’",
-      "url": "https://techcrunch.com/2026/11/23/dutch-privacy-authority-urges-consumers-not-to-buy-pervert-glasses/"
+      "text": "**Muse safety debate continues AI** - (9to5mac.com) Muse safety debate continues as the AI agent rolls out in the UK",
+      "url": "https://9to5mac.com/2026/11/24/muse-safety-debate-continues-as-the-ai-agent-rolls-out-in-the-uk/"
     },
     {
-      "text": "**Could Meta fix its glasses** - (9to5google.com) Could Meta fix its glasses privacy issues with an LED redesign?",
-      "url": "https://9to5google.com/2026/11/18/could-meta-fix-its-glasses-privacy-issues-with-an-led-redesign/"
+      "text": "**Tidal ban remove millions AI-generated** - (techcrunch.com) Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
+      "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/"
     },
     {
-      "text": "**Major privacy breaches reported Muse** - (9to5mac.com) Major privacy breaches reported in Muse AI – company responds [U]",
-      "url": "https://9to5mac.com/2026/11/19/major-privacy-breaches-reported-in-muse-ai-including-bank-balances/"
+      "text": "**UK warns AI-driven cyberattacks exposing** - (techcrunch.com) UK warns AI-driven cyberattacks are exposing years of weak security",
+      "url": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/"
+    },
+    {
+      "text": "**Tidal will start banning AI-generated** - (theverge.com) Tidal will start banning AI-generated music next month",
+      "url": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban"
     },
     {
       "text": "**Chromecast Google TV gets first** - (9to5google.com) Chromecast with Google TV gets first update of 2026 [U: Wide rollout]",
       "url": "https://9to5google.com/2026/11/23/chromecast-google-tv-2026-update/"
-    },
-    {
-      "text": "**Nothing s upcoming Ear Note** - (theverge.com) Nothing’s upcoming Ear Note is a pair of earbuds with AI transcription",
-      "url": "https://www.theverge.com/gadgets/1040357/nothing-ear-note-earbuds-ai-recording"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://techcrunch.com/2026/11/23/dutch-privacy-authority-urges-consumers-not-to-buy-pervert-glasses/",
-    "https://9to5google.com/2026/11/18/could-meta-fix-its-glasses-privacy-issues-with-an-led-redesign/",
-    "https://9to5mac.com/2026/11/19/major-privacy-breaches-reported-in-muse-ai-including-bank-balances/",
-    "https://9to5google.com/2026/11/23/chromecast-google-tv-2026-update/",
-    "https://www.theverge.com/gadgets/1040357/nothing-ear-note-earbuds-ai-recording"
+    "https://9to5mac.com/2026/11/24/muse-safety-debate-continues-as-the-ai-agent-rolls-out-in-the-uk/",
+    "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
+    "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
+    "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
+    "https://9to5google.com/2026/11/23/chromecast-google-tv-2026-update/"
   ],
   "note": "fallback (summary generation error)"
 }

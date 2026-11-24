@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-11-23T20:25:05.483Z",
+  "generatedAt": "2026-11-24T19:35:55.676Z",
   "bullets": [
     {
       "text": "**Ericsson 5G must shift focus** - (totaltele.com) Ericsson: 5G must shift focus from consumers to citizens, says UK chief",
       "url": "https://totaltele.com/ericsson-5g-must-shift-focus-from-consumers-to-citizens-says-uk-chief/"
     },
     {
-      "text": "**Helium moves up market selling** - (rcrwireless.com) Helium moves up market – selling trust in connectivity to carriers (Analyst Angle)",
-      "url": "https://rcrwireless.com/20261123/analyst-angle/helium-moves-up-market-selling-trust-in-connectivity-to-carriers-analyst-angle"
+      "text": "**eRedCap eSIM move legacy IoT** - (rcrwireless.com) eRedCap and eSIM move legacy IoT toward AI-ready operations",
+      "url": "https://rcrwireless.com/20261124/ai/eredcap-esim-legacy-iot-ai-ready"
     },
     {
-      "text": "**Private 5G scaling but Wi-Fi** - (rcrwireless.com) Private 5G is scaling, but Wi-Fi isn’t going anywhere",
-      "url": "https://rcrwireless.com/20261120/5g/private-5g-scale-alongside-wifi"
+      "text": "**Improving digital twin fidelity 6G** - (rcrwireless.com) Improving digital twin fidelity for 6G development (Reader Forum)",
+      "url": "https://rcrwireless.com/20261124/reader-forum/improving-digital-twin-fidelity-for-6g-development-reader-forum"
     },
     {
       "text": "**Best RAN growth five years** - (rcrwireless.com) Best RAN growth in five years, but 5G outlook remains flat (Telco Diary)",
@@ -26,8 +26,8 @@
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://totaltele.com/ericsson-5g-must-shift-focus-from-consumers-to-citizens-says-uk-chief/",
-    "https://rcrwireless.com/20261123/analyst-angle/helium-moves-up-market-selling-trust-in-connectivity-to-carriers-analyst-angle",
-    "https://rcrwireless.com/20261120/5g/private-5g-scale-alongside-wifi",
+    "https://rcrwireless.com/20261124/ai/eredcap-esim-legacy-iot-ai-ready",
+    "https://rcrwireless.com/20261124/reader-forum/improving-digital-twin-fidelity-for-6g-development-reader-forum",
     "https://rcrwireless.com/20261123/opinion/best-ran-growth-in-five-years-but-5g-outlook-remains-flat-telco-diary",
     "https://rcrwireless.com/20261123/6g/keysight-wireless-6g"
   ],

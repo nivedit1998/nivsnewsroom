@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-11-23T20:25:16.012Z",
+  "generatedAt": "2026-11-24T19:36:04.382Z",
   "bullets": [
-    {
-      "text": "**Banks Crypto PayPal Make Their** - (thefintechtimes.com) Banks, Crypto and PayPal Make Their Case at Singapore FinTech Festival",
-      "url": "https://thefintechtimes.com/banks-crypto-and-paypal-make-their-case-at-singapore-fintech-festival/"
-    },
     {
       "text": "**price connection one question SFF** - (thefintechtimes.com) The price of connection: the one question SFF’s payments panel would not answer",
       "url": "https://thefintechtimes.com/the-price-of-connection-the-one-question-sffs-payments-panel-would-not-answer/"
     },
     {
-      "text": "**LemFi Adds Credit Savings eSIMs** - (thefintechtimes.com) LemFi Adds Credit, Savings and eSIMs in Biggest Product Push",
-      "url": "https://thefintechtimes.com/lemfi-adds-credit-savings-and-esims-in-biggest-product-push/"
+      "text": "**Why banks most gain tokenisation** - (thefintechtimes.com) Why the banks with most to gain from tokenisation move last",
+      "url": "https://thefintechtimes.com/why-the-banks-with-most-to-gain-from-tokenisation-move-last/"
     },
     {
       "text": "**FCA explore quantum computing tackle** - (fca.org.uk) FCA to explore quantum computing to tackle financial crime",
       "url": "https://www.fca.org.uk/news/press-releases/fca-explore-quantum-computing-tackle-financial-crime"
     },
     {
-      "text": "**Trust Payments partners OKTO Payments** - (finextra.com) Trust Payments partners OKTO Payments in LatAm",
-      "url": "https://www.finextra.com/pressarticle/111757/trust-payments-partners-okto-payments-in-latam"
+      "text": "**UK National Wealth Fund Targets** - (thefintechtimes.com) UK National Wealth Fund Targets Defence Tech as Budget Capital Flows",
+      "url": "https://thefintechtimes.com/uk-national-wealth-fund-argets-defence-tech-as-budget-capital-flows/"
+    },
+    {
+      "text": "**FCA launches world-first platform giving** - (fca.org.uk) FCA launches world-first platform giving firms new insight into AI innovation",
+      "url": "https://www.fca.org.uk/news/press-releases/fca-launches-world-first-platform-giving-firms-new-insight-ai-innovation"
     }
   ],
-  "inputHash": "055975595ef904a420a20e05c8baebc4a58c2afd7635bfcaadbd639d2ad89989",
+  "inputHash": "0f5379702e7e23414c465b6aee5045a9819549ae8bac7387d34752a991d20e7d",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://thefintechtimes.com/banks-crypto-and-paypal-make-their-case-at-singapore-fintech-festival/",
     "https://thefintechtimes.com/the-price-of-connection-the-one-question-sffs-payments-panel-would-not-answer/",
-    "https://thefintechtimes.com/lemfi-adds-credit-savings-and-esims-in-biggest-product-push/",
+    "https://thefintechtimes.com/why-the-banks-with-most-to-gain-from-tokenisation-move-last/",
     "https://www.fca.org.uk/news/press-releases/fca-explore-quantum-computing-tackle-financial-crime",
-    "https://www.finextra.com/pressarticle/111757/trust-payments-partners-okto-payments-in-latam",
+    "https://thefintechtimes.com/uk-national-wealth-fund-argets-defence-tech-as-budget-capital-flows/",
     "https://www.fca.org.uk/news/press-releases/fca-launches-world-first-platform-giving-firms-new-insight-ai-innovation",
-    "https://www.finextra.com/pressarticle/111758/straitsx-and-ocbc-pilot-cross-border-stablecoin-payments-into-business-bank-accounts",
-    "https://www.finextra.com/newsarticle/48797/stablecoin-fx-platform-codex-raises-30m",
+    "https://www.finextra.com/newsarticle/48803/worldremit-founder-launches-fintech-targeting-migrants-in-the-us",
+    "https://www.finextra.com/pressarticle/111773/deel-launches-card-that-lets-contractors-spend-stablecoin-balance",
     "https://www.fca.org.uk/news/blogs/what-were-learning-firms-engaging-our-innovation-services",
-    "https://www.paymentsdive.com/news/bill-sells-for-6b-to-tpg-corpay/875331/"
+    "https://www.finextra.com/blogposting/33561/russian-payments-ecosystem-before-the-war-cbr-fps-urgent-and-non-urgent-payments-and-of-course",
+    "https://www.paymentsdive.com/news/intermex-sues-western-union/875625/"
   ],
   "note": "fallback (summary generation error)"
 }
