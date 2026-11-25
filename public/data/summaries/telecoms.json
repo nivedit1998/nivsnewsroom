@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-11-24T19:35:55.676Z",
+  "generatedAt": "2026-11-25T18:44:03.657Z",
   "bullets": [
     {
       "text": "**Ericsson 5G must shift focus** - (totaltele.com) Ericsson: 5G must shift focus from consumers to citizens, says UK chief",
       "url": "https://totaltele.com/ericsson-5g-must-shift-focus-from-consumers-to-citizens-says-uk-chief/"
     },
     {
+      "text": "**Scaling AI infrastructure multi-core hollow-core** - (rcrwireless.com) Scaling AI infrastructure with multi-core and hollow-core fiber (Reader Forum)",
+      "url": "https://rcrwireless.com/20261125/network-infrastructure/scaling-ai-infrastructure-with-multi-core-and-hollow-core-fiber-reader-forum"
+    },
+    {
       "text": "**eRedCap eSIM move legacy IoT** - (rcrwireless.com) eRedCap and eSIM move legacy IoT toward AI-ready operations",
       "url": "https://rcrwireless.com/20261124/ai/eredcap-esim-legacy-iot-ai-ready"
     },
     {
-      "text": "**Improving digital twin fidelity 6G** - (rcrwireless.com) Improving digital twin fidelity for 6G development (Reader Forum)",
-      "url": "https://rcrwireless.com/20261124/reader-forum/improving-digital-twin-fidelity-for-6g-development-reader-forum"
+      "text": "**New research shows 6GHz Wi-Fi** - (rcrwireless.com) New research shows 6GHz Wi-Fi is growing fast (Analyst Angle)",
+      "url": "https://rcrwireless.com/20261125/analyst-angle/new-research-shows-6ghz-wi-fi-is-growing-fast-analyst-angle"
     },
     {
-      "text": "**Best RAN growth five years** - (rcrwireless.com) Best RAN growth in five years, but 5G outlook remains flat (Telco Diary)",
-      "url": "https://rcrwireless.com/20261123/opinion/best-ran-growth-in-five-years-but-5g-outlook-remains-flat-telco-diary"
-    },
-    {
-      "text": "**Keysight wireless orders grow 6G** - (rcrwireless.com) Keysight wireless orders grow on 6G, satellite and AI infra demand",
-      "url": "https://rcrwireless.com/20261123/6g/keysight-wireless-6g"
+      "text": "**Ericsson demos counter-drone air-defense systems** - (totaltele.com) Ericsson demos counter-drone and air-defense systems over 5G",
+      "url": "https://totaltele.com/ericsson-demos-counter-drone-and-air-defense-systems-over-5g/"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
     "https://totaltele.com/ericsson-5g-must-shift-focus-from-consumers-to-citizens-says-uk-chief/",
+    "https://rcrwireless.com/20261125/network-infrastructure/scaling-ai-infrastructure-with-multi-core-and-hollow-core-fiber-reader-forum",
     "https://rcrwireless.com/20261124/ai/eredcap-esim-legacy-iot-ai-ready",
-    "https://rcrwireless.com/20261124/reader-forum/improving-digital-twin-fidelity-for-6g-development-reader-forum",
-    "https://rcrwireless.com/20261123/opinion/best-ran-growth-in-five-years-but-5g-outlook-remains-flat-telco-diary",
-    "https://rcrwireless.com/20261123/6g/keysight-wireless-6g"
+    "https://rcrwireless.com/20261125/analyst-angle/new-research-shows-6ghz-wi-fi-is-growing-fast-analyst-angle",
+    "https://totaltele.com/ericsson-demos-counter-drone-and-air-defense-systems-over-5g/"
   ],
   "note": "fallback (summary generation error)"
 }

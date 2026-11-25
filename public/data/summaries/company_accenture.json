@@ -1,15 +1,35 @@
 {
-  "generatedAt": "2026-11-23T20:25:18.557Z",
+  "generatedAt": "2026-11-25T18:44:15.721Z",
   "bullets": [
     {
-      "text": "**Accenture Life Trends 2027 Finds** - (newsroom.accenture.com) Accenture Life Trends 2027 Finds People Want Progress in an AI Era, but on Their Own Terms",
-      "url": "https://newsroom.accenture.com/news/2026/accenture-life-trends-2027-finds-people-want-progress-in-an-ai-era-but-on-their-own-terms"
+      "text": "**Accenture Completes Acquisition Cygni Expand** - (newsroom.accenture.com) Accenture Completes Acquisition of Cygni to Expand its Cloud First and Software Engineering Capabilities",
+      "url": "https://newsroom.accenture.com/news/2021/accenture-completes-acquisition-of-cygni-to-expand-its-cloud-first-and-software-engineering-capabilities"
+    },
+    {
+      "text": "**Digital Fragmentation Poses Threat Businesses** - (newsroom.accenture.com) ‘Digital Fragmentation’ Poses Threat to Businesses’ Global Growth and Innovation According to Accenture Report",
+      "url": "https://newsroom.accenture.com/news/2017/digital-fragmentation-poses-threat-to-businesses-global-growth-and-innovation-according-to-accenture-report"
+    },
+    {
+      "text": "**RegTechs Join Accenture s FinTech** - (newsroom.accenture.com) RegTechs Join Accenture’s FinTech Innovation Lab London to Develop Solutions for Wave of Regulatory Challenges in 2018",
+      "url": "https://newsroom.accenture.com/news/2018/regtechs-join-accentures-fintech-innovation-lab-london-to-develop-solutions-for-wave-of-regulatory-challenges-in-2018"
+    },
+    {
+      "text": "**Accenture Global Ventures Establish Strategic** - (newsroom.accenture.com) Accenture and Global Ventures Establish Strategic Partnership to Further Drive Middle East Innovation",
+      "url": "https://newsroom.accenture.com/news/2021/accenture-and-global-ventures-establish-strategic-partnership-to-further-drive-middle-east-innovation"
+    },
+    {
+      "text": "**Accenture Collaborates Oracle Transform Nickel** - (newsroom.accenture.com) Accenture Collaborates with Oracle to Transform Nickel Bank's Finance Functions",
+      "url": "https://newsroom.accenture.com/news/2020/accenture-collaborates-with-oracle-to-transform-nickel-banks-finance-functions"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://newsroom.accenture.com/news/2026/accenture-life-trends-2027-finds-people-want-progress-in-an-ai-era-but-on-their-own-terms"
+    "https://newsroom.accenture.com/news/2021/accenture-completes-acquisition-of-cygni-to-expand-its-cloud-first-and-software-engineering-capabilities",
+    "https://newsroom.accenture.com/news/2017/digital-fragmentation-poses-threat-to-businesses-global-growth-and-innovation-according-to-accenture-report",
+    "https://newsroom.accenture.com/news/2018/regtechs-join-accentures-fintech-innovation-lab-london-to-develop-solutions-for-wave-of-regulatory-challenges-in-2018",
+    "https://newsroom.accenture.com/news/2021/accenture-and-global-ventures-establish-strategic-partnership-to-further-drive-middle-east-innovation",
+    "https://newsroom.accenture.com/news/2020/accenture-collaborates-with-oracle-to-transform-nickel-banks-finance-functions"
   ],
   "note": "fallback (summary generation error)"
 }

@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-11-24T19:36:04.382Z",
+  "generatedAt": "2026-11-25T18:44:12.332Z",
   "bullets": [
-    {
-      "text": "**price connection one question SFF** - (thefintechtimes.com) The price of connection: the one question SFF’s payments panel would not answer",
-      "url": "https://thefintechtimes.com/the-price-of-connection-the-one-question-sffs-payments-panel-would-not-answer/"
-    },
-    {
-      "text": "**Why banks most gain tokenisation** - (thefintechtimes.com) Why the banks with most to gain from tokenisation move last",
-      "url": "https://thefintechtimes.com/why-the-banks-with-most-to-gain-from-tokenisation-move-last/"
-    },
     {
       "text": "**FCA explore quantum computing tackle** - (fca.org.uk) FCA to explore quantum computing to tackle financial crime",
       "url": "https://www.fca.org.uk/news/press-releases/fca-explore-quantum-computing-tackle-financial-crime"
     },
     {
-      "text": "**UK National Wealth Fund Targets** - (thefintechtimes.com) UK National Wealth Fund Targets Defence Tech as Budget Capital Flows",
-      "url": "https://thefintechtimes.com/uk-national-wealth-fund-argets-defence-tech-as-budget-capital-flows/"
-    },
-    {
       "text": "**FCA launches world-first platform giving** - (fca.org.uk) FCA launches world-first platform giving firms new insight into AI innovation",
       "url": "https://www.fca.org.uk/news/press-releases/fca-launches-world-first-platform-giving-firms-new-insight-ai-innovation"
+    },
+    {
+      "text": "**world believes UK FinTech we** - (thefintechtimes.com) The world believes in UK FinTech – we must ensure we do the same",
+      "url": "https://thefintechtimes.com/the-world-believes-in-uk-fintech-we-must-ensure-we-do-the-same/"
+    },
+    {
+      "text": "**CBI BANCOMAT Nexi Partner Italian** - (thefintechtimes.com) CBI, BANCOMAT, and Nexi Partner on Italian Digital Euro Infrastructure",
+      "url": "https://thefintechtimes.com/cbi-bancomat-and-nexi-partner-on-italian-digital-euro-infrastructure/"
+    },
+    {
+      "text": "**AfricaNenda Foundation launches State Inclusive** - (finextra.com) AfricaNenda Foundation launches State of Inclusive Payments in Africa 2026",
+      "url": "https://www.finextra.com/newsarticle/48810/africanenda-foundation-launches-state-of-inclusive-payments-in-africa-2026"
     }
   ],
-  "inputHash": "0f5379702e7e23414c465b6aee5045a9819549ae8bac7387d34752a991d20e7d",
+  "inputHash": "c8c76505acaa1221ff0620ce42c53b9c8d714ed940eae016a178709401123321",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://thefintechtimes.com/the-price-of-connection-the-one-question-sffs-payments-panel-would-not-answer/",
-    "https://thefintechtimes.com/why-the-banks-with-most-to-gain-from-tokenisation-move-last/",
     "https://www.fca.org.uk/news/press-releases/fca-explore-quantum-computing-tackle-financial-crime",
-    "https://thefintechtimes.com/uk-national-wealth-fund-argets-defence-tech-as-budget-capital-flows/",
     "https://www.fca.org.uk/news/press-releases/fca-launches-world-first-platform-giving-firms-new-insight-ai-innovation",
-    "https://www.finextra.com/newsarticle/48803/worldremit-founder-launches-fintech-targeting-migrants-in-the-us",
-    "https://www.finextra.com/pressarticle/111773/deel-launches-card-that-lets-contractors-spend-stablecoin-balance",
+    "https://thefintechtimes.com/the-world-believes-in-uk-fintech-we-must-ensure-we-do-the-same/",
+    "https://thefintechtimes.com/cbi-bancomat-and-nexi-partner-on-italian-digital-euro-infrastructure/",
+    "https://www.finextra.com/newsarticle/48810/africanenda-foundation-launches-state-of-inclusive-payments-in-africa-2026",
+    "https://thefintechtimes.com/multibank-groups-vision-for-ai-powered-finance/",
+    "https://www.paymentsdive.com/news/california-fines-afterpay-27m/875775/",
+    "https://www.finextra.com/pressarticle/111781/ant-international-and-bny-ink-mou-to-explore-247-fx-and-payments-innovation",
     "https://www.fca.org.uk/news/blogs/what-were-learning-firms-engaging-our-innovation-services",
-    "https://www.finextra.com/blogposting/33561/russian-payments-ecosystem-before-the-war-cbr-fps-urgent-and-non-urgent-payments-and-of-course",
-    "https://www.paymentsdive.com/news/intermex-sues-western-union/875625/"
+    "https://www.paymentsdive.com/news/cap-one-pursues-payments-modernization/875673/"
   ],
   "note": "fallback (summary generation error)"
 }
