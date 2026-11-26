@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T18:44:23.259Z",
+  "generatedAt": "2026-11-26T18:32:06.433Z",
   "bullets": [
     {
       "text": "**What Cloud ERP Implementation Actually** - (sage.com) What a Cloud ERP Implementation Actually Looks Like for Mid-Market Businesses",
@@ -10,16 +10,16 @@
       "url": "https://www.sage.com/en-gb/blog/saas-finance-metrics-every-finance-director-needs-to-understand/"
     },
     {
+      "text": "**BICS deadline How small manufacturers** - (sage.com) BICS deadline: How small manufacturers can still claim cheaper electricity",
+      "url": "https://www.sage.com/en-gb/blog/bics-cheaper-energy-deadline-2026/"
+    },
+    {
       "text": "**AI Finance What UK Finance** - (sage.com) AI in Finance: What UK Finance Leaders Need to Know",
       "url": "https://www.sage.com/en-gb/blog/ai-in-finance-what-uk-finance-leaders-need-to-know/"
     },
     {
       "text": "**Finance Management Professional Services Challenges** - (sage.com) Finance Management for Professional Services: The Challenges Growth Creates",
       "url": "https://www.sage.com/en-gb/blog/finance-management-for-professional-services-the-challenges-growth-creates/"
-    },
-    {
-      "text": "**How Build Finance Function Scales** - (sage.com) How to Build a Finance Function That Scales",
-      "url": "https://www.sage.com/en-gb/blog/how-to-build-a-finance-function-that-scales/"
     }
   ],
   "promptVersion": "insights-v2",
@@ -27,9 +27,9 @@
   "contextUrls": [
     "https://www.sage.com/en-gb/blog/what-a-cloud-erp-implementation-actually-looks-like-for-mid-market-businesses/",
     "https://www.sage.com/en-gb/blog/saas-finance-metrics-every-finance-director-needs-to-understand/",
+    "https://www.sage.com/en-gb/blog/bics-cheaper-energy-deadline-2026/",
     "https://www.sage.com/en-gb/blog/ai-in-finance-what-uk-finance-leaders-need-to-know/",
-    "https://www.sage.com/en-gb/blog/finance-management-for-professional-services-the-challenges-growth-creates/",
-    "https://www.sage.com/en-gb/blog/how-to-build-a-finance-function-that-scales/"
+    "https://www.sage.com/en-gb/blog/finance-management-for-professional-services-the-challenges-growth-creates/"
   ],
   "note": "fallback (summary generation error)"
 }

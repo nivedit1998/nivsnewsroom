@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-11-25T18:44:12.332Z",
+  "generatedAt": "2026-11-26T18:31:38.436Z",
   "bullets": [
     {
-      "text": "**FCA explore quantum computing tackle** - (fca.org.uk) FCA to explore quantum computing to tackle financial crime",
-      "url": "https://www.fca.org.uk/news/press-releases/fca-explore-quantum-computing-tackle-financial-crime"
+      "text": "**Mashreq Puts NEO BIZ its** - (thefintechtimes.com) Mashreq Puts NEO BIZ and its Fintech Partnerships on Show at Expand North Star 2026",
+      "url": "https://thefintechtimes.com/mashreq-puts-neo-biz-and-its-fintech-partnerships-on-show-at-expand-north-star-2026/"
+    },
+    {
+      "text": "**SFF 2026 Monzo s Secret** - (thefintechtimes.com) SFF 2026: Monzo’s Secret for Growth, and the Tokenisation of Global Trade",
+      "url": "https://thefintechtimes.com/sff-2026-monzos-secret-for-growth-and-the-tokenisation-of-global-trade/"
+    },
+    {
+      "text": "**Turr n Plazo expands card-based** - (finextra.com) Turrón by Plazo expands card-based BNPL offering in Spain",
+      "url": "https://www.finextra.com/pressarticle/111798/turrn-by-plazo-expands-card-based-bnpl-offering-in-spain"
     },
     {
       "text": "**FCA launches world-first platform giving** - (fca.org.uk) FCA launches world-first platform giving firms new insight into AI innovation",
       "url": "https://www.fca.org.uk/news/press-releases/fca-launches-world-first-platform-giving-firms-new-insight-ai-innovation"
     },
     {
-      "text": "**world believes UK FinTech we** - (thefintechtimes.com) The world believes in UK FinTech – we must ensure we do the same",
-      "url": "https://thefintechtimes.com/the-world-believes-in-uk-fintech-we-must-ensure-we-do-the-same/"
-    },
-    {
-      "text": "**CBI BANCOMAT Nexi Partner Italian** - (thefintechtimes.com) CBI, BANCOMAT, and Nexi Partner on Italian Digital Euro Infrastructure",
-      "url": "https://thefintechtimes.com/cbi-bancomat-and-nexi-partner-on-italian-digital-euro-infrastructure/"
-    },
-    {
-      "text": "**AfricaNenda Foundation launches State Inclusive** - (finextra.com) AfricaNenda Foundation launches State of Inclusive Payments in Africa 2026",
-      "url": "https://www.finextra.com/newsarticle/48810/africanenda-foundation-launches-state-of-inclusive-payments-in-africa-2026"
+      "text": "**Authorities complete 2026 review payments** - (fca.org.uk) Authorities complete 2026 review of payments Memorandum of Understanding",
+      "url": "https://www.fca.org.uk/news/statements/payments-authorities-mou-review-2026"
     }
   ],
-  "inputHash": "c8c76505acaa1221ff0620ce42c53b9c8d714ed940eae016a178709401123321",
+  "inputHash": "0628345710386c7c0c33b02de3f1f540c1286c0ac7210b56784e02d80295d352",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://www.fca.org.uk/news/press-releases/fca-explore-quantum-computing-tackle-financial-crime",
+    "https://thefintechtimes.com/mashreq-puts-neo-biz-and-its-fintech-partnerships-on-show-at-expand-north-star-2026/",
+    "https://thefintechtimes.com/sff-2026-monzos-secret-for-growth-and-the-tokenisation-of-global-trade/",
+    "https://www.finextra.com/pressarticle/111798/turrn-by-plazo-expands-card-based-bnpl-offering-in-spain",
     "https://www.fca.org.uk/news/press-releases/fca-launches-world-first-platform-giving-firms-new-insight-ai-innovation",
-    "https://thefintechtimes.com/the-world-believes-in-uk-fintech-we-must-ensure-we-do-the-same/",
-    "https://thefintechtimes.com/cbi-bancomat-and-nexi-partner-on-italian-digital-euro-infrastructure/",
-    "https://www.finextra.com/newsarticle/48810/africanenda-foundation-launches-state-of-inclusive-payments-in-africa-2026",
+    "https://www.fca.org.uk/news/statements/payments-authorities-mou-review-2026",
+    "https://www.finextra.com/blogposting/33579/why-customers-never-notice-great-payments-until-they-fail",
+    "https://www.finextra.com/pressarticle/111795/nbx-partners-visa-for-stablecoin-linked-card",
     "https://thefintechtimes.com/multibank-groups-vision-for-ai-powered-finance/",
     "https://www.paymentsdive.com/news/california-fines-afterpay-27m/875775/",
-    "https://www.finextra.com/pressarticle/111781/ant-international-and-bny-ink-mou-to-explore-247-fx-and-payments-innovation",
-    "https://www.fca.org.uk/news/blogs/what-were-learning-firms-engaging-our-innovation-services",
-    "https://www.paymentsdive.com/news/cap-one-pursues-payments-modernization/875673/"
+    "https://www.fca.org.uk/news/speeches/courage-change"
   ],
   "note": "fallback (summary generation error)"
 }

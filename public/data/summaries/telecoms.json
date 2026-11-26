@@ -1,10 +1,6 @@
 {
-  "generatedAt": "2026-11-25T18:44:03.657Z",
+  "generatedAt": "2026-11-26T18:31:28.522Z",
   "bullets": [
-    {
-      "text": "**Ericsson 5G must shift focus** - (totaltele.com) Ericsson: 5G must shift focus from consumers to citizens, says UK chief",
-      "url": "https://totaltele.com/ericsson-5g-must-shift-focus-from-consumers-to-citizens-says-uk-chief/"
-    },
     {
       "text": "**Scaling AI infrastructure multi-core hollow-core** - (rcrwireless.com) Scaling AI infrastructure with multi-core and hollow-core fiber (Reader Forum)",
       "url": "https://rcrwireless.com/20261125/network-infrastructure/scaling-ai-infrastructure-with-multi-core-and-hollow-core-fiber-reader-forum"
@@ -18,18 +14,22 @@
       "url": "https://rcrwireless.com/20261125/analyst-angle/new-research-shows-6ghz-wi-fi-is-growing-fast-analyst-angle"
     },
     {
-      "text": "**Ericsson demos counter-drone air-defense systems** - (totaltele.com) Ericsson demos counter-drone and air-defense systems over 5G",
-      "url": "https://totaltele.com/ericsson-demos-counter-drone-and-air-defense-systems-over-5g/"
+      "text": "**ISAC 5G version 6G trick** - (rcrwireless.com) ISAC, and the (5G version of the) 6G trick to make networks see",
+      "url": "https://rcrwireless.com/20261126/6g/isac-and-the-5g-version-of-the-6g-trick-to-make-networks-see"
+    },
+    {
+      "text": "**Semtech expands wireless portfolio LoRa** - (rcrwireless.com) Semtech expands wireless portfolio as LoRa revenue rises 69%",
+      "url": "https://rcrwireless.com/20261125/internet-of-things-4/semtech-wireless-lora"
     }
   ],
   "promptVersion": "insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://totaltele.com/ericsson-5g-must-shift-focus-from-consumers-to-citizens-says-uk-chief/",
     "https://rcrwireless.com/20261125/network-infrastructure/scaling-ai-infrastructure-with-multi-core-and-hollow-core-fiber-reader-forum",
     "https://rcrwireless.com/20261124/ai/eredcap-esim-legacy-iot-ai-ready",
     "https://rcrwireless.com/20261125/analyst-angle/new-research-shows-6ghz-wi-fi-is-growing-fast-analyst-angle",
-    "https://totaltele.com/ericsson-demos-counter-drone-and-air-defense-systems-over-5g/"
+    "https://rcrwireless.com/20261126/6g/isac-and-the-5g-version-of-the-6g-trick-to-make-networks-see",
+    "https://rcrwireless.com/20261125/internet-of-things-4/semtech-wireless-lora"
   ],
   "note": "fallback (summary generation error)"
 }

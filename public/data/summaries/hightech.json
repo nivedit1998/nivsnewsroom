@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-25T18:43:51.763Z",
+  "generatedAt": "2026-11-26T18:31:21.273Z",
   "bullets": [
     {
-      "text": "**State AGs fight Character AI** - (techcrunch.com) State AGs fight Character AI’s plan to auction off users’ private chats",
+      "text": "**Character AI s plan auction** - (techcrunch.com) Character.AI’s plan to auction off users’ private chats challenged by state AGs",
       "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/"
     },
     {
@@ -10,16 +10,16 @@
       "url": "https://9to5mac.com/2026/11/24/muse-safety-debate-continues-as-the-ai-agent-rolls-out-in-the-uk/"
     },
     {
+      "text": "**FCC Approved Million SpaceX Satellites** - (cnet.com) The FCC Approved a Million SpaceX Satellites for Data Centers in Space",
+      "url": "https://www.cnet.com/science/space/the-fcc-approved-a-million-spacex-satellites-for-data-centers-in-space/"
+    },
+    {
       "text": "**Want buy your kid AI** - (techcrunch.com) Want to buy your kid an AI toy this Christmas? Not in New York",
       "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/"
     },
     {
-      "text": "**Chromecast Google TV gets first** - (9to5google.com) Chromecast with Google TV gets first update of 2026 [U: Wide rollout]",
-      "url": "https://9to5google.com/2026/11/23/chromecast-google-tv-2026-update/"
-    },
-    {
-      "text": "**ChatGPT expands GPT-6 2 Sol** - (9to5mac.com) ChatGPT expands GPT-6.2 Sol as OpenAI sets retirement date for two models",
-      "url": "https://9to5mac.com/2026/11/23/chatgpt-expands-gpt-6-2-sol-as-openai-sets-retirement-date-for-two-models/"
+      "text": "**Character AI mess underlines importance** - (9to5mac.com) The Character․AI mess underlines the importance of Apple’s approach to AI privacy",
+      "url": "https://9to5mac.com/2026/11/26/the-character%e2%80%a4ai-mess-underlines-the-importance-of-apples-approach-to-ai-privacy/"
     }
   ],
   "promptVersion": "insights-v2",
@@ -27,9 +27,9 @@
   "contextUrls": [
     "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
     "https://9to5mac.com/2026/11/24/muse-safety-debate-continues-as-the-ai-agent-rolls-out-in-the-uk/",
+    "https://www.cnet.com/science/space/the-fcc-approved-a-million-spacex-satellites-for-data-centers-in-space/",
     "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
-    "https://9to5google.com/2026/11/23/chromecast-google-tv-2026-update/",
-    "https://9to5mac.com/2026/11/23/chatgpt-expands-gpt-6-2-sol-as-openai-sets-retirement-date-for-two-models/"
+    "https://9to5mac.com/2026/11/26/the-character%e2%80%a4ai-mess-underlines-the-importance-of-apples-approach-to-ai-privacy/"
   ],
   "note": "fallback (summary generation error)"
 }
