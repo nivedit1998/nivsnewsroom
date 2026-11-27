@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-11-26T18:31:38.436Z",
+  "generatedAt": "2026-11-27T18:19:45.478Z",
   "bullets": [
     {
-      "text": "**Mashreq Puts NEO BIZ its** - (thefintechtimes.com) Mashreq Puts NEO BIZ and its Fintech Partnerships on Show at Expand North Star 2026",
-      "url": "https://thefintechtimes.com/mashreq-puts-neo-biz-and-its-fintech-partnerships-on-show-at-expand-north-star-2026/"
+      "text": "**IRIS Handles 70 Greek Instant** - (thefintechtimes.com) IRIS Handles 70% of Greek Instant Payments as EuroPA Links Expand",
+      "url": "https://thefintechtimes.com/iris-handles-70-of-greek-instant-payments-as-europa-links-expand/"
     },
     {
-      "text": "**SFF 2026 Monzo s Secret** - (thefintechtimes.com) SFF 2026: Monzo’s Secret for Growth, and the Tokenisation of Global Trade",
-      "url": "https://thefintechtimes.com/sff-2026-monzos-secret-for-growth-and-the-tokenisation-of-global-trade/"
+      "text": "**Allica Bank Passes 100m Interest** - (thefintechtimes.com) Allica Bank Passes £100m Interest Milestone for SME Accounts",
+      "url": "https://thefintechtimes.com/allica-bank-passes-100m-interest-milestone-for-sme-accounts/"
     },
     {
-      "text": "**Turr n Plazo expands card-based** - (finextra.com) Turrón by Plazo expands card-based BNPL offering in Spain",
-      "url": "https://www.finextra.com/pressarticle/111798/turrn-by-plazo-expands-card-based-bnpl-offering-in-spain"
+      "text": "**Payment Device Security Can t** - (thefintechtimes.com) Payment Device Security Can’t be Someone Else’s Problem",
+      "url": "https://thefintechtimes.com/payment-device-security-cant-be-someone-elses-problem/"
     },
     {
       "text": "**FCA launches world-first platform giving** - (fca.org.uk) FCA launches world-first platform giving firms new insight into AI innovation",
@@ -22,20 +22,20 @@
       "url": "https://www.fca.org.uk/news/statements/payments-authorities-mou-review-2026"
     }
   ],
-  "inputHash": "0628345710386c7c0c33b02de3f1f540c1286c0ac7210b56784e02d80295d352",
+  "inputHash": "e77d20323ccf6c625c61f27398553fa372591dc75b3db8e23c94274d7021ee9d",
   "promptVersion": "fintech-insights-v2",
   "scoringVersion": "insights-v2",
   "contextUrls": [
-    "https://thefintechtimes.com/mashreq-puts-neo-biz-and-its-fintech-partnerships-on-show-at-expand-north-star-2026/",
-    "https://thefintechtimes.com/sff-2026-monzos-secret-for-growth-and-the-tokenisation-of-global-trade/",
-    "https://www.finextra.com/pressarticle/111798/turrn-by-plazo-expands-card-based-bnpl-offering-in-spain",
+    "https://thefintechtimes.com/iris-handles-70-of-greek-instant-payments-as-europa-links-expand/",
+    "https://thefintechtimes.com/allica-bank-passes-100m-interest-milestone-for-sme-accounts/",
+    "https://thefintechtimes.com/payment-device-security-cant-be-someone-elses-problem/",
     "https://www.fca.org.uk/news/press-releases/fca-launches-world-first-platform-giving-firms-new-insight-ai-innovation",
     "https://www.fca.org.uk/news/statements/payments-authorities-mou-review-2026",
-    "https://www.finextra.com/blogposting/33579/why-customers-never-notice-great-payments-until-they-fail",
-    "https://www.finextra.com/pressarticle/111795/nbx-partners-visa-for-stablecoin-linked-card",
-    "https://thefintechtimes.com/multibank-groups-vision-for-ai-powered-finance/",
+    "https://www.fca.org.uk/news/speeches/courage-change",
     "https://www.paymentsdive.com/news/california-fines-afterpay-27m/875775/",
-    "https://www.fca.org.uk/news/speeches/courage-change"
+    "https://www.paymentsdive.com/news/cap-one-pursues-payments-modernization/875673/",
+    "https://www.finextra.com/newsarticle/48828/lloyds-app-goes-down",
+    "https://www.finextra.com/pressarticle/111800/paysafe-partners-with-the5ers-to-expand-presence-in-prop-trading-space"
   ],
   "note": "fallback (summary generation error)"
 }
